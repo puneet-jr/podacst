@@ -1,0 +1,30 @@
+{
+  "kind": "pre_ingestion_anchor_correction",
+  "reason": "Boundary unit test caught header whitespace crossing a line; anchor offsets corrected before embeddings or retrieval/generation tuning. Question text and source choices unchanged.",
+  "old_anchor_hashes": {
+    "SC-01-A": [
+      "f08af849bb8b8a7d65536410215cfc00d4e7939db56425acdcdd82ccaa21ffa3",
+      "57c44921b579ca3e0825b65f3ef2dc3f3d1ea8025d3a27a5f4655a2697a8bca4",
+      "3d3f4611b6ac979c49e84ca20a30ba4dd2a746add6f7d9ab3e1508b1ab89bdee",
+      "ddabf515cfb9c436717722f324d01ed5c7347d7035e5f423b5dd550e00a9f150"
+    ],
+    "SC-01-B": [
+      "6182bfb731337b8e0062199b2658744c69deddee6a39e24f64113b3a25f6fa61",
+      "7c0ef30944cd09a0b78f3b3c1e18f62ed64aa065a634428083d3eb1d41146d4c",
+      "f9b7cf982b2b05b0abb186e60ed4b472f98792a576886896cfdd5700d2a5ce40",
+      "68a112cb0fa897f0cd2d5fceee9c79fa76315f23e197f130efcb53f84641b0b6"
+    ],
+    "SC-01-C": [
+      "3d3f4611b6ac979c49e84ca20a30ba4dd2a746add6f7d9ab3e1508b1ab89bdee",
+      "ddabf515cfb9c436717722f324d01ed5c7347d7035e5f423b5dd550e00a9f150",
+      "25a0254a7ba5608e776e4a8c1837905bc4f27ab913d5f5277226b12cda51f7d4"
+    ],
+    "SC-01-D": [
+      "32a6c3c2633553848c97ee5eed70bdc7a52158180adcb0cfa27702a5d4b286a0"
+    ],
+    "SC-01-E": [
+      "f08af849bb8b8a7d65536410215cfc00d4e7939db56425acdcdd82ccaa21ffa3",
+      "25a0254a7ba5608e776e4a8c1837905bc4f27ab913d5f5277226b12cda51f7d4"
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "reviewed_at": "2026-11-06T05:47:28.136815+00:00",
+  "notes": "Only actual Phase 3 outputs sanitized; no earlier-phase evidence modified. No dialogue reconstructed. Command capture may truncate and records its truncation flag.",
+  "files": [
+    {
+      "path": "docs/agent-transcripts/phase-03/commands.jsonl",
+      "original_sha256": "0df04cde02407ff11b66268ede66ba148cd31c8e27f3e10542be92041b042c85",
+      "sanitized_sha256": "470cfd569819c9491c81aee3bf4518c410df602f807413d3cee064efd93a2a1c",
+      "redactions": [
+        "Personal home path replaced with $USER_HOME where present",
+        "Substantial raw source excerpts omitted from two inspection outputs where present; commands/counts/errors/times retained"
+      ],
+      "private_original": "ignored .cache/phase3-private; not part of submission"
+    },
+    {
+      "path": "docs/agent-transcripts/phase-03/smoke-20261106T053650/results.jsonl",
+      "original_sha256": "37ea4e91f68582a99951341478c4ab6e600fc137e03380d2b0eeff6a20745351",
+      "sanitized_sha256": "9f79a1eeda474d7aaffb9027dfd7364f67e34c93a9ffa6da0771e4386a9abe07",
+      "redactions": [
+        "Personal home path replaced with $USER_HOME where present",
+        "Substantial raw source excerpts omitted from two inspection outputs where present; commands/counts/errors/times retained"
+      ],
+      "private_original": "ignored .cache/phase3-private; not part of submission"
+    },
+    {
+      "path": "docs/agent-transcripts/phase-03/smoke-20261106T053920/results.jsonl",
+      "original_sha256": "1ea9425f674b31872de35afab721fdc4c6fb51507a6c0d24550d49de9ce98965",
+      "sanitized_sha256": "2d4a35c2a4cc6416fa7871c76634ce6612715f18af1db91cb9f9e44977cd63f1",
+      "redactions": [
+        "Personal home path replaced with $USER_HOME where present",
+        "Substantial raw source excerpts omitted from two inspection outputs where present; commands/counts/errors/times retained"
+      ],
+      "private_original": "ignored .cache/phase3-private; not part of submission"
+    }
+  ]
+}

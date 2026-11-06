@@ -1,0 +1,2279 @@
+{
+  "corpus_revision": "be8ab89a890a833cbba2c892178f823fff178c65",
+  "source_count": 303,
+  "parsed": 303,
+  "candidate_chunks": 12770,
+  "embedded_by_this_audit": 0,
+  "estimated_token_range": [
+    58,
+    700
+  ],
+  "median_estimated_tokens": 563.0,
+  "warning_counts": {
+    "missing_timestamps": 1,
+    "guest_title_mismatch_review_required": 37,
+    "non_monotonic_timestamp": 31,
+    "missing_title": 1
+  },
+  "errors": [],
+  "files": [
+    {
+      "path": "episodes/ada-chen-rekhi/transcript.md",
+      "source_hash": "1240fdbe55f70fd2047feb2eed58a9c4f700fde689bd4c9d2385a07123c62185",
+      "turns": 202,
+      "chunks": 43,
+      "warnings": []
+    },
+    {
+      "path": "episodes/adam-fishman/transcript.md",
+      "source_hash": "56e7d7e7b85d35974b033b6a20432e00a5aef198db40bee72268ef9238d75c74",
+      "turns": 173,
+      "chunks": 35,
+      "warnings": []
+    },
+    {
+      "path": "episodes/adam-grenier/transcript.md",
+      "source_hash": "2989e256c95030ad6b7634b16317e65564da1a2fd0154bc911f00129a8f18213",
+      "turns": 182,
+      "chunks": 36,
+      "warnings": []
+    },
+    {
+      "path": "episodes/adriel-frederick/transcript.md",
+      "source_hash": "5c3ac49b394e153c5e571f9d4fb1f5dadb15c4670049fd435a88a78accc94771",
+      "turns": 155,
+      "chunks": 37,
+      "warnings": [
+        "missing_timestamps"
+      ]
+    },
+    {
+      "path": "episodes/aishwarya-naresh-reganti-kiriti-badam/transcript.md",
+      "source_hash": "5924860c3badda263082c8f30c49ab525a56fc55b523b9f4eb8430d55cdea6ec",
+      "turns": 185,
+      "chunks": 46,
+      "warnings": [
+        "guest_title_mismatch_review_required"
+      ]
+    },
+    {
+      "path": "episodes/albert-cheng/transcript.md",
+      "source_hash": "b1c5e8157a87571e83b05a9f914907f1c88d0d33e59fc20fc2df87a1e1503696",
+      "turns": 340,
+      "chunks": 48,
+      "warnings": []
+    },
+    {
+      "path": "episodes/alex-hardimen/transcript.md",
+      "source_hash": "197d446b4de7a7841eab70fe2a67db8530ca0ab5a38ca9951c58fc1ced58828c",
+      "turns": 216,
+      "chunks": 39,
+      "warnings": [
+        "guest_title_mismatch_review_required"
+      ]
+    },
+    {
+      "path": "episodes/alex-komoroske/transcript.md",
+      "source_hash": "5e7e2e7b310687d32771a94da4df62dee6836bc9e97808be8db8220404169ae6",
+      "turns": 199,
+      "chunks": 52,
+      "warnings": []
+    },
+    {
+      "path": "episodes/alexander-embiricos/transcript.md",
+      "source_hash": "d34649d051279c32394c6f3ef9258d60fcae898083b0e3237f1c9306ca802efc",
+      "turns": 227,
+      "chunks": 48,
+      "warnings": [
+        "guest_title_mismatch_review_required"
+      ]
+    },
+    {
+      "path": "episodes/alisa-cohn/transcript.md",
+      "source_hash": "1d99f0531f60af2fc47f0f9463cdbdd213c6a0dcde7cef6ecd655d217c24a46c",
+      "turns": 249,
+      "chunks": 48,
+      "warnings": []
+    },
+    {
+      "path": "episodes/ami-vora/transcript.md",
+      "source_hash": "d7fe5de721d5dcadf2532dcff960eebf5d68bf56c8f7b85946a1e449451ea82d",
+      "turns": 242,
+      "chunks": 45,
+      "warnings": [
+        "non_monotonic_timestamp"
+      ]
+    },
+    {
+      "path": "episodes/amjad-masad/transcript.md",
+      "source_hash": "4a158850ae4513c30a6413dada571a2b033544623a3cc008f88b3df9c2fafd0c",
+      "turns": 151,
+      "chunks": 29,
+      "warnings": [
+        "non_monotonic_timestamp"
+      ]
+    },
+    {
+      "path": "episodes/andrew-wilkinson/transcript.md",
+      "source_hash": "15ef41d9c9dd0e048be4fe54e9a317daae282baf5c9c3e8eb1a38dea965479e2",
+      "turns": 190,
+      "chunks": 46,
+      "warnings": []
+    },
+    {
+      "path": "episodes/andy-johns/transcript.md",
+      "source_hash": "9c2e92fec828cf616b651b9f2216e57d36b7dc5d5b6d9406bab40676c904db71",
+      "turns": 144,
+      "chunks": 35,
+      "warnings": []
+    },
+    {
+      "path": "episodes/andy-raskin/transcript.md",
+      "source_hash": "bd2cfd55fee8af7dbca02704a3139ad6474d0cca95c75a87a89dc6541e23ffca",
+      "turns": 156,
+      "chunks": 31,
+      "warnings": []
+    },
+    {
+      "path": "episodes/andy-raskin_/transcript.md",
+      "source_hash": "9bef6b2d472e6a21cb38ef640fae8c730a9467978cd6b9cea7208b4ad2cfd270",
+      "turns": 156,
+      "chunks": 31,
+      "warnings": []
+    },
+    {
+      "path": "episodes/anneka-gupta/transcript.md",
+      "source_hash": "352d6359be4f1b4e87a3b65648dc8afd0dd676129e75757b0c9990475a9ac3d4",
+      "turns": 149,
+      "chunks": 36,
+      "warnings": []
+    },
+    {
+      "path": "episodes/annie-duke/transcript.md",
+      "source_hash": "e492aaac153bcae5b1822d4eb5e56ba163f73bd069eecc49a58f71ffe62b319c",
+      "turns": 151,
+      "chunks": 40,
+      "warnings": []
+    },
+    {
+      "path": "episodes/annie-pearl/transcript.md",
+      "source_hash": "d5f5e87a88cc516ba93d10978892ca553caecae9003ce694518fbbf698cefa46",
+      "turns": 244,
+      "chunks": 37,
+      "warnings": []
+    },
+    {
+      "path": "episodes/anton-osika/transcript.md",
+      "source_hash": "aac3ed87e0684d1b941f43e06b1625d959ae8f3842c879c4b09407d101fdc4a2",
+      "turns": 194,
+      "chunks": 33,
+      "warnings": [
+        "non_monotonic_timestamp"
+      ]
+    },
+    {
+      "path": "episodes/anuj-rathi/transcript.md",
+      "source_hash": "15c923ce16220fe9bb1bb5c0918157156289700d6fdb63148ca0fa04617c1e36",
+      "turns": 140,
+      "chunks": 38,
+      "warnings": []
+    },
+    {
+      "path": "episodes/aparna-chennapragada/transcript.md",
+      "source_hash": "1df012ac842b4eb66682b0fd7d4828130eabb87bc03af62175db98f90377a8aa",
+      "turns": 150,
+      "chunks": 31,
+      "warnings": []
+    },
+    {
+      "path": "episodes/april-dunford/transcript.md",
+      "source_hash": "7374cc01ec372b23cf297a5d758419183debe3ca4395597993d2fa7e580abfcd",
+      "turns": 244,
+      "chunks": 51,
+      "warnings": []
+    },
+    {
+      "path": "episodes/april-dunford-20/transcript.md",
+      "source_hash": "f5d61f7dd7f6b41cdbffa422b38a3fe11d3008d76d1dfd92d5e73298a81e78ce",
+      "turns": 244,
+      "chunks": 51,
+      "warnings": []
+    },
+    {
+      "path": "episodes/archie-abrams/transcript.md",
+      "source_hash": "2d95c1dc5f2acc7ff4e10f8b3b6eddc98b49408c1590822254621409556ea9ac",
+      "turns": 265,
+      "chunks": 41,
+      "warnings": [
+        "guest_title_mismatch_review_required"
+      ]
+    },
+    {
+      "path": "episodes/arielle-jackson/transcript.md",
+      "source_hash": "9c80a5972f553c6bbe5bd98c1257840835372ba18233a8cc81057c218c2545c4",
+      "turns": 231,
+      "chunks": 44,
+      "warnings": []
+    },
+    {
+      "path": "episodes/asha-sharma/transcript.md",
+      "source_hash": "8bd4b434172c9a74188e82f024cd1e5dae52ef4b0e7307c017a27b775a4144b8",
+      "turns": 167,
+      "chunks": 29,
+      "warnings": []
+    },
+    {
+      "path": "episodes/austin-hay/transcript.md",
+      "source_hash": "43c212c005aea8d30f5e9be0bae8b39d7fec9855a71ba55632ec299fbcbcf729",
+      "turns": 180,
+      "chunks": 47,
+      "warnings": []
+    },
+    {
+      "path": "episodes/ayo-omojola/transcript.md",
+      "source_hash": "6bfc891fe121b6d01f9f2008ca87d6ac22ba676224723547884c0c6034010047",
+      "turns": 147,
+      "chunks": 27,
+      "warnings": []
+    },
+    {
+      "path": "episodes/bangaly-kaba/transcript.md",
+      "source_hash": "20dce1822c1b514180b308ca84e3acb0c56d4114d0d6b8f18d5d40cff559c6f5",
+      "turns": 270,
+      "chunks": 56,
+      "warnings": []
+    },
+    {
+      "path": "episodes/barbra-gago/transcript.md",
+      "source_hash": "6f0346e39430b5a651e656e33848055b6a93aa24daa75b9f2b6ffe4cd4b59ec9",
+      "turns": 153,
+      "chunks": 28,
+      "warnings": []
+    },
+    {
+      "path": "episodes/ben-horowitz/transcript.md",
+      "source_hash": "17f360327a6745f5783033e14bac99fd23dc3e935128acc1f8cda9f52283262c",
+      "turns": 226,
+      "chunks": 45,
+      "warnings": []
+    },
+    {
+      "path": "episodes/ben-williams/transcript.md",
+      "source_hash": "c619c8a5f9878b71bbf4a30928382f32077b5287a582c23a515a172a995cd494",
+      "turns": 237,
+      "chunks": 48,
+      "warnings": []
+    },
+    {
+      "path": "episodes/benjamin-lauzier/transcript.md",
+      "source_hash": "b44088df5757242b3bdab560bac22497dda17b1b8361ba98d8f37e85db55897e",
+      "turns": 201,
+      "chunks": 45,
+      "warnings": []
+    },
+    {
+      "path": "episodes/benjamin-mann/transcript.md",
+      "source_hash": "4a9eca24212bc77dccf1ad6a6d3bf6e169e82fcad317de65322d63ab6664264b",
+      "turns": 177,
+      "chunks": 37,
+      "warnings": [
+        "guest_title_mismatch_review_required"
+      ]
+    },
+    {
+      "path": "episodes/bill-carr/transcript.md",
+      "source_hash": "e9660434c152fcd5f6dbb4a697bdd5a9b143054dfd2689daeeddd8f49accc054",
+      "turns": 185,
+      "chunks": 45,
+      "warnings": []
+    },
+    {
+      "path": "episodes/bob-baxley/transcript.md",
+      "source_hash": "227b60c4d31baab3af7b0deee5d80ae16df883fad3cee4c50790996f1566a169",
+      "turns": 270,
+      "chunks": 59,
+      "warnings": []
+    },
+    {
+      "path": "episodes/bob-moesta/transcript.md",
+      "source_hash": "7ed04d706ad1049dac04f675c5df511d501f67837ba83651fb51761d827709fb",
+      "turns": 191,
+      "chunks": 39,
+      "warnings": []
+    },
+    {
+      "path": "episodes/bob-moesta-20/transcript.md",
+      "source_hash": "73efcf6759a89d2f5534ad42574572d5b515372901dfc6a36dd95ff69273a634",
+      "turns": 217,
+      "chunks": 50,
+      "warnings": []
+    },
+    {
+      "path": "episodes/boz/transcript.md",
+      "source_hash": "360326f7ab028fd2c0f2d7a07548cc547ed18e0ac8410faa70a6198a00d31eca",
+      "turns": 303,
+      "chunks": 60,
+      "warnings": []
+    },
+    {
+      "path": "episodes/brandon-chu/transcript.md",
+      "source_hash": "cb12788514bad3eff14a5f9d8a58b480f629c6e898ad78e80da375569010141a",
+      "turns": 117,
+      "chunks": 28,
+      "warnings": [
+        "guest_title_mismatch_review_required",
+        "non_monotonic_timestamp"
+      ]
+    },
+    {
+      "path": "episodes/brendan-foody/transcript.md",
+      "source_hash": "8ca02059d2b0e1a0f798facb6d557ee045366eeaea6f882019d42ac304a8a2c5",
+      "turns": 202,
+      "chunks": 36,
+      "warnings": []
+    },
+    {
+      "path": "episodes/bret-taylor/transcript.md",
+      "source_hash": "ae59a5d0d6b87d0e52ad43bc910c244a724432f5725aa5ea1d344d6600d9ef0c",
+      "turns": 175,
+      "chunks": 46,
+      "warnings": []
+    },
+    {
+      "path": "episodes/brian-balfour/transcript.md",
+      "source_hash": "d974750bfb180d40e69a6d347c87d93ea007e6c26018bccbe9a1de9d0d4353ba",
+      "turns": 259,
+      "chunks": 44,
+      "warnings": []
+    },
+    {
+      "path": "episodes/brian-chesky/transcript.md",
+      "source_hash": "d1bb58234987928d5b1122b928ea3a9a5786d8c22839e02476c7b7dc33b26c24",
+      "turns": 103,
+      "chunks": 40,
+      "warnings": []
+    },
+    {
+      "path": "episodes/brian-tolkin/transcript.md",
+      "source_hash": "9a1067f9a969bb47887432807c1763415135b028cd28c19631807b733f10813f",
+      "turns": 197,
+      "chunks": 37,
+      "warnings": []
+    },
+    {
+      "path": "episodes/cam-adams/transcript.md",
+      "source_hash": "e10e68b79bda892a54ece9c0dcbf4be6bc15c7fc356619ecb241660422b17e0c",
+      "turns": 124,
+      "chunks": 32,
+      "warnings": []
+    },
+    {
+      "path": "episodes/camille-fournier/transcript.md",
+      "source_hash": "efbaab0c88bb9b32e7179d3b756e9a0e6bacbb937860b9d2bf2d0a239841fd75",
+      "turns": 209,
+      "chunks": 41,
+      "warnings": []
+    },
+    {
+      "path": "episodes/camille-hearst/transcript.md",
+      "source_hash": "4ea9e8c9125f027611f345cdef0dd310c064f56d8d28447345b8d2168da9b974",
+      "turns": 316,
+      "chunks": 34,
+      "warnings": []
+    },
+    {
+      "path": "episodes/camille-ricketts/transcript.md",
+      "source_hash": "c219110e7213f7370119cb9a27a8b6c03df743cd959d66bfde0443240462ae87",
+      "turns": 204,
+      "chunks": 38,
+      "warnings": []
+    },
+    {
+      "path": "episodes/carilu-dietrich/transcript.md",
+      "source_hash": "518a07102925cb0e9fb8ac6d6cad197794d5479a7a0faf63d6636666365d730d",
+      "turns": 204,
+      "chunks": 35,
+      "warnings": []
+    },
+    {
+      "path": "episodes/carole-robin/transcript.md",
+      "source_hash": "dd84dc1462c8402ae304c0e8780f4d68837f97817877fcf5c03a64d16a29eabe",
+      "turns": 186,
+      "chunks": 40,
+      "warnings": []
+    },
+    {
+      "path": "episodes/casey-winters/transcript.md",
+      "source_hash": "a287d60ac08b42cd8c0e85fd389b89f3ca30e785b75979a39f1e5d14d65b8a2c",
+      "turns": 111,
+      "chunks": 29,
+      "warnings": []
+    },
+    {
+      "path": "episodes/casey-winters_/transcript.md",
+      "source_hash": "1f2090830cea41027791de80e356e7dc2b4f23f98199729459357ea14732e7e3",
+      "turns": 243,
+      "chunks": 43,
+      "warnings": []
+    },
+    {
+      "path": "episodes/chandra-janakiraman/transcript.md",
+      "source_hash": "87287e402382e4d8b1420fbd2ae9ebd93281b397ca3b466bc1015fe134a38ebd",
+      "turns": 328,
+      "chunks": 55,
+      "warnings": [
+        "non_monotonic_timestamp"
+      ]
+    },
+    {
+      "path": "episodes/chip-conley/transcript.md",
+      "source_hash": "7431b096729ca0f00422b966ece955818891d2928687e96e87f1f1736e5be5e2",
+      "turns": 230,
+      "chunks": 39,
+      "warnings": [
+        "guest_title_mismatch_review_required"
+      ]
+    },
+    {
+      "path": "episodes/chip-huyen/transcript.md",
+      "source_hash": "92dcebf4d3745e2f631490065a617f75c134b90e25985a17772c7c90ce9f6bb8",
+      "turns": 185,
+      "chunks": 44,
+      "warnings": []
+    },
+    {
+      "path": "episodes/chris-hutchins/transcript.md",
+      "source_hash": "f6c81a05972222931acec357480a6cf2cd43c440d165212eafcc67663773fc90",
+      "turns": 178,
+      "chunks": 45,
+      "warnings": []
+    },
+    {
+      "path": "episodes/christian-idiodi/transcript.md",
+      "source_hash": "dbb54ac28a739efc11bc20d3facf0004a1b1bb4c30fa2a21b1df3751e4034e54",
+      "turns": 186,
+      "chunks": 50,
+      "warnings": []
+    },
+    {
+      "path": "episodes/christina-wodtke/transcript.md",
+      "source_hash": "ae4095dacf640b9a717d71c7fd2c7b06766b3a89fcd20d8f2408c8490b1be725",
+      "turns": 212,
+      "chunks": 42,
+      "warnings": []
+    },
+    {
+      "path": "episodes/christine-itwaru/transcript.md",
+      "source_hash": "7892e01c41b2870f1cf7496111a4609029081b1494c851d34647e16f95b2f567",
+      "turns": 158,
+      "chunks": 36,
+      "warnings": []
+    },
+    {
+      "path": "episodes/christopher-lochhead/transcript.md",
+      "source_hash": "bc7fb6c4e055f350bb08c92a88d9b37bded263da4a9a362c5322bc7d1e5c8814",
+      "turns": 249,
+      "chunks": 48,
+      "warnings": []
+    },
+    {
+      "path": "episodes/christopher-miller/transcript.md",
+      "source_hash": "822532f0356738c538b258031f75bc35af2183a65964929235b5a102fa5c7aec",
+      "turns": 215,
+      "chunks": 47,
+      "warnings": [
+        "guest_title_mismatch_review_required"
+      ]
+    },
+    {
+      "path": "episodes/claire-butler/transcript.md",
+      "source_hash": "cfc4fbea44693c239b1086e2bbaa75641a1ad5d2963e4def4a5e0a69cf4a6b17",
+      "turns": 290,
+      "chunks": 55,
+      "warnings": [
+        "non_monotonic_timestamp"
+      ]
+    },
+    {
+      "path": "episodes/claire-hughes-johnson/transcript.md",
+      "source_hash": "085cb8498ab079ee56134cd142a917f19b4af67a4fa5771dfc4706b528d54bc4",
+      "turns": 181,
+      "chunks": 43,
+      "warnings": []
+    },
+    {
+      "path": "episodes/claire-vo/transcript.md",
+      "source_hash": "836317a1f7fa61cc4cbf91b9913f3bbf09de8b7e501be52b05a1bafc0094d836",
+      "turns": 247,
+      "chunks": 44,
+      "warnings": []
+    },
+    {
+      "path": "episodes/crystal-w/transcript.md",
+      "source_hash": "983112501887f085e801c0aa3d95c49e5767f3b04e15f462f488abc7c08772ba",
+      "turns": 151,
+      "chunks": 31,
+      "warnings": []
+    },
+    {
+      "path": "episodes/dalton-caldwell/transcript.md",
+      "source_hash": "72bf60c44625938ace190699080559d305d9f10d14ea69186a6e811b8d4f8654",
+      "turns": 210,
+      "chunks": 44,
+      "warnings": []
+    },
+    {
+      "path": "episodes/dan-hockenmaier/transcript.md",
+      "source_hash": "7ca2d5fce41c29cf373ba00a55865dd377e5d82f42daa4903fdb0a3f3fe900ba",
+      "turns": 174,
+      "chunks": 40,
+      "warnings": []
+    },
+    {
+      "path": "episodes/dan-shipper/transcript.md",
+      "source_hash": "5d49138e06aaabc48dda430a4b7f8266ea05d5f716ca1d833d11715e9ed59948",
+      "turns": 344,
+      "chunks": 52,
+      "warnings": []
+    },
+    {
+      "path": "episodes/daniel-lereya/transcript.md",
+      "source_hash": "56a3eb350bd466bb08fb396e5d6ac2ce6068ebb207473e357a27a256907631f6",
+      "turns": 216,
+      "chunks": 43,
+      "warnings": []
+    },
+    {
+      "path": "episodes/david-placek/transcript.md",
+      "source_hash": "b484f990b22330cf9afc4a36a19b0cc3b9055130f16477d3e9077f8e39e871d0",
+      "turns": 199,
+      "chunks": 38,
+      "warnings": [
+        "guest_title_mismatch_review_required"
+      ]
+    },
+    {
+      "path": "episodes/david-singleton/transcript.md",
+      "source_hash": "ac43a7a258aa35ab1404bf0a7f1cf38c0148dd7af6b0e83be63a18e30fa806d9",
+      "turns": 212,
+      "chunks": 51,
+      "warnings": []
+    },
+    {
+      "path": "episodes/deb-liu/transcript.md",
+      "source_hash": "bf489910e0201391698b38cec1ddd108a5c8693ebd75855659b16c2edc92e693",
+      "turns": 217,
+      "chunks": 42,
+      "warnings": []
+    },
+    {
+      "path": "episodes/dhanji-r-prasanna/transcript.md",
+      "source_hash": "16e30c033721dca5a4f74e68a6736fafef5e79f0a318d4ed0877c3656cd3e193",
+      "turns": 237,
+      "chunks": 41,
+      "warnings": []
+    },
+    {
+      "path": "episodes/dharmesh-shah/transcript.md",
+      "source_hash": "debe6c50a1f529138ed77c0d033d855cbe9086491d5f4b6cfff9b51baa9b6b10",
+      "turns": 264,
+      "chunks": 56,
+      "warnings": []
+    },
+    {
+      "path": "episodes/dmitry-zlokazov/transcript.md",
+      "source_hash": "3473d905fe84e4efa0cfa998e4465b10b977a7861dfe3b1222667793f65d14df",
+      "turns": 140,
+      "chunks": 31,
+      "warnings": [
+        "guest_title_mismatch_review_required"
+      ]
+    },
+    {
+      "path": "episodes/donna-lichaw/transcript.md",
+      "source_hash": "8b4c8ee00748f2f0d5111eb641fe3120f5bce3922b995d016b655ff0711cf61f",
+      "turns": 195,
+      "chunks": 40,
+      "warnings": [
+        "non_monotonic_timestamp"
+      ]
+    },
+    {
+      "path": "episodes/dr-fei-fei-li/transcript.md",
+      "source_hash": "2e3818b941ee2392f8d40766e619eb4570681c73902db2b993eba32053cbaee9",
+      "turns": 154,
+      "chunks": 33,
+      "warnings": []
+    },
+    {
+      "path": "episodes/drew-houston/transcript.md",
+      "source_hash": "bcb80c8de46279311700fc350d4da48c245d40491b760773d79d71252988c73c",
+      "turns": 198,
+      "chunks": 52,
+      "warnings": []
+    },
+    {
+      "path": "episodes/dylan-field/transcript.md",
+      "source_hash": "4842a088db0a2cbd39face6b98a92bb053be66240a7f012c7709dce679e2642e",
+      "turns": 164,
+      "chunks": 24,
+      "warnings": []
+    },
+    {
+      "path": "episodes/dylan-field-20/transcript.md",
+      "source_hash": "37012c466604727e418e92cfc6960f86fbc6675c57ccd7c8d2dabbbcae467827",
+      "turns": 241,
+      "chunks": 43,
+      "warnings": []
+    },
+    {
+      "path": "episodes/ebi-atawodi/transcript.md",
+      "source_hash": "584fa248fd635b52ad3c65ac4d741cf203db250e8c4b4a0c4f9e22ee905b6768",
+      "turns": 225,
+      "chunks": 52,
+      "warnings": []
+    },
+    {
+      "path": "episodes/edwin-chen/transcript.md",
+      "source_hash": "ab0c684d9f41c78ae64279c087daf587efa23548707ab88b4bbaf4ca19c7c0ff",
+      "turns": 247,
+      "chunks": 42,
+      "warnings": [
+        "non_monotonic_timestamp"
+      ]
+    },
+    {
+      "path": "episodes/eeke-de-milliano/transcript.md",
+      "source_hash": "dd253c55971fd343bf136278fca4d0a348cdf38290188f720a636133709a9858",
+      "turns": 348,
+      "chunks": 38,
+      "warnings": []
+    },
+    {
+      "path": "episodes/elena-verna/transcript.md",
+      "source_hash": "382460d74e6786f545f046c1085107acd4aa0edaaa612bf8fd4eda8ddb346857",
+      "turns": 240,
+      "chunks": 48,
+      "warnings": []
+    },
+    {
+      "path": "episodes/elena-verna-20/transcript.md",
+      "source_hash": "6be05d454f9cf193e6a80412f5505330afc9da731ef15ee98aeccb5af6a71879",
+      "turns": 216,
+      "chunks": 38,
+      "warnings": []
+    },
+    {
+      "path": "episodes/elena-verna-30/transcript.md",
+      "source_hash": "9400bb8ea4a38d7000ce5fc8ca1ca141c6666573d082cc20b3475da2ca925ffe",
+      "turns": 240,
+      "chunks": 48,
+      "warnings": []
+    },
+    {
+      "path": "episodes/elena-verna-40/transcript.md",
+      "source_hash": "23861413c1bc49c8462aa3b42a9845a3893833afe5da84033f33be002e63be7b",
+      "turns": 259,
+      "chunks": 51,
+      "warnings": [
+        "guest_title_mismatch_review_required"
+      ]
+    },
+    {
+      "path": "episodes/eli-schwartz/transcript.md",
+      "source_hash": "c2e77e7bd4403cb1951167572591eee9fb358abab69aecf8b271e90974b1d9de",
+      "turns": 326,
+      "chunks": 65,
+      "warnings": []
+    },
+    {
+      "path": "episodes/elizabeth-stone/transcript.md",
+      "source_hash": "1a99bebfff6bc155a1a47b80632d5149cd9d73a7fd37d6ed1e6dce6a1aaece3f",
+      "turns": 144,
+      "chunks": 35,
+      "warnings": [
+        "non_monotonic_timestamp"
+      ]
+    },
+    {
+      "path": "episodes/emilie-gerber/transcript.md",
+      "source_hash": "ca0bd137db17dabaedb6e315433bf92c0a84944068881de48b8cac48cc627fae",
+      "turns": 248,
+      "chunks": 51,
+      "warnings": []
+    },
+    {
+      "path": "episodes/emily-kramer/transcript.md",
+      "source_hash": "06d0b3f932497ea4de2841836391a38a90eb7260fcd694a92e086da76aac0cac",
+      "turns": 195,
+      "chunks": 43,
+      "warnings": []
+    },
+    {
+      "path": "episodes/eoghan-mccabe/transcript.md",
+      "source_hash": "7e21be9a241fcc0292e2b852e2137028d1e6c4140bc93677bf782e1616187f00",
+      "turns": 167,
+      "chunks": 39,
+      "warnings": []
+    },
+    {
+      "path": "episodes/eoy-review/transcript.md",
+      "source_hash": "7a13d514a4fc54f39b3f2ca717bfd0e5fcbcc359f23cc6f2e2b0071a383772ff",
+      "turns": 95,
+      "chunks": 31,
+      "warnings": [
+        "guest_title_mismatch_review_required"
+      ]
+    },
+    {
+      "path": "episodes/eric-ries/transcript.md",
+      "source_hash": "4e22be519505f244f8d7236738a9f4497365cf22b540abd2e409850b5f8f51a1",
+      "turns": 264,
+      "chunks": 78,
+      "warnings": [
+        "non_monotonic_timestamp"
+      ]
+    },
+    {
+      "path": "episodes/eric-simons/transcript.md",
+      "source_hash": "0f3e771425301288c93a6a359fdc2dde315059aca4de9be2d43ec0dcc2c4dd4c",
+      "turns": 254,
+      "chunks": 47,
+      "warnings": []
+    },
+    {
+      "path": "episodes/ethan-evans/transcript.md",
+      "source_hash": "57af76ec883604c6fadbe3ea85a94fc285a43b025ca7d01d7f7831dfb8c9cf0c",
+      "turns": 236,
+      "chunks": 41,
+      "warnings": []
+    },
+    {
+      "path": "episodes/ethan-evans-20/transcript.md",
+      "source_hash": "f4facef3b592d84344b08b5d6374216ae02f22e016121f7d7b3afd5df1fae36f",
+      "turns": 236,
+      "chunks": 41,
+      "warnings": []
+    },
+    {
+      "path": "episodes/ethan-smith/transcript.md",
+      "source_hash": "b5c75a2804a021b1339220426595a86466bad23bc63386778012aa659d003867",
+      "turns": 314,
+      "chunks": 41,
+      "warnings": []
+    },
+    {
+      "path": "episodes/evan-lapointe/transcript.md",
+      "source_hash": "4fbe0e5e8648bae5b975b5146b7f9c37e79eed962fe21dc6a211695b8cb3a5cb",
+      "turns": 243,
+      "chunks": 67,
+      "warnings": []
+    },
+    {
+      "path": "episodes/failure/transcript.md",
+      "source_hash": "d90eea713e7de9e76e73361a8568bff4d89410402741ac1bcd8bd9326a7f20a7",
+      "turns": 120,
+      "chunks": 33,
+      "warnings": []
+    },
+    {
+      "path": "episodes/fareed-mosavat/transcript.md",
+      "source_hash": "869af55e27e08d79eb519b55928d3484e8bea44bd5a448c029a7e50f800cfc35",
+      "turns": 177,
+      "chunks": 37,
+      "warnings": []
+    },
+    {
+      "path": "episodes/farhan-thawar/transcript.md",
+      "source_hash": "d1c41e5d9aee474aef22b16c2e716357df75e4e5192f2f4bba67486a3d85ffd4",
+      "turns": 255,
+      "chunks": 61,
+      "warnings": []
+    },
+    {
+      "path": "episodes/fei-fei/transcript.md",
+      "source_hash": "a89b03aed3faa79e058f90795bd71a645f6cb204a37ca5cc93ec11d72a895530",
+      "turns": 154,
+      "chunks": 33,
+      "warnings": []
+    },
+    {
+      "path": "episodes/garrett-lord/transcript.md",
+      "source_hash": "40b253ad5e25049efd67107a9d76aa42c8161561815bcaeb4a6f4d030b59ef7f",
+      "turns": 178,
+      "chunks": 37,
+      "warnings": []
+    },
+    {
+      "path": "episodes/gaurav-misra/transcript.md",
+      "source_hash": "ab761db5b0fefbed3c2560a3e413690a9b520792bd5b035e811778378c279874",
+      "turns": 290,
+      "chunks": 47,
+      "warnings": [
+        "guest_title_mismatch_review_required"
+      ]
+    },
+    {
+      "path": "episodes/geoff-charles/transcript.md",
+      "source_hash": "f8fb3663a8c5c28541e1c73e97203310ffb08674dc00ed16a88de13c5fcd79e3",
+      "turns": 160,
+      "chunks": 39,
+      "warnings": []
+    },
+    {
+      "path": "episodes/geoffrey-moore/transcript.md",
+      "source_hash": "0164d32588f8aa2a8a877c38bc1ec0ef632f105e183fa2d35a7a826a8d3d9d00",
+      "turns": 163,
+      "chunks": 44,
+      "warnings": []
+    },
+    {
+      "path": "episodes/gergely/transcript.md",
+      "source_hash": "1e0f0b25e8127580ee815481ee364dacd64a30f8c8b1e8eef17bdc32be76375e",
+      "turns": 134,
+      "chunks": 42,
+      "warnings": []
+    },
+    {
+      "path": "episodes/gia-laudi/transcript.md",
+      "source_hash": "a3d6899283fe9044db00878bda8df5c23b765581b8debe09456981db67c9d998",
+      "turns": 184,
+      "chunks": 35,
+      "warnings": []
+    },
+    {
+      "path": "episodes/gibson-biddle/transcript.md",
+      "source_hash": "b6633408da71fa528f94dadb362a74174b5b89563b50bf74a924761a6822cf45",
+      "turns": 231,
+      "chunks": 36,
+      "warnings": [
+        "guest_title_mismatch_review_required"
+      ]
+    },
+    {
+      "path": "episodes/gina-gotthilf/transcript.md",
+      "source_hash": "6bd92710fabe325e721e72c999a68e91e1980fd6577f8312d6b289d8ea265542",
+      "turns": 276,
+      "chunks": 54,
+      "warnings": []
+    },
+    {
+      "path": "episodes/gokul-rajaram/transcript.md",
+      "source_hash": "8d8796cde99376cf145ae66083e45fc8ed4bbf00079180728f22309c3b478eac",
+      "turns": 170,
+      "chunks": 37,
+      "warnings": []
+    },
+    {
+      "path": "episodes/graham-weaver/transcript.md",
+      "source_hash": "ad8a3a6f8e046532c8f09698b92066fa5482296acab4e0369621583e75998057",
+      "turns": 163,
+      "chunks": 36,
+      "warnings": [
+        "non_monotonic_timestamp"
+      ]
+    },
+    {
+      "path": "episodes/grant-lee/transcript.md",
+      "source_hash": "fbe3e6db1581a6f05a150c609d34f4e3293cc8c80a68623008f3fb42266a1ffe",
+      "turns": 312,
+      "chunks": 67,
+      "warnings": []
+    },
+    {
+      "path": "episodes/guillermo-rauch/transcript.md",
+      "source_hash": "24cb633187ad1eaf4637d3a4f2888b3c25e5587280ccc4a718ca65a353c4576f",
+      "turns": 225,
+      "chunks": 42,
+      "warnings": [
+        "non_monotonic_timestamp"
+      ]
+    },
+    {
+      "path": "episodes/gustaf-alstromer/transcript.md",
+      "source_hash": "0a25f2b3f6dc8bdac427697b763cd34b42622a1df244de83fcc9e852ad3e87d8",
+      "turns": 187,
+      "chunks": 48,
+      "warnings": [
+        "guest_title_mismatch_review_required"
+      ]
+    },
+    {
+      "path": "episodes/gustav-s\u00f6derstr\u00f6m/transcript.md",
+      "source_hash": "24e975c8af81113f7890690baca15d29b402cc2461e6e4087127f8f0f1d30575",
+      "turns": 198,
+      "chunks": 43,
+      "warnings": []
+    },
+    {
+      "path": "episodes/hamel-husain-shreya-shankar/transcript.md",
+      "source_hash": "5376c0d1da9ce72f526b7155e70b9d38bc3e1b71965a731b2d9cd154a87e9b08",
+      "turns": 380,
+      "chunks": 54,
+      "warnings": []
+    },
+    {
+      "path": "episodes/hamelshreya/transcript.md",
+      "source_hash": "e002e038b7091a606b6485bb481a5935e166d3ac79162852ce683532058438ba",
+      "turns": 380,
+      "chunks": 54,
+      "warnings": []
+    },
+    {
+      "path": "episodes/hamilton-helmer/transcript.md",
+      "source_hash": "e4491d567868255fa8d554f7738850e68a2930711c5fc96859e13e3874e584b9",
+      "turns": 132,
+      "chunks": 29,
+      "warnings": []
+    },
+    {
+      "path": "episodes/hari-srinivasan/transcript.md",
+      "source_hash": "23cbf224405a20a871da95ae3f8b9b7a33ae6f24179a879be3c62e8c00f939c7",
+      "turns": 229,
+      "chunks": 40,
+      "warnings": []
+    },
+    {
+      "path": "episodes/heidi-helfand/transcript.md",
+      "source_hash": "6ad33c9d394e08241df8f1306bbcddb05b66f795e03d264d52b78a5f8d6a4eb3",
+      "turns": 131,
+      "chunks": 34,
+      "warnings": []
+    },
+    {
+      "path": "episodes/hila-qu/transcript.md",
+      "source_hash": "b8af78ad10f4cbcf6e05d37c762f5fb081fe960c939cc041ae490af772ad3050",
+      "turns": 231,
+      "chunks": 44,
+      "warnings": []
+    },
+    {
+      "path": "episodes/hilary-gridley/transcript.md",
+      "source_hash": "68503fb4fa4c35149407454412062044d54b1471ce908ae611e26fd07601eb8f",
+      "turns": 381,
+      "chunks": 62,
+      "warnings": []
+    },
+    {
+      "path": "episodes/howie-liu/transcript.md",
+      "source_hash": "7f3fcab8181ba9850b2eb787c598fc476b0308a22e6637a831aa9d84a3a3dbea",
+      "turns": 267,
+      "chunks": 50,
+      "warnings": []
+    },
+    {
+      "path": "episodes/ian-mcallister/transcript.md",
+      "source_hash": "432e44ad6273b184954a88abf654f286a4859c3ce75c31ece92c7aa89d7d2ae0",
+      "turns": 138,
+      "chunks": 36,
+      "warnings": []
+    },
+    {
+      "path": "episodes/inbal-s/transcript.md",
+      "source_hash": "92518452a2f6de65dd11d9590572802bed5f5dfc3a17b4ad267ec1b69bb59bb9",
+      "turns": 148,
+      "chunks": 27,
+      "warnings": []
+    },
+    {
+      "path": "episodes/interview-q-compilation/transcript.md",
+      "source_hash": "748ec2640e05ac0e4ac419429b27ae0556cfff4e7983396ace4de62e4bb9907c",
+      "turns": 56,
+      "chunks": 11,
+      "warnings": [
+        "guest_title_mismatch_review_required"
+      ]
+    },
+    {
+      "path": "episodes/itamar-gilad/transcript.md",
+      "source_hash": "6eeb41676b5af14c1bbde22f8793c8d302f39afac88fe2869efb80cd50334766",
+      "turns": 182,
+      "chunks": 37,
+      "warnings": []
+    },
+    {
+      "path": "episodes/ivan-zhao/transcript.md",
+      "source_hash": "e00499c4c9edd02029ad13d6a08c8545404eb22d7273f1706902bc0990f32b4d",
+      "turns": 191,
+      "chunks": 37,
+      "warnings": [
+        "guest_title_mismatch_review_required"
+      ]
+    },
+    {
+      "path": "episodes/jackie-bavaro/transcript.md",
+      "source_hash": "b455ad97205076db749d85db146a4898eb8973d85fd3df365cb6148ef7851899",
+      "turns": 154,
+      "chunks": 31,
+      "warnings": [
+        "guest_title_mismatch_review_required"
+      ]
+    },
+    {
+      "path": "episodes/jackson-shuttleworth/transcript.md",
+      "source_hash": "050fa8517219b08c495661ed8118e73173b9c9f8a6d57e7b5187fa698ae84e02",
+      "turns": 231,
+      "chunks": 49,
+      "warnings": []
+    },
+    {
+      "path": "episodes/jag-duggal/transcript.md",
+      "source_hash": "8acd1cbcfe697ea3c561a382bbefd3b88a39ad91c7323bd9c3ec61a9f3412925",
+      "turns": 184,
+      "chunks": 43,
+      "warnings": []
+    },
+    {
+      "path": "episodes/jake-knapp-john-zeratsky/transcript.md",
+      "source_hash": "1e4387abc9f9015f3c11b71fb0af8669a64bc89b7f7eeec811cfbf850b244870",
+      "turns": 263,
+      "chunks": 50,
+      "warnings": []
+    },
+    {
+      "path": "episodes/jake-knapp-john-zeratsky-20/transcript.md",
+      "source_hash": "420d24a25542ece131ff122c382ab574da1ae623e1011e1e0f5602233da783e0",
+      "turns": 311,
+      "chunks": 55,
+      "warnings": [
+        "non_monotonic_timestamp"
+      ]
+    },
+    {
+      "path": "episodes/janna-bastow/transcript.md",
+      "source_hash": "d305bd738fbb680e7f0f4ffa5a58b5c5321121baeb98ec1356991e21ec9113cb",
+      "turns": 159,
+      "chunks": 31,
+      "warnings": []
+    },
+    {
+      "path": "episodes/jason-droege/transcript.md",
+      "source_hash": "4ed4843ee115f0e962f8eb557108c5e31d01e6c45aac35b694f4689750050d6e",
+      "turns": 193,
+      "chunks": 45,
+      "warnings": [
+        "guest_title_mismatch_review_required"
+      ]
+    },
+    {
+      "path": "episodes/jason-feifer/transcript.md",
+      "source_hash": "99541d251abb741a1f95ac324a40881f52a41c3726fc097bf11283fb33cbc982",
+      "turns": 308,
+      "chunks": 55,
+      "warnings": []
+    },
+    {
+      "path": "episodes/jason-fried/transcript.md",
+      "source_hash": "9fe6380a82de59b9b9daab5dac72d5b26aba736958961fe0dc864fb8d8756e43",
+      "turns": 271,
+      "chunks": 62,
+      "warnings": []
+    },
+    {
+      "path": "episodes/jason-m-lemkin/transcript.md",
+      "source_hash": "da496a90c6dd5e472c13528f1567531b2f0459100ee191b7220bd3b2f9ea893d",
+      "turns": 309,
+      "chunks": 70,
+      "warnings": []
+    },
+    {
+      "path": "episodes/jason-shah/transcript.md",
+      "source_hash": "6d782cc54731c0c21906d31a6e190e813e1a27e604eaf4e9111bef502e986985",
+      "turns": 156,
+      "chunks": 40,
+      "warnings": []
+    },
+    {
+      "path": "episodes/jeanne-grosser/transcript.md",
+      "source_hash": "bf222989e8e7aee7e122871f1bcfe5ccb15bbb517f9120ffa4b970448e4396f1",
+      "turns": 156,
+      "chunks": 42,
+      "warnings": []
+    },
+    {
+      "path": "episodes/jeff-weinstein/transcript.md",
+      "source_hash": "61270a51665da86f790dde2842a846e39c91afba4090f842508d080a0563e612",
+      "turns": 268,
+      "chunks": 72,
+      "warnings": []
+    },
+    {
+      "path": "episodes/jeffrey-pfeffer/transcript.md",
+      "source_hash": "23cbbb80facc9448c5a18bad0436203f718780c6b7d3ec781da71bec84542136",
+      "turns": 172,
+      "chunks": 41,
+      "warnings": []
+    },
+    {
+      "path": "episodes/jen-abel/transcript.md",
+      "source_hash": "a3268f6982405657b8fd7005233d9db435b79d66fd47fdaf1132b5ef548e9a98",
+      "turns": 235,
+      "chunks": 42,
+      "warnings": []
+    },
+    {
+      "path": "episodes/jen-abel-20/transcript.md",
+      "source_hash": "a769aafa944421fb6a9fc624f060a7ac6469684f0a1d5e05f179d1bca17025db",
+      "turns": 338,
+      "chunks": 43,
+      "warnings": []
+    },
+    {
+      "path": "episodes/jeremy-henrickson/transcript.md",
+      "source_hash": "8e1677a19ebcd98da114af8bac08613a85da2b9ad0fa2782e13ce8678fe06d8b",
+      "turns": 205,
+      "chunks": 39,
+      "warnings": []
+    },
+    {
+      "path": "episodes/jerry-colonna/transcript.md",
+      "source_hash": "e5e6f4647c59c4c1527b018999bb06c09a9ecf709d1eef63797056ce08faed54",
+      "turns": 166,
+      "chunks": 32,
+      "warnings": []
+    },
+    {
+      "path": "episodes/jess-lachs/transcript.md",
+      "source_hash": "26bc70890dd51fbb2afbb6b881c5f00498d495ee45aa75c26836a6ecff02777a",
+      "turns": 166,
+      "chunks": 38,
+      "warnings": []
+    },
+    {
+      "path": "episodes/jessica-hische/transcript.md",
+      "source_hash": "9c2e586e3fdf9da85d7b20a8074df7d3fa4930f3e753313161913fc6a6b8e2eb",
+      "turns": 150,
+      "chunks": 41,
+      "warnings": []
+    },
+    {
+      "path": "episodes/jessica-livingston/transcript.md",
+      "source_hash": "f4818e7c1add71c7162306019e5c9826f09466de0e6a3cf4757155eed2a31db0",
+      "turns": 212,
+      "chunks": 41,
+      "warnings": []
+    },
+    {
+      "path": "episodes/jiaona-zhang/transcript.md",
+      "source_hash": "7cbde437a8db842e100e7c976bf44ffc5bae3818a18e9e23c5acce01b0bec6d8",
+      "turns": 168,
+      "chunks": 38,
+      "warnings": []
+    },
+    {
+      "path": "episodes/joe-hudson/transcript.md",
+      "source_hash": "95e037ce651c6adabbe14a7db96965c11dd8abdf86b2e424be50c366532c3872",
+      "turns": 158,
+      "chunks": 39,
+      "warnings": []
+    },
+    {
+      "path": "episodes/john-cutler/transcript.md",
+      "source_hash": "8c1ba5459e0ab035a909afe5b6d1c0e2efe4dd31d41b6e17fde6476794661e05",
+      "turns": 283,
+      "chunks": 56,
+      "warnings": [
+        "non_monotonic_timestamp"
+      ]
+    },
+    {
+      "path": "episodes/john-mark-nickels/transcript.md",
+      "source_hash": "5ebc70c61a14d2afce1645e54ccaedd297079443aaa30d0bd206d51af4719810",
+      "turns": 169,
+      "chunks": 42,
+      "warnings": [
+        "guest_title_mismatch_review_required"
+      ]
+    },
+    {
+      "path": "episodes/jonathan-becker/transcript.md",
+      "source_hash": "4d76b53c410dfd9e005144ad43ac4ca340661621e7c03d769c32a66be916e205",
+      "turns": 189,
+      "chunks": 47,
+      "warnings": []
+    },
+    {
+      "path": "episodes/jonathan-lowenhar/transcript.md",
+      "source_hash": "8d0e8353f9d66555770319d7ea99cb25ba92179e8e962b2f84fa5edfa059703a",
+      "turns": 210,
+      "chunks": 47,
+      "warnings": []
+    },
+    {
+      "path": "episodes/jonny-miller/transcript.md",
+      "source_hash": "d76f870cceb895d6131b640b738c32b922ea9cf0ffd14a53d39ca7484fb5dfcd",
+      "turns": 187,
+      "chunks": 38,
+      "warnings": []
+    },
+    {
+      "path": "episodes/josh-miller/transcript.md",
+      "source_hash": "3b7271a162e98a6c6034e84d34814d512468624691bd418acf15502cc4219c9b",
+      "turns": 170,
+      "chunks": 47,
+      "warnings": []
+    },
+    {
+      "path": "episodes/judd-antin/transcript.md",
+      "source_hash": "a9afafee26d41e0ab5053f416996243860a51b3f20166a93803e46819c91dbd9",
+      "turns": 192,
+      "chunks": 39,
+      "warnings": []
+    },
+    {
+      "path": "episodes/jules-walter/transcript.md",
+      "source_hash": "a219cd8257fa67e2108d2d25838fd62ab4d88ce14f194b882827e2f3433b38cb",
+      "turns": 173,
+      "chunks": 38,
+      "warnings": []
+    },
+    {
+      "path": "episodes/julia-schottenstein/transcript.md",
+      "source_hash": "3f1028f9fd9a1bb1556bbbb05040441f90ba0841ac91b2c94d76f07fc1b374f3",
+      "turns": 135,
+      "chunks": 31,
+      "warnings": []
+    },
+    {
+      "path": "episodes/julian-shapiro/transcript.md",
+      "source_hash": "58734066d142bc248bb85b8e9ee63861d887a3de1600d30f9868c83854dada42",
+      "turns": 154,
+      "chunks": 33,
+      "warnings": [
+        "guest_title_mismatch_review_required"
+      ]
+    },
+    {
+      "path": "episodes/julie-zhuo/transcript.md",
+      "source_hash": "2ef8f9e32e63296ecdb53d3cc0eb296b34dd88cce4dc4fa5a90a28f463812f8c",
+      "turns": 250,
+      "chunks": 52,
+      "warnings": []
+    },
+    {
+      "path": "episodes/julie-zhuo-20/transcript.md",
+      "source_hash": "0acf8ccbfd52de9afcac38cdd84a2427882a99981f6fed6ff621ec3d0018f251",
+      "turns": 250,
+      "chunks": 52,
+      "warnings": []
+    },
+    {
+      "path": "episodes/karina-nguyen/transcript.md",
+      "source_hash": "87c278f68d10f10872110c6bfb1a6df4495fe68c722ecb1e63e684506718df7f",
+      "turns": 208,
+      "chunks": 35,
+      "warnings": [
+        "non_monotonic_timestamp"
+      ]
+    },
+    {
+      "path": "episodes/karri-saarinen/transcript.md",
+      "source_hash": "506df1ade112622b66ab13995a1fe078cca919b51386e6172697b94808f58510",
+      "turns": 224,
+      "chunks": 49,
+      "warnings": [
+        "non_monotonic_timestamp"
+      ]
+    },
+    {
+      "path": "episodes/katie-dill/transcript.md",
+      "source_hash": "a4252f304bae29bd9c3aa94dfe9b078038c914b6e4682928fe2bfd8a448ab590",
+      "turns": 219,
+      "chunks": 46,
+      "warnings": []
+    },
+    {
+      "path": "episodes/kayvon-beykpour/transcript.md",
+      "source_hash": "2e4e75e88f5a582c8da6946b433dad20fcc55d38b70f7beabbca792757cfc294",
+      "turns": 198,
+      "chunks": 49,
+      "warnings": []
+    },
+    {
+      "path": "episodes/keith-coleman-jay-baxter/transcript.md",
+      "source_hash": "f4a59b6ef75b76747e4b787a02c36e3e10e3b47106a508fdead6bbd3f795a82a",
+      "turns": 288,
+      "chunks": 54,
+      "warnings": []
+    },
+    {
+      "path": "episodes/keith-yandell/transcript.md",
+      "source_hash": "eeb0815903c0013f75520f501ffa21a974387831dbef12a685c503963b718825",
+      "turns": 121,
+      "chunks": 32,
+      "warnings": []
+    },
+    {
+      "path": "episodes/ken-norton/transcript.md",
+      "source_hash": "dd10af7ecb239013ee3822ebf51f92529d96d841fee43f72655780b6e90a522f",
+      "turns": 231,
+      "chunks": 39,
+      "warnings": [
+        "non_monotonic_timestamp"
+      ]
+    },
+    {
+      "path": "episodes/kenneth-berger/transcript.md",
+      "source_hash": "7e26c17dab465fbee04712a5d2aa9017b19bd6ab43ca365d4126184e53896655",
+      "turns": 204,
+      "chunks": 40,
+      "warnings": []
+    },
+    {
+      "path": "episodes/kevin-aluwi/transcript.md",
+      "source_hash": "acb4adc34a964cede8b82ea362684860399a26ef76aca23b2d120d8b46cf1712",
+      "turns": 117,
+      "chunks": 27,
+      "warnings": []
+    },
+    {
+      "path": "episodes/kevin-weil/transcript.md",
+      "source_hash": "bc7bdfae5103b8f560b185cdaecc15cce10dbfd9e95d8df0e6227835a4d0b45f",
+      "turns": 240,
+      "chunks": 47,
+      "warnings": []
+    },
+    {
+      "path": "episodes/kevin-yien/transcript.md",
+      "source_hash": "09eeaf578512df21302392095e66fd43e749a5f900476f5fcd49d2f735a24f63",
+      "turns": 254,
+      "chunks": 46,
+      "warnings": []
+    },
+    {
+      "path": "episodes/kim-scott/transcript.md",
+      "source_hash": "3f806323f2effbe7c417b1f47b17945c18eb9be1ba0b6b2ef7e63253e8b7f3f5",
+      "turns": 213,
+      "chunks": 43,
+      "warnings": [
+        "guest_title_mismatch_review_required"
+      ]
+    },
+    {
+      "path": "episodes/kristen-berman/transcript.md",
+      "source_hash": "e956f8d9d1d7cc73c9d3a14ae6191c02588927682499300ce860d12a8fd67cdf",
+      "turns": 195,
+      "chunks": 32,
+      "warnings": []
+    },
+    {
+      "path": "episodes/krithika-shankarraman/transcript.md",
+      "source_hash": "b474e81a9a3d3e8419a1f3667294946f2ff77c8f0ef0190ca55423cf4f9d28b6",
+      "turns": 202,
+      "chunks": 41,
+      "warnings": []
+    },
+    {
+      "path": "episodes/kunal-shah/transcript.md",
+      "source_hash": "1a0173fb36b98732a6819525a336e588adfce0e12dbb2955989d9a1f29924572",
+      "turns": 793,
+      "chunks": 47,
+      "warnings": []
+    },
+    {
+      "path": "episodes/lane-shackleton/transcript.md",
+      "source_hash": "041749ea073d70b4b5806009a34cdd155cfdef3d2fd6416c44255e2ff5472c86",
+      "turns": 205,
+      "chunks": 45,
+      "warnings": []
+    },
+    {
+      "path": "episodes/laura-modi/transcript.md",
+      "source_hash": "9a929ced91bacaa23d7a316b479135b435f22c041cee9468db96f5e6afa84d34",
+      "turns": 218,
+      "chunks": 32,
+      "warnings": [
+        "guest_title_mismatch_review_required"
+      ]
+    },
+    {
+      "path": "episodes/laura-schaffer/transcript.md",
+      "source_hash": "071bf0287ab15d0af557d34e18e9cbefeb3f55d277db7f829ae2e550658a923d",
+      "turns": 185,
+      "chunks": 43,
+      "warnings": []
+    },
+    {
+      "path": "episodes/lauren-ipsen/transcript.md",
+      "source_hash": "61c668f483dca6359d994e31d7032ea47e7d724cf10274b8bd27a2e2b2c1ce32",
+      "turns": 219,
+      "chunks": 38,
+      "warnings": []
+    },
+    {
+      "path": "episodes/lauryn-isford/transcript.md",
+      "source_hash": "f3c39fa386ccf126a4e513f03c7979a75991cb2bc6d26bce9105f145b41bbba7",
+      "turns": 148,
+      "chunks": 33,
+      "warnings": []
+    },
+    {
+      "path": "episodes/logan-kilpatrick/transcript.md",
+      "source_hash": "b410efbc1e9be7ed18f653de0dac4594b2886b3a03d03b8472e612b88552dc51",
+      "turns": 169,
+      "chunks": 38,
+      "warnings": []
+    },
+    {
+      "path": "episodes/luc-levesque/transcript.md",
+      "source_hash": "cca668942ee5502303fe0154bda0858cab4c943c05ee1c985b9c412411f53977",
+      "turns": 203,
+      "chunks": 45,
+      "warnings": []
+    },
+    {
+      "path": "episodes/lulu-cheng-meservey/transcript.md",
+      "source_hash": "fdad69f6ae36435bb1ab7078da8caf0b9b5308d2d9e677183de2321ad62173b9",
+      "turns": 147,
+      "chunks": 33,
+      "warnings": []
+    },
+    {
+      "path": "episodes/madhavan-ramanujam/transcript.md",
+      "source_hash": "0029c683603349a20ef40eae3a5405a664161223c7e8a70632467a8d871a6bf6",
+      "turns": 229,
+      "chunks": 40,
+      "warnings": []
+    },
+    {
+      "path": "episodes/madhavan-ramanujam-20/transcript.md",
+      "source_hash": "fdd39a26c8be99dc7424c8c17ec5d858952d0569094efb7a05b4783235d82644",
+      "turns": 229,
+      "chunks": 40,
+      "warnings": []
+    },
+    {
+      "path": "episodes/maggie-crowley/transcript.md",
+      "source_hash": "8a28b8030f9af75009637f11a209a970a4bdf4542d504f7244243b5728b63db9",
+      "turns": 219,
+      "chunks": 46,
+      "warnings": []
+    },
+    {
+      "path": "episodes/manik-gupta/transcript.md",
+      "source_hash": "5510ca39f5a3a70c16ed8f88e36c91a1507e517d95b15cf9817ded08023338aa",
+      "turns": 132,
+      "chunks": 36,
+      "warnings": [
+        "guest_title_mismatch_review_required"
+      ]
+    },
+    {
+      "path": "episodes/marc-benioff/transcript.md",
+      "source_hash": "88cff96fc51a8e7cbbc696094421b5633b909bedfe02b57fba1138e152f62b59",
+      "turns": 168,
+      "chunks": 30,
+      "warnings": [
+        "non_monotonic_timestamp"
+      ]
+    },
+    {
+      "path": "episodes/marily-nika/transcript.md",
+      "source_hash": "064213138d8ad5e32b0827965fe1d412b903f319f6584c50bb031a8e4f73651f",
+      "turns": 133,
+      "chunks": 26,
+      "warnings": []
+    },
+    {
+      "path": "episodes/marty-cagan/transcript.md",
+      "source_hash": "727a14d1eb7229874c4310b39d6578a1232e77d5ed023ca29a415dfb88920534",
+      "turns": 174,
+      "chunks": 41,
+      "warnings": []
+    },
+    {
+      "path": "episodes/marty-cagan-20/transcript.md",
+      "source_hash": "9b6ace7e2bde23e370e7174b1857592f5d0f870503166e68e677010f3819a659",
+      "turns": 174,
+      "chunks": 41,
+      "warnings": []
+    },
+    {
+      "path": "episodes/matt-abrahams/transcript.md",
+      "source_hash": "c14dfa2f355ee0f096b4e34475efac39ad8373a6bc44b18a5d815297f474c5cc",
+      "turns": 234,
+      "chunks": 42,
+      "warnings": []
+    },
+    {
+      "path": "episodes/matt-dixon/transcript.md",
+      "source_hash": "0ae2d65a0701ce26006853bc5e44441cb8a750d9cd1806bf8539ed194d54d72b",
+      "turns": 181,
+      "chunks": 34,
+      "warnings": []
+    },
+    {
+      "path": "episodes/matt-lemay/transcript.md",
+      "source_hash": "62203fe6b7d3c5f7a748669cd00530fb689a7f8c61d18f1ecce2fe3dce506de9",
+      "turns": 331,
+      "chunks": 49,
+      "warnings": []
+    },
+    {
+      "path": "episodes/matt-macinnis/transcript.md",
+      "source_hash": "7c44865c51c91c48957f43f34e0c3e5b3bcc9ca4ff26baf4b0d69059d01f9c24",
+      "turns": 261,
+      "chunks": 51,
+      "warnings": [
+        "guest_title_mismatch_review_required"
+      ]
+    },
+    {
+      "path": "episodes/matt-mochary/transcript.md",
+      "source_hash": "99251af70c8116b1abdeb00083680b55288481142d3cd07d81fdade2dd677397",
+      "turns": 162,
+      "chunks": 37,
+      "warnings": []
+    },
+    {
+      "path": "episodes/matt-mullenweg/transcript.md",
+      "source_hash": "bb32532bebcb2e0d14fa27244a05b0546109794a0fd218934596cea661afc699",
+      "turns": 212,
+      "chunks": 51,
+      "warnings": [
+        "guest_title_mismatch_review_required"
+      ]
+    },
+    {
+      "path": "episodes/matthew-dicks/transcript.md",
+      "source_hash": "c1b8a58dab9f41d081a23b72d3ad4d312877e857c227dcab51d007374e287fcf",
+      "turns": 225,
+      "chunks": 59,
+      "warnings": []
+    },
+    {
+      "path": "episodes/maya-prohovnik/transcript.md",
+      "source_hash": "ead1cf49eeb43bfd4aeb6f4cdbcaf553d23080feb8c837891c5d7a913f056841",
+      "turns": 209,
+      "chunks": 41,
+      "warnings": []
+    },
+    {
+      "path": "episodes/mayur-kamat/transcript.md",
+      "source_hash": "5fd180626d4ef53cfc4b96e64f8fe42dcb7b9da6d613eb345b263d3a1a15fa8a",
+      "turns": 193,
+      "chunks": 48,
+      "warnings": []
+    },
+    {
+      "path": "episodes/megan-cook/transcript.md",
+      "source_hash": "649d2e85570c18b34a73a07ef135d920ec280819773a276bd916f99b4516198d",
+      "turns": 207,
+      "chunks": 42,
+      "warnings": []
+    },
+    {
+      "path": "episodes/melanie-perkins/transcript.md",
+      "source_hash": "4cdb2633e18f367093661ad41b969c0737545f2ba9cd403c4bd2057bd7173bfc",
+      "turns": 172,
+      "chunks": 38,
+      "warnings": []
+    },
+    {
+      "path": "episodes/melissa/transcript.md",
+      "source_hash": "03eeccf774b2abd4dddc05c77bfcc9fab4071f8a6030baefd19f75ea7bd4d091",
+      "turns": 144,
+      "chunks": 30,
+      "warnings": []
+    },
+    {
+      "path": "episodes/melissa-perri/transcript.md",
+      "source_hash": "7a40f0d771ae913f9b50de61ec27c8c14ece374db1ffa6911f2cd02a1191a71f",
+      "turns": 156,
+      "chunks": 45,
+      "warnings": []
+    },
+    {
+      "path": "episodes/melissa-perri-denise-tilles/transcript.md",
+      "source_hash": "bc1a0f90065c5a37f786ca0c8fadd7fce01561e6f4480be1ad14570a5aa6b202",
+      "turns": 195,
+      "chunks": 43,
+      "warnings": []
+    },
+    {
+      "path": "episodes/melissa-tan/transcript.md",
+      "source_hash": "0d0fe116be27e6227e8ea985c9e4d024541231cc75018cc7992e80f10175b06d",
+      "turns": 177,
+      "chunks": 41,
+      "warnings": []
+    },
+    {
+      "path": "episodes/meltem-kuran/transcript.md",
+      "source_hash": "c82e89f774c3c9ef95c61840eab1ce006ed617dfdc7facefdb313829454d918f",
+      "turns": 214,
+      "chunks": 43,
+      "warnings": []
+    },
+    {
+      "path": "episodes/merci-grace/transcript.md",
+      "source_hash": "6b6ccb4a7304dfc059273466ed94c6e4bcf1521d436dbd651c4ec5bbc112862e",
+      "turns": 140,
+      "chunks": 29,
+      "warnings": [
+        "guest_title_mismatch_review_required"
+      ]
+    },
+    {
+      "path": "episodes/michael-truell/transcript.md",
+      "source_hash": "ce9bc2042a43be57f7378ec5b3313bd35a83ba9ff891cd20ee6db6965c1fda39",
+      "turns": 155,
+      "chunks": 36,
+      "warnings": []
+    },
+    {
+      "path": "episodes/mihika-kapoor/transcript.md",
+      "source_hash": "01cb50db11839ad7cb820153f45658470240abfb0de8aad7bd1dc4c60123d6af",
+      "turns": 200,
+      "chunks": 52,
+      "warnings": []
+    },
+    {
+      "path": "episodes/mike-krieger/transcript.md",
+      "source_hash": "f9d54953e765f2c317327b389f1617dbb8cb1b63491280303f9a1a0a1260e4c1",
+      "turns": 146,
+      "chunks": 38,
+      "warnings": []
+    },
+    {
+      "path": "episodes/mike-maples-jr/transcript.md",
+      "source_hash": "1a455a5c593c29285804c5e021807e07ecb01cdcbb0ee18d70525082872acf05",
+      "turns": 222,
+      "chunks": 56,
+      "warnings": [
+        "non_monotonic_timestamp"
+      ]
+    },
+    {
+      "path": "episodes/molly-graham/transcript.md",
+      "source_hash": "118d710bef90890e4f87ed945f329de378423a2b5cd503c021f29909fa153b39",
+      "turns": 237,
+      "chunks": 49,
+      "warnings": []
+    },
+    {
+      "path": "episodes/nabeel-s-qureshi/transcript.md",
+      "source_hash": "35051fe64c1b2533d6cea1055132d3e98128d53bbb73f4e8cc4107ff425dec96",
+      "turns": 233,
+      "chunks": 53,
+      "warnings": []
+    },
+    {
+      "path": "episodes/nan-yu/transcript.md",
+      "source_hash": "f7de1a664997c3ba4765267c72d81a37c791737200bef1f3e3739bbe83b5a86b",
+      "turns": 210,
+      "chunks": 45,
+      "warnings": []
+    },
+    {
+      "path": "episodes/nancy-duarte/transcript.md",
+      "source_hash": "02c5b1cee4f0f5fd9d96d791b74e8706315af981afe43cbec4579394d945cb6f",
+      "turns": 189,
+      "chunks": 41,
+      "warnings": []
+    },
+    {
+      "path": "episodes/naomi-gleit/transcript.md",
+      "source_hash": "d75838026228c94121fa952dca92c206515a4f8521fe4ddd7c0b18a47c89699a",
+      "turns": 285,
+      "chunks": 50,
+      "warnings": [
+        "non_monotonic_timestamp"
+      ]
+    },
+    {
+      "path": "episodes/naomi-ionita/transcript.md",
+      "source_hash": "bc0afa6c728bd729e31b0464e8f959611d8b078a7ec0f0441ddb164810b4f8f5",
+      "turns": 134,
+      "chunks": 30,
+      "warnings": [
+        "non_monotonic_timestamp"
+      ]
+    },
+    {
+      "path": "episodes/nick-turley/transcript.md",
+      "source_hash": "382437869c723dde7cf90bde6a43983a048833a99a22fd7ec2637d07483a905a",
+      "turns": 289,
+      "chunks": 53,
+      "warnings": []
+    },
+    {
+      "path": "episodes/nickey-skarstad/transcript.md",
+      "source_hash": "efeb840571c14c9de6a3d30ee1910c6d77993373e96f6d03db89e22386e42b80",
+      "turns": 167,
+      "chunks": 38,
+      "warnings": []
+    },
+    {
+      "path": "episodes/nicole-forsgren/transcript.md",
+      "source_hash": "ba3b945a7a9087554d99f2e406bfaa865f97b3a694c69d8375c307c2e81fc616",
+      "turns": 186,
+      "chunks": 37,
+      "warnings": []
+    },
+    {
+      "path": "episodes/nicole-forsgren-20/transcript.md",
+      "source_hash": "053b76082d046e9d2dc291b56e62dc99b415c3e16d56071b9b3c47a93ab5268c",
+      "turns": 186,
+      "chunks": 37,
+      "warnings": []
+    },
+    {
+      "path": "episodes/nikhyl-singhal/transcript.md",
+      "source_hash": "021cc18a02cd4d67f2d151409b75ec933f3f500284196266639ef3b95431c47e",
+      "turns": 169,
+      "chunks": 42,
+      "warnings": []
+    },
+    {
+      "path": "episodes/nikita-bier/transcript.md",
+      "source_hash": "5d464aa18af329f3d91b421874bf8e8240a388247ec01945112a6c9e2e8b2555",
+      "turns": 191,
+      "chunks": 44,
+      "warnings": [
+        "guest_title_mismatch_review_required"
+      ]
+    },
+    {
+      "path": "episodes/nikita-miller/transcript.md",
+      "source_hash": "9be880d04e625fd3829ded6abedb1af6036c1a9ee42a14b5166da646a76a70c8",
+      "turns": 206,
+      "chunks": 31,
+      "warnings": []
+    },
+    {
+      "path": "episodes/nilan-peiris/transcript.md",
+      "source_hash": "3237832d91b943a7bdd2dba54c7717c3aabd4c19353e55d0d21fef3ad7e0ffea",
+      "turns": 209,
+      "chunks": 41,
+      "warnings": []
+    },
+    {
+      "path": "episodes/nir-eyal/transcript.md",
+      "source_hash": "a8c03d3e4e533ffc768797c047fc782fc13efaae29a432242d0f7246f9cd488b",
+      "turns": 184,
+      "chunks": 51,
+      "warnings": []
+    },
+    {
+      "path": "episodes/noah-weiss/transcript.md",
+      "source_hash": "fb49faf84e18188066268480c18c1ac1f4158fa84ae2ae8c5b4f4bf99640917b",
+      "turns": 283,
+      "chunks": 48,
+      "warnings": []
+    },
+    {
+      "path": "episodes/noam-lovinsky/transcript.md",
+      "source_hash": "9fe92f65140561014c7c5232f614f0dd2976efe9cc7f8bd4522ae772cc879003",
+      "turns": 162,
+      "chunks": 34,
+      "warnings": []
+    },
+    {
+      "path": "episodes/oji-udezue/transcript.md",
+      "source_hash": "fe436d6e0dcea4f83e50dd9a4e79a118bfe49bb1e142c01dfb30fb3f4943ce21",
+      "turns": 172,
+      "chunks": 38,
+      "warnings": []
+    },
+    {
+      "path": "episodes/paige-costello/transcript.md",
+      "source_hash": "ca78321206aeaef3b6b6790e9ba30a0e8298ac7b08d874fd8ab13b919f1e0db5",
+      "turns": 172,
+      "chunks": 30,
+      "warnings": []
+    },
+    {
+      "path": "episodes/patrick-campbell/transcript.md",
+      "source_hash": "7bb3d37b635d0325aa992e7bdebb31420462c1da70d8af95c2ac8841dd9735e1",
+      "turns": 194,
+      "chunks": 43,
+      "warnings": []
+    },
+    {
+      "path": "episodes/paul-adams/transcript.md",
+      "source_hash": "3c556218d42b67b24c166de970d96d1fe0c97791757f429694cd6307b8b98472",
+      "turns": 213,
+      "chunks": 44,
+      "warnings": []
+    },
+    {
+      "path": "episodes/paul-millerd/transcript.md",
+      "source_hash": "eaf1b1f0d7b000630f2105018f7152b2442bfa73f9c0b2a44e66b8f898b449e6",
+      "turns": 187,
+      "chunks": 32,
+      "warnings": []
+    },
+    {
+      "path": "episodes/pete-kazanjy/transcript.md",
+      "source_hash": "27ab0f28094df12f60f0cf323e081d84b493431cc0c86d6a6b7ed0263967a28e",
+      "turns": 136,
+      "chunks": 32,
+      "warnings": []
+    },
+    {
+      "path": "episodes/peter-deng/transcript.md",
+      "source_hash": "a829bb2666818ba9dfde43b465bbb70654c9e1c94bd2f45226623ca5608d714f",
+      "turns": 360,
+      "chunks": 61,
+      "warnings": []
+    },
+    {
+      "path": "episodes/petra-wille/transcript.md",
+      "source_hash": "b0c3b4ca827b57b8f269fb359851774f7c533faacbed7abe93261a14927fb221",
+      "turns": 244,
+      "chunks": 39,
+      "warnings": []
+    },
+    {
+      "path": "episodes/phyl-terry/transcript.md",
+      "source_hash": "a94baf2ea719c08bd0cea2d7f0ae85bdec46b7b7e756edc8e81ff5335083a299",
+      "turns": 318,
+      "chunks": 60,
+      "warnings": []
+    },
+    {
+      "path": "episodes/raaz-herzberg/transcript.md",
+      "source_hash": "a23fe638ee8443ca62133f9fc3cc53aeea2c8a1035e83cbfe13714d77cdc5b42",
+      "turns": 288,
+      "chunks": 35,
+      "warnings": []
+    },
+    {
+      "path": "episodes/rachel-lockett/transcript.md",
+      "source_hash": "f2694fdf059853d0fb3ae86da901ae25a28f712a133c704a0186addf3f702e9c",
+      "turns": 372,
+      "chunks": 57,
+      "warnings": [
+        "guest_title_mismatch_review_required"
+      ]
+    },
+    {
+      "path": "episodes/rahul-vohra/transcript.md",
+      "source_hash": "415fc64051b2b60cbd63f1eca7ae815c35cb66efde81e7e2db46536bf6cd8d1b",
+      "turns": 174,
+      "chunks": 43,
+      "warnings": [
+        "non_monotonic_timestamp"
+      ]
+    },
+    {
+      "path": "episodes/ramesh-johari/transcript.md",
+      "source_hash": "0051997c866fa5dd42f8ad4528724283c4e0e4c9ea1be0bb92709a90638f7474",
+      "turns": 230,
+      "chunks": 46,
+      "warnings": []
+    },
+    {
+      "path": "episodes/ravi-mehta/transcript.md",
+      "source_hash": "955cd9a0ed3ce4a538b3dee03bbf545632fa4151f53c3314fe859cd8528f7fb5",
+      "turns": 197,
+      "chunks": 47,
+      "warnings": []
+    },
+    {
+      "path": "episodes/ray-cao/transcript.md",
+      "source_hash": "ac0ae09e52572b73e81f134b43fb1b729a0900a8e16b41a12cc537c01e8841e5",
+      "turns": 140,
+      "chunks": 37,
+      "warnings": [
+        "guest_title_mismatch_review_required"
+      ]
+    },
+    {
+      "path": "episodes/richard-rumelt/transcript.md",
+      "source_hash": "67d7e5e19a947b0d9772976c912fd9d16e7ace7603dbcb535dc378390a00bab9",
+      "turns": 169,
+      "chunks": 43,
+      "warnings": []
+    },
+    {
+      "path": "episodes/robby-stein/transcript.md",
+      "source_hash": "90e9648e89f98a83bfc7c00cfd61717e6b5e1768eb14cca4d6a06b287af6853f",
+      "turns": 292,
+      "chunks": 49,
+      "warnings": []
+    },
+    {
+      "path": "episodes/roger-martin/transcript.md",
+      "source_hash": "9a3b9a7849b36e993057cf4d686328bf6d2081c3505b16d55f0b2452a05c9675",
+      "turns": 190,
+      "chunks": 37,
+      "warnings": []
+    },
+    {
+      "path": "episodes/ronny-kohavi/transcript.md",
+      "source_hash": "54f24c7cc2f6f7052285fd9d908d5939e7c0ac882b20ac5c56fa81fc63d60db8",
+      "turns": 235,
+      "chunks": 41,
+      "warnings": []
+    },
+    {
+      "path": "episodes/ryan-hoover/transcript.md",
+      "source_hash": "cf7a605af8bc2d097a85a731c48f30365386be3602d060634e68e5bd0de2068b",
+      "turns": 174,
+      "chunks": 42,
+      "warnings": [
+        "guest_title_mismatch_review_required",
+        "non_monotonic_timestamp"
+      ]
+    },
+    {
+      "path": "episodes/ryan-j-salva/transcript.md",
+      "source_hash": "338ebc2df92bd43e23d0016f70e28e815c02614ae1e84032e0a9051e6657991c",
+      "turns": 143,
+      "chunks": 29,
+      "warnings": []
+    },
+    {
+      "path": "episodes/ryan-singer/transcript.md",
+      "source_hash": "502fb8b06442857837168ae25884afd675d4dbaaee8dad78391d67040e44cb84",
+      "turns": 300,
+      "chunks": 53,
+      "warnings": []
+    },
+    {
+      "path": "episodes/sachin-monga/transcript.md",
+      "source_hash": "d494841da5ac1ac348e7170206d86ee3336f7da958b3d6a06e1fff27a4b35a5d",
+      "turns": 169,
+      "chunks": 36,
+      "warnings": []
+    },
+    {
+      "path": "episodes/sahil-mansuri/transcript.md",
+      "source_hash": "20e095dfe2ec13e377f5e03b89cf4bb281ce7a5e4420e8e8cc7360fc63647ccd",
+      "turns": 182,
+      "chunks": 45,
+      "warnings": []
+    },
+    {
+      "path": "episodes/sam-schillace/transcript.md",
+      "source_hash": "3ea6422af223ddbd425c25c49dd94b6479a15a84908515177e995250fdb3778e",
+      "turns": 207,
+      "chunks": 50,
+      "warnings": []
+    },
+    {
+      "path": "episodes/sanchan-saxena/transcript.md",
+      "source_hash": "5346ea6483941cbbaffab31d8a5db3737170f616781bd3576e66792b31ee9a8b",
+      "turns": 217,
+      "chunks": 37,
+      "warnings": [
+        "guest_title_mismatch_review_required"
+      ]
+    },
+    {
+      "path": "episodes/sander-schulhoff/transcript.md",
+      "source_hash": "cd4b6452a6c820b99ac3b31f284fa0754161f99783d3b2124f09a2a95607916e",
+      "turns": 341,
+      "chunks": 49,
+      "warnings": [
+        "non_monotonic_timestamp"
+      ]
+    },
+    {
+      "path": "episodes/sander-schulhoff-20/transcript.md",
+      "source_hash": "b030668c53a07b9f087c761d4b2367417e2ab50736218d9d62fbe0d840f7d0d8",
+      "turns": 174,
+      "chunks": 41,
+      "warnings": [
+        "guest_title_mismatch_review_required",
+        "non_monotonic_timestamp"
+      ]
+    },
+    {
+      "path": "episodes/sarah-tavel/transcript.md",
+      "source_hash": "51025f15a86528eb96f8d5de8c8f8744ac62cbd7214619e3025028d57232fe70",
+      "turns": 304,
+      "chunks": 53,
+      "warnings": []
+    },
+    {
+      "path": "episodes/scott-belsky/transcript.md",
+      "source_hash": "aa4980bcdfc0a3fab01f8c9c1233981f606fc5aff9548ad18c5b1929d507a409",
+      "turns": 183,
+      "chunks": 33,
+      "warnings": []
+    },
+    {
+      "path": "episodes/scott-wu/transcript.md",
+      "source_hash": "6d2bcd566a1caec04950c2397b278bb563beb68ac105cbff8e5218adcbd275f6",
+      "turns": 275,
+      "chunks": 53,
+      "warnings": [
+        "non_monotonic_timestamp"
+      ]
+    },
+    {
+      "path": "episodes/sean-ellis/transcript.md",
+      "source_hash": "6af2a6e031826805e855ec262b1f228e3773b5b99265a1d01870f0d4e6e9ceda",
+      "turns": 262,
+      "chunks": 52,
+      "warnings": []
+    },
+    {
+      "path": "episodes/seth-godin/transcript.md",
+      "source_hash": "2df8a3b11c45f5bbf742024f30dc990f1670886f3db27efa8257afb0de171a8b",
+      "turns": 96,
+      "chunks": 24,
+      "warnings": []
+    },
+    {
+      "path": "episodes/shaun-clowes/transcript.md",
+      "source_hash": "f402eb50a5a057160bc9683e908d1cbc4c5595d1b9617fad11e5b9294b755810",
+      "turns": 161,
+      "chunks": 46,
+      "warnings": []
+    },
+    {
+      "path": "episodes/shishir-mehrotra/transcript.md",
+      "source_hash": "f947901113d3f784d1ae46ae12cf927a734f67fa5259103e96e34a3a3cd29502",
+      "turns": 197,
+      "chunks": 53,
+      "warnings": [
+        "non_monotonic_timestamp"
+      ]
+    },
+    {
+      "path": "episodes/shreyas-doshi/transcript.md",
+      "source_hash": "4e7f53f543391e9d64b738133eb9ffcefc761bbf22bec002716c5f9c90e940d6",
+      "turns": 129,
+      "chunks": 40,
+      "warnings": []
+    },
+    {
+      "path": "episodes/shreyas-doshi-live/transcript.md",
+      "source_hash": "f28d7cddf6a26dcbd62c95141230a61786f6aac179fa158a61772f85d72df260",
+      "turns": 100,
+      "chunks": 20,
+      "warnings": []
+    },
+    {
+      "path": "episodes/shweta-shriva/transcript.md",
+      "source_hash": "6658eb1108115b1c9723930e9974fd861869dbbe9e2bdb341b961979ce47e2ac",
+      "turns": 135,
+      "chunks": 22,
+      "warnings": [
+        "non_monotonic_timestamp"
+      ]
+    },
+    {
+      "path": "episodes/sri-batchu/transcript.md",
+      "source_hash": "ede51b8eef5258139aa63fafbe5d641be124819d72aecb4b894fa2ef4c7d1599",
+      "turns": 194,
+      "chunks": 39,
+      "warnings": []
+    },
+    {
+      "path": "episodes/sriram-and-aarthi/transcript.md",
+      "source_hash": "fcb0ed1ab6bd024125f447284e4edaf312c923784dbfccf94ad4f13383107be8",
+      "turns": 230,
+      "chunks": 48,
+      "warnings": []
+    },
+    {
+      "path": "episodes/stewart-butterfield/transcript.md",
+      "source_hash": "216e7944e5d8d8c731f3a8feccb476d64b7ed061cd6ddf017772df74f9560d18",
+      "turns": 193,
+      "chunks": 46,
+      "warnings": [
+        "non_monotonic_timestamp"
+      ]
+    },
+    {
+      "path": "episodes/tamar-yehoshua/transcript.md",
+      "source_hash": "e39b701f13143644d306e82294a12565d56f56cb392ae53d9d9694a26fa4dc5a",
+      "turns": 169,
+      "chunks": 40,
+      "warnings": []
+    },
+    {
+      "path": "episodes/tanguy-crusson/transcript.md",
+      "source_hash": "8cb2bc7a557f5b00f26341a7e50866631eb08791b97e60940235593abbdabf4a",
+      "turns": 301,
+      "chunks": 60,
+      "warnings": []
+    },
+    {
+      "path": "episodes/teaser_2021/transcript.md",
+      "source_hash": "a0939dffeec67931ec8a4e95c59110c9336fcdec4a2694663dc6357bec524eaa",
+      "turns": 16,
+      "chunks": 5,
+      "warnings": [
+        "missing_title"
+      ]
+    },
+    {
+      "path": "episodes/teresa-torres/transcript.md",
+      "source_hash": "f3e50c557afa55ee6c856aaeb4872888e5c68674395abb3f41b863c2d3e44222",
+      "turns": 165,
+      "chunks": 27,
+      "warnings": []
+    },
+    {
+      "path": "episodes/tim-holley/transcript.md",
+      "source_hash": "d4e3623646a20137bd5dd732ee8ecf573cedd5888f46a469e1b42f3ad90cf0c7",
+      "turns": 211,
+      "chunks": 39,
+      "warnings": [
+        "non_monotonic_timestamp"
+      ]
+    },
+    {
+      "path": "episodes/timothy-davis/transcript.md",
+      "source_hash": "b09899423ddbc2ea8016f54dedfb5a56db31cf4d64e90cbf1f5a66eddc997149",
+      "turns": 262,
+      "chunks": 52,
+      "warnings": []
+    },
+    {
+      "path": "episodes/tobi-lutke/transcript.md",
+      "source_hash": "61ebb8dcf5871c840412d02c2b67c533df516dd0ed2e2c75d4e76a65ecb63817",
+      "turns": 166,
+      "chunks": 46,
+      "warnings": [
+        "guest_title_mismatch_review_required"
+      ]
+    },
+    {
+      "path": "episodes/todd-jackson/transcript.md",
+      "source_hash": "f478601b5303d9ec0ca15af546e7ceeaf9a70835caf8f8f5776032a74a16bbc8",
+      "turns": 236,
+      "chunks": 49,
+      "warnings": []
+    },
+    {
+      "path": "episodes/tom-conrad/transcript.md",
+      "source_hash": "dbbbded045f7850271352af610307912d7512615610b3feaeff2651741a22e8c",
+      "turns": 222,
+      "chunks": 47,
+      "warnings": []
+    },
+    {
+      "path": "episodes/tomer-cohen/transcript.md",
+      "source_hash": "4a62c5c2ed22f8a71891ad37c9cfa16240ba89ade868862f85573083e892ca3d",
+      "turns": 179,
+      "chunks": 37,
+      "warnings": []
+    },
+    {
+      "path": "episodes/tomer-cohen-20/transcript.md",
+      "source_hash": "e6f2b7f46811f9a1eaa7d7b569d1e23c048fde58a6168c2441aef5b54cfd53c1",
+      "turns": 173,
+      "chunks": 37,
+      "warnings": []
+    },
+    {
+      "path": "episodes/tristan-de-montebello/transcript.md",
+      "source_hash": "b9d33c5c71093b41f4c08682597097759234fcc7c8aaa8ef8079e072e5581446",
+      "turns": 295,
+      "chunks": 59,
+      "warnings": []
+    },
+    {
+      "path": "episodes/upasna-gautam/transcript.md",
+      "source_hash": "3783af94ceee30f4ff24fe41ac00f123acaabf8e2724c25ede099a32b35ab8df",
+      "turns": 138,
+      "chunks": 28,
+      "warnings": []
+    },
+    {
+      "path": "episodes/uri-levine/transcript.md",
+      "source_hash": "edab2e5d3cdd6631fb0040b485456de5dcba58ab7b2fa82de9ebd7355bf5d670",
+      "turns": 179,
+      "chunks": 40,
+      "warnings": []
+    },
+    {
+      "path": "episodes/uri-levine-20/transcript.md",
+      "source_hash": "0a1977f22da578e94d1cdb7eb9bf6c19fb12813aeba035192205127d059d72c9",
+      "turns": 196,
+      "chunks": 38,
+      "warnings": []
+    },
+    {
+      "path": "episodes/varun-mohan/transcript.md",
+      "source_hash": "850f78e498c2e1d92f09346104997519691d0728f7d5565c80d2d4850c87002e",
+      "turns": 230,
+      "chunks": 45,
+      "warnings": [
+        "guest_title_mismatch_review_required"
+      ]
+    },
+    {
+      "path": "episodes/varun-parmar/transcript.md",
+      "source_hash": "ba07935802e6db90b2ea08d0b8d9a4c8b047f470ee7f03debe71123db28d4349",
+      "turns": 186,
+      "chunks": 43,
+      "warnings": []
+    },
+    {
+      "path": "episodes/vijay/transcript.md",
+      "source_hash": "54e910f656c386b6aeda544c98b7eb9ea6849890119b76891ac0d0c3c7c887ce",
+      "turns": 132,
+      "chunks": 28,
+      "warnings": []
+    },
+    {
+      "path": "episodes/vikrama-dhiman/transcript.md",
+      "source_hash": "5f1a57085afd86919a7686fcdc8790546df205cf4d8857fddc21fa8ec642dac5",
+      "turns": 128,
+      "chunks": 34,
+      "warnings": []
+    },
+    {
+      "path": "episodes/wes-kao/transcript.md",
+      "source_hash": "1d891dbdb9fc29184823e6a47f3f2eb4f1fba9d05fea32c5ee3da4cbb166fe1c",
+      "turns": 239,
+      "chunks": 49,
+      "warnings": []
+    },
+    {
+      "path": "episodes/wes-kao-20/transcript.md",
+      "source_hash": "d27f1f2e6eb40d24831e711b138ae47a1c5e664e3a5a340076bd8e45e8f740ca",
+      "turns": 239,
+      "chunks": 49,
+      "warnings": []
+    },
+    {
+      "path": "episodes/will-larson/transcript.md",
+      "source_hash": "ca826b2d7a470ca34ccff7e4f9fe871045511604ccf50840d42eae10262bab0b",
+      "turns": 199,
+      "chunks": 42,
+      "warnings": []
+    },
+    {
+      "path": "episodes/yamashata/transcript.md",
+      "source_hash": "28a8611d8eff9e3a5670c3f81c92dde5e5e93a31b8b822145c9ec5ae9c1ba685",
+      "turns": 182,
+      "chunks": 36,
+      "warnings": [
+        "guest_title_mismatch_review_required"
+      ]
+    },
+    {
+      "path": "episodes/yuhki-yamashata/transcript.md",
+      "source_hash": "b427d804bb29905eed72a4f76ede73b27c9bffa1f994c2e2a0abc435d3b2079d",
+      "turns": 182,
+      "chunks": 36,
+      "warnings": [
+        "guest_title_mismatch_review_required"
+      ]
+    },
+    {
+      "path": "episodes/yuriy-timen/transcript.md",
+      "source_hash": "45050b8a79397530eaa2e823b662830abde97d2c3c2a025a97b93a3f145e69a7",
+      "turns": 189,
+      "chunks": 32,
+      "warnings": []
+    },
+    {
+      "path": "episodes/zoelle-egner/transcript.md",
+      "source_hash": "ec915c50d05182cb2b961dcfb5db036f5075f32b58b26a8cbeacccba710ac0e9",
+      "turns": 288,
+      "chunks": 43,
+      "warnings": [
+        "non_monotonic_timestamp"
+      ]
+    }
+  ]
+}

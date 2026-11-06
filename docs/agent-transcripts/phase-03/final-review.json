@@ -1,0 +1,119 @@
+{
+  "captured_at": "2026-11-06T05:49:35.792829+00:00",
+  "passed": true,
+  "checks": [
+    {
+      "name": "Final contract suite on real PostgreSQL",
+      "passed": true,
+      "detail": "30 tests: 23 unit/parser/mock and 7 DB/API; retained DB in command log"
+    },
+    {
+      "name": "Separate real local fixture integrity",
+      "passed": true,
+      "detail": "Actual PostgreSQL/Ollama; synthetic sources and labelled fault injection"
+    },
+    {
+      "name": "Real pinned corpus smoke and repeat",
+      "passed": true,
+      "detail": {
+        "first_duration_seconds": 24.07782059400006,
+        "repeat_duration_seconds": 0.24660229199980677,
+        "active_chunks": 114,
+        "selected": 3,
+        "discovered": 303
+      }
+    },
+    {
+      "name": "Full parser audit is distinct from embeddings",
+      "passed": true,
+      "detail": {
+        "parsed": 303,
+        "candidate_chunks": 12770
+      }
+    },
+    {
+      "name": "Current Python source parses",
+      "passed": true,
+      "detail": {
+        "python_files": 41,
+        "errors": []
+      }
+    },
+    {
+      "name": "Current documentation links resolve",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "All 29 requirement IDs present once",
+      "passed": true,
+      "detail": {
+        "count": 29
+      }
+    },
+    {
+      "name": "Five scenario inputs have reproducible source anchors",
+      "passed": true,
+      "detail": {
+        "invalid": [],
+        "freeze_sha256": "40f37d0690c4e6d7963c27343c1b31293aa47c71f8936b058b646ac32d5511ce",
+        "outcomes": "not run",
+        "duration_caps": "pending complete-journey baseline"
+      }
+    },
+    {
+      "name": "Historical evidence preserved through final audit",
+      "passed": true,
+      "detail": {
+        "phase_1_files": 157,
+        "phase_2_files": 13,
+        "original_spike_files": 14
+      }
+    },
+    {
+      "name": "Tested container backend/agent matches workspace",
+      "passed": true,
+      "detail": {
+        "files": 34,
+        "mismatch": []
+      }
+    },
+    {
+      "name": "Generated credential absent from source/evidence",
+      "passed": true,
+      "detail": {
+        "suspect_paths": [],
+        "limit": "Exact generated credential check; not a complete security audit"
+      }
+    },
+    {
+      "name": "Saved JSON evidence parses",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "No confidential PDF or full corpus in source list",
+      "passed": true,
+      "detail": {
+        "unexpected_paths": []
+      }
+    },
+    {
+      "name": "Frontend TypeScript/build",
+      "passed": true,
+      "detail": "TypeScript + Vite, no visual browser pass"
+    },
+    {
+      "name": "Installed dependency compatibility",
+      "passed": true,
+      "detail": "Actual container pip check"
+    }
+  ],
+  "limits": [
+    "3/303 corpus episodes indexed; full ingestion unverified",
+    "No retrieval ranking/semantic answer/essay/SC-01 outcomes",
+    "Browser bootstrap failed before connection; no UI inspection",
+    "Corpus redistribution rights/full coding-conversation export unresolved",
+    "No production authentication, cloud integration or clean evaluator rehearsal"
+  ]
+}

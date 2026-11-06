@@ -1,0 +1,47 @@
+{
+  "kind": "manual_review_notes_not_model_output",
+  "reviewed_at": "2026-11-06T05:46:42.401842+00:00",
+  "corpus_revision": "be8ab89a890a833cbba2c892178f823fff178c65",
+  "notes": "Manually read representative sponsor introductions; flags identify sponsorship without deleting the surrounding turn. Not a precision/recall evaluation.",
+  "samples": [
+    {
+      "source_path": "episodes/brian-balfour/transcript.md",
+      "source_hash": "d974750bfb180d40e69a6d347c87d93ea007e6c26018bccbe9a1de9d0d4353ba",
+      "flagged_turns": 3,
+      "reviewed_turn": {
+        "char_start": 4204,
+        "char_end": 4884,
+        "timestamp_seconds": 152,
+        "speaker": "Lenny Rachitsky",
+        "passage_sha256": "ca0cda0e5c149bfcc8a4ba51c4630b6ccc967806dbdbc191ae1910881c3b4f60"
+      },
+      "review": "Actual sponsor introduction; turn remains preserved. Phrase heuristic may include surrounding discussion."
+    },
+    {
+      "source_path": "episodes/sean-ellis/transcript.md",
+      "source_hash": "6af2a6e031826805e855ec262b1f228e3773b5b99265a1d01870f0d4e6e9ceda",
+      "flagged_turns": 2,
+      "reviewed_turn": {
+        "char_start": 5790,
+        "char_end": 6279,
+        "timestamp_seconds": 248,
+        "speaker": "Lenny Rachitsky",
+        "passage_sha256": "184ff49737507f43df617a51b2d4fdd2747f0a1106020506379e276004727e3a"
+      },
+      "review": "Actual sponsor introduction; turn remains preserved. Phrase heuristic may include surrounding discussion."
+    },
+    {
+      "source_path": "episodes/shreyas-doshi-live/transcript.md",
+      "source_hash": "f28d7cddf6a26dcbd62c95141230a61786f6aac179fa158a61772f85d72df260",
+      "flagged_turns": 3,
+      "reviewed_turn": {
+        "char_start": 3700,
+        "char_end": 4240,
+        "timestamp_seconds": 186,
+        "speaker": "Lenny Rachitsky",
+        "passage_sha256": "fc47ce26a2b8b140602bfd6b17b4a87983074a3c2425c51cb24fe41fbfc86ecb"
+      },
+      "review": "Actual sponsor introduction; turn remains preserved. Phrase heuristic may include surrounding discussion."
+    }
+  ]
+}

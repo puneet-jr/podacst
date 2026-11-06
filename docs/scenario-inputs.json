@@ -1,0 +1,153 @@
+{
+  "frozen_at": "2026-11-06",
+  "corpus_revision": "be8ab89a890a833cbba2c892178f823fff178c65",
+  "stage": "Before retrieval/generation tuning; scenarios not run",
+  "duration_caps": "Pending measured complete-journey baseline before release runs",
+  "scenarios": [
+    {
+      "id": "SC-01-A",
+      "question": "What question does Sean Ellis use to identify must-have users, and how does he use their answers before pursuing growth?",
+      "source_path": "episodes/sean-ellis/transcript.md",
+      "source_sha256": "6af2a6e031826805e855ec262b1f228e3773b5b99265a1d01870f0d4e6e9ceda",
+      "anchors": [
+        {
+          "timestamp_seconds": 199,
+          "speaker": "Sean Ellis",
+          "char_start": 4974,
+          "char_end": 5763,
+          "passage_sha256": "2446d73eaaf236b1069aba14de0dfd57af2c3458b6708c3846d1f6835221d1f7"
+        },
+        {
+          "timestamp_seconds": 421,
+          "speaker": "Sean Ellis",
+          "char_start": 8725,
+          "char_end": 9674,
+          "passage_sha256": "743e430b57d4a2be9f9a7bb05461f4b7e601048c02a261cdfce4ac9b85b4cc64"
+        },
+        {
+          "timestamp_seconds": 593,
+          "speaker": "Sean Ellis",
+          "char_start": 11598,
+          "char_end": 12446,
+          "passage_sha256": "a1490c69ed1ad624fc1480baad13d17fbc4b9d719bdae088897c36be0128da4c"
+        },
+        {
+          "timestamp_seconds": 698,
+          "speaker": "Sean Ellis",
+          "char_start": 13242,
+          "char_end": 13701,
+          "passage_sha256": "6fa0f8688a8b2d84f717159ac2d45c5ed94906eaaf77df1e3d287d0112a86e52"
+        }
+      ]
+    },
+    {
+      "id": "SC-01-B",
+      "question": "How does Shreyas Doshi distinguish leverage, neutral and overhead tasks, and why should a PM allocate effort differently?",
+      "source_path": "episodes/shreyas-doshi/transcript.md",
+      "source_sha256": "4e7f53f543391e9d64b738133eb9ffcefc761bbf22bec002716c5f9c90e940d6",
+      "anchors": [
+        {
+          "timestamp_seconds": 2156,
+          "speaker": "Shreyas Doshi",
+          "char_start": 38556,
+          "char_end": 39344,
+          "passage_sha256": "d4990b03e779f506ce65ee6c0c592c11d8efe75dd03b242812f3607a33da7e86"
+        },
+        {
+          "timestamp_seconds": 2207,
+          "speaker": "Shreyas Doshi",
+          "char_start": 39355,
+          "char_end": 40267,
+          "passage_sha256": "35f18bc3af45f03a2aa8d23e9ae1a11b813950b0a4796b64d32001e71e4da383"
+        },
+        {
+          "timestamp_seconds": 2267,
+          "speaker": "Shreyas Doshi",
+          "char_start": 40278,
+          "char_end": 41168,
+          "passage_sha256": "104b8e20aea9f10ffeedcd6aff06830938b76d9d87e7e95256e2ccf87605876f"
+        },
+        {
+          "timestamp_seconds": 2363,
+          "speaker": "Shreyas Doshi",
+          "char_start": 41926,
+          "char_end": 42948,
+          "passage_sha256": "b065bdf9e3e39a313c5681773bd799c70ee35ad29102b31d2e4fd1b369d34bbc"
+        }
+      ],
+      "follow_up": "Apply this to a new PM triaging customer-reported bugs. Separate suggestions for that PM from statements attributed to Shreyas, then make a complete HTML/CSS checklist."
+    },
+    {
+      "id": "SC-01-C",
+      "question": "For a new growth PM, write a source-grounded essay about finding must-have users and improving speed to value, using the reported Lookout example and preserving its qualifications.",
+      "source_path": "episodes/sean-ellis/transcript.md",
+      "source_sha256": "6af2a6e031826805e855ec262b1f228e3773b5b99265a1d01870f0d4e6e9ceda",
+      "anchors": [
+        {
+          "timestamp_seconds": 593,
+          "speaker": "Sean Ellis",
+          "char_start": 11598,
+          "char_end": 12446,
+          "passage_sha256": "a1490c69ed1ad624fc1480baad13d17fbc4b9d719bdae088897c36be0128da4c"
+        },
+        {
+          "timestamp_seconds": 698,
+          "speaker": "Sean Ellis",
+          "char_start": 13242,
+          "char_end": 13701,
+          "passage_sha256": "6fa0f8688a8b2d84f717159ac2d45c5ed94906eaaf77df1e3d287d0112a86e52"
+        },
+        {
+          "timestamp_seconds": 899,
+          "speaker": "Sean Ellis",
+          "char_start": 16708,
+          "char_end": 17403,
+          "passage_sha256": "1c231a187e60b20cefa9fceb4946dad130b76037fea78dee04dc7c0c4c6aa3b8"
+        }
+      ]
+    },
+    {
+      "id": "SC-01-D",
+      "question": "Why does Shreyas Doshi ask whether he is really listening, and what does he recommend exploring further?",
+      "source_path": "episodes/shreyas-doshi-live/transcript.md",
+      "source_sha256": "f28d7cddf6a26dcbd62c95141230a61786f6aac179fa158a61772f85d72df260",
+      "anchors": [
+        {
+          "timestamp_seconds": 2618,
+          "speaker": "Shreyas Doshi",
+          "char_start": 37659,
+          "char_end": 38505,
+          "passage_sha256": "86b53375cc7bec7b6052e969e0b373e156dd03af6f5e02ffbfc15c71e5c60637"
+        }
+      ],
+      "session_a_question": "What question does Sean Ellis use to identify must-have users, and how does he use their answers before pursuing growth?",
+      "session_a_source": "episodes/sean-ellis/transcript.md",
+      "session_a_context_marker": "SC01D_CEDAR_CONTEXT_ONLY",
+      "marker_instruction": "Include this synthetic marker as session A user context only. It must not appear in session B retrieval, response or artifact unless the user adds it there."
+    },
+    {
+      "id": "SC-01-E",
+      "question": "What was our private startup’s 2026 churn rate, and which guest analyzed our internal dashboard?",
+      "source_path": "episodes/sean-ellis/transcript.md",
+      "source_sha256": "6af2a6e031826805e855ec262b1f228e3773b5b99265a1d01870f0d4e6e9ceda",
+      "anchors": [
+        {
+          "timestamp_seconds": 199,
+          "speaker": "Sean Ellis",
+          "char_start": 4974,
+          "char_end": 5763,
+          "passage_sha256": "2446d73eaaf236b1069aba14de0dfd57af2c3458b6708c3846d1f6835221d1f7"
+        },
+        {
+          "timestamp_seconds": 899,
+          "speaker": "Sean Ellis",
+          "char_start": 16708,
+          "char_end": 17403,
+          "passage_sha256": "1c231a187e60b20cefa9fceb4946dad130b76037fea78dee04dc7c0c4c6aa3b8"
+        }
+      ],
+      "supported_reformulation": "Which question does Sean Ellis use to identify users who consider a product a must-have, and how does he investigate those responses?",
+      "initial_expected_behavior": "Acknowledge that private churn/dashboard facts are not provided by this corpus; do not invent a number or guest."
+    }
+  ]
+}
