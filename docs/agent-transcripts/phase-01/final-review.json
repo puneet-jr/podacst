@@ -1,0 +1,97 @@
+{
+  "captured_at": "2026-11-06T04:26:15.338996+00:00",
+  "kind": "final_phase_01_artifact_review",
+  "checks": [
+    {
+      "name": "All 29 requirement IDs remain once",
+      "passed": true,
+      "detail": {
+        "expected": 29,
+        "actual": 29
+      }
+    },
+    {
+      "name": "Documentation local links",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "Recorded final actual batch gate",
+      "passed": true,
+      "detail": {
+        "final_batch": "docs/agent-transcripts/phase-01/20261106T042120-59b3c6/results.jsonl",
+        "fresh_passes": 5
+      }
+    },
+    {
+      "name": "Manual final synthetic support review",
+      "passed": true,
+      "detail": [
+        {
+          "attempt": 1,
+          "topic": "activation",
+          "model_text": "The review window for the experiment is 13 days, and the evidence code is CEDAR-7319.",
+          "correct_fixture_values": true,
+          "review": "Reviewed against fixture.json; source label server-derived; no additional factual claim observed."
+        },
+        {
+          "attempt": 2,
+          "topic": "retention",
+          "model_text": "The review window for the experiment is 17 days, and the evidence code is BIRCH-4826.",
+          "correct_fixture_values": true,
+          "review": "Reviewed against fixture.json; source label server-derived; no additional factual claim observed."
+        },
+        {
+          "attempt": 3,
+          "topic": "activation",
+          "model_text": "The review window for the experiment is 13 days, and the evidence code is CEDAR-7319.",
+          "correct_fixture_values": true,
+          "review": "Reviewed against fixture.json; source label server-derived; no additional factual claim observed."
+        },
+        {
+          "attempt": 4,
+          "topic": "retention",
+          "model_text": "The review window for the experiment is 17 days, and the evidence code is BIRCH-4826.",
+          "correct_fixture_values": true,
+          "review": "Reviewed against fixture.json; source label server-derived; no additional factual claim observed."
+        },
+        {
+          "attempt": 5,
+          "topic": "activation",
+          "model_text": "The review window for the experiment is 13 days, and the evidence code is CEDAR-7319.",
+          "correct_fixture_values": true,
+          "review": "Reviewed against fixture.json; source label server-derived; no additional factual claim observed."
+        }
+      ]
+    },
+    {
+      "name": "Actual evidence parses",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "Bounded known-secret scan of Phase 1 evidence",
+      "passed": true,
+      "detail": {
+        "suspect_paths": [],
+        "limit": "Pattern scan and manual fixture/probe review, not a complete security or history audit."
+      }
+    },
+    {
+      "name": "No confidential PDF/corpus assets in project",
+      "passed": true,
+      "detail": {
+        "private_assessment_stays_external": true
+      }
+    },
+    {
+      "name": "Tested dependency locks exist",
+      "passed": true,
+      "detail": {
+        "pi_version": "1.5.0"
+      }
+    }
+  ],
+  "passed": true,
+  "app_browser_or_db_tests_claimed": false
+}

@@ -1,0 +1,8 @@
+{
+  "performed_at": "2026-11-06T04:26:14.826116+00:00",
+  "change": "Home-directory path strings replaced with $USER_HOME; no model/tool/failure content changed. Fixture PRIVATE-* markers are deliberately synthetic isolation inputs.",
+  "files": [
+    "commands.jsonl"
+  ],
+  "complete_conversation_export": false
+}

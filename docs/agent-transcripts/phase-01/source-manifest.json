@@ -1,0 +1,126 @@
+{
+  "created_at": "2026-11-06T04:26:59.623189+00:00",
+  "revision": "No Git repository initialized; SHA-256 file identity for final Phase 1 source/docs. Runtime logs are separate actual evidence.",
+  "files": [
+    {
+      "path": ".gitignore",
+      "sha256": "fdb4ecdf32130fd32b74597a0da6510478bf2b60fffc1b042579e31379ab20fc"
+    },
+    {
+      "path": "AGENTS.md",
+      "sha256": "2cca72ad38deb65777342e64bf42b6ff2574d08e65113b6629abd11a5eac9862"
+    },
+    {
+      "path": "README.md",
+      "sha256": "ae0c97f6a7944353469b7176438395a2ef05280bd6388bfa2fb0a23cec47dac8"
+    },
+    {
+      "path": "docs/PRD.md",
+      "sha256": "650a14287e67180017db99cf5141ac77bcca906b0d76d32147f045f28937d5d3"
+    },
+    {
+      "path": "docs/architecture.md",
+      "sha256": "20490dc8aaab91f64c4126cab4e93e999cc7916c09c7ea8b4e7f6cabdc645efb"
+    },
+    {
+      "path": "docs/assessment-audit.md",
+      "sha256": "846875367fc3602ac77378d46ec77ca209777e6742fd5f290a4bb1ed7dff070a"
+    },
+    {
+      "path": "docs/assumptions.md",
+      "sha256": "37bc2c65739c56f9da8c509334591799d9fb23e1d761b477f0bbc5cb15bacd48"
+    },
+    {
+      "path": "docs/decisions.md",
+      "sha256": "121011f6d3e5b6d2178ea9a23b7bf041fa22c9dcc2160431c45a992257e381ed"
+    },
+    {
+      "path": "docs/environment.md",
+      "sha256": "30beec574626e7ec44b48c046fd946839b035005b9c139d4613f7eb916d19396"
+    },
+    {
+      "path": "docs/phase-00-report.md",
+      "sha256": "18a6f7df7a98a346295dab11bc62e5d0e3b34942002d3b8253c72a45545b20a6"
+    },
+    {
+      "path": "docs/phase-01-report.md",
+      "sha256": "258657bf5265ac8c96ddda255db97145a8127622ef49e869dfba4958a440db63"
+    },
+    {
+      "path": "docs/progress.md",
+      "sha256": "5b2b816e64536be814da468302a2e0010152bc5744142a5cb5babbf5eeb03cdb"
+    },
+    {
+      "path": "docs/provenance.md",
+      "sha256": "92e05d3d410c21e61f387db3afd1ca3b1289db015acc02443887ada15c103eb2"
+    },
+    {
+      "path": "docs/requirements.md",
+      "sha256": "d65392852fae61259df0033f64576bf797e4df1c07cc2a01717e2acd801861fc"
+    },
+    {
+      "path": "docs/risks.md",
+      "sha256": "d2f2f7b268213cb85e262b7b9981a40c13adef80a3fe4e803c257e3d0ec2726e"
+    },
+    {
+      "path": "docs/scenarios.md",
+      "sha256": "019bf0f518bc658f1100c6c9a883ff5349d923922bd4451c334f214f446de3a3"
+    },
+    {
+      "path": "spike/README.md",
+      "sha256": "29f810e00feffc9f92bccb446dfea1a0ce9b5ea03f8559db92db5a5228918c56"
+    },
+    {
+      "path": "spike/__init__.py",
+      "sha256": "28d2cf7b54e8b74fb80ad84fbd7657a76985377206b364bceffe6f4142268bf9"
+    },
+    {
+      "path": "spike/adapter.py",
+      "sha256": "7669ccde09c7a7a4b6cb0c2c2d937097563bb1d8fe27b2a69360edefd408d438"
+    },
+    {
+      "path": "spike/api.py",
+      "sha256": "f75c85a00c3e030ee2930127123ed6ca873d3e09b24bacd9e5049e94e93ce101"
+    },
+    {
+      "path": "spike/capture.py",
+      "sha256": "7e5619cf66f08227f6d84322a86917fa4640e63614169e029be70a8d4e2af04c"
+    },
+    {
+      "path": "spike/fake_pi.py",
+      "sha256": "fdc167e2f42ac1dca38a68c841614546310cf60dbb0260d421d1c4b9014e1b99"
+    },
+    {
+      "path": "spike/fixture.json",
+      "sha256": "0d85807b9664479b33dc826d48bcb84bb9e55a5305fed3ea6094771e38932d58"
+    },
+    {
+      "path": "spike/live.py",
+      "sha256": "db1ee48249788e64d808b773929b43c669e8535d13ed90d745824db363e88c4d"
+    },
+    {
+      "path": "spike/package-lock.json",
+      "sha256": "b079b6044ca4602c4d98ab9218a4b9f1ac5869410e62200f5190010e6ea4a74e"
+    },
+    {
+      "path": "spike/package.json",
+      "sha256": "38f614d9800770545ec4f39860aeedd0e686e8b9b018e0a890da2c1ccdd6e591"
+    },
+    {
+      "path": "spike/requirements.lock",
+      "sha256": "2b6165a6cf82afe8e02db12081a05d71936caa04cabd08f5af1c5e84b4d814ad"
+    },
+    {
+      "path": "spike/retrieval.ts",
+      "sha256": "c29d393fe1ab01ea4e27b887ceba3385ab52eac7fddb6b885c262452a2884185"
+    },
+    {
+      "path": "spike/test_adapter.py",
+      "sha256": "d25e6280cae3d654c81a9b7033c296ff3df0846054d6ba46edac8e35ac1d8ba5"
+    },
+    {
+      "path": "spike/test_retrieval.ts",
+      "sha256": "e0366729f3ff5e2bb827f55801c043ce4cca8db382f4b59a62e8cd05a98c6ec2"
+    }
+  ]
+}

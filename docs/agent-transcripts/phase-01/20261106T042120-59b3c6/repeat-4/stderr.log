@@ -1,0 +1,4 @@
+{"event":"tool_policy","active":["search_fixture"]}
+{"event":"provider_request","provider":"ollama-local","model":"qwen3:0.6b","request":1,"max_tokens":256,"tools":["search_fixture"],"tool_choice":"search_fixture"}
+{"event":"fixture_read","query":"retention","source_id":"FIXTURE-B"}
+{"event":"provider_request","provider":"ollama-local","model":"qwen3:0.6b","request":2,"max_tokens":256,"tools":["search_fixture"],"tool_choice":"none"}

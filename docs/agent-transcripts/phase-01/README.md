@@ -1,0 +1,9 @@
+# Phase 1 genuine execution evidence
+
+These are actual bounded command results and Pi application runtime traces from 6 November 2026. The phase report is a labelled narrative summary, not reconstructed dialogue. commands.jsonl includes real failed commands/test runs and successful corrections. Each dated batch contains actual results.jsonl plus Pi stdout.jsonl and separate stderr.log. runs/ includes initial probes and actual HTTP request traces. Mock protocol processes write only temporary test logs, not live evidence.
+
+Final passing batch: [20261106T042120-59b3c6/results.jsonl](20261106T042120-59b3c6/results.jsonl). Earlier failed batches remain. Source strings are synthetic and may contain PRIVATE markers expressly created for isolation tests; these are not real secrets. Environment probes print only hardware/version/model information and key-presence decisions, never credential values. Home path strings in this directory are sanitized to $USER_HOME before final delivery; redactions are recorded in redactions.json.
+
+The bounded capture helper retains the last 24 KiB stdout / 16 KiB stderr per command and marks truncation (notably model-download progress). Per-run Pi protocol is separately bounded at 8 MiB and stderr at 64 KiB. A cap failure is not a successful model result. The unabridged Ollama server startup/diagnostic log is a local ignored .cache artifact, not a public transcript.
+
+These traces complement the actual coding-command history but are **not a full Codex conversation export**. The previously disclosed DEL-06 full-session-export gap remains; no user/assistant dialogue was fabricated. source-manifest.json identifies the exact code/config/dependency files at the gate without requiring an invented Git commit. No Git repository was initialized or published.
