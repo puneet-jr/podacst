@@ -1,0 +1,13 @@
+.git
+.env
+.env.*
+.venv
+.venv-phase2
+.cache
+**/node_modules
+**/__pycache__
+**/.DS_Store
+docs
+spike
+*.pdf
+**/dist

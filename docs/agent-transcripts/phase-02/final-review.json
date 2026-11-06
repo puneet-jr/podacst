@@ -1,0 +1,129 @@
+{
+  "captured_at": "2026-11-06T05:12:48.344740+00:00",
+  "passed": true,
+  "checks": [
+    {
+      "name": "Final real persistence/outage gate",
+      "passed": true,
+      "detail": "docs/agent-transcripts/phase-02/live-20261106T050703/results.jsonl"
+    },
+    {
+      "name": "Post-bootstrap actual foundation readiness",
+      "passed": true,
+      "detail": {
+        "status": "ready",
+        "scope": "phase_2_foundation",
+        "product_ready": false,
+        "checks": {
+          "database": {
+            "ready": true,
+            "schema_revision": "0001_foundation",
+            "pgvector_version": "0.8.7"
+          },
+          "corpus": {
+            "ready": false,
+            "status": "empty",
+            "active_chunks": 0
+          },
+          "agent": {
+            "ready": true,
+            "version": "1.5.0"
+          },
+          "ollama": {
+            "ready": true,
+            "reachable_from_api": true,
+            "version": "0.30.11",
+            "generation_model_available": true,
+            "embedding_model_available": true,
+            "embedding_dimensions_compatible": true,
+            "note": "Transport and installed-model availability; does not prove answer or essay quality."
+          }
+        }
+      }
+    },
+    {
+      "name": "Post-bootstrap preserved exact message 93d31abb-4683-493d-a8a7-4d8a09bee319",
+      "passed": true,
+      "detail": {
+        "status": 200
+      }
+    },
+    {
+      "name": "Post-bootstrap preserved exact message a4e0e1bf-4ed9-4d24-b0aa-02de99a16229",
+      "passed": true,
+      "detail": {
+        "status": 200
+      }
+    },
+    {
+      "name": "Final frontend API proxy",
+      "passed": true,
+      "detail": {
+        "status": 200
+      }
+    },
+    {
+      "name": "All 29 plan IDs remain exactly once",
+      "passed": true,
+      "detail": {
+        "count": 29
+      }
+    },
+    {
+      "name": "Current documentation links",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "Phase 1 spike preserved",
+      "passed": true,
+      "detail": {
+        "files": 14,
+        "changed": []
+      }
+    },
+    {
+      "name": "Phase 1 evidence preserved",
+      "passed": true,
+      "detail": {
+        "files": 157,
+        "changed": []
+      }
+    },
+    {
+      "name": "Current Python source parses",
+      "passed": true,
+      "detail": {
+        "python_files": 20
+      }
+    },
+    {
+      "name": "Generated credential not present in source or evidence",
+      "passed": true,
+      "detail": {
+        "suspect_paths": [],
+        "note": "No credential value printed. Not a complete security/history audit."
+      }
+    },
+    {
+      "name": "Saved JSON evidence parses",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "No confidential assessment or corpus in source",
+      "passed": true,
+      "detail": {
+        "dockerignore_excludes_private_inputs": true
+      }
+    },
+    {
+      "name": "Browser gap explicitly disclosed",
+      "passed": true,
+      "detail": {
+        "browser_pass_claimed": false
+      }
+    }
+  ],
+  "limits": "Browser and native Linux host networking unverified; no corpus/essay/cloud/clean-checkout result claimed."
+}

@@ -1,0 +1,9 @@
+{
+  "captured_at": "2026-11-06T05:12:48.342193+00:00",
+  "home_path_replacements": [
+    "live-20261106T045946/results.jsonl",
+    "live-20261106T050223/results.jsonl",
+    "live-20261106T050703/results.jsonl"
+  ],
+  "note": "Only personal home-path strings changed; real commands, status, generated fixture/test content and failures retained."
+}

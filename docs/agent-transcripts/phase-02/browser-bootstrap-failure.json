@@ -1,0 +1,8 @@
+{
+  "kind": "actual_browser_tool_failure_excerpt",
+  "tool": "mcp__node_repl__js",
+  "operation": "Import the installed Browser skill runtime and select the localhost workspace",
+  "isError": true,
+  "actual_error": "Importing module \"node:process\" is not allowed in node_repl",
+  "limit": "Runtime failed before a browser connection existed. No DOM interaction, screenshot or browser pass is claimed. Frontend HTTP/typecheck/build and real API evidence are separate."
+}

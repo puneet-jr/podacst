@@ -1,0 +1,5 @@
+{
+  "notice": "Synthetic integration fixtures, NOT podcast facts or retrieval evaluation ground truth.",
+  "activation": {"source_id":"FIXTURE-A", "text":"In the synthetic Cedar onboarding experiment, the review window is 13 days. The evidence code is CEDAR-7319."},
+  "retention": {"source_id":"FIXTURE-B", "text":"In the synthetic Birch retention experiment, the review window is 17 days. The evidence code is BIRCH-4826."}
+}
