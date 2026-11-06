@@ -1,0 +1,13 @@
+{
+  "kind": "exact_error_projection_from_saved_rpc_and_actual_capture",
+  "run_id": "bf8f692a-a48f-43b4-b116-0f8755c799e7",
+  "stage": "section-1",
+  "ollama_http_status": 400,
+  "error": "Failed to initialize samplers: failed to parse grammar",
+  "prompt_bytes": 9602,
+  "requested_output_tokens": 850,
+  "active_tools": [],
+  "model_text_generated": false,
+  "evidence": "commands.jsonl contains the actual read-only diagnostic command/output; private raw stdout/stderr retained in chat_traces.",
+  "cause_scope": "Structured-output grammar rejected before drafting. Specific unsupported schema keyword/interaction not isolated; do not infer model long-form incapacity."
+}

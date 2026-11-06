@@ -1,0 +1,51 @@
+{
+  "session_id": "58f3a325-cc0c-4971-a64a-38dfc5b59a19",
+  "request": {
+    "workflow": "ship30",
+    "topic": "Use must-have customer feedback to improve positioning and onboarding",
+    "audience": "Early-stage product managers deciding how to move users toward first value",
+    "constraints": "Explain the survey, benefit-focused follow-ups, the Lookout case, and limitations. Do not claim a survey score guarantees product-market fit or that onboarding alone caused the outcome. Label proposed user actions Application:. Use only supplied transcript evidence; no invented stories, quotes, metrics or personal experience.",
+    "client_message_id": "b0aee3bf-f083-46d9-9307-abfe5bcd76c3",
+    "source_path": "episodes/sean-ellis/transcript.md",
+    "focus_questions": [
+      "Sean Ellis must-have product market fit survey how would you feel no longer use very disappointed",
+      "Sean Ellis Lookout antivirus positioning onboarding first value",
+      "Sean Ellis survey customer segments benefits product market fit focus"
+    ],
+    "timeout_seconds": 600
+  },
+  "prior_user_message_id": "d6433186-c889-4689-b9ca-518c69152219",
+  "ready_before": {
+    "status": "ready",
+    "scope": "phase_5_conversation",
+    "product_ready": false,
+    "checks": {
+      "database": {
+        "ready": true,
+        "schema_revision": "0004_essays",
+        "pgvector_version": "0.8.7"
+      },
+      "corpus": {
+        "ready": true,
+        "status": "partial",
+        "active_chunks": 373,
+        "active_episodes": 9,
+        "discovered": 303
+      },
+      "agent": {
+        "ready": true,
+        "version": "1.5.0"
+      },
+      "ollama": {
+        "ready": true,
+        "reachable_from_api": true,
+        "version": "0.30.11",
+        "generation_model_available": true,
+        "embedding_model_available": true,
+        "embedding_dimensions_compatible": true,
+        "index_identity_compatible": true,
+        "note": "Transport and installed-model availability; does not prove answer or essay quality."
+      }
+    }
+  }
+}

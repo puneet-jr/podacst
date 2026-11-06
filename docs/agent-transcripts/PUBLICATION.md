@@ -1,0 +1,7 @@
+# Public evidence export
+
+The user explicitly authorized publication to vivekvattem/lenny. Before staging, all261 existing evidence files were copied byte-for-byte into ignored `.cache/publication-originals/docs/agent-transcripts/`, parent mode0700. They remain available privately. Raw Pi protocol/diagnostics and cached corpus/models are not published.
+
+Public exports omit full original_text/evidence_text passage bodies and long passage.text fields, including embedded JSON/JSONL inside command output. Source IDs, hashes, exact ranges, actual outcomes/timings and limited selected answer quotes remain. Two personal home paths were replaced. No outcomes were rewritten to successful results and no historic dialogue was reconstructed. Export provenance, hashes and45 omitted source fields are recorded in [publication-redactions.json](../publication-redactions.json).
+
+Historical tests/preservation flags describe the pre-publication originals. They were not rerun against redaction placeholders; earlier manifests still identify their original inputs. The Git history is an ordered retrospective organization of the saved snapshot, not an invented original development timeline. Full downloaded transcripts, PDF, secrets, generated dependencies, weights and private backups are excluded. Selected short evidence quotations are attributed in the phase reports; no full transcript is redistributed.

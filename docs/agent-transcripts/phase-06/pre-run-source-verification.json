@@ -1,0 +1,59 @@
+{
+  "captured_at": "2026-11-06T11:15:43.424054+00:00",
+  "git_repository": false,
+  "host_source_hashes": {
+    "backend/app/agent.py": "f9000755483b000c5950e2649201a5ccb57a088e314d0b8fc3107b2e4673bd8f",
+    "backend/app/essays.py": "044a324687c3fc1d298e7821e96c3eb8d9e2311b2d590680782ee9e4e0a29369",
+    "backend/app/writing.py": "9e1e27de419c0c909f5f4efb9b31057bb9f7d49308d8c0b719e574159d0c826e",
+    "backend/app/main.py": "7833353521f44963a437ddae942d953879e34a014f2ef5f94aede52fcb2ed4d6",
+    "backend/app/conversation.py": "348bca01bf73ac5a8ede936509419a5cb5bef3a56211fd08b46f115759ace926",
+    "backend/app/schema.py": "950b3e955b3deea12bf08b6d639bc26089e7fb06a1ac7921e6048ee789204e1c",
+    "backend/migrations/versions/0004_essays.py": "e5326786d1408f3caad744b9f3afa3b0f6e74e5de7828025e4a38e71b15972b4",
+    "backend/contract_check.py": "a39bebbb738a1018da880734877c67f152096b36e6e660042b7215b57fb352eb",
+    "backend/tests/test_writing.py": "1af1335bc396371813897a543eb38665dd6a078df589cef17b1435c276c2efda",
+    "backend/tests/test_writing_rpc.py": "0db20f12194689ac2d2f9645e4b1993552980fe772d6361a04d7346f3e7634cb",
+    "backend/tests/test_essays_db.py": "a8cc08750e69a3434c542f5c8330fb4bdd1264be70a00c7fd51ac9ca14910092",
+    "agent/essay.ts": "e96e81641753d44a342cb75e0b9a5cbf87050fe1e2bd8388bd5120aaeb93b293",
+    "agent/conversation_policy.ts": "f348321229f37ab9426a152f5d08b8df399f5182eb8fe5b7a53dd6596536492a",
+    "agent/skills/ship30/SKILL.md": "6a90a2532f5128508647742c9e8fce05321bdfd9cda33bd398e0ec03255f51fe",
+    "agent/skills/ship30/config.json": "9d99a53639176261488996e604a0545a2f85c2d3cd9d98e1f5fb1315554e4ead",
+    "agent/package-lock.json": "b079b6044ca4602c4d98ab9218a4b9f1ac5869410e62200f5190010e6ea4a74e",
+    "backend/requirements.lock": "abed73e02f692c433abc60b22a2f04bcc24ae9c95eea1ad438bbc553f031f013"
+  },
+  "runtime_mismatches": [],
+  "readiness": {
+    "status": "ready",
+    "scope": "phase_5_conversation",
+    "product_ready": false,
+    "checks": {
+      "database": {
+        "ready": true,
+        "schema_revision": "0004_essays",
+        "pgvector_version": "0.8.7"
+      },
+      "corpus": {
+        "ready": true,
+        "status": "partial",
+        "active_chunks": 373,
+        "active_episodes": 9,
+        "discovered": 303
+      },
+      "agent": {
+        "ready": true,
+        "version": "1.5.0"
+      },
+      "ollama": {
+        "ready": true,
+        "reachable_from_api": true,
+        "version": "0.30.11",
+        "generation_model_available": true,
+        "embedding_model_available": true,
+        "embedding_dimensions_compatible": true,
+        "index_identity_compatible": true,
+        "note": "Transport and installed-model availability; does not prove answer or essay quality."
+      }
+    }
+  },
+  "passed": true,
+  "limits": "Source identity and dependency readiness only; no essay-quality inference."
+}

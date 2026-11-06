@@ -1,0 +1,380 @@
+[
+  {
+    "source_label": "S1",
+    "chunk_id": "bdd3d954-095e-5f5a-8be1-5f38377168ff",
+    "original_text": "[Full transcript payload omitted from public export; private original retained.]",
+    "original_text_public_redaction": {
+      "sha256": "cf96cdd7b9d586f0271928d59654787c0e096aac8192cbe5c5dc1c4d5809964c",
+      "characters": 2242,
+      "reason": "Full source passage payload; exact IDs, offsets, source hashes and limited selected answer quotes are retained."
+    },
+    "metadata": {
+      "id": "bdd3d954-095e-5f5a-8be1-5f38377168ff",
+      "kind": "ranked",
+      "guest": "Sean Ellis",
+      "title": "The original growth hacker reveals his secrets | Sean Ellis (author of “Hacking Growth”)",
+      "ordinal": 0,
+      "sponsor": false,
+      "version": 1,
+      "char_end": 3105,
+      "line_end": 64,
+      "speakers": [
+        "Lenny Rachitsky",
+        "Sean Ellis"
+      ],
+      "video_url": "https://www.youtube.com/watch?v=VjJ6xcv7e8s",
+      "char_start": 863,
+      "dense_rank": 1,
+      "episode_id": "e114cae3-dd1c-5482-b643-07fcfb47fb69",
+      "line_start": 39,
+      "rank_score": 0.03252247488101534,
+      "end_seconds": 63.0,
+      "neighbor_of": null,
+      "source_hash": "6af2a6e031826805e855ec262b1f228e3773b5b99265a1d01870f0d4e6e9ceda",
+      "source_path": "episodes/sean-ellis/transcript.md",
+      "sparse_rank": 2,
+      "text_sha256": "cf96cdd7b9d586f0271928d59654787c0e096aac8192cbe5c5dc1c4d5809964c",
+      "start_seconds": 0.0,
+      "corpus_revision": "be8ab89a890a833cbba2c892178f823fff178c65",
+      "estimated_tokens": 561,
+      "metadata_warnings": []
+    },
+    "quote_spans": [
+      {
+        "id": "E1",
+        "text": "They're telling you it's a nice to have. If you start paying attention to what your somewhat disappointed users are telling you and then you start tweaking onboarding and product based on their feedback, maybe you're going to dilute it for your must have users.",
+        "speaker": "Sean Ellis",
+        "char_end": 1761,
+        "source_id": "S1",
+        "char_start": 1500,
+        "sponsor_warning": false
+      },
+      {
+        "id": "E2",
+        "text": "If you start paying attention to what your somewhat disappointed users are telling you and then you start tweaking onboarding and product based on their feedback, maybe you're going to dilute it for your must have users.",
+        "speaker": "Sean Ellis",
+        "char_end": 1761,
+        "source_id": "S1",
+        "char_start": 1541,
+        "sponsor_warning": false
+      }
+    ],
+    "source_url": "https://github.com/ChatPRD/lennys-podcast-transcripts/blob/be8ab89a890a833cbba2c892178f823fff178c65/episodes/sean-ellis/transcript.md",
+    "video_url": "https://www.youtube.com/watch?v=VjJ6xcv7e8s&t=0s"
+  },
+  {
+    "source_label": "S2",
+    "chunk_id": "53054eb0-beee-5be4-b2f1-99ca9b2eac2d",
+    "original_text": "[Full transcript payload omitted from public export; private original retained.]",
+    "original_text_public_redaction": {
+      "sha256": "bbca0600f25b06c3861b687b42517e587ba3bab30ec044c7ca10b300faeec38f",
+      "characters": 2212,
+      "reason": "Full source passage payload; exact IDs, offsets, source hashes and limited selected answer quotes are retained."
+    },
+    "metadata": {
+      "id": "53054eb0-beee-5be4-b2f1-99ca9b2eac2d",
+      "kind": "ranked",
+      "guest": "Sean Ellis",
+      "title": "The original growth hacker reveals his secrets | Sean Ellis (author of “Hacking Growth”)",
+      "ordinal": 5,
+      "sponsor": false,
+      "version": 1,
+      "char_end": 13474,
+      "line_end": 124,
+      "speakers": [
+        "Sean Ellis",
+        "Lenny Rachitsky"
+      ],
+      "video_url": "https://www.youtube.com/watch?v=VjJ6xcv7e8s",
+      "char_start": 11262,
+      "dense_rank": 2,
+      "episode_id": "e114cae3-dd1c-5482-b643-07fcfb47fb69",
+      "line_start": 112,
+      "rank_score": 0.03252247488101534,
+      "end_seconds": 698.0,
+      "neighbor_of": null,
+      "source_hash": "6af2a6e031826805e855ec262b1f228e3773b5b99265a1d01870f0d4e6e9ceda",
+      "source_path": "episodes/sean-ellis/transcript.md",
+      "sparse_rank": 1,
+      "text_sha256": "bbca0600f25b06c3861b687b42517e587ba3bab30ec044c7ca10b300faeec38f",
+      "start_seconds": 548.0,
+      "corpus_revision": "be8ab89a890a833cbba2c892178f823fff178c65",
+      "estimated_tokens": 553,
+      "metadata_warnings": []
+    },
+    "quote_spans": [
+      {
+        "id": "E3",
+        "text": "So by setting the right expectations around it up front, you're going to bring people in with the right expectations. But then the second thing that we did was we streamlined onboarding so that the first thing that they did after signing up for the product was to set up the antivirus and then get a message \"you're now protected from viruses.\"",
+        "speaker": "Sean Ellis",
+        "char_end": 13229,
+        "source_id": "S2",
+        "char_start": 12885,
+        "sponsor_warning": false
+      },
+      {
+        "id": "E4",
+        "text": "But then the second thing that we did was we streamlined onboarding so that the first thing that they did after signing up for the product was to set up the antivirus and then get a message \"you're now protected from viruses.\"",
+        "speaker": "Sean Ellis",
+        "char_end": 13229,
+        "source_id": "S2",
+        "char_start": 13003,
+        "sponsor_warning": false
+      }
+    ],
+    "source_url": "https://github.com/ChatPRD/lennys-podcast-transcripts/blob/be8ab89a890a833cbba2c892178f823fff178c65/episodes/sean-ellis/transcript.md",
+    "video_url": "https://www.youtube.com/watch?v=VjJ6xcv7e8s&t=548s"
+  },
+  {
+    "source_label": "S3",
+    "chunk_id": "f5f40dd8-e8fb-5e74-9834-e45e31331549",
+    "original_text": "[Full transcript payload omitted from public export; private original retained.]",
+    "original_text_public_redaction": {
+      "sha256": "fc7d239bdf8840d17ec81e0ca4d5e4622bbe7158f237e2512a01a24826299f35",
+      "characters": 2407,
+      "reason": "Full source passage payload; exact IDs, offsets, source hashes and limited selected answer quotes are retained."
+    },
+    "metadata": {
+      "id": "f5f40dd8-e8fb-5e74-9834-e45e31331549",
+      "kind": "ranked",
+      "guest": "Sean Ellis",
+      "title": "The original growth hacker reveals his secrets | Sean Ellis (author of “Hacking Growth”)",
+      "ordinal": 7,
+      "sponsor": false,
+      "version": 1,
+      "char_end": 17769,
+      "line_end": 151,
+      "speakers": [
+        "Lenny Rachitsky",
+        "Sean Ellis"
+      ],
+      "video_url": "https://www.youtube.com/watch?v=VjJ6xcv7e8s",
+      "char_start": 15362,
+      "dense_rank": 2,
+      "episode_id": "e114cae3-dd1c-5482-b643-07fcfb47fb69",
+      "line_start": 136,
+      "rank_score": 0.03225806451612903,
+      "end_seconds": 943.0,
+      "neighbor_of": null,
+      "source_hash": "6af2a6e031826805e855ec262b1f228e3773b5b99265a1d01870f0d4e6e9ceda",
+      "source_path": "episodes/sean-ellis/transcript.md",
+      "sparse_rank": 2,
+      "text_sha256": "fc7d239bdf8840d17ec81e0ca4d5e4622bbe7158f237e2512a01a24826299f35",
+      "start_seconds": 813.0,
+      "corpus_revision": "be8ab89a890a833cbba2c892178f823fff178c65",
+      "estimated_tokens": 602,
+      "metadata_warnings": []
+    },
+    "quote_spans": [
+      {
+        "id": "E5",
+        "text": "But until you deeply understand that product market fit, you kind of don't have the tools to be able to grow the business. So that's really the next step, is to dig in and figure out who considers it a must have, how are they using the product, what did they use before, what problem are they solving.",
+        "speaker": "Sean Ellis",
+        "char_end": 16695,
+        "source_id": "S3",
+        "char_start": 16394,
+        "sponsor_warning": false
+      },
+      {
+        "id": "E6",
+        "text": "So that's really the next step, is to dig in and figure out who considers it a must have, how are they using the product, what did they use before, what problem are they solving.",
+        "speaker": "Sean Ellis",
+        "char_end": 16695,
+        "source_id": "S3",
+        "char_start": 16517,
+        "sponsor_warning": false
+      }
+    ],
+    "source_url": "https://github.com/ChatPRD/lennys-podcast-transcripts/blob/be8ab89a890a833cbba2c892178f823fff178c65/episodes/sean-ellis/transcript.md",
+    "video_url": "https://www.youtube.com/watch?v=VjJ6xcv7e8s&t=813s"
+  },
+  {
+    "source_label": "S4",
+    "chunk_id": "9d370308-1dd5-5657-bdf5-f159a62ce159",
+    "original_text": "[Full transcript payload omitted from public export; private original retained.]",
+    "original_text_public_redaction": {
+      "sha256": "227c4f7fb485308d8d7144313a38e7a023a76082f1a5b6640f185090e664cb91",
+      "characters": 2308,
+      "reason": "Full source passage payload; exact IDs, offsets, source hashes and limited selected answer quotes are retained."
+    },
+    "metadata": {
+      "id": "9d370308-1dd5-5657-bdf5-f159a62ce159",
+      "kind": "ranked",
+      "guest": "Sean Ellis",
+      "title": "The original growth hacker reveals his secrets | Sean Ellis (author of “Hacking Growth”)",
+      "ordinal": 19,
+      "sponsor": false,
+      "version": 1,
+      "char_end": 43696,
+      "line_end": 364,
+      "speakers": [
+        "Lenny Rachitsky",
+        "Sean Ellis"
+      ],
+      "video_url": "https://www.youtube.com/watch?v=VjJ6xcv7e8s",
+      "char_start": 41388,
+      "dense_rank": 3,
+      "episode_id": "e114cae3-dd1c-5482-b643-07fcfb47fb69",
+      "line_start": 337,
+      "rank_score": 0.032266458495966696,
+      "end_seconds": 2443.0,
+      "neighbor_of": null,
+      "source_hash": "6af2a6e031826805e855ec262b1f228e3773b5b99265a1d01870f0d4e6e9ceda",
+      "source_path": "episodes/sean-ellis/transcript.md",
+      "sparse_rank": 1,
+      "text_sha256": "227c4f7fb485308d8d7144313a38e7a023a76082f1a5b6640f185090e664cb91",
+      "start_seconds": 2352.0,
+      "corpus_revision": "be8ab89a890a833cbba2c892178f823fff178c65",
+      "estimated_tokens": 577,
+      "metadata_warnings": []
+    },
+    "quote_spans": [
+      {
+        "id": "E7",
+        "text": "So if you think about it, how would you feel if you can no longer use this feature starts to give you, again, the signal, is that feature a must-have feature? And if it's not, maybe we shouldn't have it.",
+        "speaker": "Sean Ellis",
+        "char_end": 41882,
+        "source_id": "S4",
+        "char_start": 41679,
+        "sponsor_warning": false
+      },
+      {
+        "id": "E8",
+        "text": "And if it's not, maybe we shouldn't have it. And so yeah, I was super excited when I saw how they were using the survey and they were doing it before I engaged with them.",
+        "speaker": "Sean Ellis",
+        "char_end": 42008,
+        "source_id": "S4",
+        "char_start": 41838,
+        "sponsor_warning": false
+      }
+    ],
+    "source_url": "https://github.com/ChatPRD/lennys-podcast-transcripts/blob/be8ab89a890a833cbba2c892178f823fff178c65/episodes/sean-ellis/transcript.md",
+    "video_url": "https://www.youtube.com/watch?v=VjJ6xcv7e8s&t=2352s"
+  },
+  {
+    "source_label": "S5",
+    "chunk_id": "fecfa828-2e7a-51f2-ba0a-6bf77a2fb759",
+    "original_text": "[Full transcript payload omitted from public export; private original retained.]",
+    "original_text_public_redaction": {
+      "sha256": "aaadb9c489b489d7d21adc7f4fe2855457570009a5877fe4d2feabac2c064897",
+      "characters": 2215,
+      "reason": "Full source passage payload; exact IDs, offsets, source hashes and limited selected answer quotes are retained."
+    },
+    "metadata": {
+      "id": "fecfa828-2e7a-51f2-ba0a-6bf77a2fb759",
+      "kind": "ranked",
+      "guest": "Sean Ellis",
+      "title": "The original growth hacker reveals his secrets | Sean Ellis (author of “Hacking Growth”)",
+      "ordinal": 30,
+      "sponsor": false,
+      "version": 1,
+      "char_end": 65861,
+      "line_end": 502,
+      "speakers": [
+        "Lenny Rachitsky",
+        "Sean Ellis"
+      ],
+      "video_url": "https://www.youtube.com/watch?v=VjJ6xcv7e8s",
+      "char_start": 63646,
+      "dense_rank": 8,
+      "episode_id": "e114cae3-dd1c-5482-b643-07fcfb47fb69",
+      "line_start": 487,
+      "rank_score": 0.030834914611005692,
+      "end_seconds": 3778.0,
+      "neighbor_of": null,
+      "source_hash": "6af2a6e031826805e855ec262b1f228e3773b5b99265a1d01870f0d4e6e9ceda",
+      "source_path": "episodes/sean-ellis/transcript.md",
+      "sparse_rank": 2,
+      "text_sha256": "aaadb9c489b489d7d21adc7f4fe2855457570009a5877fe4d2feabac2c064897",
+      "start_seconds": 3660.0,
+      "corpus_revision": "be8ab89a890a833cbba2c892178f823fff178c65",
+      "estimated_tokens": 554,
+      "metadata_warnings": []
+    },
+    "quote_spans": [
+      {
+        "id": "E9",
+        "text": "How do I improve my conversion rate?\" Just drill further into what is stopping people from progressing.",
+        "speaker": "Lenny Rachitsky",
+        "char_end": 63749,
+        "source_id": "S5",
+        "char_start": 63646,
+        "sponsor_warning": false
+      },
+      {
+        "id": "E10",
+        "text": "Look for inspiration from other products, I think people probably already know that. You talked about earlier this idea of the positioning, having a big impact of just figuring out.",
+        "speaker": "Lenny Rachitsky",
+        "char_end": 64043,
+        "source_id": "S5",
+        "char_start": 63862,
+        "sponsor_warning": false
+      }
+    ],
+    "source_url": "https://github.com/ChatPRD/lennys-podcast-transcripts/blob/be8ab89a890a833cbba2c892178f823fff178c65/episodes/sean-ellis/transcript.md",
+    "video_url": "https://www.youtube.com/watch?v=VjJ6xcv7e8s&t=3660s"
+  },
+  {
+    "source_label": "S6",
+    "chunk_id": "ac3b448b-888b-5a93-b57a-87115b25c5c1",
+    "original_text": "[Full transcript payload omitted from public export; private original retained.]",
+    "original_text_public_redaction": {
+      "sha256": "164f693b791c33cd7d4fec9e79003b4c3a2f3c8d85b5080dda58d2a6606b85e2",
+      "characters": 2284,
+      "reason": "Full source passage payload; exact IDs, offsets, source hashes and limited selected answer quotes are retained."
+    },
+    "metadata": {
+      "id": "ac3b448b-888b-5a93-b57a-87115b25c5c1",
+      "kind": "ranked",
+      "guest": "Sean Ellis",
+      "title": "The original growth hacker reveals his secrets | Sean Ellis (author of “Hacking Growth”)",
+      "ordinal": 12,
+      "sponsor": false,
+      "version": 1,
+      "char_end": 29072,
+      "line_end": 248,
+      "speakers": [
+        "Sean Ellis",
+        "Lenny Rachitsky"
+      ],
+      "video_url": "https://www.youtube.com/watch?v=VjJ6xcv7e8s",
+      "char_start": 26788,
+      "dense_rank": 5,
+      "episode_id": "e114cae3-dd1c-5482-b643-07fcfb47fb69",
+      "line_start": 229,
+      "rank_score": 0.030536130536130537,
+      "end_seconds": 1613.0,
+      "neighbor_of": null,
+      "source_hash": "6af2a6e031826805e855ec262b1f228e3773b5b99265a1d01870f0d4e6e9ceda",
+      "source_path": "episodes/sean-ellis/transcript.md",
+      "sparse_rank": 6,
+      "text_sha256": "164f693b791c33cd7d4fec9e79003b4c3a2f3c8d85b5080dda58d2a6606b85e2",
+      "start_seconds": 1454.0,
+      "corpus_revision": "be8ab89a890a833cbba2c892178f823fff178c65",
+      "estimated_tokens": 571,
+      "metadata_warnings": []
+    },
+    "quote_spans": [
+      {
+        "id": "E11",
+        "text": "When I focus on growth, then customer acquisition is almost the last step. Once I validate that it's a must have for those early users, then I'm thinking about, \"Okay, how do I optimize speed to value?",
+        "speaker": "Sean Ellis",
+        "char_end": 28576,
+        "source_id": "S6",
+        "char_start": 28375,
+        "sponsor_warning": false
+      },
+      {
+        "id": "E12",
+        "text": "Once I validate that it's a must have for those early users, then I'm thinking about, \"Okay, how do I optimize speed to value? How do I make sure that people have the right prompts to come back and use the product at the right time so that's kind of more of that engagement loop?",
+        "speaker": "Sean Ellis",
+        "char_end": 28729,
+        "source_id": "S6",
+        "char_start": 28450,
+        "sponsor_warning": false
+      }
+    ],
+    "source_url": "https://github.com/ChatPRD/lennys-podcast-transcripts/blob/be8ab89a890a833cbba2c892178f823fff178c65/episodes/sean-ellis/transcript.md",
+    "video_url": "https://www.youtube.com/watch?v=VjJ6xcv7e8s&t=1454s"
+  }
+]

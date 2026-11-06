@@ -1,0 +1,627 @@
+{
+  "captured_at": "2026-11-06T09:18:23.377577+00:00",
+  "topic": "Use must-have customer feedback to improve positioning and onboarding",
+  "audience": "early-stage product managers",
+  "retrieval_mode": "hybrid",
+  "runs": [
+    {
+      "status": "review_required",
+      "guidance": "Candidate passages require claim-by-claim support review. Rank scores are not probabilities. Sponsor flags can mark mixed passages: advertisements are not substantive product evidence. If the requested fact is absent, state the evidence limitation; do not infer private facts, current facts or guarantees from related text.",
+      "mode": "hybrid",
+      "retrieval_version": "rrf-v3-idf-budgeted-neighbors",
+      "passages": [
+        {
+          "id": "bdd3d954-095e-5f5a-8be1-5f38377168ff",
+          "episode_id": "e114cae3-dd1c-5482-b643-07fcfb47fb69",
+          "ordinal": 0,
+          "version": 1,
+          "source_path": "episodes/sean-ellis/transcript.md",
+          "source_hash": "6af2a6e031826805e855ec262b1f228e3773b5b99265a1d01870f0d4e6e9ceda",
+          "corpus_revision": "be8ab89a890a833cbba2c892178f823fff178c65",
+          "title": "The original growth hacker reveals his secrets | Sean Ellis (author of “Hacking Growth”)",
+          "guest": "Sean Ellis",
+          "video_url": "https://www.youtube.com/watch?v=VjJ6xcv7e8s",
+          "speakers": [
+            "Lenny Rachitsky",
+            "Sean Ellis"
+          ],
+          "start_seconds": 0.0,
+          "end_seconds": 63.0,
+          "char_start": 863,
+          "char_end": 3105,
+          "line_start": 39,
+          "line_end": 64,
+          "original_text": "[Full transcript payload omitted from public export; private original retained.]",
+          "original_text_public_redaction": {
+            "sha256": "cf96cdd7b9d586f0271928d59654787c0e096aac8192cbe5c5dc1c4d5809964c",
+            "characters": 2242,
+            "reason": "Full source passage payload; exact IDs, offsets, source hashes and limited selected answer quotes are retained."
+          },
+          "text_sha256": "cf96cdd7b9d586f0271928d59654787c0e096aac8192cbe5c5dc1c4d5809964c",
+          "estimated_tokens": 561,
+          "sponsor": false,
+          "metadata_warnings": [],
+          "dense_rank": 1,
+          "sparse_rank": 2,
+          "rank_score": 0.03252247488101534,
+          "kind": "ranked",
+          "neighbor_of": null
+        },
+        {
+          "id": "9d370308-1dd5-5657-bdf5-f159a62ce159",
+          "episode_id": "e114cae3-dd1c-5482-b643-07fcfb47fb69",
+          "ordinal": 19,
+          "version": 1,
+          "source_path": "episodes/sean-ellis/transcript.md",
+          "source_hash": "6af2a6e031826805e855ec262b1f228e3773b5b99265a1d01870f0d4e6e9ceda",
+          "corpus_revision": "be8ab89a890a833cbba2c892178f823fff178c65",
+          "title": "The original growth hacker reveals his secrets | Sean Ellis (author of “Hacking Growth”)",
+          "guest": "Sean Ellis",
+          "video_url": "https://www.youtube.com/watch?v=VjJ6xcv7e8s",
+          "speakers": [
+            "Lenny Rachitsky",
+            "Sean Ellis"
+          ],
+          "start_seconds": 2352.0,
+          "end_seconds": 2443.0,
+          "char_start": 41388,
+          "char_end": 43696,
+          "line_start": 337,
+          "line_end": 364,
+          "original_text": "[Full transcript payload omitted from public export; private original retained.]",
+          "original_text_public_redaction": {
+            "sha256": "227c4f7fb485308d8d7144313a38e7a023a76082f1a5b6640f185090e664cb91",
+            "characters": 2308,
+            "reason": "Full source passage payload; exact IDs, offsets, source hashes and limited selected answer quotes are retained."
+          },
+          "text_sha256": "227c4f7fb485308d8d7144313a38e7a023a76082f1a5b6640f185090e664cb91",
+          "estimated_tokens": 577,
+          "sponsor": false,
+          "metadata_warnings": [],
+          "dense_rank": 3,
+          "sparse_rank": 1,
+          "rank_score": 0.032266458495966696,
+          "kind": "ranked",
+          "neighbor_of": null
+        },
+        {
+          "id": "c0aa1ec1-9da2-5bc9-a1ed-550df1f12411",
+          "episode_id": "e114cae3-dd1c-5482-b643-07fcfb47fb69",
+          "ordinal": 1,
+          "version": 1,
+          "source_path": "episodes/sean-ellis/transcript.md",
+          "source_hash": "6af2a6e031826805e855ec262b1f228e3773b5b99265a1d01870f0d4e6e9ceda",
+          "corpus_revision": "be8ab89a890a833cbba2c892178f823fff178c65",
+          "title": "The original growth hacker reveals his secrets | Sean Ellis (author of “Hacking Growth”)",
+          "guest": "Sean Ellis",
+          "video_url": "https://www.youtube.com/watch?v=VjJ6xcv7e8s",
+          "speakers": [
+            "Lenny Rachitsky",
+            "Sean Ellis"
+          ],
+          "start_seconds": 63.0,
+          "end_seconds": 199.0,
+          "char_start": 3105,
+          "char_end": 5334,
+          "line_start": 64,
+          "line_end": 85,
+          "original_text": "[Full transcript payload omitted from public export; private original retained.]",
+          "original_text_public_redaction": {
+            "sha256": "498e939ea74c0d2a17a9c5873cc10c29772edfca5374caae15d19e379a3af384",
+            "characters": 2229,
+            "reason": "Full source passage payload; exact IDs, offsets, source hashes and limited selected answer quotes are retained."
+          },
+          "text_sha256": "498e939ea74c0d2a17a9c5873cc10c29772edfca5374caae15d19e379a3af384",
+          "estimated_tokens": 558,
+          "sponsor": false,
+          "metadata_warnings": [],
+          "dense_rank": 2,
+          "sparse_rank": 8,
+          "rank_score": 0.030834914611005692,
+          "kind": "ranked",
+          "neighbor_of": null
+        },
+        {
+          "id": "a0a289c1-f980-5077-b231-7891350a5e40",
+          "episode_id": "e114cae3-dd1c-5482-b643-07fcfb47fb69",
+          "ordinal": 18,
+          "version": 1,
+          "source_path": "episodes/sean-ellis/transcript.md",
+          "source_hash": "6af2a6e031826805e855ec262b1f228e3773b5b99265a1d01870f0d4e6e9ceda",
+          "corpus_revision": "be8ab89a890a833cbba2c892178f823fff178c65",
+          "title": "The original growth hacker reveals his secrets | Sean Ellis (author of “Hacking Growth”)",
+          "guest": "Sean Ellis",
+          "video_url": "https://www.youtube.com/watch?v=VjJ6xcv7e8s",
+          "speakers": [
+            "Lenny Rachitsky",
+            "Sean Ellis"
+          ],
+          "start_seconds": 2250.0,
+          "end_seconds": 2352.0,
+          "char_start": 39321,
+          "char_end": 41541,
+          "line_start": 330,
+          "line_end": 338,
+          "original_text": "[Full transcript payload omitted from public export; private original retained.]",
+          "original_text_public_redaction": {
+            "sha256": "3fc19220aea5f7d2086121c183701333f25b60d83687539152a49103010a1f7d",
+            "characters": 2220,
+            "reason": "Full source passage payload; exact IDs, offsets, source hashes and limited selected answer quotes are retained."
+          },
+          "text_sha256": "3fc19220aea5f7d2086121c183701333f25b60d83687539152a49103010a1f7d",
+          "estimated_tokens": 555,
+          "sponsor": false,
+          "metadata_warnings": [],
+          "dense_rank": null,
+          "sparse_rank": null,
+          "rank_score": 0.0,
+          "kind": "neighbor",
+          "neighbor_of": "9d370308-1dd5-5657-bdf5-f159a62ce159"
+        }
+      ],
+      "estimated_tokens": 2251,
+      "candidate_counts": {
+        "dense": 20,
+        "sparse": 20
+      },
+      "corpus": {
+        "active_episodes": 9,
+        "active_chunks": 373,
+        "discovered": 303,
+        "partial": true
+      },
+      "timings_ms": {
+        "embedding": 914.3642079998244,
+        "database": 117.08170899873949,
+        "total": 1031.4736670006823
+      },
+      "embedding_model": "nomic-embed-text:latest",
+      "embedding_digest": "0a109f422b47e3a30ba2b10eca18548e944e8a23073ee3f3e947efcf3c45e59f",
+      "support_verified": false
+    },
+    {
+      "status": "review_required",
+      "guidance": "Candidate passages require claim-by-claim support review. Rank scores are not probabilities. Sponsor flags can mark mixed passages: advertisements are not substantive product evidence. If the requested fact is absent, state the evidence limitation; do not infer private facts, current facts or guarantees from related text.",
+      "mode": "hybrid",
+      "retrieval_version": "rrf-v3-idf-budgeted-neighbors",
+      "passages": [
+        {
+          "id": "53054eb0-beee-5be4-b2f1-99ca9b2eac2d",
+          "episode_id": "e114cae3-dd1c-5482-b643-07fcfb47fb69",
+          "ordinal": 5,
+          "version": 1,
+          "source_path": "episodes/sean-ellis/transcript.md",
+          "source_hash": "6af2a6e031826805e855ec262b1f228e3773b5b99265a1d01870f0d4e6e9ceda",
+          "corpus_revision": "be8ab89a890a833cbba2c892178f823fff178c65",
+          "title": "The original growth hacker reveals his secrets | Sean Ellis (author of “Hacking Growth”)",
+          "guest": "Sean Ellis",
+          "video_url": "https://www.youtube.com/watch?v=VjJ6xcv7e8s",
+          "speakers": [
+            "Sean Ellis",
+            "Lenny Rachitsky"
+          ],
+          "start_seconds": 548.0,
+          "end_seconds": 698.0,
+          "char_start": 11262,
+          "char_end": 13474,
+          "line_start": 112,
+          "line_end": 124,
+          "original_text": "[Full transcript payload omitted from public export; private original retained.]",
+          "original_text_public_redaction": {
+            "sha256": "bbca0600f25b06c3861b687b42517e587ba3bab30ec044c7ca10b300faeec38f",
+            "characters": 2212,
+            "reason": "Full source passage payload; exact IDs, offsets, source hashes and limited selected answer quotes are retained."
+          },
+          "text_sha256": "bbca0600f25b06c3861b687b42517e587ba3bab30ec044c7ca10b300faeec38f",
+          "estimated_tokens": 553,
+          "sponsor": false,
+          "metadata_warnings": [],
+          "dense_rank": 2,
+          "sparse_rank": 1,
+          "rank_score": 0.03252247488101534,
+          "kind": "ranked",
+          "neighbor_of": null
+        },
+        {
+          "id": "fecfa828-2e7a-51f2-ba0a-6bf77a2fb759",
+          "episode_id": "e114cae3-dd1c-5482-b643-07fcfb47fb69",
+          "ordinal": 30,
+          "version": 1,
+          "source_path": "episodes/sean-ellis/transcript.md",
+          "source_hash": "6af2a6e031826805e855ec262b1f228e3773b5b99265a1d01870f0d4e6e9ceda",
+          "corpus_revision": "be8ab89a890a833cbba2c892178f823fff178c65",
+          "title": "The original growth hacker reveals his secrets | Sean Ellis (author of “Hacking Growth”)",
+          "guest": "Sean Ellis",
+          "video_url": "https://www.youtube.com/watch?v=VjJ6xcv7e8s",
+          "speakers": [
+            "Lenny Rachitsky",
+            "Sean Ellis"
+          ],
+          "start_seconds": 3660.0,
+          "end_seconds": 3778.0,
+          "char_start": 63646,
+          "char_end": 65861,
+          "line_start": 487,
+          "line_end": 502,
+          "original_text": "[Full transcript payload omitted from public export; private original retained.]",
+          "original_text_public_redaction": {
+            "sha256": "aaadb9c489b489d7d21adc7f4fe2855457570009a5877fe4d2feabac2c064897",
+            "characters": 2215,
+            "reason": "Full source passage payload; exact IDs, offsets, source hashes and limited selected answer quotes are retained."
+          },
+          "text_sha256": "aaadb9c489b489d7d21adc7f4fe2855457570009a5877fe4d2feabac2c064897",
+          "estimated_tokens": 554,
+          "sponsor": false,
+          "metadata_warnings": [],
+          "dense_rank": 8,
+          "sparse_rank": 2,
+          "rank_score": 0.030834914611005692,
+          "kind": "ranked",
+          "neighbor_of": null
+        },
+        {
+          "id": "40c4e9ae-ce0c-5575-817c-b00c6c5d8334",
+          "episode_id": "e114cae3-dd1c-5482-b643-07fcfb47fb69",
+          "ordinal": 26,
+          "version": 1,
+          "source_path": "episodes/sean-ellis/transcript.md",
+          "source_hash": "6af2a6e031826805e855ec262b1f228e3773b5b99265a1d01870f0d4e6e9ceda",
+          "corpus_revision": "be8ab89a890a833cbba2c892178f823fff178c65",
+          "title": "The original growth hacker reveals his secrets | Sean Ellis (author of “Hacking Growth”)",
+          "guest": "Sean Ellis",
+          "video_url": "https://www.youtube.com/watch?v=VjJ6xcv7e8s",
+          "speakers": [
+            "Lenny Rachitsky",
+            "Sean Ellis"
+          ],
+          "start_seconds": 3156.0,
+          "end_seconds": 3277.0,
+          "char_start": 55527,
+          "char_end": 57783,
+          "line_start": 442,
+          "line_end": 457,
+          "original_text": "[Full transcript payload omitted from public export; private original retained.]",
+          "original_text_public_redaction": {
+            "sha256": "60d9deb43fd5b66da846c7f14219b5f238d88c09bd89c666dc6854a62e49109a",
+            "characters": 2256,
+            "reason": "Full source passage payload; exact IDs, offsets, source hashes and limited selected answer quotes are retained."
+          },
+          "text_sha256": "60d9deb43fd5b66da846c7f14219b5f238d88c09bd89c666dc6854a62e49109a",
+          "estimated_tokens": 564,
+          "sponsor": false,
+          "metadata_warnings": [],
+          "dense_rank": 5,
+          "sparse_rank": 5,
+          "rank_score": 0.03076923076923077,
+          "kind": "ranked",
+          "neighbor_of": null
+        },
+        {
+          "id": "38b28fa6-86ff-59ba-8019-ff4db2c27656",
+          "episode_id": "e114cae3-dd1c-5482-b643-07fcfb47fb69",
+          "ordinal": 4,
+          "version": 1,
+          "source_path": "episodes/sean-ellis/transcript.md",
+          "source_hash": "6af2a6e031826805e855ec262b1f228e3773b5b99265a1d01870f0d4e6e9ceda",
+          "corpus_revision": "be8ab89a890a833cbba2c892178f823fff178c65",
+          "title": "The original growth hacker reveals his secrets | Sean Ellis (author of “Hacking Growth”)",
+          "guest": "Sean Ellis",
+          "video_url": "https://www.youtube.com/watch?v=VjJ6xcv7e8s",
+          "speakers": [
+            "Sean Ellis",
+            "Lenny Rachitsky"
+          ],
+          "start_seconds": 421.0,
+          "end_seconds": 590.0,
+          "char_start": 9374,
+          "char_end": 11576,
+          "line_start": 103,
+          "line_end": 116,
+          "original_text": "[Full transcript payload omitted from public export; private original retained.]",
+          "original_text_public_redaction": {
+            "sha256": "a2124a56bc687ed51d61bf777175ca3ee24b136a080a9f605e4170d1501ef0e1",
+            "characters": 2202,
+            "reason": "Full source passage payload; exact IDs, offsets, source hashes and limited selected answer quotes are retained."
+          },
+          "text_sha256": "a2124a56bc687ed51d61bf777175ca3ee24b136a080a9f605e4170d1501ef0e1",
+          "estimated_tokens": 551,
+          "sponsor": false,
+          "metadata_warnings": [],
+          "dense_rank": null,
+          "sparse_rank": null,
+          "rank_score": 0.0,
+          "kind": "neighbor",
+          "neighbor_of": "53054eb0-beee-5be4-b2f1-99ca9b2eac2d"
+        }
+      ],
+      "estimated_tokens": 2222,
+      "candidate_counts": {
+        "dense": 20,
+        "sparse": 20
+      },
+      "corpus": {
+        "active_episodes": 9,
+        "active_chunks": 373,
+        "discovered": 303,
+        "partial": true
+      },
+      "timings_ms": {
+        "embedding": 74.29899999988265,
+        "database": 26.23154200045974,
+        "total": 100.55074999945646
+      },
+      "embedding_model": "nomic-embed-text:latest",
+      "embedding_digest": "0a109f422b47e3a30ba2b10eca18548e944e8a23073ee3f3e947efcf3c45e59f",
+      "support_verified": false
+    },
+    {
+      "status": "review_required",
+      "guidance": "Candidate passages require claim-by-claim support review. Rank scores are not probabilities. Sponsor flags can mark mixed passages: advertisements are not substantive product evidence. If the requested fact is absent, state the evidence limitation; do not infer private facts, current facts or guarantees from related text.",
+      "mode": "hybrid",
+      "retrieval_version": "rrf-v3-idf-budgeted-neighbors",
+      "passages": [
+        {
+          "id": "f5f40dd8-e8fb-5e74-9834-e45e31331549",
+          "episode_id": "e114cae3-dd1c-5482-b643-07fcfb47fb69",
+          "ordinal": 7,
+          "version": 1,
+          "source_path": "episodes/sean-ellis/transcript.md",
+          "source_hash": "6af2a6e031826805e855ec262b1f228e3773b5b99265a1d01870f0d4e6e9ceda",
+          "corpus_revision": "be8ab89a890a833cbba2c892178f823fff178c65",
+          "title": "The original growth hacker reveals his secrets | Sean Ellis (author of “Hacking Growth”)",
+          "guest": "Sean Ellis",
+          "video_url": "https://www.youtube.com/watch?v=VjJ6xcv7e8s",
+          "speakers": [
+            "Lenny Rachitsky",
+            "Sean Ellis"
+          ],
+          "start_seconds": 813.0,
+          "end_seconds": 943.0,
+          "char_start": 15362,
+          "char_end": 17769,
+          "line_start": 136,
+          "line_end": 151,
+          "original_text": "[Full transcript payload omitted from public export; private original retained.]",
+          "original_text_public_redaction": {
+            "sha256": "fc7d239bdf8840d17ec81e0ca4d5e4622bbe7158f237e2512a01a24826299f35",
+            "characters": 2407,
+            "reason": "Full source passage payload; exact IDs, offsets, source hashes and limited selected answer quotes are retained."
+          },
+          "text_sha256": "fc7d239bdf8840d17ec81e0ca4d5e4622bbe7158f237e2512a01a24826299f35",
+          "estimated_tokens": 602,
+          "sponsor": false,
+          "metadata_warnings": [],
+          "dense_rank": 2,
+          "sparse_rank": 2,
+          "rank_score": 0.03225806451612903,
+          "kind": "ranked",
+          "neighbor_of": null
+        },
+        {
+          "id": "ac3b448b-888b-5a93-b57a-87115b25c5c1",
+          "episode_id": "e114cae3-dd1c-5482-b643-07fcfb47fb69",
+          "ordinal": 12,
+          "version": 1,
+          "source_path": "episodes/sean-ellis/transcript.md",
+          "source_hash": "6af2a6e031826805e855ec262b1f228e3773b5b99265a1d01870f0d4e6e9ceda",
+          "corpus_revision": "be8ab89a890a833cbba2c892178f823fff178c65",
+          "title": "The original growth hacker reveals his secrets | Sean Ellis (author of “Hacking Growth”)",
+          "guest": "Sean Ellis",
+          "video_url": "https://www.youtube.com/watch?v=VjJ6xcv7e8s",
+          "speakers": [
+            "Sean Ellis",
+            "Lenny Rachitsky"
+          ],
+          "start_seconds": 1454.0,
+          "end_seconds": 1613.0,
+          "char_start": 26788,
+          "char_end": 29072,
+          "line_start": 229,
+          "line_end": 248,
+          "original_text": "[Full transcript payload omitted from public export; private original retained.]",
+          "original_text_public_redaction": {
+            "sha256": "164f693b791c33cd7d4fec9e79003b4c3a2f3c8d85b5080dda58d2a6606b85e2",
+            "characters": 2284,
+            "reason": "Full source passage payload; exact IDs, offsets, source hashes and limited selected answer quotes are retained."
+          },
+          "text_sha256": "164f693b791c33cd7d4fec9e79003b4c3a2f3c8d85b5080dda58d2a6606b85e2",
+          "estimated_tokens": 571,
+          "sponsor": false,
+          "metadata_warnings": [],
+          "dense_rank": 5,
+          "sparse_rank": 6,
+          "rank_score": 0.030536130536130537,
+          "kind": "ranked",
+          "neighbor_of": null
+        },
+        {
+          "id": "2d70a732-94f8-5cd8-9f59-0019c1fd9b21",
+          "episode_id": "e114cae3-dd1c-5482-b643-07fcfb47fb69",
+          "ordinal": 6,
+          "version": 1,
+          "source_path": "episodes/sean-ellis/transcript.md",
+          "source_hash": "6af2a6e031826805e855ec262b1f228e3773b5b99265a1d01870f0d4e6e9ceda",
+          "corpus_revision": "be8ab89a890a833cbba2c892178f823fff178c65",
+          "title": "The original growth hacker reveals his secrets | Sean Ellis (author of “Hacking Growth”)",
+          "guest": "Sean Ellis",
+          "video_url": "https://www.youtube.com/watch?v=VjJ6xcv7e8s",
+          "speakers": [
+            "Sean Ellis",
+            "Lenny Rachitsky"
+          ],
+          "start_seconds": 698.0,
+          "end_seconds": 813.0,
+          "char_start": 13242,
+          "char_end": 15537,
+          "line_start": 123,
+          "line_end": 137,
+          "original_text": "[Full transcript payload omitted from public export; private original retained.]",
+          "original_text_public_redaction": {
+            "sha256": "a70a6fc9387bc6a6dd42b63d04018dfedc8f2e07a8296453c2734f37ed52281d",
+            "characters": 2295,
+            "reason": "Full source passage payload; exact IDs, offsets, source hashes and limited selected answer quotes are retained."
+          },
+          "text_sha256": "a70a6fc9387bc6a6dd42b63d04018dfedc8f2e07a8296453c2734f37ed52281d",
+          "estimated_tokens": 574,
+          "sponsor": false,
+          "metadata_warnings": [],
+          "dense_rank": null,
+          "sparse_rank": null,
+          "rank_score": 0.0,
+          "kind": "neighbor",
+          "neighbor_of": "f5f40dd8-e8fb-5e74-9834-e45e31331549"
+        },
+        {
+          "id": "53790a32-eb36-5aba-9361-b27f10d367cf",
+          "episode_id": "e114cae3-dd1c-5482-b643-07fcfb47fb69",
+          "ordinal": 17,
+          "version": 1,
+          "source_path": "episodes/sean-ellis/transcript.md",
+          "source_hash": "6af2a6e031826805e855ec262b1f228e3773b5b99265a1d01870f0d4e6e9ceda",
+          "corpus_revision": "be8ab89a890a833cbba2c892178f823fff178c65",
+          "title": "The original growth hacker reveals his secrets | Sean Ellis (author of “Hacking Growth”)",
+          "guest": "Sean Ellis",
+          "video_url": "https://www.youtube.com/watch?v=VjJ6xcv7e8s",
+          "speakers": [
+            "Sean Ellis",
+            "Lenny Rachitsky"
+          ],
+          "start_seconds": 2117.0,
+          "end_seconds": 2250.0,
+          "char_start": 37297,
+          "char_end": 39570,
+          "line_start": 315,
+          "line_end": 331,
+          "original_text": "[Full transcript payload omitted from public export; private original retained.]",
+          "original_text_public_redaction": {
+            "sha256": "06a5761f168131ee2b8406ef56df926be7b80256424b85563946687b4b0a0dc5",
+            "characters": 2273,
+            "reason": "Full source passage payload; exact IDs, offsets, source hashes and limited selected answer quotes are retained."
+          },
+          "text_sha256": "06a5761f168131ee2b8406ef56df926be7b80256424b85563946687b4b0a0dc5",
+          "estimated_tokens": 569,
+          "sponsor": false,
+          "metadata_warnings": [],
+          "dense_rank": 10,
+          "sparse_rank": 3,
+          "rank_score": 0.030158730158730156,
+          "kind": "ranked",
+          "neighbor_of": null
+        }
+      ],
+      "estimated_tokens": 2316,
+      "candidate_counts": {
+        "dense": 20,
+        "sparse": 20
+      },
+      "corpus": {
+        "active_episodes": 9,
+        "active_chunks": 373,
+        "discovered": 303,
+        "partial": true
+      },
+      "timings_ms": {
+        "embedding": 70.53587500013236,
+        "database": 39.190416000565165,
+        "total": 109.73066699989431
+      },
+      "embedding_model": "nomic-embed-text:latest",
+      "embedding_digest": "0a109f422b47e3a30ba2b10eca18548e944e8a23073ee3f3e947efcf3c45e59f",
+      "support_verified": false
+    }
+  ],
+  "ready": {
+    "status": "ready",
+    "scope": "phase_5_conversation",
+    "product_ready": false,
+    "checks": {
+      "database": {
+        "ready": true,
+        "schema_revision": "0003_conversation",
+        "pgvector_version": "0.8.7"
+      },
+      "corpus": {
+        "ready": true,
+        "status": "partial",
+        "active_chunks": 373,
+        "active_episodes": 9,
+        "discovered": 303
+      },
+      "agent": {
+        "ready": true,
+        "version": "1.5.0"
+      },
+      "ollama": {
+        "ready": true,
+        "reachable_from_api": true,
+        "version": "0.30.11",
+        "generation_model_available": true,
+        "embedding_model_available": true,
+        "embedding_dimensions_compatible": true,
+        "index_identity_compatible": true,
+        "note": "Transport and installed-model availability; does not prove answer or essay quality."
+      }
+    }
+  },
+  "models": {
+    "models": [
+      {
+        "name": "qwen3:0.6b",
+        "model": "qwen3:0.6b",
+        "modified_at": "2026-11-06T09:40:59.453123576+05:30",
+        "size": 522653767,
+        "digest": "7df6b6e09427a769808717c0a93cadc4ae99ed4eb8bf5ca557c90846becea435",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "qwen3",
+          "families": [
+            "qwen3"
+          ],
+          "parameter_size": "751.63M",
+          "quantization_level": "Q4_K_M",
+          "context_length": 40960,
+          "embedding_length": 1024
+        },
+        "capabilities": [
+          "completion",
+          "tools",
+          "thinking"
+        ]
+      },
+      {
+        "name": "nomic-embed-text:latest",
+        "model": "nomic-embed-text:latest",
+        "modified_at": "2026-07-01T13:27:28.818307643+05:30",
+        "size": 274302450,
+        "digest": "0a109f422b47e3a30ba2b10eca18548e944e8a23073ee3f3e947efcf3c45e59f",
+        "details": {
+          "parent_model": "",
+          "format": "gguf",
+          "family": "nomic-bert",
+          "families": [
+            "nomic-bert"
+          ],
+          "parameter_size": "137M",
+          "quantization_level": "F16",
+          "context_length": 2048,
+          "embedding_length": 768
+        },
+        "capabilities": [
+          "embedding"
+        ]
+      }
+    ]
+  },
+  "host": {
+    "hardware": "Mac14,7\n8589934592\n8\nApple M2",
+    "swap": "vm.swapusage: total = 10240.00M  used = 9483.81M  free = 756.19M  (encrypted)",
+    "memory": "The system has 8589934592 (524288 pages with a page size of 16384).\nSystem-wide memory free percentage: 26%",
+    "disk_free_bytes": 111039811584
+  },
+  "prior_conversations": {
+    "message_count": 75,
+    "message_digest": "125403a4201ec1fe2145c7b4ad77f0caa967e2bc56f1180b9c8947ad060b92cf",
+    "session_digest": "8b51fc52239746fe6eb1cd163466e4b5713d34942fbf64568a184436ae30e6ca"
+  }
+}

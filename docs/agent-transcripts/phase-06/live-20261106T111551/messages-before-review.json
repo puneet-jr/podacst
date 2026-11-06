@@ -1,0 +1,24 @@
+[
+  {
+    "id": "613f1732-0a89-4eed-9e00-e177473eab7f",
+    "session_id": "1dca09bc-7a12-4118-b6b9-4322f85d1397",
+    "client_message_id": "028545a2-9098-4ee3-aa81-d230686f5b4c",
+    "role": "user",
+    "content": "I am an early-stage product manager. Keep recommendations cautious, distinguish advice from observed guest experience, and avoid promises of guaranteed growth.",
+    "status": "completed",
+    "created_at": "2026-11-06T11:15:51.865218Z",
+    "run": null,
+    "citations": []
+  },
+  {
+    "id": "19b06122-296a-423b-b5bb-114ee6df1793",
+    "session_id": "1dca09bc-7a12-4118-b6b9-4322f85d1397",
+    "client_message_id": "210fea85-becd-4eb5-be4d-cf1ddfae4bce",
+    "role": "user",
+    "content": "Write a Ship30 essay.\nTopic: Use must-have customer feedback to improve positioning and onboarding\nAudience: Early-stage product managers deciding how to move users toward first value\nConstraints: Explain the survey, benefit-focused follow-ups, the Lookout case, and limitations. Do not claim a survey score guarantees product-market fit or that onboarding alone caused the outcome. Label proposed user actions Application:. Use only supplied transcript evidence; no invented stories, quotes, metrics or personal experience.",
+    "status": "completed",
+    "created_at": "2026-11-06T11:15:51.893869Z",
+    "run": null,
+    "citations": []
+  }
+]

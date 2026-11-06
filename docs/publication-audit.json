@@ -1,0 +1,27 @@
+{
+  "reviewed_at": "2026-11-06T11:46:46.641510+00:00",
+  "publication_scope": "User-authorized ordered current-time snapshot commits and non-force main push to vivekvattem/lenny",
+  "candidate_file_count_before_this_audit": 410,
+  "candidate_review_passed": true,
+  "findings": [],
+  "configured_values_checked_without_disclosure": 1,
+  "private_original_files_verified": 261,
+  "private_original_mismatches": [],
+  "prior_phase_protected_files_verified": 247,
+  "prior_phase_mismatches": [],
+  "public_payload_fields_omitted": 45,
+  "env_example_included": true,
+  "real_env_ignored": true,
+  "staged_review_procedure": "Each phase index is checked before committing by scripts/commit_publication.py; actual review results and times are included in the respective commit messages. No date overrides are inherited.",
+  "tests": "81 backend contracts passed before publication; live essay FAILED before section1, no rerun during Git work.",
+  "deliberate_exclusions": [
+    ".env and credential/private configuration",
+    "Confidential assignment PDFs (outside project or ignored *.pdf/*.PDF)",
+    "Full downloaded corpus in .cache/corpus and source payloads in public evidence",
+    "Model weights/stores (*.gguf, *.safetensors, models/, .ollama/)",
+    "node_modules, dist, Python virtualenvs/caches",
+    "Private raw Pi trace volume and ignored .cache/phase5-private",
+    ".cache/publication-originals hash-identical unsanitized backup"
+  ],
+  "limits": "Candidate/staged checks complement manual review; no universal secret-detector/security guarantee. Historical outputs refer to private originals; sanitized exports are labelled. Push status is verified after commits, not presumed here."
+}

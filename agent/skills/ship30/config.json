@@ -1,0 +1,11 @@
+{
+  "version": "ship30-v1.1",
+  "target_words": 1250,
+  "min_words": 1125,
+  "max_words": 1375,
+  "sections": 6,
+  "max_repairs": 1,
+  "stage_deadline_seconds": 90,
+  "outline_output_tokens": 1100,
+  "section_output_tokens": 850
+}

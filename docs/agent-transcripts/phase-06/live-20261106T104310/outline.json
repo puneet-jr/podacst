@@ -1,0 +1,48 @@
+{
+  "title": "Use must-have customer feedback to improve positioning and onboarding",
+  "status": "ready",
+  "sections": [
+    {
+      "heading": "Opening Promise",
+      "purpose": "Introduce the idea of using customer feedback to improve positioning and onboarding.",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "heading": "Foundation",
+      "purpose": "Explain the importance of customer feedback in shaping product positioning and onboarding.",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "heading": "Mechanism",
+      "purpose": "Outline how customer feedback can be used to improve positioning and onboarding.",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "heading": "Source-Backed Case",
+      "purpose": "Provide a case study from Sean Ellis' experience with customer feedback.",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "heading": "Limitations",
+      "purpose": "Highlight the limitations of using customer feedback as a guide.",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "heading": "Actionable Takeaway",
+      "purpose": "Summarize the key takeaways from the evidence.",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+{"captured_at": "2026-11-06T11:15:51.922680+00:00", "elapsed_seconds": 0.03618141729384661, "type": "started", "run_id": "bf8f692a-a48f-43b4-b116-0f8755c799e7", "data": {"user_message_id": "19b06122-296a-423b-b5bb-114ee6df1793"}}
+{"captured_at": "2026-11-06T11:15:51.933534+00:00", "elapsed_seconds": 0.04701929213479161, "type": "planning", "run_id": "bf8f692a-a48f-43b4-b116-0f8755c799e7", "data": {}}
+{"captured_at": "2026-11-06T11:15:56.805983+00:00", "elapsed_seconds": 4.919474542140961, "type": "retrieving", "run_id": "bf8f692a-a48f-43b4-b116-0f8755c799e7", "data": {}}
+{"captured_at": "2026-11-06T11:16:11.207361+00:00", "elapsed_seconds": 19.321409250143915, "type": "drafting", "run_id": "bf8f692a-a48f-43b4-b116-0f8755c799e7", "data": {"section": 1, "target_words": 160}}
+{"captured_at": "2026-11-06T11:16:12.345441+00:00", "elapsed_seconds": 20.45884233294055, "type": "failed", "run_id": "bf8f692a-a48f-43b4-b116-0f8755c799e7", "data": {}}

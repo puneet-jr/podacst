@@ -1,0 +1,241 @@
+{
+  "captured_at": "2026-11-06T10:43:30.748740+00:00",
+  "actual_local_inference": true,
+  "session_id": "58f3a325-cc0c-4971-a64a-38dfc5b59a19",
+  "run_id": "0458588f-92df-4137-9ef2-88dcc3397977",
+  "request_duration_seconds": 19.362137166783214,
+  "run": {
+    "id": "0458588f-92df-4137-9ef2-88dcc3397977",
+    "session_id": "58f3a325-cc0c-4971-a64a-38dfc5b59a19",
+    "user_message_id": "17f7b631-0d05-40bc-bafb-e77a61323b14",
+    "assistant_message_id": null,
+    "status": "failed",
+    "request": {
+      "topic": "Use must-have customer feedback to improve positioning and onboarding",
+      "audience": "Early-stage product managers deciding how to move users toward first value",
+      "workflow": "ship30",
+      "constraints": "Explain the survey, benefit-focused follow-ups, the Lookout case, and limitations. Do not claim a survey score guarantees product-market fit or that onboarding alone caused the outcome. Label proposed user actions Application:. Use only supplied transcript evidence; no invented stories, quotes, metrics or personal experience.",
+      "source_path": "episodes/sean-ellis/transcript.md",
+      "focus_questions": [
+        "Sean Ellis must-have product market fit survey how would you feel no longer use very disappointed",
+        "Sean Ellis Lookout antivirus positioning onboarding first value",
+        "Sean Ellis survey customer segments benefits product market fit focus"
+      ],
+      "timeout_seconds": 600.0,
+      "use_session_context": true
+    },
+    "context_message_ids": [
+      "d6433186-c889-4689-b9ca-518c69152219"
+    ],
+    "outline": {
+      "title": "Use must-have customer feedback to improve positioning and onboarding",
+      "status": "ready",
+      "sections": [
+        {
+          "heading": "Opening Promise",
+          "purpose": "Introduce the idea of using customer feedback to improve positioning and onboarding.",
+          "source_ids": [
+            "S1"
+          ]
+        },
+        {
+          "heading": "Foundation",
+          "purpose": "Explain the importance of customer feedback in shaping product positioning and onboarding.",
+          "source_ids": [
+            "S2"
+          ]
+        },
+        {
+          "heading": "Mechanism",
+          "purpose": "Outline how customer feedback can be used to improve positioning and onboarding.",
+          "source_ids": [
+            "S3"
+          ]
+        },
+        {
+          "heading": "Source-Backed Case",
+          "purpose": "Provide a case study from Sean Ellis' experience with customer feedback.",
+          "source_ids": [
+            "S4"
+          ]
+        },
+        {
+          "heading": "Limitations",
+          "purpose": "Highlight the limitations of using customer feedback as a guide.",
+          "source_ids": [
+            "S5"
+          ]
+        },
+        {
+          "heading": "Actionable Takeaway",
+          "purpose": "Summarize the key takeaways from the evidence.",
+          "source_ids": [
+            "S6"
+          ]
+        }
+      ]
+    },
+    "sections": [],
+    "draft_md": null,
+    "validation": null,
+    "review": null,
+    "metadata": {
+      "model": "qwen3:0.6b",
+      "policy": {
+        "version": "ship30-v1",
+        "sections": 6,
+        "max_words": 1375,
+        "min_words": 1125,
+        "max_repairs": 1,
+        "target_words": 1250,
+        "outline_output_tokens": 1100,
+        "section_output_tokens": 850,
+        "stage_deadline_seconds": 90
+      },
+      "stages": [
+        {
+          "model": "qwen3:0.6b",
+          "stage": "outline",
+          "usage": {
+            "input": 1722,
+            "output": 303,
+            "cacheRead": 0,
+            "reasoning": 0,
+            "cacheWrite": 0,
+            "totalTokens": 2025
+          },
+          "provider": "ollama-local",
+          "model_text": "{\n  \"status\": \"ready\",\n  \"title\": \"Use must-have customer feedback to improve positioning and onboarding\",\n  \"sections\": [\n    {\n      \"heading\": \"Opening Promise\",\n      \"purpose\": \"Introduce the idea of using customer feedback to improve positioning and onboarding.\",\n      \"source_ids\": [\n        \"S1\"\n      ]\n    },\n    {\n      \"heading\": \"Foundation\",\n      \"purpose\": \"Explain the importance of customer feedback in shaping product positioning and onboarding.\",\n      \"source_ids\": [\n        \"S2\"\n      ]\n    },\n    {\n      \"heading\": \"Mechanism\",\n      \"purpose\": \"Outline how customer feedback can be used to improve positioning and onboarding.\",\n      \"source_ids\": [\n        \"S3\"\n      ]\n    },\n    {\n      \"heading\": \"Source-Backed Case\",\n      \"purpose\": \"Provide a case study from Sean Ellis' experience with customer feedback.\",\n      \"source_ids\": [\n        \"S4\"\n      ]\n    },\n    {\n      \"heading\": \"Limitations\",\n      \"purpose\": \"Highlight the limitations of using customer feedback as a guide.\",\n      \"source_ids\": [\n        \"S5\"\n      ]\n    },\n    {\n      \"heading\": \"Actionable Takeaway\",\n      \"purpose\": \"Summarize the key takeaways from the evidence.\",\n      \"source_ids\": [\n        \"S6\"\n      ]\n    }\n  ]\n}",
+          "tool_trace": [
+            {
+              "args": {
+                "query": "current"
+              },
+              "tool": "search_transcripts",
+              "result": {
+                "mode": "hybrid",
+                "source_ids": [
+                  "S1",
+                  "S2",
+                  "S3",
+                  "S4",
+                  "S5",
+                  "S6"
+                ]
+              }
+            }
+          ],
+          "stop_reason": "stop",
+          "tool_called": true,
+          "bridge_closed": true,
+          "pi_session_id": "01a1b074-90d6-74df-8220-e107d14466fc",
+          "process_reaped": true,
+          "duration_seconds": 14.667767049000759,
+          "initial_message_count": 0,
+          "text_tool_call_normalized": false
+        },
+        {
+          "model": "qwen3:0.6b",
+          "stage": "section-1",
+          "provider": "ollama-local",
+          "model_text": "[Opening Promise]  \nThe problem is that early-stage product managers often struggle to align their positioning with user needs, leading to ineffective onboarding. By using customer feedback, they can identify the most valuable aspects of the audience's journey. For example, [S#1] highlights how customer surveys revealed that users prioritize ease of navigation. This feedback helps refine the onboarding process to better meet the audience's expectations. The promise is to ensure that the onboarding is not just a one-size-fits-all experience but tailored to the specific needs of the users. Application: Make sure the onboarding process is intuitive and aligned with the audience's",
+          "tool_called": false,
+          "bridge_closed": true,
+          "process_reaped": true,
+          "duration_seconds": 4.6068617930013716,
+          "initial_message_count": 0,
+          "text_tool_call_normalized": false
+        }
+      ],
+      "provider": "ollama-local",
+      "workflow": "ship30",
+      "retrievals": [
+        {
+          "mode": "hybrid",
+          "query": "Sean Ellis must-have product market fit survey how would you feel no longer use very disappointed",
+          "corpus": {
+            "partial": true,
+            "discovered": 303,
+            "active_chunks": 373,
+            "active_episodes": 9
+          },
+          "timings_ms": {
+            "total": 768.9813750002941,
+            "database": 118.17912600054115,
+            "embedding": 650.5931250012509
+          },
+          "passage_ids": [
+            "bdd3d954-095e-5f5a-8be1-5f38377168ff",
+            "9d370308-1dd5-5657-bdf5-f159a62ce159",
+            "c0aa1ec1-9da2-5bc9-a1ed-550df1f12411",
+            "a0a289c1-f980-5077-b231-7891350a5e40"
+          ]
+        },
+        {
+          "mode": "hybrid",
+          "query": "Sean Ellis Lookout antivirus positioning onboarding first value",
+          "corpus": {
+            "partial": true,
+            "discovered": 303,
+            "active_chunks": 373,
+            "active_episodes": 9
+          },
+          "timings_ms": {
+            "total": 103.05787499964936,
+            "database": 31.366708999485127,
+            "embedding": 71.6805829997611
+          },
+          "passage_ids": [
+            "53054eb0-beee-5be4-b2f1-99ca9b2eac2d",
+            "fecfa828-2e7a-51f2-ba0a-6bf77a2fb759",
+            "40c4e9ae-ce0c-5575-817c-b00c6c5d8334",
+            "38b28fa6-86ff-59ba-8019-ff4db2c27656"
+          ]
+        },
+        {
+          "mode": "hybrid",
+          "query": "Sean Ellis survey customer segments benefits product market fit focus",
+          "corpus": {
+            "partial": true,
+            "discovered": 303,
+            "active_chunks": 373,
+            "active_episodes": 9
+          },
+          "timings_ms": {
+            "total": 117.39775000023656,
+            "database": 46.407792000536574,
+            "embedding": 70.9848750011588
+          },
+          "passage_ids": [
+            "f5f40dd8-e8fb-5e74-9834-e45e31331549",
+            "ac3b448b-888b-5a93-b57a-87115b25c5c1",
+            "2d70a732-94f8-5cd8-9f59-0019c1fd9b21",
+            "53790a32-eb36-5aba-9361-b27f10d367cf"
+          ]
+        }
+      ],
+      "repairs_used": 0,
+      "retrieval_mode": "hybrid",
+      "elapsed_seconds": 19.330592508000336,
+      "source_passage_ids": {
+        "S1": "bdd3d954-095e-5f5a-8be1-5f38377168ff",
+        "S2": "53054eb0-beee-5be4-b2f1-99ca9b2eac2d",
+        "S3": "f5f40dd8-e8fb-5e74-9834-e45e31331549",
+        "S4": "9d370308-1dd5-5657-bdf5-f159a62ce159",
+        "S5": "fecfa828-2e7a-51f2-ba0a-6bf77a2fb759",
+        "S6": "ac3b448b-888b-5a93-b57a-87115b25c5c1"
+      }
+    },
+    "error_code": "rpc_rejected"
+  },
+  "source_passage_ids": {
+    "S1": "bdd3d954-095e-5f5a-8be1-5f38377168ff",
+    "S2": "53054eb0-beee-5be4-b2f1-99ca9b2eac2d",
+    "S3": "f5f40dd8-e8fb-5e74-9834-e45e31331549",
+    "S4": "9d370308-1dd5-5657-bdf5-f159a62ce159",
+    "S5": "fecfa828-2e7a-51f2-ba0a-6bf77a2fb759",
+    "S6": "ac3b448b-888b-5a93-b57a-87115b25c5c1"
+  },
+  "manual_review": "pending; deterministic success is not factual/narrative quality",
+  "essay_gate": "failed"
+}
