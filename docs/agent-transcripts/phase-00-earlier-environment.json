@@ -1,0 +1,11 @@
+{
+  "kind": "actual_tool_result_export",
+  "note": "Exact earlier exec_command result; export time is not the original command time. Read-only checks rerun outside sandbox after sandbox permission failures.",
+  "result": {
+    "chunk_id": "c41ca6",
+    "wall_time_seconds": 1.7272057090000001,
+    "exit_code": 0,
+    "original_token_count": 161,
+    "output": "{\"command\": [\"sysctl\", \"-n\", \"hw.memsize\"], \"exit_code\": 0, \"stdout\": \"8589934592\", \"stderr\": \"\"}\n{\"command\": [\"sysctl\", \"-n\", \"hw.physicalcpu\"], \"exit_code\": 0, \"stdout\": \"8\", \"stderr\": \"\"}\n{\"command\": [\"sysctl\", \"-n\", \"machdep.cpu.brand_string\"], \"exit_code\": 0, \"stdout\": \"Apple M2\", \"stderr\": \"\"}\n{\"command\": [\"pg_isready\", \"-h\", \"127.0.0.1\", \"-p\", \"5432\", \"-t\", \"2\"], \"exit_code\": 0, \"stdout\": \"127.0.0.1:5432 - accepting connections\", \"stderr\": \"\"}\n{\"command\": [\"docker\", \"info\", \"--format\", \"{{.ServerVersion}}\"], \"exit_code\": 0, \"stdout\": \"28.4.0\", \"stderr\": \"\"}\n{\"ollama_probe_error\": \"<urlopen error [Errno 61] Connection refused>\"}\n"
+  }
+}

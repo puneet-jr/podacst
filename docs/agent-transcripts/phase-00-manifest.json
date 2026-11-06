@@ -1,0 +1,121 @@
+{
+  "created_at": "2026-11-06T04:02:49.333312+00:00",
+  "note": "File identity for Phase 0; excludes this self-referential manifest. Birth times are observed filesystem metadata, not agent transcripts.",
+  "files": [
+    {
+      "path": ".gitignore",
+      "sha256": "24c6802c6a267303a3306c148ac1c1c8c8c0bf200cc80cd4ed5e3bfe95c5769d",
+      "created_at_india": "2026-11-06T09:26:01.344628+05:30"
+    },
+    {
+      "path": "AGENTS.md",
+      "sha256": "d52068f340e0be8a7714659c06da46fddf2a623ca4f0c76abc0ad9637285e3a2",
+      "created_at_india": "2026-11-06T09:26:01.308224+05:30"
+    },
+    {
+      "path": "LENNY_BUILD_FLOW.md",
+      "sha256": "acff2d7203252dbfb1e704dee99053c68a9f9ef94af0f9171f06e1b2da5d5267",
+      "created_at_india": "2026-11-06T09:28:11.905775+05:30"
+    },
+    {
+      "path": "LENNY_CODEX_PROMPTS.md",
+      "sha256": "655ee2086ab647d4bcbc085800521bd026a5443baef96b35af34004273221274",
+      "created_at_india": "2026-11-06T09:28:11.901953+05:30"
+    },
+    {
+      "path": "README.md",
+      "sha256": "43d272e719962aad3ce22f842da7b7377553cc7aaecb43bf2311e5ceff3d15e5",
+      "created_at_india": "2026-11-06T09:30:10.051372+05:30"
+    },
+    {
+      "path": "docs/PRD.md",
+      "sha256": "851ca3647a2eab449c0c9bd000facea7b78d68cc9dd73f9f69d8e9e619c2c174",
+      "created_at_india": "2026-11-06T09:26:01.264998+05:30"
+    },
+    {
+      "path": "docs/agent-transcripts/README.md",
+      "sha256": "6c1b1e38f1c037ef16e5c3deae04167c1634de2fa56056903b25cab8201415a4",
+      "created_at_india": "2026-11-06T09:30:09.968738+05:30"
+    },
+    {
+      "path": "docs/agent-transcripts/phase-00-assignment-source.json",
+      "sha256": "d324c21cbdc121975172839b98a52191683709b0a9dbc65721909bbffaff4544",
+      "created_at_india": "2026-11-06T09:31:03.259756+05:30"
+    },
+    {
+      "path": "docs/agent-transcripts/phase-00-check-failure.json",
+      "sha256": "065e7791c55bf2c13a5bc1007cbd417d4dcf5e972cef5eea5b18befa62aaaba0",
+      "created_at_india": "2026-11-06T09:32:49.271678+05:30"
+    },
+    {
+      "path": "docs/agent-transcripts/phase-00-checks.jsonl",
+      "sha256": "d06593cd7eba62d5dcb0cb1e2d3825baef887e966f16e6a8a0d3685f852ff8a4",
+      "created_at_india": "2026-11-06T09:32:49.332906+05:30"
+    },
+    {
+      "path": "docs/agent-transcripts/phase-00-earlier-environment.json",
+      "sha256": "134cca0422f3686e6c0612f0c842d35851c6db6d0137b32f672a5af6890288b6",
+      "created_at_india": "2026-11-06T09:28:12.164502+05:30"
+    },
+    {
+      "path": "docs/agent-transcripts/phase-00-environment.jsonl",
+      "sha256": "844bfee339723650e034b584ce5a185048e2e74f64c447586772251f0887c30d",
+      "created_at_india": "2026-11-06T09:31:00.326438+05:30"
+    },
+    {
+      "path": "docs/agent-transcripts/phase-00-source-audit.json",
+      "sha256": "267d3610d8eb0436a070eb77b3377f237f90dee85279907e3a750d40f4e9c5c2",
+      "created_at_india": "2026-11-06T09:30:45.663110+05:30"
+    },
+    {
+      "path": "docs/agent-transcripts/phase-00-summary.md",
+      "sha256": "4d30a796ed6f4ae73253a88252bd8c369dfd9e1a9fcd198fc74f63e6fda705a1",
+      "created_at_india": "2026-11-06T09:30:10.010451+05:30"
+    },
+    {
+      "path": "docs/assessment-audit.md",
+      "sha256": "846875367fc3602ac77378d46ec77ca209777e6742fd5f290a4bb1ed7dff070a",
+      "created_at_india": "2026-11-06T09:30:09.797618+05:30"
+    },
+    {
+      "path": "docs/assumptions.md",
+      "sha256": "d83312928fb82989f5e3071b0daf3cca9cafaa7cc4ef47d43a641829aded3076",
+      "created_at_india": "2026-11-06T09:27:29.621660+05:30"
+    },
+    {
+      "path": "docs/decisions.md",
+      "sha256": "f87585f1c51b9110c52c1e2db8f1618efdb85eea20d3d2913c841e42420629e7",
+      "created_at_india": "2026-11-06T09:27:29.763767+05:30"
+    },
+    {
+      "path": "docs/environment.md",
+      "sha256": "8f671500818421f9f158893fd395d2bf57b715016bbaae5fed81bb43891e2da2",
+      "created_at_india": "2026-11-06T09:30:09.840163+05:30"
+    },
+    {
+      "path": "docs/progress.md",
+      "sha256": "18a6f7df7a98a346295dab11bc62e5d0e3b34942002d3b8253c72a45545b20a6",
+      "created_at_india": "2026-11-06T09:32:26.047080+05:30"
+    },
+    {
+      "path": "docs/provenance.md",
+      "sha256": "1c7e364314a4b90496bbb69846b863bf30d57e25f955dac06c889b3316036199",
+      "created_at_india": "2026-11-06T09:30:09.876194+05:30"
+    },
+    {
+      "path": "docs/requirements.md",
+      "sha256": "55053f27d5463fd22a96efbece708426851fa31b3aa1b821c1e1d30604780d7d",
+      "created_at_india": "2026-11-06T09:28:11.906738+05:30"
+    },
+    {
+      "path": "docs/risks.md",
+      "sha256": "966e8c072af63e3bc1fffa0dc792ef3e550e288a57b0edf4241cb7294bf5425a",
+      "created_at_india": "2026-11-06T09:27:29.683720+05:30"
+    },
+    {
+      "path": "docs/scenarios.md",
+      "sha256": "019bf0f518bc658f1100c6c9a883ff5349d923922bd4451c334f214f446de3a3",
+      "created_at_india": "2026-11-06T09:27:29.732671+05:30"
+    }
+  ]
+}

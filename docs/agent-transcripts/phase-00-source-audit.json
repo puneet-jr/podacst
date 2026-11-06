@@ -1,0 +1,44 @@
+{
+  "kind": "minimal_projection_of_actual_connector_results",
+  "note": "Source metadata only; full responses and source content omitted. No corpus content or dependency installation evidence.",
+  "pi": {
+    "revision": "2a32a605a9f18a5f0191f65358a2e764b2f69fc7",
+    "package": "@earendil-works/pi-coding-agent",
+    "version": "1.5.0",
+    "node": ">=22.19.0",
+    "license": "MIT"
+  },
+  "corpus": {
+    "url": "https://github.com/ChatPRD/lennys-podcast-transcripts",
+    "observed_root": [
+      {
+        "name": "CLAUDE.md",
+        "sha": "797c11096e322cf22aa9261cb003fc9b8c9c176e",
+        "type": "file"
+      },
+      {
+        "name": "README.md",
+        "sha": "117a8ef99b74136ec1293ce672bfc83ae89e7640",
+        "type": "file"
+      },
+      {
+        "name": "episodes",
+        "sha": "18d0dd6de4f491caaf843aef61d61bb7ca27c93b",
+        "type": "dir"
+      },
+      {
+        "name": "index",
+        "sha": "bb421541d0816342675d9ba278e94eeb59ef22be",
+        "type": "dir"
+      },
+      {
+        "name": "scripts",
+        "sha": "464594fe1cf7c7060e9cc4073865879bf9aac1b0",
+        "type": "dir"
+      }
+    ],
+    "license_at_root_observed": false,
+    "corpus_snapshot_pinned": false,
+    "episode_count_measured": false
+  }
+}

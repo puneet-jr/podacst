@@ -1,0 +1,46 @@
+# Credentials and private runtime state
+.env
+.env.*
+!.env.example
+auth.json
+.pi/
+.aws/
+.codex/
+.agents/
+*.pem
+*.key
+
+# Confidential source and raw exports
+*.pdf
+private/
+raw-exports/
+corpus/
+data/transcripts/
+
+# Build/runtime files
+.venv/
+__pycache__/
+*.pyc
+node_modules/
+dist/
+.DS_Store
+.cache/
+.pytest_cache/
+
+.venv-phase2/
+
+# Publication exclusions: preserve private originals locally, never in history
+.venv*/
+.ollama/
+.huggingface/
+models/
+weights/
+*.gguf
+*.safetensors
+*.ckpt
+*.p12
+*.pfx
+*.PDF
+*.sqlite*
+*.dump
+*.log.private

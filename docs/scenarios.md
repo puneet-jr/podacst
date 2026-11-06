@@ -1,0 +1,23 @@
+# SC-01: predefined end-to-end acceptance scenarios
+
+Defined 6 November 2026 before implementation or quality tuning. Proposed product target: **at least 4/5 (80%)** without manual recovery. This number is ours, not a company benchmark, and never waives any mandatory requirement or critical defect. Actual outcome: **not run**; no numerator is available. This is a five-case acceptance exercise, not participant usability research.
+
+## Freeze and execution protocol
+
+The five journeys were fixed in Phase 0. Exact questions, guest/episode scopes and manually reviewed source character spans/hashes were frozen on 6 November 2026 during Phase 3, before retrieval/generation tuning. See [scenario-inputs.json](scenario-inputs.json), pinned corpus be8ab89a890a833cbba2c892178f823fff178c65 and [anchor correction](agent-transcripts/phase-03/scenario-anchor-correction.json). These are source anchors, not invented DB passage IDs or executed outcomes. Do not choose only easy demo examples or substitute failed cases. Preserve this file's hash in the Phase 3 source manifest as the freeze revision.
+
+Before release runs, derive and freeze per-scenario duration caps from measured host baselines, including essay costs. No cap is set yet because no complete product journey or essay baseline has run; fixture generation and ingestion timings do not establish those budgets. Do not retroactively increase caps. Execute on the release candidate with actual Ollama and PostgreSQL. Allowed normal UI actions include source inspection, switching chat, revision and supported reformulation; disallowed recovery includes developer reruns, database edits, model/provider substitution or intervention.
+
+Every pass requires reviewed supported behavior, resolving relevant sources, successful relevant artifact preview/save and correct reopened content. A failure remains in the first-attempt result; record post-fix reruns separately. Record revision, corpus SHA, source/chunk IDs, model/digest/configuration, hardware, start/end UTC and India time, task and warm-answer duration, expected/actual behavior, screenshots/log links and failure reason.
+
+| ID | Fixed journey and input to freeze after corpus inspection | Pass conditions | Status |
+| --- | --- | --- | --- |
+| SC-01-A | Product/growth question -> cited answer -> inspect evidence -> Markdown artifact -> reopen. Choose one decision-focused question with reviewed relevant passages. | Answer claims supported; inspector shows exact evidence and attribution; Markdown reflects discussion, renders safely and persists after reopen. | Not run; question/source anchors frozen; duration cap pending. |
+| SC-01-B | Question -> follow-up changing audience/context -> inspect fresh evidence -> complete HTML/CSS artifact -> reopen. Freeze both turns and expected contextual constraint. | Follow-up respects changed constraint, retrieves evidence, HTML previews safely beside chat and saved content/source associations reopen correctly. | Not run; question/source anchors frozen; duration cap pending. |
+| SC-01-C | Grounded research -> dedicated approximately 1,250-word essay -> inspect sources -> reopen. Freeze audience/topic and expected evidence. | Dedicated workflow used; 1,125-1,375 words excluding references, hook/progression/headings/bullets/selective bold/useful takeaway; manual factual support review passes; persisted output reopens. | Not run; question/source anchors frozen; duration cap pending. |
+| SC-01-D | Research in chat one -> new independent chat -> separate question/artifact -> reopen both. Freeze distinct questions and a context marker. | No context/source/artifact crossover; independent session IDs, correct user metadata/timestamps and both saved conversations recover after restart without resetting data. | Not run; question/source anchors frozen; duration cap pending. |
+| SC-01-E | Unsupported request -> explicit evidence limitation -> supported reformulation -> cited answer and artifact -> reopen. Freeze unsupported fact request after corpus review. | Initial facts not fabricated; limitation is clear; ordinary reformulation works with reviewed evidence; artifact saves/previews/reopens without developer intervention. | Not run; question/source anchors frozen; duration cap pending. |
+
+## Results template (not evidence)
+
+For each case record `attempt_id, scenario_id, freeze_revision, release_revision, corpus_sha, model_digest, hardware, started_at, ended_at, duration_cap, task_duration, warm_answer_samples, pass/fail, evidence_paths, failure_reason, rerun_of`. Use actual values only after execution. Report original numerator/5, failures and separate rerun outcomes; do not convert missing results into successes.

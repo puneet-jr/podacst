@@ -1,0 +1,12 @@
+{
+  "kind": "actual_observed_check_failure",
+  "command": [
+    "python3",
+    "/private/tmp/lenny-phase00-checks.py"
+  ],
+  "original_exit_code": 1,
+  "error_excerpt": "UnicodeDecodeError: 'utf-8' codec can't decode byte 0x87 in position 23: invalid start byte",
+  "note": "Actual earlier failure excerpt, not a reconstructed full tool transcript; original timestamp not captured.",
+  "diagnosis": "file .DS_Store identified Apple Desktop Services Store; Finder created metadata in root/docs after initial empty-workspace audit.",
+  "correction": "Exclude only .DS_Store platform metadata, already gitignored, from content/manifest audit; preserve files and all code/confidential-file checks."
+}
