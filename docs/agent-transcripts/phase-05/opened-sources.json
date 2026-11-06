@@ -1,0 +1,187 @@
+{
+  "captured_at": "2026-11-06T08:21:24.376100+00:00",
+  "actual_live_evidence": "docs/agent-transcripts/phase-05/live-20261106T081843/results.jsonl",
+  "opened_citations": [
+    {
+      "case": "supported",
+      "run_id": "9907cfa8-5a22-4782-ad9a-dc4819e3552a",
+      "session_id": "2928f012-1f44-4c9b-bec3-cf24a3c8b7e1",
+      "http_status": 200,
+      "exact_quotes": true,
+      "passage_sha256": "498e939ea74c0d2a17a9c5873cc10c29772edfca5374caae15d19e379a3af384",
+      "source": {
+        "source_label": "S1",
+        "chunk_id": "c0aa1ec1-9da2-5bc9-a1ed-550df1f12411",
+        "original_text": "[Full transcript payload omitted from public export; private original retained.]",
+        "original_text_public_redaction": {
+          "sha256": "498e939ea74c0d2a17a9c5873cc10c29772edfca5374caae15d19e379a3af384",
+          "characters": 2229,
+          "reason": "Full source passage payload; exact IDs, offsets, source hashes and limited selected answer quotes are retained."
+        },
+        "metadata": {
+          "id": "c0aa1ec1-9da2-5bc9-a1ed-550df1f12411",
+          "kind": "ranked",
+          "guest": "Sean Ellis",
+          "title": "The original growth hacker reveals his secrets | Sean Ellis (author of “Hacking Growth”)",
+          "ordinal": 1,
+          "sponsor": false,
+          "version": 1,
+          "char_end": 5334,
+          "line_end": 85,
+          "speakers": [
+            "Lenny Rachitsky",
+            "Sean Ellis"
+          ],
+          "video_url": "https://www.youtube.com/watch?v=VjJ6xcv7e8s",
+          "char_start": 3105,
+          "dense_rank": 3,
+          "episode_id": "e114cae3-dd1c-5482-b643-07fcfb47fb69",
+          "line_start": 64,
+          "rank_score": 0.032266458495966696,
+          "end_seconds": 199.0,
+          "neighbor_of": null,
+          "source_hash": "6af2a6e031826805e855ec262b1f228e3773b5b99265a1d01870f0d4e6e9ceda",
+          "source_path": "episodes/sean-ellis/transcript.md",
+          "sparse_rank": 1,
+          "text_sha256": "498e939ea74c0d2a17a9c5873cc10c29772edfca5374caae15d19e379a3af384",
+          "start_seconds": 63.0,
+          "corpus_revision": "be8ab89a890a833cbba2c892178f823fff178c65",
+          "estimated_tokens": 558,
+          "metadata_warnings": []
+        },
+        "quote_spans": [
+          {
+            "id": "E1",
+            "text": "It's a simple question that helps you figure out, does anyone consider your product a must-have, or ideally, who and how many people consider it, but ultimately it's about trying to figure out is your product a must-have, which could be equated to having product market fit. And so the question is, how would you feel if you could no longer use this product?",
+            "speaker": "Sean Ellis",
+            "char_end": 5333,
+            "char_start": 4975
+          }
+        ],
+        "source_url": "https://github.com/ChatPRD/lennys-podcast-transcripts/blob/be8ab89a890a833cbba2c892178f823fff178c65/episodes/sean-ellis/transcript.md",
+        "video_url": "https://www.youtube.com/watch?v=VjJ6xcv7e8s&t=63s"
+      }
+    },
+    {
+      "case": "follow_up",
+      "run_id": "46f3fa09-dec1-4aa3-a1a5-838d7a4661cc",
+      "session_id": "2928f012-1f44-4c9b-bec3-cf24a3c8b7e1",
+      "http_status": 200,
+      "exact_quotes": true,
+      "passage_sha256": "bbca0600f25b06c3861b687b42517e587ba3bab30ec044c7ca10b300faeec38f",
+      "source": {
+        "source_label": "S1",
+        "chunk_id": "53054eb0-beee-5be4-b2f1-99ca9b2eac2d",
+        "original_text": "[Full transcript payload omitted from public export; private original retained.]",
+        "original_text_public_redaction": {
+          "sha256": "bbca0600f25b06c3861b687b42517e587ba3bab30ec044c7ca10b300faeec38f",
+          "characters": 2212,
+          "reason": "Full source passage payload; exact IDs, offsets, source hashes and limited selected answer quotes are retained."
+        },
+        "metadata": {
+          "id": "53054eb0-beee-5be4-b2f1-99ca9b2eac2d",
+          "kind": "ranked",
+          "guest": "Sean Ellis",
+          "title": "The original growth hacker reveals his secrets | Sean Ellis (author of “Hacking Growth”)",
+          "ordinal": 5,
+          "sponsor": false,
+          "version": 1,
+          "char_end": 13474,
+          "line_end": 124,
+          "speakers": [
+            "Sean Ellis",
+            "Lenny Rachitsky"
+          ],
+          "video_url": "https://www.youtube.com/watch?v=VjJ6xcv7e8s",
+          "char_start": 11262,
+          "dense_rank": 1,
+          "episode_id": "e114cae3-dd1c-5482-b643-07fcfb47fb69",
+          "line_start": 112,
+          "rank_score": 0.03278688524590164,
+          "end_seconds": 698.0,
+          "neighbor_of": null,
+          "source_hash": "6af2a6e031826805e855ec262b1f228e3773b5b99265a1d01870f0d4e6e9ceda",
+          "source_path": "episodes/sean-ellis/transcript.md",
+          "sparse_rank": 1,
+          "text_sha256": "bbca0600f25b06c3861b687b42517e587ba3bab30ec044c7ca10b300faeec38f",
+          "start_seconds": 548.0,
+          "corpus_revision": "be8ab89a890a833cbba2c892178f823fff178c65",
+          "estimated_tokens": 553,
+          "metadata_warnings": []
+        },
+        "quote_spans": [
+          {
+            "id": "E1",
+            "text": "So by setting the right expectations around it up front, you're going to bring people in with the right expectations. But then the second thing that we did was we streamlined onboarding so that the first thing that they did after signing up for the product was to set up the antivirus and then get a message \"you're now protected from viruses.\"",
+            "speaker": "Sean Ellis",
+            "char_end": 13229,
+            "char_start": 12885
+          }
+        ],
+        "source_url": "https://github.com/ChatPRD/lennys-podcast-transcripts/blob/be8ab89a890a833cbba2c892178f823fff178c65/episodes/sean-ellis/transcript.md",
+        "video_url": "https://www.youtube.com/watch?v=VjJ6xcv7e8s&t=548s"
+      }
+    },
+    {
+      "case": "actual_session_isolation_check",
+      "run_id": "ba41b3eb-c0e8-4248-9fd3-7c8c9302a1dc",
+      "session_id": "0d0440c8-893e-4709-b17a-def35be886e1",
+      "http_status": 200,
+      "exact_quotes": true,
+      "passage_sha256": "8ce99b8f88f749e307c8f5b0418fad39ec39581ac23ecd3de87b352fb7acf1c3",
+      "source": {
+        "source_label": "S3",
+        "chunk_id": "76021723-d6c7-5117-a4a6-940e9a1d0d40",
+        "original_text": "[Full transcript payload omitted from public export; private original retained.]",
+        "original_text_public_redaction": {
+          "sha256": "8ce99b8f88f749e307c8f5b0418fad39ec39581ac23ecd3de87b352fb7acf1c3",
+          "characters": 2225,
+          "reason": "Full source passage payload; exact IDs, offsets, source hashes and limited selected answer quotes are retained."
+        },
+        "metadata": {
+          "id": "76021723-d6c7-5117-a4a6-940e9a1d0d40",
+          "kind": "ranked",
+          "guest": "Shreyas Doshi",
+          "title": "The art of product management | Shreyas Doshi (Stripe, Twitter, Google, Yahoo)",
+          "ordinal": 32,
+          "sponsor": false,
+          "version": 1,
+          "char_end": 68776,
+          "line_end": 358,
+          "speakers": [
+            "Lenny",
+            "Shreyas Doshi"
+          ],
+          "video_url": "https://www.youtube.com/watch?v=YP_QghPLG-8",
+          "char_start": 66551,
+          "dense_rank": 4,
+          "episode_id": "a42fa4ba-9b4f-570f-80c5-c9b14332b55d",
+          "line_start": 351,
+          "rank_score": 0.03149801587301587,
+          "end_seconds": 3828.0,
+          "neighbor_of": null,
+          "source_hash": "4e7f53f543391e9d64b738133eb9ffcefc761bbf22bec002716c5f9c90e940d6",
+          "source_path": "episodes/shreyas-doshi/transcript.md",
+          "sparse_rank": 3,
+          "text_sha256": "8ce99b8f88f749e307c8f5b0418fad39ec39581ac23ecd3de87b352fb7acf1c3",
+          "start_seconds": 3735.0,
+          "corpus_revision": "be8ab89a890a833cbba2c892178f823fff178c65",
+          "estimated_tokens": 557,
+          "metadata_warnings": []
+        },
+        "quote_spans": [
+          {
+            "id": "E5",
+            "text": "I think I learned this by just observing Patrick at Stripe, particularly over the last couple of years that I was there. And then I encapsulated what I learned and observed in this tweet, which is when you are in a high leverage role, you should stop doing work that simply provides a positive return on investment, ROI.",
+            "speaker": "Shreyas Doshi",
+            "char_end": 67333,
+            "char_start": 67013
+          }
+        ],
+        "source_url": "https://github.com/ChatPRD/lennys-podcast-transcripts/blob/be8ab89a890a833cbba2c892178f823fff178c65/episodes/shreyas-doshi/transcript.md",
+        "video_url": "https://www.youtube.com/watch?v=YP_QghPLG-8&t=3735s"
+      }
+    }
+  ],
+  "limits": "HTTP/span validity only. Manual support assessment is in support-review.json; an incomplete answer is not a semantic pass."
+}

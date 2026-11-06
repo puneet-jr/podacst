@@ -1,0 +1,209 @@
+{
+  "session_id": "10c21e2b-0893-469f-aaea-2291dc8c146f",
+  "run_id": "7c13a7e5-66e4-468f-9483-6b7479a0cbc4",
+  "messages": [
+    {
+      "id": "b8c33fa6-8757-47c5-b221-a1868ac9496b",
+      "session_id": "10c21e2b-0893-469f-aaea-2291dc8c146f",
+      "client_message_id": "871dc45d-bfef-4d4e-abce-f5038453d15e",
+      "role": "user",
+      "content": "According to Sean Ellis, what question identifies people who consider a product a must-have?",
+      "status": "completed",
+      "created_at": "2026-11-06T07:48:54.349490Z",
+      "run": {
+        "id": "d2d20593-49bd-4917-92c5-9232a160190c",
+        "status": "failed",
+        "error_code": "answer_timeout",
+        "retrieval_mode": "hybrid",
+        "attempt": 1,
+        "output": null
+      },
+      "citations": []
+    },
+    {
+      "id": "23b1ac31-2bf7-487d-bc6f-7eae4cc3719e",
+      "session_id": "10c21e2b-0893-469f-aaea-2291dc8c146f",
+      "client_message_id": "b28c944c-a92b-45e8-be18-10b428e5b83c",
+      "role": "user",
+      "content": "According to Sean Ellis, what question identifies people who consider a product a must-have?",
+      "status": "completed",
+      "created_at": "2026-11-06T07:48:55.456674Z",
+      "run": {
+        "id": "7c13a7e5-66e4-468f-9483-6b7479a0cbc4",
+        "status": "completed",
+        "error_code": null,
+        "retrieval_mode": "hybrid",
+        "attempt": 2,
+        "output": {
+          "text": "From the indexed transcript:\n\n“It's a simple question that helps you figure out, does anyone consider your product a must-have, or ideally, who and how many people consider it, but ultimately it's about trying to figure out is your product a must-have, which could be equated to having product market fit. And so the question is, how would you feel if you could no longer use this product?” [S1]",
+          "claims": [
+            {
+              "text": "It's a simple question that helps you figure out, does anyone consider your product a must-have, or ideally, who and how many people consider it, but ultimately it's about trying to figure out is your product a must-have, which could be equated to having product market fit. And so the question is, how would you feel if you could no longer use this product?",
+              "speaker": "Sean Ellis",
+              "source_id": "S1",
+              "evidence_id": "E1"
+            }
+          ],
+          "status": "answered",
+          "source_labels": [
+            "S1"
+          ]
+        }
+      },
+      "citations": []
+    },
+    {
+      "id": "0cc6c542-ca78-4ed8-a9df-b7dc1e285d3e",
+      "session_id": "10c21e2b-0893-469f-aaea-2291dc8c146f",
+      "client_message_id": "6ba2a844-4780-4720-b6ea-0263fd5b3c60",
+      "role": "user",
+      "content": "According to Sean Ellis, what question identifies people who consider a product a must-have?",
+      "status": "completed",
+      "created_at": "2026-11-06T07:48:57.835540Z",
+      "run": {
+        "id": "1162076e-f86d-4e11-8779-fc6bf09f30b3",
+        "status": "cancelled",
+        "error_code": "cancelled",
+        "retrieval_mode": "hybrid",
+        "attempt": 1,
+        "output": null
+      },
+      "citations": []
+    },
+    {
+      "id": "6006eaec-1422-5b21-84cc-51a077bea86a",
+      "session_id": "10c21e2b-0893-469f-aaea-2291dc8c146f",
+      "client_message_id": "6006eaec-1422-5b21-84cc-51a077bea86a",
+      "role": "assistant",
+      "content": "From the indexed transcript:\n\n“It's a simple question that helps you figure out, does anyone consider your product a must-have, or ideally, who and how many people consider it, but ultimately it's about trying to figure out is your product a must-have, which could be equated to having product market fit. And so the question is, how would you feel if you could no longer use this product?” [S1]",
+      "status": "completed",
+      "created_at": "2026-11-06T07:49:07.383215Z",
+      "run": {
+        "id": "7c13a7e5-66e4-468f-9483-6b7479a0cbc4",
+        "status": "completed",
+        "error_code": null,
+        "retrieval_mode": "hybrid",
+        "attempt": 2,
+        "output": {
+          "text": "From the indexed transcript:\n\n“It's a simple question that helps you figure out, does anyone consider your product a must-have, or ideally, who and how many people consider it, but ultimately it's about trying to figure out is your product a must-have, which could be equated to having product market fit. And so the question is, how would you feel if you could no longer use this product?” [S1]",
+          "claims": [
+            {
+              "text": "It's a simple question that helps you figure out, does anyone consider your product a must-have, or ideally, who and how many people consider it, but ultimately it's about trying to figure out is your product a must-have, which could be equated to having product market fit. And so the question is, how would you feel if you could no longer use this product?",
+              "speaker": "Sean Ellis",
+              "source_id": "S1",
+              "evidence_id": "E1"
+            }
+          ],
+          "status": "answered",
+          "source_labels": [
+            "S1"
+          ]
+        }
+      },
+      "citations": [
+        {
+          "source_label": "S1",
+          "chunk_id": "c0aa1ec1-9da2-5bc9-a1ed-550df1f12411"
+        }
+      ]
+    },
+    {
+      "id": "9a5d68da-a16a-4597-b172-fb858966d721",
+      "session_id": "10c21e2b-0893-469f-aaea-2291dc8c146f",
+      "client_message_id": "5e802566-9850-4eb3-81f3-3cef29bdc12d",
+      "role": "user",
+      "content": "What is the evidence for this unindexed source?",
+      "status": "completed",
+      "created_at": "2026-11-06T07:49:07.548109Z",
+      "run": {
+        "id": "3f6a3711-2a72-4fe6-b74b-2c0be4103aca",
+        "status": "completed",
+        "error_code": null,
+        "retrieval_mode": "hybrid",
+        "attempt": 1,
+        "output": {
+          "text": "The retrieved passages do not establish the requested fact. I cannot determine it from the indexed transcripts. Try a question supported by these interviews, or provide the missing information.",
+          "claims": [],
+          "status": "insufficient_evidence",
+          "source_labels": []
+        }
+      },
+      "citations": []
+    },
+    {
+      "id": "99351870-a6f8-546b-b42a-87aec3ed8c89",
+      "session_id": "10c21e2b-0893-469f-aaea-2291dc8c146f",
+      "client_message_id": "99351870-a6f8-546b-b42a-87aec3ed8c89",
+      "role": "assistant",
+      "content": "The retrieved passages do not establish the requested fact. I cannot determine it from the indexed transcripts. Try a question supported by these interviews, or provide the missing information.",
+      "status": "completed",
+      "created_at": "2026-11-06T07:49:12.485740Z",
+      "run": {
+        "id": "3f6a3711-2a72-4fe6-b74b-2c0be4103aca",
+        "status": "completed",
+        "error_code": null,
+        "retrieval_mode": "hybrid",
+        "attempt": 1,
+        "output": {
+          "text": "The retrieved passages do not establish the requested fact. I cannot determine it from the indexed transcripts. Try a question supported by these interviews, or provide the missing information.",
+          "claims": [],
+          "status": "insufficient_evidence",
+          "source_labels": []
+        }
+      },
+      "citations": []
+    }
+  ],
+  "source": {
+    "source_label": "S1",
+    "chunk_id": "c0aa1ec1-9da2-5bc9-a1ed-550df1f12411",
+    "original_text": "[Full transcript payload omitted from public export; private original retained.]",
+    "original_text_public_redaction": {
+      "sha256": "498e939ea74c0d2a17a9c5873cc10c29772edfca5374caae15d19e379a3af384",
+      "characters": 2229,
+      "reason": "Full source passage payload; exact IDs, offsets, source hashes and limited selected answer quotes are retained."
+    },
+    "metadata": {
+      "id": "c0aa1ec1-9da2-5bc9-a1ed-550df1f12411",
+      "kind": "ranked",
+      "guest": "Sean Ellis",
+      "title": "The original growth hacker reveals his secrets | Sean Ellis (author of “Hacking Growth”)",
+      "ordinal": 1,
+      "sponsor": false,
+      "version": 1,
+      "char_end": 5334,
+      "line_end": 85,
+      "speakers": [
+        "Lenny Rachitsky",
+        "Sean Ellis"
+      ],
+      "video_url": "https://www.youtube.com/watch?v=VjJ6xcv7e8s",
+      "char_start": 3105,
+      "dense_rank": 3,
+      "episode_id": "e114cae3-dd1c-5482-b643-07fcfb47fb69",
+      "line_start": 64,
+      "rank_score": 0.032266458495966696,
+      "end_seconds": 199.0,
+      "neighbor_of": null,
+      "source_hash": "6af2a6e031826805e855ec262b1f228e3773b5b99265a1d01870f0d4e6e9ceda",
+      "source_path": "episodes/sean-ellis/transcript.md",
+      "sparse_rank": 1,
+      "text_sha256": "498e939ea74c0d2a17a9c5873cc10c29772edfca5374caae15d19e379a3af384",
+      "start_seconds": 63.0,
+      "corpus_revision": "be8ab89a890a833cbba2c892178f823fff178c65",
+      "estimated_tokens": 558,
+      "metadata_warnings": []
+    },
+    "quote_spans": [
+      {
+        "id": "E1",
+        "text": "It's a simple question that helps you figure out, does anyone consider your product a must-have, or ideally, who and how many people consider it, but ultimately it's about trying to figure out is your product a must-have, which could be equated to having product market fit. And so the question is, how would you feel if you could no longer use this product?",
+        "speaker": "Sean Ellis",
+        "char_end": 5333,
+        "char_start": 4975
+      }
+    ],
+    "source_url": "https://github.com/ChatPRD/lennys-podcast-transcripts/blob/be8ab89a890a833cbba2c892178f823fff178c65/episodes/sean-ellis/transcript.md",
+    "video_url": "https://www.youtube.com/watch?v=VjJ6xcv7e8s&t=63s"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "kind": "manual_development_failure_audit",
+  "reviewed_at": "2026-11-06T08:23:09.097501+00:00",
+  "original_attempts_unchanged": true,
+  "attempts": [
+    {
+      "attempt": "live-20261106T070540",
+      "failure": "Four requests lacked a successful tool call; output copied schema examples; rpc_rejected. No corpus success."
+    },
+    {
+      "attempt": "live-20261106T071009",
+      "failure": "Model emitted the exact function request as text rather than native tool_calls. Strict Pi message_end compatibility adapter added; raw serialization retained."
+    },
+    {
+      "attempt": "live-20261106T071600",
+      "failure": "Actual tool ran, but array examples biased selection and unsupported private request received unrelated evidence. Automatic ID checks did not prove relevance."
+    },
+    {
+      "attempt": "live-20261106T072346",
+      "failure": "Single-ID schema fixed an example issue; supported answer good, follow-up missed onboarding, independent answer incomplete. Unsupported outcome required policy correction. Old automatic pass flags are not semantic passes."
+    },
+    {
+      "attempt": "live-20261106T073244",
+      "failure": "Removing guest framing changed hybrid ranking and lost the requested exact survey question. Query transformation reverted."
+    },
+    {
+      "attempt": "live-20261106T073951",
+      "failure": "Follow-up selected host paraphrase instead of onboarding action. Inspection found a real extractor bug: punctuation followed by a closing quote dropped the needed sentence. Fixed with decimal/quoted punctuation regression; context expanded within existing retrieval limits."
+    },
+    {
+      "attempt": "lifecycle-20261106T074747",
+      "failure": "Actual lifecycle checks passed; test incorrectly expected eight messages. Correct expectation is four saved user messages plus two successful assistant replies, six total. Corrected run retained separately."
+    },
+    {
+      "attempt": "commands.jsonl reopen first attempt",
+      "failure": "Checker assumed source response contained message_id. Corrected to use assistant_message_id from saved run; restart comparison then passed."
+    },
+    {
+      "attempt": "commands.jsonl initial frontend build",
+      "failure": "Missing JSX StrictMode closing tag; fixed and host/container build passed."
+    },
+    {
+      "attempt": "commands.jsonl earlier contract run",
+      "failure": "64 tests passed with a connection ResourceWarning. Added test teardown; final 66 checks pass without that warning. Existing Starlette/httpx deprecation remains."
+    },
+    {
+      "attempt": "final source review",
+      "correction": "Prevent excerpt groups crossing any intervening speaker header, including bracket timestamps; nine focused conversation tests and final 66-suite pass."
+    }
+  ],
+  "final_evidence": "docs/agent-transcripts/phase-05/live-20261106T081843/results.jsonl",
+  "interruption_audit": "Final live command finished exit0 with all five JSONL rows; final 66-test command finished exit0. No model tests rerun on resume; only read-only final/source audits and documentation completed."
+}

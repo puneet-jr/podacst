@@ -1,0 +1,59 @@
+{
+  "reviewed_at": "2026-11-06T08:23:09.097501+00:00",
+  "reviewer": "Codex direct review, not an independent human expert",
+  "evidence": "docs/agent-transcripts/phase-05/live-20261106T081843/results.jsonl",
+  "stored_originals": "opened-sources.json",
+  "scope": "Three requested cases; isolated-session answer quality assessed separately. Exact IDs alone are not semantic proof.",
+  "cases": [
+    {
+      "name": "supported",
+      "run_id": "9907cfa8-5a22-4782-ad9a-dc4819e3552a",
+      "assessment": "supported_for_question",
+      "claim_support": "Sean Ellis at observed 00:03:19 explicitly describes the must-have test and asks how the user would feel if unable to use the product. The returned excerpt preserves the qualification could be equated to product market fit; it does not add an invented numerical threshold.",
+      "passage_id": "c0aa1ec1-9da2-5bc9-a1ed-550df1f12411",
+      "source_label": "S1",
+      "quote_range": [
+        4975,
+        5333
+      ]
+    },
+    {
+      "name": "follow_up",
+      "run_id": "46f3fa09-dec1-4aa3-a1a5-838d7a4661cc",
+      "assessment": "supported_for_onboarding_question",
+      "claim_support": "Sean Ellis at observed 00:10:50 says onboarding was streamlined so antivirus setup came first and displayed a protection notice. The stored surrounding passage identifies Lookout and separately describes repositioning and the next surveyed cohort. The answer quotes the onboarding change, makes no general causal guarantee, and does not claim that all growth came from onboarding alone.",
+      "passage_id": "53054eb0-beee-5be4-b2f1-99ca9b2eac2d",
+      "source_label": "S1",
+      "quote_range": [
+        12885,
+        13229
+      ],
+      "correct_prior_user_id": "68447b84-880e-49da-a090-08c2e9117305",
+      "fresh_evidence": "A new tool call returned five different passage IDs; no prior assistant output was supplied as factual evidence."
+    },
+    {
+      "name": "unsupported",
+      "run_id": "ebb1fa2e-1ae0-4578-bcbc-caa77edb7fb8",
+      "assessment": "system_policy_gap_pass_model_abstention_fail",
+      "claim_support": "Five loosely related public transcript passages do not establish the private startup 2026 churn rate or dashboard access. The model chose E1 anyway. The private-fact guard changed the final outcome to insufficient_evidence with no factual claims/citations. This verifies the app policy for this request, not reliable model abstention or all unsupported categories.",
+      "retrieved_passage_ids": [
+        "d6cec005-7847-52bc-a4a6-d59ff0a39c1a",
+        "9346a6a0-f4de-5cb6-a281-c89421aa9778",
+        "520ff779-b729-5c5e-9342-cea042560e1e",
+        "86054464-dad2-5e79-95ae-ee266885164a",
+        "fe8f737e-b44e-54af-8d93-e5a31999af17"
+      ],
+      "raw_model_text": "{\"evidence_id\": \"E1\"}",
+      "private_fact_guard_applied": true
+    },
+    {
+      "name": "independent_session",
+      "run_id": "ba41b3eb-c0e8-4248-9fd3-7c8c9302a1dc",
+      "assessment": "isolation_pass_semantic_answer_incomplete",
+      "claim_support": "The source truly contains Shreyas discussing Patrick/ROI, but the excerpt does not define leverage tasks and omits the opportunity-cost recommendation that follows. It is related yet incomplete for the question. Do not count the automatic isolation flag as a relevance or general quality pass.",
+      "passage_id": "76021723-d6c7-5117-a4a6-940e9a1d0d40",
+      "source_label": "S3",
+      "history_observation": "Different session and Pi IDs, context_message_ids empty, retrieval restricted to Shreyas; no Sean passage/history injected."
+    }
+  ]
+}

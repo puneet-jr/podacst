@@ -1,0 +1,9 @@
+{
+  "captured_at": "2026-11-06T06:51:11.052600+00:00",
+  "status": "blocked_before_connection",
+  "tool": "mcp__node_repl__js using documented Browser runtime bootstrap",
+  "error": "Importing module \"node:process\" is not allowed in node_repl",
+  "evidence_type": "Exact error projection from actual browser bootstrap tool response",
+  "ui_navigation_performed": false,
+  "visual_or_interaction_pass_claimed": false
+}

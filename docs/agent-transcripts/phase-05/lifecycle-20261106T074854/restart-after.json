@@ -1,0 +1,46 @@
+{
+  "name": "actual_restart_reopen_and_source_ownership",
+  "session_id": "10c21e2b-0893-469f-aaea-2291dc8c146f",
+  "run_id": "7c13a7e5-66e4-468f-9483-6b7479a0cbc4",
+  "messages_identical": true,
+  "source_snapshot_identical": true,
+  "completed_status_preserved": true,
+  "unknown_source_status": 404,
+  "cross_session_source_status": 404,
+  "ready": {
+    "status": "ready",
+    "scope": "phase_5_conversation",
+    "product_ready": false,
+    "checks": {
+      "database": {
+        "ready": true,
+        "schema_revision": "0003_conversation",
+        "pgvector_version": "0.8.7"
+      },
+      "corpus": {
+        "ready": true,
+        "status": "partial",
+        "active_chunks": 373,
+        "active_episodes": 9,
+        "discovered": 303
+      },
+      "agent": {
+        "ready": true,
+        "version": "1.5.0"
+      },
+      "ollama": {
+        "ready": true,
+        "reachable_from_api": true,
+        "version": "0.30.11",
+        "generation_model_available": true,
+        "embedding_model_available": true,
+        "embedding_dimensions_compatible": true,
+        "index_identity_compatible": true,
+        "note": "Transport and installed-model availability; does not prove answer or essay quality."
+      }
+    }
+  },
+  "message_count": 6,
+  "message_snapshot_sha256": "c5e7f9defeaf57abbfdfe6811e9c939761b2c0b13182514985bf565ae2ccf921",
+  "passed": true
+}

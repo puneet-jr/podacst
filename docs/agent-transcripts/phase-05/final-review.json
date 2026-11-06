@@ -1,0 +1,116 @@
+{
+  "captured_at": "2026-11-06T08:32:35.146065+00:00",
+  "checks": {
+    "final_contract_completed": true,
+    "policy_tests_completed": true,
+    "final_live_completed_despite_interruption": true,
+    "all_final_runs_hybrid": true,
+    "fresh_pi_sessions_zero_history": true,
+    "real_controlled_tool_and_bounds": true,
+    "follow_up_uses_prior_user_and_fresh_evidence": true,
+    "independent_session_no_inherited_context": true,
+    "private_gap_policy_recorded_honestly": true,
+    "all_final_citations_opened": true,
+    "manual_quality_failure_disclosed": true,
+    "restart_and_hostile_checks_recorded": true,
+    "prior_files_preserved": true,
+    "runtime_preservation_and_framing": true,
+    "runtime_matches_final_source": true,
+    "documentation_links_valid": true,
+    "no_configured_secrets_in_shared_files": true,
+    "web_health_and_assets_served": true
+  },
+  "passed_evidence_audit": true,
+  "local_api_gate": "passed_for_demonstrated_bounded_extractive_workflow",
+  "browser_gate": "blocked_before_connection",
+  "general_answer_quality": "not_passed; independent answer incomplete and model private-data abstention failed",
+  "prompt_06": "not_started; explicit user go-ahead required",
+  "fresh_protocols": [
+    {
+      "run_id": "9907cfa8-5a22-4782-ad9a-dc4819e3552a",
+      "initial_message_count": 0,
+      "pi_session_id": "01a1aff0-4f49-76ee-b1e2-8c73b14e698d",
+      "provider": "ollama-local",
+      "model": "qwen3:0.6b",
+      "actual_tool_start_count": 1,
+      "provider_requests": 2,
+      "active_tools": [
+        [
+          "search_transcripts"
+        ]
+      ],
+      "normalized_requests": 1,
+      "stdout_ends_lf": true
+    },
+    {
+      "run_id": "46f3fa09-dec1-4aa3-a1a5-838d7a4661cc",
+      "initial_message_count": 0,
+      "pi_session_id": "01a1aff0-7291-7100-8323-a514b930ed12",
+      "provider": "ollama-local",
+      "model": "qwen3:0.6b",
+      "actual_tool_start_count": 1,
+      "provider_requests": 2,
+      "active_tools": [
+        [
+          "search_transcripts"
+        ]
+      ],
+      "normalized_requests": 0,
+      "stdout_ends_lf": true
+    },
+    {
+      "run_id": "ebb1fa2e-1ae0-4578-bcbc-caa77edb7fb8",
+      "initial_message_count": 0,
+      "pi_session_id": "01a1aff0-8e40-7376-a961-0249996d3296",
+      "provider": "ollama-local",
+      "model": "qwen3:0.6b",
+      "actual_tool_start_count": 1,
+      "provider_requests": 2,
+      "active_tools": [
+        [
+          "search_transcripts"
+        ]
+      ],
+      "normalized_requests": 1,
+      "stdout_ends_lf": true
+    },
+    {
+      "run_id": "ba41b3eb-c0e8-4248-9fd3-7c8c9302a1dc",
+      "initial_message_count": 0,
+      "pi_session_id": "01a1aff0-a2aa-75da-be61-c75e286df869",
+      "provider": "ollama-local",
+      "model": "qwen3:0.6b",
+      "actual_tool_start_count": 1,
+      "provider_requests": 2,
+      "active_tools": [
+        [
+          "search_transcripts"
+        ]
+      ],
+      "normalized_requests": 1,
+      "stdout_ends_lf": true
+    }
+  ],
+  "runtime_source_mismatches": [],
+  "protected_prior_files_changed": [],
+  "broken_documentation_links": [],
+  "configured_secret_matches": [],
+  "test_method_counts": {
+    "test_retrieval.py": 9,
+    "test_retrieval_db.py": 9,
+    "test_transcripts.py": 13,
+    "test_embedding.py": 6,
+    "test_unit.py": 5,
+    "test_conversation.py": 9,
+    "test_conversation_db.py": 8,
+    "test_api.py": 7
+  },
+  "served_assets": [
+    {
+      "path": "/assets/index-B-ljrhWf.js",
+      "status": 200
+    }
+  ],
+  "resumed_verification": "No model/test rerun needed: original final suite and live command completed exit0. Only read-only audits/source opening and documentation completed.",
+  "limits": "This audit cannot establish browser behavior, comprehensive security, semantic adequacy for arbitrary requests or complete coding-conversation export."
+}

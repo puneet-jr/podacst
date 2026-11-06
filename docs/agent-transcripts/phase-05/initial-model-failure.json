@@ -1,0 +1,30 @@
+{
+  "captured_at": "2026-11-06T07:06:38.631232+00:00",
+  "failure": "Local model answered without calling the zero-argument retrieval tool; answers rejected, not presented as supported.",
+  "samples": [
+    {
+      "run_id": "fab0fb7b-97c1-4c3c-a41d-db7d57335751",
+      "raw_model_text": "{\"status\":\"answered\",\"evidence_ids\":[\"E1\"]}",
+      "stop_reason": "stop",
+      "tool_executed": false
+    },
+    {
+      "run_id": "e68c2143-8634-433e-ba28-9b6a32573ce9",
+      "raw_model_text": "{\"status\":\"answered\",\"evidence_ids\":[\"E1\"]}",
+      "stop_reason": "stop",
+      "tool_executed": false
+    },
+    {
+      "run_id": "e01aeecd-5ffc-4b4b-a9b7-2065c6c67981",
+      "raw_model_text": "{\"status\":\"answered\",\"evidence_ids\":[\"E1\"]}",
+      "stop_reason": "stop",
+      "tool_executed": false
+    },
+    {
+      "run_id": "52f53f55-4c3f-4462-8edd-75dccde40f7e",
+      "raw_model_text": "{\"status\":\"answered\",\"evidence_ids\":[\"E1\"]}",
+      "stop_reason": "stop",
+      "tool_executed": false
+    }
+  ]
+}
