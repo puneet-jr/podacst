@@ -1,0 +1,117 @@
+{
+  "captured_at": "2026-11-06T06:36:19.713820+00:00",
+  "engineering_gate_passed": true,
+  "quality_target_met": false,
+  "checks": [
+    {
+      "name": "Final actual PostgreSQL/local fixture suite",
+      "passed": true,
+      "detail": "49 tests; 33 unit/parser/mock, 16 PostgreSQL/API; injection separate from actual provider calls"
+    },
+    {
+      "name": "Separate hand-calculated metric checks",
+      "passed": true,
+      "detail": "Three known-list checks on host, not live integrations"
+    },
+    {
+      "name": "Actual HTTP/API/source/persistence proofs",
+      "passed": true,
+      "detail": "Nine checks, real local hybrid; saved conversation hashes match Phase 3"
+    },
+    {
+      "name": "Judgments stayed frozen",
+      "passed": true,
+      "detail": {
+        "sha256": "02663c353fb868dad771d8eaf2d27d713f230faf0d462bb56c6786819659b0e6",
+        "tuning": 16,
+        "held_out": 8,
+        "source_anchors": 32
+      }
+    },
+    {
+      "name": "Candidate selected before held-out, unchanged",
+      "passed": true,
+      "detail": "No source/config/judgment changes after holdout; sparse frozen from tuning"
+    },
+    {
+      "name": "Actual evaluations and exact source integrity",
+      "passed": true,
+      "detail": {
+        "actual_searches_by_attempt": {
+          "tuning-v1": 48,
+          "tuning-v2-local": 48,
+          "tuning-v3-local": 48,
+          "held-out-v3-first": 24,
+          "unsupported-v3-first": 12
+        },
+        "note": "Successful execution/source proof is not a quality pass"
+      }
+    },
+    {
+      "name": "Quality failure disclosed accurately",
+      "passed": true,
+      "detail": {
+        "selected_default_held_out_recall": 0.625,
+        "all_case_descriptive_hybrid_recall": 0.75,
+        "quality_target_met": false
+      }
+    },
+    {
+      "name": "Unsupported diagnostics are not called abstentions",
+      "passed": true,
+      "detail": "12 nonempty candidate packets; sampled source review, no generated answers"
+    },
+    {
+      "name": "Original spike and Phase 1\u20133 evidence preserved",
+      "passed": true,
+      "detail": {
+        "files": 197,
+        "changed": []
+      }
+    },
+    {
+      "name": "Tested backend/agent matches workspace",
+      "passed": true,
+      "detail": {
+        "files": 38,
+        "mismatches": []
+      }
+    },
+    {
+      "name": "Current source syntax and documentation links",
+      "passed": true,
+      "detail": {
+        "syntax_errors": [],
+        "broken_links": []
+      }
+    },
+    {
+      "name": "All requirement IDs retained",
+      "passed": true,
+      "detail": {
+        "count": 29
+      }
+    },
+    {
+      "name": "Generated credential/private corpus absent from source/evidence",
+      "passed": true,
+      "detail": {
+        "suspect_paths": [],
+        "private_paths": [],
+        "limit": "Exact generated credential check, not full security audit"
+      }
+    },
+    {
+      "name": "Saved JSON evidence parses",
+      "passed": true,
+      "detail": []
+    }
+  ],
+  "limits": [
+    "9/303 episodes indexed; 294 remain",
+    "Sparse default held-out recall62.5%, selection instability/unscoped/synthesis defects open",
+    "No generated answer support/abstention/routing/essay/SC-01 outcomes",
+    "Labels are incomplete and not independent expert judgments; heldout now observed",
+    "Browser/rights/cloud/full coding export/clean evaluator gaps remain"
+  ]
+}

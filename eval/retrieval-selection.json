@@ -1,0 +1,87 @@
+{
+  "frozen_at": "2026-11-06T06:21:03.770183+00:00",
+  "default_mode": "sparse",
+  "config": "eval/retrieval-local-v3.json",
+  "retrieval_version": "rrf-v3-idf-budgeted-neighbors",
+  "reason": "On 16 tuning cases, sparse had the best passage recall and ranking measures and lower median latency. Keep the simpler measured method; dense/hybrid remain explicit options. No held-out results used.",
+  "tuning_summary": {
+    "sparse": {
+      "n": 16,
+      "mean_count": 5,
+      "min_count": 5,
+      "max_count": 5,
+      "latency_ms_median": 41.70827100006136,
+      "latency_ms_p95_nearest_rank": 157.41225000056147,
+      "latency_ms_max": 157.41225000056147,
+      "recall_at_8": 0.6875,
+      "mrr_at_8": 0.5458333333333333,
+      "ndcg_at_8": 0.5565397105025338,
+      "anchor_recall_at_8": 0.6875,
+      "by_scope": {
+        "scoped": {
+          "n": 6,
+          "recall_at_8": 0.8333333333333334
+        },
+        "unscoped": {
+          "n": 10,
+          "recall_at_8": 0.6
+        }
+      }
+    },
+    "dense": {
+      "n": 16,
+      "mean_count": 5.25,
+      "min_count": 5,
+      "max_count": 6,
+      "latency_ms_median": 79.50089600035426,
+      "latency_ms_p95_nearest_rank": 88.93162499953178,
+      "latency_ms_max": 88.93162499953178,
+      "recall_at_8": 0.625,
+      "mrr_at_8": 0.359375,
+      "ndcg_at_8": 0.4245018546387612,
+      "anchor_recall_at_8": 0.625,
+      "by_scope": {
+        "scoped": {
+          "n": 6,
+          "recall_at_8": 0.6666666666666666
+        },
+        "unscoped": {
+          "n": 10,
+          "recall_at_8": 0.6
+        }
+      }
+    },
+    "hybrid": {
+      "n": 16,
+      "mean_count": 5.25,
+      "min_count": 5,
+      "max_count": 6,
+      "latency_ms_median": 116.05939550054245,
+      "latency_ms_p95_nearest_rank": 211.71483300076943,
+      "latency_ms_max": 211.71483300076943,
+      "recall_at_8": 0.65625,
+      "mrr_at_8": 0.49166666666666664,
+      "ndcg_at_8": 0.5284553694225116,
+      "anchor_recall_at_8": 0.65625,
+      "by_scope": {
+        "scoped": {
+          "n": 6,
+          "recall_at_8": 0.8333333333333334
+        },
+        "unscoped": {
+          "n": 10,
+          "recall_at_8": 0.55
+        }
+      }
+    }
+  },
+  "held_out_run_yet": false,
+  "quality_target_met_on_tuning": false,
+  "files": {
+    "backend/app/retrieval.py": "b29cc80667ca697213a882bcfbb8ca01c2df7c307ff8bf0fa998450d0835d245",
+    "backend/app/embedding.py": "6dafb3ca241ac8bb35d2ea6caed9a73406c4b574d168068b7524e3494874c05a",
+    "backend/evaluate_retrieval.py": "7e1aa4801965f0b49aaf851be74d237729315fb1ee790ef2fca529f0ac690223",
+    "eval/retrieval-local-v3.json": "cc15b90c46f68b3d4646f1472a3b3b31b4e53130a58db461bafcd64a213d4fa7",
+    "eval/retrieval-cases.json": "02663c353fb868dad771d8eaf2d27d713f230faf0d462bb56c6786819659b0e6"
+  }
+}

@@ -1,0 +1,172 @@
+{
+  "captured_at": "2026-11-06T06:30:21.781996+00:00",
+  "selected_default": "sparse",
+  "selected_on": "tuning-v3-local only, before held-out",
+  "tuning": {
+    "sparse": {
+      "n": 16,
+      "mean_count": 5,
+      "min_count": 5,
+      "max_count": 5,
+      "latency_ms_median": 41.70827100006136,
+      "latency_ms_p95_nearest_rank": 157.41225000056147,
+      "latency_ms_max": 157.41225000056147,
+      "recall_at_8": 0.6875,
+      "mrr_at_8": 0.5458333333333333,
+      "ndcg_at_8": 0.5565397105025338,
+      "anchor_recall_at_8": 0.6875,
+      "by_scope": {
+        "scoped": {
+          "n": 6,
+          "recall_at_8": 0.8333333333333334
+        },
+        "unscoped": {
+          "n": 10,
+          "recall_at_8": 0.6
+        }
+      }
+    },
+    "dense": {
+      "n": 16,
+      "mean_count": 5.25,
+      "min_count": 5,
+      "max_count": 6,
+      "latency_ms_median": 79.50089600035426,
+      "latency_ms_p95_nearest_rank": 88.93162499953178,
+      "latency_ms_max": 88.93162499953178,
+      "recall_at_8": 0.625,
+      "mrr_at_8": 0.359375,
+      "ndcg_at_8": 0.4245018546387612,
+      "anchor_recall_at_8": 0.625,
+      "by_scope": {
+        "scoped": {
+          "n": 6,
+          "recall_at_8": 0.6666666666666666
+        },
+        "unscoped": {
+          "n": 10,
+          "recall_at_8": 0.6
+        }
+      }
+    },
+    "hybrid": {
+      "n": 16,
+      "mean_count": 5.25,
+      "min_count": 5,
+      "max_count": 6,
+      "latency_ms_median": 116.05939550054245,
+      "latency_ms_p95_nearest_rank": 211.71483300076943,
+      "latency_ms_max": 211.71483300076943,
+      "recall_at_8": 0.65625,
+      "mrr_at_8": 0.49166666666666664,
+      "ndcg_at_8": 0.5284553694225116,
+      "anchor_recall_at_8": 0.65625,
+      "by_scope": {
+        "scoped": {
+          "n": 6,
+          "recall_at_8": 0.8333333333333334
+        },
+        "unscoped": {
+          "n": 10,
+          "recall_at_8": 0.55
+        }
+      }
+    }
+  },
+  "held_out": {
+    "sparse": {
+      "n": 8,
+      "mean_count": 5.125,
+      "min_count": 5,
+      "max_count": 6,
+      "latency_ms_median": 69.54777099963394,
+      "latency_ms_p95_nearest_rank": 263.96383400060586,
+      "latency_ms_max": 263.96383400060586,
+      "recall_at_8": 0.625,
+      "mrr_at_8": 0.5625,
+      "ndcg_at_8": 0.5788662191964322,
+      "anchor_recall_at_8": 0.625,
+      "by_scope": {
+        "scoped": {
+          "n": 4,
+          "recall_at_8": 1.0
+        },
+        "unscoped": {
+          "n": 4,
+          "recall_at_8": 0.25
+        }
+      }
+    },
+    "dense": {
+      "n": 8,
+      "mean_count": 5,
+      "min_count": 5,
+      "max_count": 5,
+      "latency_ms_median": 83.33318750010221,
+      "latency_ms_p95_nearest_rank": 103.14383299919427,
+      "latency_ms_max": 103.14383299919427,
+      "recall_at_8": 0.875,
+      "mrr_at_8": 0.7125,
+      "ndcg_at_8": 0.7421879187442734,
+      "anchor_recall_at_8": 0.875,
+      "by_scope": {
+        "scoped": {
+          "n": 4,
+          "recall_at_8": 0.75
+        },
+        "unscoped": {
+          "n": 4,
+          "recall_at_8": 1.0
+        }
+      }
+    },
+    "hybrid": {
+      "n": 8,
+      "mean_count": 5.125,
+      "min_count": 5,
+      "max_count": 6,
+      "latency_ms_median": 105.80099999970116,
+      "latency_ms_p95_nearest_rank": 352.4985829999423,
+      "latency_ms_max": 352.4985829999423,
+      "recall_at_8": 0.9375,
+      "mrr_at_8": 0.6916666666666667,
+      "ndcg_at_8": 0.7202324383928644,
+      "anchor_recall_at_8": 0.9375,
+      "by_scope": {
+        "scoped": {
+          "n": 4,
+          "recall_at_8": 1.0
+        },
+        "unscoped": {
+          "n": 4,
+          "recall_at_8": 0.875
+        }
+      }
+    }
+  },
+  "all_24_descriptive_only": {
+    "sparse": {
+      "n": 24,
+      "recall_at_8": 0.6666666666666666,
+      "mrr_at_8": 0.5513888888888888,
+      "ndcg_at_8": 0.5639818800671667,
+      "anchor_recall_at_8": 0.6666666666666666
+    },
+    "dense": {
+      "n": 24,
+      "recall_at_8": 0.7083333333333334,
+      "mrr_at_8": 0.4770833333333333,
+      "ndcg_at_8": 0.5303972093405985,
+      "anchor_recall_at_8": 0.7083333333333334
+    },
+    "hybrid": {
+      "n": 24,
+      "recall_at_8": 0.75,
+      "mrr_at_8": 0.5583333333333333,
+      "ndcg_at_8": 0.5923810590792958,
+      "anchor_recall_at_8": 0.75
+    }
+  },
+  "selected_default_quality_target_met": false,
+  "note": "Combined results mix tuning and held-out: descriptive, not an independent test. Hybrid held-out alone exceeds 85% but the all-case and selected-default targets do not. No default reselection after held-out."
+}

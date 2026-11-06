@@ -1,0 +1,11 @@
+{
+  "revision": "local-v3-idf-budgeted-neighbors",
+  "candidates": 20,
+  "limit": 8,
+  "token_budget": 3200,
+  "per_episode": 6,
+  "neighbor_radius": 1,
+  "max_neighbors": 2,
+  "rrf_constant": 60,
+  "include_sponsors": true
+}

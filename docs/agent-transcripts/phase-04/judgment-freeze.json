@@ -1,0 +1,12 @@
+{
+  "captured_at": "2026-11-06T06:06:04.370334+00:00",
+  "path": "eval/retrieval-cases.json",
+  "sha256": "02663c353fb868dad771d8eaf2d27d713f230faf0d462bb56c6786819659b0e6",
+  "case_count": 24,
+  "tuning": 16,
+  "held_out": 8,
+  "unsupported": 4,
+  "source_anchor_count": 32,
+  "no_retrieval_results_seen": true,
+  "method": "Direct original-source reading and exact hashed character spans; not independent expert labels. Known limited nine-episode development scope."
+}

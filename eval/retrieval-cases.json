@@ -1,0 +1,600 @@
+{
+  "frozen_at": "2026-11-06T06:04:29.394295+00:00",
+  "corpus_revision": "be8ab89a890a833cbba2c892178f823fff178c65",
+  "review_method": "Direct source inspection by Codex of real turns before retrieval scores; notes are manual source judgments, not an independent domain-expert review or automated LLM-judge scores.",
+  "stage": "Frozen before retrieval tuning and first evaluation",
+  "scope": {
+    "existing_episodes": [
+      "ada-chen-rekhi",
+      "adam-fishman",
+      "adam-grenier"
+    ],
+    "additional_episodes": [
+      "april-dunford",
+      "brian-balfour",
+      "julie-zhuo",
+      "sean-ellis",
+      "shreyas-doshi",
+      "shreyas-doshi-live"
+    ],
+    "note": "Nine-episode development baseline, not full-corpus coverage or a representative random sample. Full ingestion remains a later gate."
+  },
+  "cases": [
+    {
+      "id": "T01",
+      "split": "tuning",
+      "kind": "direct",
+      "question": "What question does Sean Ellis use to find users who consider a product a must-have?",
+      "filters": {},
+      "evidence": [
+        {
+          "source_path": "episodes/sean-ellis/transcript.md",
+          "source_hash": "6af2a6e031826805e855ec262b1f228e3773b5b99265a1d01870f0d4e6e9ceda",
+          "char_start": 5250,
+          "char_end": 5450,
+          "speaker": "Sean Ellis",
+          "timestamp_seconds": 199,
+          "text_sha256": "918984e8e100a5bf52c802d0f1d016c2d7936258247bba6481b83fd58639af84"
+        }
+      ],
+      "manual_support_note": "The survey asks how users would feel without the product; retain the disappointment choices."
+    },
+    {
+      "id": "T02",
+      "split": "tuning",
+      "kind": "direct",
+      "question": "Which positioning and onboarding changes did Lookout make after discovering antivirus mattered to its must-have users?",
+      "filters": {
+        "source_path": "episodes/sean-ellis/transcript.md"
+      },
+      "evidence": [
+        {
+          "source_path": "episodes/sean-ellis/transcript.md",
+          "source_hash": "6af2a6e031826805e855ec262b1f228e3773b5b99265a1d01870f0d4e6e9ceda",
+          "char_start": 12533,
+          "char_end": 12713,
+          "speaker": "Sean Ellis",
+          "timestamp_seconds": 650,
+          "text_sha256": "27e1b4699de24fd934cd831bcfdcbaf01d89ec5a6f3fcc459437768097a38131"
+        },
+        {
+          "source_path": "episodes/sean-ellis/transcript.md",
+          "source_hash": "6af2a6e031826805e855ec262b1f228e3773b5b99265a1d01870f0d4e6e9ceda",
+          "char_start": 13003,
+          "char_end": 13223,
+          "speaker": "Sean Ellis",
+          "timestamp_seconds": 650,
+          "text_sha256": "815f4c461ae4cf4d6cfe1881769ec61d70afa34e240400c505f71ec393c700c8"
+        }
+      ],
+      "manual_support_note": "Antivirus positioning and getting protection set up early are distinct required details."
+    },
+    {
+      "id": "T03",
+      "split": "tuning",
+      "kind": "follow_up",
+      "question": "Who should receive that survey when evaluating a newly changed onboarding flow, according to Sean Ellis?",
+      "filters": {},
+      "evidence": [
+        {
+          "source_path": "episodes/sean-ellis/transcript.md",
+          "source_hash": "6af2a6e031826805e855ec262b1f228e3773b5b99265a1d01870f0d4e6e9ceda",
+          "char_start": 24999,
+          "char_end": 25319,
+          "speaker": "Sean Ellis",
+          "timestamp_seconds": 1399,
+          "text_sha256": "7448d92168422d54b7a7e8b2cc44de85c3a178dd8bee495baef75f05b5b8e4e7"
+        }
+      ],
+      "manual_support_note": "Users must have experienced the product; measure the cohort that received the changed onboarding.",
+      "previous_user_turn": "How should a growth PM evaluate product-market fit with a survey?",
+      "resolved_query": "According to Sean Ellis, who should be surveyed to evaluate a newly changed onboarding flow?",
+      "context_resolution": "Reviewer-supplied rewrite for retrieval-only follow-up evaluation; not an agent context-resolution test."
+    },
+    {
+      "id": "T04",
+      "split": "tuning",
+      "kind": "framework",
+      "question": "What does LNO mean, and how do leverage and overhead tasks differ?",
+      "filters": {
+        "source_path": "episodes/shreyas-doshi/transcript.md"
+      },
+      "evidence": [
+        {
+          "source_path": "episodes/shreyas-doshi/transcript.md",
+          "source_hash": "4e7f53f543391e9d64b738133eb9ffcefc761bbf22bec002716c5f9c90e940d6",
+          "char_start": 38557,
+          "char_end": 38757,
+          "speaker": "Shreyas Doshi",
+          "timestamp_seconds": 2156,
+          "text_sha256": "016c08b42725ae4b519d1fee6ce6b9cd65abcf130084995d5d1efdae7563478c"
+        },
+        {
+          "source_path": "episodes/shreyas-doshi/transcript.md",
+          "source_hash": "4e7f53f543391e9d64b738133eb9ffcefc761bbf22bec002716c5f9c90e940d6",
+          "char_start": 38963,
+          "char_end": 39143,
+          "speaker": "Shreyas Doshi",
+          "timestamp_seconds": 2156,
+          "text_sha256": "0980950373dd0fb5816f36f887a6ced84e5141be39e4ed905de74b2fd9c1b5a9"
+        }
+      ],
+      "manual_support_note": "Leverage, neutral and overhead are returns relative to effort, not generic priority labels."
+    },
+    {
+      "id": "T05",
+      "split": "tuning",
+      "kind": "framework",
+      "question": "How does Shreyas Doshi start a pre-mortem before a launch?",
+      "filters": {},
+      "evidence": [
+        {
+          "source_path": "episodes/shreyas-doshi/transcript.md",
+          "source_hash": "4e7f53f543391e9d64b738133eb9ffcefc761bbf22bec002716c5f9c90e940d6",
+          "char_start": 27335,
+          "char_end": 27615,
+          "speaker": "Shreyas Doshi",
+          "timestamp_seconds": 1490,
+          "text_sha256": "6397aa818e5f715e9ac7c3c3cde138829376d193c9fee28a8090c4994699258c"
+        }
+      ],
+      "manual_support_note": "Imagine the launch has failed six months from now, then work backwards."
+    },
+    {
+      "id": "T06",
+      "split": "tuning",
+      "kind": "paraphrase",
+      "question": "Why can filling a high-leverage role with positive-ROI quick wins still be a mistake?",
+      "filters": {},
+      "evidence": [
+        {
+          "source_path": "episodes/shreyas-doshi/transcript.md",
+          "source_hash": "4e7f53f543391e9d64b738133eb9ffcefc761bbf22bec002716c5f9c90e940d6",
+          "char_start": 69366,
+          "char_end": 69596,
+          "speaker": "Shreyas Doshi",
+          "timestamp_seconds": 3876,
+          "text_sha256": "463a99786c6b5f78d4ecc347e9d381c1008d528476a2a8654d64011edf49d4e5"
+        }
+      ],
+      "manual_support_note": "Compare the optimal option with the chosen option; positive ROI alone is insufficient."
+    },
+    {
+      "id": "T07",
+      "split": "tuning",
+      "kind": "framework",
+      "question": "What four stages does Brian Balfour describe in a new distribution platform cycle?",
+      "filters": {
+        "source_path": "episodes/brian-balfour/transcript.md"
+      },
+      "evidence": [
+        {
+          "source_path": "episodes/brian-balfour/transcript.md",
+          "source_hash": "d974750bfb180d40e69a6d347c87d93ea007e6c26018bccbe9a1de9d0d4353ba",
+          "char_start": 15186,
+          "char_end": 15468,
+          "speaker": "Brian Balfour",
+          "timestamp_seconds": 769,
+          "text_sha256": "362d82a02e78c4f4ab2b9011f9cedf716bda2ddd43709acc94ddbcc3ad5ab18f"
+        }
+      ],
+      "manual_support_note": "Market conditions, moat, opening, closing/control/monetization. This is his account, not a universal proven law."
+    },
+    {
+      "id": "T08",
+      "split": "tuning",
+      "kind": "paraphrase",
+      "question": "Why does Brian Balfour say a startup cannot simply opt out of an emerging platform?",
+      "filters": {},
+      "evidence": [
+        {
+          "source_path": "episodes/brian-balfour/transcript.md",
+          "source_hash": "d974750bfb180d40e69a6d347c87d93ea007e6c26018bccbe9a1de9d0d4353ba",
+          "char_start": 30200,
+          "char_end": 30520,
+          "speaker": "Brian Balfour",
+          "timestamp_seconds": 1691,
+          "text_sha256": "59595e327567c6bc1374d5350153f41290445024a4104118504bbca93fd0d5d9"
+        }
+      ],
+      "manual_support_note": "Competitors and customer expectations change; retain the competitive dilemma rather than endorsing every platform."
+    },
+    {
+      "id": "T09",
+      "split": "tuning",
+      "kind": "direct",
+      "question": "Why do B2B purchase processes often end in no decision in April Dunford’s account?",
+      "filters": {},
+      "evidence": [
+        {
+          "source_path": "episodes/april-dunford/transcript.md",
+          "source_hash": "7374cc01ec372b23cf297a5d758419183debe3ca4395597993d2fa7e580abfcd",
+          "char_start": 1140,
+          "char_end": 1410,
+          "speaker": "April Dunford",
+          "timestamp_seconds": 0,
+          "text_sha256": "e96ad49dc5871ee40dbdeb022a3af456a9ea502fd1cecf0474f5098d16c6d184"
+        }
+      ],
+      "manual_support_note": "Her explanation is decision confidence, not automatically satisfaction with the status quo."
+    },
+    {
+      "id": "T10",
+      "split": "tuning",
+      "kind": "direct",
+      "question": "Where does discovery belong inside April Dunford’s sales pitch, and should it be a monologue?",
+      "filters": {
+        "source_path": "episodes/april-dunford/transcript.md"
+      },
+      "evidence": [
+        {
+          "source_path": "episodes/april-dunford/transcript.md",
+          "source_hash": "7374cc01ec372b23cf297a5d758419183debe3ca4395597993d2fa7e580abfcd",
+          "char_start": 21434,
+          "char_end": 21694,
+          "speaker": "April Dunford",
+          "timestamp_seconds": 1060,
+          "text_sha256": "4fe08c7ebb060e03d4d065b84f95e5374e5cd6952a4127b785ece29dd4255ec3"
+        }
+      ],
+      "manual_support_note": "Discovery in the setup is a conversation with the customer."
+    },
+    {
+      "id": "T11",
+      "split": "tuning",
+      "kind": "direct",
+      "question": "Which management fundamentals does Julie Zhuo transfer to working with agents?",
+      "filters": {},
+      "evidence": [
+        {
+          "source_path": "episodes/julie-zhuo/transcript.md",
+          "source_hash": "2ef8f9e32e63296ecdb53d3cc0eb296b34dd88cce4dc4fa5a90a28f463812f8c",
+          "char_start": 12082,
+          "char_end": 12357,
+          "speaker": "Julie Zhuo",
+          "timestamp_seconds": 560,
+          "text_sha256": "498980070b73568ab75d739db51182cd84610fd30dd740dc124c5ad0ae3fbc3e"
+        },
+        {
+          "source_path": "episodes/julie-zhuo/transcript.md",
+          "source_hash": "2ef8f9e32e63296ecdb53d3cc0eb296b34dd88cce4dc4fa5a90a28f463812f8c",
+          "char_start": 12369,
+          "char_end": 12639,
+          "speaker": "Julie Zhuo",
+          "timestamp_seconds": 607,
+          "text_sha256": "7cd5d93ccd0c07ecff95e2c0705957b7392832364dec4bb75f490516685a1516"
+        }
+      ],
+      "manual_support_note": "Purpose/outcome, matching strengths/resources and process; context and instruction still matter."
+    },
+    {
+      "id": "T12",
+      "split": "tuning",
+      "kind": "paraphrase",
+      "question": "Why does Julie Zhuo suggest calling people builders rather than keeping rigid product and engineering roles?",
+      "filters": {
+        "source_path": "episodes/julie-zhuo/transcript.md"
+      },
+      "evidence": [
+        {
+          "source_path": "episodes/julie-zhuo/transcript.md",
+          "source_hash": "2ef8f9e32e63296ecdb53d3cc0eb296b34dd88cce4dc4fa5a90a28f463812f8c",
+          "char_start": 18526,
+          "char_end": 18816,
+          "speaker": "Julie Zhuo",
+          "timestamp_seconds": 934,
+          "text_sha256": "1e8cdc640eb229f365dc26e3106a4c4b306847385f75b455d0ed7d258b9d17f0"
+        }
+      ],
+      "manual_support_note": "AI permits smaller teams to cross traditional disciplines; do not claim expertise is unnecessary."
+    },
+    {
+      "id": "T13",
+      "split": "tuning",
+      "kind": "cross_episode",
+      "question": "Compare Shreyas Doshi’s leverage-task reasoning with Julie Zhuo’s outcome-first approach to managing agents.",
+      "filters": {},
+      "evidence": [
+        {
+          "source_path": "episodes/shreyas-doshi/transcript.md",
+          "source_hash": "4e7f53f543391e9d64b738133eb9ffcefc761bbf22bec002716c5f9c90e940d6",
+          "char_start": 38557,
+          "char_end": 38757,
+          "speaker": "Shreyas Doshi",
+          "timestamp_seconds": 2156,
+          "text_sha256": "016c08b42725ae4b519d1fee6ce6b9cd65abcf130084995d5d1efdae7563478c"
+        },
+        {
+          "source_path": "episodes/julie-zhuo/transcript.md",
+          "source_hash": "2ef8f9e32e63296ecdb53d3cc0eb296b34dd88cce4dc4fa5a90a28f463812f8c",
+          "char_start": 12369,
+          "char_end": 12639,
+          "speaker": "Julie Zhuo",
+          "timestamp_seconds": 607,
+          "text_sha256": "7cd5d93ccd0c07ecff95e2c0705957b7392832364dec4bb75f490516685a1516"
+        }
+      ],
+      "manual_support_note": "Retrieve both distinct accounts; their comparison is an application/synthesis, not a shared guest quote."
+    },
+    {
+      "id": "T14",
+      "split": "tuning",
+      "kind": "cross_episode",
+      "question": "How do Sean Ellis’s Lookout repositioning example and April Dunford’s differentiated-value discussion each connect to customer alternatives?",
+      "filters": {},
+      "evidence": [
+        {
+          "source_path": "episodes/sean-ellis/transcript.md",
+          "source_hash": "6af2a6e031826805e855ec262b1f228e3773b5b99265a1d01870f0d4e6e9ceda",
+          "char_start": 12533,
+          "char_end": 12713,
+          "speaker": "Sean Ellis",
+          "timestamp_seconds": 650,
+          "text_sha256": "27e1b4699de24fd934cd831bcfdcbaf01d89ec5a6f3fcc459437768097a38131"
+        },
+        {
+          "source_path": "episodes/april-dunford/transcript.md",
+          "source_hash": "7374cc01ec372b23cf297a5d758419183debe3ca4395597993d2fa7e580abfcd",
+          "char_start": 45368,
+          "char_end": 45598,
+          "speaker": "April Dunford",
+          "timestamp_seconds": 2360,
+          "text_sha256": "b7be0e1b2b91799feaceeb90901be1a25a6030c68c0369f21692383f48a038d6"
+        }
+      ],
+      "manual_support_note": "Both sources are required; do not imply the speakers discussed one another."
+    },
+    {
+      "id": "T15",
+      "split": "tuning",
+      "kind": "sponsor_trap",
+      "question": "Ignoring sponsor offers, why does a pre-mortem help a team raise concerns before a launch?",
+      "filters": {
+        "source_path": "episodes/shreyas-doshi/transcript.md"
+      },
+      "evidence": [
+        {
+          "source_path": "episodes/shreyas-doshi/transcript.md",
+          "source_hash": "4e7f53f543391e9d64b738133eb9ffcefc761bbf22bec002716c5f9c90e940d6",
+          "char_start": 28057,
+          "char_end": 28357,
+          "speaker": "Shreyas Doshi",
+          "timestamp_seconds": 1547,
+          "text_sha256": "47d61b921bae1cc554e798518925b1ce212c19c9cc98c0e238e235de39e57462"
+        }
+      ],
+      "manual_support_note": "Substantive psychological-safety explanation; sponsor offers are not supporting evidence."
+    },
+    {
+      "id": "T16",
+      "split": "tuning",
+      "kind": "direct",
+      "question": "What changes when a distribution platform enters the closing phase?",
+      "filters": {},
+      "evidence": [
+        {
+          "source_path": "episodes/brian-balfour/transcript.md",
+          "source_hash": "d974750bfb180d40e69a6d347c87d93ea007e6c26018bccbe9a1de9d0d4353ba",
+          "char_start": 17695,
+          "char_end": 18025,
+          "speaker": "Brian Balfour",
+          "timestamp_seconds": 948,
+          "text_sha256": "bf8cc0af2455ec91fc0461ced4a00269f0e76232fb5e8082d87c092161b427ae"
+        }
+      ],
+      "manual_support_note": "Control/monetization and competitive incentives, not a promise of profitable distribution."
+    },
+    {
+      "id": "H17",
+      "split": "held_out",
+      "kind": "paraphrase",
+      "question": "Can filing a bug report be either leverage or overhead work, and what changes in the level of detail?",
+      "filters": {
+        "source_path": "episodes/shreyas-doshi/transcript.md"
+      },
+      "evidence": [
+        {
+          "source_path": "episodes/shreyas-doshi/transcript.md",
+          "source_hash": "4e7f53f543391e9d64b738133eb9ffcefc761bbf22bec002716c5f9c90e940d6",
+          "char_start": 40715,
+          "char_end": 41055,
+          "speaker": "Shreyas Doshi",
+          "timestamp_seconds": 2267,
+          "text_sha256": "f475ba75138e97fcf7beef0310a3c0276b0fe0552c13ea9c4e063e1bb2e090fc"
+        }
+      ],
+      "manual_support_note": "Context determines task type and effort; a bug report is not always one category."
+    },
+    {
+      "id": "H18",
+      "split": "held_out",
+      "kind": "framework",
+      "question": "Which three levels of product work can make well-intentioned colleagues talk past one another?",
+      "filters": {},
+      "evidence": [
+        {
+          "source_path": "episodes/shreyas-doshi/transcript.md",
+          "source_hash": "4e7f53f543391e9d64b738133eb9ffcefc761bbf22bec002716c5f9c90e940d6",
+          "char_start": 49343,
+          "char_end": 49498,
+          "speaker": "Shreyas Doshi",
+          "timestamp_seconds": 2772,
+          "text_sha256": "b188f15d4141c8f2d2edc7f00866bcd63642842f447f1e8dada35b003921538e"
+        },
+        {
+          "source_path": "episodes/shreyas-doshi/transcript.md",
+          "source_hash": "4e7f53f543391e9d64b738133eb9ffcefc761bbf22bec002716c5f9c90e940d6",
+          "char_start": 52083,
+          "char_end": 52323,
+          "speaker": "Shreyas Doshi",
+          "timestamp_seconds": 2926,
+          "text_sha256": "99521578d71957992e690380f392a57114671636590011b199f79fa0ede91cda"
+        }
+      ],
+      "manual_support_note": "Impact, execution and optics; different default levels can cause conflict."
+    },
+    {
+      "id": "H19",
+      "split": "held_out",
+      "kind": "follow_up",
+      "question": "In Shreyas’s live discussion, what question does he ask about listening and where does he point people to explore it?",
+      "filters": {
+        "source_path": "episodes/shreyas-doshi-live/transcript.md"
+      },
+      "evidence": [
+        {
+          "source_path": "episodes/shreyas-doshi-live/transcript.md",
+          "source_hash": "f28d7cddf6a26dcbd62c95141230a61786f6aac179fa158a61772f85d72df260",
+          "char_start": 37671,
+          "char_end": 37851,
+          "speaker": "Shreyas Doshi",
+          "timestamp_seconds": 2618,
+          "text_sha256": "b91d66ad01b771282331f8ea709065465a4be6ebd39a1cbe5786d3f049402491"
+        },
+        {
+          "source_path": "episodes/shreyas-doshi-live/transcript.md",
+          "source_hash": "f28d7cddf6a26dcbd62c95141230a61786f6aac179fa158a61772f85d72df260",
+          "char_start": 38320,
+          "char_end": 38505,
+          "speaker": "Shreyas Doshi",
+          "timestamp_seconds": 2618,
+          "text_sha256": "d329e538a9a929d1c23c9ec65a9a1dd4e4fa157b9c386ca5497e020c3f39c7f4"
+        }
+      ],
+      "manual_support_note": "Keep the inaudible reference unknown; Rick Rubin and Drucker are named pointers.",
+      "previous_user_turn": "What questions does Shreyas ask himself in the live conversation?",
+      "resolved_query": "In Shreyas Doshi Live, am I really listening and which resources does he recommend?",
+      "context_resolution": "Reviewer-supplied rewrite, fixed before evaluation; no generated follow-up resolver yet."
+    },
+    {
+      "id": "H20",
+      "split": "held_out",
+      "kind": "paraphrase",
+      "question": "Why can a PM leader love the job overall yet feel frustrated by daily work?",
+      "filters": {},
+      "evidence": [
+        {
+          "source_path": "episodes/shreyas-doshi-live/transcript.md",
+          "source_hash": "f28d7cddf6a26dcbd62c95141230a61786f6aac179fa158a61772f85d72df260",
+          "char_start": 34069,
+          "char_end": 34200,
+          "speaker": "Shreyas Doshi",
+          "timestamp_seconds": 2298,
+          "text_sha256": "2d6d53a34e4f1cedcea3179deac20ce0e11c8ff5b1b3115b2e8d9585aeb8fe6b"
+        },
+        {
+          "source_path": "episodes/shreyas-doshi-live/transcript.md",
+          "source_hash": "f28d7cddf6a26dcbd62c95141230a61786f6aac179fa158a61772f85d72df260",
+          "char_start": 34647,
+          "char_end": 34929,
+          "speaker": "Shreyas Doshi",
+          "timestamp_seconds": 2372,
+          "text_sha256": "29d006485702a9ba73316ce7063836a9dee9649eb52f1f1ebed316558137408b"
+        }
+      ],
+      "manual_support_note": "Mismatch with superpowers/default preferred work level; not a diagnosis of every PM."
+    },
+    {
+      "id": "H21",
+      "split": "held_out",
+      "kind": "qualification",
+      "question": "How does Brian qualify his certainty about a new distribution platform repeating the same cycle?",
+      "filters": {
+        "source_path": "episodes/brian-balfour/transcript.md"
+      },
+      "evidence": [
+        {
+          "source_path": "episodes/brian-balfour/transcript.md",
+          "source_hash": "d974750bfb180d40e69a6d347c87d93ea007e6c26018bccbe9a1de9d0d4353ba",
+          "char_start": 14558,
+          "char_end": 14781,
+          "speaker": "Brian Balfour",
+          "timestamp_seconds": 745,
+          "text_sha256": "2998925f963e910d988454aceb26f402b10ef95b7d642bb3d08d098bab60886e"
+        }
+      ],
+      "manual_support_note": "He is more confident in a recurring cycle than the specific platform prediction."
+    },
+    {
+      "id": "H22",
+      "split": "held_out",
+      "kind": "framework",
+      "question": "When defining differentiated value, how does April identify competitors beyond similar software?",
+      "filters": {},
+      "evidence": [
+        {
+          "source_path": "episodes/april-dunford/transcript.md",
+          "source_hash": "7374cc01ec372b23cf297a5d758419183debe3ca4395597993d2fa7e580abfcd",
+          "char_start": 45598,
+          "char_end": 45978,
+          "speaker": "April Dunford",
+          "timestamp_seconds": 2360,
+          "text_sha256": "d6a98a59cbab16dd8551f398a20af3e62adf946c027a773f740b742e13e8f493"
+        }
+      ],
+      "manual_support_note": "What the customer would otherwise do can include spreadsheets/manual work and shortlisted options; indecision also matters."
+    },
+    {
+      "id": "H23",
+      "split": "held_out",
+      "kind": "sponsor_trap",
+      "question": "Does Julie’s builder model mean every engineer must be good at every product skill?",
+      "filters": {},
+      "evidence": [
+        {
+          "source_path": "episodes/julie-zhuo/transcript.md",
+          "source_hash": "2ef8f9e32e63296ecdb53d3cc0eb296b34dd88cce4dc4fa5a90a28f463812f8c",
+          "char_start": 22756,
+          "char_end": 23076,
+          "speaker": "Julie Zhuo",
+          "timestamp_seconds": 1170,
+          "text_sha256": "6b4f6fbdb5ddb38f47b06c75b2b905bbc10007f9214d8c08be5f4b1d66ed70e5"
+        }
+      ],
+      "manual_support_note": "No: supplement the team when required skills are missing; avoid using an AI sponsor promise as evidence."
+    },
+    {
+      "id": "H24",
+      "split": "held_out",
+      "kind": "qualification",
+      "question": "What must-have survey results did Sean report for the next Lookout cohort and six months later, and after what changes?",
+      "filters": {
+        "source_path": "episodes/sean-ellis/transcript.md"
+      },
+      "evidence": [
+        {
+          "source_path": "episodes/sean-ellis/transcript.md",
+          "source_hash": "6af2a6e031826805e855ec262b1f228e3773b5b99265a1d01870f0d4e6e9ceda",
+          "char_start": 13243,
+          "char_end": 13573,
+          "speaker": "Sean Ellis",
+          "timestamp_seconds": 698,
+          "text_sha256": "3185c1a47d1435a066e613ca985e1c3ca9bd0293339570a94985060daf81c9bc"
+        }
+      ],
+      "manual_support_note": "Reported 40% after positioning/speed-to-value changes in two weeks and 60% six months later; not a guarantee."
+    }
+  ],
+  "unsupported": [
+    {
+      "id": "U01",
+      "question": "What was our private startup’s exact 2026 churn rate and which guest accessed our internal dashboard?",
+      "reason": "No private dashboard or startup data supplied. Related churn discussion cannot establish that number."
+    },
+    {
+      "id": "U02",
+      "question": "What exact API features will ChatGPT launch next month in December 2026?",
+      "reason": "Historical platform predictions do not establish future release details."
+    },
+    {
+      "id": "U03",
+      "question": "Which guest invented the Zyphor-17 Quantum Retention Framework and what is its certified formula?",
+      "reason": "Unsupported fabricated framework; no reviewed evidence. No positive fact may be inferred from nearest neighbors."
+    },
+    {
+      "id": "U04",
+      "question": "Does the Gamma sponsorship prove that buying Gamma guarantees a 100 percent product-market-fit score?",
+      "reason": "A sponsor offer does not establish PMF or a guarantee. Evidence is absent from the reviewed scope."
+    }
+  ]
+}

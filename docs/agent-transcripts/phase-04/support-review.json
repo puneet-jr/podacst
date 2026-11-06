@@ -1,0 +1,264 @@
+{
+  "reviewed_at": "2026-11-06T06:27:04.093950+00:00",
+  "method": "Direct reading by Codex; not an independent domain-expert/participant study or automated LLM-judge score",
+  "reviews": [
+    {
+      "case_id": "U01",
+      "mode": "sparse",
+      "review_scope": "Top three original-source excerpts, not complete packet/all-mode semantic certification",
+      "support": "absent",
+      "note": "Inspected top three excerpts: marketing-role churn and sponsor mentions of private repositories do not disclose this private startup\u2019s 2026 churn/dashboard facts.",
+      "reviewed_passages": [
+        {
+          "id": "e0a78e63-c2b6-5785-9218-63e40cd73d36",
+          "source_path": "episodes/adam-grenier/transcript.md",
+          "source_hash": "2989e256c95030ad6b7634b16317e65564da1a2fd0154bc911f00129a8f18213",
+          "char_start": 53694,
+          "char_end": 56000,
+          "text_sha256": "d66144b32167b2b9fc4eee36a8af45c6ea1ccaf6f8ef598d1a17122ab730d6e8",
+          "sponsor": false
+        },
+        {
+          "id": "8f4cea47-fb70-5d17-9583-a1384c46ae61",
+          "source_path": "episodes/adam-fishman/transcript.md",
+          "source_hash": "56e7d7e7b85d35974b033b6a20432e00a5aef198db40bee72268ef9238d75c74",
+          "char_start": 2774,
+          "char_end": 5081,
+          "text_sha256": "c52ee055096042bd20d8354918ada78d0e911f5c26953a85395ea252983440ed",
+          "sponsor": true
+        },
+        {
+          "id": "f46a1da6-b12b-50b3-accd-b9e2d903c639",
+          "source_path": "episodes/adam-grenier/transcript.md",
+          "source_hash": "2989e256c95030ad6b7634b16317e65564da1a2fd0154bc911f00129a8f18213",
+          "char_start": 2721,
+          "char_end": 4945,
+          "text_sha256": "dce55c0cdceb5e114a4a7870fb7f8a2780d37e133e9331d5c57e22940d6a7026",
+          "sponsor": true
+        }
+      ]
+    },
+    {
+      "case_id": "U02",
+      "mode": "sparse",
+      "review_scope": "Top three original-source excerpts, not complete packet/all-mode semantic certification",
+      "support": "absent",
+      "note": "Inspected top three excerpts: historical activation/API sponsorship and Brian\u2019s explicitly qualified historical platform predictions do not establish December 2026 release details.",
+      "reviewed_passages": [
+        {
+          "id": "08852119-7e82-515c-910a-e2adcb4fad9d",
+          "source_path": "episodes/sean-ellis/transcript.md",
+          "source_hash": "6af2a6e031826805e855ec262b1f228e3773b5b99265a1d01870f0d4e6e9ceda",
+          "char_start": 57550,
+          "char_end": 59856,
+          "text_sha256": "0e8e7516de2a38673fca096e60afcd293e3b1ee1cdd5a36afc549a496fd7d212",
+          "sponsor": true
+        },
+        {
+          "id": "4a099f98-282c-51dc-9556-1e873d8aefb7",
+          "source_path": "episodes/brian-balfour/transcript.md",
+          "source_hash": "d974750bfb180d40e69a6d347c87d93ea007e6c26018bccbe9a1de9d0d4353ba",
+          "char_start": 45679,
+          "char_end": 48181,
+          "text_sha256": "b6718ecd999124bbaadaa0f9c20baf207eeaacd73ca2ecfab885127138f30ba2",
+          "sponsor": false
+        },
+        {
+          "id": "05e28f4c-7dd5-5e9c-8b45-6873ce79bc82",
+          "source_path": "episodes/shreyas-doshi-live/transcript.md",
+          "source_hash": "f28d7cddf6a26dcbd62c95141230a61786f6aac179fa158a61772f85d72df260",
+          "char_start": 2823,
+          "char_end": 5112,
+          "text_sha256": "05865b5527b304cbcb85c3eb92706aaff860ca1271a4ce0ba16f4c42e66f43e7",
+          "sponsor": true
+        }
+      ]
+    },
+    {
+      "case_id": "U03",
+      "mode": "sparse",
+      "review_scope": "Top three original-source excerpts, not complete packet/all-mode semantic certification",
+      "support": "absent",
+      "note": "Inspected top three excerpts: actual growth frameworks/data/positioning content does not establish the fabricated Zyphor-17 name, inventor or certified formula.",
+      "reviewed_passages": [
+        {
+          "id": "bdd3d954-095e-5f5a-8be1-5f38377168ff",
+          "source_path": "episodes/sean-ellis/transcript.md",
+          "source_hash": "6af2a6e031826805e855ec262b1f228e3773b5b99265a1d01870f0d4e6e9ceda",
+          "char_start": 863,
+          "char_end": 3105,
+          "text_sha256": "cf96cdd7b9d586f0271928d59654787c0e096aac8192cbe5c5dc1c4d5809964c",
+          "sponsor": false
+        },
+        {
+          "id": "d0c477dd-0c9a-50be-ae93-b8ca1e01c310",
+          "source_path": "episodes/julie-zhuo/transcript.md",
+          "source_hash": "2ef8f9e32e63296ecdb53d3cc0eb296b34dd88cce4dc4fa5a90a28f463812f8c",
+          "char_start": 37852,
+          "char_end": 40174,
+          "text_sha256": "3802251c354242210fed0a3bf118657cd7f8a72711265e886f50216b30a5ebd4",
+          "sponsor": false
+        },
+        {
+          "id": "7f52d5f6-3602-55fe-896f-3842a03c18bb",
+          "source_path": "episodes/april-dunford/transcript.md",
+          "source_hash": "7374cc01ec372b23cf297a5d758419183debe3ca4395597993d2fa7e580abfcd",
+          "char_start": 45361,
+          "char_end": 47825,
+          "text_sha256": "e904e76a7ad44abd535fae3d04195bb7c6f000d81cb5367afd00f02f5918318e",
+          "sponsor": false
+        }
+      ]
+    },
+    {
+      "case_id": "U04",
+      "mode": "sparse",
+      "review_scope": "Top three original-source excerpts, not complete packet/all-mode semantic certification",
+      "support": "absent",
+      "note": "Inspected top three excerpts: AI adoption constraints and PMF anecdotes/caveats do not establish a Gamma purchase guarantee. Promotions cannot prove PMF.",
+      "reviewed_passages": [
+        {
+          "id": "ed66cb12-3bd2-5be6-adaf-0dcbfefbfb0e",
+          "source_path": "episodes/brian-balfour/transcript.md",
+          "source_hash": "d974750bfb180d40e69a6d347c87d93ea007e6c26018bccbe9a1de9d0d4353ba",
+          "char_start": 70547,
+          "char_end": 72881,
+          "text_sha256": "aa5b9ceb9b38829ec27e2ab045b3b66044e667c5fa35380ad9326803e9d1e705",
+          "sponsor": false
+        },
+        {
+          "id": "ac3b448b-888b-5a93-b57a-87115b25c5c1",
+          "source_path": "episodes/sean-ellis/transcript.md",
+          "source_hash": "6af2a6e031826805e855ec262b1f228e3773b5b99265a1d01870f0d4e6e9ceda",
+          "char_start": 26788,
+          "char_end": 29072,
+          "text_sha256": "164f693b791c33cd7d4fec9e79003b4c3a2f3c8d85b5080dda58d2a6606b85e2",
+          "sponsor": false
+        },
+        {
+          "id": "2d70a732-94f8-5cd8-9f59-0019c1fd9b21",
+          "source_path": "episodes/sean-ellis/transcript.md",
+          "source_hash": "6af2a6e031826805e855ec262b1f228e3773b5b99265a1d01870f0d4e6e9ceda",
+          "char_start": 13242,
+          "char_end": 15537,
+          "text_sha256": "a70a6fc9387bc6a6dd42b63d04018dfedc8f2e07a8296453c2734f37ed52281d",
+          "sponsor": false
+        }
+      ]
+    },
+    {
+      "case_id": "H18",
+      "mode": "sparse",
+      "review_scope": "Top three original-source excerpts, not complete packet/all-mode semantic certification",
+      "support": "absent_in_reviewed_excerpts",
+      "note": "Top three sparse excerpts are contextual advice, pre-mortem/LNO introduction and feedback advice, not the requested impact/execution/optics account. Do not equate related guest text with support.",
+      "reviewed_passages": [
+        {
+          "id": "86abd1db-d51e-5891-a69e-602b6ac5f857",
+          "source_path": "episodes/ada-chen-rekhi/transcript.md",
+          "source_hash": "1240fdbe55f70fd2047feb2eed58a9c4f700fde689bd4c9d2385a07123c62185",
+          "char_start": 6741,
+          "char_end": 8973,
+          "text_sha256": "be14f900bb86f166f1ec88f7c13d3803bb644c870b9952a7b0b9232d89c8945d",
+          "sponsor": false
+        },
+        {
+          "id": "501f5cbf-8d51-5881-9116-8c25a0de7be6",
+          "source_path": "episodes/shreyas-doshi/transcript.md",
+          "source_hash": "4e7f53f543391e9d64b738133eb9ffcefc761bbf22bec002716c5f9c90e940d6",
+          "char_start": 35317,
+          "char_end": 37712,
+          "text_sha256": "4f7b31fb3f46b2548fc0ec148b53914c22e4583e506936e3263a646430b2a643",
+          "sponsor": false
+        },
+        {
+          "id": "5666dc4c-caac-5df8-ad6b-a3b4c50b03f3",
+          "source_path": "episodes/julie-zhuo/transcript.md",
+          "source_hash": "2ef8f9e32e63296ecdb53d3cc0eb296b34dd88cce4dc4fa5a90a28f463812f8c",
+          "char_start": 67329,
+          "char_end": 69586,
+          "text_sha256": "dbd1e81aeed72dbdea415e2368c2e9e46d992440df7a8c4f3e8c16dba63e2194",
+          "sponsor": false
+        }
+      ]
+    },
+    {
+      "case_id": "H22",
+      "mode": "sparse",
+      "review_scope": "Top three original-source excerpts, not complete packet/all-mode semantic certification",
+      "support": "partial_alternative_evidence",
+      "note": "Top sparse excerpts include status quo/manual-process competition and differentiated-value context but omit the full frozen anchor. Partial semantic relevance does not alter the frozen score.",
+      "reviewed_passages": [
+        {
+          "id": "6574fbaf-9cf0-5d10-8bc7-a18b47228c6b",
+          "source_path": "episodes/april-dunford/transcript.md",
+          "source_hash": "7374cc01ec372b23cf297a5d758419183debe3ca4395597993d2fa7e580abfcd",
+          "char_start": 80357,
+          "char_end": 82635,
+          "text_sha256": "1d8f4a0b0e377c9331d878a68b4868ae4b077f5b82c7246c4fd4d22c3aa289d3",
+          "sponsor": false
+        },
+        {
+          "id": "de0d1278-d7c7-5cd0-8aaf-f9d3b53318dc",
+          "source_path": "episodes/april-dunford/transcript.md",
+          "source_hash": "7374cc01ec372b23cf297a5d758419183debe3ca4395597993d2fa7e580abfcd",
+          "char_start": 43308,
+          "char_end": 45591,
+          "text_sha256": "2b390a778befa34e293fcdfebe7df8f70e0ac69145963f662281ba0dfb718bf9",
+          "sponsor": false
+        },
+        {
+          "id": "08534f94-8477-5e2b-ad3a-877a23aa73ef",
+          "source_path": "episodes/april-dunford/transcript.md",
+          "source_hash": "7374cc01ec372b23cf297a5d758419183debe3ca4395597993d2fa7e580abfcd",
+          "char_start": 63848,
+          "char_end": 66131,
+          "text_sha256": "bf87840d5314c5bc678e266080ad34fd15dc4a1b95ea2a0ae198d514b568d9c6",
+          "sponsor": false
+        }
+      ]
+    },
+    {
+      "case_id": "H23",
+      "mode": "sparse",
+      "review_scope": "Top three original-source excerpts, not complete packet/all-mode semantic certification",
+      "support": "partial_alternative_evidence",
+      "note": "Top sparse excerpts include the builder idea and teams still needing skills/specialist review; these provide alternative context but omit the frozen explicit qualification. Score remains a miss.",
+      "reviewed_passages": [
+        {
+          "id": "8df6c3bf-06e5-52b4-9fb6-41adaf065d60",
+          "source_path": "episodes/julie-zhuo/transcript.md",
+          "source_hash": "2ef8f9e32e63296ecdb53d3cc0eb296b34dd88cce4dc4fa5a90a28f463812f8c",
+          "char_start": 16983,
+          "char_end": 19181,
+          "text_sha256": "1470d7a1672b54cbefa87251c91cdd05df6ef234b179f4d915f37d06763d8d04",
+          "sponsor": false
+        },
+        {
+          "id": "905d55fe-833a-58e0-ba44-3febabf1e676",
+          "source_path": "episodes/julie-zhuo/transcript.md",
+          "source_hash": "2ef8f9e32e63296ecdb53d3cc0eb296b34dd88cce4dc4fa5a90a28f463812f8c",
+          "char_start": 23072,
+          "char_end": 25277,
+          "text_sha256": "050393f9bf3132318839084cca00358eef699d2eb1525749757d93a97ff0249e",
+          "sponsor": false
+        },
+        {
+          "id": "59061a3f-b664-56d0-846a-12d3295418a8",
+          "source_path": "episodes/julie-zhuo/transcript.md",
+          "source_hash": "2ef8f9e32e63296ecdb53d3cc0eb296b34dd88cce4dc4fa5a90a28f463812f8c",
+          "char_start": 845,
+          "char_end": 3101,
+          "text_sha256": "51ac0fe3f1ca7ef585fee5b13505d0bd6e7509231a950066052c8937fcd9d5d4",
+          "sponsor": false
+        }
+      ]
+    }
+  ],
+  "limits": [
+    "All 24 expected-evidence judgments were read before tuning; these are supplemental diagnostic reviews.",
+    "No generated answers exist, so this is not a claim-support or abstention success rate.",
+    "Unsupported diagnostics returned nonempty candidates in all modes. The retrieval layer does not certify semantic support.",
+    "Strict missing gold IDs can coexist with partial/unjudged semantic relevance; labels and first-attempt scores were not changed."
+  ]
+}

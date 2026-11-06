@@ -1,0 +1,107 @@
+{
+  "captured_at": "2026-11-06T06:26:12.268657+00:00",
+  "checks": [
+    {
+      "name": "Current dependency readiness",
+      "passed": true,
+      "detail": {
+        "status": "ready",
+        "scope": "phase_4_retrieval",
+        "product_ready": false,
+        "checks": {
+          "database": {
+            "ready": true,
+            "schema_revision": "0002_ingestion",
+            "pgvector_version": "0.8.7"
+          },
+          "corpus": {
+            "ready": true,
+            "status": "partial",
+            "active_chunks": 373,
+            "active_episodes": 9,
+            "discovered": 303
+          },
+          "agent": {
+            "ready": true,
+            "version": "1.5.0"
+          },
+          "ollama": {
+            "ready": true,
+            "reachable_from_api": true,
+            "version": "0.30.11",
+            "generation_model_available": true,
+            "embedding_model_available": true,
+            "embedding_dimensions_compatible": true,
+            "index_identity_compatible": true,
+            "note": "Transport and installed-model availability; does not prove answer or essay quality."
+          }
+        }
+      }
+    },
+    {
+      "name": "Default sparse through HTTP proxy",
+      "passed": true,
+      "detail": {
+        "status": 200,
+        "mode": "sparse",
+        "count": 5,
+        "estimated_tokens": 2788
+      }
+    },
+    {
+      "name": "Explicit real local hybrid through HTTP",
+      "passed": true,
+      "detail": {
+        "status": 200,
+        "count": 6,
+        "timings_ms": {
+          "embedding": 149.9185419997957,
+          "database": 34.857459000704694,
+          "total": 184.84729200008587
+        },
+        "embedding_digest": "0a109f422b47e3a30ba2b10eca18548e944e8a23073ee3f3e947efcf3c45e59f"
+      }
+    },
+    {
+      "name": "Empty exact scope has bounded evidence limitation",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Filter values remain parameterized data",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Unsafe source scope rejected safely",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Saved Phase 3 conversations remain identical",
+      "passed": true,
+      "detail": {
+        "message_count": 6,
+        "message_digest": "85bac40d62cc4e214eb3ef4ba8d8d3b09b546b143bd19cdc09d41d25c14b3f02",
+        "session_digest": "7404c0e197945a1fdf57d84df6e7ee6522fea1f47a8789a79fc5e9e2712637b4",
+        "all_active_source_spans_vectors_valid": true
+      }
+    },
+    {
+      "name": "All active exact source spans/vectors valid",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Partial nine-episode scope accurately reported",
+      "passed": true,
+      "detail": {
+        "active_episodes": 9,
+        "active_chunks": 373,
+        "discovered": 303
+      }
+    }
+  ],
+  "passed": true,
+  "limits": "No browser, generated answer or semantic support claim."
+}

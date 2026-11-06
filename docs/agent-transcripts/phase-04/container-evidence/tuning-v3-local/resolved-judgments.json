@@ -1,0 +1,179 @@
+{
+  "T01": {
+    "groups": [
+      [
+        "712a5d93-18e5-5f78-9195-fe441d7a1a2d"
+      ]
+    ],
+    "relevant_ids": [
+      "712a5d93-18e5-5f78-9195-fe441d7a1a2d"
+    ]
+  },
+  "T02": {
+    "groups": [
+      [
+        "53054eb0-beee-5be4-b2f1-99ca9b2eac2d"
+      ],
+      [
+        "53054eb0-beee-5be4-b2f1-99ca9b2eac2d"
+      ]
+    ],
+    "relevant_ids": [
+      "53054eb0-beee-5be4-b2f1-99ca9b2eac2d"
+    ]
+  },
+  "T03": {
+    "groups": [
+      [
+        "8b5b413f-9fd3-580f-8d21-9420cd18d888"
+      ]
+    ],
+    "relevant_ids": [
+      "8b5b413f-9fd3-580f-8d21-9420cd18d888"
+    ]
+  },
+  "T04": {
+    "groups": [
+      [
+        "792da105-8dd8-545b-980d-df8b226fb558"
+      ],
+      [
+        "792da105-8dd8-545b-980d-df8b226fb558"
+      ]
+    ],
+    "relevant_ids": [
+      "792da105-8dd8-545b-980d-df8b226fb558"
+    ]
+  },
+  "T05": {
+    "groups": [
+      [
+        "2adfefd1-63fb-5566-a036-67d1d9cdf6cd"
+      ]
+    ],
+    "relevant_ids": [
+      "2adfefd1-63fb-5566-a036-67d1d9cdf6cd"
+    ]
+  },
+  "T06": {
+    "groups": [
+      [
+        "4224e1d6-39e2-52be-ab67-a926ccc67967"
+      ]
+    ],
+    "relevant_ids": [
+      "4224e1d6-39e2-52be-ab67-a926ccc67967"
+    ]
+  },
+  "T07": {
+    "groups": [
+      [
+        "c28f215d-aefd-5b4f-885e-a9e317ae100c"
+      ]
+    ],
+    "relevant_ids": [
+      "c28f215d-aefd-5b4f-885e-a9e317ae100c"
+    ]
+  },
+  "T08": {
+    "groups": [
+      [
+        "fc94301d-b4f3-563f-8318-366d1c9ecd84"
+      ]
+    ],
+    "relevant_ids": [
+      "fc94301d-b4f3-563f-8318-366d1c9ecd84"
+    ]
+  },
+  "T09": {
+    "groups": [
+      [
+        "85930ea7-70cb-5668-b755-e840c9bbf548"
+      ]
+    ],
+    "relevant_ids": [
+      "85930ea7-70cb-5668-b755-e840c9bbf548"
+    ]
+  },
+  "T10": {
+    "groups": [
+      [
+        "f26fe757-c7b7-570a-a509-30f525bf8209"
+      ]
+    ],
+    "relevant_ids": [
+      "f26fe757-c7b7-570a-a509-30f525bf8209"
+    ]
+  },
+  "T11": {
+    "groups": [
+      [
+        "f4033d50-b25b-5149-9446-cd8e1f61e49c"
+      ],
+      [
+        "f4033d50-b25b-5149-9446-cd8e1f61e49c"
+      ]
+    ],
+    "relevant_ids": [
+      "f4033d50-b25b-5149-9446-cd8e1f61e49c"
+    ]
+  },
+  "T12": {
+    "groups": [
+      [
+        "8df6c3bf-06e5-52b4-9fb6-41adaf065d60"
+      ]
+    ],
+    "relevant_ids": [
+      "8df6c3bf-06e5-52b4-9fb6-41adaf065d60"
+    ]
+  },
+  "T13": {
+    "groups": [
+      [
+        "792da105-8dd8-545b-980d-df8b226fb558"
+      ],
+      [
+        "f4033d50-b25b-5149-9446-cd8e1f61e49c"
+      ]
+    ],
+    "relevant_ids": [
+      "792da105-8dd8-545b-980d-df8b226fb558",
+      "f4033d50-b25b-5149-9446-cd8e1f61e49c"
+    ]
+  },
+  "T14": {
+    "groups": [
+      [
+        "53054eb0-beee-5be4-b2f1-99ca9b2eac2d"
+      ],
+      [
+        "7f52d5f6-3602-55fe-896f-3842a03c18bb"
+      ]
+    ],
+    "relevant_ids": [
+      "53054eb0-beee-5be4-b2f1-99ca9b2eac2d",
+      "7f52d5f6-3602-55fe-896f-3842a03c18bb"
+    ]
+  },
+  "T15": {
+    "groups": [
+      [
+        "2adfefd1-63fb-5566-a036-67d1d9cdf6cd"
+      ]
+    ],
+    "relevant_ids": [
+      "2adfefd1-63fb-5566-a036-67d1d9cdf6cd"
+    ]
+  },
+  "T16": {
+    "groups": [
+      [
+        "3857765c-337a-5d31-8b9f-12dcfcf59843"
+      ]
+    ],
+    "relevant_ids": [
+      "3857765c-337a-5d31-8b9f-12dcfcf59843"
+    ]
+  }
+}

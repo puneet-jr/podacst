@@ -1,0 +1,11 @@
+{
+  "revision": "baseline-v1",
+  "candidates": 20,
+  "limit": 8,
+  "token_budget": 4800,
+  "per_episode": 3,
+  "neighbor_radius": 1,
+  "max_neighbors": 2,
+  "rrf_constant": 60,
+  "include_sponsors": false
+}
