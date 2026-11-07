@@ -1,0 +1,105 @@
+{
+  "reviewed_at": "2026-11-07T03:01:24.506775+00:00",
+  "surface": "Normal app review/source/advice/acceptance controls",
+  "factual_blocks": [
+    {
+      "section": 1,
+      "label": "S2",
+      "chunk_id": "bdd3d954-095e-5f5a-8be1-5f38377168ff",
+      "exact_original_span": true,
+      "sha256": "b36afb1d474a3a9fb24acc08ecabd5fdb1959224d656325df287703d65c91bc1"
+    },
+    {
+      "section": 1,
+      "label": "S2",
+      "chunk_id": "bdd3d954-095e-5f5a-8be1-5f38377168ff",
+      "exact_original_span": true,
+      "sha256": "51cb8cbdfb8f6325ee77228c83ca7c92de41f4e279d893ec3a31dba023f5ad2b"
+    },
+    {
+      "section": 1,
+      "label": "S2",
+      "chunk_id": "bdd3d954-095e-5f5a-8be1-5f38377168ff",
+      "exact_original_span": true,
+      "sha256": "aa75a15d30f798ee760408e2cc73657fa9bdad2e86cf2f1b90e877a7c1a4081f"
+    },
+    {
+      "section": 2,
+      "label": "S3",
+      "chunk_id": "ac3b448b-888b-5a93-b57a-87115b25c5c1",
+      "exact_original_span": true,
+      "sha256": "016dc23a0d8547db6ba1d5ee7f951634188c1dffc180efebfdd84413b7f27a1f"
+    },
+    {
+      "section": 3,
+      "label": "S4",
+      "chunk_id": "e7ebf483-ca51-5ba3-a02a-162986317feb",
+      "exact_original_span": true,
+      "sha256": "870e11cc4d247c36b93c4b93a8e17d90bc0f5ef9534dba65bb51c73184dcefdb"
+    },
+    {
+      "section": 4,
+      "label": "S5",
+      "chunk_id": "f5f40dd8-e8fb-5e74-9834-e45e31331549",
+      "exact_original_span": true,
+      "sha256": "2575dbaa5d005062efbcdbf2749b5d187794626f64a536b10a6eab4dea78dc47"
+    },
+    {
+      "section": 4,
+      "label": "S5",
+      "chunk_id": "f5f40dd8-e8fb-5e74-9834-e45e31331549",
+      "exact_original_span": true,
+      "sha256": "b583b0bbd904c2a95cd55e125add27d8da544c0c68879abad9becaa0ac4cd456"
+    },
+    {
+      "section": 5,
+      "label": "S6",
+      "chunk_id": "38b28fa6-86ff-59ba-8019-ff4db2c27656",
+      "exact_original_span": true,
+      "sha256": "727497e7a3a640c06717b54550ad5e3e936466d1fed1ef10d4499747e8fec506"
+    },
+    {
+      "section": 6,
+      "label": "S7",
+      "chunk_id": "40c4e9ae-ce0c-5575-817c-b00c6c5d8334",
+      "exact_original_span": true,
+      "sha256": "3e08e31f1c87519ade9af2245f22a1edb96692a527b6a0094329e7adf92dd272"
+    },
+    {
+      "section": 6,
+      "label": "S7",
+      "chunk_id": "40c4e9ae-ce0c-5575-817c-b00c6c5d8334",
+      "exact_original_span": true,
+      "sha256": "4e51949c4ec50ff1f0107d1bceed4a4d06bf112594045f24bb614be4e7a17034"
+    }
+  ],
+  "word_count": 1208,
+  "manual_advice_edits": 6,
+  "manual_source_edits": 3,
+  "claims": "Guest quotations checked against actual passages; no inferred95% result or invented case outcome. Advice is proposed experimentation with hypotheses, metrics and decisions.",
+  "readability": "Reader question before evidence, six headings, selective bold and concrete takeaway. Evidence-led/quote-heavy style remains.",
+  "post_requests": [
+    {
+      "method": "POST",
+      "path": "/api/sessions/6f882513-96b5-4fcc-88c2-1e1dc82d9585/essays/b4309701-8122-4b16-b38b-ec7ee8a3fe21/evidence"
+    },
+    {
+      "method": "POST",
+      "path": "/api/sessions/6f882513-96b5-4fcc-88c2-1e1dc82d9585/essays/b4309701-8122-4b16-b38b-ec7ee8a3fe21/advice"
+    },
+    {
+      "method": "POST",
+      "path": "/api/sessions/6f882513-96b5-4fcc-88c2-1e1dc82d9585/essays/b4309701-8122-4b16-b38b-ec7ee8a3fe21/review"
+    },
+    {
+      "method": "POST",
+      "path": "/api/sessions/6f882513-96b5-4fcc-88c2-1e1dc82d9585/artifacts"
+    },
+    {
+      "method": "POST",
+      "path": "/api/sessions/6f882513-96b5-4fcc-88c2-1e1dc82d9585/artifacts"
+    }
+  ],
+  "page_errors": [],
+  "fixture": false
+}

@@ -39,3 +39,7 @@ Statuses: pending / implemented / verified / blocked. A planned path or test is 
 ## Gate interpretation
 
 The Phase 0 documentation gate is narrower than final FD-01/DEL-03/DEL-06 completion. Final verification requires reconciled requirements, tested risk mitigations and genuine sanitized build history. All eight DEL rows remain tracked. At each later gate replace proposed paths with actual files and exact commands/evidence; never infer live success from mocks or skipped checks.
+
+## Phase8 verification update
+
+Session navigation, examples/model/corpus status, scoped research and evidence-led essay controls, readable messages, exact source inspector, contextual artifacts, review/edit/save states, retained input/retry/cancel and narrow-screen tabs are implemented.99 backend contracts,2 source-span tests, frontend typecheck/build and16 deterministic browser cases pass. Actual local main journey and desktop/mobile visual inspection pass for a reviewed1208-word essay after9 disclosed edits. Raw generation fails; autonomous quality remains unverified. In-app connector blocked but actual isolated Chrome evidence exists. General accessibility/other engines, full corpus and frozen SC-01 exercise remain pending. See [Phase8 report](phase-08-report.md); no Prompt09 work.

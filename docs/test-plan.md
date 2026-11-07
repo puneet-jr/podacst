@@ -53,3 +53,8 @@ Browser plan remains unexecuted: create/ask/follow-up/open source, cancel/retry,
 ## Phase6 evidence status at publication
 
 81 backend contracts passed in6.790s on fresh retained PostgreSQL:51 unit/parser/mock and30 DB/API checks. Essay generation in DB tests is deliberately mocked. The corrected real local essay run is separate and FAILED before section1 with Ollama grammar initializationHTTP400;0 essay words/0 completed sections. Earlier actual outline and unsupported rejected prose are preserved. No Phase7 or essay-quality success is inferred. Publication changes are documentation/evidence sanitation and Git organization; app runtime is the snapshot tested before that failure. No new model test was run during publication.
+
+
+## Phase8 executed UI checks
+
+See [report](phase-08-report.md) and actual command capture for99 passing backend contracts on fresh retained PostgreSQL,2 Node Unicode-source tests and frontend typecheck/build. `scripts/browser_phase8.py` runs16 deterministic browser cases with intercepted fixture APIs and no model/DB side effects. `scripts/live_ui_phase8.py` and `scripts/review_ui_phase8.py` operate the actual UI/Pi/Ollama separately: supported/follow-up/source, draft, explicit corrections/review, both artifacts and reload/reopen. Preserve initial insufficient-evidence stop and raw1224-word rejection; final1208 words passed after9 logged edits. Private desktop/mobile screenshots visually inspected; hashes only in publishable evidence. One Chrome version, no screen-reader study; actual restart proof remains Phase7. Mock pre-start cancel is not model cleanup. No SC-01 completion rate inferred; stop before09.

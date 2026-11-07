@@ -1,0 +1,52 @@
+{
+  "session_id": "6f882513-96b5-4fcc-88c2-1e1dc82d9585",
+  "run_id": "b4309701-8122-4b16-b38b-ec7ee8a3fe21",
+  "essay_seconds": 41.09608337515965,
+  "status": "failed",
+  "validation": {
+    "errors": [
+      {
+        "code": "unattributed_paragraph",
+        "section": 5
+      }
+    ],
+    "limits": "ID/count/format screens are not semantic support, hook quality, meaningful progression or completeness proof.",
+    "bullets": 7,
+    "bold_spans": 1,
+    "word_count": 1224,
+    "citation_ids": [
+      "S2",
+      "S3",
+      "S4",
+      "S5",
+      "S6",
+      "S7"
+    ],
+    "section_count": 6,
+    "accepted_range": [
+      1125,
+      1375
+    ],
+    "incomplete_sections": [],
+    "section_word_counts": [
+      209,
+      177,
+      173,
+      198,
+      170,
+      257
+    ],
+    "passed_deterministic": false,
+    "manual_review_required": true
+  },
+  "calls": [
+    {
+      "method": "POST",
+      "path": "/api/sessions/6f882513-96b5-4fcc-88c2-1e1dc82d9585/essays",
+      "at": "2026-11-07T02:50:20.904899+00:00"
+    }
+  ],
+  "page_errors": [],
+  "manual_review": "pending; this script does not accept the essay",
+  "fixture": false
+}

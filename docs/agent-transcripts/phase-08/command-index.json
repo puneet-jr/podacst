@@ -1,0 +1,596 @@
+[
+  {
+    "started_at": "2026-11-07T02:33:57.064485+00:00",
+    "ended_at": "2026-11-07T02:33:59.794238+00:00",
+    "duration_seconds": 2.7293883338570595,
+    "command": [
+      "npm",
+      "--prefix",
+      "frontend",
+      "run",
+      "build"
+    ],
+    "exit_code": 0,
+    "truncated": false
+  },
+  {
+    "started_at": "2026-11-07T02:35:39.789638+00:00",
+    "ended_at": "2026-11-07T02:35:42.561424+00:00",
+    "duration_seconds": 2.7715837080031633,
+    "command": [
+      "npm",
+      "--prefix",
+      "frontend",
+      "run",
+      "build"
+    ],
+    "exit_code": 0,
+    "truncated": false
+  },
+  {
+    "started_at": "2026-11-07T02:35:42.624654+00:00",
+    "ended_at": "2026-11-07T02:35:51.856207+00:00",
+    "duration_seconds": 9.231346332933754,
+    "command": [
+      "python3",
+      "scripts/docker.py",
+      "compose",
+      "build",
+      "api",
+      "web"
+    ],
+    "exit_code": 0,
+    "truncated": false
+  },
+  {
+    "started_at": "2026-11-07T02:36:28.793410+00:00",
+    "ended_at": "2026-11-07T02:36:31.279913+00:00",
+    "duration_seconds": 2.4862841670401394,
+    "command": [
+      "npm",
+      "--prefix",
+      "frontend",
+      "run",
+      "build"
+    ],
+    "exit_code": 0,
+    "truncated": false
+  },
+  {
+    "started_at": "2026-11-07T02:36:44.438515+00:00",
+    "ended_at": "2026-11-07T02:36:49.359724+00:00",
+    "duration_seconds": 4.92075154138729,
+    "command": [
+      "python3",
+      "scripts/docker.py",
+      "compose",
+      "build",
+      "api",
+      "web"
+    ],
+    "exit_code": 0,
+    "truncated": false
+  },
+  {
+    "started_at": "2026-11-07T02:36:49.409245+00:00",
+    "ended_at": "2026-11-07T02:37:02.743730+00:00",
+    "duration_seconds": 13.334048375021666,
+    "command": [
+      "python3",
+      "scripts/docker.py",
+      "compose",
+      "run",
+      "--rm",
+      "--no-deps",
+      "api",
+      "python",
+      "-m",
+      "backend.contract_check"
+    ],
+    "exit_code": 0,
+    "truncated": true
+  },
+  {
+    "started_at": "2026-11-07T02:37:02.806175+00:00",
+    "ended_at": "2026-11-07T02:37:04.588824+00:00",
+    "duration_seconds": 1.782549041789025,
+    "command": [
+      "python3",
+      "scripts/docker.py",
+      "compose",
+      "up",
+      "-d",
+      "--no-deps",
+      "api",
+      "web"
+    ],
+    "exit_code": 0,
+    "truncated": false
+  },
+  {
+    "started_at": "2026-11-07T02:40:07.960876+00:00",
+    "ended_at": "2026-11-07T02:40:18.644109+00:00",
+    "duration_seconds": 10.682917207945138,
+    "command": [
+      ".venv-phase2/bin/python",
+      "scripts/browser_phase8.py"
+    ],
+    "exit_code": 0,
+    "truncated": false
+  },
+  {
+    "started_at": "2026-11-07T02:40:54.024524+00:00",
+    "ended_at": "2026-11-07T02:40:56.671953+00:00",
+    "duration_seconds": 2.6473513753153384,
+    "command": [
+      "npm",
+      "--prefix",
+      "frontend",
+      "run",
+      "build"
+    ],
+    "exit_code": 0,
+    "truncated": false
+  },
+  {
+    "started_at": "2026-11-07T02:40:56.717154+00:00",
+    "ended_at": "2026-11-07T02:41:03.599824+00:00",
+    "duration_seconds": 6.882605999708176,
+    "command": [
+      "python3",
+      "scripts/docker.py",
+      "compose",
+      "build",
+      "web"
+    ],
+    "exit_code": 0,
+    "truncated": false
+  },
+  {
+    "started_at": "2026-11-07T02:41:03.656671+00:00",
+    "ended_at": "2026-11-07T02:41:04.735005+00:00",
+    "duration_seconds": 1.0782415410503745,
+    "command": [
+      "python3",
+      "scripts/docker.py",
+      "compose",
+      "up",
+      "-d",
+      "--no-deps",
+      "web"
+    ],
+    "exit_code": 0,
+    "truncated": false
+  },
+  {
+    "started_at": "2026-11-07T02:43:18.769994+00:00",
+    "ended_at": "2026-11-07T02:43:21.472889+00:00",
+    "duration_seconds": 2.702677082736045,
+    "command": [
+      "npm",
+      "--prefix",
+      "frontend",
+      "run",
+      "build"
+    ],
+    "exit_code": 0,
+    "truncated": false
+  },
+  {
+    "started_at": "2026-11-07T02:43:21.532630+00:00",
+    "ended_at": "2026-11-07T02:43:28.955192+00:00",
+    "duration_seconds": 7.422412707936019,
+    "command": [
+      "python3",
+      "scripts/docker.py",
+      "compose",
+      "build",
+      "api",
+      "web"
+    ],
+    "exit_code": 0,
+    "truncated": false
+  },
+  {
+    "started_at": "2026-11-07T02:43:29.016698+00:00",
+    "ended_at": "2026-11-07T02:43:40.606283+00:00",
+    "duration_seconds": 11.589355874806643,
+    "command": [
+      "python3",
+      "scripts/docker.py",
+      "compose",
+      "run",
+      "--rm",
+      "--no-deps",
+      "api",
+      "python",
+      "-m",
+      "backend.contract_check"
+    ],
+    "exit_code": 0,
+    "truncated": true
+  },
+  {
+    "started_at": "2026-11-07T02:43:40.666637+00:00",
+    "ended_at": "2026-11-07T02:43:42.254846+00:00",
+    "duration_seconds": 1.5880327499471605,
+    "command": [
+      "python3",
+      "scripts/docker.py",
+      "compose",
+      "up",
+      "-d",
+      "--no-deps",
+      "api",
+      "web"
+    ],
+    "exit_code": 0,
+    "truncated": false
+  },
+  {
+    "started_at": "2026-11-07T02:44:58.157354+00:00",
+    "ended_at": "2026-11-07T02:46:45.176685+00:00",
+    "duration_seconds": 107.01925379177555,
+    "command": [
+      ".venv-phase2/bin/python",
+      "scripts/live_ui_phase8.py"
+    ],
+    "exit_code": 1,
+    "truncated": false
+  },
+  {
+    "started_at": "2026-11-07T02:47:24.224137+00:00",
+    "ended_at": "2026-11-07T02:47:40.747209+00:00",
+    "duration_seconds": 16.52283945772797,
+    "command": [
+      ".venv-phase2/bin/python",
+      "scripts/live_ui_phase8.py"
+    ],
+    "exit_code": 0,
+    "truncated": false
+  },
+  {
+    "started_at": "2026-11-07T02:49:06.836654+00:00",
+    "ended_at": "2026-11-07T02:49:09.467435+00:00",
+    "duration_seconds": 2.6306087500415742,
+    "command": [
+      "npm",
+      "--prefix",
+      "frontend",
+      "run",
+      "build"
+    ],
+    "exit_code": 0,
+    "truncated": false
+  },
+  {
+    "started_at": "2026-11-07T02:49:09.524627+00:00",
+    "ended_at": "2026-11-07T02:49:18.961692+00:00",
+    "duration_seconds": 9.438723499886692,
+    "command": [
+      "python3",
+      "scripts/docker.py",
+      "compose",
+      "build",
+      "api",
+      "web"
+    ],
+    "exit_code": 0,
+    "truncated": false
+  },
+  {
+    "started_at": "2026-11-07T02:49:19.050102+00:00",
+    "ended_at": "2026-11-07T02:49:30.687008+00:00",
+    "duration_seconds": 11.637489708140492,
+    "command": [
+      "python3",
+      "scripts/docker.py",
+      "compose",
+      "run",
+      "--rm",
+      "--no-deps",
+      "api",
+      "python",
+      "-m",
+      "backend.contract_check"
+    ],
+    "exit_code": 0,
+    "truncated": true
+  },
+  {
+    "started_at": "2026-11-07T02:49:30.774090+00:00",
+    "ended_at": "2026-11-07T02:49:32.821321+00:00",
+    "duration_seconds": 2.047189375385642,
+    "command": [
+      "python3",
+      "scripts/docker.py",
+      "compose",
+      "up",
+      "-d",
+      "--no-deps",
+      "api",
+      "web"
+    ],
+    "exit_code": 0,
+    "truncated": false
+  },
+  {
+    "started_at": "2026-11-07T02:50:16.287511+00:00",
+    "ended_at": "2026-11-07T02:51:02.497823+00:00",
+    "duration_seconds": 46.16563737485558,
+    "command": [
+      ".venv-phase2/bin/python",
+      "scripts/live_ui_phase8.py",
+      "--resume-essay"
+    ],
+    "exit_code": 0,
+    "truncated": false
+  },
+  {
+    "started_at": "2026-11-07T02:52:28.883957+00:00",
+    "ended_at": "2026-11-07T02:52:32.099684+00:00",
+    "duration_seconds": 3.2166760829277337,
+    "command": [
+      "npm",
+      "--prefix",
+      "frontend",
+      "run",
+      "build"
+    ],
+    "exit_code": 0,
+    "truncated": false
+  },
+  {
+    "started_at": "2026-11-07T02:52:32.197244+00:00",
+    "ended_at": "2026-11-07T02:52:42.247872+00:00",
+    "duration_seconds": 10.051430332940072,
+    "command": [
+      "python3",
+      "scripts/docker.py",
+      "compose",
+      "build",
+      "api",
+      "web"
+    ],
+    "exit_code": 0,
+    "truncated": false
+  },
+  {
+    "started_at": "2026-11-07T02:52:42.341776+00:00",
+    "ended_at": "2026-11-07T02:52:57.279752+00:00",
+    "duration_seconds": 14.938659999985248,
+    "command": [
+      "python3",
+      "scripts/docker.py",
+      "compose",
+      "run",
+      "--rm",
+      "--no-deps",
+      "api",
+      "python",
+      "-m",
+      "backend.contract_check"
+    ],
+    "exit_code": 0,
+    "truncated": true
+  },
+  {
+    "started_at": "2026-11-07T02:52:57.419879+00:00",
+    "ended_at": "2026-11-07T02:52:59.312788+00:00",
+    "duration_seconds": 1.8928602081723511,
+    "command": [
+      "python3",
+      "scripts/docker.py",
+      "compose",
+      "up",
+      "-d",
+      "--no-deps",
+      "api",
+      "web"
+    ],
+    "exit_code": 0,
+    "truncated": false
+  },
+  {
+    "started_at": "2026-11-07T02:54:19.321105+00:00",
+    "ended_at": "2026-11-07T02:54:19.822026+00:00",
+    "duration_seconds": 0.5005833329632878,
+    "command": [
+      ".venv-phase2/bin/python",
+      "scripts/prepare_review_phase8.py"
+    ],
+    "exit_code": 0,
+    "truncated": false
+  },
+  {
+    "started_at": "2026-11-07T02:56:03.531810+00:00",
+    "ended_at": "2026-11-07T02:56:03.933986+00:00",
+    "duration_seconds": 0.40174283366650343,
+    "command": [
+      "node",
+      "--test",
+      "frontend/test-source-span.mjs"
+    ],
+    "exit_code": 0,
+    "truncated": false
+  },
+  {
+    "started_at": "2026-11-07T02:56:03.997059+00:00",
+    "ended_at": "2026-11-07T02:56:06.443585+00:00",
+    "duration_seconds": 2.4463603338226676,
+    "command": [
+      "npm",
+      "--prefix",
+      "frontend",
+      "run",
+      "build"
+    ],
+    "exit_code": 0,
+    "truncated": false
+  },
+  {
+    "started_at": "2026-11-07T02:56:06.493988+00:00",
+    "ended_at": "2026-11-07T02:56:11.828098+00:00",
+    "duration_seconds": 5.334004916716367,
+    "command": [
+      "python3",
+      "scripts/docker.py",
+      "compose",
+      "build",
+      "web"
+    ],
+    "exit_code": 0,
+    "truncated": false
+  },
+  {
+    "started_at": "2026-11-07T02:56:11.880228+00:00",
+    "ended_at": "2026-11-07T02:56:12.664885+00:00",
+    "duration_seconds": 0.784510166849941,
+    "command": [
+      "python3",
+      "scripts/docker.py",
+      "compose",
+      "up",
+      "-d",
+      "--no-deps",
+      "web"
+    ],
+    "exit_code": 0,
+    "truncated": false
+  },
+  {
+    "started_at": "2026-11-07T02:58:22.039818+00:00",
+    "ended_at": "2026-11-07T02:58:25.302706+00:00",
+    "duration_seconds": 3.2625914998352528,
+    "command": [
+      "npm",
+      "--prefix",
+      "frontend",
+      "run",
+      "build"
+    ],
+    "exit_code": 0,
+    "truncated": false
+  },
+  {
+    "started_at": "2026-11-07T02:58:25.355851+00:00",
+    "ended_at": "2026-11-07T02:58:30.365941+00:00",
+    "duration_seconds": 5.009979208000004,
+    "command": [
+      "python3",
+      "scripts/docker.py",
+      "compose",
+      "build",
+      "web"
+    ],
+    "exit_code": 0,
+    "truncated": false
+  },
+  {
+    "started_at": "2026-11-07T02:58:30.448413+00:00",
+    "ended_at": "2026-11-07T02:58:31.274407+00:00",
+    "duration_seconds": 0.8258368340320885,
+    "command": [
+      "python3",
+      "scripts/docker.py",
+      "compose",
+      "up",
+      "-d",
+      "--no-deps",
+      "web"
+    ],
+    "exit_code": 0,
+    "truncated": false
+  },
+  {
+    "started_at": "2026-11-07T02:59:23.306969+00:00",
+    "ended_at": "2026-11-07T02:59:28.606677+00:00",
+    "duration_seconds": 5.299798792228103,
+    "command": [
+      "npm",
+      "--prefix",
+      "frontend",
+      "run",
+      "build"
+    ],
+    "exit_code": 0,
+    "truncated": false
+  },
+  {
+    "started_at": "2026-11-07T02:59:28.684502+00:00",
+    "ended_at": "2026-11-07T02:59:34.553991+00:00",
+    "duration_seconds": 5.869191457983106,
+    "command": [
+      "python3",
+      "scripts/docker.py",
+      "compose",
+      "build",
+      "web"
+    ],
+    "exit_code": 0,
+    "truncated": false
+  },
+  {
+    "started_at": "2026-11-07T02:59:34.621250+00:00",
+    "ended_at": "2026-11-07T02:59:35.499764+00:00",
+    "duration_seconds": 0.8782054581679404,
+    "command": [
+      "python3",
+      "scripts/docker.py",
+      "compose",
+      "up",
+      "-d",
+      "--no-deps",
+      "web"
+    ],
+    "exit_code": 0,
+    "truncated": false
+  },
+  {
+    "started_at": "2026-11-07T03:00:11.152307+00:00",
+    "ended_at": "2026-11-07T03:00:21.083008+00:00",
+    "duration_seconds": 9.930356584023684,
+    "command": [
+      ".venv-phase2/bin/python",
+      "scripts/browser_phase8.py"
+    ],
+    "exit_code": 0,
+    "truncated": false
+  },
+  {
+    "started_at": "2026-11-07T03:01:18.113242+00:00",
+    "ended_at": "2026-11-07T03:01:25.340967+00:00",
+    "duration_seconds": 7.22738558286801,
+    "command": [
+      ".venv-phase2/bin/python",
+      "scripts/review_ui_phase8.py"
+    ],
+    "exit_code": 0,
+    "truncated": false
+  },
+  {
+    "started_at": "2026-11-07T03:05:12.335255+00:00",
+    "ended_at": "2026-11-07T03:05:13.141109+00:00",
+    "duration_seconds": 0.8055965420790017,
+    "command": [
+      "python3",
+      "scripts/publication_review.py",
+      "--output",
+      ".cache/phase8-publication-review.json"
+    ],
+    "exit_code": 0,
+    "truncated": false
+  },
+  {
+    "started_at": "2026-11-07T03:05:13.187898+00:00",
+    "ended_at": "2026-11-07T03:05:13.237939+00:00",
+    "duration_seconds": 0.04996141605079174,
+    "command": [
+      "git",
+      "diff",
+      "--check"
+    ],
+    "exit_code": 0,
+    "truncated": false
+  }
+]

@@ -1,0 +1,49 @@
+{
+  "captured_at": "2026-11-07T03:00:20.852605+00:00",
+  "fixture": true,
+  "model_calls": 0,
+  "database_writes": 0,
+  "browser": "157.0.8103.38",
+  "checks": [
+    "new session -> question -> source; focus moves and restores",
+    "follow-up displays distinct source",
+    "unsaved review edits protect navigation and can be explicitly discarded",
+    "essay draft -> explicit review gate -> accepted reply",
+    "artifact save failure/retry -> both formats rendered",
+    "saved session/essay/artifact reopen after page reload",
+    "long artifact scrolls within isolated preview",
+    "sampled rendered text/control/label contrast >=4.5:1",
+    "session isolation and unsent-input preservation",
+    "late source response does not cross sessions",
+    "timeout preserves input; retry reuses saved question identity",
+    "missing-model state and recovery retain input",
+    "empty/unsupported evidence has no invented source buttons",
+    "pre-start cancel keeps input; no model lifecycle claim from mocked API",
+    "mobile panel navigation, arrow/Home keys, source focus/return, no horizontal overflow",
+    "820px and1024px layout containment"
+  ],
+  "contrast_samples": [
+    {
+      "selector": ".message.assistant .message-text p",
+      "fg": "rgb(37, 55, 47)",
+      "bg": "rgb(255, 253, 248)",
+      "contrast": 12.4
+    },
+    {
+      "selector": "button:not(:disabled):not(.secondary):not(.session):not(.inline-citation)",
+      "fg": "rgb(255, 255, 255)",
+      "bg": "rgb(40, 83, 67)",
+      "contrast": 8.72
+    },
+    {
+      "selector": ".section-label",
+      "fg": "rgb(89, 107, 95)",
+      "bg": "rgb(238, 240, 230)",
+      "contrast": 4.94
+    }
+  ],
+  "page_errors": [],
+  "attack_requests": [],
+  "screenshots": "private .cache/phase8-browser",
+  "limits": "Deterministic browser API interception; not local generation, persistence or factual-support evidence."
+}

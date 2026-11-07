@@ -101,3 +101,12 @@ class EssayDatabase(unittest.TestCase):
         self.assertEqual(events[-1]['type'],'insufficient_evidence');self.assertEqual(events[0]['workflow'],'ship30')
         actual=self.client.get(f"/api/sessions/{self.sid}/essays/{events[0]['run_id']}").json()
         self.assertEqual(actual['error_code'],'essay_evidence_too_thin');self.assertFalse(actual['sections'])
+
+    def test_saved_essay_list_is_scoped_and_includes_recoverable_status(self):
+        self.assertEqual(self.client.get(f'/api/sessions/{self.sid}/essays').json(),[])
+        run,_=prepare_essay(engine,settings,self.sid,self.body())
+        save_progress(engine,run['id'],status='failed',error_code='mock_timeout')
+        rows=self.client.get(f'/api/sessions/{self.sid}/essays').json()
+        self.assertEqual(len(rows),1);self.assertEqual(rows[0]['status'],'failed')
+        self.assertEqual(rows[0]['id'],str(run['id']))
+        self.assertEqual(self.client.get(f'/api/sessions/{uuid4()}/essays').status_code,404)

@@ -90,3 +90,17 @@ Current migration is 0002_ingestion. Preserve immutable episode versions, exact 
 ## Current user authorization: Git publication
 
 The user explicitly authorized Git initialization if needed and publication to https://github.com/vivekvattem/lenny on main without force. Make seven meaningful current-time commits in requested phase order; where original shared-file versions are unavailable, group their current state honestly. This supersedes earlier no-publication notes for this repository push only. Exclude real.env, confidential PDF, downloaded corpus/weights, dependencies and private backups; keep.env.example and sanitized evidence. Preserve private originals of redacted evidence. Phase6 remains WIP/blocked by local Ollama grammar failure, not a passed essay. No Phase7, demo upload or form submission is authorized.
+
+## Current authorization: Prompt08
+
+User authorized interface polish, essay/review UI, responsive/keyboard/focus checks and deterministic browser regressions with a separate real local main journey. Preserve Phase7 fixture/live/manual-edit distinctions. Stop before Prompt09. Publication is governed by the current Phase8-only authorization below.
+
+
+## Phase8 current gate
+
+Prompt08 reviewed local/UI gate passed; read docs/phase-08-report.md. Final1208 words required6 advice+3 source edits; raw failure/evidence gap preserved.99 contracts,2 Node tests, build and16 deterministic browser cases pass separately from actual Pi/Ollama journey. Do not rerun successful model requests without a new reason. Screenshot files stay private/ignored; only hashes publishable. Single Chrome fallback verified, in-app connector still blocked. Stop before09; publication scope is defined below.
+
+
+## Current publication authorization: Phase8 only
+
+The user explicitly authorized the Phase8-only commit and non-force push to origin/main, and selected leaving earlier Phase6/7 runtime prerequisites local. Document the remote snapshot as incomplete. Include only workspace UI, focused tests and sanitized Phase8 evidence; exclude credentials, raw transcript/API payloads and private logs. The1208-word essay is manually reviewed after9 edits; autonomous quality remains unverified. Stop before09.

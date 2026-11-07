@@ -88,6 +88,7 @@ class OllamaCheck(BaseModel):
     reachable_from_api: bool
     version: str | None = None
     generation_model_available: bool | None = None
+    essay_model_available: bool | None = None
     embedding_model_available: bool | None = None
     embedding_dimensions_compatible: bool | None = None
     index_identity_compatible: bool | None = None
@@ -120,6 +121,7 @@ class ProviderOption(BaseModel):
 
 
 class ProvidersOut(BaseModel):
+    essay_model: str
     selected: Literal["ollama"]
     model: str
     automatic_fallback: Literal[False]

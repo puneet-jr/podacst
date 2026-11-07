@@ -1,0 +1,30 @@
+{
+  "images": [
+    {
+      "private_path": ".cache/phase8-browser/fixture-desktop.png",
+      "sha256": "87c84661ed56436e539f44f9ed28fef65cd75a1ff2c1e14c9ba72e786c826f6e",
+      "bytes": 238826
+    },
+    {
+      "private_path": ".cache/phase8-browser/fixture-mobile.png",
+      "sha256": "7c0b990365cd403bcb2137480069bc60376c2bd3b3cb46b51dff3f56d856bceb",
+      "bytes": 63507
+    },
+    {
+      "private_path": ".cache/phase8-browser/live-accepted-desktop.png",
+      "sha256": "a2d37c7487d196f93eead36db16bf8c65bcd7b8bc95eb65291234455ee64605d",
+      "bytes": 279614
+    },
+    {
+      "private_path": ".cache/phase8-browser/live-accepted-mobile.png",
+      "sha256": "bb6c982ba12897c78111d2368c0d7b6c720fa3d206d0ed7adc543ff57c768a88",
+      "bytes": 67337
+    },
+    {
+      "private_path": ".cache/phase8-browser/live-draft-review.png",
+      "sha256": "ee23916fcaadf6b1ccf639b1c53a3e97bf7800031e3963eb62ad18108ffb31bd",
+      "bytes": 195457
+    }
+  ],
+  "limits": "Private internal QA images stay ignored. Desktop/mobile screenshots were visually inspected; hashes identify these files without publishing session screenshots."
+}

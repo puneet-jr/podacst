@@ -1,0 +1,20 @@
+{
+  "mode": "hybrid",
+  "ids": [
+    "026e12ac-93cd-50bc-bd96-4d5685b10111",
+    "bdd3d954-095e-5f5a-8be1-5f38377168ff",
+    "ac3b448b-888b-5a93-b57a-87115b25c5c1",
+    "e7ebf483-ca51-5ba3-a02a-162986317feb",
+    "f5f40dd8-e8fb-5e74-9834-e45e31331549",
+    "38b28fa6-86ff-59ba-8019-ff4db2c27656",
+    "40c4e9ae-ce0c-5575-817c-b00c6c5d8334",
+    "35e2d6ec-cd88-52e6-aa6d-5b1fb1b706de"
+  ],
+  "estimated_tokens": 4711,
+  "timings": {
+    "embedding": 218.86025000276277,
+    "database": 40.831375001289416,
+    "total": 259.69958300265716
+  },
+  "model_generation": false
+}

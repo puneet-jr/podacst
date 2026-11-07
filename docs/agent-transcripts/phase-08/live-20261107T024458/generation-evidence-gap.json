@@ -1,0 +1,22 @@
+{
+  "session_id": "6f882513-96b5-4fcc-88c2-1e1dc82d9585",
+  "run_id": "6d006bbb-fa3f-4431-8583-d53ead570604",
+  "essay_seconds": 2.0793184996582568,
+  "status": "insufficient_evidence",
+  "validation": null,
+  "calls": [
+    {
+      "method": "POST",
+      "path": "/api/sessions/6f882513-96b5-4fcc-88c2-1e1dc82d9585/answers",
+      "at": "2026-11-07T02:47:29.851253+00:00"
+    },
+    {
+      "method": "POST",
+      "path": "/api/sessions/6f882513-96b5-4fcc-88c2-1e1dc82d9585/essays",
+      "at": "2026-11-07T02:47:38.361101+00:00"
+    }
+  ],
+  "page_errors": [],
+  "manual_review": "pending; this script does not accept the essay",
+  "fixture": false
+}

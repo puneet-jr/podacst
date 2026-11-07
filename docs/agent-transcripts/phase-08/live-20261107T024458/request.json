@@ -1,0 +1,10 @@
+{
+  "session_id": "6f882513-96b5-4fcc-88c2-1e1dc82d9585",
+  "title": "Phase08 real local UI journey 024458",
+  "questions": [
+    "According to Sean Ellis, what question identifies people who consider a product a must-have?",
+    "And what changes did Lookout make to onboarding after discovering antivirus mattered?"
+  ],
+  "fixture": false,
+  "generation_surface": "actual UI form; no route mocking"
+}

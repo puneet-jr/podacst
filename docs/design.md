@@ -1,21 +1,25 @@
-# UI design notes: Phase 5 conversation
+# Workspace design: Phase 8
 
-Implemented: a restrained three-part workspace with saved sessions on the left, the selected session/messages and composer in the center, and dependency/provider/corpus status on the right. Warm neutral backgrounds, dark green accents and system fonts keep attention on research. No external images/fonts are needed.
+Open directly into the research workspace. Warm neutral surfaces, charcoal text, restrained sage accents and a serif reading hierarchy keep long answers and documents readable. System fonts and local CSS need no external asset requests. Quiet status text replaces animation; reduced-motion preferences are respected.
 
-The current action is **Ask**, using real local hybrid retrieval and exact source excerpts. Writing/artifacts remain deferred. The original Phase2 foundation saved notes only; that behavior has been extended. Saved state follows a successful server transaction; failed saves retain the prompt and client message UUID for retry. Session loading/saving disables conflicting controls. The selected model and disabled automatic cloud fallback are visible. An empty corpus is displayed rather than hidden behind a ready badge.
+## Information architecture
 
-Controls have explicit labels, button names, native keyboard behavior, visible focus styles and an alert region for errors. Messages render as escaped text; there is no HTML artifact renderer yet. CSS collapses the status panel below 1100 px and stacks the workspace below 650 px. These rules exist, but responsive appearance and keyboard/accessibility behavior have **not been browser-verified**.
+Sessions sit on the left; research, saved drafts and the composer occupy the middle; documents and source inspection share the contextual right area. The header shows the actual provider, separate chat/essay models and partial corpus count. The interview picker lists actual indexed interviews. Examples help start a focused question; evidence-led essay is a distinct composer action with an audience field.
 
-The Browser runtime failed before connection with an unavailable node:process import; no screenshot, visual inspection or manual UI pass is claimed. HTTP serving/proxy and TypeScript/build checks passed. See [test-plan.md](test-plan.md) and [phase-02 report](phase-02-report.md). Source inspection and streamed progress/validated answers are now implemented; their actual browser interaction remains unverified. Essays/artifact previews remain deferred.
+Source inspection shows the immutable original passage, citation label, guest and observed timestamp/link where present. A valid ID means traceability, not factual support. Documents are labelled as fixture or live, with manual review/edit provenance. They render inside the existing scriptless sandbox. No raw message HTML or executable document controls were added.
 
+## Interaction states
 
-## Phase 3 status increment
+Questions save before generation. Searching/drafting progress uses status announcements, with a cancel control. Timeout, missing-model and other errors retain input; retries reuse the saved question identity. Saved-question recovery restores original scope. Each session keeps its unsent composer state in memory; a fresh session clears the old interview scope. That temporary unsent text is not promised durable across page reloads.
 
-The status panel now shows actual active episodes/passages, discovered source count, run loaded/skipped/failed/pending counts and partial status, polling the typed status endpoint every five seconds. Ingestion output does not enable answers or imply product readiness. Actual endpoint/proxy responses and TypeScript/build passed; visual/keyboard verification remains blocked by the existing browser runtime failure.
+Saved essay drafts reopen with recoverable failure status. Review exposes exact source selection and advice separately. The server accepts only immutable original source spans; Unicode offsets are converted correctly. Unsaved edits disable conflicting navigation/new requests until saved or explicitly discarded. Five explicit quality confirmations and a review note gate acceptance. Counts and citation validity do not replace that review. Saving Markdown/HTML announces success only after the server responds; failed saves remain retryable.
 
+## Responsive and keyboard behavior
 
-## Phase 5 states and trust
+Desktop uses independently scrolling reading panels. Below 1000px, labelled Sessions, Research, Documents and Sources tabs display one panel at a time. Tabs support arrow keys and Home/End with a roving tab stop; hidden panels cannot receive keyboard focus. Opening a source moves focus to its heading; closing it restores the invoking citation and originating panel. Late source responses cannot cross sessions. Errors remain visible outside a hidden research pane.
 
-The composer saves before inference and shows starting/retrieving/selecting progress, cancel, retained failed question and bounded retry. Completed replies display exact quoted evidence with server-issued source buttons; source IDs inside user/model text alone are never made links. The inspector shows original passage, selected quotes, guest/title, hash/version/path, observed markers, missing-time honesty, sponsorship/metadata warnings and approved HTTPS transcript/video links. It renders escaped text, not source HTML. Session switching invalidates pending source lookups so stale responses cannot populate a new session. API ownership remains authoritative.
+Native labels, a skip link, visible focus borders, readable line length and restrained live regions support keyboard navigation. Long document content scrolls inside its isolated preview; mobile documents have full reading width. Representative rendered contrast samples measured 12.4:1 body text, 8.72:1 primary button and 4.94:1 section label. These are samples, not a full accessibility certification.
 
-The UI exposes partial9/303 coverage, local model/fallback status and extractive output limits. Available dependency badges do not mean verified answer quality. Responsive CSS/labels/live regions exist and builds pass, but no browser navigation, screenshot, accessibility or manual interaction pass occurred. The source inspector is API-verified and visually unverified. Follow the Phase5 browser plan when runtime access returns.
+## Verified boundaries
+
+Actual isolated Chrome157 checks cover 1512px desktop, 390px mobile, 820px and1024px containment. Sixteen deterministic cases test navigation, review, save/reopen and failures without model calls or database writes. Separate real UI evidence covers local chat, follow-up, reviewed essay, both documents and reload/reopen. Final screenshots were visually inspected privately. No assistive-technology study, independent user study or other browser engine was tested. The in-app connector remains blocked; host Chrome automation is the actual browser used. See [Phase8 report](phase-08-report.md).

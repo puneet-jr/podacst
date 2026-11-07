@@ -179,7 +179,7 @@ def ready(request: Request):
                 compatible = dimension == settings.embedding_dimensions
         identity_compatible = not index_profile or bool(embedding and index_profile['embedding_model'] == settings.embedding_model and index_profile['embedding_digest'] == embedding['digest'])
         checks["ollama"] = {"ready": bool(generation and embedding and compatible and identity_compatible), "reachable_from_api": True, "version": version,
-                            "generation_model_available": bool(generation), "embedding_model_available": bool(embedding), "embedding_dimensions_compatible": compatible,
+                            "generation_model_available": bool(generation), "essay_model_available": settings.essay_model in models, "embedding_model_available": bool(embedding), "embedding_dimensions_compatible": compatible,
                             "index_identity_compatible": identity_compatible,
                             "note": "Transport and installed-model availability; does not prove answer or essay quality."}
     except (httpx.HTTPError, ValueError, KeyError, TypeError):
@@ -192,7 +192,7 @@ def ready(request: Request):
 
 @app.get("/api/providers", response_model=ProvidersOut, response_model_exclude_none=True)
 def providers():
-    return {"selected": "ollama", "model": settings.generation_model, "automatic_fallback": False,
+    return {"selected": "ollama", "model": settings.generation_model, "essay_model": settings.essay_model, "automatic_fallback": False,
             "providers": [{"id": "ollama", "implemented": True, "configured": True, "scope": "retrieval-first extractive conversation; hybrid; no autonomous/essay quality claim"},
                           {"id": "anthropic", "implemented": False, "credentials_present": bool(settings.anthropic_api_key.get_secret_value()), "enabled": False, "reason": "Cloud adapter is pending Phase 9; no implicit cloud inference."}]}
 
@@ -340,3 +340,15 @@ async def cancel_essay(session_id:UUID,run_id:UUID):
     task=essays.tasks.get(run_id)
     if run['status']=='running' and task:task.cancel();return {'status':'cancellation_requested','run_id':run_id}
     return {'status':run['status'],'run_id':run_id}
+
+@app.get('/api/sessions/{session_id}/essays')
+def saved_essays(session_id:UUID):
+    with engine.connect() as c:
+        if not c.scalar(text('SELECT id FROM sessions WHERE id=:sid AND user_id=:user'),{'sid':session_id,'user':settings.local_user_id}):raise AppError('session_not_found','Session not found.',404)
+        return [dict(r) for r in c.execute(text("SELECT id,status,error_code,request->>'topic' AS topic FROM essay_runs WHERE session_id=:sid ORDER BY created_at DESC,id DESC"),{'sid':session_id}).mappings()]
+
+
+@app.get('/api/retrieval/scopes')
+def indexed_interviews():
+    with engine.connect() as c:
+        return [dict(r) for r in c.execute(text('SELECT e.source_path,e.guest,e.title FROM episodes e WHERE e.deleted_at IS NULL AND EXISTS(SELECT 1 FROM chunks c WHERE c.episode_id=e.id AND c.active) ORDER BY e.guest,e.source_path')).mappings()]

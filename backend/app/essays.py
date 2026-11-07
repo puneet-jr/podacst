@@ -58,13 +58,13 @@ def save_progress(engine,rid,**fields):
 
 def collect_evidence(engine,settings,run):
     req=run['request'];queries=req['focus_questions'] or [req['topic']]
-    results=[search(engine,settings,SearchRequest(query=q,mode='hybrid',source_path=req['source_path'],limit=4,token_budget=2400,max_neighbors=1,include_sponsors=False,deadline_seconds=15)) for q in queries]
+    results=[search(engine,settings,SearchRequest(query=q,mode='hybrid',source_path=req['source_path'],limit=8,per_episode=8,token_budget=5600,max_neighbors=1,include_sponsors=False,deadline_seconds=15)) for q in queries]
     passages=[];seen=set()
-    for rank in range(4):
+    for rank in range(8):
         for result in results:
             if rank>=len(result.passages):continue
             p=result.passages[rank]
-            if str(p.id) in seen or len(passages)>=6:continue
+            if str(p.id) in seen or len(passages)>=8:continue
             seen.add(str(p.id));passages.append(p)
     items,sources=sentence_items(SimpleNamespace(passages=passages),req['topic'])
     selected=[];size=0

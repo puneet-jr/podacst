@@ -1,3 +1,5 @@
+> Phase8 publication: workspace polish and sanitized checks are committed separately. The remote snapshot is intentionally incomplete: earlier Phase6/7 essay/artifact runtime prerequisites remain local at the user’s request. The live1208-word essay was a manually reviewed result after9 edits; autonomous essay quality remains unverified. See [Phase8 report](docs/phase-08-report.md). Stop before Prompt09.
+
 # The Lenny Growth Assistant
 
 A local research workspace with PostgreSQL sessions, hybrid retrieval, Pi-controlled tools and local Ollama. **Phase6 is work in progress: the local essay gate is blocked by an Ollama structured-output grammar error.** Phase5 demonstrates cited extractive conversation/recovery through the API; browser acceptance remains blocked. Answers quote a model-selected source excerpt; autonomous routing, general answer quality and essays remain unverified.

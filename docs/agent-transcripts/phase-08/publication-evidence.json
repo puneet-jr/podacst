@@ -1,0 +1,88 @@
+{
+  "scope": "Sanitized actual local results, not standalone remote runtime verification. Phase6/7 runtime prerequisites intentionally not committed.",
+  "essay": {
+    "run_id": "b4309701-8122-4b16-b38b-ec7ee8a3fe21",
+    "session_id": "6f882513-96b5-4fcc-88c2-1e1dc82d9585",
+    "status": "completed",
+    "words": 1208,
+    "acceptance_range": [
+      1125,
+      1375
+    ],
+    "section_count": 6,
+    "source_blocks": 10,
+    "citation_ids": [
+      "S2",
+      "S3",
+      "S4",
+      "S5",
+      "S6",
+      "S7"
+    ],
+    "model": "qwen3:1.7b",
+    "provider": "local Ollama via Pi",
+    "elapsed_generation_seconds": 41.09608337515965,
+    "manual_advice_edits": 6,
+    "manual_source_edits": 3,
+    "quality": "manually reviewed result; autonomous essay quality unverified",
+    "raw_draft_words": 1224,
+    "raw_failure": "unattributed_paragraph in section5; weak advice/clipped quotations required manual review",
+    "prior_attempt": "insufficient evidence; zero Pi drafting calls"
+  },
+  "chat": [
+    {
+      "name": "supported",
+      "model": "qwen3:0.6b",
+      "run_id": "96bcfc00-cf75-467e-9ad1-1ec7ad8bbecf",
+      "status": "completed",
+      "actual_request_seconds": 8.031291920000513,
+      "context_message_ids": [],
+      "sources": [
+        {
+          "label": "S1",
+          "chunk_id": "c0aa1ec1-9da2-5bc9-a1ed-550df1f12411",
+          "stored_span_matches": true,
+          "original_text_sha256": "498e939ea74c0d2a17a9c5873cc10c29772edfca5374caae15d19e379a3af384"
+        }
+      ],
+      "retrieval_mode": "hybrid"
+    },
+    {
+      "name": "follow_up",
+      "model": "qwen3:0.6b",
+      "run_id": "0761f213-69c6-4049-8b70-dc287529ee65",
+      "status": "completed",
+      "actual_request_seconds": 6.7983835450068,
+      "context_message_ids": [
+        "0b0b3c9b-e85f-4756-81e2-051e93e12793"
+      ],
+      "sources": [
+        {
+          "label": "S1",
+          "chunk_id": "53054eb0-beee-5be4-b2f1-99ca9b2eac2d",
+          "stored_span_matches": true,
+          "original_text_sha256": "bbca0600f25b06c3861b687b42517e587ba3bab30ec044c7ca10b300faeec38f"
+        }
+      ],
+      "retrieval_mode": "hybrid"
+    }
+  ],
+  "artifacts": [
+    {
+      "id": "0e785957-d644-4a93-8a0a-54c3a5c43c52",
+      "type": "html",
+      "content_sha256": "91ea1f66278d0d25638eb51074c1960340a57ceaf9229028d6f57397ceb9c022"
+    },
+    {
+      "id": "75299b3d-3732-4b92-89fa-668921e9d013",
+      "type": "markdown",
+      "content_sha256": "622acbd2368356f8cd4ea5103383fc428539aa4b8093f78194bc780598b7693f"
+    }
+  ],
+  "output_hashes": {
+    "essay.md": "622acbd2368356f8cd4ea5103383fc428539aa4b8093f78194bc780598b7693f",
+    "essay-raw.md": "b5952338304df9afe6241e6094d5b68112b98f00cc9e7978fbe7301e935a4de3"
+  },
+  "reload_reopen": true,
+  "limits": "Full API snapshots, raw drafts, quoted output bodies, private command diagnostics and screenshots remain local. Hashes identify original outputs, not a reconstruction."
+}
