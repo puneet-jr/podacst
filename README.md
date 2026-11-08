@@ -50,19 +50,19 @@ Required installed tags: `qwen3:0.6b` chat,`qwen3:1.7b` essay,and `nomic-embed-t
 If reusing an existing pinned corpus cache,perform the read-only cache-link steps in the Corpus section **before bootstrap**;Compose otherwise creates an empty cache directory. For an isolated evaluator run,choose unused ports and a unique Compose project. The following example preserves the normal8080/8000/55432 stack and all its volumes:
 
 ```sh
-export COMPOSE_PROJECT_NAME=lenny_release_20261109r2
-export WEB_HOST_PORT=18085
-export API_HOST_PORT=18005
-export DB_HOST_PORT=55437
-export POSTGRES_DB=lenny_release_20261109r2
+export COMPOSE_PROJECT_NAME=lenny_release_20261109r3
+export WEB_HOST_PORT=18086
+export API_HOST_PORT=18006
+export DB_HOST_PORT=55438
+export POSTGRES_DB=lenny_release_20261109r3
 export DEFAULT_PROVIDER=ollama
 export OPENROUTER_API_KEY=
 export ANTHROPIC_API_KEY=
 python3 scripts/bootstrap.py
-curl --retry 20 --retry-connrefused --retry-delay 1 -fsS http://127.0.0.1:18005/api/health/ready
+python3 scripts/wait_ready.py --url http://127.0.0.1:18006/api/health/ready --deadline-seconds 90 --attempt-timeout 3
 ```
 
-Bootstrap creates an ignored mode0600 `.env` with a generated database password if absent;existing files/volumes are preserved. The API container entrypoint is the sole migration owner in this Compose flow: it runs `python -m backend.migrate` successfully before starting Uvicorn. Bootstrap and Compose do not launch a second migration job. Wait for the readiness command above before using the app;the endpoint is unavailable until migration completes and also verifies the current schema revision. Do not run a separate migration command concurrently with startup. Never use `down -v`,database resets or normal-service outages. With fresh volumes,foundation readiness may return200 while `checks.corpus.ready=false` and `product_ready=false`:ingest evidence before asking questions. Readiness proves transport/model availability,not answer quality. Open **http://localhost:18085/** and **/workspace**;API docs **http://localhost:18005/docs**. Without overrides the normal defaults are8080,8000,55432. Bootstrap’s printed default8080 URL does not reflect overrides;use the selected port.
+Bootstrap creates an ignored mode0600 `.env` with a generated database password if absent;existing files/volumes are preserved. The API container entrypoint is the sole migration owner in this Compose flow: it runs `python -m backend.migrate` successfully before starting Uvicorn. Bootstrap and Compose do not launch a second migration job. The readiness poll retries connection refused,empty reply (curl52),timeouts and not-ready responses with a90-second total deadline and at most3 seconds per attempt. It succeeds only on HTTP200 with JSON status ready. On deadline it exits nonzero,prints the last safe probe summary and an API-log inspection command. Wait for the readiness command above before using the app;the endpoint is unavailable until migration completes and also verifies the current schema revision. Do not run a separate migration command concurrently with startup. Never use `down -v`,database resets or normal-service outages. With fresh volumes,foundation readiness may return200 while `checks.corpus.ready=false` and `product_ready=false`:ingest evidence before asking questions. Readiness proves transport/model availability,not answer quality. Open **http://localhost:18086/** and **/workspace**;API docs **http://localhost:18006/docs**. Without overrides the normal defaults are8080,8000,55432. Bootstrap’s printed default8080 URL does not reflect overrides;use the selected port.
 
 | Setting in ignored `.env` or environment | Safe default / effect |
 | --- | --- |
@@ -128,9 +128,10 @@ One writer;committed unchanged episodes skip,failures retain progress. Actual Ph
 For a reproducible API equivalent with actual source checks and one raw essay,run:
 
 ```sh
-python3 scripts/readme_smoke.py --base-url http://127.0.0.1:18005 --output .cache/readme-smoke
+python3 scripts/readme_smoke.py --base-url http://127.0.0.1:18006 --output .cache/readme-smoke
 python3 scripts/docker.py compose restart api web
-python3 scripts/readme_smoke.py --base-url http://127.0.0.1:18005 --output .cache/readme-smoke --reopen
+python3 scripts/wait_ready.py --url http://127.0.0.1:18006/api/health/ready --deadline-seconds 90 --attempt-timeout 3
+python3 scripts/readme_smoke.py --base-url http://127.0.0.1:18006 --output .cache/readme-smoke --reopen
 ```
 
 The helper saves raw output,requires explicit source-span resolution,reports semantic review as pending,and never autoapproves an essay. It creates isolated labelled sessions.
@@ -142,7 +143,7 @@ This optional demo fixture is separate from live essay generation. It is the his
 On the explicitly isolated `lenny_release_*` database,import it once:
 
 ```sh
-python3 scripts/docker.py compose exec -T api python -m backend.import_reviewed_fixture --expected-database lenny_release_20261109r2
+python3 scripts/docker.py compose exec -T api python -m backend.import_reviewed_fixture --expected-database lenny_release_20261109r3
 ```
 
 The command validates all six indexed sources and quote hashes,creates a newly labelled fixture session and two unchanged exports,and refuses an existing fixture. It makes no model call and never updates an existing session. Open **“Reviewed essay fixture · 1,208 words · 9 manual edits · not fresh generation”**,expand the saved essay,and choose **Documents**. Open both **markdown** and **html** previews. Each must show **Reviewed essay fixture · rendering check only**. The sidebar label and artifact metadata disclose all nine edits. Source buttons open the original indexed passages.
@@ -151,6 +152,7 @@ With no operation running,restart only this isolated app and reopen the same ses
 
 ```sh
 python3 scripts/docker.py compose restart api web
+python3 scripts/wait_ready.py --url http://127.0.0.1:18006/api/health/ready --deadline-seconds 90 --attempt-timeout 3
 ```
 
 The messages,citations,review label and both exports must remain unchanged. This verifies persistence/rendering of a reviewed fixture,not autonomous writing quality. Raw model output,live generation and reviewed fixtures must remain distinct.
@@ -158,6 +160,7 @@ The messages,citations,review label and both exports must remain unchanged. This
 ## Tests and evaluation
 
 ```sh
+python3 -m unittest scripts.test_wait_ready -v
 python3 scripts/docker.py compose run --rm --no-deps -e DEFAULT_PROVIDER=ollama -e OPENROUTER_API_KEY= -e ANTHROPIC_API_KEY= api python -m backend.contract_check
 npm ci --prefix frontend --ignore-scripts --no-audit --no-fund
 npm --prefix frontend run typecheck
