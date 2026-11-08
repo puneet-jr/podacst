@@ -18,3 +18,9 @@ The final release action is conditional:rehearse this exact commit from a fresh 
 - This is a local single-evaluator tool,not production authentication or a public hosted service. Publishing source does not deploy the app,submit the assignment,record/upload a demo,or resolve all deliverables.
 
 The sanitized source tree excludes real.env/credentials,private protocol/SQL/model/source traces,raw transcript exports,downloaded corpus/models,local databases,dependencies/build outputs,the confidential assignment PDF,and private Git snapshot history. Reviewed final documents are deliberate labelled fixtures,not raw transcript payloads. The original minimal1270-word Phase7 rendering fixture remains separately labelled;the new1208-word fixture is the exact previously reviewed Phase8 result and exports.
+
+## Fresh startup migration ownership correction
+
+The first publication rehearsal at29814edd failed when README immediately launched a second migration while the API entrypoint was creating the fresh Alembic schema. PostgreSQL reported a duplicate pg_type entry for alembic_version. That failed attempt and all its volumes are retained.
+
+The documented Compose flow now has one migration owner:the API entrypoint upgrades the schema before exec of Uvicorn. scripts/bootstrap.py only validates configuration and starts Compose; scripts/docker.py only dispatches Docker; Compose contains no independent migration job. The README removes the duplicate exec step and requires waiting on /api/health/ready,which additionally checks CURRENT_REVISION. The fresh rehearsal uses a new project lenny_release_20261109r2 and unused ports/volumes. No retrieval,prompt,timeout,model or UI behavior changes. Results remain external and publication remains conditional on the full exact-tree rehearsal.

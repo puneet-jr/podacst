@@ -3288,14 +3288,14 @@
     ],
     "purpose": "Complete Chat publication with exact verified cap patch and labelled reviewed essay setup fixture; excludes Voice and shortlist code",
     "file_sha256": {
-      "README.md": "13e84cbeb6ac5c49d43592f7642724fd46ff2a4d9d41a19eb878d02e09324e4c",
+      "README.md": "42d568176e8cdfccace1a442168f5c68b5da721fb5532879cb133abee2043321",
       "agent/provider_policy.ts": "f7266ba1f4ec2f3c74a624a668f3b1a3957e4127ebf7ee708f353ce601e797c6",
       "agent/test_provider_policy.ts": "96223bf1427ede2c075a575ed2dc330b4bf89c4f05b9a5532915e82553bf0108",
       "scripts/probe_gptoss_output_cap.mjs": "7fbabacf2504a5b28de017cff747b4ae6ed3f3faa39e7d7fc7b4258a067b5781",
       "docs/openrouter-120b-output-cap-test.md": "58d1b272fbd8a773172f44ab3eee19b9e8c2b8fb3b72c5507ad6a90edaa1ccf9",
       "backend/import_reviewed_fixture.py": "6fb8b3c5aafb68f1c2a8972091c6f80b746739bc571965be9645ef4f25bdbc27",
       "backend/fixtures/reviewed-essay-1208.json": "7de4c5535ecb18f5bcac0fb79bd21944ebd90cbd747e921e8fa721053e745dd0",
-      "docs/chat-publication.md": "3e1f2db26c40287f5c642002f44ec861f2e7d51c7e26539a8f3118dfd5410b5f"
+      "docs/chat-publication.md": "83ba440838070bd7f46de30beeaba64eb86513b93b9f396921ae64f316e04ae3"
     }
   }
 }
