@@ -1,13 +1,31 @@
 {
-  "reviewed_at": "2026-11-06T06:27:04.093950+00:00",
-  "method": "Direct reading by Codex; not an independent domain-expert/participant study or automated LLM-judge score",
+  "reviewed_at": {
+    "omitted_string_sha256": "eb9bc9cf942ceccb32e035afab3660e72fd6e8255b3a2c938aab8feae291a623",
+    "characters": 32
+  },
+  "method": {
+    "omitted_string_sha256": "5a883d1b5821bf88033407efbf9cd4c8a32d2deb14593298df683907f43780ca",
+    "characters": 104
+  },
   "reviews": [
     {
-      "case_id": "U01",
+      "case_id": {
+        "omitted_string_sha256": "206c951c9d8c8ff1cba529bb3a4652fad02f6acac9500d54cb15c1331fcf0b3d",
+        "characters": 3
+      },
       "mode": "sparse",
-      "review_scope": "Top three original-source excerpts, not complete packet/all-mode semantic certification",
-      "support": "absent",
-      "note": "Inspected top three excerpts: marketing-role churn and sponsor mentions of private repositories do not disclose this private startup\u2019s 2026 churn/dashboard facts.",
+      "review_scope": {
+        "omitted_string_sha256": "4a99e49fedc116ddc81a51f91e010da6dbad01c50113f5f8982c5b398611e94c",
+        "characters": 87
+      },
+      "support": {
+        "omitted_string_sha256": "5ad38304b535c2987dbd24657c1a11b884984ff600d9f389deb0d4e634fee792",
+        "characters": 6
+      },
+      "note": {
+        "omitted_string_sha256": "c7834064504c436e94a6d00bcd3eea95081d260ee4d58b4802b8c5753a1e81c0",
+        "characters": 162
+      },
       "reviewed_passages": [
         {
           "id": "e0a78e63-c2b6-5785-9218-63e40cd73d36",
@@ -15,7 +33,10 @@
           "source_hash": "2989e256c95030ad6b7634b16317e65564da1a2fd0154bc911f00129a8f18213",
           "char_start": 53694,
           "char_end": 56000,
-          "text_sha256": "d66144b32167b2b9fc4eee36a8af45c6ea1ccaf6f8ef598d1a17122ab730d6e8",
+          "text_sha256": {
+            "omitted_string_sha256": "36faed9bab10817b35b7cb287d7c4659d744652cb1ada035a605f3020576d447",
+            "characters": 64
+          },
           "sponsor": false
         },
         {
@@ -24,7 +45,10 @@
           "source_hash": "56e7d7e7b85d35974b033b6a20432e00a5aef198db40bee72268ef9238d75c74",
           "char_start": 2774,
           "char_end": 5081,
-          "text_sha256": "c52ee055096042bd20d8354918ada78d0e911f5c26953a85395ea252983440ed",
+          "text_sha256": {
+            "omitted_string_sha256": "8d38992ef0682e02836330577b8a5fa20f90ee0c25fe614d27855081cb6b5d7c",
+            "characters": 64
+          },
           "sponsor": true
         },
         {
@@ -33,17 +57,32 @@
           "source_hash": "2989e256c95030ad6b7634b16317e65564da1a2fd0154bc911f00129a8f18213",
           "char_start": 2721,
           "char_end": 4945,
-          "text_sha256": "dce55c0cdceb5e114a4a7870fb7f8a2780d37e133e9331d5c57e22940d6a7026",
+          "text_sha256": {
+            "omitted_string_sha256": "0f8a24fdbafb5464beb81dd5da90ccc196c85d0efac6457b1468b12c374dd0b6",
+            "characters": 64
+          },
           "sponsor": true
         }
       ]
     },
     {
-      "case_id": "U02",
+      "case_id": {
+        "omitted_string_sha256": "bb3383ce40b278c3b9dfb7bba8af72d371b100973d7e17005048b3c0c66ce885",
+        "characters": 3
+      },
       "mode": "sparse",
-      "review_scope": "Top three original-source excerpts, not complete packet/all-mode semantic certification",
-      "support": "absent",
-      "note": "Inspected top three excerpts: historical activation/API sponsorship and Brian\u2019s explicitly qualified historical platform predictions do not establish December 2026 release details.",
+      "review_scope": {
+        "omitted_string_sha256": "4a99e49fedc116ddc81a51f91e010da6dbad01c50113f5f8982c5b398611e94c",
+        "characters": 87
+      },
+      "support": {
+        "omitted_string_sha256": "5ad38304b535c2987dbd24657c1a11b884984ff600d9f389deb0d4e634fee792",
+        "characters": 6
+      },
+      "note": {
+        "omitted_string_sha256": "a7529dcf253cc441c20223bee4624b8303c4b703ceff0c9ddf26f15f8e523311",
+        "characters": 180
+      },
       "reviewed_passages": [
         {
           "id": "08852119-7e82-515c-910a-e2adcb4fad9d",
@@ -51,7 +90,10 @@
           "source_hash": "6af2a6e031826805e855ec262b1f228e3773b5b99265a1d01870f0d4e6e9ceda",
           "char_start": 57550,
           "char_end": 59856,
-          "text_sha256": "0e8e7516de2a38673fca096e60afcd293e3b1ee1cdd5a36afc549a496fd7d212",
+          "text_sha256": {
+            "omitted_string_sha256": "48eed2895395c3cfd15093c8e9e6e408bd820133fe7677fb4b650ed782f47969",
+            "characters": 64
+          },
           "sponsor": true
         },
         {
@@ -60,7 +102,10 @@
           "source_hash": "d974750bfb180d40e69a6d347c87d93ea007e6c26018bccbe9a1de9d0d4353ba",
           "char_start": 45679,
           "char_end": 48181,
-          "text_sha256": "b6718ecd999124bbaadaa0f9c20baf207eeaacd73ca2ecfab885127138f30ba2",
+          "text_sha256": {
+            "omitted_string_sha256": "2c2108baa2ffbaadf41d7fdf27261eae4ee5ae3d92610c02d15c7592fb308c79",
+            "characters": 64
+          },
           "sponsor": false
         },
         {
@@ -69,17 +114,32 @@
           "source_hash": "f28d7cddf6a26dcbd62c95141230a61786f6aac179fa158a61772f85d72df260",
           "char_start": 2823,
           "char_end": 5112,
-          "text_sha256": "05865b5527b304cbcb85c3eb92706aaff860ca1271a4ce0ba16f4c42e66f43e7",
+          "text_sha256": {
+            "omitted_string_sha256": "76d80da994a67bee7b3ad0dfc69036e50dc995d1ec1750e8fb330e0f554fc27d",
+            "characters": 64
+          },
           "sponsor": true
         }
       ]
     },
     {
-      "case_id": "U03",
+      "case_id": {
+        "omitted_string_sha256": "edf7971360c9962cab417ad3a9ff6cb3201676c1e89813a013bfc99ac9e7c4d0",
+        "characters": 3
+      },
       "mode": "sparse",
-      "review_scope": "Top three original-source excerpts, not complete packet/all-mode semantic certification",
-      "support": "absent",
-      "note": "Inspected top three excerpts: actual growth frameworks/data/positioning content does not establish the fabricated Zyphor-17 name, inventor or certified formula.",
+      "review_scope": {
+        "omitted_string_sha256": "4a99e49fedc116ddc81a51f91e010da6dbad01c50113f5f8982c5b398611e94c",
+        "characters": 87
+      },
+      "support": {
+        "omitted_string_sha256": "5ad38304b535c2987dbd24657c1a11b884984ff600d9f389deb0d4e634fee792",
+        "characters": 6
+      },
+      "note": {
+        "omitted_string_sha256": "77177b9ae4e27be627e57a6118506a7c50bff462047cdc8ac052abb4be76a872",
+        "characters": 160
+      },
       "reviewed_passages": [
         {
           "id": "bdd3d954-095e-5f5a-8be1-5f38377168ff",
@@ -87,7 +147,10 @@
           "source_hash": "6af2a6e031826805e855ec262b1f228e3773b5b99265a1d01870f0d4e6e9ceda",
           "char_start": 863,
           "char_end": 3105,
-          "text_sha256": "cf96cdd7b9d586f0271928d59654787c0e096aac8192cbe5c5dc1c4d5809964c",
+          "text_sha256": {
+            "omitted_string_sha256": "7658dfce6c9e869e0820360ad3280612b41ca00f6dcf4cacf804d18c55680f3c",
+            "characters": 64
+          },
           "sponsor": false
         },
         {
@@ -96,7 +159,10 @@
           "source_hash": "2ef8f9e32e63296ecdb53d3cc0eb296b34dd88cce4dc4fa5a90a28f463812f8c",
           "char_start": 37852,
           "char_end": 40174,
-          "text_sha256": "3802251c354242210fed0a3bf118657cd7f8a72711265e886f50216b30a5ebd4",
+          "text_sha256": {
+            "omitted_string_sha256": "ba8b277a5cadbd869bbe6e734fc083e27259de75eaa9765c3699810b93fafe9f",
+            "characters": 64
+          },
           "sponsor": false
         },
         {
@@ -105,17 +171,32 @@
           "source_hash": "7374cc01ec372b23cf297a5d758419183debe3ca4395597993d2fa7e580abfcd",
           "char_start": 45361,
           "char_end": 47825,
-          "text_sha256": "e904e76a7ad44abd535fae3d04195bb7c6f000d81cb5367afd00f02f5918318e",
+          "text_sha256": {
+            "omitted_string_sha256": "fea1c14454440941591cc2be575b2da365ec1724d5a53c21731e04e6b3ba5aaf",
+            "characters": 64
+          },
           "sponsor": false
         }
       ]
     },
     {
-      "case_id": "U04",
+      "case_id": {
+        "omitted_string_sha256": "cdac8e4a64116c3833764ae568403d38d8a0d9f9ba8745b3ae1301f0fe10f589",
+        "characters": 3
+      },
       "mode": "sparse",
-      "review_scope": "Top three original-source excerpts, not complete packet/all-mode semantic certification",
-      "support": "absent",
-      "note": "Inspected top three excerpts: AI adoption constraints and PMF anecdotes/caveats do not establish a Gamma purchase guarantee. Promotions cannot prove PMF.",
+      "review_scope": {
+        "omitted_string_sha256": "4a99e49fedc116ddc81a51f91e010da6dbad01c50113f5f8982c5b398611e94c",
+        "characters": 87
+      },
+      "support": {
+        "omitted_string_sha256": "5ad38304b535c2987dbd24657c1a11b884984ff600d9f389deb0d4e634fee792",
+        "characters": 6
+      },
+      "note": {
+        "omitted_string_sha256": "943c70c75a3eb0bb4d0d5ac2a85464bf9cce8aaea6aec48bd316f0464cdb0670",
+        "characters": 153
+      },
       "reviewed_passages": [
         {
           "id": "ed66cb12-3bd2-5be6-adaf-0dcbfefbfb0e",
@@ -123,7 +204,10 @@
           "source_hash": "d974750bfb180d40e69a6d347c87d93ea007e6c26018bccbe9a1de9d0d4353ba",
           "char_start": 70547,
           "char_end": 72881,
-          "text_sha256": "aa5b9ceb9b38829ec27e2ab045b3b66044e667c5fa35380ad9326803e9d1e705",
+          "text_sha256": {
+            "omitted_string_sha256": "781290ba9b6e0deb4ad63ef0ac938581f8d8c5ab4822bca07a66f7d280714596",
+            "characters": 64
+          },
           "sponsor": false
         },
         {
@@ -132,7 +216,10 @@
           "source_hash": "6af2a6e031826805e855ec262b1f228e3773b5b99265a1d01870f0d4e6e9ceda",
           "char_start": 26788,
           "char_end": 29072,
-          "text_sha256": "164f693b791c33cd7d4fec9e79003b4c3a2f3c8d85b5080dda58d2a6606b85e2",
+          "text_sha256": {
+            "omitted_string_sha256": "74aeae0a6459996a388f88a0103c7ac7366a8d0967985c21b3be25909d6c7100",
+            "characters": 64
+          },
           "sponsor": false
         },
         {
@@ -141,17 +228,32 @@
           "source_hash": "6af2a6e031826805e855ec262b1f228e3773b5b99265a1d01870f0d4e6e9ceda",
           "char_start": 13242,
           "char_end": 15537,
-          "text_sha256": "a70a6fc9387bc6a6dd42b63d04018dfedc8f2e07a8296453c2734f37ed52281d",
+          "text_sha256": {
+            "omitted_string_sha256": "4a0b04d3171fcf8eb7a68e703a01a3869d289e215d23d15b99c37cf20a185d15",
+            "characters": 64
+          },
           "sponsor": false
         }
       ]
     },
     {
-      "case_id": "H18",
+      "case_id": {
+        "omitted_string_sha256": "522e67d1eb7bea6c31ee436b39fb834a999cbc77bfc1391ded283c4ecee6d748",
+        "characters": 3
+      },
       "mode": "sparse",
-      "review_scope": "Top three original-source excerpts, not complete packet/all-mode semantic certification",
-      "support": "absent_in_reviewed_excerpts",
-      "note": "Top three sparse excerpts are contextual advice, pre-mortem/LNO introduction and feedback advice, not the requested impact/execution/optics account. Do not equate related guest text with support.",
+      "review_scope": {
+        "omitted_string_sha256": "4a99e49fedc116ddc81a51f91e010da6dbad01c50113f5f8982c5b398611e94c",
+        "characters": 87
+      },
+      "support": {
+        "omitted_string_sha256": "56728a39f7ab4b469e66448e114381fa4a163990a5f3e550e4e01695ddac6474",
+        "characters": 27
+      },
+      "note": {
+        "omitted_string_sha256": "6840c6bbf1dcead3f34b83167b69f59e334785081232fd032c96366420657006",
+        "characters": 195
+      },
       "reviewed_passages": [
         {
           "id": "86abd1db-d51e-5891-a69e-602b6ac5f857",
@@ -159,7 +261,10 @@
           "source_hash": "1240fdbe55f70fd2047feb2eed58a9c4f700fde689bd4c9d2385a07123c62185",
           "char_start": 6741,
           "char_end": 8973,
-          "text_sha256": "be14f900bb86f166f1ec88f7c13d3803bb644c870b9952a7b0b9232d89c8945d",
+          "text_sha256": {
+            "omitted_string_sha256": "47dde9a9610baeb47bc51101c19eff0700aa3f273095280de0505b32316e1ead",
+            "characters": 64
+          },
           "sponsor": false
         },
         {
@@ -168,7 +273,10 @@
           "source_hash": "4e7f53f543391e9d64b738133eb9ffcefc761bbf22bec002716c5f9c90e940d6",
           "char_start": 35317,
           "char_end": 37712,
-          "text_sha256": "4f7b31fb3f46b2548fc0ec148b53914c22e4583e506936e3263a646430b2a643",
+          "text_sha256": {
+            "omitted_string_sha256": "c9128ffe988de21ed281dcdffb3806cbc44a0d69b5e58c96ffe051c02767ebe1",
+            "characters": 64
+          },
           "sponsor": false
         },
         {
@@ -177,17 +285,32 @@
           "source_hash": "2ef8f9e32e63296ecdb53d3cc0eb296b34dd88cce4dc4fa5a90a28f463812f8c",
           "char_start": 67329,
           "char_end": 69586,
-          "text_sha256": "dbd1e81aeed72dbdea415e2368c2e9e46d992440df7a8c4f3e8c16dba63e2194",
+          "text_sha256": {
+            "omitted_string_sha256": "d83b38d2c18ef143b14183adb30de06bb0f4e2dd2a1fc3b0781c7bc21bb5cbaf",
+            "characters": 64
+          },
           "sponsor": false
         }
       ]
     },
     {
-      "case_id": "H22",
+      "case_id": {
+        "omitted_string_sha256": "d2490123b21caeb49b29a0c4b32a9d3ed0edfc9ca98a1097c7c6c77b307979e2",
+        "characters": 3
+      },
       "mode": "sparse",
-      "review_scope": "Top three original-source excerpts, not complete packet/all-mode semantic certification",
-      "support": "partial_alternative_evidence",
-      "note": "Top sparse excerpts include status quo/manual-process competition and differentiated-value context but omit the full frozen anchor. Partial semantic relevance does not alter the frozen score.",
+      "review_scope": {
+        "omitted_string_sha256": "4a99e49fedc116ddc81a51f91e010da6dbad01c50113f5f8982c5b398611e94c",
+        "characters": 87
+      },
+      "support": {
+        "omitted_string_sha256": "0013d74a309fdc1d90201dc0cb876fde6ce5dd731de55bb689f88445b4d0464a",
+        "characters": 28
+      },
+      "note": {
+        "omitted_string_sha256": "eac7fb5aa9a693fe1ed3555b47dced22269dc5e4eda7f3b7fdea71e466e63f23",
+        "characters": 191
+      },
       "reviewed_passages": [
         {
           "id": "6574fbaf-9cf0-5d10-8bc7-a18b47228c6b",
@@ -195,7 +318,10 @@
           "source_hash": "7374cc01ec372b23cf297a5d758419183debe3ca4395597993d2fa7e580abfcd",
           "char_start": 80357,
           "char_end": 82635,
-          "text_sha256": "1d8f4a0b0e377c9331d878a68b4868ae4b077f5b82c7246c4fd4d22c3aa289d3",
+          "text_sha256": {
+            "omitted_string_sha256": "00fe491649131729e389e22ce6cc3057d07cadea61f9aa7e8d3dabd0f12abde1",
+            "characters": 64
+          },
           "sponsor": false
         },
         {
@@ -204,7 +330,10 @@
           "source_hash": "7374cc01ec372b23cf297a5d758419183debe3ca4395597993d2fa7e580abfcd",
           "char_start": 43308,
           "char_end": 45591,
-          "text_sha256": "2b390a778befa34e293fcdfebe7df8f70e0ac69145963f662281ba0dfb718bf9",
+          "text_sha256": {
+            "omitted_string_sha256": "021419465929028fd278f7012a8a0ea5310d8efc60d1d9e77831d8a9c82600d3",
+            "characters": 64
+          },
           "sponsor": false
         },
         {
@@ -213,17 +342,32 @@
           "source_hash": "7374cc01ec372b23cf297a5d758419183debe3ca4395597993d2fa7e580abfcd",
           "char_start": 63848,
           "char_end": 66131,
-          "text_sha256": "bf87840d5314c5bc678e266080ad34fd15dc4a1b95ea2a0ae198d514b568d9c6",
+          "text_sha256": {
+            "omitted_string_sha256": "3c439f6ceed01a21d55349acfae2133c72e41ceb89027971eb9b323678441b01",
+            "characters": 64
+          },
           "sponsor": false
         }
       ]
     },
     {
-      "case_id": "H23",
+      "case_id": {
+        "omitted_string_sha256": "89f9493adb56a6e6846ad79ecd49bf7c27788fcb0e190658ee170600a7c4ae42",
+        "characters": 3
+      },
       "mode": "sparse",
-      "review_scope": "Top three original-source excerpts, not complete packet/all-mode semantic certification",
-      "support": "partial_alternative_evidence",
-      "note": "Top sparse excerpts include the builder idea and teams still needing skills/specialist review; these provide alternative context but omit the frozen explicit qualification. Score remains a miss.",
+      "review_scope": {
+        "omitted_string_sha256": "4a99e49fedc116ddc81a51f91e010da6dbad01c50113f5f8982c5b398611e94c",
+        "characters": 87
+      },
+      "support": {
+        "omitted_string_sha256": "0013d74a309fdc1d90201dc0cb876fde6ce5dd731de55bb689f88445b4d0464a",
+        "characters": 28
+      },
+      "note": {
+        "omitted_string_sha256": "d700d0a78f039c85b0b3588f82f65bfc9cc7231866442c372509ff48fee2aae0",
+        "characters": 194
+      },
       "reviewed_passages": [
         {
           "id": "8df6c3bf-06e5-52b4-9fb6-41adaf065d60",
@@ -231,7 +375,10 @@
           "source_hash": "2ef8f9e32e63296ecdb53d3cc0eb296b34dd88cce4dc4fa5a90a28f463812f8c",
           "char_start": 16983,
           "char_end": 19181,
-          "text_sha256": "1470d7a1672b54cbefa87251c91cdd05df6ef234b179f4d915f37d06763d8d04",
+          "text_sha256": {
+            "omitted_string_sha256": "afa884d733ab6eb6da79c3adb2390b35dbe939c3896a0f7fa7cc5aaa92f49da2",
+            "characters": 64
+          },
           "sponsor": false
         },
         {
@@ -240,7 +387,10 @@
           "source_hash": "2ef8f9e32e63296ecdb53d3cc0eb296b34dd88cce4dc4fa5a90a28f463812f8c",
           "char_start": 23072,
           "char_end": 25277,
-          "text_sha256": "050393f9bf3132318839084cca00358eef699d2eb1525749757d93a97ff0249e",
+          "text_sha256": {
+            "omitted_string_sha256": "e86bb79b5859aa7f3f01409c0753678214c3c8713ef0a650d59a62fd11378a8e",
+            "characters": 64
+          },
           "sponsor": false
         },
         {
@@ -249,16 +399,31 @@
           "source_hash": "2ef8f9e32e63296ecdb53d3cc0eb296b34dd88cce4dc4fa5a90a28f463812f8c",
           "char_start": 845,
           "char_end": 3101,
-          "text_sha256": "51ac0fe3f1ca7ef585fee5b13505d0bd6e7509231a950066052c8937fcd9d5d4",
+          "text_sha256": {
+            "omitted_string_sha256": "ce1d1a812ac5a943385b282a6ecfff95b190a3754a50d3a9fec40e90270b32f2",
+            "characters": 64
+          },
           "sponsor": false
         }
       ]
     }
   ],
   "limits": [
-    "All 24 expected-evidence judgments were read before tuning; these are supplemental diagnostic reviews.",
-    "No generated answers exist, so this is not a claim-support or abstention success rate.",
-    "Unsupported diagnostics returned nonempty candidates in all modes. The retrieval layer does not certify semantic support.",
-    "Strict missing gold IDs can coexist with partial/unjudged semantic relevance; labels and first-attempt scores were not changed."
+    {
+      "omitted_string_sha256": "f6297a404af341e2bbd593a512b676b0696756069e7ca723dca73b8901df5035",
+      "characters": 102
+    },
+    {
+      "omitted_string_sha256": "8d3a64d8ed9cbd52898dcec3b9807906be345f7ebce1731089220a71e2dfb659",
+      "characters": 86
+    },
+    {
+      "omitted_string_sha256": "fb3731d8e134e1105e76ee3db08c1e167263ce4bdbf5b0fd4d6beab177e712e7",
+      "characters": 121
+    },
+    {
+      "omitted_string_sha256": "c3f5e5e80d66c428d5b484bf233858676d627345a45aebc1502b52e91d631715",
+      "characters": 127
+    }
   ]
 }

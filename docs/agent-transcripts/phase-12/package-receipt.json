@@ -1,0 +1,21 @@
+{
+  "sealed_at": "2026-11-08T04:57:26.468880+00:00",
+  "base_revision": "f89807d8db16c20e652590a6470810e5eb60b078",
+  "publication_tree": "/private/tmp/lenny-publication-f89807d",
+  "archive": "/Users/vivekvattem/Desktop/lenny/.cache/phase12/lenny-publication-f89807d.tar.gz",
+  "archive_sha256": "9bc8cb954d30d68e4bc6834a1db5a1abf0932b2913d9cdf114164f7906e43af7",
+  "archive_bytes": 1567448,
+  "tree_file_count": 723,
+  "manifest_sha256": "9ae622d694e72921f7a18115f33a3c7cfa634a89abec2cec83a285c15743ff7d",
+  "final_audit_passed": true,
+  "runtime_hashes_matched": 41,
+  "original_non_document_source_files_unchanged": 187,
+  "fixture_browser_checks_passed": 16,
+  "deterministic_tests_passed": 12,
+  "live_local_complete_answers": 1,
+  "live_local_incomplete_followups": 1,
+  "cloud_inference_requests": 0,
+  "submitted": false,
+  "pushed": false,
+  "uploaded": false
+}

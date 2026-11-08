@@ -106,7 +106,7 @@ class DatabaseAPI(unittest.TestCase):
         self.assertEqual(self.client.get('/api/health/live').json(),{'status':'alive'})
         provider=self.client.get('/api/providers').json()
         self.assertEqual(provider['selected'],'ollama');self.assertFalse(provider['automatic_fallback'])
-        self.assertFalse(provider['providers'][1]['implemented'])
+        self.assertTrue(provider['providers'][1]['implemented'])
         schema=self.client.get('/openapi.json').json()
         self.assertIn('ErrorOut',schema['components']['schemas'])
         self.assertIn('ReadyOut',schema['components']['schemas'])

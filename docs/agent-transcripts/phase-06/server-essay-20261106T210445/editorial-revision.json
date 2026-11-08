@@ -1,0 +1,190 @@
+{
+  "pass": 1,
+  "model_regenerated": false,
+  "edits": [
+    {
+      "section": 2,
+      "before": {
+        "omitted_string_sha256": "543f3e99f4788516420b9fab1d308104168339022ad33a97a87a05a213fa47d0",
+        "characters": 106
+      },
+      "after": {
+        "omitted_string_sha256": "d43b020d88d420c3ab4beec61ba1bff118686e4def70a26d27430a0c3a48a7fc",
+        "characters": 121
+      },
+      "reason": {
+        "omitted_string_sha256": "6b28892279410b939ab99d3cd30d3359294433a30323d1e231a60da7d4793b27",
+        "characters": 80
+      },
+      "editor": {
+        "omitted_string_sha256": "fd203767f9a24f46f0be0a1db48e4958f8dc74c4b2f945d58c13776eebf81a10",
+        "characters": 48
+      }
+    },
+    {
+      "section": 2,
+      "before": {
+        "omitted_string_sha256": "b3cb507b3a727655dea8abfbba5bb0377bd022ae585776e0409c556a9aba9f07",
+        "characters": 30
+      },
+      "after": {
+        "omitted_string_sha256": "f9d5070de94224ab6d972c1a5ba3a9e847492a6ac57116423850478d8ad643af",
+        "characters": 46
+      },
+      "reason": {
+        "omitted_string_sha256": "a22d4c482bd3748e35a3a602e08917b09fd2dbfe5cf88a3cde6353d8f661fb7e",
+        "characters": 53
+      },
+      "editor": {
+        "omitted_string_sha256": "fd203767f9a24f46f0be0a1db48e4958f8dc74c4b2f945d58c13776eebf81a10",
+        "characters": 48
+      }
+    },
+    {
+      "section": 3,
+      "before": {
+        "omitted_string_sha256": "77c65caf82e7ab63979f27c605b3d9ddb682eacfa5be5e1d94a1f6779bf851a1",
+        "characters": 119
+      },
+      "after": {
+        "omitted_string_sha256": "a1dbd81796b84e50e562523f381184dded759689436cb25a433f88960889c343",
+        "characters": 116
+      },
+      "reason": {
+        "omitted_string_sha256": "bc894f542c3fc19e365457d34e5a7be876b19a7efba5536821a6043d2388b739",
+        "characters": 51
+      },
+      "editor": {
+        "omitted_string_sha256": "fd203767f9a24f46f0be0a1db48e4958f8dc74c4b2f945d58c13776eebf81a10",
+        "characters": 48
+      }
+    },
+    {
+      "section": 3,
+      "before": {
+        "omitted_string_sha256": "188acb1a70933f6052f38dc0ed30172a30230f3f332ec172a8b5405e9aec7531",
+        "characters": 93
+      },
+      "after": {
+        "omitted_string_sha256": "f282d608cb89495073151faf621fc37c9b9bc6951263edd7c2ab374f34085852",
+        "characters": 94
+      },
+      "reason": {
+        "omitted_string_sha256": "2bd879b784f4b73bd47c499d469bcf69b4d590d12584b3c45bad1aaa88f6a04b",
+        "characters": 53
+      },
+      "editor": {
+        "omitted_string_sha256": "fd203767f9a24f46f0be0a1db48e4958f8dc74c4b2f945d58c13776eebf81a10",
+        "characters": 48
+      }
+    },
+    {
+      "section": 4,
+      "before": {
+        "omitted_string_sha256": "4cc2f94424646f11d2461761218da8a46dea3e332c70a15ed5070d97d2f097b5",
+        "characters": 291
+      },
+      "after": {
+        "omitted_string_sha256": "6d04e643e318cdff73c0a51879f6139e4dc28c2507ba9475d742c940054fa679",
+        "characters": 294
+      },
+      "reason": {
+        "omitted_string_sha256": "1c4c43b25a7408a207f8b79067a881fe518deb5d40e370f1dd3634d827f4f2e1",
+        "characters": 116
+      },
+      "editor": {
+        "omitted_string_sha256": "fd203767f9a24f46f0be0a1db48e4958f8dc74c4b2f945d58c13776eebf81a10",
+        "characters": 48
+      }
+    },
+    {
+      "section": 5,
+      "before": {
+        "omitted_string_sha256": "c89aa1df35eafcb95534c93a25aaf865e7cced68fd0626debbed32e96be18078",
+        "characters": 71
+      },
+      "after": {
+        "omitted_string_sha256": "9d88abda43b6589d898d95f4311cea766a771827be4688e887b3a259488f054d",
+        "characters": 78
+      },
+      "reason": {
+        "omitted_string_sha256": "c8eaaf005db2f438ca5ca53e4a574bed65dc2705fe7339be5c4a44c2eec434ea",
+        "characters": 37
+      },
+      "editor": {
+        "omitted_string_sha256": "fd203767f9a24f46f0be0a1db48e4958f8dc74c4b2f945d58c13776eebf81a10",
+        "characters": 48
+      }
+    },
+    {
+      "section": 5,
+      "before": {
+        "omitted_string_sha256": "dea51a5734c3580a6fa7bbdc5e929a6ff57052f1fa65e19cc0893bbd8d8e1314",
+        "characters": 132
+      },
+      "after": {
+        "omitted_string_sha256": "3cf312d6fd6480e8aff4ccd0c5c5a8adec6e05a13864bf2ca31c1a0269fbcd31",
+        "characters": 192
+      },
+      "reason": {
+        "omitted_string_sha256": "2ca4f2fdc10981ad91f910e9e7a7fd54592194e15bf79c585358a5b2315f0288",
+        "characters": 73
+      },
+      "editor": {
+        "omitted_string_sha256": "fd203767f9a24f46f0be0a1db48e4958f8dc74c4b2f945d58c13776eebf81a10",
+        "characters": 48
+      }
+    },
+    {
+      "section": 5,
+      "before": {
+        "omitted_string_sha256": "4ac3588235842bad414bb4a86d7b7c6e27fbc0a6f5a473970281a6a0ce4459af",
+        "characters": 130
+      },
+      "after": {
+        "omitted_string_sha256": "81c946a6465c47373d01c1b639c7049c1360f767cc036b3c8b96bd8814d609a3",
+        "characters": 145
+      },
+      "reason": {
+        "omitted_string_sha256": "a540ace46e2a62a1d7bd6747d90d580a9dfa2272bb44cce40f0bdf25baded1a2",
+        "characters": 61
+      },
+      "editor": {
+        "omitted_string_sha256": "fd203767f9a24f46f0be0a1db48e4958f8dc74c4b2f945d58c13776eebf81a10",
+        "characters": 48
+      }
+    },
+    {
+      "section": 5,
+      "before": {
+        "omitted_string_sha256": "3787849217f01559953f3aeaad063ec54860f43823d45083b64fef34ec87a0d9",
+        "characters": 237
+      },
+      "after": {
+        "omitted_string_sha256": "08054151af87a5397e7864d6fe477f19d27a128b9d4b644474c9290f748342df",
+        "characters": 141
+      },
+      "reason": {
+        "omitted_string_sha256": "3753fb378b001795b78ded4b6f6e8eabdb9fe397bc786eea4301b286b8a4add8",
+        "characters": 61
+      },
+      "editor": {
+        "omitted_string_sha256": "fd203767f9a24f46f0be0a1db48e4958f8dc74c4b2f945d58c13776eebf81a10",
+        "characters": 48
+      }
+    },
+    {
+      "section": 1,
+      "change": {
+        "omitted_string_sha256": "e9503ced43437701a95cda850a3935d412fc55c2e5bd1cf7eaa527f171cb768d",
+        "characters": 115
+      },
+      "editor": {
+        "omitted_string_sha256": "60fdc83494e0345d3be0b03e13a0f0bdcf220843e8ba6a5a8592979083546c93",
+        "characters": 28
+      }
+    }
+  ],
+  "original_raw_and_draft_preserved": true,
+  "all_factual_blocks_unchanged": true
+}

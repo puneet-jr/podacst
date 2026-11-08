@@ -1,0 +1,193 @@
+{
+  "reviewer": {
+    "omitted_string_sha256": "42375090d965aa72c4fab8acc55ed7e36c048e19950d054b94d004598297645e",
+    "characters": 93
+  },
+  "factual_blocks": [
+    {
+      "section": 1,
+      "source_id": "S1",
+      "chunk_id": "bdd3d954-095e-5f5a-8be1-5f38377168ff",
+      "start": 573,
+      "end": 898,
+      "exact_original_span": true,
+      "adjacent_citation": true
+    },
+    {
+      "section": 1,
+      "source_id": "S1",
+      "chunk_id": "bdd3d954-095e-5f5a-8be1-5f38377168ff",
+      "start": 1054,
+      "end": 1221,
+      "exact_original_span": true,
+      "adjacent_citation": true
+    },
+    {
+      "section": 1,
+      "source_id": "S1",
+      "chunk_id": "bdd3d954-095e-5f5a-8be1-5f38377168ff",
+      "start": 133,
+      "end": 386,
+      "exact_original_span": true,
+      "adjacent_citation": true
+    },
+    {
+      "section": 2,
+      "source_id": "S2",
+      "chunk_id": "53054eb0-beee-5be4-b2f1-99ca9b2eac2d",
+      "start": 349,
+      "end": 486,
+      "exact_original_span": true,
+      "adjacent_citation": true
+    },
+    {
+      "section": 2,
+      "source_id": "S2",
+      "chunk_id": "53054eb0-beee-5be4-b2f1-99ca9b2eac2d",
+      "start": 630,
+      "end": 820,
+      "exact_original_span": true,
+      "adjacent_citation": true
+    },
+    {
+      "section": 2,
+      "source_id": "S2",
+      "chunk_id": "53054eb0-beee-5be4-b2f1-99ca9b2eac2d",
+      "start": 1196,
+      "end": 1325,
+      "exact_original_span": true,
+      "adjacent_citation": true
+    },
+    {
+      "section": 2,
+      "source_id": "S2",
+      "chunk_id": "53054eb0-beee-5be4-b2f1-99ca9b2eac2d",
+      "start": 1741,
+      "end": 1967,
+      "exact_original_span": true,
+      "adjacent_citation": true
+    },
+    {
+      "section": 2,
+      "source_id": "S2",
+      "chunk_id": "53054eb0-beee-5be4-b2f1-99ca9b2eac2d",
+      "start": 1981,
+      "end": 2211,
+      "exact_original_span": true,
+      "adjacent_citation": true
+    },
+    {
+      "section": 3,
+      "source_id": "S3",
+      "chunk_id": "f5f40dd8-e8fb-5e74-9834-e45e31331549",
+      "start": 876,
+      "end": 1333,
+      "exact_original_span": true,
+      "adjacent_citation": true
+    },
+    {
+      "section": 3,
+      "source_id": "S3",
+      "chunk_id": "f5f40dd8-e8fb-5e74-9834-e45e31331549",
+      "start": 1347,
+      "end": 2039,
+      "exact_original_span": true,
+      "adjacent_citation": true
+    },
+    {
+      "section": 4,
+      "source_id": "S4",
+      "chunk_id": "9d370308-1dd5-5657-bdf5-f159a62ce159",
+      "start": 291,
+      "end": 620,
+      "exact_original_span": true,
+      "adjacent_citation": true
+    },
+    {
+      "section": 5,
+      "source_id": "S5",
+      "chunk_id": "fecfa828-2e7a-51f2-ba0a-6bf77a2fb759",
+      "start": 1204,
+      "end": 1777,
+      "exact_original_span": true,
+      "adjacent_citation": true
+    },
+    {
+      "section": 6,
+      "source_id": "S6",
+      "chunk_id": "ac3b448b-888b-5a93-b57a-87115b25c5c1",
+      "start": 1239,
+      "end": 1661,
+      "exact_original_span": true,
+      "adjacent_citation": true
+    }
+  ],
+  "advice_review": {
+    "omitted_string_sha256": "2990bf303dff96286e707032cf9f3ff30fb3110fc51b687c17d5289becd77f87",
+    "characters": 166
+  },
+  "lookout_review": {
+    "omitted_string_sha256": "1d965160f42a19ffc057d8ed8e31228c03f89422f7c8b190663c10df982867ad",
+    "characters": 186
+  },
+  "readability": {
+    "omitted_string_sha256": "3774cc15812d7930c200720e553897485df69290d1ac5d4008dcde675fdef41b",
+    "characters": 218
+  },
+  "manual_edits": {
+    "omitted_string_sha256": "44d287e8c18ab7c8ecbdcef53025030f46fb2bec7573afa9edd16da4d69ceb2e",
+    "characters": 201
+  },
+  "validation": {
+    "errors": [],
+    "limits": {
+      "omitted_string_sha256": "66adaeb66aa66d97b6cf57236bf1fa41248b4d65675a7b3145f0d49bb36d6412",
+      "characters": 109
+    },
+    "bullets": 5,
+    "bold_spans": 1,
+    "word_count": 1270,
+    "citation_ids": [
+      {
+        "omitted_string_sha256": "3696ad59777e09d5f2daacb544022d435e7cd053d87c5781241fabd8fdf2a90d",
+        "characters": 2
+      },
+      {
+        "omitted_string_sha256": "adfa2b24c2d924fe6383d8804be55afb98ea3eb0e14c3470ac3a0f651b9a422e",
+        "characters": 2
+      },
+      {
+        "omitted_string_sha256": "44d6a8a73eddb284d49799fdbfa2919a004ece6d2df3546eaa4e246048bcdf81",
+        "characters": 2
+      },
+      {
+        "omitted_string_sha256": "b1d3eb8f32936fa9cf89d2240bd10734270fd55ff4644ad254b3b237468bad88",
+        "characters": 2
+      },
+      {
+        "omitted_string_sha256": "1cdcbd57e7e20491d8be5ff46549aac5f9c117320a164a49ebc4f1439a741d76",
+        "characters": 2
+      },
+      {
+        "omitted_string_sha256": "b12f76a4b782e4ae7f035b86a07cb43e638af9157e855af49c3945971d2af402",
+        "characters": 2
+      }
+    ],
+    "section_count": 6,
+    "accepted_range": [
+      1125,
+      1375
+    ],
+    "incomplete_sections": [],
+    "section_word_counts": [
+      225,
+      227,
+      282,
+      136,
+      212,
+      148
+    ],
+    "passed_deterministic": true,
+    "manual_review_required": true
+  }
+}

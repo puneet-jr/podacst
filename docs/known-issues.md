@@ -1,0 +1,24 @@
+# Selected candidate / experiment distinction —8 November2026
+
+Phase11 restored41 pre-experiment source hashes in an isolated complete candidate;normal working code remains untouched. Original0/5 and bounded0/5 are both retained. Startup/persistence passed in fresh volumes,but answer/essay quality remains blocked. Fresh1157-word raw essay is not the reviewed1208-word result.
+
+Bounded experiment quarantined:multi-excerpt selection led to false abstentions;typed-error code records one actual retrieval timeout but saved error detail disappears,and model_timeout copy ordering regresses. Those changes are not shipped in the selected candidate. Baseline still has generic RPC/tool-error diagnostics and limited saved-error UI. Historical known issues below retain their measurement scope;typed diagnostics are no longer merely planned in the experiment,but remain excluded from the candidate. [Phase11](phase-11-report.md).
+
+# Known issues — Phase10,7 November2026
+
+The full pinned corpus is indexed (303 episodes/12770 passages). Infrastructure regression passes; release quality does not. [Measurements and exact commands](phase-10-report.md).
+
+| Issue | Impact / current evidence | Status / next boundary |
+| --- | --- | --- |
+| High: unsupported facts are answered with related quotations | Only1/4 unsupported cases acknowledges the gap,via pre-existing private-data guard; native model abstention0/4. Future-release,fictional-framework and ad-guarantee premises remain unaddressed. | Blocks release/RAG-01. Requires a general support/abstention solution and separate frozen reruns,not case-name filters or cloud rescue. |
+| High: incomplete multi-part and follow-up answers | One-excerpt qwen3:0.6b policy often omits definitions,comparisons or requested application. First frozen scenarios0/5; direct answerable completeness4/13. Context/storage can be correct while the answer is useless. | Blocks proposed4/5 product target. No claim of autonomous routing/synthesis. |
+| High: as-generated essays fail semantic/readability rubric | Raw1275 words introduced unsupported Lookout outcomes. Advice-prompt boundary fix yielded1216 words without those historical assertions,but irrelevant/truncated quotes,repetition,missing qualifications and weak advice remain. No edits/acceptance of either Phase10 essay. | Blocks as-generated ESS-02. Existing reviewed1208/1270/1319-word artifacts remain assisted results. |
+| High: retrieval misses declared85% Recall@8 | Frozen-v3 hybrid56.25% tuning/81.25% observed holdout on full index; sparse53.125%/62.5%. | Quality target unmet. Gold judgments cover nine development sources,not broad random corpus coverage; new alternative relevant passages may be unjudged. No post-holdout tuning. |
+| Medium: local memory pressure/readiness instability |8GiB M2 had11.4GiB swap in use before,12.8GiB after. One readiness503 interrupted sampler before inference; exact failed check unavailable because initial helper did not save its body. Later/final readiness200. | Unresolved intermittent limitation. Helper now saves readiness body. Do not attribute failure to memory without evidence. |
+| Medium: initial SC-E RPC error lacks bridge cause | Initial unsupported run failed rpc_rejected; full-index sparse evaluation separately timed out. Optimized query passes and one E rerun completes,but historical bridge exception was not captured. | Exact historical cause unproven. No invented upstream message. Safe typed bridge error diagnostics are a future repair,not implemented here. |
+| Low: dependency warnings | Starlette/httpx deprecation and psycopg unclosed-connection ResourceWarning in passing contract suite. | Retained,not suppressed; no dependency change in Phase10. |
+| Verification limits | Isolated Chrome verified; in-app connector baseline bootstrap fails. No physical-device keyboard/other engines,cold setup or external-user study. Previously observed holdout is not unseen. | Separate future checks; no substitute success claims. |
+| Publication/reproducibility | Earlier user chose Phase8-only remote snapshot leaving runtime prerequisites local. Current full checkout has many original uncommitted changes. | Remote incomplete. No commit/push or clean-checkout rehearsal in Phase10. |
+| Rights/privacy/export | Corpus redistribution rights and full sanitized coding conversation export remain unresolved. Old raw traces/sources/private outputs remain private. | No source/PDF/model/dependency/log publication. Bounded secret scan is not universal assurance. |
+
+Fixed in Phase10:canonical Unicode/underscore source scopes;older-session pagination;full-index corpus label;repeated per-row SQL term/DF work;historical case contamination of advice prompt (one narrow improved run,not full essay pass). All initial failures remain recorded. No known critical security/data-loss defect was found in the bounded code/test review; material mandatory quality defects still block the release gate.

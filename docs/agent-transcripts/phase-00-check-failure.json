@@ -1,12 +1,33 @@
 {
-  "kind": "actual_observed_check_failure",
+  "kind": {
+    "omitted_string_sha256": "b37a6a016540390317197f66641753428aa524c0e2c39f0d1e86382f58994d8e",
+    "characters": 29
+  },
   "command": [
-    "python3",
-    "/private/tmp/lenny-phase00-checks.py"
+    {
+      "omitted_string_sha256": "c1cc69e61c0f1c7ade8df0f2994e582e7c1f2c57d1ec192a0baf9f96b7739d9d",
+      "characters": 7
+    },
+    {
+      "omitted_string_sha256": "348de642197ea67783b41338c29281d813d4fba8f4c5e2e2a3dff39dfbf7d310",
+      "characters": 36
+    }
   ],
   "original_exit_code": 1,
-  "error_excerpt": "UnicodeDecodeError: 'utf-8' codec can't decode byte 0x87 in position 23: invalid start byte",
-  "note": "Actual earlier failure excerpt, not a reconstructed full tool transcript; original timestamp not captured.",
-  "diagnosis": "file .DS_Store identified Apple Desktop Services Store; Finder created metadata in root/docs after initial empty-workspace audit.",
-  "correction": "Exclude only .DS_Store platform metadata, already gitignored, from content/manifest audit; preserve files and all code/confidential-file checks."
+  "error_excerpt": {
+    "omitted_string_sha256": "7abcb83a9677ec0256406d20d6b12d5896bef3aefc4bd175907f4039398e7053",
+    "characters": 91
+  },
+  "note": {
+    "omitted_string_sha256": "1140dbe2e6c7a82699fc6424d479ffdb1abbe3acb8612b3b6dceeaa874ceb32c",
+    "characters": 106
+  },
+  "diagnosis": {
+    "omitted_string_sha256": "4bf0b562b56f1f1531aa8f5175d4968f8b815bf8a7360e5002802f8db191cc52",
+    "characters": 129
+  },
+  "correction": {
+    "omitted_string_sha256": "83401c5c06b11113c2c38c9929fa1cedafc4c9b579d2800931c1f989b0b0705b",
+    "characters": 144
+  }
 }

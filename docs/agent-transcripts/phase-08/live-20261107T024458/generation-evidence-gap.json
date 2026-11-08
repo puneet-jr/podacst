@@ -6,17 +6,38 @@
   "validation": null,
   "calls": [
     {
-      "method": "POST",
-      "path": "/api/sessions/6f882513-96b5-4fcc-88c2-1e1dc82d9585/answers",
-      "at": "2026-11-07T02:47:29.851253+00:00"
+      "method": {
+        "omitted_string_sha256": "9aee6b1bcdf617d8e39bb1f2b624c68ea33deb9d48e0364aeaded836d3d00293",
+        "characters": 4
+      },
+      "path": {
+        "omitted_string_sha256": "1c10f8854d162ee954f0ae8fece5ed91194adaa95b312b4aab876cec6bbb9bde",
+        "characters": 58
+      },
+      "at": {
+        "omitted_string_sha256": "d14537bc9b001fd1c645ff757717ed2c23d8154a7f0ee7864df3cc10e482c7ab",
+        "characters": 32
+      }
     },
     {
-      "method": "POST",
-      "path": "/api/sessions/6f882513-96b5-4fcc-88c2-1e1dc82d9585/essays",
-      "at": "2026-11-07T02:47:38.361101+00:00"
+      "method": {
+        "omitted_string_sha256": "9aee6b1bcdf617d8e39bb1f2b624c68ea33deb9d48e0364aeaded836d3d00293",
+        "characters": 4
+      },
+      "path": {
+        "omitted_string_sha256": "c9a4f34669235830ffec2b6ffa424fb54bf2cea160d7a0df394ccd78d3cb28b1",
+        "characters": 57
+      },
+      "at": {
+        "omitted_string_sha256": "1a1f21614b85a174b2be780a09b448f3f378ab3dbdf37221ea10b3ca20c85aa7",
+        "characters": 32
+      }
     }
   ],
   "page_errors": [],
-  "manual_review": "pending; this script does not accept the essay",
+  "manual_review": {
+    "omitted_string_sha256": "794dc558add6e4fd38b5a2ad074024293635b997bef3e3c520c37cc45ccb40ce",
+    "characters": 46
+  },
   "fixture": false
 }

@@ -28,6 +28,10 @@ class ProtocolError(SpikeError):
     code = "rpc_protocol"
 
 
+class ProviderUnavailable(SpikeError):
+    code = "cloud_key_missing"
+
+
 class RemoteError(SpikeError):
     code = "rpc_rejected"
 
@@ -58,7 +62,7 @@ def local_environment(config_dir: str) -> dict:
 
 
 class PiRPC:
-    def __init__(self, log_dir: Path, command=None, *, tool_name='search_fixture', extension=None, system=SYSTEM, extra_env=None, max_tokens=256,require_tool=True):
+    def __init__(self, log_dir: Path, command=None, *, tool_name='search_fixture', extension=None, system=SYSTEM, extra_env=None, max_tokens=256,require_tool=True,model=None,settings=None):
         self.log_dir = log_dir
         self.command_override = command
         self.process = None
@@ -73,29 +77,39 @@ class PiRPC:
         self.diagnostics = None
         self.session_id = None
         self.last_model_text = None
+        self.text_tool_call_normalized = False
         self.tool_name, self.extension, self.system = tool_name, extension, system
         self.extra_env, self.max_tokens = extra_env or {}, max_tokens
         self.require_tool=require_tool
+        self.settings=settings or _AGENT_SETTINGS
+        self.model=model or self.settings.selected_model()
+        self.provider_id=self.settings.provider_id
+        self.base_url=self.settings.model_base_url
 
     async def start(self):
-        self.log_dir.mkdir(parents=True, exist_ok=False)
+        try:self.settings.require_provider()
+        except ValueError as exc:raise ProviderUnavailable() from exc
+        self.log_dir.mkdir(parents=True, exist_ok=False,mode=0o700)
         self.protocol = (self.log_dir / "stdout.jsonl").open("wb")
         self.diagnostics = (self.log_dir / "stderr.log").open("wb")
         self.temp = tempfile.TemporaryDirectory(prefix="lenny-pi-")
         config = Path(self.temp.name)
-        (config / "models.json").write_text(json.dumps({"providers": {"ollama-local": {
-            "baseUrl": OLLAMA_BASE, "api": "openai-completions", "apiKey": "local-placeholder",
-            "models": [{"id": MODEL, "name": "Local Ollama", "contextWindow": 4096, "maxTokens": self.max_tokens, "reasoning": False}],
+        (config / "models.json").write_text(json.dumps({"providers": {self.provider_id: {
+            "baseUrl": self.base_url, "api": self.settings.provider_api, "apiKey": "local-placeholder" if self.settings.default_provider=="ollama" else "$LENNY_CLOUD_KEY",
+            "models": [{"id": self.model, "name": self.provider_id, "contextWindow": 4096, "maxTokens": self.max_tokens, "reasoning": False}],
         }}}))
         (config / "settings.json").write_text(json.dumps({"compaction": {"enabled": False}, "retry": {"enabled": False}}))
-        command = self.command_override or [_AGENT_SETTINGS.pi_path, "--mode", "rpc", "--no-session", "--offline", "--no-extensions", "--no-mcp", "--no-skills", "--no-prompt-templates", "--no-themes", "--no-context-files", "--no-approve", "--tools", self.tool_name, "-e", str(self.extension or ROOT / "agent/retrieval.ts"), "--provider", "ollama-local", "--model", MODEL, "--thinking", "off", "--system-prompt", self.system]
-        self.process = await asyncio.create_subprocess_exec(*command, cwd=config, env={**local_environment(str(config)), **self.extra_env}, stdin=asyncio.subprocess.PIPE, stdout=asyncio.subprocess.PIPE, stderr=asyncio.subprocess.PIPE, limit=MAX_FRAME + 1, start_new_session=True)
+        command = self.command_override or [self.settings.pi_path, "--mode", "rpc", "--no-session", "--offline", "--no-extensions", "--no-mcp", "--no-skills", "--no-prompt-templates", "--no-themes", "--no-context-files", "--no-approve", "--tools", self.tool_name, "-e", str(self.extension or ROOT / "agent/retrieval.ts"), "--provider", self.provider_id, "--model", self.model, "--thinking", "off", "--system-prompt", self.system]
+        child_env={**local_environment(str(config)), **self.extra_env, "LENNY_PROVIDER":self.provider_id,"LENNY_PROVIDER_BASE":self.base_url}
+        child_env.pop("LENNY_CLOUD_KEY",None)
+        if self.settings.default_provider!="ollama":child_env["LENNY_CLOUD_KEY"]=self.settings.selected_key.get_secret_value()
+        self.process = await asyncio.create_subprocess_exec(*command, cwd=config, env=child_env, stdin=asyncio.subprocess.PIPE, stdout=asyncio.subprocess.PIPE, stderr=asyncio.subprocess.PIPE, limit=MAX_FRAME + 1, start_new_session=True)
         self.tasks = [asyncio.create_task(self._read_stdout()), asyncio.create_task(self._read_stderr())]
         state = await self.call("get_state")
         self.session_id = state.get("sessionId")
         if not self.command_override:
             model = state.get("model", {})
-            if model.get("provider") != "ollama-local" or model.get("id") != MODEL or model.get("baseUrl") != OLLAMA_BASE:
+            if model.get("provider") != self.provider_id or model.get("id") != self.model or model.get("baseUrl") != self.base_url:
                 raise ProtocolError("Unexpected provider/model endpoint")
         if state.get("messageCount") != 0:
             raise ProtocolError("Fresh session contains history")
@@ -118,9 +132,10 @@ class PiRPC:
                 self.total += len(raw)
                 if self.total > MAX_TOTAL:
                     raise ProtocolError("RPC stream budget exhausted")
-                self.protocol.write(raw)
-                self.protocol.flush()
                 value = decode_frame(raw)
+                projection={k:value[k] for k in ("type","id","command","success","toolName") if k in value}
+                self.protocol.write(raw if self.settings.private_rpc_traces else json.dumps(projection).encode()+b"\n")
+                self.protocol.flush()
                 if value["type"] == "response":
                     entry = self.pending.get(value["id"])
                     if entry is None:
@@ -147,7 +162,7 @@ class PiRPC:
         captured = 0
         while chunk := await self.process.stderr.read(4096):
             if captured < 65536:
-                self.diagnostics.write(chunk[:65536 - captured])
+                self.diagnostics.write(chunk[:65536 - captured] if self.settings.private_rpc_traces else json.dumps({"event":"pi_diagnostic","bytes":len(chunk)}).encode()+b"\n")
                 self.diagnostics.flush()
             captured += len(chunk)
 
@@ -181,6 +196,7 @@ class PiRPC:
                 if turns > 3:
                     raise ProtocolError("Provider turn budget exhausted")
             if kind == "tool_execution_start":
+                self.text_tool_call_normalized |= str(event.get("toolCallId", "")).startswith("normalized_")
                 if not self.require_tool or event.get("toolName") != self.tool_name or len(tool_trace) >= (2 if self.tool_name=='search_fixture' else 1):
                     raise ProtocolError("Unapproved tool or exhausted tool budget")
                 tool_trace.append({"tool": event["toolName"], "args": event.get("args"), "tool_call_id": event.get("toolCallId")})
@@ -197,14 +213,17 @@ class PiRPC:
         if not assistant:
             raise RemoteError("No assistant response")
         if assistant[-1].get("stopReason") in ("error", "aborted"):
-            raise RemoteError("Model response failed: " + str(assistant[-1].get("errorMessage", "unknown"))[:300])
+            error=RemoteError("Selected model response failed")
+            status=__import__("re").search(r"(?<![0-9])(400|401|402|403|404|408|429|500|502|503|504)(?![0-9])",str(assistant[-1].get("errorMessage","")))
+            if status:error.code="provider_http_"+status[1]
+            raise error
         text = "".join(b.get("text", "") for b in assistant[-1].get("content", []) if b.get("type") == "text")
         self.last_model_text = text
         if not text.strip() or self.require_tool and not tool_trace or any("result" not in t for t in tool_trace):
             raise RemoteError("Missing final text or successful fixture call")
         # Attribution comes from executed tool evidence, never invented model labels.
         sources = [t["result"]["details"]["source_id"] for t in tool_trace] if self.tool_name=='search_fixture' else []
-        return {"session_id": self.session_id, "provider": "ollama-local", "model": MODEL, "model_text": text,
+        return {"session_id": self.session_id, "provider": self.provider_id, "model": self.model, "model_text": text,
                 "text": text + " " + " ".join(f"[{s}]" for s in dict.fromkeys(sources)),
                 "sources": sources, "tools": tool_trace, "messages": messages}
 

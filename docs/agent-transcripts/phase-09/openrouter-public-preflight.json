@@ -1,0 +1,31 @@
+{
+  "command_exit_code": 0,
+  "captured_at": "2026-11-07T07:03:43.730629+00:00",
+  "provider": "openrouter",
+  "pi_provider": {
+    "omitted_string_sha256": "7f871cbf905f6e0cd598b11609f33f609e60a61892ac6b37e80cf1de282ee367",
+    "characters": 10
+  },
+  "model": "google/gemini-2.5-flash-lite",
+  "endpoint": {
+    "omitted_string_sha256": "76ef4ad6f0c8a4ae66efb13875c107cee40c78997a212353d379acfbb2f45591",
+    "characters": 28
+  },
+  "inference_mocked": false,
+  "cloud_validation": "pending",
+  "automatic_fallback": false,
+  "public_source_path": {
+    "omitted_string_sha256": "ad9fd290e6d14d705fd856dbe2b6d33a67be53db50312b5a0ccfbd7f15aa02f8",
+    "characters": 33
+  },
+  "public_source_sha256": {
+    "omitted_string_sha256": "98472e84eb87db92e48bfbd24d1e3ad5896e23bb4b611cb8c02b9bae63d40907",
+    "characters": 64
+  },
+  "all_active_source_spans_verified_public": true,
+  "prior_history_sent": false,
+  "preflight_only": true,
+  "provider_requests": 0,
+  "key_configured": false,
+  "active_public_chunks_verified": 52
+}

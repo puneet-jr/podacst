@@ -1,0 +1,108 @@
+{
+  "session_id": "6f882513-96b5-4fcc-88c2-1e1dc82d9585",
+  "run_id": "b4309701-8122-4b16-b38b-ec7ee8a3fe21",
+  "advice": {
+    "1": {
+      "omitted_string_sha256": "f09784258770719003c66eb04abf7a655a436f32bd3c77ed904dd490c9d915e8",
+      "characters": 574
+    },
+    "2": {
+      "omitted_string_sha256": "3a1706285dec7ad24a9f898b54030fd72d0cb287829859d9acac7fc3597a1581",
+      "characters": 432
+    },
+    "3": {
+      "omitted_string_sha256": "8960671d710680b39d6e438abac2c6bcb8afe6d429188d1a6363635c730bf9c9",
+      "characters": 447
+    },
+    "4": {
+      "omitted_string_sha256": "f49e48b615be9edfb56c836bea065ee507d4a7738ef8cc449929fc9c24392747",
+      "characters": 433
+    },
+    "5": {
+      "omitted_string_sha256": "6c4ebe84f6a83c365c5e0716fb1537c4f37b3752f87ae87218e62c49e941a58b",
+      "characters": 560
+    },
+    "6": {
+      "omitted_string_sha256": "781f31e96ca66bf967ca1911ec4afc60c29fe10456312794a119a058d421cbac",
+      "characters": 440
+    }
+  },
+  "quotes": {
+    "1": [
+      {
+        "omitted_string_sha256": "b36afb1d474a3a9fb24acc08ecabd5fdb1959224d656325df287703d65c91bc1",
+        "characters": 325
+      },
+      {
+        "omitted_string_sha256": "51cb8cbdfb8f6325ee77228c83ca7c92de41f4e279d893ec3a31dba023f5ad2b",
+        "characters": 167
+      },
+      {
+        "omitted_string_sha256": "aa75a15d30f798ee760408e2cc73657fa9bdad2e86cf2f1b90e877a7c1a4081f",
+        "characters": 253
+      }
+    ],
+    "2": [
+      {
+        "omitted_string_sha256": "016dc23a0d8547db6ba1d5ee7f951634188c1dffc180efebfdd84413b7f27a1f",
+        "characters": 422
+      }
+    ],
+    "3": [
+      {
+        "omitted_string_sha256": "870e11cc4d247c36b93c4b93a8e17d90bc0f5ef9534dba65bb51c73184dcefdb",
+        "characters": 540
+      }
+    ],
+    "4": [
+      {
+        "omitted_string_sha256": "2575dbaa5d005062efbcdbf2749b5d187794626f64a536b10a6eab4dea78dc47",
+        "characters": 457
+      },
+      {
+        "omitted_string_sha256": "b583b0bbd904c2a95cd55e125add27d8da544c0c68879abad9becaa0ac4cd456",
+        "characters": 692
+      }
+    ],
+    "5": [
+      {
+        "omitted_string_sha256": "727497e7a3a640c06717b54550ad5e3e936466d1fed1ef10d4499747e8fec506",
+        "characters": 502
+      }
+    ],
+    "6": [
+      {
+        "omitted_string_sha256": "3e08e31f1c87519ade9af2245f22a1edb96692a527b6a0094329e7adf92dd272",
+        "characters": 466
+      },
+      {
+        "omitted_string_sha256": "4e51949c4ec50ff1f0107d1bceed4a4d06bf112594045f24bb614be4e7a17034",
+        "characters": 183
+      }
+    ]
+  },
+  "expected_word_count": 1208,
+  "editor": {
+    "omitted_string_sha256": "d07aba52473ca69190404969a65115ee57df3f43af70edbe608476062105ef23",
+    "characters": 50
+  },
+  "reasons": [
+    {
+      "omitted_string_sha256": "c3031891f919d2e52174bfe55d9f94cdf3baf450f94c6b9686638bff95eb50c0",
+      "characters": 93
+    },
+    {
+      "omitted_string_sha256": "c324799d2690d6dc4bed3c9c431fea1a90c2f268e21f8ca6e2ae4b5d1c079e31",
+      "characters": 82
+    },
+    {
+      "omitted_string_sha256": "ac7a5ee4d257363662138746405f34b8a5965a6b6b60ed2f51a20362142a95ac",
+      "characters": 98
+    },
+    {
+      "omitted_string_sha256": "23d5001d6c5184c2659590f7d7b5f5e684f55b5ef4bf786b7ea03bd9759d9610",
+      "characters": 70
+    }
+  ],
+  "model_regenerated": false
+}

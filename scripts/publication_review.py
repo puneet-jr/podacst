@@ -20,7 +20,7 @@ def review(staged=False):
             if '=' not in line or line.lstrip().startswith('#'):continue
             key,value=line.split('=',1);value=value.strip().strip('"\'')
             if any(k in key.upper() for k in ('PASSWORD','API_KEY','TOKEN','SECRET')) and len(value)>=12:configured.append(value.encode())
-    for key in ('ANTHROPIC_API_KEY','OPENAI_API_KEY','GEMINI_API_KEY','GOOGLE_API_KEY','GITHUB_TOKEN','GH_TOKEN','AWS_SECRET_ACCESS_KEY'):
+    for key in ('OPENROUTER_API_KEY','ANTHROPIC_API_KEY','OPENAI_API_KEY','GEMINI_API_KEY','GOOGLE_API_KEY','GITHUB_TOKEN','GH_TOKEN','AWS_SECRET_ACCESS_KEY'):
         if len(os.environ.get(key,''))>=12:configured.append(os.environ[key].encode())
     findings=[];hashes={};limited_quotes=0
     deny_parts={'.cache','node_modules','__pycache__','.git','.aws','.codex','.agents','.ollama','.huggingface','corpus','private','raw-exports','models','weights','dist'}

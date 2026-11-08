@@ -1,4 +1,6 @@
 """Bounded, read-only local retrieval. Rank scores never attest semantic support."""
+from backend.app.source_paths import SOURCE_PATH_PATTERN
+from backend.app.observability import emit
 from collections import Counter
 from hashlib import sha256
 import json
@@ -24,7 +26,7 @@ class SearchRequest(BaseModel):
     mode: Literal['sparse', 'dense', 'hybrid'] = 'sparse'
     guest: str | None = Field(default=None, min_length=1, max_length=120)
     episode_id: UUID | None = None
-    source_path: str | None = Field(default=None, pattern=r'^episodes/[a-z0-9-]+/transcript\.md$', max_length=240)
+    source_path: str | None = Field(default=None, pattern=SOURCE_PATH_PATTERN, max_length=240)
     candidates: int = Field(default=20, ge=5, le=100)
     limit: int = Field(default=8, ge=1, le=10)
     token_budget: int = Field(default=3200, ge=300, le=8000)
@@ -126,6 +128,19 @@ def select_passages(rows, request, *, existing=(), capacity=None):
     return selected
 
 
+LEXICAL_CTE = """WITH terms AS MATERIALIZED (
+ SELECT term,to_tsquery('english',quote_literal(term)) AS term_query
+ FROM unnest(tsvector_to_array(to_tsvector('english',:query))) AS words(term)
+), q AS MATERIALIZED (
+ SELECT to_tsquery('english',COALESCE(string_agg(quote_literal(term),' | '),'')) AS tsq FROM terms
+), corpus_count AS MATERIALIZED (SELECT count(*) AS n FROM chunks WHERE active),
+ df AS MATERIALIZED (
+ SELECT t.term,t.term_query,ln(1.0+(SELECT n FROM corpus_count)/(1.0+
+  (SELECT count(*) FROM chunks d WHERE d.active AND d.search_vector @@ t.term_query))) AS weight
+ FROM terms t
+)
+"""
+
 COLUMNS = '''c.id,c.episode_id,c.ordinal,c.version,c.source_hash,c.corpus_revision,c.original_text,
  c.char_start,c.char_end,c.line_start,c.line_end,c.speakers,c.start_seconds,c.end_seconds,c.estimated_tokens,c.sponsor,
  e.source_path,e.title,e.guest,e.video_url,v.metadata->'warnings' AS metadata_warnings'''
@@ -135,7 +150,7 @@ BASE = ''' FROM chunks c JOIN episodes e ON e.id=c.episode_id AND e.current_vers
  AND (:include_sponsors OR NOT c.sponsor)'''
 
 
-def search(engine, settings, request: SearchRequest, *, embedder=None):
+def _search(engine, settings, request: SearchRequest, *, embedder=None):
     started = time.monotonic(); deadline = started + request.deadline_seconds
     timings, vector, digest = {}, None, None
     def budget(connection=None):
@@ -183,11 +198,8 @@ def search(engine, settings, request: SearchRequest, *, embedder=None):
             budget(connection)
             # Fresh corpus-frequency weighting reduces repeated speaker-header dominance.
             # OR retains recall on natural questions; no query text becomes SQL syntax.
-            lexical = """WITH terms AS (SELECT unnest(tsvector_to_array(to_tsvector('english',:query))) AS term),
-             q AS (SELECT to_tsquery('english',COALESCE(string_agg(quote_literal(term),' | '),'')) AS tsq FROM terms),
-             df AS (SELECT t.term,ln(1.0+(SELECT count(*) FROM chunks WHERE active)/(1.0+count(d.id))) AS weight
-              FROM terms t LEFT JOIN chunks d ON d.active AND d.search_vector @@ to_tsquery('english',quote_literal(t.term)) GROUP BY t.term) """
-            rankings['sparse'] = [dict(r) for r in connection.execute(text(lexical+'SELECT '+COLUMNS+BASE+filters+" AND c.search_vector @@ (SELECT tsq FROM q) ORDER BY (SELECT sum(weight) FROM df WHERE c.search_vector @@ to_tsquery('english',quote_literal(df.term))) DESC,ts_rank_cd(c.search_vector,(SELECT tsq FROM q),32) DESC,c.id LIMIT :candidates"),params).mappings()]
+            lexical = LEXICAL_CTE
+            rankings['sparse'] = [dict(r) for r in connection.execute(text(lexical+'SELECT '+COLUMNS+BASE+filters+" AND c.search_vector @@ (SELECT tsq FROM q) ORDER BY (SELECT sum(weight) FROM df WHERE c.search_vector @@ df.term_query) DESC,ts_rank_cd(c.search_vector,(SELECT tsq FROM q),32) DESC,c.id LIMIT :candidates"),params).mappings()]
         fused = reciprocal_rank_fusion(rankings,request.rrf_constant)
         reserve = min(request.max_neighbors, request.limit-1) if request.neighbor_radius else 0
         # Reserve tokens as well as slots; otherwise ranked chunks starve expansion.
@@ -227,3 +239,16 @@ def search(engine, settings, request: SearchRequest, *, embedder=None):
         mode=request.mode,retrieval_version=RETRIEVAL_VERSION,passages=passages,estimated_tokens=sum(p.estimated_tokens for p in passages),
         candidate_counts={name:len(rankings.get(name,[])) for name in ('dense','sparse')},corpus=corpus,timings_ms=timings,
         embedding_model=settings.embedding_model if vector is not None else None,embedding_digest=digest)
+
+
+def search(engine,settings,request:SearchRequest,*,embedder=None):
+    started=time.monotonic()
+    try:
+        result=_search(engine,settings,request,embedder=embedder)
+        emit('retrieval_operation',stage='retrieval',mode=request.mode,code='ok' if result.passages else 'empty_evidence',count=len(result.passages),source_ids=[str(p.id) for p in result.passages],duration_ms=round((time.monotonic()-started)*1000,2))
+        return result
+    except Exception as exc:
+        code=str(exc) if isinstance(exc,(RetrievalError,EmbeddingError)) else 'retrieval_failed'
+        if not __import__('re').fullmatch(r'[a-z_]{1,80}',code):code='retrieval_failed'
+        emit('retrieval_operation',stage='retrieval',mode=request.mode,code=code,error_type=type(exc).__name__,duration_ms=round((time.monotonic()-started)*1000,2))
+        raise

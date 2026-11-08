@@ -3,7 +3,7 @@ import json
 import unittest
 from uuid import uuid4
 from pydantic import ValidationError
-from backend.app.writing import EssayCreate,EssayError,POLICY,parse_outline,validate_essay,word_count
+from backend.app.writing import EssayCreate,EssayError,POLICY,parse_outline,parse_markdown_section,validate_essay,word_count
 
 
 def outline():
@@ -11,6 +11,11 @@ def outline():
 
 
 class WritingContracts(unittest.TestCase):
+    def test_plain_markdown_is_not_wrapped_in_json_or_silently_rewritten(self):
+        raw='A source-backed paragraph. [S2]\n\nApplication: Inspect your own evidence.'
+        self.assertEqual(parse_markdown_section(raw),raw)
+        for bad in ['', '{"body":"some prose"}', '```markdown\nprose\n```', 'x'*8001]:
+            with self.subTest(bad=bad[:30]),self.assertRaises(EssayError):parse_markdown_section(bad)
     def test_word_count_excludes_citations_and_markdown_and_keeps_contractions(self):
         self.assertEqual(word_count("# A title\nDon't re-write 12.5 **percent**. [S1]\n1. Act now."),8)
         self.assertEqual(word_count('Café teams’ work [S7]'),3)

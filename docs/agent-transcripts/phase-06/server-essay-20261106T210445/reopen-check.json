@@ -1,0 +1,108 @@
+{
+  "captured_at": "2026-11-06T21:11:13.501797+00:00",
+  "ready": {
+    "status": "ready",
+    "scope": "phase_5_conversation",
+    "product_ready": false,
+    "checks": {
+      "database": {
+        "ready": true,
+        "schema_revision": {
+          "omitted_string_sha256": "b9428c7c573a1332a17e18249e0515a01f9e55fb1eefd1f2343a8caf2b68b199",
+          "characters": 25
+        },
+        "pgvector_version": {
+          "omitted_string_sha256": "e4369c730413d6871f29fa8a24a8f397e6a790e374b1283c9f76f780535415e3",
+          "characters": 5
+        }
+      },
+      "corpus": {
+        "ready": true,
+        "status": "partial",
+        "active_chunks": 373,
+        "active_episodes": 9,
+        "discovered": 303
+      },
+      "agent": {
+        "ready": true,
+        "version": "1.5.0"
+      },
+      "ollama": {
+        "ready": true,
+        "reachable_from_api": true,
+        "version": "0.30.11",
+        "generation_model_available": true,
+        "embedding_model_available": true,
+        "embedding_dimensions_compatible": true,
+        "index_identity_compatible": true,
+        "note": {
+          "omitted_string_sha256": "e794244e901e453b7c7e944b4a3b9e0413be67a054586c47282d7b7f0d7a4ebc",
+          "characters": 83
+        }
+      }
+    }
+  },
+  "provider": {
+    "selected": "ollama",
+    "model": "qwen3:0.6b",
+    "automatic_fallback": false,
+    "providers": [
+      {
+        "id": "ollama",
+        "implemented": true,
+        "configured": true,
+        "scope": "retrieval-first extractive conversation; hybrid; no autonomous/essay quality claim"
+      },
+      {
+        "id": "anthropic",
+        "implemented": false,
+        "credentials_present": false,
+        "enabled": false,
+        "reason": {
+          "omitted_string_sha256": "0887bc1d08fef250e07e225c2fbc3c117dd84a3243b19463b209d574f8bad133",
+          "characters": 62
+        }
+      }
+    ]
+  },
+  "saved_message_equals_final_essay": true,
+  "source_checks": [
+    {
+      "label": "S1",
+      "chunk_id": "bdd3d954-095e-5f5a-8be1-5f38377168ff",
+      "http_status": 200,
+      "stored_passage_hash_matches": true
+    },
+    {
+      "label": "S2",
+      "chunk_id": "53054eb0-beee-5be4-b2f1-99ca9b2eac2d",
+      "http_status": 200,
+      "stored_passage_hash_matches": true
+    },
+    {
+      "label": "S3",
+      "chunk_id": "f5f40dd8-e8fb-5e74-9834-e45e31331549",
+      "http_status": 200,
+      "stored_passage_hash_matches": true
+    },
+    {
+      "label": "S4",
+      "chunk_id": "9d370308-1dd5-5657-bdf5-f159a62ce159",
+      "http_status": 200,
+      "stored_passage_hash_matches": true
+    },
+    {
+      "label": "S5",
+      "chunk_id": "fecfa828-2e7a-51f2-ba0a-6bf77a2fb759",
+      "http_status": 200,
+      "stored_passage_hash_matches": true
+    },
+    {
+      "label": "S6",
+      "chunk_id": "ac3b448b-888b-5a93-b57a-87115b25c5c1",
+      "http_status": 200,
+      "stored_passage_hash_matches": true
+    }
+  ],
+  "full_source_text_exported": false
+}

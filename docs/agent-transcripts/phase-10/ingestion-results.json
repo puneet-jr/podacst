@@ -1,0 +1,106 @@
+{
+  "runs": [
+    {
+      "timestamp": "2026-11-07T13:11:20.098224+00:00",
+      "event": {
+        "omitted_string_sha256": "48efc65feda195cce6664c9d7430fcb96d314a76e29a7976ad19dace42ca291c",
+        "characters": 16
+      },
+      "id": "55813c77-9bc4-4c7d-8c3f-17a52b5ce196",
+      "corpus_revision": "be8ab89a890a833cbba2c892178f823fff178c65",
+      "status": "completed",
+      "discovered": 303,
+      "loaded": 294,
+      "failed": 0,
+      "embedding_model": "nomic-embed-text:latest",
+      "embedding_dimensions": 768,
+      "created_at": "2026-11-07 12:27:25.108300+00:00",
+      "completed_at": "2026-11-07 13:11:20.054504+00:00",
+      "selected": 303,
+      "skipped": 9,
+      "deleted": 0,
+      "embedding_digest": {
+        "omitted_string_sha256": "d686ef27471bc55fec611d1a4790e465145fee90e45ff85c9fb498225307fbdb",
+        "characters": 64
+      },
+      "pipeline_version": {
+        "omitted_string_sha256": "af93d625a3091ca00255da05e63271e1b9149280484154e75c622006d16d138e",
+        "characters": 41
+      },
+      "source_url": {
+        "omitted_string_sha256": "95bf19b2a6cc638c2448c7835cde97e40d28d82aac8dcb96ee4750d15acdf58a",
+        "characters": 53
+      },
+      "source_kind": {
+        "omitted_string_sha256": "6b17b8fcc411a533c822a5117e33cf73fa6766739d7d36ac86dc4bea883af4fe",
+        "characters": 6
+      },
+      "manifest_complete": true,
+      "last_error_code": null,
+      "heartbeat_at": {
+        "omitted_string_sha256": "9e3d44b79fb49f1d40128fa9edf2d50e48ce021f02e5bf5a1aaa842bb8d19a2b",
+        "characters": 32
+      },
+      "active_episodes": 303,
+      "active_chunks": 12770,
+      "unattempted": 0,
+      "duration_seconds": 2635.388666457002
+    },
+    {
+      "timestamp": "2026-11-07T13:11:51.446965+00:00",
+      "event": {
+        "omitted_string_sha256": "48efc65feda195cce6664c9d7430fcb96d314a76e29a7976ad19dace42ca291c",
+        "characters": 16
+      },
+      "id": "9d07a94a-19b5-49f8-a07c-fd4bc1a46f44",
+      "corpus_revision": "be8ab89a890a833cbba2c892178f823fff178c65",
+      "status": "completed",
+      "discovered": 303,
+      "loaded": 0,
+      "failed": 0,
+      "embedding_model": "nomic-embed-text:latest",
+      "embedding_dimensions": 768,
+      "created_at": "2026-11-07 13:11:50.084417+00:00",
+      "completed_at": "2026-11-07 13:11:51.413922+00:00",
+      "selected": 303,
+      "skipped": 303,
+      "deleted": 0,
+      "embedding_digest": {
+        "omitted_string_sha256": "d686ef27471bc55fec611d1a4790e465145fee90e45ff85c9fb498225307fbdb",
+        "characters": 64
+      },
+      "pipeline_version": {
+        "omitted_string_sha256": "af93d625a3091ca00255da05e63271e1b9149280484154e75c622006d16d138e",
+        "characters": 41
+      },
+      "source_url": {
+        "omitted_string_sha256": "95bf19b2a6cc638c2448c7835cde97e40d28d82aac8dcb96ee4750d15acdf58a",
+        "characters": 53
+      },
+      "source_kind": {
+        "omitted_string_sha256": "6b17b8fcc411a533c822a5117e33cf73fa6766739d7d36ac86dc4bea883af4fe",
+        "characters": 6
+      },
+      "manifest_complete": true,
+      "last_error_code": null,
+      "heartbeat_at": {
+        "omitted_string_sha256": "fe718178851d90ddc44e3bf3634e647d19860e786fd7704b3bac78e650b6af14",
+        "characters": 32
+      },
+      "active_episodes": 303,
+      "active_chunks": 12770,
+      "unattempted": 0,
+      "duration_seconds": 1.6259922930039465
+    }
+  ],
+  "initial_index": {
+    "episodes": 9,
+    "passages": 373
+  },
+  "pipeline": {
+    "omitted_string_sha256": "af93d625a3091ca00255da05e63271e1b9149280484154e75c622006d16d138e",
+    "characters": 41
+  },
+  "source_hash_preflight": true,
+  "embedding_model_preflight_compatible": true
+}

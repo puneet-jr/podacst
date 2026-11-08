@@ -1,0 +1,12 @@
+{
+  "configured_values_checked": 4,
+  "scanned_files": 821,
+  "matching_files": [],
+  "baseline_source_hashes_match": 41,
+  "archived_experiment_files_unchanged": 14,
+  "original_raw_evidence_files_unchanged": 170,
+  "frozen_scenario_definition_retained_verbatim": true,
+  "root_index_empty": true,
+  "root_diff_check": true,
+  "scope": "Exact configured-secret values/common patterns in complete candidate,new Phase11 evidence/streams/live smoke and changed reports. No values printed. Not universal assurance;normal private historical trace volume/history outside scan."
+}

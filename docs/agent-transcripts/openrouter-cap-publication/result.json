@@ -1,0 +1,659 @@
+{
+  "candidate": {
+    "omitted_string_sha256": "f1c0c7c0f09a647bb934f0b1cc98af70670814d9358d32692690ae8efcd60323",
+    "characters": 40
+  },
+  "uncommitted_test_patch": true,
+  "final_gptoss_output_cap": 1024,
+  "model_requested": {
+    "omitted_string_sha256": "298e8d39a15868700f94b656d51cfa57fb62388b8910cd847f8f746503c1a6cc",
+    "characters": 19
+  },
+  "provider_requested": {
+    "omitted_string_sha256": "7f871cbf905f6e0cd598b11609f33f609e60a61892ac6b37e80cf1de282ee367",
+    "characters": 10
+  },
+  "key_source": {
+    "omitted_string_sha256": "e1d30ffe676e37f156e5a09e737ada60b384acc46c4874ee4a0f83798a6c577b",
+    "characters": 33
+  },
+  "routing": {
+    "allow_fallbacks": false,
+    "require_parameters": true,
+    "data_collection": {
+      "omitted_string_sha256": "3026a0ca485e5831657ba0120fa8dd66b3425427bfb0a2be0db743e2305cc7c5",
+      "characters": 4
+    }
+  },
+  "provider_only_omitted": true,
+  "started_at": "2026-11-08T06:55:32.203129+00:00",
+  "fixture": false,
+  "automatic_retries": false,
+  "automatic_model_fallback": false,
+  "public_only": true,
+  "turns": [
+    {
+      "prompt": {
+        "omitted_string_sha256": "8cede66220acb97b70a5a5f99745e1bb9b9123f519db929bded219151f128b52",
+        "characters": 48
+      },
+      "elapsed_seconds": 17.857,
+      "app_http_status": 200,
+      "run_id": "5e46e39c-8788-445a-ad99-ffe7ab7e743f",
+      "status": "completed",
+      "error_code": null,
+      "recorded_provider": {
+        "omitted_string_sha256": "7f871cbf905f6e0cd598b11609f33f609e60a61892ac6b37e80cf1de282ee367",
+        "characters": 10
+      },
+      "recorded_model": {
+        "omitted_string_sha256": "298e8d39a15868700f94b656d51cfa57fb62388b8910cd847f8f746503c1a6cc",
+        "characters": 19
+      },
+      "context_message_ids": [],
+      "retrieval_ran": true,
+      "retrieval_completed": true,
+      "retrieved_passage_ids": [
+        {
+          "omitted_string_sha256": "be7d36a2aee88a4170a02968b73d12a1366aa969f197020bbc8a2fdb6cd334cc",
+          "characters": 36
+        },
+        {
+          "omitted_string_sha256": "00b21045b689e552ad88b799bd479b7517666a43cc8b938cf23a1505b20c9ab6",
+          "characters": 36
+        },
+        {
+          "omitted_string_sha256": "ac9664d29375bdc694298a9ce52f43bde13cd3a39d0f1f6815e4d3ee8cc125b0",
+          "characters": 36
+        },
+        {
+          "omitted_string_sha256": "c8d2b19f46550a8b7408e546d276e8b1f87864fd633fb10c608ce82dcdab8582",
+          "characters": 36
+        },
+        {
+          "omitted_string_sha256": "b7447ec9d0e0afe11472dc2073d7e349530ecc352352fb40125f92369b118163",
+          "characters": 36
+        }
+      ],
+      "process_reaped": true,
+      "bridge_closed": true,
+      "sources": [
+        {
+          "label": "S1",
+          "chunk_id": "53054eb0-beee-5be4-b2f1-99ca9b2eac2d",
+          "source_hash": "6af2a6e031826805e855ec262b1f228e3773b5b99265a1d01870f0d4e6e9ceda",
+          "exact_spans": true,
+          "opened_in_browser": true,
+          "answer_quoted_texts_sha256": [
+            {
+              "omitted_string_sha256": "8cbbf4002049fe1f4d73a370b50b5ff629ccf7ec79e4ec78e78c157850e51958",
+              "characters": 64
+            }
+          ]
+        }
+      ],
+      "answer_exists": true,
+      "protocol": {
+        "frame_types": {
+          "response": 6,
+          "agent_start": 1,
+          "turn_start": 2,
+          "message_start": 5,
+          "message_end": 5,
+          "message_update": 145,
+          "tool_execution_start": 1,
+          "tool_execution_end": 1,
+          "turn_end": 2,
+          "agent_end": 1,
+          "agent_settled": 1
+        },
+        "provider_turns": 2,
+        "tool_starts": 1,
+        "tool_ends": 1,
+        "raw_payload_capture_enabled": false,
+        "assistant_event_metadata": [
+          {
+            "finish_reason": {
+              "omitted_string_sha256": "24f39da30b810c9a36a94d8b7fd456ec1636be5203d0661bd9baa870fcd47c34",
+              "characters": 7
+            },
+            "upstream_finish_reason": {
+              "omitted_string_sha256": "8e920ae7d06bef0e7e617974cd02be9c07cfbca65b0dbb89895394a1318b6534",
+              "characters": 10
+            },
+            "token_usage": {
+              "input": 189,
+              "output": 35,
+              "cacheRead": 48,
+              "cacheWrite": 0,
+              "reasoning": 0,
+              "totalTokens": 272
+            },
+            "content_present": true,
+            "text_present": false,
+            "text_outside_standard_blocks_present": false,
+            "reasoning_present": false,
+            "tool_call_count": 1,
+            "upstream_provider": null,
+            "sanitized_error_code": null
+          },
+          {
+            "finish_reason": {
+              "omitted_string_sha256": "6c45cb72a36e63d522aa54ed8adbd7a29a989474f2f77e0458af8800564ef3cb",
+              "characters": 4
+            },
+            "upstream_finish_reason": {
+              "omitted_string_sha256": "6c45cb72a36e63d522aa54ed8adbd7a29a989474f2f77e0458af8800564ef3cb",
+              "characters": 4
+            },
+            "token_usage": {
+              "input": 127,
+              "output": 147,
+              "cacheRead": 1024,
+              "cacheWrite": 0,
+              "reasoning": 129,
+              "totalTokens": 1298
+            },
+            "content_present": true,
+            "text_present": true,
+            "text_outside_standard_blocks_present": false,
+            "reasoning_present": true,
+            "tool_call_count": 0,
+            "upstream_provider": null,
+            "sanitized_error_code": null
+          }
+        ],
+        "assistant_final_metadata": [
+          {
+            "finish_reason": {
+              "omitted_string_sha256": "24f39da30b810c9a36a94d8b7fd456ec1636be5203d0661bd9baa870fcd47c34",
+              "characters": 7
+            },
+            "upstream_finish_reason": {
+              "omitted_string_sha256": "8e920ae7d06bef0e7e617974cd02be9c07cfbca65b0dbb89895394a1318b6534",
+              "characters": 10
+            },
+            "token_usage": {
+              "input": 189,
+              "output": 35,
+              "cacheRead": 48,
+              "cacheWrite": 0,
+              "reasoning": 0,
+              "totalTokens": 272
+            },
+            "content_present": true,
+            "text_present": false,
+            "text_outside_standard_blocks_present": false,
+            "reasoning_present": false,
+            "tool_call_count": 1,
+            "upstream_provider": {
+              "omitted_string_sha256": "564853eb7440c29f5d2eea0088744f6ce5c1306a3a9778469ac7851632d7c194",
+              "characters": 14
+            },
+            "sanitized_error_code": null,
+            "generation_finish_reason": {
+              "omitted_string_sha256": "8e920ae7d06bef0e7e617974cd02be9c07cfbca65b0dbb89895394a1318b6534",
+              "characters": 10
+            },
+            "generation_native_finish_reason": {
+              "omitted_string_sha256": "6c45cb72a36e63d522aa54ed8adbd7a29a989474f2f77e0458af8800564ef3cb",
+              "characters": 4
+            },
+            "generation_token_usage": {
+              "tokens_prompt": 229,
+              "tokens_completion": 11,
+              "native_tokens_prompt": 237,
+              "native_tokens_completion": 35,
+              "native_tokens_reasoning": 0,
+              "native_tokens_cached": 48
+            }
+          },
+          {
+            "finish_reason": {
+              "omitted_string_sha256": "6c45cb72a36e63d522aa54ed8adbd7a29a989474f2f77e0458af8800564ef3cb",
+              "characters": 4
+            },
+            "upstream_finish_reason": {
+              "omitted_string_sha256": "6c45cb72a36e63d522aa54ed8adbd7a29a989474f2f77e0458af8800564ef3cb",
+              "characters": 4
+            },
+            "token_usage": {
+              "input": 127,
+              "output": 147,
+              "cacheRead": 1024,
+              "cacheWrite": 0,
+              "reasoning": 129,
+              "totalTokens": 1298
+            },
+            "content_present": true,
+            "text_present": true,
+            "text_outside_standard_blocks_present": false,
+            "reasoning_present": true,
+            "tool_call_count": 0,
+            "upstream_provider": {
+              "omitted_string_sha256": "b46aa4c8e9d845e9fc1ba9655e9d74923eb6069d537ded498a70886f4bbb7490",
+              "characters": 6
+            },
+            "sanitized_error_code": null,
+            "generation_finish_reason": {
+              "omitted_string_sha256": "6c45cb72a36e63d522aa54ed8adbd7a29a989474f2f77e0458af8800564ef3cb",
+              "characters": 4
+            },
+            "generation_native_finish_reason": {
+              "omitted_string_sha256": "6c45cb72a36e63d522aa54ed8adbd7a29a989474f2f77e0458af8800564ef3cb",
+              "characters": 4
+            },
+            "generation_token_usage": {
+              "tokens_prompt": 1270,
+              "tokens_completion": 171,
+              "native_tokens_prompt": 1151,
+              "native_tokens_completion": 147,
+              "native_tokens_reasoning": 129,
+              "native_tokens_cached": 1024
+            }
+          }
+        ]
+      },
+      "expected_supported_answer_present": true,
+      "answer_sha256": {
+        "omitted_string_sha256": "921e5b0a7fc4e597de3ca8a65d1bc50cbf8724b0be9fba01d51ae213fc7a262c",
+        "characters": 64
+      }
+    },
+    {
+      "prompt": {
+        "omitted_string_sha256": "dee1c7fd36907827a4a317d71ea5a2f17c8c09c43a022e43ff82e47e34e1564d",
+        "characters": 65
+      },
+      "elapsed_seconds": 11.0,
+      "app_http_status": 200,
+      "run_id": "cc883edd-8a08-4bd2-a05f-8d5f41f90ae7",
+      "status": "completed",
+      "error_code": null,
+      "recorded_provider": {
+        "omitted_string_sha256": "7f871cbf905f6e0cd598b11609f33f609e60a61892ac6b37e80cf1de282ee367",
+        "characters": 10
+      },
+      "recorded_model": {
+        "omitted_string_sha256": "298e8d39a15868700f94b656d51cfa57fb62388b8910cd847f8f746503c1a6cc",
+        "characters": 19
+      },
+      "context_message_ids": [
+        {
+          "omitted_string_sha256": "4c49609349dbe26c3a8540bbce41daaf2d165fa4c93d3539572804e9e655d19f",
+          "characters": 36
+        }
+      ],
+      "retrieval_ran": true,
+      "retrieval_completed": true,
+      "retrieved_passage_ids": [
+        {
+          "omitted_string_sha256": "be7d36a2aee88a4170a02968b73d12a1366aa969f197020bbc8a2fdb6cd334cc",
+          "characters": 36
+        },
+        {
+          "omitted_string_sha256": "00b21045b689e552ad88b799bd479b7517666a43cc8b938cf23a1505b20c9ab6",
+          "characters": 36
+        },
+        {
+          "omitted_string_sha256": "b208607f2757db48e8b5185af86baba98a4265e4d76558a1ac1f04ff9af8cfb9",
+          "characters": 36
+        },
+        {
+          "omitted_string_sha256": "ac9664d29375bdc694298a9ce52f43bde13cd3a39d0f1f6815e4d3ee8cc125b0",
+          "characters": 36
+        },
+        {
+          "omitted_string_sha256": "b7447ec9d0e0afe11472dc2073d7e349530ecc352352fb40125f92369b118163",
+          "characters": 36
+        }
+      ],
+      "process_reaped": true,
+      "bridge_closed": true,
+      "sources": [
+        {
+          "label": "S1",
+          "chunk_id": "53054eb0-beee-5be4-b2f1-99ca9b2eac2d",
+          "source_hash": "6af2a6e031826805e855ec262b1f228e3773b5b99265a1d01870f0d4e6e9ceda",
+          "exact_spans": true,
+          "opened_in_browser": true,
+          "answer_quoted_texts_sha256": [
+            {
+              "omitted_string_sha256": "18887d3b87c7eeca7e5910dd64da5f526f3a99123b076303677144029d8dc943",
+              "characters": 64
+            }
+          ]
+        }
+      ],
+      "answer_exists": true,
+      "protocol": {
+        "frame_types": {
+          "response": 6,
+          "agent_start": 1,
+          "turn_start": 2,
+          "message_start": 5,
+          "message_end": 5,
+          "message_update": 139,
+          "tool_execution_start": 1,
+          "tool_execution_end": 1,
+          "turn_end": 2,
+          "agent_end": 1,
+          "agent_settled": 1
+        },
+        "provider_turns": 2,
+        "tool_starts": 1,
+        "tool_ends": 1,
+        "raw_payload_capture_enabled": false,
+        "assistant_event_metadata": [
+          {
+            "finish_reason": {
+              "omitted_string_sha256": "24f39da30b810c9a36a94d8b7fd456ec1636be5203d0661bd9baa870fcd47c34",
+              "characters": 7
+            },
+            "upstream_finish_reason": {
+              "omitted_string_sha256": "8e920ae7d06bef0e7e617974cd02be9c07cfbca65b0dbb89895394a1318b6534",
+              "characters": 10
+            },
+            "token_usage": {
+              "input": 211,
+              "output": 37,
+              "cacheRead": 48,
+              "cacheWrite": 0,
+              "reasoning": 0,
+              "totalTokens": 296
+            },
+            "content_present": true,
+            "text_present": false,
+            "text_outside_standard_blocks_present": false,
+            "reasoning_present": false,
+            "tool_call_count": 1,
+            "upstream_provider": null,
+            "sanitized_error_code": null
+          },
+          {
+            "finish_reason": {
+              "omitted_string_sha256": "6c45cb72a36e63d522aa54ed8adbd7a29a989474f2f77e0458af8800564ef3cb",
+              "characters": 4
+            },
+            "upstream_finish_reason": {
+              "omitted_string_sha256": "6c45cb72a36e63d522aa54ed8adbd7a29a989474f2f77e0458af8800564ef3cb",
+              "characters": 4
+            },
+            "token_usage": {
+              "input": 1256,
+              "output": 144,
+              "cacheRead": 0,
+              "cacheWrite": 0,
+              "reasoning": 123,
+              "totalTokens": 1400
+            },
+            "content_present": true,
+            "text_present": true,
+            "text_outside_standard_blocks_present": false,
+            "reasoning_present": true,
+            "tool_call_count": 0,
+            "upstream_provider": null,
+            "sanitized_error_code": null
+          }
+        ],
+        "assistant_final_metadata": [
+          {
+            "finish_reason": {
+              "omitted_string_sha256": "24f39da30b810c9a36a94d8b7fd456ec1636be5203d0661bd9baa870fcd47c34",
+              "characters": 7
+            },
+            "upstream_finish_reason": {
+              "omitted_string_sha256": "8e920ae7d06bef0e7e617974cd02be9c07cfbca65b0dbb89895394a1318b6534",
+              "characters": 10
+            },
+            "token_usage": {
+              "input": 211,
+              "output": 37,
+              "cacheRead": 48,
+              "cacheWrite": 0,
+              "reasoning": 0,
+              "totalTokens": 296
+            },
+            "content_present": true,
+            "text_present": false,
+            "text_outside_standard_blocks_present": false,
+            "reasoning_present": false,
+            "tool_call_count": 1,
+            "upstream_provider": null,
+            "sanitized_error_code": null,
+            "metadata_error_code": {
+              "omitted_string_sha256": "56b0fb5d91bf79aeac7a6f325ce0304615d27cd70737b8cab5b07eb0f77307e5",
+              "characters": 28
+            }
+          },
+          {
+            "finish_reason": {
+              "omitted_string_sha256": "6c45cb72a36e63d522aa54ed8adbd7a29a989474f2f77e0458af8800564ef3cb",
+              "characters": 4
+            },
+            "upstream_finish_reason": {
+              "omitted_string_sha256": "6c45cb72a36e63d522aa54ed8adbd7a29a989474f2f77e0458af8800564ef3cb",
+              "characters": 4
+            },
+            "token_usage": {
+              "input": 1256,
+              "output": 144,
+              "cacheRead": 0,
+              "cacheWrite": 0,
+              "reasoning": 123,
+              "totalTokens": 1400
+            },
+            "content_present": true,
+            "text_present": true,
+            "text_outside_standard_blocks_present": false,
+            "reasoning_present": true,
+            "tool_call_count": 0,
+            "upstream_provider": null,
+            "sanitized_error_code": null,
+            "metadata_error_code": {
+              "omitted_string_sha256": "56b0fb5d91bf79aeac7a6f325ce0304615d27cd70737b8cab5b07eb0f77307e5",
+              "characters": 28
+            }
+          }
+        ]
+      },
+      "expected_supported_answer_present": true,
+      "answer_sha256": {
+        "omitted_string_sha256": "6178107763086ea2e0b2082ed4609b91682cddb4d80f43372234c5460a3b0c59",
+        "characters": 64
+      }
+    }
+  ],
+  "restored": true,
+  "key_in_output_or_logs": false,
+  "temporary_metadata_overlay": true,
+  "transcript_reasoning_raw_response_logging": false,
+  "public_source_guard": {
+    "all_active_sean_ellis_chunks_match_pinned_public_source": true,
+    "chunks": 52,
+    "active_generation_before_test": 0,
+    "public_source_sha256": {
+      "omitted_string_sha256": "98472e84eb87db92e48bfbd24d1e3ad5896e23bb4b611cb8c02b9bae63d40907",
+      "characters": 64
+    }
+  },
+  "before_provider": {
+    "privacy": {
+      "omitted_string_sha256": "cdb0a08bc02bc543b0cea80bb66c196589e1ed8100d507c2f27ab59312ef1083",
+      "characters": 45
+    },
+    "essay_model": "qwen3:1.7b",
+    "selected": "ollama",
+    "model": "qwen3:0.6b",
+    "automatic_fallback": false,
+    "providers": [
+      {
+        "id": "ollama",
+        "implemented": true,
+        "configured": true,
+        "scope": "Local chat and reviewed essays; local embeddings.",
+        "enabled": true
+      },
+      {
+        "id": "anthropic",
+        "implemented": true,
+        "configured": false,
+        "scope": "Pi native Anthropic Messages; live validation not established by configuration.",
+        "credentials_present": false,
+        "enabled": false,
+        "reason": {
+          "omitted_string_sha256": "3feb613537c10118203726c6b1b2b4bb4bb67a9b6d55834f3a8dc4bacbb4a5fc",
+          "characters": 17
+        }
+      },
+      {
+        "id": "openrouter",
+        "implemented": true,
+        "configured": false,
+        "scope": "Pi OpenRouter chat tools and advice-only essays. Key presence is not live validation; see recorded cited smoke evidence.",
+        "credentials_present": false,
+        "enabled": false,
+        "reason": {
+          "omitted_string_sha256": "3feb613537c10118203726c6b1b2b4bb4bb67a9b6d55834f3a8dc4bacbb4a5fc",
+          "characters": 17
+        }
+      }
+    ]
+  },
+  "openrouter_configuration": {
+    "direct_backend": {
+      "privacy": {
+        "omitted_string_sha256": "6fdcf9d5b11253613105fca41d5af846f2d95c7e022ee26a0e65f65eed36e1fb",
+        "characters": 227
+      },
+      "essay_model": "openai/gpt-oss-120b",
+      "selected": "openrouter",
+      "model": "openai/gpt-oss-120b",
+      "automatic_fallback": false,
+      "providers": [
+        {
+          "id": "ollama",
+          "implemented": true,
+          "configured": true,
+          "scope": "Local chat and reviewed essays; local embeddings.",
+          "enabled": false
+        },
+        {
+          "id": "anthropic",
+          "implemented": true,
+          "configured": false,
+          "scope": "Pi native Anthropic Messages; live validation not established by configuration.",
+          "credentials_present": false,
+          "enabled": false,
+          "reason": {
+            "omitted_string_sha256": "3feb613537c10118203726c6b1b2b4bb4bb67a9b6d55834f3a8dc4bacbb4a5fc",
+            "characters": 17
+          }
+        },
+        {
+          "id": "openrouter",
+          "implemented": true,
+          "configured": true,
+          "scope": "Pi OpenRouter chat tools and advice-only essays. Key presence is not live validation; see recorded cited smoke evidence.",
+          "credentials_present": true,
+          "enabled": true
+        }
+      ]
+    },
+    "web_backend": {
+      "privacy": {
+        "omitted_string_sha256": "6fdcf9d5b11253613105fca41d5af846f2d95c7e022ee26a0e65f65eed36e1fb",
+        "characters": 227
+      },
+      "essay_model": "openai/gpt-oss-120b",
+      "selected": "openrouter",
+      "model": "openai/gpt-oss-120b",
+      "automatic_fallback": false,
+      "providers": [
+        {
+          "id": "ollama",
+          "implemented": true,
+          "configured": true,
+          "scope": "Local chat and reviewed essays; local embeddings.",
+          "enabled": false
+        },
+        {
+          "id": "anthropic",
+          "implemented": true,
+          "configured": false,
+          "scope": "Pi native Anthropic Messages; live validation not established by configuration.",
+          "credentials_present": false,
+          "enabled": false,
+          "reason": {
+            "omitted_string_sha256": "3feb613537c10118203726c6b1b2b4bb4bb67a9b6d55834f3a8dc4bacbb4a5fc",
+            "characters": 17
+          }
+        },
+        {
+          "id": "openrouter",
+          "implemented": true,
+          "configured": true,
+          "scope": "Pi OpenRouter chat tools and advice-only essays. Key presence is not live validation; see recorded cited smoke evidence.",
+          "credentials_present": true,
+          "enabled": true
+        }
+      ]
+    }
+  },
+  "serialized_cap_verified_before_inference": true,
+  "ui_model_provider_confirmed": true,
+  "session_id": "5ec42e5f-469b-4df5-825f-b4965a360a94",
+  "page_errors": [],
+  "restored_provider": {
+    "privacy": {
+      "omitted_string_sha256": "cdb0a08bc02bc543b0cea80bb66c196589e1ed8100d507c2f27ab59312ef1083",
+      "characters": 45
+    },
+    "essay_model": "qwen3:1.7b",
+    "selected": "ollama",
+    "model": "qwen3:0.6b",
+    "automatic_fallback": false,
+    "providers": [
+      {
+        "id": "ollama",
+        "implemented": true,
+        "configured": true,
+        "scope": "Local chat and reviewed essays; local embeddings.",
+        "enabled": true
+      },
+      {
+        "id": "anthropic",
+        "implemented": true,
+        "configured": false,
+        "scope": "Pi native Anthropic Messages; live validation not established by configuration.",
+        "credentials_present": false,
+        "enabled": false,
+        "reason": {
+          "omitted_string_sha256": "3feb613537c10118203726c6b1b2b4bb4bb67a9b6d55834f3a8dc4bacbb4a5fc",
+          "characters": 17
+        }
+      },
+      {
+        "id": "openrouter",
+        "implemented": true,
+        "configured": false,
+        "scope": "Pi OpenRouter chat tools and advice-only essays. Key presence is not live validation; see recorded cited smoke evidence.",
+        "credentials_present": false,
+        "enabled": false,
+        "reason": {
+          "omitted_string_sha256": "3feb613537c10118203726c6b1b2b4bb4bb67a9b6d55834f3a8dc4bacbb4a5fc",
+          "characters": 17
+        }
+      }
+    ]
+  },
+  "restored_web_agrees": true,
+  "candidate_env_unchanged": true,
+  "candidate_clean": false,
+  "ended_at": "2026-11-08T06:56:19.971221+00:00",
+  "question_workflows_attempted": 2,
+  "followup_attempted": true,
+  "all_requested_checks_passed": true,
+  "credential_scan_files": 20,
+  "credential_scan_passed": true
+}

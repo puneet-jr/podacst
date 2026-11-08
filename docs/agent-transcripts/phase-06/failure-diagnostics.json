@@ -1,13 +1,28 @@
 {
-  "kind": "exact_error_projection_from_saved_rpc_and_actual_capture",
+  "kind": {
+    "omitted_string_sha256": "53989983bb60488851a76e45ff5876ffd6f87b68b281d3580e57bac16e3f3a23",
+    "characters": 56
+  },
   "run_id": "bf8f692a-a48f-43b4-b116-0f8755c799e7",
-  "stage": "section-1",
+  "stage": {
+    "omitted_string_sha256": "69dfcfb9aa5b0961d4d56e59602b9bc468eb1c55e49be0d0ff9404f76b842077",
+    "characters": 9
+  },
   "ollama_http_status": 400,
-  "error": "Failed to initialize samplers: failed to parse grammar",
+  "error": {
+    "omitted_string_sha256": "36ed5f6635abaad152b60d2d6181fb194c965040a038ba3ca3252ba7756ce4f4",
+    "characters": 54
+  },
   "prompt_bytes": 9602,
   "requested_output_tokens": 850,
   "active_tools": [],
   "model_text_generated": false,
-  "evidence": "commands.jsonl contains the actual read-only diagnostic command/output; private raw stdout/stderr retained in chat_traces.",
-  "cause_scope": "Structured-output grammar rejected before drafting. Specific unsupported schema keyword/interaction not isolated; do not infer model long-form incapacity."
+  "evidence": {
+    "omitted_string_sha256": "cdfeca3bee41ee022d814cc70e90fcb635b514de5214f6a5ef7896b0b364a142",
+    "characters": 122
+  },
+  "cause_scope": {
+    "omitted_string_sha256": "e78d3e5e952b352e695cd9678b717ccd3e546353e321da40ec57b3943dfdab43",
+    "characters": 154
+  }
 }

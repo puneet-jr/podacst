@@ -1,0 +1,372 @@
+{
+  "id": "10bd6726-1b74-41cf-9d89-a3f0c9f48629",
+  "session_id": "b434b873-9092-411d-9223-18dbb19f25ee",
+  "user_message_id": "aa1ff1b0-a9fc-495d-b981-99327f757dc5",
+  "assistant_message_id": "c1dae124-fac8-5edd-98e2-d22a7db5c34f",
+  "status": "completed",
+  "request": {
+    "topic": "Use must-have customer feedback to improve positioning and onboarding",
+    "audience": "Early-stage product managers deciding how to move users toward first value",
+    "workflow": "ship30",
+    "constraints": "Explain the survey, benefit-focused follow-ups, the Lookout case and limitations. No survey score guarantees product-market fit, measured engagement/conversion improvement, or onboarding-only causality. Proposed actions must remain advice and expected benefits hypotheses.",
+    "source_path": "episodes/sean-ellis/transcript.md",
+    "focus_questions": [
+      "Sean Ellis must-have product market fit survey how would you feel no longer use very disappointed",
+      "Sean Ellis Lookout antivirus positioning onboarding first value",
+      "Sean Ellis survey customer segments benefits product market fit focus"
+    ],
+    "timeout_seconds": 600.0,
+    "use_session_context": true
+  },
+  "context_message_ids": [],
+  "outline": {
+    "title": "Use must-have customer feedback to improve positioning and onboarding",
+    "status": "ready",
+    "sections": [
+      {
+        "heading": "Ask the question before changing the journey",
+        "purpose": "Read this retrieved evidence and distinguish proposed application.",
+        "source_ids": [
+          "S1"
+        ]
+      },
+      {
+        "heading": "Read the case in its context",
+        "purpose": "Read this retrieved evidence and distinguish proposed application.",
+        "source_ids": [
+          "S2"
+        ]
+      },
+      {
+        "heading": "Find the benefit users describe",
+        "purpose": "Read this retrieved evidence and distinguish proposed application.",
+        "source_ids": [
+          "S3"
+        ]
+      },
+      {
+        "heading": "Choose what to investigate",
+        "purpose": "Read this retrieved evidence and distinguish proposed application.",
+        "source_ids": [
+          "S4"
+        ]
+      },
+      {
+        "heading": "Turn observations into a test",
+        "purpose": "Read this retrieved evidence and distinguish proposed application.",
+        "source_ids": [
+          "S5"
+        ]
+      },
+      {
+        "heading": "Keep the limits visible",
+        "purpose": "Read this retrieved evidence and distinguish proposed application.",
+        "source_ids": [
+          "S6"
+        ]
+      }
+    ]
+  },
+  "sections": [
+    {
+      "body": "> Just ignore the people who say they'd be somewhat disappointed. They're telling you it's a nice to have. If you start paying attention to what your somewhat disappointed users are telling you and then you start tweaking onboarding and product based on their feedback, maybe you're going to dilute it for your must have users. [S1]\n\n> It's usually much more function of onboarding to the right user experience than it is about the kind of the tactical things that people try to do to improve retention. [S1]\n\n> The question is, how would you feel if you could no longer use this product? Once you got a high enough percentage of users saying they'd be very disappointed, most of those products did pretty well. If you felt too low, those products tended to suffer. [S1]\n\nApplication: Which feedback should shape your next onboarding change? Try recording benefit descriptions before rewriting the signup promise. Compare what users value with the first meaningful task you ask them to complete. Track the proportion of new users completing that task and preserve explanations from people who stop. Treat better completion from a revised promise as a hypothesis. Review the observations before deciding whether to keep the revision, investigate a different benefit, or gather more responses. Keep the survey question separate from the completion measure so the review has two distinct observations to discuss.",
+      "error": null,
+      "advice": "Which feedback should shape your next onboarding change? Try recording benefit descriptions before rewriting the signup promise. Compare what users value with the first meaningful task you ask them to complete. Track the proportion of new users completing that task and preserve explanations from people who stop. Treat better completion from a revised promise as a hypothesis. Review the observations before deciding whether to keep the revision, investigate a different benefit, or gather more responses. Keep the survey question separate from the completion measure so the review has two distinct observations to discuss.",
+      "heading": "Ask the question before changing the journey",
+      "source_ids": [
+        "S1"
+      ]
+    },
+    {
+      "body": "> So the company called Lookout, it's a mobile security company, and now most of the things in Lookout are built into iPhones and Androids. [S2]\n\n> And so when we ran this initial survey, I dug into the 7% who said they'd be very disappointed without the product and found that most of that 7% were focused on the antivirus functionality. [S2]\n\n> And so now we knew, okay, it's antivirus that people really valued. And so step one was just reposition the product on antivirus. [S2]\n\n> But then the second thing that we did was we streamlined onboarding so that the first thing that they did after signing up for the product was to set up the antivirus and then get a message \"you're now protected from viruses.\" [S2]\n\n> And so it's really the combination of those two things. It's set the right expectations and then speed to value. And so the next cohort of people that we surveyed were at 40% saying they'd be very disappointed without the product. [S2]\n\nApplication: Try comparing your current signup promise and first onboarding task with one revision. Record completed first tasks and the number of people who started, alongside their explanations of what they expected. Treat better completion as a hypothesis, not an outcome already established. After reviewing both versions, decide whether to keep the revision, revise it again, or gather more observations before choosing.",
+      "error": null,
+      "advice": "Try comparing your current signup promise and first onboarding task with one revision. Record completed first tasks and the number of people who started, alongside their explanations of what they expected. Treat better completion as a hypothesis, not an outcome already established. After reviewing both versions, decide whether to keep the revision, revise it again, or gather more observations before choosing.",
+      "heading": "Read the case in its context",
+      "source_ids": [
+        "S2"
+      ]
+    },
+    {
+      "body": "> Yeah, I mean it tells you something really important, which is, you haven't created something that people don't care about. So that's an important insight. But until you deeply understand that product market fit, you kind of don't have the tools to be able to grow the business. So that's really the next step, is to dig in and figure out who considers it a must have, how are they using the product, what did they use before, what problem are they solving. [S3]\n\n> One of my favorite questions is... So I tend to have a lot of questions that I build off of that I'm using that filter, trying to drill into the users who say they'd be very disappointed without the product, and one of my favorite questions is, \"What is the primary benefit that you get?\" And then I use that initially as an open-ended question to kind of crowdsource different benefits people are getting. But then I run another survey where I turn it into a multiple choice question, force them to pick one of four distinctive benefit statements. And then the question that follows on that next survey is, \"Why is that benefit important to you?\" And then I start to get really good context. [S3]\n\nApplication: **Treat improvement as a hypothesis.** Ask users to describe the primary benefit in their own words before offering benefit choices. Preserve the original responses and review answers that challenge your preferred interpretation. Choose one benefit to investigate, then compare a first task that reflects it with the current task. Track completion and record what users expected. Treat better alignment as a hypothesis and decide what to investigate next after reading the responses.",
+      "error": null,
+      "advice": "Ask users to describe the primary benefit in their own words before offering benefit choices. Preserve the original responses and review answers that challenge your preferred interpretation. Choose one benefit to investigate, then compare a first task that reflects it with the current task. Track completion and record what users expected. Treat better alignment as a hypothesis and decide what to investigate next after reading the responses.",
+      "heading": "Find the benefit users describe",
+      "source_ids": [
+        "S3"
+      ]
+    },
+    {
+      "body": "> So if you think about it, how would you feel if you can no longer use this feature starts to give you, again, the signal, is that feature a must-have feature? And if it's not, maybe we shouldn't have it. And so yeah, I was super excited when I saw how they were using the survey and they were doing it before I engaged with them. [S4]\n\nApplication: Choose a single feature or benefit to investigate before editing several parts of onboarding at once. Write down what observation would change your mind about its importance. Ask users why it matters, keep contradictory answers and compare the proposed first task with the current one. Track completion rather than treating an enthusiastic comment as proof. Decide whether to keep the change, revise the hypothesis or ask a different question.",
+      "error": null,
+      "advice": "Choose a single feature or benefit to investigate before editing several parts of onboarding at once. Write down what observation would change your mind about its importance. Ask users why it matters, keep contradictory answers and compare the proposed first task with the current one. Track completion rather than treating an enthusiastic comment as proof. Decide whether to keep the change, revise the hypothesis or ask a different question.",
+      "heading": "Choose what to investigate",
+      "source_ids": [
+        "S4"
+      ]
+    },
+    {
+      "body": "> So it's not surprising that there was so many steps where we could lose people, but we just weren't that intentional about designing each of those steps initially. And it wasn't until we thought through why would we lose someone at this step and studying the data, which steps were we losing the most people at? Then deeply trying to contextualize why are we losing them there, coming up with a set of tests that we want to run and then having a good way of deciding which one to test first and ultimately focusing the tests on the areas where we're losing the most people. [S5]\n\nApplication: Compare the existing signup promise and first meaningful task with a proposed revision. Define what completion means before looking at the results, then record both completed tasks and the number of people who started each version. Keep their explanations beside the counts. Treat better completion as a hypothesis and check whether the observations support it. If the versions suggest different benefits or obstacles, choose one to investigate rather than changing everything. Review the original feedback before deciding to keep the revision, revise the wording or collect more observations. Record that decision and the evidence behind it so the next review can revisit the same question.",
+      "error": null,
+      "advice": "Compare the existing signup promise and first meaningful task with a proposed revision. Define what completion means before looking at the results, then record both completed tasks and the number of people who started each version. Keep their explanations beside the counts. Treat better completion as a hypothesis and check whether the observations support it. If the versions suggest different benefits or obstacles, choose one to investigate rather than changing everything. Review the original feedback before deciding to keep the revision, revise the wording or collect more observations. Record that decision and the evidence behind it so the next review can revisit the same question.",
+      "heading": "Turn observations into a test",
+      "source_ids": [
+        "S5"
+      ]
+    },
+    {
+      "body": "> So to me, the hardest, I wouldn't obsess on onboarding if I know those who kind of get through the challenge of getting started with the product still don't like the product then feels like it's a core product issue or wrong people using it in the wrong way issue. But once you have that, then ultimately it doesn't mean that you're ready to grow. When I focus on growth, then customer acquisition is almost the last step. [S6]\n\n- Application: Preserve the raw benefit descriptions before choosing an interpretation.\n- Application: Select one benefit hypothesis and one first task to investigate.\n- Application: Track completed tasks alongside the number of people who started, and read the explanations from both groups.\n- Application: If observations conflict, keep the cause open and choose the next question.\n- Application: After reviewing the data, decide whether to keep the revision, revise the hypothesis or gather more observations.",
+      "error": null,
+      "advice": "Preserve the raw benefit descriptions before choosing an interpretation. Select one benefit hypothesis and one first task to investigate. Track completed tasks alongside the number of people who started, and read the explanations from both groups. If observations conflict, keep the cause open and choose the next question. After reviewing the data, decide whether to keep the revision, revise the hypothesis or gather more observations.",
+      "heading": "Keep the limits visible",
+      "source_ids": [
+        "S6"
+      ]
+    }
+  ],
+  "draft_md": "# Use must-have customer feedback to improve positioning and onboarding\n\n## Ask the question before changing the journey\n\n> Just ignore the people who say they'd be somewhat disappointed. They're telling you it's a nice to have. If you start paying attention to what your somewhat disappointed users are telling you and then you start tweaking onboarding and product based on their feedback, maybe you're going to dilute it for your must have users. [S1]\n\n> It's usually much more function of onboarding to the right user experience than it is about the kind of the tactical things that people try to do to improve retention. [S1]\n\n> The question is, how would you feel if you could no longer use this product? Once you got a high enough percentage of users saying they'd be very disappointed, most of those products did pretty well. If you felt too low, those products tended to suffer. [S1]\n\nApplication: Which feedback should shape your next onboarding change? Try recording benefit descriptions before rewriting the signup promise. Compare what users value with the first meaningful task you ask them to complete. Track the proportion of new users completing that task and preserve explanations from people who stop. Treat better completion from a revised promise as a hypothesis. Review the observations before deciding whether to keep the revision, investigate a different benefit, or gather more responses. Keep the survey question separate from the completion measure so the review has two distinct observations to discuss.\n\n## Read the case in its context\n\n> So the company called Lookout, it's a mobile security company, and now most of the things in Lookout are built into iPhones and Androids. [S2]\n\n> And so when we ran this initial survey, I dug into the 7% who said they'd be very disappointed without the product and found that most of that 7% were focused on the antivirus functionality. [S2]\n\n> And so now we knew, okay, it's antivirus that people really valued. And so step one was just reposition the product on antivirus. [S2]\n\n> But then the second thing that we did was we streamlined onboarding so that the first thing that they did after signing up for the product was to set up the antivirus and then get a message \"you're now protected from viruses.\" [S2]\n\n> And so it's really the combination of those two things. It's set the right expectations and then speed to value. And so the next cohort of people that we surveyed were at 40% saying they'd be very disappointed without the product. [S2]\n\nApplication: Try comparing your current signup promise and first onboarding task with one revision. Record completed first tasks and the number of people who started, alongside their explanations of what they expected. Treat better completion as a hypothesis, not an outcome already established. After reviewing both versions, decide whether to keep the revision, revise it again, or gather more observations before choosing.\n\n## Find the benefit users describe\n\n> Yeah, I mean it tells you something really important, which is, you haven't created something that people don't care about. So that's an important insight. But until you deeply understand that product market fit, you kind of don't have the tools to be able to grow the business. So that's really the next step, is to dig in and figure out who considers it a must have, how are they using the product, what did they use before, what problem are they solving. [S3]\n\n> One of my favorite questions is... So I tend to have a lot of questions that I build off of that I'm using that filter, trying to drill into the users who say they'd be very disappointed without the product, and one of my favorite questions is, \"What is the primary benefit that you get?\" And then I use that initially as an open-ended question to kind of crowdsource different benefits people are getting. But then I run another survey where I turn it into a multiple choice question, force them to pick one of four distinctive benefit statements. And then the question that follows on that next survey is, \"Why is that benefit important to you?\" And then I start to get really good context. [S3]\n\nApplication: **Treat improvement as a hypothesis.** Ask users to describe the primary benefit in their own words before offering benefit choices. Preserve the original responses and review answers that challenge your preferred interpretation. Choose one benefit to investigate, then compare a first task that reflects it with the current task. Track completion and record what users expected. Treat better alignment as a hypothesis and decide what to investigate next after reading the responses.\n\n## Choose what to investigate\n\n> So if you think about it, how would you feel if you can no longer use this feature starts to give you, again, the signal, is that feature a must-have feature? And if it's not, maybe we shouldn't have it. And so yeah, I was super excited when I saw how they were using the survey and they were doing it before I engaged with them. [S4]\n\nApplication: Choose a single feature or benefit to investigate before editing several parts of onboarding at once. Write down what observation would change your mind about its importance. Ask users why it matters, keep contradictory answers and compare the proposed first task with the current one. Track completion rather than treating an enthusiastic comment as proof. Decide whether to keep the change, revise the hypothesis or ask a different question.\n\n## Turn observations into a test\n\n> So it's not surprising that there was so many steps where we could lose people, but we just weren't that intentional about designing each of those steps initially. And it wasn't until we thought through why would we lose someone at this step and studying the data, which steps were we losing the most people at? Then deeply trying to contextualize why are we losing them there, coming up with a set of tests that we want to run and then having a good way of deciding which one to test first and ultimately focusing the tests on the areas where we're losing the most people. [S5]\n\nApplication: Compare the existing signup promise and first meaningful task with a proposed revision. Define what completion means before looking at the results, then record both completed tasks and the number of people who started each version. Keep their explanations beside the counts. Treat better completion as a hypothesis and check whether the observations support it. If the versions suggest different benefits or obstacles, choose one to investigate rather than changing everything. Review the original feedback before deciding to keep the revision, revise the wording or collect more observations. Record that decision and the evidence behind it so the next review can revisit the same question.\n\n## Keep the limits visible\n\n> So to me, the hardest, I wouldn't obsess on onboarding if I know those who kind of get through the challenge of getting started with the product still don't like the product then feels like it's a core product issue or wrong people using it in the wrong way issue. But once you have that, then ultimately it doesn't mean that you're ready to grow. When I focus on growth, then customer acquisition is almost the last step. [S6]\n\n- Application: Preserve the raw benefit descriptions before choosing an interpretation.\n- Application: Select one benefit hypothesis and one first task to investigate.\n- Application: Track completed tasks alongside the number of people who started, and read the explanations from both groups.\n- Application: If observations conflict, keep the cause open and choose the next question.\n- Application: After reviewing the data, decide whether to keep the revision, revise the hypothesis or gather more observations.",
+  "validation": {
+    "errors": [],
+    "limits": "ID/count/format screens are not semantic support, hook quality, meaningful progression or completeness proof.",
+    "bullets": 5,
+    "bold_spans": 1,
+    "word_count": 1270,
+    "citation_ids": [
+      "S1",
+      "S2",
+      "S3",
+      "S4",
+      "S5",
+      "S6"
+    ],
+    "section_count": 6,
+    "accepted_range": [
+      1125,
+      1375
+    ],
+    "incomplete_sections": [],
+    "section_word_counts": [
+      225,
+      227,
+      282,
+      136,
+      212,
+      148
+    ],
+    "passed_deterministic": true,
+    "manual_review_required": true
+  },
+  "review": {
+    "hook": true,
+    "notes": [
+      "All factual blocks checked as exact source spans with adjacent valid citations. Complete context and qualifications manually reviewed.",
+      "All advice explicitly revised and recorded: no new historical claims, expected benefits as hypotheses, concrete metrics and decisions.",
+      "Raw standard-endpoint output preserved, including leaked91 words and clipped excerpts. Manual advice edits and3 evidence edits disclosed.",
+      "Full1125\u20131375-word rubric,6 sections, bullets and selective bold pass; evidence-led quote-heavy style, not autonomous model quality."
+    ],
+    "complete": true,
+    "reviewer": "Codex direct claim and readability review",
+    "progression": true,
+    "factual_support": true,
+    "applications_distinct": true
+  },
+  "error_code": null,
+  "metadata": {
+    "fact_sections": [
+      {
+        "facts": [
+          {
+            "end": 898,
+            "text": "Just ignore the people who say they'd be somewhat disappointed. They're telling you it's a nice to have. If you start paying attention to what your somewhat disappointed users are telling you and then you start tweaking onboarding and product based on their feedback, maybe you're going to dilute it for your must have users.",
+            "start": 573,
+            "sha256": "b36afb1d474a3a9fb24acc08ecabd5fdb1959224d656325df287703d65c91bc1",
+            "chunk_id": "bdd3d954-095e-5f5a-8be1-5f38377168ff",
+            "source_id": "S1"
+          },
+          {
+            "end": 1221,
+            "text": "It's usually much more function of onboarding to the right user experience than it is about the kind of the tactical things that people try to do to improve retention.",
+            "start": 1054,
+            "sha256": "51cb8cbdfb8f6325ee77228c83ca7c92de41f4e279d893ec3a31dba023f5ad2b",
+            "chunk_id": "bdd3d954-095e-5f5a-8be1-5f38377168ff",
+            "source_id": "S1"
+          },
+          {
+            "end": 386,
+            "text": "The question is, how would you feel if you could no longer use this product? Once you got a high enough percentage of users saying they'd be very disappointed, most of those products did pretty well. If you felt too low, those products tended to suffer.",
+            "start": 133,
+            "sha256": "aa75a15d30f798ee760408e2cc73657fa9bdad2e86cf2f1b90e877a7c1a4081f",
+            "chunk_id": "bdd3d954-095e-5f5a-8be1-5f38377168ff",
+            "source_id": "S1"
+          }
+        ],
+        "heading": "Ask the question before changing the journey",
+        "source_ids": [
+          "S1"
+        ]
+      },
+      {
+        "facts": [
+          {
+            "end": 486,
+            "text": "So the company called Lookout, it's a mobile security company, and now most of the things in Lookout are built into iPhones and Androids.",
+            "start": 349,
+            "sha256": "127067b445619267057f3d5b95d934869940d691da8bec8adca2744f60a2a758",
+            "chunk_id": "53054eb0-beee-5be4-b2f1-99ca9b2eac2d",
+            "source_id": "S2"
+          },
+          {
+            "end": 820,
+            "text": "And so when we ran this initial survey, I dug into the 7% who said they'd be very disappointed without the product and found that most of that 7% were focused on the antivirus functionality.",
+            "start": 630,
+            "sha256": "703c3f1a23ec2b7af7d3d5ec3deab42000dddb54cf6eda36375d9102d56bfa05",
+            "chunk_id": "53054eb0-beee-5be4-b2f1-99ca9b2eac2d",
+            "source_id": "S2"
+          },
+          {
+            "end": 1325,
+            "text": "And so now we knew, okay, it's antivirus that people really valued. And so step one was just reposition the product on antivirus.",
+            "start": 1196,
+            "sha256": "96b77dca9be7b0ea010d1d3751e77346fb4259326158ed6392c3b1fa4d55e02d",
+            "chunk_id": "53054eb0-beee-5be4-b2f1-99ca9b2eac2d",
+            "source_id": "S2"
+          },
+          {
+            "end": 1967,
+            "text": "But then the second thing that we did was we streamlined onboarding so that the first thing that they did after signing up for the product was to set up the antivirus and then get a message \"you're now protected from viruses.\"",
+            "start": 1741,
+            "sha256": "cb5afc987df89c910d99353698b5c824cce44ce2667d8df80ab7b8746aa9f5d7",
+            "chunk_id": "53054eb0-beee-5be4-b2f1-99ca9b2eac2d",
+            "source_id": "S2"
+          },
+          {
+            "end": 2211,
+            "text": "And so it's really the combination of those two things. It's set the right expectations and then speed to value. And so the next cohort of people that we surveyed were at 40% saying they'd be very disappointed without the product.",
+            "start": 1981,
+            "sha256": "4d879edfa40b823a5e9bf8fcb62374e131946c481ef30f5818555eca7b016dee",
+            "chunk_id": "53054eb0-beee-5be4-b2f1-99ca9b2eac2d",
+            "source_id": "S2"
+          }
+        ],
+        "heading": "Read the case in its context",
+        "source_ids": [
+          "S2"
+        ]
+      },
+      {
+        "facts": [
+          {
+            "end": 1333,
+            "text": "Yeah, I mean it tells you something really important, which is, you haven't created something that people don't care about. So that's an important insight. But until you deeply understand that product market fit, you kind of don't have the tools to be able to grow the business. So that's really the next step, is to dig in and figure out who considers it a must have, how are they using the product, what did they use before, what problem are they solving.",
+            "start": 876,
+            "sha256": "2575dbaa5d005062efbcdbf2749b5d187794626f64a536b10a6eab4dea78dc47",
+            "chunk_id": "f5f40dd8-e8fb-5e74-9834-e45e31331549",
+            "source_id": "S3"
+          },
+          {
+            "end": 2039,
+            "text": "One of my favorite questions is... So I tend to have a lot of questions that I build off of that I'm using that filter, trying to drill into the users who say they'd be very disappointed without the product, and one of my favorite questions is, \"What is the primary benefit that you get?\" And then I use that initially as an open-ended question to kind of crowdsource different benefits people are getting. But then I run another survey where I turn it into a multiple choice question, force them to pick one of four distinctive benefit statements. And then the question that follows on that next survey is, \"Why is that benefit important to you?\" And then I start to get really good context.",
+            "start": 1347,
+            "sha256": "b583b0bbd904c2a95cd55e125add27d8da544c0c68879abad9becaa0ac4cd456",
+            "chunk_id": "f5f40dd8-e8fb-5e74-9834-e45e31331549",
+            "source_id": "S3"
+          }
+        ],
+        "heading": "Find the benefit users describe",
+        "source_ids": [
+          "S3"
+        ]
+      },
+      {
+        "facts": [
+          {
+            "end": 620,
+            "text": "So if you think about it, how would you feel if you can no longer use this feature starts to give you, again, the signal, is that feature a must-have feature? And if it's not, maybe we shouldn't have it. And so yeah, I was super excited when I saw how they were using the survey and they were doing it before I engaged with them.",
+            "start": 291,
+            "sha256": "6ee504b03b33c6770d734b1fe5d5ddc564f7b49fb7801c27f3a4f4b21e2e2e7e",
+            "chunk_id": "9d370308-1dd5-5657-bdf5-f159a62ce159",
+            "source_id": "S4"
+          }
+        ],
+        "heading": "Choose what to investigate",
+        "source_ids": [
+          "S4"
+        ]
+      },
+      {
+        "facts": [
+          {
+            "end": 1777,
+            "text": "So it's not surprising that there was so many steps where we could lose people, but we just weren't that intentional about designing each of those steps initially. And it wasn't until we thought through why would we lose someone at this step and studying the data, which steps were we losing the most people at? Then deeply trying to contextualize why are we losing them there, coming up with a set of tests that we want to run and then having a good way of deciding which one to test first and ultimately focusing the tests on the areas where we're losing the most people.",
+            "start": 1204,
+            "sha256": "ed2a11c17116668bb6ab664adc479c59d44d5c5dedbdd76a1bcf8e95cd5e37a2",
+            "chunk_id": "fecfa828-2e7a-51f2-ba0a-6bf77a2fb759",
+            "source_id": "S5"
+          }
+        ],
+        "heading": "Turn observations into a test",
+        "source_ids": [
+          "S5"
+        ]
+      },
+      {
+        "facts": [
+          {
+            "end": 1661,
+            "text": "So to me, the hardest, I wouldn't obsess on onboarding if I know those who kind of get through the challenge of getting started with the product still don't like the product then feels like it's a core product issue or wrong people using it in the wrong way issue. But once you have that, then ultimately it doesn't mean that you're ready to grow. When I focus on growth, then customer acquisition is almost the last step.",
+            "start": 1239,
+            "sha256": "016dc23a0d8547db6ba1d5ee7f951634188c1dffc180efebfdd84413b7f27a1f",
+            "chunk_id": "ac3b448b-888b-5a93-b57a-87115b25c5c1",
+            "source_id": "S6"
+          }
+        ],
+        "heading": "Keep the limits visible",
+        "source_ids": [
+          "S6"
+        ]
+      }
+    ],
+    "advice_edits": [
+      {
+        "section": 1,
+        "editor": "explicit API editorial update; not raw model output"
+      },
+      {
+        "section": 2,
+        "editor": "explicit API editorial update; not raw model output"
+      },
+      {
+        "section": 3,
+        "editor": "explicit API editorial update; not raw model output"
+      },
+      {
+        "section": 4,
+        "editor": "explicit API editorial update; not raw model output"
+      },
+      {
+        "section": 5,
+        "editor": "explicit API editorial update; not raw model output"
+      },
+      {
+        "section": 6,
+        "editor": "explicit API editorial update; not raw model output"
+      }
+    ],
+    "evidence_edits": [
+      {
+        "section": 2,
+        "editor": "explicit source-span selection; not model-generated or arbitrary factual text"
+      },
+      {
+        "section": 3,
+        "editor": "explicit source-span selection; not model-generated or arbitrary factual text"
+      },
+      {
+        "section": 6,
+        "editor": "explicit source-span selection; not model-generated or arbitrary factual text"
+      }
+    ],
+    "workflow": "reviewed_fixture",
+    "model": "historical reviewed artifact; not fresh inference",
+    "publication_note": "Final reviewed essay and curated approved facts retained for deterministic UI regression. Full passages, raw advice stages, prompts and private traces omitted."
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "at": {
+    "omitted_string_sha256": "8fdcd4177a57dc2d0937642579349fffd62139ca3b116743f446da5990244195",
+    "characters": 32
+  },
+  "new_evidence_and_changed_text_files_scanned": 464,
+  "configured_secret_values_checked": 3,
+  "findings": [],
+  "passed": true,
+  "git_diff_check": true,
+  "index_empty": true,
+  "protected_files": 22,
+  "expected_protected_changes": [
+    {
+      "omitted_string_sha256": "f687de21d327881cdf3acf58a166c47675d7a332c21b0dc7154f751a1b5f7bb0",
+      "characters": 21
+    }
+  ],
+  "scope": {
+    "omitted_string_sha256": "d30135b6e53fa80dbe82cac5abda1e46d139de3a0e8e46af8e23af1ea20b299f",
+    "characters": 292
+  },
+  "all_changes_uncommitted": true,
+  "phase11_started": false
+}

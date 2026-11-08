@@ -5,7 +5,10 @@
     {
       "name": "Final real persistence/outage gate",
       "passed": true,
-      "detail": "docs/agent-transcripts/phase-02/live-20261106T050703/results.jsonl"
+      "detail": {
+        "omitted_string_sha256": "812636c987c9d28bdf497afbaf8ae3a819deec59287c42b781b7553723ac3724",
+        "characters": 66
+      }
     },
     {
       "name": "Post-bootstrap actual foundation readiness",
@@ -17,8 +20,14 @@
         "checks": {
           "database": {
             "ready": true,
-            "schema_revision": "0001_foundation",
-            "pgvector_version": "0.8.7"
+            "schema_revision": {
+              "omitted_string_sha256": "5631d76d872dcdc2e45d8444864e518079062cb43366a4d68eb5341ffcaf6fa2",
+              "characters": 15
+            },
+            "pgvector_version": {
+              "omitted_string_sha256": "e4369c730413d6871f29fa8a24a8f397e6a790e374b1283c9f76f780535415e3",
+              "characters": 5
+            }
           },
           "corpus": {
             "ready": false,
@@ -36,7 +45,10 @@
             "generation_model_available": true,
             "embedding_model_available": true,
             "embedding_dimensions_compatible": true,
-            "note": "Transport and installed-model availability; does not prove answer or essay quality."
+            "note": {
+              "omitted_string_sha256": "e794244e901e453b7c7e944b4a3b9e0413be67a054586c47282d7b7f0d7a4ebc",
+              "characters": 83
+            }
           }
         }
       }
@@ -102,7 +114,10 @@
       "passed": true,
       "detail": {
         "suspect_paths": [],
-        "note": "No credential value printed. Not a complete security/history audit."
+        "note": {
+          "omitted_string_sha256": "2013ba4c5c7c7e43b925cdb786307c9897d5d89ce9a847dbbbcdf32c5895f27b",
+          "characters": 67
+        }
       }
     },
     {
@@ -125,5 +140,8 @@
       }
     }
   ],
-  "limits": "Browser and native Linux host networking unverified; no corpus/essay/cloud/clean-checkout result claimed."
+  "limits": {
+    "omitted_string_sha256": "12f33dfd9b486ee28a2dc231957ee8b33ccf2ecb0c1b171e5d986b58eb026716",
+    "characters": 105
+  }
 }

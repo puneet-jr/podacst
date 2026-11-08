@@ -1,0 +1,87 @@
+{
+  "ready_http": 200,
+  "checks": {
+    "provider": {
+      "ready": true,
+      "selected": "ollama",
+      "model": "qwen3:0.6b",
+      "live_verified": false
+    },
+    "database": {
+      "ready": true,
+      "schema_revision": {
+        "omitted_string_sha256": "b9428c7c573a1332a17e18249e0515a01f9e55fb1eefd1f2343a8caf2b68b199",
+        "characters": 25
+      },
+      "pgvector_version": {
+        "omitted_string_sha256": "e4369c730413d6871f29fa8a24a8f397e6a790e374b1283c9f76f780535415e3",
+        "characters": 5
+      }
+    },
+    "corpus": {
+      "ready": true,
+      "status": "available",
+      "active_chunks": 12770,
+      "active_episodes": 303,
+      "discovered": 303
+    },
+    "agent": {
+      "ready": true,
+      "version": "1.5.0"
+    },
+    "ollama": {
+      "ready": true,
+      "reachable_from_api": true,
+      "version": "0.30.11",
+      "generation_model_available": true,
+      "essay_model_available": true,
+      "embedding_model_available": true,
+      "embedding_dimensions_compatible": true,
+      "index_identity_compatible": true,
+      "note": {
+        "omitted_string_sha256": "e794244e901e453b7c7e944b4a3b9e0413be67a054586c47282d7b7f0d7a4ebc",
+        "characters": 83
+      }
+    }
+  },
+  "corpus": {
+    "episodes": 303,
+    "passages": 12770,
+    "latest_run_status": "completed"
+  },
+  "scope_compatibility": [
+    {
+      "path": {
+        "omitted_string_sha256": "eade3e8ce398179132df29fdde6a145d9f6cae4e1fec4560b4155c214cb39747",
+        "characters": 35
+      },
+      "http": 200,
+      "returned": 5
+    },
+    {
+      "path": {
+        "omitted_string_sha256": "128702618429465eaf959857e88768e0d769d1ee3b3e1532a5d655bf2509c466",
+        "characters": 37
+      },
+      "http": 200,
+      "returned": 5
+    },
+    {
+      "path": {
+        "omitted_string_sha256": "0730905b11cd5c3ecafe02b8ee2e10cb6bd5bf2e89e3bd614fd0d8006e584fab",
+        "characters": 40
+      },
+      "http": 200,
+      "returned": 5
+    },
+    {
+      "path": {
+        "omitted_string_sha256": "562d94b0180ff7cfc47d5f9cc9fd223235e506b633c19f81ddcc68400fda4cce",
+        "characters": 34
+      },
+      "http": 200,
+      "returned": 0
+    }
+  ],
+  "local_only": true
+}

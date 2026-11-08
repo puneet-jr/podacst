@@ -1,0 +1,27 @@
+{
+  "scope": "Exact hashes of the emitted quoted source spans compared with the already manually supported Ollama question/follow-up;no transcript or answer text logged",
+  "checks": [
+    {
+      "turn": 1,
+      "all_cited_quotes_match_previously_reviewed_ollama_answer": true,
+      "exact_spans": true,
+      "citation_chunk_ids": [
+        {
+          "omitted_string_sha256": "be7d36a2aee88a4170a02968b73d12a1366aa969f197020bbc8a2fdb6cd334cc",
+          "characters": 36
+        }
+      ]
+    },
+    {
+      "turn": 2,
+      "all_cited_quotes_match_previously_reviewed_ollama_answer": true,
+      "exact_spans": true,
+      "citation_chunk_ids": [
+        {
+          "omitted_string_sha256": "be7d36a2aee88a4170a02968b73d12a1366aa969f197020bbc8a2fdb6cd334cc",
+          "characters": 36
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,418 @@
+{
+  "id": "b7e2a020-c999-4951-b145-658430101b1d",
+  "session_id": "b434b873-9092-411d-9223-18dbb19f25ee",
+  "message_id": "c1dae124-fac8-5edd-98e2-d22a7db5c34f",
+  "type": "markdown",
+  "title": {
+    "omitted_string_sha256": "bf156bdf0408648c58fe00210281acf09c1816f17685f89869bfe8e01538e488",
+    "characters": 69
+  },
+  "content": {
+    "omitted_string_sha256": "2cc3d76518e91bc26a93f189286cf936b94070ae781e60073f10a4cafe5b6b6b",
+    "characters": 7771
+  },
+  "source_metadata": {
+    "policy": {
+      "omitted_string_sha256": "12fcc05d4925a6099ee4493c9a7a6c927f43f3a3109dc41bb4b0984da9eeaabb",
+      "characters": 82
+    },
+    "sources": [
+      {
+        "chunk_id": "bdd3d954-095e-5f5a-8be1-5f38377168ff",
+        "source_label": "S1",
+        "source_metadata": {
+          "id": "bdd3d954-095e-5f5a-8be1-5f38377168ff",
+          "kind": {
+            "omitted_string_sha256": "117924a4b06255a71e57552f5b79ea0402de8b577f3afd406e7d822037664dd7",
+            "characters": 6
+          },
+          "guest": {
+            "omitted_string_sha256": "5714210e2ebd1fd9076ceb8253551a38f683411a5f13c0429983514e261d29a1",
+            "characters": 10
+          },
+          "title": {
+            "omitted_string_sha256": "e5bff6ba1585151230c4f42be9eda1300b7a277b9de10bea8c3e3289a0c372b7",
+            "characters": 88
+          },
+          "ordinal": 0,
+          "sponsor": false,
+          "version": 1,
+          "char_end": 3105,
+          "line_end": 64,
+          "speakers": [
+            {
+              "omitted_string_sha256": "5672c1355cf49a3ebf09471ab0b3466057fa578eb0dde2dffb5ed7638f50daca",
+              "characters": 15
+            },
+            {
+              "omitted_string_sha256": "5714210e2ebd1fd9076ceb8253551a38f683411a5f13c0429983514e261d29a1",
+              "characters": 10
+            }
+          ],
+          "video_url": {
+            "omitted_string_sha256": "1f3e5228ac8bf9dfcba1dea95dd7acf5f2df347eda26d2e0d0de514382adce9a",
+            "characters": 43
+          },
+          "char_start": 863,
+          "dense_rank": 1,
+          "episode_id": {
+            "omitted_string_sha256": "08730a1ea0f2232e5a1e1d90581c09e818a5daa231fd322c8d78cec5d0cfbe94",
+            "characters": 36
+          },
+          "line_start": 39,
+          "rank_score": 0.03252247488101534,
+          "end_seconds": 63.0,
+          "neighbor_of": null,
+          "source_hash": "6af2a6e031826805e855ec262b1f228e3773b5b99265a1d01870f0d4e6e9ceda",
+          "source_path": "episodes/sean-ellis/transcript.md",
+          "sparse_rank": 2,
+          "text_sha256": {
+            "omitted_string_sha256": "7658dfce6c9e869e0820360ad3280612b41ca00f6dcf4cacf804d18c55680f3c",
+            "characters": 64
+          },
+          "start_seconds": 0.0,
+          "corpus_revision": "be8ab89a890a833cbba2c892178f823fff178c65",
+          "estimated_tokens": 561,
+          "metadata_warnings": []
+        }
+      },
+      {
+        "chunk_id": "53054eb0-beee-5be4-b2f1-99ca9b2eac2d",
+        "source_label": "S2",
+        "source_metadata": {
+          "id": "53054eb0-beee-5be4-b2f1-99ca9b2eac2d",
+          "kind": {
+            "omitted_string_sha256": "117924a4b06255a71e57552f5b79ea0402de8b577f3afd406e7d822037664dd7",
+            "characters": 6
+          },
+          "guest": {
+            "omitted_string_sha256": "5714210e2ebd1fd9076ceb8253551a38f683411a5f13c0429983514e261d29a1",
+            "characters": 10
+          },
+          "title": {
+            "omitted_string_sha256": "e5bff6ba1585151230c4f42be9eda1300b7a277b9de10bea8c3e3289a0c372b7",
+            "characters": 88
+          },
+          "ordinal": 5,
+          "sponsor": false,
+          "version": 1,
+          "char_end": 13474,
+          "line_end": 124,
+          "speakers": [
+            {
+              "omitted_string_sha256": "5714210e2ebd1fd9076ceb8253551a38f683411a5f13c0429983514e261d29a1",
+              "characters": 10
+            },
+            {
+              "omitted_string_sha256": "5672c1355cf49a3ebf09471ab0b3466057fa578eb0dde2dffb5ed7638f50daca",
+              "characters": 15
+            }
+          ],
+          "video_url": {
+            "omitted_string_sha256": "1f3e5228ac8bf9dfcba1dea95dd7acf5f2df347eda26d2e0d0de514382adce9a",
+            "characters": 43
+          },
+          "char_start": 11262,
+          "dense_rank": 2,
+          "episode_id": {
+            "omitted_string_sha256": "08730a1ea0f2232e5a1e1d90581c09e818a5daa231fd322c8d78cec5d0cfbe94",
+            "characters": 36
+          },
+          "line_start": 112,
+          "rank_score": 0.03252247488101534,
+          "end_seconds": 698.0,
+          "neighbor_of": null,
+          "source_hash": "6af2a6e031826805e855ec262b1f228e3773b5b99265a1d01870f0d4e6e9ceda",
+          "source_path": "episodes/sean-ellis/transcript.md",
+          "sparse_rank": 1,
+          "text_sha256": {
+            "omitted_string_sha256": "5b76e9477d7e0922decde6dffdfb2d37037d8305b16d9dcc9ba4caadafd3b911",
+            "characters": 64
+          },
+          "start_seconds": 548.0,
+          "corpus_revision": "be8ab89a890a833cbba2c892178f823fff178c65",
+          "estimated_tokens": 553,
+          "metadata_warnings": []
+        }
+      },
+      {
+        "chunk_id": "f5f40dd8-e8fb-5e74-9834-e45e31331549",
+        "source_label": "S3",
+        "source_metadata": {
+          "id": "f5f40dd8-e8fb-5e74-9834-e45e31331549",
+          "kind": {
+            "omitted_string_sha256": "117924a4b06255a71e57552f5b79ea0402de8b577f3afd406e7d822037664dd7",
+            "characters": 6
+          },
+          "guest": {
+            "omitted_string_sha256": "5714210e2ebd1fd9076ceb8253551a38f683411a5f13c0429983514e261d29a1",
+            "characters": 10
+          },
+          "title": {
+            "omitted_string_sha256": "e5bff6ba1585151230c4f42be9eda1300b7a277b9de10bea8c3e3289a0c372b7",
+            "characters": 88
+          },
+          "ordinal": 7,
+          "sponsor": false,
+          "version": 1,
+          "char_end": 17769,
+          "line_end": 151,
+          "speakers": [
+            {
+              "omitted_string_sha256": "5672c1355cf49a3ebf09471ab0b3466057fa578eb0dde2dffb5ed7638f50daca",
+              "characters": 15
+            },
+            {
+              "omitted_string_sha256": "5714210e2ebd1fd9076ceb8253551a38f683411a5f13c0429983514e261d29a1",
+              "characters": 10
+            }
+          ],
+          "video_url": {
+            "omitted_string_sha256": "1f3e5228ac8bf9dfcba1dea95dd7acf5f2df347eda26d2e0d0de514382adce9a",
+            "characters": 43
+          },
+          "char_start": 15362,
+          "dense_rank": 2,
+          "episode_id": {
+            "omitted_string_sha256": "08730a1ea0f2232e5a1e1d90581c09e818a5daa231fd322c8d78cec5d0cfbe94",
+            "characters": 36
+          },
+          "line_start": 136,
+          "rank_score": 0.03225806451612903,
+          "end_seconds": 943.0,
+          "neighbor_of": null,
+          "source_hash": "6af2a6e031826805e855ec262b1f228e3773b5b99265a1d01870f0d4e6e9ceda",
+          "source_path": "episodes/sean-ellis/transcript.md",
+          "sparse_rank": 2,
+          "text_sha256": {
+            "omitted_string_sha256": "fe9c0b98dae01525ba7d0d594156791986dd9034f1fe5890894a83735b5b62b0",
+            "characters": 64
+          },
+          "start_seconds": 813.0,
+          "corpus_revision": "be8ab89a890a833cbba2c892178f823fff178c65",
+          "estimated_tokens": 602,
+          "metadata_warnings": []
+        }
+      },
+      {
+        "chunk_id": "9d370308-1dd5-5657-bdf5-f159a62ce159",
+        "source_label": "S4",
+        "source_metadata": {
+          "id": "9d370308-1dd5-5657-bdf5-f159a62ce159",
+          "kind": {
+            "omitted_string_sha256": "117924a4b06255a71e57552f5b79ea0402de8b577f3afd406e7d822037664dd7",
+            "characters": 6
+          },
+          "guest": {
+            "omitted_string_sha256": "5714210e2ebd1fd9076ceb8253551a38f683411a5f13c0429983514e261d29a1",
+            "characters": 10
+          },
+          "title": {
+            "omitted_string_sha256": "e5bff6ba1585151230c4f42be9eda1300b7a277b9de10bea8c3e3289a0c372b7",
+            "characters": 88
+          },
+          "ordinal": 19,
+          "sponsor": false,
+          "version": 1,
+          "char_end": 43696,
+          "line_end": 364,
+          "speakers": [
+            {
+              "omitted_string_sha256": "5672c1355cf49a3ebf09471ab0b3466057fa578eb0dde2dffb5ed7638f50daca",
+              "characters": 15
+            },
+            {
+              "omitted_string_sha256": "5714210e2ebd1fd9076ceb8253551a38f683411a5f13c0429983514e261d29a1",
+              "characters": 10
+            }
+          ],
+          "video_url": {
+            "omitted_string_sha256": "1f3e5228ac8bf9dfcba1dea95dd7acf5f2df347eda26d2e0d0de514382adce9a",
+            "characters": 43
+          },
+          "char_start": 41388,
+          "dense_rank": 3,
+          "episode_id": {
+            "omitted_string_sha256": "08730a1ea0f2232e5a1e1d90581c09e818a5daa231fd322c8d78cec5d0cfbe94",
+            "characters": 36
+          },
+          "line_start": 337,
+          "rank_score": 0.032266458495966696,
+          "end_seconds": 2443.0,
+          "neighbor_of": null,
+          "source_hash": "6af2a6e031826805e855ec262b1f228e3773b5b99265a1d01870f0d4e6e9ceda",
+          "source_path": "episodes/sean-ellis/transcript.md",
+          "sparse_rank": 1,
+          "text_sha256": {
+            "omitted_string_sha256": "aa32b37a60488262c23b05f3fcdb51808e13920124539e8013dfb60670e13904",
+            "characters": 64
+          },
+          "start_seconds": 2352.0,
+          "corpus_revision": "be8ab89a890a833cbba2c892178f823fff178c65",
+          "estimated_tokens": 577,
+          "metadata_warnings": []
+        }
+      },
+      {
+        "chunk_id": "fecfa828-2e7a-51f2-ba0a-6bf77a2fb759",
+        "source_label": "S5",
+        "source_metadata": {
+          "id": "fecfa828-2e7a-51f2-ba0a-6bf77a2fb759",
+          "kind": {
+            "omitted_string_sha256": "117924a4b06255a71e57552f5b79ea0402de8b577f3afd406e7d822037664dd7",
+            "characters": 6
+          },
+          "guest": {
+            "omitted_string_sha256": "5714210e2ebd1fd9076ceb8253551a38f683411a5f13c0429983514e261d29a1",
+            "characters": 10
+          },
+          "title": {
+            "omitted_string_sha256": "e5bff6ba1585151230c4f42be9eda1300b7a277b9de10bea8c3e3289a0c372b7",
+            "characters": 88
+          },
+          "ordinal": 30,
+          "sponsor": false,
+          "version": 1,
+          "char_end": 65861,
+          "line_end": 502,
+          "speakers": [
+            {
+              "omitted_string_sha256": "5672c1355cf49a3ebf09471ab0b3466057fa578eb0dde2dffb5ed7638f50daca",
+              "characters": 15
+            },
+            {
+              "omitted_string_sha256": "5714210e2ebd1fd9076ceb8253551a38f683411a5f13c0429983514e261d29a1",
+              "characters": 10
+            }
+          ],
+          "video_url": {
+            "omitted_string_sha256": "1f3e5228ac8bf9dfcba1dea95dd7acf5f2df347eda26d2e0d0de514382adce9a",
+            "characters": 43
+          },
+          "char_start": 63646,
+          "dense_rank": 8,
+          "episode_id": {
+            "omitted_string_sha256": "08730a1ea0f2232e5a1e1d90581c09e818a5daa231fd322c8d78cec5d0cfbe94",
+            "characters": 36
+          },
+          "line_start": 487,
+          "rank_score": 0.030834914611005692,
+          "end_seconds": 3778.0,
+          "neighbor_of": null,
+          "source_hash": "6af2a6e031826805e855ec262b1f228e3773b5b99265a1d01870f0d4e6e9ceda",
+          "source_path": "episodes/sean-ellis/transcript.md",
+          "sparse_rank": 2,
+          "text_sha256": {
+            "omitted_string_sha256": "a671bae43e9ebb8f684555ef5331aba6c8e423f238bc424ad66d34697c1899b4",
+            "characters": 64
+          },
+          "start_seconds": 3660.0,
+          "corpus_revision": "be8ab89a890a833cbba2c892178f823fff178c65",
+          "estimated_tokens": 554,
+          "metadata_warnings": []
+        }
+      },
+      {
+        "chunk_id": "ac3b448b-888b-5a93-b57a-87115b25c5c1",
+        "source_label": "S6",
+        "source_metadata": {
+          "id": "ac3b448b-888b-5a93-b57a-87115b25c5c1",
+          "kind": {
+            "omitted_string_sha256": "117924a4b06255a71e57552f5b79ea0402de8b577f3afd406e7d822037664dd7",
+            "characters": 6
+          },
+          "guest": {
+            "omitted_string_sha256": "5714210e2ebd1fd9076ceb8253551a38f683411a5f13c0429983514e261d29a1",
+            "characters": 10
+          },
+          "title": {
+            "omitted_string_sha256": "e5bff6ba1585151230c4f42be9eda1300b7a277b9de10bea8c3e3289a0c372b7",
+            "characters": 88
+          },
+          "ordinal": 12,
+          "sponsor": false,
+          "version": 1,
+          "char_end": 29072,
+          "line_end": 248,
+          "speakers": [
+            {
+              "omitted_string_sha256": "5714210e2ebd1fd9076ceb8253551a38f683411a5f13c0429983514e261d29a1",
+              "characters": 10
+            },
+            {
+              "omitted_string_sha256": "5672c1355cf49a3ebf09471ab0b3466057fa578eb0dde2dffb5ed7638f50daca",
+              "characters": 15
+            }
+          ],
+          "video_url": {
+            "omitted_string_sha256": "1f3e5228ac8bf9dfcba1dea95dd7acf5f2df347eda26d2e0d0de514382adce9a",
+            "characters": 43
+          },
+          "char_start": 26788,
+          "dense_rank": 5,
+          "episode_id": {
+            "omitted_string_sha256": "08730a1ea0f2232e5a1e1d90581c09e818a5daa231fd322c8d78cec5d0cfbe94",
+            "characters": 36
+          },
+          "line_start": 229,
+          "rank_score": 0.030536130536130537,
+          "end_seconds": 1613.0,
+          "neighbor_of": null,
+          "source_hash": "6af2a6e031826805e855ec262b1f228e3773b5b99265a1d01870f0d4e6e9ceda",
+          "source_path": "episodes/sean-ellis/transcript.md",
+          "sparse_rank": 6,
+          "text_sha256": {
+            "omitted_string_sha256": "74aeae0a6459996a388f88a0103c7ac7366a8d0967985c21b3be25909d6c7100",
+            "characters": 64
+          },
+          "start_seconds": 1454.0,
+          "corpus_revision": "be8ab89a890a833cbba2c892178f823fff178c65",
+          "estimated_tokens": 571,
+          "metadata_warnings": []
+        }
+      }
+    ],
+    "formatting": {
+      "omitted_string_sha256": "4b2638866d403ff33746e23f806080a9a1872cc272dc33705cf3fe60ea2aa4f2",
+      "characters": 62
+    },
+    "provenance": "live_endpoint",
+    "citation_ids": [
+      {
+        "omitted_string_sha256": "3696ad59777e09d5f2daacb544022d435e7cd053d87c5781241fabd8fdf2a90d",
+        "characters": 2
+      },
+      {
+        "omitted_string_sha256": "adfa2b24c2d924fe6383d8804be55afb98ea3eb0e14c3470ac3a0f651b9a422e",
+        "characters": 2
+      },
+      {
+        "omitted_string_sha256": "44d6a8a73eddb284d49799fdbfa2919a004ece6d2df3546eaa4e246048bcdf81",
+        "characters": 2
+      },
+      {
+        "omitted_string_sha256": "b1d3eb8f32936fa9cf89d2240bd10734270fd55ff4644ad254b3b237468bad88",
+        "characters": 2
+      },
+      {
+        "omitted_string_sha256": "1cdcbd57e7e20491d8be5ff46549aac5f9c117320a164a49ebc4f1439a741d76",
+        "characters": 2
+      },
+      {
+        "omitted_string_sha256": "b12f76a4b782e4ae7f035b86a07cb43e638af9157e855af49c3945971d2af402",
+        "characters": 2
+      }
+    ],
+    "manual_edits": 9,
+    "generation_run_id": {
+      "omitted_string_sha256": "9c564b1fc7099c02a20ab845373dcf4eba783d52965060152833859ba8be4ccc",
+      "characters": 36
+    }
+  },
+  "created_at": "2026-11-06T21:30:33.585035+00:00",
+  "updated_at": "2026-11-06T21:30:33.585035+00:00",
+  "preview_html": {
+    "omitted_string_sha256": "9a74807241c47f3ce5e6f910880236fa5be18582ea2226dd845ae6ab0465a305",
+    "characters": 9194
+  }
+}

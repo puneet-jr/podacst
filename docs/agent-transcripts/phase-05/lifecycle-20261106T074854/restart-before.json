@@ -6,8 +6,14 @@
       "id": "b8c33fa6-8757-47c5-b221-a1868ac9496b",
       "session_id": "10c21e2b-0893-469f-aaea-2291dc8c146f",
       "client_message_id": "871dc45d-bfef-4d4e-abce-f5038453d15e",
-      "role": "user",
-      "content": "According to Sean Ellis, what question identifies people who consider a product a must-have?",
+      "role": {
+        "omitted_string_sha256": "04f8996da763b7a969b1028ee3007569eaf3a635486ddab211d512c85b9df8fb",
+        "characters": 4
+      },
+      "content": {
+        "omitted_string_sha256": "959a44f82999e6d8578437949527447b89609676747100634c45136f1be2814d",
+        "characters": 92
+      },
       "status": "completed",
       "created_at": "2026-11-06T07:48:54.349490Z",
       "run": {
@@ -24,8 +30,14 @@
       "id": "23b1ac31-2bf7-487d-bc6f-7eae4cc3719e",
       "session_id": "10c21e2b-0893-469f-aaea-2291dc8c146f",
       "client_message_id": "b28c944c-a92b-45e8-be18-10b428e5b83c",
-      "role": "user",
-      "content": "According to Sean Ellis, what question identifies people who consider a product a must-have?",
+      "role": {
+        "omitted_string_sha256": "04f8996da763b7a969b1028ee3007569eaf3a635486ddab211d512c85b9df8fb",
+        "characters": 4
+      },
+      "content": {
+        "omitted_string_sha256": "959a44f82999e6d8578437949527447b89609676747100634c45136f1be2814d",
+        "characters": 92
+      },
       "status": "completed",
       "created_at": "2026-11-06T07:48:55.456674Z",
       "run": {
@@ -35,18 +47,33 @@
         "retrieval_mode": "hybrid",
         "attempt": 2,
         "output": {
-          "text": "From the indexed transcript:\n\n“It's a simple question that helps you figure out, does anyone consider your product a must-have, or ideally, who and how many people consider it, but ultimately it's about trying to figure out is your product a must-have, which could be equated to having product market fit. And so the question is, how would you feel if you could no longer use this product?” [S1]",
+          "text": {
+            "omitted_string_sha256": "61e36d3aaf908e85d2f91fc87a59443a294326d34482c75be65d8fea4796b0d1",
+            "characters": 395
+          },
           "claims": [
             {
-              "text": "It's a simple question that helps you figure out, does anyone consider your product a must-have, or ideally, who and how many people consider it, but ultimately it's about trying to figure out is your product a must-have, which could be equated to having product market fit. And so the question is, how would you feel if you could no longer use this product?",
-              "speaker": "Sean Ellis",
+              "text": {
+                "omitted_string_sha256": "a927df4f377e98745e3786780c7fc62a08f6d88eb2097684ed3498dbee4474f9",
+                "characters": 358
+              },
+              "speaker": {
+                "omitted_string_sha256": "5714210e2ebd1fd9076ceb8253551a38f683411a5f13c0429983514e261d29a1",
+                "characters": 10
+              },
               "source_id": "S1",
-              "evidence_id": "E1"
+              "evidence_id": {
+                "omitted_string_sha256": "22249aa61fd2594e50910aa574afbb977f9df8f7377e6f02e19c72245d899ad8",
+                "characters": 2
+              }
             }
           ],
           "status": "answered",
           "source_labels": [
-            "S1"
+            {
+              "omitted_string_sha256": "3696ad59777e09d5f2daacb544022d435e7cd053d87c5781241fabd8fdf2a90d",
+              "characters": 2
+            }
           ]
         }
       },
@@ -56,8 +83,14 @@
       "id": "0cc6c542-ca78-4ed8-a9df-b7dc1e285d3e",
       "session_id": "10c21e2b-0893-469f-aaea-2291dc8c146f",
       "client_message_id": "6ba2a844-4780-4720-b6ea-0263fd5b3c60",
-      "role": "user",
-      "content": "According to Sean Ellis, what question identifies people who consider a product a must-have?",
+      "role": {
+        "omitted_string_sha256": "04f8996da763b7a969b1028ee3007569eaf3a635486ddab211d512c85b9df8fb",
+        "characters": 4
+      },
+      "content": {
+        "omitted_string_sha256": "959a44f82999e6d8578437949527447b89609676747100634c45136f1be2814d",
+        "characters": 92
+      },
       "status": "completed",
       "created_at": "2026-11-06T07:48:57.835540Z",
       "run": {
@@ -74,8 +107,14 @@
       "id": "6006eaec-1422-5b21-84cc-51a077bea86a",
       "session_id": "10c21e2b-0893-469f-aaea-2291dc8c146f",
       "client_message_id": "6006eaec-1422-5b21-84cc-51a077bea86a",
-      "role": "assistant",
-      "content": "From the indexed transcript:\n\n“It's a simple question that helps you figure out, does anyone consider your product a must-have, or ideally, who and how many people consider it, but ultimately it's about trying to figure out is your product a must-have, which could be equated to having product market fit. And so the question is, how would you feel if you could no longer use this product?” [S1]",
+      "role": {
+        "omitted_string_sha256": "a39a7ffad4a3013f29da97b84f264337f234c1cf9b3c40c7c30c677a8a18609a",
+        "characters": 9
+      },
+      "content": {
+        "omitted_string_sha256": "61e36d3aaf908e85d2f91fc87a59443a294326d34482c75be65d8fea4796b0d1",
+        "characters": 395
+      },
       "status": "completed",
       "created_at": "2026-11-06T07:49:07.383215Z",
       "run": {
@@ -85,18 +124,33 @@
         "retrieval_mode": "hybrid",
         "attempt": 2,
         "output": {
-          "text": "From the indexed transcript:\n\n“It's a simple question that helps you figure out, does anyone consider your product a must-have, or ideally, who and how many people consider it, but ultimately it's about trying to figure out is your product a must-have, which could be equated to having product market fit. And so the question is, how would you feel if you could no longer use this product?” [S1]",
+          "text": {
+            "omitted_string_sha256": "61e36d3aaf908e85d2f91fc87a59443a294326d34482c75be65d8fea4796b0d1",
+            "characters": 395
+          },
           "claims": [
             {
-              "text": "It's a simple question that helps you figure out, does anyone consider your product a must-have, or ideally, who and how many people consider it, but ultimately it's about trying to figure out is your product a must-have, which could be equated to having product market fit. And so the question is, how would you feel if you could no longer use this product?",
-              "speaker": "Sean Ellis",
+              "text": {
+                "omitted_string_sha256": "a927df4f377e98745e3786780c7fc62a08f6d88eb2097684ed3498dbee4474f9",
+                "characters": 358
+              },
+              "speaker": {
+                "omitted_string_sha256": "5714210e2ebd1fd9076ceb8253551a38f683411a5f13c0429983514e261d29a1",
+                "characters": 10
+              },
               "source_id": "S1",
-              "evidence_id": "E1"
+              "evidence_id": {
+                "omitted_string_sha256": "22249aa61fd2594e50910aa574afbb977f9df8f7377e6f02e19c72245d899ad8",
+                "characters": 2
+              }
             }
           ],
           "status": "answered",
           "source_labels": [
-            "S1"
+            {
+              "omitted_string_sha256": "3696ad59777e09d5f2daacb544022d435e7cd053d87c5781241fabd8fdf2a90d",
+              "characters": 2
+            }
           ]
         }
       },
@@ -111,8 +165,14 @@
       "id": "9a5d68da-a16a-4597-b172-fb858966d721",
       "session_id": "10c21e2b-0893-469f-aaea-2291dc8c146f",
       "client_message_id": "5e802566-9850-4eb3-81f3-3cef29bdc12d",
-      "role": "user",
-      "content": "What is the evidence for this unindexed source?",
+      "role": {
+        "omitted_string_sha256": "04f8996da763b7a969b1028ee3007569eaf3a635486ddab211d512c85b9df8fb",
+        "characters": 4
+      },
+      "content": {
+        "omitted_string_sha256": "0a3cbb66328d40f2cb049f338abb8c5bc1d7f591479e7981ad844884ac0991c8",
+        "characters": 47
+      },
       "status": "completed",
       "created_at": "2026-11-06T07:49:07.548109Z",
       "run": {
@@ -122,7 +182,10 @@
         "retrieval_mode": "hybrid",
         "attempt": 1,
         "output": {
-          "text": "The retrieved passages do not establish the requested fact. I cannot determine it from the indexed transcripts. Try a question supported by these interviews, or provide the missing information.",
+          "text": {
+            "omitted_string_sha256": "8eec1605d96e2743ba634b8859fa4c5bf84e845dfc515b8cb23cf744a64ce7e4",
+            "characters": 193
+          },
           "claims": [],
           "status": "insufficient_evidence",
           "source_labels": []
@@ -134,8 +197,14 @@
       "id": "99351870-a6f8-546b-b42a-87aec3ed8c89",
       "session_id": "10c21e2b-0893-469f-aaea-2291dc8c146f",
       "client_message_id": "99351870-a6f8-546b-b42a-87aec3ed8c89",
-      "role": "assistant",
-      "content": "The retrieved passages do not establish the requested fact. I cannot determine it from the indexed transcripts. Try a question supported by these interviews, or provide the missing information.",
+      "role": {
+        "omitted_string_sha256": "a39a7ffad4a3013f29da97b84f264337f234c1cf9b3c40c7c30c677a8a18609a",
+        "characters": 9
+      },
+      "content": {
+        "omitted_string_sha256": "8eec1605d96e2743ba634b8859fa4c5bf84e845dfc515b8cb23cf744a64ce7e4",
+        "characters": 193
+      },
       "status": "completed",
       "created_at": "2026-11-06T07:49:12.485740Z",
       "run": {
@@ -145,7 +214,10 @@
         "retrieval_mode": "hybrid",
         "attempt": 1,
         "output": {
-          "text": "The retrieved passages do not establish the requested fact. I cannot determine it from the indexed transcripts. Try a question supported by these interviews, or provide the missing information.",
+          "text": {
+            "omitted_string_sha256": "8eec1605d96e2743ba634b8859fa4c5bf84e845dfc515b8cb23cf744a64ce7e4",
+            "characters": 193
+          },
           "claims": [],
           "status": "insufficient_evidence",
           "source_labels": []
@@ -157,30 +229,57 @@
   "source": {
     "source_label": "S1",
     "chunk_id": "c0aa1ec1-9da2-5bc9-a1ed-550df1f12411",
-    "original_text": "[Full transcript payload omitted from public export; private original retained.]",
+    "original_text": {
+      "omitted_string_sha256": "3a9ed8259747f472adc4b07fdc0fe7ab561d1f02c2840d9f28721567589f315b",
+      "characters": 80
+    },
     "original_text_public_redaction": {
       "sha256": "498e939ea74c0d2a17a9c5873cc10c29772edfca5374caae15d19e379a3af384",
       "characters": 2229,
-      "reason": "Full source passage payload; exact IDs, offsets, source hashes and limited selected answer quotes are retained."
+      "reason": {
+        "omitted_string_sha256": "606a5b199aaf4e85ab10129167d1e30076878fa94513e79362007956f20472b0",
+        "characters": 111
+      }
     },
     "metadata": {
       "id": "c0aa1ec1-9da2-5bc9-a1ed-550df1f12411",
-      "kind": "ranked",
-      "guest": "Sean Ellis",
-      "title": "The original growth hacker reveals his secrets | Sean Ellis (author of “Hacking Growth”)",
+      "kind": {
+        "omitted_string_sha256": "117924a4b06255a71e57552f5b79ea0402de8b577f3afd406e7d822037664dd7",
+        "characters": 6
+      },
+      "guest": {
+        "omitted_string_sha256": "5714210e2ebd1fd9076ceb8253551a38f683411a5f13c0429983514e261d29a1",
+        "characters": 10
+      },
+      "title": {
+        "omitted_string_sha256": "e5bff6ba1585151230c4f42be9eda1300b7a277b9de10bea8c3e3289a0c372b7",
+        "characters": 88
+      },
       "ordinal": 1,
       "sponsor": false,
       "version": 1,
       "char_end": 5334,
       "line_end": 85,
       "speakers": [
-        "Lenny Rachitsky",
-        "Sean Ellis"
+        {
+          "omitted_string_sha256": "5672c1355cf49a3ebf09471ab0b3466057fa578eb0dde2dffb5ed7638f50daca",
+          "characters": 15
+        },
+        {
+          "omitted_string_sha256": "5714210e2ebd1fd9076ceb8253551a38f683411a5f13c0429983514e261d29a1",
+          "characters": 10
+        }
       ],
-      "video_url": "https://www.youtube.com/watch?v=VjJ6xcv7e8s",
+      "video_url": {
+        "omitted_string_sha256": "1f3e5228ac8bf9dfcba1dea95dd7acf5f2df347eda26d2e0d0de514382adce9a",
+        "characters": 43
+      },
       "char_start": 3105,
       "dense_rank": 3,
-      "episode_id": "e114cae3-dd1c-5482-b643-07fcfb47fb69",
+      "episode_id": {
+        "omitted_string_sha256": "08730a1ea0f2232e5a1e1d90581c09e818a5daa231fd322c8d78cec5d0cfbe94",
+        "characters": 36
+      },
       "line_start": 64,
       "rank_score": 0.032266458495966696,
       "end_seconds": 199.0,
@@ -188,7 +287,10 @@
       "source_hash": "6af2a6e031826805e855ec262b1f228e3773b5b99265a1d01870f0d4e6e9ceda",
       "source_path": "episodes/sean-ellis/transcript.md",
       "sparse_rank": 1,
-      "text_sha256": "498e939ea74c0d2a17a9c5873cc10c29772edfca5374caae15d19e379a3af384",
+      "text_sha256": {
+        "omitted_string_sha256": "33772f8d66a8f6fb0f71d99bc609030c4701cbd22bbb2335cdf61d33ab2dbd53",
+        "characters": 64
+      },
       "start_seconds": 63.0,
       "corpus_revision": "be8ab89a890a833cbba2c892178f823fff178c65",
       "estimated_tokens": 558,
@@ -197,13 +299,25 @@
     "quote_spans": [
       {
         "id": "E1",
-        "text": "It's a simple question that helps you figure out, does anyone consider your product a must-have, or ideally, who and how many people consider it, but ultimately it's about trying to figure out is your product a must-have, which could be equated to having product market fit. And so the question is, how would you feel if you could no longer use this product?",
-        "speaker": "Sean Ellis",
+        "text": {
+          "omitted_string_sha256": "a927df4f377e98745e3786780c7fc62a08f6d88eb2097684ed3498dbee4474f9",
+          "characters": 358
+        },
+        "speaker": {
+          "omitted_string_sha256": "5714210e2ebd1fd9076ceb8253551a38f683411a5f13c0429983514e261d29a1",
+          "characters": 10
+        },
         "char_end": 5333,
         "char_start": 4975
       }
     ],
-    "source_url": "https://github.com/ChatPRD/lennys-podcast-transcripts/blob/be8ab89a890a833cbba2c892178f823fff178c65/episodes/sean-ellis/transcript.md",
-    "video_url": "https://www.youtube.com/watch?v=VjJ6xcv7e8s&t=63s"
+    "source_url": {
+      "omitted_string_sha256": "2a9ada6ea88b6e0d3287c170a0a6bc152a58c065b1332005a2578646224b45d7",
+      "characters": 133
+    },
+    "video_url": {
+      "omitted_string_sha256": "43e6385a71268059aeae2795296d2f7578ee32ee02472dd1d486cc33a557f4e1",
+      "characters": 49
+    }
   }
 }

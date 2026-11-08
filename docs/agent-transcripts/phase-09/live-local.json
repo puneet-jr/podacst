@@ -1,0 +1,147 @@
+{
+  "captured_at": "2026-11-07T05:18:41.960031+00:00",
+  "provider": {
+    "privacy": {
+      "omitted_string_sha256": "cdb0a08bc02bc543b0cea80bb66c196589e1ed8100d507c2f27ab59312ef1083",
+      "characters": 45
+    },
+    "essay_model": "qwen3:1.7b",
+    "selected": "ollama",
+    "model": "qwen3:0.6b",
+    "automatic_fallback": false,
+    "providers": [
+      {
+        "id": "ollama",
+        "implemented": true,
+        "configured": true,
+        "scope": "Local chat and reviewed essays; local embeddings.",
+        "enabled": true
+      },
+      {
+        "id": "anthropic",
+        "implemented": true,
+        "configured": false,
+        "scope": "Pi Anthropic Messages; chat tool selection and advice-only essay drafting. Live validation pending.",
+        "credentials_present": false,
+        "enabled": false,
+        "reason": {
+          "omitted_string_sha256": "3feb613537c10118203726c6b1b2b4bb4bb67a9b6d55834f3a8dc4bacbb4a5fc",
+          "characters": 17
+        }
+      }
+    ]
+  },
+  "readiness": {
+    "status": "ready",
+    "scope": "phase_9_operations",
+    "product_ready": false,
+    "checks": {
+      "provider": {
+        "ready": true,
+        "selected": "ollama",
+        "model": "qwen3:0.6b",
+        "live_verified": false
+      },
+      "database": {
+        "ready": true,
+        "schema_revision": {
+          "omitted_string_sha256": "b9428c7c573a1332a17e18249e0515a01f9e55fb1eefd1f2343a8caf2b68b199",
+          "characters": 25
+        },
+        "pgvector_version": {
+          "omitted_string_sha256": "e4369c730413d6871f29fa8a24a8f397e6a790e374b1283c9f76f780535415e3",
+          "characters": 5
+        }
+      },
+      "corpus": {
+        "ready": true,
+        "status": "partial",
+        "active_chunks": 373,
+        "active_episodes": 9,
+        "discovered": 303
+      },
+      "agent": {
+        "ready": true,
+        "version": "1.5.0"
+      },
+      "ollama": {
+        "ready": true,
+        "reachable_from_api": true,
+        "version": "0.30.11",
+        "generation_model_available": true,
+        "essay_model_available": true,
+        "embedding_model_available": true,
+        "embedding_dimensions_compatible": true,
+        "index_identity_compatible": true,
+        "note": {
+          "omitted_string_sha256": "e794244e901e453b7c7e944b4a3b9e0413be67a054586c47282d7b7f0d7a4ebc",
+          "characters": 83
+        }
+      }
+    }
+  },
+  "session_id": "8d1341f9-07dc-4062-9df4-46aad0e79842",
+  "request_id": {
+    "omitted_string_sha256": "002a8c0e379f30a968896da55490e859d0c48188106aba3d8140a22c6074bb0c",
+    "characters": 32
+  },
+  "elapsed_seconds": 6.277943124994636,
+  "http": 200,
+  "events": [
+    {
+      "type": "started",
+      "run_id": "2449f587-6d78-4179-abe4-38b677294e28"
+    },
+    {
+      "type": "retrieving",
+      "run_id": "2449f587-6d78-4179-abe4-38b677294e28"
+    },
+    {
+      "type": "evidence_ready",
+      "run_id": "2449f587-6d78-4179-abe4-38b677294e28"
+    },
+    {
+      "type": "generating",
+      "run_id": "2449f587-6d78-4179-abe4-38b677294e28"
+    },
+    {
+      "type": "completed",
+      "run_id": "2449f587-6d78-4179-abe4-38b677294e28"
+    }
+  ],
+  "raw_output_sha256": {
+    "omitted_string_sha256": "4180d94031b3aa516a9417bc6380bc8743f891a27521ea2ade6e21a58470fb74",
+    "characters": 64
+  },
+  "raw_output": {
+    "omitted_string_sha256": "05dc50c7b9601750ff030ada9ad16e8da56e41b319262d72aa94a850e8f1c3e3",
+    "characters": 42
+  },
+  "sources": [
+    {
+      "id": "S1",
+      "chunk_id": "c0aa1ec1-9da2-5bc9-a1ed-550df1f12411",
+      "exact_spans": true,
+      "support_review": {
+        "omitted_string_sha256": "5adb7f775c58a343c3db7c547e000e3d9285baca514865863e966cc4fc77b711",
+        "characters": 79
+      }
+    }
+  ],
+  "success": true,
+  "process_reaped": true,
+  "bridge_closed": true,
+  "same_id_replay_no_duplicate": true,
+  "machine": {
+    "architecture": {
+      "omitted_string_sha256": "f69162950f235e3cdbbad33f1f912d1a504be90d8a37d002c735d6f3e3882265",
+      "characters": 5
+    },
+    "memory_bytes": 8589934592,
+    "disk_free_bytes": 106201755648,
+    "swap_snapshot": {
+      "omitted_string_sha256": "9d8a45afe421cafd491a413252f47165b8db753f8c09457476201d2bd3358545",
+      "characters": 64
+    }
+  }
+}

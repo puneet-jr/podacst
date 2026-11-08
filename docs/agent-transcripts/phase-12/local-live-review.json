@@ -1,0 +1,139 @@
+{
+  "candidate": "f89807d8db16c20e652590a6470810e5eb60b078",
+  "fixture": false,
+  "provider": "ollama-local",
+  "model": "qwen3:0.6b",
+  "index": {
+    "active_episodes": 3,
+    "total_episodes": 303,
+    "active_passages": 112
+  },
+  "scope": "episodes/sean-ellis/transcript.md",
+  "retrieval_mode": "hybrid",
+  "session_id": "11e8caab-4e8b-44f5-9ea2-b1d88ddd7564",
+  "answers": [
+    {
+      "prompt": "How did Sean Ellis change onboarding at Lookout?",
+      "elapsed_seconds": 7.365,
+      "server_duration_seconds": 7.234,
+      "run_id": "c8e401ee-33b1-4bf9-80ed-5d6377526445",
+      "status": "completed",
+      "provider": "ollama-local",
+      "model": "qwen3:0.6b",
+      "assistant_message_id": "bf660725-3569-5b88-9c64-820340c5eaff",
+      "context_message_ids": [],
+      "pi_session_id": "01a1b978-30ef-75e1-b680-c97c30904cd5",
+      "process_reaped": true,
+      "bridge_closed": true,
+      "tool_trace": [
+        {
+          "args": {
+            "query": "current"
+          },
+          "tool": "search_transcripts",
+          "result": {
+            "mode": "hybrid",
+            "evidence_ids": [
+              "E1",
+              "E2",
+              "E3",
+              "E4",
+              "E5",
+              "E6",
+              "E7",
+              "E8",
+              "E9",
+              "E10"
+            ]
+          }
+        }
+      ],
+      "retrieved_passage_ids": [
+        "53054eb0-beee-5be4-b2f1-99ca9b2eac2d",
+        "bdd3d954-095e-5f5a-8be1-5f38377168ff",
+        "8b5b413f-9fd3-580f-8d21-9420cd18d888",
+        "2d70a732-94f8-5cd8-9f59-0019c1fd9b21",
+        "38b28fa6-86ff-59ba-8019-ff4db2c27656"
+      ],
+      "candidate_sentence_count": 10,
+      "citations": [
+        {
+          "label": "S1",
+          "chunk_id": "53054eb0-beee-5be4-b2f1-99ca9b2eac2d",
+          "source_hash": "6af2a6e031826805e855ec262b1f228e3773b5b99265a1d01870f0d4e6e9ceda",
+          "original_text_sha256": "bbca0600f25b06c3861b687b42517e587ba3bab30ec044c7ca10b300faeec38f",
+          "opened_in_browser": true,
+          "focus_and_return": true
+        }
+      ],
+      "support_review": "PASS: exact quote supports antivirus-first onboarding and protected confirmation; no measured engagement or conversion outcome claimed.",
+      "answer_quality_passed": true
+    },
+    {
+      "prompt": "What did they report for the next cohort in the must-have survey?",
+      "elapsed_seconds": 4.436,
+      "server_duration_seconds": 4.333,
+      "run_id": "39809e8c-9173-4cbc-8083-2cd8752c974d",
+      "status": "completed",
+      "provider": "ollama-local",
+      "model": "qwen3:0.6b",
+      "assistant_message_id": "5cd7c392-963d-51b8-929c-3c31672b5505",
+      "context_message_ids": [
+        "c51883a9-0368-4fe7-a49c-8a6aa97ed211"
+      ],
+      "pi_session_id": "01a1b978-50b4-70ef-b20f-06c62be164a2",
+      "process_reaped": true,
+      "bridge_closed": true,
+      "tool_trace": [
+        {
+          "args": {
+            "query": "current"
+          },
+          "tool": "search_transcripts",
+          "result": {
+            "mode": "hybrid",
+            "evidence_ids": [
+              "E1",
+              "E2",
+              "E3",
+              "E4",
+              "E5",
+              "E6",
+              "E7",
+              "E8",
+              "E9",
+              "E10",
+              "E11",
+              "E12"
+            ]
+          }
+        }
+      ],
+      "retrieved_passage_ids": [
+        "53054eb0-beee-5be4-b2f1-99ca9b2eac2d",
+        "bdd3d954-095e-5f5a-8be1-5f38377168ff",
+        "f5f40dd8-e8fb-5e74-9834-e45e31331549",
+        "8b5b413f-9fd3-580f-8d21-9420cd18d888",
+        "38b28fa6-86ff-59ba-8019-ff4db2c27656",
+        "3e491b54-29e1-5a79-a495-64ff1adccb03"
+      ],
+      "candidate_sentence_count": 12,
+      "citations": [
+        {
+          "label": "S1",
+          "chunk_id": "53054eb0-beee-5be4-b2f1-99ca9b2eac2d",
+          "source_hash": "6af2a6e031826805e855ec262b1f228e3773b5b99265a1d01870f0d4e6e9ceda",
+          "original_text_sha256": "bbca0600f25b06c3861b687b42517e587ba3bab30ec044c7ca10b300faeec38f",
+          "opened_in_browser": true,
+          "focus_and_return": true
+        }
+      ],
+      "support_review": "FAIL completeness: exact quote about initial 7% is supported, but does not answer the next-cohort question. The retrieved stored passage contains next-cohort 40% very disappointed; none of the 12 candidate spans contains 40%. Evidence lost during sentence selection before Pi.",
+      "answer_quality_passed": false
+    }
+  ],
+  "page_errors": [],
+  "no_horizontal_overflow": true,
+  "no_cloud_requests": true,
+  "gate": "NO-GO: local follow-up semantic completeness failed; citations resolve and lifecycle/context work."
+}

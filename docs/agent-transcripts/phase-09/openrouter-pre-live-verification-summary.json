@@ -1,0 +1,31 @@
+{
+  "backend_tests": 115,
+  "backend_seconds": 18.572,
+  "node_policy_tests": 9,
+  "frontend_typecheck_build": "passed",
+  "openrouter_ui_fixture_checks": 4,
+  "native_pi_openrouter_initialized": true,
+  "public_catalog_parameters_checked": true,
+  "public_source_all_52_chunks_verified": true,
+  "real_cloud_cited_answer": "pending",
+  "reason": {
+    "omitted_string_sha256": "5873f11dd762a9f5dd4ee36d13fd7a9270d48eb3a5ee8b3cfa96ec287802b96d",
+    "characters": 56
+  },
+  "cloud_inference_requests": 0,
+  "normal_app_default": {
+    "omitted_string_sha256": "76e3c7bfe641ea125c0c2e1c5f89349e17b352ed128d528de2443794e7acf870",
+    "characters": 6
+  },
+  "main_env_edited_by_agent": false,
+  "example_openrouter_key_empty": true,
+  "actual_initial_cloud_provider": {
+    "omitted_string_sha256": "c70eca6b0f88f44d81a41311647e50fda1ac454ec04ffd442b0eb4743a993131",
+    "characters": 9
+  },
+  "no_commit_or_push": true,
+  "stop_before": {
+    "omitted_string_sha256": "cc35eec3448af31a3b38ebba7d4120ec3ac6bf35198ebeff3ff101988b1b936f",
+    "characters": 8
+  }
+}

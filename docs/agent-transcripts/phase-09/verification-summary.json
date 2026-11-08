@@ -1,0 +1,59 @@
+{
+  "backend_integrated": {
+    "count": 112,
+    "seconds": 21.296,
+    "exit_code": 0,
+    "isolated_database": {
+      "omitted_string_sha256": "cdd04e9a34b9359a9d54bbc293f01bcdc5ed6ec6de9885d45b4db9b35171ee52",
+      "characters": 27
+    }
+  },
+  "focused_after_source_id_telemetry": {
+    "provider_and_retrieval_tests": 15,
+    "passed": true
+  },
+  "node_policy": {
+    "count": 8,
+    "passed": true
+  },
+  "source_span_node": {
+    "count": 2,
+    "passed": true
+  },
+  "frontend_typecheck_build": true,
+  "browser_fixture_cases": 16,
+  "cloud_browser_assertions": 4,
+  "browser_model_calls": 0,
+  "browser_db_writes": 0,
+  "native_cloud_initialization_provider_requests": 0,
+  "live_cloud": {
+    "status": "blocked",
+    "reason": {
+      "omitted_string_sha256": "f7ba4bc20e53386840424ed6f6521f51807e3517a70ee5e9cee84cf4ffe05463",
+      "characters": 39
+    },
+    "inference_requests": 0
+  },
+  "local_smoke": {
+    "seconds": 6.277943124994636,
+    "passed": true,
+    "source_span_review": true,
+    "replay_no_duplicates": true,
+    "process_and_bridge_cleanup": true,
+    "text_tool_call_normalized": true
+  },
+  "bootstrap": {
+    "seconds": 6.596474625170231,
+    "scope": "warm existing complete working tree",
+    "env_and_corpus_preserved": true
+  },
+  "remote_snapshot": {
+    "omitted_string_sha256": "3b6206e88d43f8d30a979d9bba349c814ef5eaeb247a88c74c104ec2152cc44d",
+    "characters": 64
+  },
+  "stop_before": {
+    "omitted_string_sha256": "cc35eec3448af31a3b38ebba7d4120ec3ac6bf35198ebeff3ff101988b1b936f",
+    "characters": 8
+  },
+  "no_commit_or_push": true
+}

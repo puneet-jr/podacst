@@ -1,0 +1,17 @@
+{
+  "checks": [
+    {
+      "omitted_string_sha256": "a3cd99fe020a11679b40f24ba5706a04cc1596ebfccc0b2f279a5405f41f893f",
+      "characters": 103
+    },
+    {
+      "omitted_string_sha256": "bb13c10ba5ac5d35ac5e36577cf189a5de3e6e838d33add2d520d2651ec0db3b",
+      "characters": 102
+    },
+    {
+      "omitted_string_sha256": "9ec989f3053a581df45fb3c67ac2def70d247b793ffdd340391f196085ca56bd",
+      "characters": 136
+    }
+  ],
+  "model_calls": 0
+}

@@ -1,0 +1,21 @@
+{
+  "source": "Read-only consistent knowledge-table pg_dump from normal stack; no saved user messages/essays/artifacts copied",
+  "target_project": "lenny_phase12_repair",
+  "target_database": "lenny_repair_phase12",
+  "new_volumes": true,
+  "tables": [
+    "episodes",
+    "episode_versions",
+    "chunks",
+    "knowledge_config",
+    "ingestion_runs",
+    "ingestion_items"
+  ],
+  "episodes": 303,
+  "passages": 12770,
+  "sessions_copied": 0,
+  "elapsed_seconds": 33.191,
+  "private_dump_bytes": 210904287,
+  "private_dump_sha256": "bbb55c00ada67dbf9992b849da8e452461fe6ce9c4c05dcb25f10ca16c68da32",
+  "models_downloaded": 0
+}

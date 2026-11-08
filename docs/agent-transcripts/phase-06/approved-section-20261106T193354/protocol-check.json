@@ -1,0 +1,56 @@
+{
+  "captured_at": "2026-11-06T19:35:26.878679+00:00",
+  "stdout_protocol": {
+    "frames": 455,
+    "all_json": true,
+    "sha256": "c2e70863e3dd119196ddc9f85c0d077d12a071f0423dcf322e8ffdea0844bcd3"
+  },
+  "stderr_diagnostics": [
+    {
+      "event": {
+        "omitted_string_sha256": "97dfef4792fdc68b417037029d303c829e254a0e2ffef89cdf955f8045f02441",
+        "characters": 11
+      },
+      "active": [],
+      "workflow": "ship30",
+      "mode": "snapshot_writing",
+      "skill_sha256": {
+        "omitted_string_sha256": "0cd0153af6892fbe0cf9f6f35b18f6e540f235576e49e78d6505f5f3a660e2f5",
+        "characters": 64
+      }
+    },
+    {
+      "event": {
+        "omitted_string_sha256": "5b12b88e083479c0b53da89c161c7cd1cbf2995ab480e1233d8a8b97fa398511",
+        "characters": 16
+      },
+      "provider": "ollama-local",
+      "model": "qwen3:1.7b",
+      "stage": {
+        "omitted_string_sha256": "dd1f419428d177d860984128ef41b8607bc4ecb1578bdc6f9aabc53128c7fb49",
+        "characters": 19
+      },
+      "request": 1,
+      "prompt_bytes": 6433,
+      "max_tokens": 850,
+      "output_format": {
+        "omitted_string_sha256": "bc18f7068971a44e264848ecd54b72b02d38216abb8ce3c3d2148e37e8a12398",
+        "characters": 8
+      },
+      "structured_grammar": false
+    }
+  ],
+  "stderr_sha256": {
+    "omitted_string_sha256": "be426e0010f17394991b04cf720500d57da0985d6f9978f411d290f419a63c8f",
+    "characters": 64
+  },
+  "provider_request_count": 1,
+  "raw_trace_location": {
+    "omitted_string_sha256": "5c1b42b8edd00bb9c153b510afb8b1e0bc5bb4500c8f25bc2a4c15ff8b784728",
+    "characters": 56
+  },
+  "capture_note": {
+    "omitted_string_sha256": "fbd581a8383d1f1c671849a6d4722762baec0420c6d3b478e92debd5d211d33b",
+    "characters": 105
+  }
+}

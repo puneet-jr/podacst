@@ -1,0 +1,306 @@
+{
+  "captured_at": "2026-11-06T15:02:03.122351+00:00",
+  "test_kind": {
+    "omitted_string_sha256": "1f63c6fa270f8b2c9d4aa2d45095c3cb6a4b9f128e6e260c7c859479547f25c5",
+    "characters": 35
+  },
+  "provider": "ollama-local",
+  "model": "qwen3:0.6b",
+  "probe_run_id": {
+    "omitted_string_sha256": "5d3ce09ac043c12416ae47113082c8348f3a03cc172189423806b7c24a0552f7",
+    "characters": 36
+  },
+  "probe_session_id": {
+    "omitted_string_sha256": "3ea0e16fa08feab538d70ba52f8323bcfe1e4ca558aae662eeaf3a1953c4c24b",
+    "characters": 36
+  },
+  "origin_run_id": {
+    "omitted_string_sha256": "5e27ecfc519a6d61bf827a9fa79b1c551524cff82f99592c101f350ac6c00ed3",
+    "characters": 36
+  },
+  "origin_session_id": {
+    "omitted_string_sha256": "510439c947cc2ee4592d58fe04e5c0920bf29d47e9735512443a507d1f3bfcd1",
+    "characters": 36
+  },
+  "section_number": 2,
+  "heading": {
+    "omitted_string_sha256": "df42a4d5d3537666f9ed0012c3a44999878842f8d92f2ac056e6df0ca4ac44d1",
+    "characters": 10
+  },
+  "purpose": {
+    "omitted_string_sha256": "ac3bafe9f64f1d86528802e066519ac2de3980d418f4c8e08c446601e91b3939",
+    "characters": 82
+  },
+  "target_words": 210,
+  "word_count": 362,
+  "elapsed_seconds": 16.32347396499972,
+  "raw_markdown": {
+    "omitted_string_sha256": "f9b63093b0bb75150d2eb9950abfac66a9c0fae54df7c8da2bb5c000741ac7b0",
+    "characters": 2426
+  },
+  "checks": {
+    "plain_markdown": true,
+    "original_section_floor_80_words": true,
+    "citation_and_paragraph_screens": false,
+    "not_output_truncated": true,
+    "saved_ids_resolve": true
+  },
+  "automatic_section_checks_passed": false,
+  "manual_factual_support": {
+    "omitted_string_sha256": "02e35bfafe23ee74c788f185bb888bd0e0e154c9c42088d5ef640e7169e81c63",
+    "characters": 68
+  },
+  "failure": null,
+  "full_essay_gate": {
+    "omitted_string_sha256": "1940788d1de814b42f7fbc70f3b9b0b7b637b43d6e63d61f2e89ccaceccf41a2",
+    "characters": 36
+  },
+  "validation": {
+    "passed_deterministic": false,
+    "word_count": 372,
+    "accepted_range": [
+      1125,
+      1375
+    ],
+    "section_word_counts": [
+      362
+    ],
+    "section_count": 1,
+    "bullets": 0,
+    "bold_spans": 1,
+    "incomplete_sections": [
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "citation_ids": [],
+    "errors": [
+      {
+        "code": "word_count_outside_range",
+        "actual": 372,
+        "minimum": 1125,
+        "maximum": 1375
+      },
+      {
+        "code": "incomplete_sections",
+        "actual": 1,
+        "expected": 6
+      },
+      {
+        "code": "section_missing_citation",
+        "section": 1
+      },
+      {
+        "code": "unattributed_paragraph",
+        "section": 1
+      },
+      {
+        "code": "unattributed_paragraph",
+        "section": 1
+      },
+      {
+        "code": "unattributed_paragraph",
+        "section": 1
+      },
+      {
+        "code": "unattributed_paragraph",
+        "section": 1
+      },
+      {
+        "code": "unattributed_paragraph",
+        "section": 1
+      },
+      {
+        "code": "unattributed_paragraph",
+        "section": 1
+      },
+      {
+        "code": "unattributed_paragraph",
+        "section": 1
+      },
+      {
+        "code": "missing_action_bullets",
+        "actual": 0
+      }
+    ],
+    "manual_review_required": true,
+    "limits": {
+      "omitted_string_sha256": "66adaeb66aa66d97b6cf57236bf1fa41248b4d65675a7b3145f0d49bb36d6412",
+      "characters": 109
+    }
+  },
+  "stages": [
+    {
+      "stage": {
+        "omitted_string_sha256": "12394b1fcc4874e696c30ddde665946926d5b6ee0d967ce39a7bb51540672ef6",
+        "characters": 30
+      },
+      "provider": "ollama-local",
+      "model": "qwen3:0.6b",
+      "evidence_boundary": {
+        "omitted_string_sha256": "297b642d665dc2d55a282922ed768228b293cef9a5b2dac2521c64c5a4557ad3",
+        "characters": 26
+      },
+      "output_format": {
+        "omitted_string_sha256": "bc18f7068971a44e264848ecd54b72b02d38216abb8ce3c3d2148e37e8a12398",
+        "characters": 8
+      },
+      "initial_message_count": 0,
+      "pi_session_id": "01a1b161-536e-73e8-aa89-0d8191efd390",
+      "model_text": {
+        "omitted_string_sha256": "f9b63093b0bb75150d2eb9950abfac66a9c0fae54df7c8da2bb5c000741ac7b0",
+        "characters": 2426
+      },
+      "tool_trace": [],
+      "usage": {
+        "input": 2013,
+        "output": 427,
+        "cacheRead": 0,
+        "cacheWrite": 0,
+        "reasoning": 0,
+        "totalTokens": 2440
+      },
+      "stop_reason": {
+        "omitted_string_sha256": "6c45cb72a36e63d522aa54ed8adbd7a29a989474f2f77e0458af8800564ef3cb",
+        "characters": 4
+      },
+      "text_tool_call_normalized": false,
+      "duration_seconds": 16.288870631000464,
+      "process_reaped": true,
+      "bridge_closed": true,
+      "tool_called": false
+    }
+  ],
+  "source_passages": [
+    {
+      "source_label": "S2",
+      "chunk_id": "53054eb0-beee-5be4-b2f1-99ca9b2eac2d",
+      "source_metadata": {
+        "id": "53054eb0-beee-5be4-b2f1-99ca9b2eac2d",
+        "kind": {
+          "omitted_string_sha256": "117924a4b06255a71e57552f5b79ea0402de8b577f3afd406e7d822037664dd7",
+          "characters": 6
+        },
+        "guest": {
+          "omitted_string_sha256": "5714210e2ebd1fd9076ceb8253551a38f683411a5f13c0429983514e261d29a1",
+          "characters": 10
+        },
+        "title": {
+          "omitted_string_sha256": "e5bff6ba1585151230c4f42be9eda1300b7a277b9de10bea8c3e3289a0c372b7",
+          "characters": 88
+        },
+        "ordinal": 5,
+        "sponsor": false,
+        "version": 1,
+        "char_end": 13474,
+        "line_end": 124,
+        "speakers": [
+          {
+            "omitted_string_sha256": "5714210e2ebd1fd9076ceb8253551a38f683411a5f13c0429983514e261d29a1",
+            "characters": 10
+          },
+          {
+            "omitted_string_sha256": "5672c1355cf49a3ebf09471ab0b3466057fa578eb0dde2dffb5ed7638f50daca",
+            "characters": 15
+          }
+        ],
+        "video_url": {
+          "omitted_string_sha256": "1f3e5228ac8bf9dfcba1dea95dd7acf5f2df347eda26d2e0d0de514382adce9a",
+          "characters": 43
+        },
+        "char_start": 11262,
+        "dense_rank": 2,
+        "episode_id": {
+          "omitted_string_sha256": "08730a1ea0f2232e5a1e1d90581c09e818a5daa231fd322c8d78cec5d0cfbe94",
+          "characters": 36
+        },
+        "line_start": 112,
+        "rank_score": 0.03252247488101534,
+        "end_seconds": 698.0,
+        "neighbor_of": null,
+        "source_hash": "6af2a6e031826805e855ec262b1f228e3773b5b99265a1d01870f0d4e6e9ceda",
+        "source_path": "episodes/sean-ellis/transcript.md",
+        "sparse_rank": 1,
+        "text_sha256": {
+          "omitted_string_sha256": "5b76e9477d7e0922decde6dffdfb2d37037d8305b16d9dcc9ba4caadafd3b911",
+          "characters": 64
+        },
+        "start_seconds": 548.0,
+        "corpus_revision": "be8ab89a890a833cbba2c892178f823fff178c65",
+        "estimated_tokens": 553,
+        "metadata_warnings": []
+      },
+      "stored_text_sha256": {
+        "omitted_string_sha256": "5b76e9477d7e0922decde6dffdfb2d37037d8305b16d9dcc9ba4caadafd3b911",
+        "characters": 64
+      },
+      "snapshot_matches_recorded_text_hash": true
+    },
+    {
+      "source_label": "S3",
+      "chunk_id": "f5f40dd8-e8fb-5e74-9834-e45e31331549",
+      "source_metadata": {
+        "id": "f5f40dd8-e8fb-5e74-9834-e45e31331549",
+        "kind": {
+          "omitted_string_sha256": "117924a4b06255a71e57552f5b79ea0402de8b577f3afd406e7d822037664dd7",
+          "characters": 6
+        },
+        "guest": {
+          "omitted_string_sha256": "5714210e2ebd1fd9076ceb8253551a38f683411a5f13c0429983514e261d29a1",
+          "characters": 10
+        },
+        "title": {
+          "omitted_string_sha256": "e5bff6ba1585151230c4f42be9eda1300b7a277b9de10bea8c3e3289a0c372b7",
+          "characters": 88
+        },
+        "ordinal": 7,
+        "sponsor": false,
+        "version": 1,
+        "char_end": 17769,
+        "line_end": 151,
+        "speakers": [
+          {
+            "omitted_string_sha256": "5672c1355cf49a3ebf09471ab0b3466057fa578eb0dde2dffb5ed7638f50daca",
+            "characters": 15
+          },
+          {
+            "omitted_string_sha256": "5714210e2ebd1fd9076ceb8253551a38f683411a5f13c0429983514e261d29a1",
+            "characters": 10
+          }
+        ],
+        "video_url": {
+          "omitted_string_sha256": "1f3e5228ac8bf9dfcba1dea95dd7acf5f2df347eda26d2e0d0de514382adce9a",
+          "characters": 43
+        },
+        "char_start": 15362,
+        "dense_rank": 2,
+        "episode_id": {
+          "omitted_string_sha256": "08730a1ea0f2232e5a1e1d90581c09e818a5daa231fd322c8d78cec5d0cfbe94",
+          "characters": 36
+        },
+        "line_start": 136,
+        "rank_score": 0.03225806451612903,
+        "end_seconds": 943.0,
+        "neighbor_of": null,
+        "source_hash": "6af2a6e031826805e855ec262b1f228e3773b5b99265a1d01870f0d4e6e9ceda",
+        "source_path": "episodes/sean-ellis/transcript.md",
+        "sparse_rank": 2,
+        "text_sha256": {
+          "omitted_string_sha256": "fe9c0b98dae01525ba7d0d594156791986dd9034f1fe5890894a83735b5b62b0",
+          "characters": 64
+        },
+        "start_seconds": 813.0,
+        "corpus_revision": "be8ab89a890a833cbba2c892178f823fff178c65",
+        "estimated_tokens": 602,
+        "metadata_warnings": []
+      },
+      "stored_text_sha256": {
+        "omitted_string_sha256": "fe9c0b98dae01525ba7d0d594156791986dd9034f1fe5890894a83735b5b62b0",
+        "characters": 64
+      },
+      "snapshot_matches_recorded_text_hash": true
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "session_id": "d5c7c12e-0cca-4c39-9696-a67e4415a4fa",
+  "message_id": "8eb11f03-0ae5-4dcc-9e78-24d3b8eef64e",
+  "fixture": true,
+  "new_inference": 0,
+  "word_count": 1208,
+  "manual_edits": 9,
+  "validated_exact_candidate_sources": 6,
+  "artifacts": 2,
+  "content_sha256": {
+    "html": "91ea1f66278d0d25638eb51074c1960340a57ceaf9229028d6f57397ceb9c022",
+    "markdown": "622acbd2368356f8cd4ea5103383fc428539aa4b8093f78194bc780598b7693f"
+  }
+}

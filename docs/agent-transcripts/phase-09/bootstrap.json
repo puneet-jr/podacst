@@ -1,0 +1,93 @@
+{
+  "captured_at": "2026-11-07T05:11:20.324612+00:00",
+  "command": {
+    "omitted_string_sha256": "8f4c526fcb591ce66e07ad53ad285acfc06308f229e34cfbdfd61a071ed23a33",
+    "characters": 28
+  },
+  "elapsed_seconds": 6.596474625170231,
+  "environment_file_unchanged": true,
+  "normal_corpus_unchanged": {
+    "episodes": 9,
+    "chunks": 373
+  },
+  "ready_http": 200,
+  "checks": {
+    "provider": {
+      "ready": true,
+      "selected": "ollama",
+      "model": "qwen3:0.6b",
+      "live_verified": false
+    },
+    "database": {
+      "ready": true,
+      "schema_revision": {
+        "omitted_string_sha256": "b9428c7c573a1332a17e18249e0515a01f9e55fb1eefd1f2343a8caf2b68b199",
+        "characters": 25
+      },
+      "pgvector_version": {
+        "omitted_string_sha256": "e4369c730413d6871f29fa8a24a8f397e6a790e374b1283c9f76f780535415e3",
+        "characters": 5
+      }
+    },
+    "corpus": {
+      "ready": true,
+      "status": "partial",
+      "active_chunks": 373,
+      "active_episodes": 9,
+      "discovered": 303
+    },
+    "agent": {
+      "ready": true,
+      "version": "1.5.0"
+    },
+    "ollama": {
+      "ready": true,
+      "reachable_from_api": true,
+      "version": "0.30.11",
+      "generation_model_available": true,
+      "essay_model_available": true,
+      "embedding_model_available": true,
+      "embedding_dimensions_compatible": true,
+      "index_identity_compatible": true,
+      "note": {
+        "omitted_string_sha256": "e794244e901e453b7c7e944b4a3b9e0413be67a054586c47282d7b7f0d7a4ebc",
+        "characters": 83
+      }
+    }
+  },
+  "provider": {
+    "privacy": {
+      "omitted_string_sha256": "cdb0a08bc02bc543b0cea80bb66c196589e1ed8100d507c2f27ab59312ef1083",
+      "characters": 45
+    },
+    "essay_model": "qwen3:1.7b",
+    "selected": "ollama",
+    "model": "qwen3:0.6b",
+    "automatic_fallback": false,
+    "providers": [
+      {
+        "id": "ollama",
+        "implemented": true,
+        "configured": true,
+        "scope": "Local chat and reviewed essays; local embeddings.",
+        "enabled": true
+      },
+      {
+        "id": "anthropic",
+        "implemented": true,
+        "configured": false,
+        "scope": "Pi Anthropic Messages; chat tool selection and advice-only essay drafting. Live validation pending.",
+        "credentials_present": false,
+        "enabled": false,
+        "reason": {
+          "omitted_string_sha256": "3feb613537c10118203726c6b1b2b4bb4bb67a9b6d55834f3a8dc4bacbb4a5fc",
+          "characters": 17
+        }
+      }
+    ]
+  },
+  "rehearsal_scope": {
+    "omitted_string_sha256": "96bc5d4702b8365f0ff5d594500fb414293cfad81dc63687ed65e02b7ee429f4",
+    "characters": 114
+  }
+}

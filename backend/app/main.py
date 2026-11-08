@@ -18,6 +18,7 @@ from sqlalchemy.exc import SQLAlchemyError
 from sqlalchemy.orm import Session, sessionmaker
 from starlette.exceptions import HTTPException
 
+from backend.app.observability import emit, request_id as log_request_id, session_id as log_session_id
 from backend.app.config import load_settings
 from backend.app.schema import CURRENT_REVISION
 from backend.app.db import ChatSession, Message, User, make_engine
@@ -33,7 +34,8 @@ settings = load_settings()
 engine = make_engine(settings)
 factory = sessionmaker(engine, expire_on_commit=False)
 conversations = ConversationService(engine,settings)
-essays = EssayService(engine,settings,conversations.lock)
+from backend.app.evidence_first import EvidenceFirstService
+essays = EvidenceFirstService(engine,settings,conversations.lock)
 @asynccontextmanager
 async def lifespan(app):
     with engine.begin() as connection:
@@ -55,9 +57,7 @@ logger.propagate = False
 
 
 def event(name, **fields):
-    # Only explicitly chosen metadata is logged. Never prompts, content, keys, DSNs or exception text.
-    logger.info(json.dumps({"timestamp": datetime.now(timezone.utc).isoformat(), "phase": "api", "event": name, **fields}, default=str))
-
+    emit(name, **fields)
 
 class AppError(Exception):
     def __init__(self, code, message, status=400, retryable=False):
@@ -65,6 +65,7 @@ class AppError(Exception):
 
 
 def failure(request, code, message, status, retryable=False):
+    event("operation_failure",request_id=request.state.request_id,code=code,status=status)
     return JSONResponse({"error": {"code": code, "message": message, "request_id": request.state.request_id, "retryable": retryable}}, status_code=status)
 
 
@@ -72,6 +73,11 @@ def failure(request, code, message, status, retryable=False):
 async def correlation(request: Request, call_next):
     request.state.request_id = uuid4().hex
     started = time.monotonic()
+    request_token=log_request_id.set(request.state.request_id)
+    try:
+        parts=request.url.path.split('/');sid=str(UUID(parts[3])) if len(parts)>3 and parts[2]=='sessions' else None
+    except (ValueError,IndexError):sid=None
+    session_token=log_session_id.set(sid)
     try:
         response = await call_next(request)
     except Exception:
@@ -84,6 +90,7 @@ async def correlation(request: Request, call_next):
         session_id = None
     event("http_request", request_id=request.state.request_id, session_id=session_id, method=request.method,
           route=getattr(route, "path", "unmatched"), duration_ms=round((time.monotonic() - started) * 1000, 2), status=response.status_code)
+    log_request_id.reset(request_token);log_session_id.reset(session_token)
     return response
 
 
@@ -116,6 +123,11 @@ async def http_error(request: Request, exc):
 async def database_error(request: Request, exc):
     event("database_failure", request_id=request.state.request_id, code="database_unavailable", error_type=type(exc).__name__)
     return failure(request, "database_unavailable", "The database is unavailable. Please retry.", 503, True)
+
+
+def require_selected_provider():
+    try:settings.require_provider()
+    except ValueError:raise AppError('cloud_key_missing','Selected cloud provider has no server-side key. Configure it or explicitly select Ollama.',503)
 
 
 def db():
@@ -178,23 +190,31 @@ def ready(request: Request):
                 dimension = next((value for key, value in info.items() if key.endswith(".embedding_length")), None)
                 compatible = dimension == settings.embedding_dimensions
         identity_compatible = not index_profile or bool(embedding and index_profile['embedding_model'] == settings.embedding_model and index_profile['embedding_digest'] == embedding['digest'])
-        checks["ollama"] = {"ready": bool(generation and embedding and compatible and identity_compatible), "reachable_from_api": True, "version": version,
+        checks["ollama"] = {"ready": bool(embedding and compatible and identity_compatible and (settings.default_provider!="ollama" or (generation and settings.essay_model in models))), "reachable_from_api": True, "version": version,
                             "generation_model_available": bool(generation), "essay_model_available": settings.essay_model in models, "embedding_model_available": bool(embedding), "embedding_dimensions_compatible": compatible,
                             "index_identity_compatible": identity_compatible,
                             "note": "Transport and installed-model availability; does not prove answer or essay quality."}
     except (httpx.HTTPError, ValueError, KeyError, TypeError):
         checks["ollama"] = {"ready": False, "reachable_from_api": False, "code": "ollama_unavailable"}
-    foundation = all(checks[k]["ready"] for k in ("database", "agent", "ollama"))
+    configured=settings.default_provider=="ollama" or bool(settings.selected_key.get_secret_value().strip())
+    checks["provider"]={"ready":configured,"selected":settings.default_provider,"model":settings.selected_model(),"code":None if configured else "cloud_key_missing","live_verified":False}
+    foundation = all(checks[k]["ready"] for k in ("database", "agent", "ollama", "provider"))
     event("readiness", request_id=request.state.request_id, outcome="ready" if foundation else "not_ready", database_ready=checks["database"]["ready"], agent_ready=checks["agent"]["ready"], model_ready=checks["ollama"]["ready"])
-    payload = ReadyOut.model_validate({"status": "ready" if foundation else "not_ready", "scope": "phase_5_conversation", "product_ready": False, "checks": checks})
+    payload = ReadyOut.model_validate({"status": "ready" if foundation else "not_ready", "scope": "phase_9_operations", "product_ready": False, "checks": checks})
     return JSONResponse(payload.model_dump(mode="json", exclude_none=True), status_code=200 if foundation else 503)
 
 
 @app.get("/api/providers", response_model=ProvidersOut, response_model_exclude_none=True)
 def providers():
-    return {"selected": "ollama", "model": settings.generation_model, "essay_model": settings.essay_model, "automatic_fallback": False,
-            "providers": [{"id": "ollama", "implemented": True, "configured": True, "scope": "retrieval-first extractive conversation; hybrid; no autonomous/essay quality claim"},
-                          {"id": "anthropic", "implemented": False, "credentials_present": bool(settings.anthropic_api_key.get_secret_value()), "enabled": False, "reason": "Cloud adapter is pending Phase 9; no implicit cloud inference."}]}
+    anthropic=bool(settings.anthropic_api_key.get_secret_value().strip())
+    openrouter=bool(settings.openrouter_api_key.get_secret_value().strip())
+    destination='OpenRouter and the selected upstream model provider' if settings.default_provider=='openrouter' else 'Anthropic'
+    return {"selected":settings.default_provider,"model":settings.selected_model(),"essay_model":settings.selected_model(essay=True),"automatic_fallback":False,
+        "privacy":"Local inference; no automatic cloud fallback." if settings.default_provider=='ollama' else f"Cloud selected: bounded transcript excerpts, relevant conversation and instructions may be sent to {destination}. Embeddings remain local. Requests may incur charges; no automatic fallback.",
+        "providers":[{"id":"ollama","implemented":True,"configured":True,"enabled":settings.default_provider=='ollama',"scope":"Local chat and reviewed essays; local embeddings."},
+        {"id":"anthropic","implemented":True,"configured":anthropic,"credentials_present":anthropic,"enabled":settings.default_provider=='anthropic' and anthropic,"scope":"Pi native Anthropic Messages; live validation not established by configuration.","reason":None if anthropic else "cloud_key_missing"},
+        {"id":"openrouter","implemented":True,"configured":openrouter,"credentials_present":openrouter,"enabled":settings.default_provider=='openrouter' and openrouter,"scope":"Pi OpenRouter chat tools and advice-only essays. Key presence is not live validation; see recorded cited smoke evidence.","reason":None if openrouter else "cloud_key_missing"}]}
+
 
 
 @app.get("/api/ingestion/status", response_model=IngestionStatusOut)
@@ -266,6 +286,7 @@ def read_messages(session_id: UUID, limit: int = Query(default=50, ge=1, le=200)
 
 @app.post('/api/sessions/{session_id}/answers',responses={200:{'content':{'application/x-ndjson':{}},'description':'Typed ChatEvent JSON lines; completed output only after evidence-ID validation'}})
 async def answer(session_id: UUID, body: AnswerCreate, request: Request):
+    require_selected_provider()
     run,created=await asyncio.to_thread(prepare,engine,settings,session_id,body)
     if not created:
         async def replay():yield json_value(ChatEvent(type=run['status'],run_id=run['id'],data={'run':run}).model_dump(mode='json'))+'\n'
@@ -315,6 +336,7 @@ def save_message(session_id: UUID, body: MessageCreate, request: Request, connec
 
 @app.post('/api/sessions/{session_id}/essays',responses={200:{'content':{'application/x-ndjson':{}},'description':'Dedicated Ship30 workflow; deterministic checks then explicit manual review, not automatic semantic certification.'}})
 async def write_essay(session_id:UUID,body:EssayCreate,request:Request):
+    require_selected_provider()
     run,created=await asyncio.to_thread(prepare_essay,engine,settings,session_id,body)
     if not created:
         async def replay():yield json_value(EssayEvent(type=run['status'],run_id=run['id'],data={'run':run}).model_dump(mode='json'))+'\n'
@@ -340,6 +362,39 @@ async def cancel_essay(session_id:UUID,run_id:UUID):
     task=essays.tasks.get(run_id)
     if run['status']=='running' and task:task.cancel();return {'status':'cancellation_requested','run_id':run_id}
     return {'status':run['status'],'run_id':run_id}
+
+
+from backend.app.artifacts import ArtifactCreate,list_artifacts,get_artifact,create_artifact,artifact_source
+@app.get('/api/sessions/{session_id}/artifacts')
+def artifact_list(session_id:UUID):return list_artifacts(engine,settings,session_id)
+@app.post('/api/sessions/{session_id}/artifacts',status_code=201)
+def artifact_create(session_id:UUID,body:ArtifactCreate):return create_artifact(engine,settings,session_id,body)
+@app.get('/api/sessions/{session_id}/artifacts/{artifact_id}')
+def artifact_read(session_id:UUID,artifact_id:UUID):return get_artifact(engine,settings,session_id,artifact_id)
+@app.get('/api/sessions/{session_id}/artifacts/{artifact_id}/sources/{label}',response_model=SourceOut)
+def artifact_source_read(session_id:UUID,artifact_id:UUID,label:str):return artifact_source(engine,settings,session_id,artifact_id,label)
+
+from pydantic import BaseModel,Field,ConfigDict
+class AdviceEdit(BaseModel):
+    model_config=ConfigDict(extra='forbid')
+    sections:dict[str,str]=Field(min_length=1,max_length=6)
+@app.post('/api/sessions/{session_id}/essays/{run_id}/advice',response_model=EssayRunOut)
+def revise_essay_advice(session_id:UUID,run_id:UUID,body:AdviceEdit):
+    from backend.app.evidence_first import edit_advice
+    return edit_advice(engine,settings,session_id,run_id,body.sections)
+
+class EvidenceSpan(BaseModel):
+    model_config=ConfigDict(extra='forbid')
+    start:int=Field(ge=0)
+    end:int=Field(gt=0)
+class EvidenceEdit(BaseModel):
+    model_config=ConfigDict(extra='forbid')
+    sections:dict[str,list[EvidenceSpan]]=Field(min_length=1,max_length=6)
+@app.post('/api/sessions/{session_id}/essays/{run_id}/evidence',response_model=EssayRunOut)
+def revise_essay_evidence(session_id:UUID,run_id:UUID,body:EvidenceEdit):
+    from backend.app.evidence_first import edit_evidence
+    return edit_evidence(engine,settings,session_id,run_id,body.model_dump()['sections'])
+
 
 @app.get('/api/sessions/{session_id}/essays')
 def saved_essays(session_id:UUID):

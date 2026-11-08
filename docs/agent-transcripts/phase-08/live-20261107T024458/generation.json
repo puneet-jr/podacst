@@ -10,17 +10,38 @@
         "section": 5
       }
     ],
-    "limits": "ID/count/format screens are not semantic support, hook quality, meaningful progression or completeness proof.",
+    "limits": {
+      "omitted_string_sha256": "66adaeb66aa66d97b6cf57236bf1fa41248b4d65675a7b3145f0d49bb36d6412",
+      "characters": 109
+    },
     "bullets": 7,
     "bold_spans": 1,
     "word_count": 1224,
     "citation_ids": [
-      "S2",
-      "S3",
-      "S4",
-      "S5",
-      "S6",
-      "S7"
+      {
+        "omitted_string_sha256": "adfa2b24c2d924fe6383d8804be55afb98ea3eb0e14c3470ac3a0f651b9a422e",
+        "characters": 2
+      },
+      {
+        "omitted_string_sha256": "44d6a8a73eddb284d49799fdbfa2919a004ece6d2df3546eaa4e246048bcdf81",
+        "characters": 2
+      },
+      {
+        "omitted_string_sha256": "b1d3eb8f32936fa9cf89d2240bd10734270fd55ff4644ad254b3b237468bad88",
+        "characters": 2
+      },
+      {
+        "omitted_string_sha256": "1cdcbd57e7e20491d8be5ff46549aac5f9c117320a164a49ebc4f1439a741d76",
+        "characters": 2
+      },
+      {
+        "omitted_string_sha256": "b12f76a4b782e4ae7f035b86a07cb43e638af9157e855af49c3945971d2af402",
+        "characters": 2
+      },
+      {
+        "omitted_string_sha256": "d53d113e9c01f4388af35632813ddb85902066795ecabba59ed24f483ad3db26",
+        "characters": 2
+      }
     ],
     "section_count": 6,
     "accepted_range": [
@@ -41,12 +62,24 @@
   },
   "calls": [
     {
-      "method": "POST",
-      "path": "/api/sessions/6f882513-96b5-4fcc-88c2-1e1dc82d9585/essays",
-      "at": "2026-11-07T02:50:20.904899+00:00"
+      "method": {
+        "omitted_string_sha256": "9aee6b1bcdf617d8e39bb1f2b624c68ea33deb9d48e0364aeaded836d3d00293",
+        "characters": 4
+      },
+      "path": {
+        "omitted_string_sha256": "c9a4f34669235830ffec2b6ffa424fb54bf2cea160d7a0df394ccd78d3cb28b1",
+        "characters": 57
+      },
+      "at": {
+        "omitted_string_sha256": "daf65008fc6918f43799d91be96a8db7bff727b8a37c3e368121295f62485ecc",
+        "characters": 32
+      }
     }
   ],
   "page_errors": [],
-  "manual_review": "pending; this script does not accept the essay",
+  "manual_review": {
+    "omitted_string_sha256": "794dc558add6e4fd38b5a2ad074024293635b997bef3e3c520c37cc45ccb40ce",
+    "characters": 46
+  },
   "fixture": false
 }

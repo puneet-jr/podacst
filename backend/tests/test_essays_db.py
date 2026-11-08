@@ -78,7 +78,7 @@ class EssayDatabase(unittest.TestCase):
         async def fake_stage(run,name,prompt,loader,schema,tokens,metadata):
             calls.append(name);metadata['stages'].append({'stage':name,'explicit_mock':True})
             if name=='outline':await loader();return json.dumps(outline())
-            return json.dumps({'body':'A deliberately short synthetic draft cannot satisfy the essay rubric. [S1]'})
+            return 'A deliberately short synthetic draft cannot satisfy the essay rubric. [S1]'
         async def notify(kind,data):events.append(kind)
         sources={'S1':{'id':str(uuid4()),'original_text':'Synthetic fixture evidence.','guest':'Fixture','title':'Synthetic'}}
         packet={'retrieval_mode':'hybrid','sources':[{'id':'S1'}]}
@@ -101,6 +101,21 @@ class EssayDatabase(unittest.TestCase):
         self.assertEqual(events[-1]['type'],'insufficient_evidence');self.assertEqual(events[0]['workflow'],'ship30')
         actual=self.client.get(f"/api/sessions/{self.sid}/essays/{events[0]['run_id']}").json()
         self.assertEqual(actual['error_code'],'essay_evidence_too_thin');self.assertFalse(actual['sections'])
+
+    def test_review_saves_long_essay_but_user_and_assistant_bounds_remain(self):
+        # Synthetic boundary fixture, not generated content or a quality pass.
+        from sqlalchemy.exc import IntegrityError
+        body='Synthetic reviewed essay boundary. '*270
+        self.assertGreater(len(body),8000)
+        run,_=prepare_essay(engine,settings,self.sid,self.body())
+        save_progress(engine,run['id'],status='needs_review',draft_md=body,validation={'passed_deterministic':True,'citation_ids':[]})
+        accepted=review_essay(engine,settings,self.sid,run['id'],self.review(True))
+        self.assertEqual(accepted['status'],'completed')
+        messages=self.client.get(f'/api/sessions/{self.sid}/messages').json()
+        self.assertEqual(messages[-1]['content'],body)
+        for role,size in [('user',8001),('assistant',32769)]:
+            with self.subTest(role=role),self.assertRaises(IntegrityError),engine.begin() as c:
+                c.execute(text("INSERT INTO messages(id,session_id,client_message_id,role,content,status) VALUES(:id,:sid,:client,:role,:body,'completed')"),{'id':uuid4(),'sid':self.sid,'client':uuid4(),'role':role,'body':'x'*size})
 
     def test_saved_essay_list_is_scoped_and_includes_recoverable_status(self):
         self.assertEqual(self.client.get(f'/api/sessions/{self.sid}/essays').json(),[])

@@ -1,0 +1,10 @@
+{
+  "base_revision": "bffcace365fe97e538599d12acb6989c9e0beab7",
+  "file_count": 742,
+  "configured_values_checked": 4,
+  "baseline_runtime_hashes_matched": 41,
+  "expected_runtime_hashes": 41,
+  "findings": [],
+  "passed": true,
+  "scope": "Standalone export only; exact configured values, common credential patterns, excluded paths, raw historical payload keys and baseline hashes. Not a universal security or redistribution-rights assurance."
+}

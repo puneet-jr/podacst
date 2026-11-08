@@ -1,4 +1,5 @@
 """Typed essay contracts and deterministic checks; these do not certify factual support."""
+from backend.app.source_paths import SOURCE_PATH_PATTERN
 import json
 from pathlib import Path
 import re
@@ -24,7 +25,7 @@ class EssayCreate(Input):
     audience: str=Field(min_length=3,max_length=180)
     constraints: str=Field(default='',max_length=1200)
     client_message_id: UUID
-    source_path: str | None=Field(default=None,pattern=r'^episodes/[a-z0-9-]+/transcript\.md$',max_length=240)
+    source_path: str | None=Field(default=None,pattern=SOURCE_PATH_PATTERN,max_length=240)
     focus_questions: list[Annotated[str,Field(min_length=3,max_length=220)]]=Field(default_factory=list,max_length=3)
     timeout_seconds: float=Field(default=600,ge=1,le=900)
     use_session_context: bool=True
@@ -103,6 +104,13 @@ def parse_outline(raw,labels):
 
 def assemble(title,sections):
     return '# '+title+'\n\n'+'\n\n'.join('## '+s['heading']+'\n\n'+s['body'] for s in sections)
+
+
+def parse_markdown_section(raw):
+    if not isinstance(raw,str) or not raw.strip() or len(raw)>8000:raise EssayError('section_output_invalid',502)
+    value=raw.strip()
+    if value.startswith(('{','```')):raise EssayError('section_not_plain_markdown',502)
+    return value
 
 
 def validate_essay(title,sections,sources,policy=POLICY):

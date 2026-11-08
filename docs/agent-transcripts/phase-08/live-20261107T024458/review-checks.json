@@ -1,6 +1,12 @@
 {
-  "reviewed_at": "2026-11-07T03:01:24.506775+00:00",
-  "surface": "Normal app review/source/advice/acceptance controls",
+  "reviewed_at": {
+    "omitted_string_sha256": "f2f1db9d34f09d5f1dc9a34a74e31f5c33827eb0fb33a06b1ea1f623c5854296",
+    "characters": 32
+  },
+  "surface": {
+    "omitted_string_sha256": "530ecafec4630574b645da371880f2e571837c407b1a3ac8908990e18c13003b",
+    "characters": 51
+  },
   "factual_blocks": [
     {
       "section": 1,
@@ -76,28 +82,64 @@
   "word_count": 1208,
   "manual_advice_edits": 6,
   "manual_source_edits": 3,
-  "claims": "Guest quotations checked against actual passages; no inferred95% result or invented case outcome. Advice is proposed experimentation with hypotheses, metrics and decisions.",
-  "readability": "Reader question before evidence, six headings, selective bold and concrete takeaway. Evidence-led/quote-heavy style remains.",
+  "claims": {
+    "omitted_string_sha256": "e0b8f4f2db53303600c3417d2aa577ad3d2fd38605685f9049755727763b35d8",
+    "characters": 172
+  },
+  "readability": {
+    "omitted_string_sha256": "0224b1c8b6de019469dfb0ac18faaeaca11bdcccbf671dc3a43ac5c56e17863c",
+    "characters": 124
+  },
   "post_requests": [
     {
-      "method": "POST",
-      "path": "/api/sessions/6f882513-96b5-4fcc-88c2-1e1dc82d9585/essays/b4309701-8122-4b16-b38b-ec7ee8a3fe21/evidence"
+      "method": {
+        "omitted_string_sha256": "9aee6b1bcdf617d8e39bb1f2b624c68ea33deb9d48e0364aeaded836d3d00293",
+        "characters": 4
+      },
+      "path": {
+        "omitted_string_sha256": "2ed2dac6920ec9833652b206cee30c2501789d243475da8f0ce8e0dd02f49156",
+        "characters": 103
+      }
     },
     {
-      "method": "POST",
-      "path": "/api/sessions/6f882513-96b5-4fcc-88c2-1e1dc82d9585/essays/b4309701-8122-4b16-b38b-ec7ee8a3fe21/advice"
+      "method": {
+        "omitted_string_sha256": "9aee6b1bcdf617d8e39bb1f2b624c68ea33deb9d48e0364aeaded836d3d00293",
+        "characters": 4
+      },
+      "path": {
+        "omitted_string_sha256": "3f36c382645ef817f37ee618a0a0f838edb0630b82f008894e3fcd1d0233f793",
+        "characters": 101
+      }
     },
     {
-      "method": "POST",
-      "path": "/api/sessions/6f882513-96b5-4fcc-88c2-1e1dc82d9585/essays/b4309701-8122-4b16-b38b-ec7ee8a3fe21/review"
+      "method": {
+        "omitted_string_sha256": "9aee6b1bcdf617d8e39bb1f2b624c68ea33deb9d48e0364aeaded836d3d00293",
+        "characters": 4
+      },
+      "path": {
+        "omitted_string_sha256": "26341076d3ccb04a5f8d73c6da5c178c56d60f04591785ea6c17cfd35e684f33",
+        "characters": 101
+      }
     },
     {
-      "method": "POST",
-      "path": "/api/sessions/6f882513-96b5-4fcc-88c2-1e1dc82d9585/artifacts"
+      "method": {
+        "omitted_string_sha256": "9aee6b1bcdf617d8e39bb1f2b624c68ea33deb9d48e0364aeaded836d3d00293",
+        "characters": 4
+      },
+      "path": {
+        "omitted_string_sha256": "5bff6bfc8cf10d0113d47b2d3cb1ce41f8069fc9794464b0390aeebda8654864",
+        "characters": 60
+      }
     },
     {
-      "method": "POST",
-      "path": "/api/sessions/6f882513-96b5-4fcc-88c2-1e1dc82d9585/artifacts"
+      "method": {
+        "omitted_string_sha256": "9aee6b1bcdf617d8e39bb1f2b624c68ea33deb9d48e0364aeaded836d3d00293",
+        "characters": 4
+      },
+      "path": {
+        "omitted_string_sha256": "5bff6bfc8cf10d0113d47b2d3cb1ce41f8069fc9794464b0390aeebda8654864",
+        "characters": 60
+      }
     }
   ],
   "page_errors": [],

@@ -1,0 +1,37 @@
+{
+  "stdout_protocol": {
+    "frames": 60,
+    "sha256": "d95b3ee36bb620c9d0a20e25ee2db9673cc9da86a5ba429c339a12000670e7f0",
+    "all_json": true
+  },
+  "stderr_sha256": {
+    "omitted_string_sha256": "83fe47ca1271e40fa098c901d1564a6cf6546216becf7491d66c5e3fac2b5a2c",
+    "characters": 64
+  },
+  "diagnostics": [
+    {
+      "event": {
+        "omitted_string_sha256": "97dfef4792fdc68b417037029d303c829e254a0e2ffef89cdf955f8045f02441",
+        "characters": 11
+      },
+      "active": [],
+      "mode": "application_advice_only"
+    },
+    {
+      "event": {
+        "omitted_string_sha256": "5b12b88e083479c0b53da89c161c7cd1cbf2995ab480e1233d8a8b97fa398511",
+        "characters": 16
+      },
+      "provider": "ollama-local",
+      "model": "qwen3:1.7b",
+      "prompt_bytes": 792,
+      "max_tokens": 256,
+      "structured_grammar": false,
+      "mode": "application_advice_only"
+    }
+  ],
+  "capture_note": {
+    "omitted_string_sha256": "d5f45eb37f3e5be4a0ab11553504d257647fc3d976a1b45962b81248ef375dc3",
+    "characters": 109
+  }
+}

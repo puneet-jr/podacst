@@ -1,0 +1,1533 @@
+{
+  "command_exit_code": 0,
+  "tests": [
+    {
+      "omitted_string_sha256": "b02b183673188853e8c067edf47ee2a309574b727fd4d08c3c4582ee1e3630e9",
+      "characters": 24
+    }
+  ],
+  "cases": [
+    {
+      "phase9_case": {
+        "omitted_string_sha256": "da6ac64cf5096699ee44db2ec637063d700bf63ef541d31ae9148e4d957463a1",
+        "characters": 16
+      },
+      "database": {
+        "omitted_string_sha256": "cdd04e9a34b9359a9d54bbc293f01bcdc5ed6ec6de9885d45b4db9b35171ee52",
+        "characters": 27
+      },
+      "http": 503,
+      "request_id": {
+        "omitted_string_sha256": "5a8c963d446765f1df4cd71f2f608e811676d19348dfcc2ed46c038d27145626",
+        "characters": 32
+      },
+      "error": {
+        "omitted_string_sha256": "3feb613537c10118203726c6b1b2b4bb4bb67a9b6d55834f3a8dc4bacbb4a5fc",
+        "characters": 17
+      },
+      "recovery_http": 200,
+      "events": [
+        {
+          "timestamp": "2026-11-07T05:16:51.090873+00:00",
+          "event": {
+            "omitted_string_sha256": "74583a4cf273c11bd859b83e5f14116a8e4404b0796b4ed32e377818e82da3cb",
+            "characters": 15
+          },
+          "phase": {
+            "omitted_string_sha256": "14c2529eb4498c5d1ffd6915d05bf58a91bdda796af59f41d480d11c099d0479",
+            "characters": 3
+          },
+          "request_id": {
+            "omitted_string_sha256": "b40626acb02c3bfc6616bfd0274d84de0e51ab125e21749d3465f4685c335573",
+            "characters": 32
+          },
+          "session_id": "e682d442-1a97-40ad-a907-2cec653ff81b"
+        },
+        {
+          "timestamp": "2026-11-07T05:16:51.091326+00:00",
+          "event": {
+            "omitted_string_sha256": "01c41f0b4409aeffc9b098072c40ee350cc01ddffa12e721e8b606a8b9f27662",
+            "characters": 12
+          },
+          "phase": {
+            "omitted_string_sha256": "14c2529eb4498c5d1ffd6915d05bf58a91bdda796af59f41d480d11c099d0479",
+            "characters": 3
+          },
+          "request_id": {
+            "omitted_string_sha256": "b40626acb02c3bfc6616bfd0274d84de0e51ab125e21749d3465f4685c335573",
+            "characters": 32
+          },
+          "method": {
+            "omitted_string_sha256": "9aee6b1bcdf617d8e39bb1f2b624c68ea33deb9d48e0364aeaded836d3d00293",
+            "characters": 4
+          },
+          "route": {
+            "omitted_string_sha256": "e50fe3fb8c42fd2ed6f83b8ff39a27a1f7b3f84b1a80c8d2a2812eef75ca05e3",
+            "characters": 13
+          },
+          "duration_ms": 3.51,
+          "status": 201
+        },
+        {
+          "timestamp": "2026-11-07T05:16:51.095039+00:00",
+          "event": {
+            "omitted_string_sha256": "0f2077a07c2ed98c3d041e2ad1452a9b3143a82468bba3f9eee24b874f49709c",
+            "characters": 17
+          },
+          "phase": {
+            "omitted_string_sha256": "14c2529eb4498c5d1ffd6915d05bf58a91bdda796af59f41d480d11c099d0479",
+            "characters": 3
+          },
+          "request_id": {
+            "omitted_string_sha256": "5a8c963d446765f1df4cd71f2f608e811676d19348dfcc2ed46c038d27145626",
+            "characters": 32
+          },
+          "session_id": "e682d442-1a97-40ad-a907-2cec653ff81b",
+          "code": "cloud_key_missing",
+          "status": 503
+        },
+        {
+          "timestamp": "2026-11-07T05:16:51.095190+00:00",
+          "event": {
+            "omitted_string_sha256": "01c41f0b4409aeffc9b098072c40ee350cc01ddffa12e721e8b606a8b9f27662",
+            "characters": 12
+          },
+          "phase": {
+            "omitted_string_sha256": "14c2529eb4498c5d1ffd6915d05bf58a91bdda796af59f41d480d11c099d0479",
+            "characters": 3
+          },
+          "request_id": {
+            "omitted_string_sha256": "5a8c963d446765f1df4cd71f2f608e811676d19348dfcc2ed46c038d27145626",
+            "characters": 32
+          },
+          "session_id": "e682d442-1a97-40ad-a907-2cec653ff81b",
+          "method": {
+            "omitted_string_sha256": "9aee6b1bcdf617d8e39bb1f2b624c68ea33deb9d48e0364aeaded836d3d00293",
+            "characters": 4
+          },
+          "route": {
+            "omitted_string_sha256": "9e56693f284eaebe65e85c82feb14154b225eeda3cfc5d589bbe0407a66ad7f6",
+            "characters": 34
+          },
+          "duration_ms": 0.98,
+          "status": 503
+        },
+        {
+          "timestamp": "2026-11-07T05:16:51.098135+00:00",
+          "event": {
+            "omitted_string_sha256": "0f2077a07c2ed98c3d041e2ad1452a9b3143a82468bba3f9eee24b874f49709c",
+            "characters": 17
+          },
+          "phase": {
+            "omitted_string_sha256": "14c2529eb4498c5d1ffd6915d05bf58a91bdda796af59f41d480d11c099d0479",
+            "characters": 3
+          },
+          "request_id": {
+            "omitted_string_sha256": "0ea9e9d20ad89fb45e5a01cd4b3298deb7b515b2e07c57cfffc59db981a70ffb",
+            "characters": 32
+          },
+          "session_id": "e682d442-1a97-40ad-a907-2cec653ff81b",
+          "code": "cloud_key_missing",
+          "status": 503
+        },
+        {
+          "timestamp": "2026-11-07T05:16:51.098321+00:00",
+          "event": {
+            "omitted_string_sha256": "01c41f0b4409aeffc9b098072c40ee350cc01ddffa12e721e8b606a8b9f27662",
+            "characters": 12
+          },
+          "phase": {
+            "omitted_string_sha256": "14c2529eb4498c5d1ffd6915d05bf58a91bdda796af59f41d480d11c099d0479",
+            "characters": 3
+          },
+          "request_id": {
+            "omitted_string_sha256": "0ea9e9d20ad89fb45e5a01cd4b3298deb7b515b2e07c57cfffc59db981a70ffb",
+            "characters": 32
+          },
+          "session_id": "e682d442-1a97-40ad-a907-2cec653ff81b",
+          "method": {
+            "omitted_string_sha256": "9aee6b1bcdf617d8e39bb1f2b624c68ea33deb9d48e0364aeaded836d3d00293",
+            "characters": 4
+          },
+          "route": {
+            "omitted_string_sha256": "81142df9a5bb973968cae551834a351a362d165f1ae6fb1e12fd604380f5cf80",
+            "characters": 33
+          },
+          "duration_ms": 0.66,
+          "status": 503
+        },
+        {
+          "timestamp": "2026-11-07T05:16:51.507931+00:00",
+          "event": {
+            "omitted_string_sha256": "0e06b84496798ba899c50de6eb2efc0b92c62a75e5ba69af7a158cba107352bc",
+            "characters": 9
+          },
+          "phase": {
+            "omitted_string_sha256": "14c2529eb4498c5d1ffd6915d05bf58a91bdda796af59f41d480d11c099d0479",
+            "characters": 3
+          },
+          "request_id": {
+            "omitted_string_sha256": "e1ef21b450d0d515bbaf5060c2b4eb50e682055508e426a9280e8603f71edd3a",
+            "characters": 32
+          },
+          "outcome": {
+            "omitted_string_sha256": "7459d64cb848053a2b1c6140a2dae94c92574f57e5a07718132d83b33cc0d7eb",
+            "characters": 9
+          },
+          "database_ready": true,
+          "agent_ready": true,
+          "model_ready": true
+        },
+        {
+          "timestamp": "2026-11-07T05:16:51.509079+00:00",
+          "event": {
+            "omitted_string_sha256": "01c41f0b4409aeffc9b098072c40ee350cc01ddffa12e721e8b606a8b9f27662",
+            "characters": 12
+          },
+          "phase": {
+            "omitted_string_sha256": "14c2529eb4498c5d1ffd6915d05bf58a91bdda796af59f41d480d11c099d0479",
+            "characters": 3
+          },
+          "request_id": {
+            "omitted_string_sha256": "e1ef21b450d0d515bbaf5060c2b4eb50e682055508e426a9280e8603f71edd3a",
+            "characters": 32
+          },
+          "method": {
+            "omitted_string_sha256": "14e30cd163c732912e048c4c837e15c4e90c062ebb795ab947d57706e2d10dd8",
+            "characters": 3
+          },
+          "route": {
+            "omitted_string_sha256": "b0380e2a230c7d764b13af6d9be6c76140e99e21c7d633274f28e754a45a70ef",
+            "characters": 17
+          },
+          "duration_ms": 407.33,
+          "status": 503
+        },
+        {
+          "timestamp": "2026-11-07T05:16:51.516039+00:00",
+          "event": {
+            "omitted_string_sha256": "01c41f0b4409aeffc9b098072c40ee350cc01ddffa12e721e8b606a8b9f27662",
+            "characters": 12
+          },
+          "phase": {
+            "omitted_string_sha256": "14c2529eb4498c5d1ffd6915d05bf58a91bdda796af59f41d480d11c099d0479",
+            "characters": 3
+          },
+          "request_id": {
+            "omitted_string_sha256": "344e555de76fc529a53c9efa7aed0bcd85bd9560d444c4587908375d71bb67bb",
+            "characters": 32
+          },
+          "method": {
+            "omitted_string_sha256": "14e30cd163c732912e048c4c837e15c4e90c062ebb795ab947d57706e2d10dd8",
+            "characters": 3
+          },
+          "route": {
+            "omitted_string_sha256": "e3ae2c824feaaec51cfe7913b63534c43a2a4d94438263818a18dfeb024af3a7",
+            "characters": 14
+          },
+          "duration_ms": 2.63,
+          "status": 200
+        },
+        {
+          "timestamp": "2026-11-07T05:16:51.523433+00:00",
+          "event": {
+            "omitted_string_sha256": "01c41f0b4409aeffc9b098072c40ee350cc01ddffa12e721e8b606a8b9f27662",
+            "characters": 12
+          },
+          "phase": {
+            "omitted_string_sha256": "14c2529eb4498c5d1ffd6915d05bf58a91bdda796af59f41d480d11c099d0479",
+            "characters": 3
+          },
+          "request_id": {
+            "omitted_string_sha256": "aa67e3a16c62821b0d9ad7137c19a7ebb36e978d1301c7242178b732f4a7ddab",
+            "characters": 32
+          },
+          "method": {
+            "omitted_string_sha256": "14e30cd163c732912e048c4c837e15c4e90c062ebb795ab947d57706e2d10dd8",
+            "characters": 3
+          },
+          "route": {
+            "omitted_string_sha256": "e3ae2c824feaaec51cfe7913b63534c43a2a4d94438263818a18dfeb024af3a7",
+            "characters": 14
+          },
+          "duration_ms": 1.14,
+          "status": 200
+        },
+        {
+          "timestamp": "2026-11-07T05:16:51.532132+00:00",
+          "event": {
+            "omitted_string_sha256": "01c41f0b4409aeffc9b098072c40ee350cc01ddffa12e721e8b606a8b9f27662",
+            "characters": 12
+          },
+          "phase": {
+            "omitted_string_sha256": "14c2529eb4498c5d1ffd6915d05bf58a91bdda796af59f41d480d11c099d0479",
+            "characters": 3
+          },
+          "request_id": {
+            "omitted_string_sha256": "b4245734c022843033bd43c28a18729e4e4058fe254c9efa253cd38ef6a1d736",
+            "characters": 32
+          },
+          "session_id": "e682d442-1a97-40ad-a907-2cec653ff81b",
+          "method": {
+            "omitted_string_sha256": "14e30cd163c732912e048c4c837e15c4e90c062ebb795ab947d57706e2d10dd8",
+            "characters": 3
+          },
+          "route": {
+            "omitted_string_sha256": "3dd124563f9e7e958962054374c6bdcd2a6ca3c113c270f3315dcd0e2e11c01c",
+            "characters": 35
+          },
+          "duration_ms": 5.36,
+          "status": 200
+        }
+      ]
+    },
+    {
+      "phase9_case": {
+        "omitted_string_sha256": "48f4faf19bbe9f56d61121ccb05018572495b2eeb0f19fe6f9b8273636ec99a7",
+        "characters": 12
+      },
+      "database": {
+        "omitted_string_sha256": "cdd04e9a34b9359a9d54bbc293f01bcdc5ed6ec6de9885d45b4db9b35171ee52",
+        "characters": 27
+      },
+      "http": 200,
+      "request_id": {
+        "omitted_string_sha256": "36b28da3480b6eaca8618ce099c84a52c31c57ff2d0b669581cb0cfc91e01099",
+        "characters": 32
+      },
+      "error": null,
+      "recovery_http": 200,
+      "events": [
+        {
+          "timestamp": "2026-11-07T05:16:51.540328+00:00",
+          "event": {
+            "omitted_string_sha256": "74583a4cf273c11bd859b83e5f14116a8e4404b0796b4ed32e377818e82da3cb",
+            "characters": 15
+          },
+          "phase": {
+            "omitted_string_sha256": "14c2529eb4498c5d1ffd6915d05bf58a91bdda796af59f41d480d11c099d0479",
+            "characters": 3
+          },
+          "request_id": {
+            "omitted_string_sha256": "4900cd2720090954c7c62e5856ee3ca919ba8a2b392779dba3dc10f3b12cbb8b",
+            "characters": 32
+          },
+          "session_id": "8dcf656b-5abf-4086-84af-d7e8e5292e7d"
+        },
+        {
+          "timestamp": "2026-11-07T05:16:51.541115+00:00",
+          "event": {
+            "omitted_string_sha256": "01c41f0b4409aeffc9b098072c40ee350cc01ddffa12e721e8b606a8b9f27662",
+            "characters": 12
+          },
+          "phase": {
+            "omitted_string_sha256": "14c2529eb4498c5d1ffd6915d05bf58a91bdda796af59f41d480d11c099d0479",
+            "characters": 3
+          },
+          "request_id": {
+            "omitted_string_sha256": "4900cd2720090954c7c62e5856ee3ca919ba8a2b392779dba3dc10f3b12cbb8b",
+            "characters": 32
+          },
+          "method": {
+            "omitted_string_sha256": "9aee6b1bcdf617d8e39bb1f2b624c68ea33deb9d48e0364aeaded836d3d00293",
+            "characters": 4
+          },
+          "route": {
+            "omitted_string_sha256": "e50fe3fb8c42fd2ed6f83b8ff39a27a1f7b3f84b1a80c8d2a2812eef75ca05e3",
+            "characters": 13
+          },
+          "duration_ms": 4.86,
+          "status": 201
+        },
+        {
+          "timestamp": "2026-11-07T05:16:51.910425+00:00",
+          "event": {
+            "omitted_string_sha256": "0e06b84496798ba899c50de6eb2efc0b92c62a75e5ba69af7a158cba107352bc",
+            "characters": 9
+          },
+          "phase": {
+            "omitted_string_sha256": "14c2529eb4498c5d1ffd6915d05bf58a91bdda796af59f41d480d11c099d0479",
+            "characters": 3
+          },
+          "request_id": {
+            "omitted_string_sha256": "36b28da3480b6eaca8618ce099c84a52c31c57ff2d0b669581cb0cfc91e01099",
+            "characters": 32
+          },
+          "outcome": "ready",
+          "database_ready": true,
+          "agent_ready": true,
+          "model_ready": true
+        },
+        {
+          "timestamp": "2026-11-07T05:16:51.911162+00:00",
+          "event": {
+            "omitted_string_sha256": "01c41f0b4409aeffc9b098072c40ee350cc01ddffa12e721e8b606a8b9f27662",
+            "characters": 12
+          },
+          "phase": {
+            "omitted_string_sha256": "14c2529eb4498c5d1ffd6915d05bf58a91bdda796af59f41d480d11c099d0479",
+            "characters": 3
+          },
+          "request_id": {
+            "omitted_string_sha256": "36b28da3480b6eaca8618ce099c84a52c31c57ff2d0b669581cb0cfc91e01099",
+            "characters": 32
+          },
+          "method": {
+            "omitted_string_sha256": "14e30cd163c732912e048c4c837e15c4e90c062ebb795ab947d57706e2d10dd8",
+            "characters": 3
+          },
+          "route": {
+            "omitted_string_sha256": "b0380e2a230c7d764b13af6d9be6c76140e99e21c7d633274f28e754a45a70ef",
+            "characters": 17
+          },
+          "duration_ms": 361.04,
+          "status": 200
+        },
+        {
+          "timestamp": "2026-11-07T05:16:52.217364+00:00",
+          "event": {
+            "omitted_string_sha256": "0e06b84496798ba899c50de6eb2efc0b92c62a75e5ba69af7a158cba107352bc",
+            "characters": 9
+          },
+          "phase": {
+            "omitted_string_sha256": "14c2529eb4498c5d1ffd6915d05bf58a91bdda796af59f41d480d11c099d0479",
+            "characters": 3
+          },
+          "request_id": {
+            "omitted_string_sha256": "ea42a779a425ed8897a779bf825b91ae8109e87ff79fcfeb48e71bf8f30382fd",
+            "characters": 32
+          },
+          "outcome": "ready",
+          "database_ready": true,
+          "agent_ready": true,
+          "model_ready": true
+        },
+        {
+          "timestamp": "2026-11-07T05:16:52.217800+00:00",
+          "event": {
+            "omitted_string_sha256": "01c41f0b4409aeffc9b098072c40ee350cc01ddffa12e721e8b606a8b9f27662",
+            "characters": 12
+          },
+          "phase": {
+            "omitted_string_sha256": "14c2529eb4498c5d1ffd6915d05bf58a91bdda796af59f41d480d11c099d0479",
+            "characters": 3
+          },
+          "request_id": {
+            "omitted_string_sha256": "ea42a779a425ed8897a779bf825b91ae8109e87ff79fcfeb48e71bf8f30382fd",
+            "characters": 32
+          },
+          "method": {
+            "omitted_string_sha256": "14e30cd163c732912e048c4c837e15c4e90c062ebb795ab947d57706e2d10dd8",
+            "characters": 3
+          },
+          "route": {
+            "omitted_string_sha256": "b0380e2a230c7d764b13af6d9be6c76140e99e21c7d633274f28e754a45a70ef",
+            "characters": 17
+          },
+          "duration_ms": 297.84,
+          "status": 200
+        }
+      ]
+    },
+    {
+      "phase9_case": {
+        "omitted_string_sha256": "322f11bbafa5e5632b5d3903b279c6cf03d3a97bae79dcd049b8280ea1284288",
+        "characters": 18
+      },
+      "database": {
+        "omitted_string_sha256": "cdd04e9a34b9359a9d54bbc293f01bcdc5ed6ec6de9885d45b4db9b35171ee52",
+        "characters": 27
+      },
+      "http": 422,
+      "request_id": {
+        "omitted_string_sha256": "9ec6e264bd3de42d09413afdaf10922693bd783771c4bdcbeac91e389108fc88",
+        "characters": 32
+      },
+      "error": {
+        "omitted_string_sha256": "a8ccb4511e0eb8bdd2a4aca6147b25e58da6a497ef5d51cdb7fa705cc8bd6934",
+        "characters": 18
+      },
+      "recovery_http": 200,
+      "events": [
+        {
+          "timestamp": "2026-11-07T05:16:52.224159+00:00",
+          "event": {
+            "omitted_string_sha256": "74583a4cf273c11bd859b83e5f14116a8e4404b0796b4ed32e377818e82da3cb",
+            "characters": 15
+          },
+          "phase": {
+            "omitted_string_sha256": "14c2529eb4498c5d1ffd6915d05bf58a91bdda796af59f41d480d11c099d0479",
+            "characters": 3
+          },
+          "request_id": {
+            "omitted_string_sha256": "d9041dd8e03964cbd489c9afe8485aeae1856518838ac3b4a8c50aecf2f9b884",
+            "characters": 32
+          },
+          "session_id": "a7250e74-5cff-4f07-9a0d-c0c0805630db"
+        },
+        {
+          "timestamp": "2026-11-07T05:16:52.224563+00:00",
+          "event": {
+            "omitted_string_sha256": "01c41f0b4409aeffc9b098072c40ee350cc01ddffa12e721e8b606a8b9f27662",
+            "characters": 12
+          },
+          "phase": {
+            "omitted_string_sha256": "14c2529eb4498c5d1ffd6915d05bf58a91bdda796af59f41d480d11c099d0479",
+            "characters": 3
+          },
+          "request_id": {
+            "omitted_string_sha256": "d9041dd8e03964cbd489c9afe8485aeae1856518838ac3b4a8c50aecf2f9b884",
+            "characters": 32
+          },
+          "method": {
+            "omitted_string_sha256": "9aee6b1bcdf617d8e39bb1f2b624c68ea33deb9d48e0364aeaded836d3d00293",
+            "characters": 4
+          },
+          "route": {
+            "omitted_string_sha256": "e50fe3fb8c42fd2ed6f83b8ff39a27a1f7b3f84b1a80c8d2a2812eef75ca05e3",
+            "characters": 13
+          },
+          "duration_ms": 3.74,
+          "status": 201
+        },
+        {
+          "timestamp": "2026-11-07T05:16:52.231368+00:00",
+          "event": {
+            "omitted_string_sha256": "1e6dbb7fed27acf12ed4aba5e4424db958547a85fec14c93e0e6fb47ace3a6ad",
+            "characters": 13
+          },
+          "phase": {
+            "omitted_string_sha256": "14c2529eb4498c5d1ffd6915d05bf58a91bdda796af59f41d480d11c099d0479",
+            "characters": 3
+          },
+          "request_id": {
+            "omitted_string_sha256": "0dab7b1bb4bdb8546ae7fb81eff431d53837b28c6e93bcde813e782d2dabb79d",
+            "characters": 32
+          },
+          "session_id": "a7250e74-5cff-4f07-9a0d-c0c0805630db",
+          "message_id": "4e9bdeda-6eba-406a-8c39-55d390ec43a9"
+        },
+        {
+          "timestamp": "2026-11-07T05:16:52.231849+00:00",
+          "event": {
+            "omitted_string_sha256": "01c41f0b4409aeffc9b098072c40ee350cc01ddffa12e721e8b606a8b9f27662",
+            "characters": 12
+          },
+          "phase": {
+            "omitted_string_sha256": "14c2529eb4498c5d1ffd6915d05bf58a91bdda796af59f41d480d11c099d0479",
+            "characters": 3
+          },
+          "request_id": {
+            "omitted_string_sha256": "0dab7b1bb4bdb8546ae7fb81eff431d53837b28c6e93bcde813e782d2dabb79d",
+            "characters": 32
+          },
+          "session_id": "a7250e74-5cff-4f07-9a0d-c0c0805630db",
+          "method": {
+            "omitted_string_sha256": "9aee6b1bcdf617d8e39bb1f2b624c68ea33deb9d48e0364aeaded836d3d00293",
+            "characters": 4
+          },
+          "route": {
+            "omitted_string_sha256": "3dd124563f9e7e958962054374c6bdcd2a6ca3c113c270f3315dcd0e2e11c01c",
+            "characters": 35
+          },
+          "duration_ms": 4.76,
+          "status": 201
+        },
+        {
+          "timestamp": "2026-11-07T05:16:52.238539+00:00",
+          "event": {
+            "omitted_string_sha256": "9c5c9d6238d10fcf7aa22a67f308b4f29b70d490dcecf64ea362a0fd7f15e36a",
+            "characters": 16
+          },
+          "phase": {
+            "omitted_string_sha256": "14c2529eb4498c5d1ffd6915d05bf58a91bdda796af59f41d480d11c099d0479",
+            "characters": 3
+          },
+          "request_id": {
+            "omitted_string_sha256": "43854521624cd90651ac1080c705ad65a5dea751ecdee1c6ec87d60cf0996f48",
+            "characters": 32
+          },
+          "session_id": "a7250e74-5cff-4f07-9a0d-c0c0805630db",
+          "stage": {
+            "omitted_string_sha256": "f748f8d90516c1cecee83006e3c9de6c9117affdf9c6e42e0b450195ed88bac8",
+            "characters": 9
+          },
+          "code": "ok",
+          "duration_ms": 0.05
+        },
+        {
+          "timestamp": "2026-11-07T05:16:52.239673+00:00",
+          "event": {
+            "omitted_string_sha256": "01c41f0b4409aeffc9b098072c40ee350cc01ddffa12e721e8b606a8b9f27662",
+            "characters": 12
+          },
+          "phase": {
+            "omitted_string_sha256": "14c2529eb4498c5d1ffd6915d05bf58a91bdda796af59f41d480d11c099d0479",
+            "characters": 3
+          },
+          "request_id": {
+            "omitted_string_sha256": "43854521624cd90651ac1080c705ad65a5dea751ecdee1c6ec87d60cf0996f48",
+            "characters": 32
+          },
+          "session_id": "a7250e74-5cff-4f07-9a0d-c0c0805630db",
+          "method": {
+            "omitted_string_sha256": "9aee6b1bcdf617d8e39bb1f2b624c68ea33deb9d48e0364aeaded836d3d00293",
+            "characters": 4
+          },
+          "route": {
+            "omitted_string_sha256": "cf9163d36d848afd2c5aad82ba37ef00af8599a52ac79d4f40dff48e9ad767cb",
+            "characters": 36
+          },
+          "duration_ms": 4.46,
+          "status": 201
+        },
+        {
+          "timestamp": "2026-11-07T05:16:52.245746+00:00",
+          "event": {
+            "omitted_string_sha256": "9c5c9d6238d10fcf7aa22a67f308b4f29b70d490dcecf64ea362a0fd7f15e36a",
+            "characters": 16
+          },
+          "phase": {
+            "omitted_string_sha256": "14c2529eb4498c5d1ffd6915d05bf58a91bdda796af59f41d480d11c099d0479",
+            "characters": 3
+          },
+          "request_id": {
+            "omitted_string_sha256": "9ec6e264bd3de42d09413afdaf10922693bd783771c4bdcbeac91e389108fc88",
+            "characters": 32
+          },
+          "session_id": "a7250e74-5cff-4f07-9a0d-c0c0805630db",
+          "stage": {
+            "omitted_string_sha256": "f748f8d90516c1cecee83006e3c9de6c9117affdf9c6e42e0b450195ed88bac8",
+            "characters": 9
+          },
+          "code": "artifact_too_large",
+          "error_type": "EssayError",
+          "duration_ms": 0.02
+        },
+        {
+          "timestamp": "2026-11-07T05:16:52.245913+00:00",
+          "event": {
+            "omitted_string_sha256": "0f2077a07c2ed98c3d041e2ad1452a9b3143a82468bba3f9eee24b874f49709c",
+            "characters": 17
+          },
+          "phase": {
+            "omitted_string_sha256": "14c2529eb4498c5d1ffd6915d05bf58a91bdda796af59f41d480d11c099d0479",
+            "characters": 3
+          },
+          "request_id": {
+            "omitted_string_sha256": "9ec6e264bd3de42d09413afdaf10922693bd783771c4bdcbeac91e389108fc88",
+            "characters": 32
+          },
+          "session_id": "a7250e74-5cff-4f07-9a0d-c0c0805630db",
+          "code": "artifact_too_large",
+          "status": 422
+        },
+        {
+          "timestamp": "2026-11-07T05:16:52.246057+00:00",
+          "event": {
+            "omitted_string_sha256": "01c41f0b4409aeffc9b098072c40ee350cc01ddffa12e721e8b606a8b9f27662",
+            "characters": 12
+          },
+          "phase": {
+            "omitted_string_sha256": "14c2529eb4498c5d1ffd6915d05bf58a91bdda796af59f41d480d11c099d0479",
+            "characters": 3
+          },
+          "request_id": {
+            "omitted_string_sha256": "9ec6e264bd3de42d09413afdaf10922693bd783771c4bdcbeac91e389108fc88",
+            "characters": 32
+          },
+          "session_id": "a7250e74-5cff-4f07-9a0d-c0c0805630db",
+          "method": {
+            "omitted_string_sha256": "14e30cd163c732912e048c4c837e15c4e90c062ebb795ab947d57706e2d10dd8",
+            "characters": 3
+          },
+          "route": {
+            "omitted_string_sha256": "e67f9494b79dae53bcda774cf555802181752c4e0d04bc593cdd0e82f897c7c6",
+            "characters": 50
+          },
+          "duration_ms": 2.51,
+          "status": 422
+        },
+        {
+          "timestamp": "2026-11-07T05:16:52.250304+00:00",
+          "event": {
+            "omitted_string_sha256": "9c5c9d6238d10fcf7aa22a67f308b4f29b70d490dcecf64ea362a0fd7f15e36a",
+            "characters": 16
+          },
+          "phase": {
+            "omitted_string_sha256": "14c2529eb4498c5d1ffd6915d05bf58a91bdda796af59f41d480d11c099d0479",
+            "characters": 3
+          },
+          "request_id": {
+            "omitted_string_sha256": "08e999efa24d95a3702cf0f63e62608bccdb7e4d9dc5fe827ad4921d384ac898",
+            "characters": 32
+          },
+          "session_id": "a7250e74-5cff-4f07-9a0d-c0c0805630db",
+          "stage": {
+            "omitted_string_sha256": "f748f8d90516c1cecee83006e3c9de6c9117affdf9c6e42e0b450195ed88bac8",
+            "characters": 9
+          },
+          "code": "ok",
+          "duration_ms": 0.06
+        },
+        {
+          "timestamp": "2026-11-07T05:16:52.250569+00:00",
+          "event": {
+            "omitted_string_sha256": "01c41f0b4409aeffc9b098072c40ee350cc01ddffa12e721e8b606a8b9f27662",
+            "characters": 12
+          },
+          "phase": {
+            "omitted_string_sha256": "14c2529eb4498c5d1ffd6915d05bf58a91bdda796af59f41d480d11c099d0479",
+            "characters": 3
+          },
+          "request_id": {
+            "omitted_string_sha256": "08e999efa24d95a3702cf0f63e62608bccdb7e4d9dc5fe827ad4921d384ac898",
+            "characters": 32
+          },
+          "session_id": "a7250e74-5cff-4f07-9a0d-c0c0805630db",
+          "method": {
+            "omitted_string_sha256": "14e30cd163c732912e048c4c837e15c4e90c062ebb795ab947d57706e2d10dd8",
+            "characters": 3
+          },
+          "route": {
+            "omitted_string_sha256": "e67f9494b79dae53bcda774cf555802181752c4e0d04bc593cdd0e82f897c7c6",
+            "characters": 50
+          },
+          "duration_ms": 1.84,
+          "status": 200
+        }
+      ]
+    },
+    {
+      "phase9_case": {
+        "omitted_string_sha256": "880918263b9069e4cd39dbf2116da62cf68b868051914e88c7c1f12c457a896e",
+        "characters": 13
+      },
+      "database": {
+        "omitted_string_sha256": "cdd04e9a34b9359a9d54bbc293f01bcdc5ed6ec6de9885d45b4db9b35171ee52",
+        "characters": 27
+      },
+      "http": 503,
+      "request_id": {
+        "omitted_string_sha256": "59625522eabd571f164bd78642db00b9917d647a7dd74ba27baf2fd544530912",
+        "characters": 32
+      },
+      "error": null,
+      "recovery_http": 200,
+      "events": [
+        {
+          "timestamp": "2026-11-07T05:16:52.255175+00:00",
+          "event": {
+            "omitted_string_sha256": "74583a4cf273c11bd859b83e5f14116a8e4404b0796b4ed32e377818e82da3cb",
+            "characters": 15
+          },
+          "phase": {
+            "omitted_string_sha256": "14c2529eb4498c5d1ffd6915d05bf58a91bdda796af59f41d480d11c099d0479",
+            "characters": 3
+          },
+          "request_id": {
+            "omitted_string_sha256": "fa0b6724b36b55804b48c9bb7b4f575491e3e62a1818d0eeca06bf3747fb8fb4",
+            "characters": 32
+          },
+          "session_id": "d7520f66-4b6f-419d-8bd2-ebe2e8c6a639"
+        },
+        {
+          "timestamp": "2026-11-07T05:16:52.255509+00:00",
+          "event": {
+            "omitted_string_sha256": "01c41f0b4409aeffc9b098072c40ee350cc01ddffa12e721e8b606a8b9f27662",
+            "characters": 12
+          },
+          "phase": {
+            "omitted_string_sha256": "14c2529eb4498c5d1ffd6915d05bf58a91bdda796af59f41d480d11c099d0479",
+            "characters": 3
+          },
+          "request_id": {
+            "omitted_string_sha256": "fa0b6724b36b55804b48c9bb7b4f575491e3e62a1818d0eeca06bf3747fb8fb4",
+            "characters": 32
+          },
+          "method": {
+            "omitted_string_sha256": "9aee6b1bcdf617d8e39bb1f2b624c68ea33deb9d48e0364aeaded836d3d00293",
+            "characters": 4
+          },
+          "route": {
+            "omitted_string_sha256": "e50fe3fb8c42fd2ed6f83b8ff39a27a1f7b3f84b1a80c8d2a2812eef75ca05e3",
+            "characters": 13
+          },
+          "duration_ms": 2.75,
+          "status": 201
+        },
+        {
+          "timestamp": "2026-11-07T05:16:52.590989+00:00",
+          "event": {
+            "omitted_string_sha256": "0e06b84496798ba899c50de6eb2efc0b92c62a75e5ba69af7a158cba107352bc",
+            "characters": 9
+          },
+          "phase": {
+            "omitted_string_sha256": "14c2529eb4498c5d1ffd6915d05bf58a91bdda796af59f41d480d11c099d0479",
+            "characters": 3
+          },
+          "request_id": {
+            "omitted_string_sha256": "59625522eabd571f164bd78642db00b9917d647a7dd74ba27baf2fd544530912",
+            "characters": 32
+          },
+          "outcome": {
+            "omitted_string_sha256": "7459d64cb848053a2b1c6140a2dae94c92574f57e5a07718132d83b33cc0d7eb",
+            "characters": 9
+          },
+          "database_ready": true,
+          "agent_ready": true,
+          "model_ready": false
+        },
+        {
+          "timestamp": "2026-11-07T05:16:52.591917+00:00",
+          "event": {
+            "omitted_string_sha256": "01c41f0b4409aeffc9b098072c40ee350cc01ddffa12e721e8b606a8b9f27662",
+            "characters": 12
+          },
+          "phase": {
+            "omitted_string_sha256": "14c2529eb4498c5d1ffd6915d05bf58a91bdda796af59f41d480d11c099d0479",
+            "characters": 3
+          },
+          "request_id": {
+            "omitted_string_sha256": "59625522eabd571f164bd78642db00b9917d647a7dd74ba27baf2fd544530912",
+            "characters": 32
+          },
+          "method": {
+            "omitted_string_sha256": "14e30cd163c732912e048c4c837e15c4e90c062ebb795ab947d57706e2d10dd8",
+            "characters": 3
+          },
+          "route": {
+            "omitted_string_sha256": "b0380e2a230c7d764b13af6d9be6c76140e99e21c7d633274f28e754a45a70ef",
+            "characters": 17
+          },
+          "duration_ms": 334.24,
+          "status": 503
+        },
+        {
+          "timestamp": "2026-11-07T05:16:52.925721+00:00",
+          "event": {
+            "omitted_string_sha256": "0e06b84496798ba899c50de6eb2efc0b92c62a75e5ba69af7a158cba107352bc",
+            "characters": 9
+          },
+          "phase": {
+            "omitted_string_sha256": "14c2529eb4498c5d1ffd6915d05bf58a91bdda796af59f41d480d11c099d0479",
+            "characters": 3
+          },
+          "request_id": {
+            "omitted_string_sha256": "11961e8d3d689ce31a743afde9d76620e4849865379a4ae921e2d6279422482f",
+            "characters": 32
+          },
+          "outcome": "ready",
+          "database_ready": true,
+          "agent_ready": true,
+          "model_ready": true
+        },
+        {
+          "timestamp": "2026-11-07T05:16:52.926316+00:00",
+          "event": {
+            "omitted_string_sha256": "01c41f0b4409aeffc9b098072c40ee350cc01ddffa12e721e8b606a8b9f27662",
+            "characters": 12
+          },
+          "phase": {
+            "omitted_string_sha256": "14c2529eb4498c5d1ffd6915d05bf58a91bdda796af59f41d480d11c099d0479",
+            "characters": 3
+          },
+          "request_id": {
+            "omitted_string_sha256": "11961e8d3d689ce31a743afde9d76620e4849865379a4ae921e2d6279422482f",
+            "characters": 32
+          },
+          "method": {
+            "omitted_string_sha256": "14e30cd163c732912e048c4c837e15c4e90c062ebb795ab947d57706e2d10dd8",
+            "characters": 3
+          },
+          "route": {
+            "omitted_string_sha256": "b0380e2a230c7d764b13af6d9be6c76140e99e21c7d633274f28e754a45a70ef",
+            "characters": 17
+          },
+          "duration_ms": 331.08,
+          "status": 200
+        }
+      ]
+    },
+    {
+      "phase9_case": {
+        "omitted_string_sha256": "283dce1fb242510673a9acb5069e5ef378e6e14f3c69f5da80351a19497ac9a4",
+        "characters": 18
+      },
+      "database": {
+        "omitted_string_sha256": "cdd04e9a34b9359a9d54bbc293f01bcdc5ed6ec6de9885d45b4db9b35171ee52",
+        "characters": 27
+      },
+      "http": 503,
+      "request_id": {
+        "omitted_string_sha256": "5525dbfd43dc8fbe095258cca063d3ea8f4f9c3fd57af719e135423922a3ff7a",
+        "characters": 32
+      },
+      "error": null,
+      "recovery_http": 200,
+      "events": [
+        {
+          "timestamp": "2026-11-07T05:16:52.255175+00:00",
+          "event": {
+            "omitted_string_sha256": "74583a4cf273c11bd859b83e5f14116a8e4404b0796b4ed32e377818e82da3cb",
+            "characters": 15
+          },
+          "phase": {
+            "omitted_string_sha256": "14c2529eb4498c5d1ffd6915d05bf58a91bdda796af59f41d480d11c099d0479",
+            "characters": 3
+          },
+          "request_id": {
+            "omitted_string_sha256": "fa0b6724b36b55804b48c9bb7b4f575491e3e62a1818d0eeca06bf3747fb8fb4",
+            "characters": 32
+          },
+          "session_id": "d7520f66-4b6f-419d-8bd2-ebe2e8c6a639"
+        },
+        {
+          "timestamp": "2026-11-07T05:16:52.255509+00:00",
+          "event": {
+            "omitted_string_sha256": "01c41f0b4409aeffc9b098072c40ee350cc01ddffa12e721e8b606a8b9f27662",
+            "characters": 12
+          },
+          "phase": {
+            "omitted_string_sha256": "14c2529eb4498c5d1ffd6915d05bf58a91bdda796af59f41d480d11c099d0479",
+            "characters": 3
+          },
+          "request_id": {
+            "omitted_string_sha256": "fa0b6724b36b55804b48c9bb7b4f575491e3e62a1818d0eeca06bf3747fb8fb4",
+            "characters": 32
+          },
+          "method": {
+            "omitted_string_sha256": "9aee6b1bcdf617d8e39bb1f2b624c68ea33deb9d48e0364aeaded836d3d00293",
+            "characters": 4
+          },
+          "route": {
+            "omitted_string_sha256": "e50fe3fb8c42fd2ed6f83b8ff39a27a1f7b3f84b1a80c8d2a2812eef75ca05e3",
+            "characters": 13
+          },
+          "duration_ms": 2.75,
+          "status": 201
+        },
+        {
+          "timestamp": "2026-11-07T05:16:52.590989+00:00",
+          "event": {
+            "omitted_string_sha256": "0e06b84496798ba899c50de6eb2efc0b92c62a75e5ba69af7a158cba107352bc",
+            "characters": 9
+          },
+          "phase": {
+            "omitted_string_sha256": "14c2529eb4498c5d1ffd6915d05bf58a91bdda796af59f41d480d11c099d0479",
+            "characters": 3
+          },
+          "request_id": {
+            "omitted_string_sha256": "59625522eabd571f164bd78642db00b9917d647a7dd74ba27baf2fd544530912",
+            "characters": 32
+          },
+          "outcome": {
+            "omitted_string_sha256": "7459d64cb848053a2b1c6140a2dae94c92574f57e5a07718132d83b33cc0d7eb",
+            "characters": 9
+          },
+          "database_ready": true,
+          "agent_ready": true,
+          "model_ready": false
+        },
+        {
+          "timestamp": "2026-11-07T05:16:52.591917+00:00",
+          "event": {
+            "omitted_string_sha256": "01c41f0b4409aeffc9b098072c40ee350cc01ddffa12e721e8b606a8b9f27662",
+            "characters": 12
+          },
+          "phase": {
+            "omitted_string_sha256": "14c2529eb4498c5d1ffd6915d05bf58a91bdda796af59f41d480d11c099d0479",
+            "characters": 3
+          },
+          "request_id": {
+            "omitted_string_sha256": "59625522eabd571f164bd78642db00b9917d647a7dd74ba27baf2fd544530912",
+            "characters": 32
+          },
+          "method": {
+            "omitted_string_sha256": "14e30cd163c732912e048c4c837e15c4e90c062ebb795ab947d57706e2d10dd8",
+            "characters": 3
+          },
+          "route": {
+            "omitted_string_sha256": "b0380e2a230c7d764b13af6d9be6c76140e99e21c7d633274f28e754a45a70ef",
+            "characters": 17
+          },
+          "duration_ms": 334.24,
+          "status": 503
+        },
+        {
+          "timestamp": "2026-11-07T05:16:52.925721+00:00",
+          "event": {
+            "omitted_string_sha256": "0e06b84496798ba899c50de6eb2efc0b92c62a75e5ba69af7a158cba107352bc",
+            "characters": 9
+          },
+          "phase": {
+            "omitted_string_sha256": "14c2529eb4498c5d1ffd6915d05bf58a91bdda796af59f41d480d11c099d0479",
+            "characters": 3
+          },
+          "request_id": {
+            "omitted_string_sha256": "11961e8d3d689ce31a743afde9d76620e4849865379a4ae921e2d6279422482f",
+            "characters": 32
+          },
+          "outcome": "ready",
+          "database_ready": true,
+          "agent_ready": true,
+          "model_ready": true
+        },
+        {
+          "timestamp": "2026-11-07T05:16:52.926316+00:00",
+          "event": {
+            "omitted_string_sha256": "01c41f0b4409aeffc9b098072c40ee350cc01ddffa12e721e8b606a8b9f27662",
+            "characters": 12
+          },
+          "phase": {
+            "omitted_string_sha256": "14c2529eb4498c5d1ffd6915d05bf58a91bdda796af59f41d480d11c099d0479",
+            "characters": 3
+          },
+          "request_id": {
+            "omitted_string_sha256": "11961e8d3d689ce31a743afde9d76620e4849865379a4ae921e2d6279422482f",
+            "characters": 32
+          },
+          "method": {
+            "omitted_string_sha256": "14e30cd163c732912e048c4c837e15c4e90c062ebb795ab947d57706e2d10dd8",
+            "characters": 3
+          },
+          "route": {
+            "omitted_string_sha256": "b0380e2a230c7d764b13af6d9be6c76140e99e21c7d633274f28e754a45a70ef",
+            "characters": 17
+          },
+          "duration_ms": 331.08,
+          "status": 200
+        },
+        {
+          "timestamp": "2026-11-07T05:16:53.229350+00:00",
+          "event": {
+            "omitted_string_sha256": "0e06b84496798ba899c50de6eb2efc0b92c62a75e5ba69af7a158cba107352bc",
+            "characters": 9
+          },
+          "phase": {
+            "omitted_string_sha256": "14c2529eb4498c5d1ffd6915d05bf58a91bdda796af59f41d480d11c099d0479",
+            "characters": 3
+          },
+          "request_id": {
+            "omitted_string_sha256": "5525dbfd43dc8fbe095258cca063d3ea8f4f9c3fd57af719e135423922a3ff7a",
+            "characters": 32
+          },
+          "outcome": {
+            "omitted_string_sha256": "7459d64cb848053a2b1c6140a2dae94c92574f57e5a07718132d83b33cc0d7eb",
+            "characters": 9
+          },
+          "database_ready": true,
+          "agent_ready": true,
+          "model_ready": false
+        },
+        {
+          "timestamp": "2026-11-07T05:16:53.229826+00:00",
+          "event": {
+            "omitted_string_sha256": "01c41f0b4409aeffc9b098072c40ee350cc01ddffa12e721e8b606a8b9f27662",
+            "characters": 12
+          },
+          "phase": {
+            "omitted_string_sha256": "14c2529eb4498c5d1ffd6915d05bf58a91bdda796af59f41d480d11c099d0479",
+            "characters": 3
+          },
+          "request_id": {
+            "omitted_string_sha256": "5525dbfd43dc8fbe095258cca063d3ea8f4f9c3fd57af719e135423922a3ff7a",
+            "characters": 32
+          },
+          "method": {
+            "omitted_string_sha256": "14e30cd163c732912e048c4c837e15c4e90c062ebb795ab947d57706e2d10dd8",
+            "characters": 3
+          },
+          "route": {
+            "omitted_string_sha256": "b0380e2a230c7d764b13af6d9be6c76140e99e21c7d633274f28e754a45a70ef",
+            "characters": 17
+          },
+          "duration_ms": 300.46,
+          "status": 503
+        },
+        {
+          "timestamp": "2026-11-07T05:16:53.531083+00:00",
+          "event": {
+            "omitted_string_sha256": "0e06b84496798ba899c50de6eb2efc0b92c62a75e5ba69af7a158cba107352bc",
+            "characters": 9
+          },
+          "phase": {
+            "omitted_string_sha256": "14c2529eb4498c5d1ffd6915d05bf58a91bdda796af59f41d480d11c099d0479",
+            "characters": 3
+          },
+          "request_id": {
+            "omitted_string_sha256": "3b4ac003a65eb5189f86075e09b3f4547ae597d93fcb397741a304e16c5d7be5",
+            "characters": 32
+          },
+          "outcome": "ready",
+          "database_ready": true,
+          "agent_ready": true,
+          "model_ready": true
+        },
+        {
+          "timestamp": "2026-11-07T05:16:53.531751+00:00",
+          "event": {
+            "omitted_string_sha256": "01c41f0b4409aeffc9b098072c40ee350cc01ddffa12e721e8b606a8b9f27662",
+            "characters": 12
+          },
+          "phase": {
+            "omitted_string_sha256": "14c2529eb4498c5d1ffd6915d05bf58a91bdda796af59f41d480d11c099d0479",
+            "characters": 3
+          },
+          "request_id": {
+            "omitted_string_sha256": "3b4ac003a65eb5189f86075e09b3f4547ae597d93fcb397741a304e16c5d7be5",
+            "characters": 32
+          },
+          "method": {
+            "omitted_string_sha256": "14e30cd163c732912e048c4c837e15c4e90c062ebb795ab947d57706e2d10dd8",
+            "characters": 3
+          },
+          "route": {
+            "omitted_string_sha256": "b0380e2a230c7d764b13af6d9be6c76140e99e21c7d633274f28e754a45a70ef",
+            "characters": 17
+          },
+          "duration_ms": 299.3,
+          "status": 200
+        }
+      ]
+    },
+    {
+      "phase9_case": {
+        "omitted_string_sha256": "eec85906fb1af307447385dc540acaaf85150fdc039816509eec411f3862f6b8",
+        "characters": 18
+      },
+      "database": {
+        "omitted_string_sha256": "cdd04e9a34b9359a9d54bbc293f01bcdc5ed6ec6de9885d45b4db9b35171ee52",
+        "characters": 27
+      },
+      "http": 503,
+      "request_id": {
+        "omitted_string_sha256": "ee092d350f0dc48ba0b0a2d7fb6247c2f489bca9b15a354223fd07af72593716",
+        "characters": 32
+      },
+      "error": null,
+      "recovery_http": 200,
+      "events": [
+        {
+          "timestamp": "2026-11-07T05:16:53.544240+00:00",
+          "event": {
+            "omitted_string_sha256": "74583a4cf273c11bd859b83e5f14116a8e4404b0796b4ed32e377818e82da3cb",
+            "characters": 15
+          },
+          "phase": {
+            "omitted_string_sha256": "14c2529eb4498c5d1ffd6915d05bf58a91bdda796af59f41d480d11c099d0479",
+            "characters": 3
+          },
+          "request_id": {
+            "omitted_string_sha256": "491ca98026000ac2f8565bf7b0779d0f66c6fc510afdf44ceb5c7dbbc1590f85",
+            "characters": 32
+          },
+          "session_id": "136c9a77-0aef-4d1e-af71-7a1ee24665cc"
+        },
+        {
+          "timestamp": "2026-11-07T05:16:53.544751+00:00",
+          "event": {
+            "omitted_string_sha256": "01c41f0b4409aeffc9b098072c40ee350cc01ddffa12e721e8b606a8b9f27662",
+            "characters": 12
+          },
+          "phase": {
+            "omitted_string_sha256": "14c2529eb4498c5d1ffd6915d05bf58a91bdda796af59f41d480d11c099d0479",
+            "characters": 3
+          },
+          "request_id": {
+            "omitted_string_sha256": "491ca98026000ac2f8565bf7b0779d0f66c6fc510afdf44ceb5c7dbbc1590f85",
+            "characters": 32
+          },
+          "method": {
+            "omitted_string_sha256": "9aee6b1bcdf617d8e39bb1f2b624c68ea33deb9d48e0364aeaded836d3d00293",
+            "characters": 4
+          },
+          "route": {
+            "omitted_string_sha256": "e50fe3fb8c42fd2ed6f83b8ff39a27a1f7b3f84b1a80c8d2a2812eef75ca05e3",
+            "characters": 13
+          },
+          "duration_ms": 7.18,
+          "status": 201
+        },
+        {
+          "timestamp": "2026-11-07T05:16:53.842981+00:00",
+          "event": {
+            "omitted_string_sha256": "0e06b84496798ba899c50de6eb2efc0b92c62a75e5ba69af7a158cba107352bc",
+            "characters": 9
+          },
+          "phase": {
+            "omitted_string_sha256": "14c2529eb4498c5d1ffd6915d05bf58a91bdda796af59f41d480d11c099d0479",
+            "characters": 3
+          },
+          "request_id": {
+            "omitted_string_sha256": "ee092d350f0dc48ba0b0a2d7fb6247c2f489bca9b15a354223fd07af72593716",
+            "characters": 32
+          },
+          "outcome": {
+            "omitted_string_sha256": "7459d64cb848053a2b1c6140a2dae94c92574f57e5a07718132d83b33cc0d7eb",
+            "characters": 9
+          },
+          "database_ready": true,
+          "agent_ready": true,
+          "model_ready": false
+        },
+        {
+          "timestamp": "2026-11-07T05:16:53.843430+00:00",
+          "event": {
+            "omitted_string_sha256": "01c41f0b4409aeffc9b098072c40ee350cc01ddffa12e721e8b606a8b9f27662",
+            "characters": 12
+          },
+          "phase": {
+            "omitted_string_sha256": "14c2529eb4498c5d1ffd6915d05bf58a91bdda796af59f41d480d11c099d0479",
+            "characters": 3
+          },
+          "request_id": {
+            "omitted_string_sha256": "ee092d350f0dc48ba0b0a2d7fb6247c2f489bca9b15a354223fd07af72593716",
+            "characters": 32
+          },
+          "method": {
+            "omitted_string_sha256": "14e30cd163c732912e048c4c837e15c4e90c062ebb795ab947d57706e2d10dd8",
+            "characters": 3
+          },
+          "route": {
+            "omitted_string_sha256": "b0380e2a230c7d764b13af6d9be6c76140e99e21c7d633274f28e754a45a70ef",
+            "characters": 17
+          },
+          "duration_ms": 295.61,
+          "status": 503
+        },
+        {
+          "timestamp": "2026-11-07T05:16:54.156554+00:00",
+          "event": {
+            "omitted_string_sha256": "0e06b84496798ba899c50de6eb2efc0b92c62a75e5ba69af7a158cba107352bc",
+            "characters": 9
+          },
+          "phase": {
+            "omitted_string_sha256": "14c2529eb4498c5d1ffd6915d05bf58a91bdda796af59f41d480d11c099d0479",
+            "characters": 3
+          },
+          "request_id": {
+            "omitted_string_sha256": "c07cffc70746d5d564e35bf1267490955181fcfe5d6a18359306dad19e96c524",
+            "characters": 32
+          },
+          "outcome": "ready",
+          "database_ready": true,
+          "agent_ready": true,
+          "model_ready": true
+        },
+        {
+          "timestamp": "2026-11-07T05:16:54.157240+00:00",
+          "event": {
+            "omitted_string_sha256": "01c41f0b4409aeffc9b098072c40ee350cc01ddffa12e721e8b606a8b9f27662",
+            "characters": 12
+          },
+          "phase": {
+            "omitted_string_sha256": "14c2529eb4498c5d1ffd6915d05bf58a91bdda796af59f41d480d11c099d0479",
+            "characters": 3
+          },
+          "request_id": {
+            "omitted_string_sha256": "c07cffc70746d5d564e35bf1267490955181fcfe5d6a18359306dad19e96c524",
+            "characters": 32
+          },
+          "method": {
+            "omitted_string_sha256": "14e30cd163c732912e048c4c837e15c4e90c062ebb795ab947d57706e2d10dd8",
+            "characters": 3
+          },
+          "route": {
+            "omitted_string_sha256": "b0380e2a230c7d764b13af6d9be6c76140e99e21c7d633274f28e754a45a70ef",
+            "characters": 17
+          },
+          "duration_ms": 310.9,
+          "status": 200
+        }
+      ]
+    },
+    {
+      "phase9_case": {
+        "omitted_string_sha256": "366aef18ca8dfa01741f01bc9adb1ce27e388b9c5b1f3616e2079fafaf74f52c",
+        "characters": 20
+      },
+      "database": {
+        "omitted_string_sha256": "cdd04e9a34b9359a9d54bbc293f01bcdc5ed6ec6de9885d45b4db9b35171ee52",
+        "characters": 27
+      },
+      "http": 503,
+      "request_id": {
+        "omitted_string_sha256": "210e6b3b2d59f97dcd561a2c90cd35a35938bda152835b3970940057212b04a5",
+        "characters": 32
+      },
+      "error": {
+        "omitted_string_sha256": "69c4b56bb5c30632da2456b32898f66c6180171815b76fbafa2ac0100668c210",
+        "characters": 20
+      },
+      "recovery_http": 200,
+      "events": [
+        {
+          "timestamp": "2026-11-07T05:16:54.164457+00:00",
+          "event": {
+            "omitted_string_sha256": "74583a4cf273c11bd859b83e5f14116a8e4404b0796b4ed32e377818e82da3cb",
+            "characters": 15
+          },
+          "phase": {
+            "omitted_string_sha256": "14c2529eb4498c5d1ffd6915d05bf58a91bdda796af59f41d480d11c099d0479",
+            "characters": 3
+          },
+          "request_id": {
+            "omitted_string_sha256": "7d65369f9ea08ff51d0685074335eeb9b81405cb17f63bbe68e6f2a183446d59",
+            "characters": 32
+          },
+          "session_id": "962b4232-e917-4c5c-acfd-fa3afbbeaaa1"
+        },
+        {
+          "timestamp": "2026-11-07T05:16:54.164871+00:00",
+          "event": {
+            "omitted_string_sha256": "01c41f0b4409aeffc9b098072c40ee350cc01ddffa12e721e8b606a8b9f27662",
+            "characters": 12
+          },
+          "phase": {
+            "omitted_string_sha256": "14c2529eb4498c5d1ffd6915d05bf58a91bdda796af59f41d480d11c099d0479",
+            "characters": 3
+          },
+          "request_id": {
+            "omitted_string_sha256": "7d65369f9ea08ff51d0685074335eeb9b81405cb17f63bbe68e6f2a183446d59",
+            "characters": 32
+          },
+          "method": {
+            "omitted_string_sha256": "9aee6b1bcdf617d8e39bb1f2b624c68ea33deb9d48e0364aeaded836d3d00293",
+            "characters": 4
+          },
+          "route": {
+            "omitted_string_sha256": "e50fe3fb8c42fd2ed6f83b8ff39a27a1f7b3f84b1a80c8d2a2812eef75ca05e3",
+            "characters": 13
+          },
+          "duration_ms": 4.17,
+          "status": 201
+        },
+        {
+          "timestamp": "2026-11-07T05:16:54.170271+00:00",
+          "event": {
+            "omitted_string_sha256": "8fdaf33fda65a957cf630bd73892dfb8aba687b3fee9f22df76511adb20c83a8",
+            "characters": 16
+          },
+          "phase": {
+            "omitted_string_sha256": "14c2529eb4498c5d1ffd6915d05bf58a91bdda796af59f41d480d11c099d0479",
+            "characters": 3
+          },
+          "request_id": {
+            "omitted_string_sha256": "210e6b3b2d59f97dcd561a2c90cd35a35938bda152835b3970940057212b04a5",
+            "characters": 32
+          },
+          "session_id": "962b4232-e917-4c5c-acfd-fa3afbbeaaa1",
+          "code": "database_unavailable",
+          "error_type": "OperationalError"
+        },
+        {
+          "timestamp": "2026-11-07T05:16:54.170338+00:00",
+          "event": {
+            "omitted_string_sha256": "0f2077a07c2ed98c3d041e2ad1452a9b3143a82468bba3f9eee24b874f49709c",
+            "characters": 17
+          },
+          "phase": {
+            "omitted_string_sha256": "14c2529eb4498c5d1ffd6915d05bf58a91bdda796af59f41d480d11c099d0479",
+            "characters": 3
+          },
+          "request_id": {
+            "omitted_string_sha256": "210e6b3b2d59f97dcd561a2c90cd35a35938bda152835b3970940057212b04a5",
+            "characters": 32
+          },
+          "session_id": "962b4232-e917-4c5c-acfd-fa3afbbeaaa1",
+          "code": "database_unavailable",
+          "status": 503
+        },
+        {
+          "timestamp": "2026-11-07T05:16:54.170447+00:00",
+          "event": {
+            "omitted_string_sha256": "01c41f0b4409aeffc9b098072c40ee350cc01ddffa12e721e8b606a8b9f27662",
+            "characters": 12
+          },
+          "phase": {
+            "omitted_string_sha256": "14c2529eb4498c5d1ffd6915d05bf58a91bdda796af59f41d480d11c099d0479",
+            "characters": 3
+          },
+          "request_id": {
+            "omitted_string_sha256": "210e6b3b2d59f97dcd561a2c90cd35a35938bda152835b3970940057212b04a5",
+            "characters": 32
+          },
+          "session_id": "962b4232-e917-4c5c-acfd-fa3afbbeaaa1",
+          "method": {
+            "omitted_string_sha256": "14e30cd163c732912e048c4c837e15c4e90c062ebb795ab947d57706e2d10dd8",
+            "characters": 3
+          },
+          "route": {
+            "omitted_string_sha256": "81142df9a5bb973968cae551834a351a362d165f1ae6fb1e12fd604380f5cf80",
+            "characters": 33
+          },
+          "duration_ms": 1.94,
+          "status": 503
+        },
+        {
+          "timestamp": "2026-11-07T05:16:54.463797+00:00",
+          "event": {
+            "omitted_string_sha256": "0e06b84496798ba899c50de6eb2efc0b92c62a75e5ba69af7a158cba107352bc",
+            "characters": 9
+          },
+          "phase": {
+            "omitted_string_sha256": "14c2529eb4498c5d1ffd6915d05bf58a91bdda796af59f41d480d11c099d0479",
+            "characters": 3
+          },
+          "request_id": {
+            "omitted_string_sha256": "47314648bd56f86ceb105145d4e70897465907013fedbb488aedf654ea3ec7d8",
+            "characters": 32
+          },
+          "outcome": {
+            "omitted_string_sha256": "7459d64cb848053a2b1c6140a2dae94c92574f57e5a07718132d83b33cc0d7eb",
+            "characters": 9
+          },
+          "database_ready": false,
+          "agent_ready": true,
+          "model_ready": true
+        },
+        {
+          "timestamp": "2026-11-07T05:16:54.464299+00:00",
+          "event": {
+            "omitted_string_sha256": "01c41f0b4409aeffc9b098072c40ee350cc01ddffa12e721e8b606a8b9f27662",
+            "characters": 12
+          },
+          "phase": {
+            "omitted_string_sha256": "14c2529eb4498c5d1ffd6915d05bf58a91bdda796af59f41d480d11c099d0479",
+            "characters": 3
+          },
+          "request_id": {
+            "omitted_string_sha256": "47314648bd56f86ceb105145d4e70897465907013fedbb488aedf654ea3ec7d8",
+            "characters": 32
+          },
+          "method": {
+            "omitted_string_sha256": "14e30cd163c732912e048c4c837e15c4e90c062ebb795ab947d57706e2d10dd8",
+            "characters": 3
+          },
+          "route": {
+            "omitted_string_sha256": "b0380e2a230c7d764b13af6d9be6c76140e99e21c7d633274f28e754a45a70ef",
+            "characters": 17
+          },
+          "duration_ms": 291.94,
+          "status": 503
+        },
+        {
+          "timestamp": "2026-11-07T05:16:54.467938+00:00",
+          "event": {
+            "omitted_string_sha256": "01c41f0b4409aeffc9b098072c40ee350cc01ddffa12e721e8b606a8b9f27662",
+            "characters": 12
+          },
+          "phase": {
+            "omitted_string_sha256": "14c2529eb4498c5d1ffd6915d05bf58a91bdda796af59f41d480d11c099d0479",
+            "characters": 3
+          },
+          "request_id": {
+            "omitted_string_sha256": "f4ea998a1fda1a4a7889121b3a7472cd26782d7116d8b7e66d862fca5de4e645",
+            "characters": 32
+          },
+          "method": {
+            "omitted_string_sha256": "14e30cd163c732912e048c4c837e15c4e90c062ebb795ab947d57706e2d10dd8",
+            "characters": 3
+          },
+          "route": {
+            "omitted_string_sha256": "e280ce935510b22ba7ead93639b379833ce383d0dd9c1be1ee61a8ca3fb9c168",
+            "characters": 16
+          },
+          "duration_ms": 0.93,
+          "status": 200
+        },
+        {
+          "timestamp": "2026-11-07T05:16:54.472658+00:00",
+          "event": {
+            "omitted_string_sha256": "01c41f0b4409aeffc9b098072c40ee350cc01ddffa12e721e8b606a8b9f27662",
+            "characters": 12
+          },
+          "phase": {
+            "omitted_string_sha256": "14c2529eb4498c5d1ffd6915d05bf58a91bdda796af59f41d480d11c099d0479",
+            "characters": 3
+          },
+          "request_id": {
+            "omitted_string_sha256": "14cf17da197b1d6980835af858386e3bef38d06af79d12aec2733f371d84976b",
+            "characters": 32
+          },
+          "session_id": "962b4232-e917-4c5c-acfd-fa3afbbeaaa1",
+          "method": {
+            "omitted_string_sha256": "14e30cd163c732912e048c4c837e15c4e90c062ebb795ab947d57706e2d10dd8",
+            "characters": 3
+          },
+          "route": {
+            "omitted_string_sha256": "81142df9a5bb973968cae551834a351a362d165f1ae6fb1e12fd604380f5cf80",
+            "characters": 33
+          },
+          "duration_ms": 2.31,
+          "status": 200
+        }
+      ]
+    },
+    {
+      "phase9_case": {
+        "omitted_string_sha256": "f77d1bb58da886e3cbeebbf35a0b3d217b003506792268052c6a730fbc5ec9bc",
+        "characters": 7
+      },
+      "inference": {
+        "omitted_string_sha256": "2c6ffd1f2037513abe5767ce3e48739472fe1c0cadc72dc4d973166b58f82468",
+        "characters": 57
+      },
+      "run_id": "b9743aa8-2b6f-489b-9ce8-983285b80d6f",
+      "request_id": {
+        "omitted_string_sha256": "2aa3f1e1aaa8c4740791e8e0f4c4ff85c177cae061580b297755f1ba1d8f28b8",
+        "characters": 14
+      },
+      "status": "failed",
+      "code": "answer_timeout",
+      "process_reaped": true,
+      "bridge_closed": true,
+      "retry_same_saved_message": true
+    },
+    {
+      "phase9_case": {
+        "omitted_string_sha256": "2374d91794b79f4fb4ec9587d2cf00aecc4f9953fab3ed1dd12ab147a0b721f9",
+        "characters": 6
+      },
+      "inference": {
+        "omitted_string_sha256": "2c6ffd1f2037513abe5767ce3e48739472fe1c0cadc72dc4d973166b58f82468",
+        "characters": 57
+      },
+      "run_id": "fbab9306-6b6f-4ce8-9998-69fd9d24fef0",
+      "request_id": {
+        "omitted_string_sha256": "f8b8511be803d7befba9ed9f0719c2a7a67b328ce600e4d1a615027178727971",
+        "characters": 13
+      },
+      "status": "cancelled",
+      "code": "cancelled",
+      "process_reaped": true,
+      "bridge_closed": true,
+      "retry_same_saved_message": true
+    },
+    {
+      "phase9_case": {
+        "omitted_string_sha256": "4f935a0f03deea2fa71a98679eebce744bf19bd38379dece9d64ccc92a167834",
+        "characters": 10
+      },
+      "inference": {
+        "omitted_string_sha256": "2c6ffd1f2037513abe5767ce3e48739472fe1c0cadc72dc4d973166b58f82468",
+        "characters": 57
+      },
+      "run_id": "4c6e4a68-09ec-4130-adc8-c6282b514bdd",
+      "request_id": {
+        "omitted_string_sha256": "8048c68205dfe1c08dd4bb67e44390b86f57ea6c3b5aff550813ce5eb19eefa7",
+        "characters": 17
+      },
+      "status": "cancelled",
+      "code": "cancelled",
+      "process_reaped": true,
+      "bridge_closed": true,
+      "retry_same_saved_message": true
+    }
+  ],
+  "limits": {
+    "omitted_string_sha256": "35b74d72c9db95e218a9cce42e68ec247fcd0a7183cb13c76fd151a34bfa07d1",
+    "characters": 179
+  }
+}

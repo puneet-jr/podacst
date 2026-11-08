@@ -11,7 +11,7 @@ async def main():
  if (folder/'accepted.json').exists():raise SystemExit('Already accepted; inspect/reopen instead')
  async with async_playwright() as p:
   b=await p.chromium.launch(executable_path='/Applications/Google Chrome.app/Contents/MacOS/Google Chrome',headless=True);c=await b.new_context(viewport={'width':1512,'height':1050});page=await c.new_page();errors=[];page.on('pageerror',lambda e:errors.append(str(e)));page.on('request',lambda r:calls.append({'method':r.method,'path':r.url.split(':8080')[-1]}) if r.method=='POST' and '/api/' in r.url else None)
-  await page.goto('http://127.0.0.1:8080');await page.get_by_role('button',name=req['title'],exact=False).click();await expect(page.get_by_role('heading',name='Essay draft · review required',exact=True)).to_be_visible()
+  await page.goto('http://127.0.0.1:8080/workspace');await page.get_by_role('button',name=req['title'],exact=False).click();await expect(page.get_by_role('heading',name='Essay draft · review required',exact=True)).to_be_visible()
   for i in range(6):
    await page.locator('.essay-review .review-section').nth(i).locator('summary').click()
    for n,text in enumerate(plan['quotes'][str(i+1)]):await page.get_by_label(f'Section {i+1} evidence {n+1}',exact=True).fill(text)

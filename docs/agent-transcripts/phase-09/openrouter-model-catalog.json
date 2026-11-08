@@ -1,0 +1,62 @@
+{
+  "captured_at": "2026-11-07T06:55:07.721976+00:00",
+  "source": {
+    "omitted_string_sha256": "051e0609abb5b28b9b4f39c7ee10daebade72a6537df07f04f032057759ac2da",
+    "characters": 35
+  },
+  "id": "google/gemini-2.5-flash-lite",
+  "context_length": 1048576,
+  "supported_parameters": [
+    {
+      "omitted_string_sha256": "6cd19b258a919be2758fe42f1f86164a74349d6114134a63e198c0587c497578",
+      "characters": 17
+    },
+    {
+      "omitted_string_sha256": "c5225b8e0182aa59a836fe954c74153476ad438c706e97d3be8b802f527ebb0b",
+      "characters": 10
+    },
+    {
+      "omitted_string_sha256": "0c4d01e81bb3d1fd0dc4a0b4224518953794068715317ff39e0bbfc29e4ab06a",
+      "characters": 9
+    },
+    {
+      "omitted_string_sha256": "7a619bb24502bd55c82ded60e049cf298d24a7dc2c08bf26b5441d2dc5ddf5cf",
+      "characters": 15
+    },
+    {
+      "omitted_string_sha256": "19b25856e1c150ca834cffc8b59b23adbd0ec0389e58eb22b3b64768098d002b",
+      "characters": 4
+    },
+    {
+      "omitted_string_sha256": "6c45cb72a36e63d522aa54ed8adbd7a29a989474f2f77e0458af8800564ef3cb",
+      "characters": 4
+    },
+    {
+      "omitted_string_sha256": "5a581388a128800cb74363cc95d7722b32ced44c8e249ade4669f93dbff87eff",
+      "characters": 18
+    },
+    {
+      "omitted_string_sha256": "b314ae60cb741e69f1cc9105ad33b19e34f608c1d2658995d648f385d7b07ac5",
+      "characters": 11
+    },
+    {
+      "omitted_string_sha256": "ea664079a79e59f4ab09460054f57fcb28f7a14f3972c1dcb1ad92044d6cc918",
+      "characters": 11
+    },
+    {
+      "omitted_string_sha256": "f9d35d43770d39092a663e665e82ae1d84a9e0da3d0d10c407acada6a40cd281",
+      "characters": 5
+    },
+    {
+      "omitted_string_sha256": "ea19096be2b249119a59969005a76e8f8475dc4c4c49fd8e286a3cdc749cd42e",
+      "characters": 5
+    }
+  ],
+  "required_parameters_available": true,
+  "inference_requests": 0,
+  "requires_key": false,
+  "limits": {
+    "omitted_string_sha256": "3909abc4bebf29b476d97e4cb1cafcb8c852909a0ad67a359c2009e51ea3e112",
+    "characters": 108
+  }
+}

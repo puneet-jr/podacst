@@ -1,4 +1,5 @@
-{"event":"tool_policy","active":["search_fixture"]}
-{"event":"provider_request","provider":"ollama-local","model":"qwen3:0.6b","request":1,"max_tokens":256,"tools":["search_fixture"],"tool_choice":"search_fixture"}
-{"event":"fixture_read","query":"retention review window evidence code","source_id":"FIXTURE-B"}
-{"event":"provider_request","provider":"ollama-local","model":"qwen3:0.6b","request":2,"max_tokens":256,"tools":["search_fixture"],"tool_choice":"none"}
+# Private historical output omitted
+
+Original SHA-256: `f3e4c56b4465e4ad261632da2723fcb8c7abebce3c42de9339981b249caf8fa2`.
+
+The original remains private. See the phase report for measured results and failures; this placeholder is not a model output or conversation export.

@@ -1,121 +1,262 @@
 {
   "created_at": "2026-11-06T04:02:49.333312+00:00",
-  "note": "File identity for Phase 0; excludes this self-referential manifest. Birth times are observed filesystem metadata, not agent transcripts.",
+  "note": {
+    "omitted_string_sha256": "a41a264482fe59be6f2eadaa86b87562f936cf558d1e8a04a109a608bfd36eba",
+    "characters": 136
+  },
   "files": [
     {
-      "path": ".gitignore",
+      "path": {
+        "omitted_string_sha256": "bc37d034bad564583790a46f19d807abfe519c5671395fd494d8cce506c42947",
+        "characters": 10
+      },
       "sha256": "24c6802c6a267303a3306c148ac1c1c8c8c0bf200cc80cd4ed5e3bfe95c5769d",
-      "created_at_india": "2026-11-06T09:26:01.344628+05:30"
+      "created_at_india": {
+        "omitted_string_sha256": "e07bb34eec171d22462f125de2b078e7757429f8f93160355a11055afb381687",
+        "characters": 32
+      }
     },
     {
-      "path": "AGENTS.md",
+      "path": {
+        "omitted_string_sha256": "a54ff182c7e8acf56acfd6e4b9c3ff41e2c41a31c9b211b2deb9df75d9a478f9",
+        "characters": 9
+      },
       "sha256": "d52068f340e0be8a7714659c06da46fddf2a623ca4f0c76abc0ad9637285e3a2",
-      "created_at_india": "2026-11-06T09:26:01.308224+05:30"
+      "created_at_india": {
+        "omitted_string_sha256": "a79cd100a1b007012b16c5e95e0b4d897a383f1e14738ef31710a73be2f7adea",
+        "characters": 32
+      }
     },
     {
-      "path": "LENNY_BUILD_FLOW.md",
+      "path": {
+        "omitted_string_sha256": "b3591c2b325cb67f7161d88b1750610d928a5ece73c18dc735df8037e14a4472",
+        "characters": 19
+      },
       "sha256": "acff2d7203252dbfb1e704dee99053c68a9f9ef94af0f9171f06e1b2da5d5267",
-      "created_at_india": "2026-11-06T09:28:11.905775+05:30"
+      "created_at_india": {
+        "omitted_string_sha256": "396465681d32867c6c3d85b1120faf2bf6f91c50ef72b2d0928be42da0ffbb04",
+        "characters": 32
+      }
     },
     {
-      "path": "LENNY_CODEX_PROMPTS.md",
+      "path": {
+        "omitted_string_sha256": "1991bd5ef7807326b36c8daa09a0ebfce448a4e65dd79aac0f21426f7e524220",
+        "characters": 22
+      },
       "sha256": "655ee2086ab647d4bcbc085800521bd026a5443baef96b35af34004273221274",
-      "created_at_india": "2026-11-06T09:28:11.901953+05:30"
+      "created_at_india": {
+        "omitted_string_sha256": "08b11eb6129c8f1608bec5a800f1d48adde3e865228347a0ad543bf6aef5e6e2",
+        "characters": 32
+      }
     },
     {
-      "path": "README.md",
+      "path": {
+        "omitted_string_sha256": "b335630551682c19a781afebcf4d07bf978fb1f8ac04c6bf87428ed5106870f5",
+        "characters": 9
+      },
       "sha256": "43d272e719962aad3ce22f842da7b7377553cc7aaecb43bf2311e5ceff3d15e5",
-      "created_at_india": "2026-11-06T09:30:10.051372+05:30"
+      "created_at_india": {
+        "omitted_string_sha256": "8d8c872e81f638210f5e82fe2d121d4d4838b119a8e1f0ee547ff56e3a6a22b5",
+        "characters": 32
+      }
     },
     {
-      "path": "docs/PRD.md",
+      "path": {
+        "omitted_string_sha256": "487b79d1751c30f1530aa326b1d31d6062b4244d4e08bc4bbabb2777ca6e5e6b",
+        "characters": 11
+      },
       "sha256": "851ca3647a2eab449c0c9bd000facea7b78d68cc9dd73f9f69d8e9e619c2c174",
-      "created_at_india": "2026-11-06T09:26:01.264998+05:30"
+      "created_at_india": {
+        "omitted_string_sha256": "b9b1a44c098d114cb77870602e90ab28b3f24217fd13196efd98f584e127e8da",
+        "characters": 32
+      }
     },
     {
-      "path": "docs/agent-transcripts/README.md",
+      "path": {
+        "omitted_string_sha256": "d4fdd09041be105a1a3f2c2ead223c0e3fadf4d014b02caae1d30097f7104cf6",
+        "characters": 32
+      },
       "sha256": "6c1b1e38f1c037ef16e5c3deae04167c1634de2fa56056903b25cab8201415a4",
-      "created_at_india": "2026-11-06T09:30:09.968738+05:30"
+      "created_at_india": {
+        "omitted_string_sha256": "6323ca8d529dc1d0161a3a964caa8bbca248e2c0f308181348ee1f1faaee80e5",
+        "characters": 32
+      }
     },
     {
-      "path": "docs/agent-transcripts/phase-00-assignment-source.json",
+      "path": {
+        "omitted_string_sha256": "9709a0deb65728430af8452f73012089f1561810e8fb75fe3d179e52d8482977",
+        "characters": 54
+      },
       "sha256": "d324c21cbdc121975172839b98a52191683709b0a9dbc65721909bbffaff4544",
-      "created_at_india": "2026-11-06T09:31:03.259756+05:30"
+      "created_at_india": {
+        "omitted_string_sha256": "7f6839ff98e9f8368d9a2d98b1c2497c5c7c2bee09c38d3fdb6a860a0415fc08",
+        "characters": 32
+      }
     },
     {
-      "path": "docs/agent-transcripts/phase-00-check-failure.json",
+      "path": {
+        "omitted_string_sha256": "f35985b265bcd42cf8874480551864a840a029fa0afe264de7341691098fc721",
+        "characters": 50
+      },
       "sha256": "065e7791c55bf2c13a5bc1007cbd417d4dcf5e972cef5eea5b18befa62aaaba0",
-      "created_at_india": "2026-11-06T09:32:49.271678+05:30"
+      "created_at_india": {
+        "omitted_string_sha256": "a69e1baab78d728a9ee50478b8ea93e814723712123dcca23b33641fe2d909e6",
+        "characters": 32
+      }
     },
     {
-      "path": "docs/agent-transcripts/phase-00-checks.jsonl",
+      "path": {
+        "omitted_string_sha256": "8b77f4c9c78df75d3499530ce9bdb6d1f1fc248675ab04b626a675a66acbe048",
+        "characters": 44
+      },
       "sha256": "d06593cd7eba62d5dcb0cb1e2d3825baef887e966f16e6a8a0d3685f852ff8a4",
-      "created_at_india": "2026-11-06T09:32:49.332906+05:30"
+      "created_at_india": {
+        "omitted_string_sha256": "ba6f6f258756e847c27e21225363868c4181203cb723417d602a5a2a210d5098",
+        "characters": 32
+      }
     },
     {
-      "path": "docs/agent-transcripts/phase-00-earlier-environment.json",
+      "path": {
+        "omitted_string_sha256": "06fb780bedf57666826f04fa142296fcda9f31f9c8158e2dac6e7e46e70caee5",
+        "characters": 56
+      },
       "sha256": "134cca0422f3686e6c0612f0c842d35851c6db6d0137b32f672a5af6890288b6",
-      "created_at_india": "2026-11-06T09:28:12.164502+05:30"
+      "created_at_india": {
+        "omitted_string_sha256": "da291a283a8226bb660d9e3b50c74d937f4f900dfc82091f2a8565703f681109",
+        "characters": 32
+      }
     },
     {
-      "path": "docs/agent-transcripts/phase-00-environment.jsonl",
+      "path": {
+        "omitted_string_sha256": "cd886d44ccfa5072da25c1c71c98de8edc6a0b2854765f1b665e717af833dc81",
+        "characters": 49
+      },
       "sha256": "844bfee339723650e034b584ce5a185048e2e74f64c447586772251f0887c30d",
-      "created_at_india": "2026-11-06T09:31:00.326438+05:30"
+      "created_at_india": {
+        "omitted_string_sha256": "d3aaf833e49eef64dee04871623864c051eaf3f6638eae4b15282c0dfbe57c3a",
+        "characters": 32
+      }
     },
     {
-      "path": "docs/agent-transcripts/phase-00-source-audit.json",
+      "path": {
+        "omitted_string_sha256": "1ca323fe229e668a44098ca99a7e2672a8972dd0c4c39c4ac5ed7cff5ee5c58a",
+        "characters": 49
+      },
       "sha256": "267d3610d8eb0436a070eb77b3377f237f90dee85279907e3a750d40f4e9c5c2",
-      "created_at_india": "2026-11-06T09:30:45.663110+05:30"
+      "created_at_india": {
+        "omitted_string_sha256": "1acdba47386cc5e5572c900d2ff2b4cf94495ff34d21b58da2400b407f57d403",
+        "characters": 32
+      }
     },
     {
-      "path": "docs/agent-transcripts/phase-00-summary.md",
+      "path": {
+        "omitted_string_sha256": "9c586022a22d63dbd8eef3acc3f6486b7666c552fc6d2442dae29eb34f202a74",
+        "characters": 42
+      },
       "sha256": "4d30a796ed6f4ae73253a88252bd8c369dfd9e1a9fcd198fc74f63e6fda705a1",
-      "created_at_india": "2026-11-06T09:30:10.010451+05:30"
+      "created_at_india": {
+        "omitted_string_sha256": "534d7c72a9f2ecfd03a4071da9a87913a25dd7469e7ec5ec254e73ca107490fb",
+        "characters": 32
+      }
     },
     {
-      "path": "docs/assessment-audit.md",
+      "path": {
+        "omitted_string_sha256": "c760a3d9266e4a6b3733fe2293e2cdb97d5bd065784b28e6de99cf6b860f731e",
+        "characters": 24
+      },
       "sha256": "846875367fc3602ac77378d46ec77ca209777e6742fd5f290a4bb1ed7dff070a",
-      "created_at_india": "2026-11-06T09:30:09.797618+05:30"
+      "created_at_india": {
+        "omitted_string_sha256": "c6237def63865d44922b89194e82062e5dedb1d8f8a88648f79b66ce504262ac",
+        "characters": 32
+      }
     },
     {
-      "path": "docs/assumptions.md",
+      "path": {
+        "omitted_string_sha256": "2a48bd7bad40d31cff09e6ee9a20da82556a7e33035ed9d7f1c85662255ae322",
+        "characters": 19
+      },
       "sha256": "d83312928fb82989f5e3071b0daf3cca9cafaa7cc4ef47d43a641829aded3076",
-      "created_at_india": "2026-11-06T09:27:29.621660+05:30"
+      "created_at_india": {
+        "omitted_string_sha256": "b3e605f2b8f0a7f3ad75d396567364469359e35a6cbec92df0f3f4a8f1163de0",
+        "characters": 32
+      }
     },
     {
-      "path": "docs/decisions.md",
+      "path": {
+        "omitted_string_sha256": "e9132f4093ec8f992b1c832ca2f6f40340fd2e2e632a21218da92a3d457e6088",
+        "characters": 17
+      },
       "sha256": "f87585f1c51b9110c52c1e2db8f1618efdb85eea20d3d2913c841e42420629e7",
-      "created_at_india": "2026-11-06T09:27:29.763767+05:30"
+      "created_at_india": {
+        "omitted_string_sha256": "22bd371e9d45189207b0ff467dc2d767aa19450d7e2402eb5f0aa1d7509ccf30",
+        "characters": 32
+      }
     },
     {
-      "path": "docs/environment.md",
+      "path": {
+        "omitted_string_sha256": "a9108d0ec764540686dfb76d3b842c82f218823c38cc29663eea636cd756c70f",
+        "characters": 19
+      },
       "sha256": "8f671500818421f9f158893fd395d2bf57b715016bbaae5fed81bb43891e2da2",
-      "created_at_india": "2026-11-06T09:30:09.840163+05:30"
+      "created_at_india": {
+        "omitted_string_sha256": "8fa9f51ee95b5bf678be886d21cd61a2dab75816df2c570ec39a4c49925dcfe6",
+        "characters": 32
+      }
     },
     {
-      "path": "docs/progress.md",
+      "path": {
+        "omitted_string_sha256": "378b8e52823d637f240b08446ef15475f13745a2cabebff169eb567074cba6b3",
+        "characters": 16
+      },
       "sha256": "18a6f7df7a98a346295dab11bc62e5d0e3b34942002d3b8253c72a45545b20a6",
-      "created_at_india": "2026-11-06T09:32:26.047080+05:30"
+      "created_at_india": {
+        "omitted_string_sha256": "5b1f34659706ba5e1583c9b803952ba791509ccbdcbace2e5ffe6c226d2cf553",
+        "characters": 32
+      }
     },
     {
-      "path": "docs/provenance.md",
+      "path": {
+        "omitted_string_sha256": "511ee509a686d00fb3f7021e3e8e070e59e575c05eca32d179df09e658aa19b8",
+        "characters": 18
+      },
       "sha256": "1c7e364314a4b90496bbb69846b863bf30d57e25f955dac06c889b3316036199",
-      "created_at_india": "2026-11-06T09:30:09.876194+05:30"
+      "created_at_india": {
+        "omitted_string_sha256": "88fe2b17a2175f3869f70d0fddf3e7f7c90df2a3253f5c8ef3f00b0b22a70d9b",
+        "characters": 32
+      }
     },
     {
-      "path": "docs/requirements.md",
+      "path": {
+        "omitted_string_sha256": "71c6b87612afd48ee2b295f885d377d87f291385b3b5ff796e71947739393994",
+        "characters": 20
+      },
       "sha256": "55053f27d5463fd22a96efbece708426851fa31b3aa1b821c1e1d30604780d7d",
-      "created_at_india": "2026-11-06T09:28:11.906738+05:30"
+      "created_at_india": {
+        "omitted_string_sha256": "c2a455be1b373b18b85ae474495e9a78b4edff99edc839d537f4b47840743f89",
+        "characters": 32
+      }
     },
     {
-      "path": "docs/risks.md",
+      "path": {
+        "omitted_string_sha256": "7dbbefb9b636ed237a8b7906d7e6148c4896703ef8278edb8695e5fda89d3bb5",
+        "characters": 13
+      },
       "sha256": "966e8c072af63e3bc1fffa0dc792ef3e550e288a57b0edf4241cb7294bf5425a",
-      "created_at_india": "2026-11-06T09:27:29.683720+05:30"
+      "created_at_india": {
+        "omitted_string_sha256": "7ef81f07d66c78ca491fb4f4b69a5a6fad61856855ce5783aefd5902f0cf3ccd",
+        "characters": 32
+      }
     },
     {
-      "path": "docs/scenarios.md",
+      "path": {
+        "omitted_string_sha256": "2c8b18dbfdaf4eb5423a70ff57dd111504ada32b63a9be9deb9f639f05824c5f",
+        "characters": 17
+      },
       "sha256": "019bf0f518bc658f1100c6c9a883ff5349d923922bd4451c334f214f446de3a3",
-      "created_at_india": "2026-11-06T09:27:29.732671+05:30"
+      "created_at_india": {
+        "omitted_string_sha256": "17ba8409cdada5248c7656e5438a698b3d215b0025311930f8b6542d5ce347af",
+        "characters": 32
+      }
     }
   ]
 }

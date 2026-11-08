@@ -12,9 +12,10 @@ RUN npm ci --prefix agent --ignore-scripts --no-audit --no-fund
 COPY backend backend
 COPY eval eval
 COPY agent/retrieval.ts agent/fixture.json agent/
-COPY agent/conversation.ts agent/
+COPY agent/conversation.ts agent/provider_policy.ts agent/
 COPY agent/conversation_policy.ts agent/test_conversation_policy.ts agent/
-COPY agent/essay.ts agent/
+COPY agent/essay.ts agent/application_advice.ts agent/
+COPY agent/essay_format.ts agent/test_essay_format.ts agent/
 COPY agent/skills/ship30 agent/skills/ship30
 RUN useradd --uid 10001 --create-home evaluator && mkdir -p /app/evidence/private-chat && chown -R evaluator:evaluator /app/evidence && chmod 700 /app/evidence/private-chat
 USER evaluator

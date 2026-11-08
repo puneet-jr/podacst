@@ -1,0 +1,27 @@
+{
+  "source": "Preserved original normal-index row hashes",
+  "target": "isolated repair DB",
+  "checks": {
+    "chunks": {
+      "rows": 12770,
+      "all_full_row_hashes_match": true
+    },
+    "episodes": {
+      "rows": 303,
+      "all_full_row_hashes_match": true
+    },
+    "episode_versions": {
+      "rows": 303,
+      "all_full_row_hashes_match": true
+    },
+    "knowledge_config": {
+      "rows": 1,
+      "all_full_row_hashes_match": true
+    },
+    "ingestion_runs": {
+      "rows": 5,
+      "all_full_row_hashes_match": true
+    }
+  },
+  "embeddings_and_all_chunk_columns_verified": true
+}

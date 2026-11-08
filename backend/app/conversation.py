@@ -17,6 +17,8 @@ from pydantic import BaseModel, ConfigDict, Field
 from sqlalchemy import text
 
 from backend.app.agent import PiRPC, ROOT, SpikeError
+from backend.app.observability import emit
+from backend.app.source_paths import SOURCE_PATH_PATTERN
 from backend.app.retrieval import SearchRequest, search
 
 SYSTEM = '''First call search_transcripts with the current-question selector. Then select ONE exact source sentence ID that directly answers the CURRENT QUESTION, or NONE if evidence is insufficient.
@@ -91,7 +93,8 @@ def load_run(engine,settings,session_id,run_id):
 
 
 def sentence_items(result,query):
-    terms={w for w in re.findall(r'[a-z]{3,}',query.casefold()) if w not in {'the','what','does','their','and','how','that','from','with','this','current','question','according','interview','transcript'}}
+    # Pronominal/connective matches cannot displace the subject of a follow-up.
+    terms={w for w in re.findall(r'[a-z]{3,}',query.casefold()) if w not in {'the','what','does','their','and','how','that','from','with','this','current','question','according','interview','transcript','for','they'}}
     items=[];sources={}
     for passage_index,p in enumerate(result.passages):
         label='S'+str(passage_index+1);sources[label]=p
@@ -116,11 +119,17 @@ def sentence_items(result,query):
                     end=following_end;quote=p.original_text[start:end]
             score=len(terms & set(re.findall(r'[a-z]{3,}',quote.casefold())))
             spans.append((score,start,end,quote))
-        for _,start,end,quote in sorted(spans,key=lambda x:(-x[0],x[1]))[:2]:
+        selected=[]
+        for _,start,end,quote in sorted(spans,key=lambda x:(-x[0],x[1])):
+            # Adjacent-pair candidates overlap their component sentences. Spend
+            # the two slots on distinct source spans, under the same byte cap.
+            if any(start<previous_end and previous_start<end for previous_start,previous_end in selected):continue
             if sum(len(i['text'].encode()) for i in items)+len(quote.encode())>6000:continue
             headers=list(re.finditer(r"^([^\r\n():]{1,100})[ \t]*\(\d{1,3}:\d{2}(?::\d{2})?\):",p.original_text[:start],re.M))
             speaker=headers[-1].group(1).strip() if headers else (p.speakers[0] if getattr(p,'speakers',[]) else None)
             items.append({'id':'E'+str(len(items)+1),'source_id':label,'text':quote,'speaker':speaker,'char_start':p.char_start+start,'char_end':p.char_start+end,'sponsor_warning':p.sponsor})
+            selected.append((start,end))
+            if len(selected)==2:break
     return items,sources
 
 
@@ -228,7 +237,7 @@ class ConversationService:
     def __init__(self,engine,settings):self.engine,self.settings=engine,settings;self.lock=asyncio.Lock();self.tasks={}
 
     async def execute(self,run,notify):
-        started=time.monotonic();rpc=None;bridge=None;metadata={'retrieval_mode':'hybrid','provider':'ollama-local','model':self.settings.generation_model}
+        started=time.monotonic();rpc=None;bridge=None;metadata={'retrieval_mode':'hybrid','provider':self.settings.provider_id,'model':self.settings.selected_model()}
         acquired=False;status,code='failed','generation_failed'
         try:
             if self.lock.locked():raise ConversationError('local_generation_busy',503)
@@ -237,7 +246,7 @@ class ConversationService:
                 with self.engine.connect() as c:question=c.scalar(text('SELECT content FROM messages WHERE id=:id'),{'id':run['user_message_id']})
                 bridge=ToolBridge(self.engine,self.settings,run,notify,question);await bridge.start()
                 log_dir=Path('/app/evidence/private-chat')/str(run['id'])/str(run['attempt'])
-                rpc=PiRPC(log_dir,tool_name='search_transcripts',extension=ROOT/'agent/conversation.ts',system=SYSTEM,max_tokens=128,
+                rpc=PiRPC(log_dir,settings=self.settings,tool_name='search_transcripts',extension=ROOT/'agent/conversation.ts',system=SYSTEM,max_tokens=128,
                     extra_env={'LENNY_CHAT_BRIDGE':bridge.url,'LENNY_CHAT_TOKEN':bridge.token,'LENNY_CHAT_QUESTION':question})
                 await rpc.start()
                 prompt='CURRENT QUESTION (user input, not source evidence):\n'+question+'\nUSER CONTEXT FOR DISAMBIGUATION:\n'+run['resolved_query']+'\nFirst call search_transcripts with {"query":"current"}. /no_think'
@@ -273,12 +282,12 @@ class ConversationService:
                     if bridge:await bridge.close()
                     if rpc:
                         metadata.setdefault('raw_model_text',rpc.last_model_text)
-                        diagnostics=(rpc.log_dir/'stderr.log').read_text() if (rpc.log_dir/'stderr.log').exists() else ''
-                        metadata['text_tool_call_normalized']='"event":"text_tool_call_normalized"' in diagnostics
+                        metadata['text_tool_call_normalized']=getattr(rpc,'text_tool_call_normalized',None)
                     metadata.update(duration_seconds=time.monotonic()-started,process_reaped=rpc.process.returncode is not None if rpc and rpc.process else True,
                         process_pid=rpc.process.pid if rpc and rpc.process else None,bridge_closed=bridge.server is None or not bridge.server.is_serving() if bridge else True)
                     if bridge and bridge.result:
                         metadata.setdefault('retrieved_passage_ids',[str(p.id) for p in bridge.result.passages]);metadata.setdefault('retrieval_timings_ms',bridge.result.timings_ms)
+                    emit('model_operation',run_id=run['id'],session_id=run['session_id'],provider=self.settings.provider_id,model=self.settings.selected_model(),code=code or 'ok',status=status,duration_ms=round(metadata['duration_seconds']*1000,2),process_reaped=metadata['process_reaped'],bridge_closed=metadata['bridge_closed'])
                     if status!='completed':await asyncio.to_thread(terminate,self.engine,run,status,code,metadata)
                     else:
                         with self.engine.begin() as c:c.execute(text('UPDATE answer_runs SET metadata=metadata||CAST(:meta AS jsonb) WHERE id=:id'),{'id':run['id'],'meta':json_value(metadata)})
@@ -319,7 +328,7 @@ class ConversationService:
 
 def source_links(metadata):
     path,revision=metadata.get('source_path',''),metadata.get('corpus_revision','')
-    source='https://github.com/ChatPRD/lennys-podcast-transcripts/blob/'+revision+'/'+path if re.fullmatch(r'[0-9a-f]{40}',revision) and re.fullmatch(r'episodes/[a-z0-9-]+/transcript\.md',path) else None
+    source='https://github.com/ChatPRD/lennys-podcast-transcripts/blob/'+revision+'/'+path if re.fullmatch(r'[0-9a-f]{40}',revision) and re.fullmatch(SOURCE_PATH_PATTERN,path) else None
     video=metadata.get('video_url')
     if video:
         parts=urlsplit(video)

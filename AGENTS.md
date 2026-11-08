@@ -91,16 +91,111 @@ Current migration is 0002_ingestion. Preserve immutable episode versions, exact 
 
 The user explicitly authorized Git initialization if needed and publication to https://github.com/vivekvattem/lenny on main without force. Make seven meaningful current-time commits in requested phase order; where original shared-file versions are unavailable, group their current state honestly. This supersedes earlier no-publication notes for this repository push only. Exclude real.env, confidential PDF, downloaded corpus/weights, dependencies and private backups; keep.env.example and sanitized evidence. Preserve private originals of redacted evidence. Phase6 remains WIP/blocked by local Ollama grammar failure, not a passed essay. No Phase7, demo upload or form submission is authorized.
 
+
+## Latest user scope: single Markdown section gate
+
+The user authorized one plain-Markdown section from saved outline/evidence, with full essay and separate verified-fix commit only on section pass. The single actual probe generated362 words/16.323s but failed: no citations and unsupported engagement/conversion outcome. Read docs/agent-transcripts/phase-06/markdown-section-20261106T150144/report.md and review.json. No full essay, retry, commit or push was made after that failure; experiment changes remain uncommitted. Report before retrying; wait for a new instruction. The one earlier automatic-permission deadline occurred before process creation, not a model attempt. Phase7 remains unauthorized.
+
+
+## Latest user scope: 1.7B comparison blocked before inference
+
+The user authorized qwen3:1.7b download and one identical Foundation/S2/S3 Markdown section; full essay only after section pass. Committed the Markdown transport fix as4323911 with failed0.6B grounding explicit. Both authorized download attempts failed (TLS timeout, then connection reset); 1.7B is not installed. Zero section/full-essay inference requests. Old0.6B evidence hashes match, chat remains0.6B. Read docs/agent-transcripts/phase-06/qwen17-comparison-report.md. Prepared comparison runner has not run. No quality/model-fit result for1.7B and no Phase7. These facts supersede older uncommitted-status notes.
+
+
+## 7 November 2026: actual 1.7B section outcome
+
+Latest user-authorized1.7B section ran once on7 November India time. Same prompt/outline/S2/S3/code/settings verified, one local Pi request, chat0.6B unchanged. Failed:289 words/29.050s, no citations, purpose leakage,7% survey distortion and unsupported outcome implications. Output/review preserved in docs/agent-transcripts/phase-06/qwen17-section-20261106T185057/report.md. No full essay/retry/Phase7. Supersedes the earlier download blocker; do not rerun without new authorization.
+
+
+## 7 November 2026: approved-fact section experiment
+
+User authorized one new approved-fact1.7B section, then full essay only on pass. Fixed five reviewed statements mapped to exact S2/S3 chunk IDs; new renderer rejects altered/misplaced markers and new factual text. Single actual local Pi run failed after27.678s/360 raw words: inline markers, no cited rendering, copied facts plus unsupported success claims under Application. One host import error occurred before inference and was corrected. Raw/review preserved in docs/agent-transcripts/phase-06/approved-section-20261106T193354/report.md. Ten focused writing contracts pass, live section fails. Chat0.6B and both prior failed runs unchanged. No section retry/full essay/Phase7.
+
+
+## 7 November 2026: server-owned section and advice-only test
+
+User authorized direct server fact/citation assembly and one advice-only Pi1.7B paragraph. Single run7.545s/36 advice words/175 assembled words (target210). Fixed facts/citations verified; advice failed by adding helps-ensure alignment/clear-path outcome. Both exact model output and rejected candidate preserved in docs/agent-transcripts/phase-06/server-section-20261106T203813/report.md. No model IDs, history, case restatement or instruction leakage.12 focused tests pass separately. Chat0.6B/all prior runs unchanged. No full essay/retry/Phase7; Lookout registry remains fixture data, not topic evidence for full workflow.
+
+
+## 7 November 2026: experiment paragraph length gate
+
+User-authorized65–75-word experiment paragraph ran once via Pi/local1.7B:59 words/11.939s, assembled198 vs210. Fixed five approved facts/citations pass owned-source/hash review; experiment, metric, keep/revise decision and explicit Hypothesize framing present. Length FAILS (6 below minimum), with awkward prompt-caveat echo. Known lexical screen omits Hypothesize though manual review credits it; actual rejection is length. No padding/model retry/full essay/Phase7. One automatic approval timeout preceded process creation, then one actual model request.14 writing/unit tests pass separately. Chat0.6B/prior evidence unchanged. Lookout facts remain fixture data; full topic evidence/rubric untested. docs/agent-transcripts/phase-06/experiment-section-20261106T210046/report.md
+
+
+## 7 November 2026: reviewed complete essay gate
+
+Latest user reclassified59-word section as grounding/citation PASS and advice-length target miss. Full essay executed ONCE with fresh hybrid topic evidence,15 approved factual blocks and6 Pi/local1.7B advice stages. Original1325 words; one disclosed editorial pass, final1319, full1125–1375/six-section/support gate passed for this assisted run. Actual DB save initially failed8k constraint; additive0005 and83 passing contracts fixed long assistant save while preserving8k user bound. Accepted message and6 sources reopened through API. Chat0.6B unchanged, no cloud/Phase7. Read docs/agent-transcripts/phase-06/server-essay-20261106T210445/report.md. Manual fact approval/editorial work remains necessary; standard product essay endpoint has not been migrated to new server-fact CLI workflow. No broad/autonomous quality claim.
+
+
+## Current authorization: Prompt07 and endpoint integration
+
+User explicitly authorized artifact viewer, reviewed essay as labelled fixture, evidence-first standard essay endpoint integration, one fresh local generated essay with original rubric/manual-edit record, and artifact reopen after restart. Phase6: reviewed essay passed; standard endpoint verification pending. Phase7 now authorized; preserve separation of fixture/live/browser evidence. Stop before Phase8.
+
+
+## 7 November 2026: artifact and endpoint verification
+
+Prompt07 reviewed integration gate demonstrated: labelled prior essay fixture rendered separately; standard endpoint now uses fresh evidence-first fixed source quotes/Pi1.7B advice. One raw run43.356s/1143 words failed; explicit edits to6 advice paragraphs and3 source selections produced reviewed1270-word accepted essay. Substantial manual changes disclosed, not autonomous quality. Markdown and complete static HTML artifacts saved/reopened after API/web restart with all hashes/sources matching.98 tests and isolated Chrome browser hostile/console/network checks pass. In-app connector still bootstrap-blocked; fallback browser evidence separate. Chat0.6B unchanged. Read docs/phase-07-report.md. Stop before Phase8; no new push authorized.
+
+
 ## Current authorization: Prompt08
 
-User authorized interface polish, essay/review UI, responsive/keyboard/focus checks and deterministic browser regressions with a separate real local main journey. Preserve Phase7 fixture/live/manual-edit distinctions. Stop before Prompt09. Publication is governed by the current Phase8-only authorization below.
+User authorized interface polish, essay/review UI, responsive/keyboard/focus checks and deterministic browser regressions with a separate real local main journey. Preserve Phase7 fixture/live/manual-edit distinctions. Stop before Prompt09. No new publication authorization.
 
 
 ## Phase8 current gate
 
-Prompt08 reviewed local/UI gate passed; read docs/phase-08-report.md. Final1208 words required6 advice+3 source edits; raw failure/evidence gap preserved.99 contracts,2 Node tests, build and16 deterministic browser cases pass separately from actual Pi/Ollama journey. Do not rerun successful model requests without a new reason. Screenshot files stay private/ignored; only hashes publishable. Single Chrome fallback verified, in-app connector still blocked. Stop before09; publication scope is defined below.
+Prompt08 reviewed local/UI gate passed; read docs/phase-08-report.md. Final1208 words required6 advice+3 source edits; raw failure/evidence gap preserved.99 contracts,2 Node tests, build and16 deterministic browser cases pass separately from actual Pi/Ollama journey. Do not rerun successful model requests without a new reason. Screenshot files stay private/ignored; only hashes publishable. Single Chrome fallback verified, in-app connector still blocked. Stop before09; no new push authorization.
 
 
 ## Current publication authorization: Phase8 only
 
 The user explicitly authorized the Phase8-only commit and non-force push to origin/main, and selected leaving earlier Phase6/7 runtime prerequisites local. Document the remote snapshot as incomplete. Include only workspace UI, focused tests and sanitized Phase8 evidence; exclude credentials, raw transcript/API payloads and private logs. The1208-word essay is manually reviewed after9 edits; autonomous quality remains unverified. Stop before09.
+
+
+## Current authorization: Prompt09
+
+User authorized cloud switching and OPS01–05 audit in the existing local tree, preserving unpublished prerequisites and private evidence. Local Ollama remains selected; no automatic fallback. Cloud live check only with a server-side configured key; never request keys in chat. Isolated test databases only; no normal DB outage/destruction. Stop before10. No new commit/push authorization.
+
+
+## Phase9 local audit outcome
+
+Explicit Anthropic/native Pi provider code implemented/tested, but live keyed cloud validation BLOCKED: no server-side key. Local remains Ollama0.6B chat/1.7B advice; no fallback.112 integrated tests plus15 focused provider/retrieval tests and8 Node policy tests pass. Warm bootstrap6.596s preserved env/corpus, real local smoke6.278s/replay/source/process cleanup pass;16 browser cases+4 cloud UI assertions are fixtures. Default protocol/diagnostic projections verified; older raw traces preserved privately. Read docs/phase-09-report.md, handoff.md and troubleshooting.md. Remote snapshot remains deliberately incomplete; no new commit/push. Stop before10.
+
+
+## Current user scope: OpenRouter correction and live check
+
+Phase9 initially implemented direct Anthropic, not OpenRouter. User now authorizes adding OpenRouter through Pi, empty OPENROUTER_API_KEY in .env.example, docs correction, and one actual cited OpenRouter answer once they configure their ignored .env key. Never print/copy the key or claim cloud validation before that request succeeds. Keep local app default Ollama; a dedicated cloud smoke may explicitly select OpenRouter without editing local .env. Preserve failed/live evidence and keep prior native Anthropic evidence accurately labelled. No commit/push or Phase10.
+
+
+## Current authorization: diagnose saved OpenRouter400
+
+User authorized inspecting saved error/trace without secrets, headers or full payload logs. Preserve the first failure. If a specific issue is evidenced, smallest fix and exactly one same-provider/model/public-only rerun are authorized; otherwise report missing evidence. Saved trace lacks upstream error text and historical wire payloads. Installed serializer offline synthetic probe is not historical payload evidence. No provider switch, extra retry, commit/push or Phase10.
+
+
+## OpenRouter corrective smoke outcome
+
+Inspected actual saved400 trace: upstream text/payloads were not retained; do not invent that message. First native tool invocation occurred. Installed-Pi1.5 offline synthetic probe proves tool call/result link and a sole follow-up response_format=json_object addition; Google docs identify the tool/structured-output compatibility gap. Removed only that flag.10 Node policy+9 focused Python conversation tests pass; exactly one authorized same-OpenRouter/google-gemini-2.5-flash-lite public smoke passed6.512845794s, sourceS1 exact and semantically supported.6 private files key-scan clean. Initial failure preserved, no further retry/provider change/commit/push/Phase10. Read docs/phase-09-openrouter-diagnosis.md.
+
+## Current authorization: Prompt10 full corpus and release-quality gate
+
+User authorized the documented resumable full pinned-corpus ingestion, source/idempotency/preservation checks, five frozen real local scenarios, reviewed retrieval reruns, at least10 directly reviewed answers, and release regression. Baseline docs/regression-2026-11-07.md; preserve all existing UI/session/artifact work. Keep inference local; no model downloads, resets, commits or pushes. Stop before Prompt11. New command metadata is docs/agent-transcripts/phase-10/commands.jsonl; raw command streams and generated/source payloads stay ignored under .cache/phase10. No scope/quality success is inferred before measurements. Scenario caps and sample selection are frozen before new live runs in phase-10/*protocol.json; original inputs remain unchanged.
+
+
+## Phase10 actual outcome — stop before11
+
+Full pinned303/303 episodes/12770 passages verified;repeat0 loaded/303 skipped/0 failures/0 duplicates;original9/373 and all old saved rows unchanged. First scenarios0/5 versus4/5,C/E post-fix stillfail.13 answerable reviews4 adequate;unsupported1/4 via pre-existing guard,native abstention0/4. HybridRecall@8 56.25% tuning/81.25% observed holdout,below85%. Post-fix1216-word essay removes invented Lookout history but fails full rubric;0 edits/acceptance.120 contracts+frontend/Node/metric/build/browser regressions pass in stated scopes. Read docs/phase-10-report.md and known-issues.md. Do not start11,claim autonomous quality,push or reset data. Current work uncommitted;UI preserved except focused main.tsx pagination/status fixes.
+
+
+## Latest authorization: Prompt11 isolated baseline rehearsal
+
+User authorizes finishing bounded Phase10 reporting,then Prompt11 documentation and clean-checkout rehearsal using the last verified Phase10 baseline. Preserve original0/5 and bounded0/5,raw essay and timeout trace. Quarantine bounded changes from the RC without blanket reset;preserve normal303 index,saved work,UI and verified OpenRouter code. Fresh isolated Compose project/ports/volumes only;local inference,no new push/submission. A private local snapshot revision may be used for a complete clean checkout;normal Git index remains untouched. Stop after rehearsal before12.
+
+
+## Phase11 outcome — stop before12
+
+Complete private candidate matches41 pre-experiment Phase10 source hashes;bounded changes remain preserved/separate. Clean checkout/fresh project lenny_phase11_eval(18080/18000/55433) passed startup/migration,3-episode112-passage smoke,120 contracts,frontend/Node and actual Chrome/restart/reopen. Initial helper RemoteDisconnected fixed with bounded polling;no inference retry. Fresh raw1157-word essay failed rubric,first narrow question partial,follow-up supported. Both0/5 scores unchanged;normal303/12770 and73 saved sessions preserved. Read docs/phase-11-report.md. No public push/submission/Prompt12. Normal repo index remains empty;private local snapshot commits are rehearsal-only.
+
+
+## Latest bounded Phase12 repair scope
+
+User-authorized isolated repair fromf898 only. Runtime3dc8145 changes sentence packing and balanced factual quotation selection plus focused tests.125 contracts/18 focused/10 Node pass. Exactly one local UI pair passed6.422s/5.185s on copied303/12770 index;one raw essay1145words/47.755s failed semantic rubric. No further generation attempts. OpenRouter credit-blocked;historical1208-word/nine-edit essay unchanged. Preserve earlier tree/evidence/root data;new private doc seal/export is review-only. Stop,no push/deploy/upload/submission. See docs/phase-12-repair-report.md.

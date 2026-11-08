@@ -1,0 +1,15 @@
+{
+  "fixture": true,
+  "checks": [
+    {
+      "omitted_string_sha256": "ddbb163561d09d89bfa727c0fbb063505fce46b938d804567104a6e90a09fb49",
+      "characters": 138
+    },
+    {
+      "omitted_string_sha256": "5dad57d85761c63a6cd71534d38baab8d95fd3d0a016927da133ee7a5d2a3f51",
+      "characters": 137
+    }
+  ],
+  "model_calls": 0,
+  "database_writes": 0
+}

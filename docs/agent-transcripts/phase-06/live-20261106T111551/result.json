@@ -11,69 +11,156 @@
     "assistant_message_id": null,
     "status": "failed",
     "request": {
-      "topic": "Use must-have customer feedback to improve positioning and onboarding",
-      "audience": "Early-stage product managers deciding how to move users toward first value",
+      "topic": {
+        "omitted_string_sha256": "bf156bdf0408648c58fe00210281acf09c1816f17685f89869bfe8e01538e488",
+        "characters": 69
+      },
+      "audience": {
+        "omitted_string_sha256": "8aa9a105859ab72908aef2e25c10001adf24b74b7d4f89d9601072460bc8bdd3",
+        "characters": 74
+      },
       "workflow": "ship30",
-      "constraints": "Explain the survey, benefit-focused follow-ups, the Lookout case, and limitations. Do not claim a survey score guarantees product-market fit or that onboarding alone caused the outcome. Label proposed user actions Application:. Use only supplied transcript evidence; no invented stories, quotes, metrics or personal experience.",
+      "constraints": {
+        "omitted_string_sha256": "ebba5fa6ed4ae7ed38afb5fc98c7be835e7894df3d0b09b854084557fe85372b",
+        "characters": 327
+      },
       "source_path": "episodes/sean-ellis/transcript.md",
       "focus_questions": [
-        "Sean Ellis must-have product market fit survey how would you feel no longer use very disappointed",
-        "Sean Ellis Lookout antivirus positioning onboarding first value",
-        "Sean Ellis survey customer segments benefits product market fit focus"
+        {
+          "omitted_string_sha256": "267ff364cc8f11f3606199071bf17983e999623384a27706b0860ec43377eac3",
+          "characters": 97
+        },
+        {
+          "omitted_string_sha256": "0d593b4a3b504b12cbf5b1c0bc4eab27a55e80103424daf753242b3fe004dcf6",
+          "characters": 63
+        },
+        {
+          "omitted_string_sha256": "75e05efbeaebfa76d54156958e511e874892f3205e125dc6c72f55a77dbca718",
+          "characters": 69
+        }
       ],
       "timeout_seconds": 600.0,
       "use_session_context": true
     },
     "context_message_ids": [
-      "613f1732-0a89-4eed-9e00-e177473eab7f"
+      {
+        "omitted_string_sha256": "3489a0b1be1637e858b62b418d685860169727629906d7328659c18e822fef04",
+        "characters": 36
+      }
     ],
     "outline": {
-      "title": "Use must-have customer feedback to improve positioning and onboarding",
+      "title": {
+        "omitted_string_sha256": "bf156bdf0408648c58fe00210281acf09c1816f17685f89869bfe8e01538e488",
+        "characters": 69
+      },
       "status": "ready",
       "sections": [
         {
-          "heading": "Opening Promise",
-          "purpose": "Introduce the idea of using customer feedback to improve positioning and onboarding.",
+          "heading": {
+            "omitted_string_sha256": "89b99e7b71ff3011b10f3313dc704841f1f3437607d8d01aacc886f4197e1f3b",
+            "characters": 15
+          },
+          "purpose": {
+            "omitted_string_sha256": "6a53e0161f9fcdaa8b2b421fdcdd56926aa955d3f1f61a63ab8cf8bd020616ac",
+            "characters": 84
+          },
           "source_ids": [
-            "S1",
-            "S4"
+            {
+              "omitted_string_sha256": "3696ad59777e09d5f2daacb544022d435e7cd053d87c5781241fabd8fdf2a90d",
+              "characters": 2
+            },
+            {
+              "omitted_string_sha256": "b1d3eb8f32936fa9cf89d2240bd10734270fd55ff4644ad254b3b237468bad88",
+              "characters": 2
+            }
           ]
         },
         {
-          "heading": "Foundation",
-          "purpose": "Explain the importance of customer feedback in shaping positioning and onboarding.",
+          "heading": {
+            "omitted_string_sha256": "df42a4d5d3537666f9ed0012c3a44999878842f8d92f2ac056e6df0ca4ac44d1",
+            "characters": 10
+          },
+          "purpose": {
+            "omitted_string_sha256": "ac3bafe9f64f1d86528802e066519ac2de3980d418f4c8e08c446601e91b3939",
+            "characters": 82
+          },
           "source_ids": [
-            "S2",
-            "S3"
+            {
+              "omitted_string_sha256": "adfa2b24c2d924fe6383d8804be55afb98ea3eb0e14c3470ac3a0f651b9a422e",
+              "characters": 2
+            },
+            {
+              "omitted_string_sha256": "44d6a8a73eddb284d49799fdbfa2919a004ece6d2df3546eaa4e246048bcdf81",
+              "characters": 2
+            }
           ]
         },
         {
-          "heading": "Mechanism",
-          "purpose": "Outline how customer feedback can be used to improve positioning and onboarding.",
+          "heading": {
+            "omitted_string_sha256": "3489a4c81c349cadc87ab637b3d9b215c40589a3cb6b74f2a0563f2ff4f6e9d1",
+            "characters": 9
+          },
+          "purpose": {
+            "omitted_string_sha256": "467a744f35362b7f8a7fdc5589a7a044e1a4acd4ebfe06f7a3972dcb77a08ea6",
+            "characters": 80
+          },
           "source_ids": [
-            "S5"
+            {
+              "omitted_string_sha256": "1cdcbd57e7e20491d8be5ff46549aac5f9c117320a164a49ebc4f1439a741d76",
+              "characters": 2
+            }
           ]
         },
         {
-          "heading": "Source-Backed Case",
-          "purpose": "Provide a case study from Sean Ellis' experience.",
+          "heading": {
+            "omitted_string_sha256": "081ddc05808eca22b265fc7c05ebc729ce3994218d6568545e8debf8d2af1ea9",
+            "characters": 18
+          },
+          "purpose": {
+            "omitted_string_sha256": "7e68b352f5b6c5d52ffba90a1855e7609d9b56679ad42aee520f3b3bc2984850",
+            "characters": 49
+          },
           "source_ids": [
-            "S1",
-            "S4"
+            {
+              "omitted_string_sha256": "3696ad59777e09d5f2daacb544022d435e7cd053d87c5781241fabd8fdf2a90d",
+              "characters": 2
+            },
+            {
+              "omitted_string_sha256": "b1d3eb8f32936fa9cf89d2240bd10734270fd55ff4644ad254b3b237468bad88",
+              "characters": 2
+            }
           ]
         },
         {
-          "heading": "Limitations",
-          "purpose": "Highlight the limitations of using customer feedback as a guide.",
+          "heading": {
+            "omitted_string_sha256": "69b1b67de5ef98bea519f7c33bf6a1acc7b8d3693331dfd93488dffd794b6844",
+            "characters": 11
+          },
+          "purpose": {
+            "omitted_string_sha256": "ac5a07a03cc1967f578b23ece59a4e4840808712e5647102992e63e1d85a930e",
+            "characters": 64
+          },
           "source_ids": [
-            "S5"
+            {
+              "omitted_string_sha256": "1cdcbd57e7e20491d8be5ff46549aac5f9c117320a164a49ebc4f1439a741d76",
+              "characters": 2
+            }
           ]
         },
         {
-          "heading": "Actionable Takeaway",
-          "purpose": "Summarize the key takeaways from the evidence.",
+          "heading": {
+            "omitted_string_sha256": "ef35084d2396793948e506c7ec0b6f6f4cf7b1676907c5b3482f0d7ab651722b",
+            "characters": 19
+          },
+          "purpose": {
+            "omitted_string_sha256": "703c403d885c545761788b0a457f77d1cd58c7a1407c0ca8a4fd4987b382b6e5",
+            "characters": 46
+          },
           "source_ids": [
-            "S6"
+            {
+              "omitted_string_sha256": "b12f76a4b782e4ae7f035b86a07cb43e638af9157e855af49c3945971d2af402",
+              "characters": 2
+            }
           ]
         }
       ]
@@ -98,7 +185,10 @@
       "stages": [
         {
           "model": "qwen3:0.6b",
-          "stage": "outline",
+          "stage": {
+            "omitted_string_sha256": "318678825324247b8176d59f83c30bd94d23d2e3ac5cd4a743b0683ee58b88cd",
+            "characters": 7
+          },
           "usage": {
             "input": 1731,
             "output": 314,
@@ -108,46 +198,82 @@
             "totalTokens": 2045
           },
           "provider": "ollama-local",
-          "model_text": "{\n  \"status\": \"ready\",\n  \"title\": \"Use must-have customer feedback to improve positioning and onboarding\",\n  \"sections\": [\n    {\n      \"heading\": \"Opening Promise\",\n      \"purpose\": \"Introduce the idea of using customer feedback to improve positioning and onboarding.\",\n      \"source_ids\": [\n        \"S1\",\n        \"S4\"\n      ]\n    },\n    {\n      \"heading\": \"Foundation\",\n      \"purpose\": \"Explain the importance of customer feedback in shaping positioning and onboarding.\",\n      \"source_ids\": [\n        \"S2\",\n        \"S3\"\n      ]\n    },\n    {\n      \"heading\": \"Mechanism\",\n      \"purpose\": \"Outline how customer feedback can be used to improve positioning and onboarding.\",\n      \"source_ids\": [\n        \"S5\"\n      ]\n    },\n    {\n      \"heading\": \"Source-Backed Case\",\n      \"purpose\": \"Provide a case study from Sean Ellis' experience.\",\n      \"source_ids\": [\n        \"S1\",\n        \"S4\"\n      ]\n    },\n    {\n      \"heading\": \"Limitations\",\n      \"purpose\": \"Highlight the limitations of using customer feedback as a guide.\",\n      \"source_ids\": [\n        \"S5\"\n      ]\n    },\n    {\n      \"heading\": \"Actionable Takeaway\",\n      \"purpose\": \"Summarize the key takeaways from the evidence.\",\n      \"source_ids\": [\n        \"S6\"\n      ]\n    }\n  ]\n}",
+          "model_text": {
+            "omitted_string_sha256": "b4bd71d09499a3915c1a7c94f2af790ab757f70834d0a24205a4f3d4197e5fa0",
+            "characters": 1244
+          },
           "tool_trace": [
             {
               "args": {
-                "query": "current"
+                "query": {
+                  "omitted_string_sha256": "97b0560280ed60a5a1eaa1bc45492543c8a986ad5a25b468c427eb83c3e88191",
+                  "characters": 7
+                }
               },
               "tool": "search_transcripts",
               "result": {
                 "mode": "hybrid",
                 "source_ids": [
-                  "S1",
-                  "S2",
-                  "S3",
-                  "S4",
-                  "S5",
-                  "S6"
+                  {
+                    "omitted_string_sha256": "3696ad59777e09d5f2daacb544022d435e7cd053d87c5781241fabd8fdf2a90d",
+                    "characters": 2
+                  },
+                  {
+                    "omitted_string_sha256": "adfa2b24c2d924fe6383d8804be55afb98ea3eb0e14c3470ac3a0f651b9a422e",
+                    "characters": 2
+                  },
+                  {
+                    "omitted_string_sha256": "44d6a8a73eddb284d49799fdbfa2919a004ece6d2df3546eaa4e246048bcdf81",
+                    "characters": 2
+                  },
+                  {
+                    "omitted_string_sha256": "b1d3eb8f32936fa9cf89d2240bd10734270fd55ff4644ad254b3b237468bad88",
+                    "characters": 2
+                  },
+                  {
+                    "omitted_string_sha256": "1cdcbd57e7e20491d8be5ff46549aac5f9c117320a164a49ebc4f1439a741d76",
+                    "characters": 2
+                  },
+                  {
+                    "omitted_string_sha256": "b12f76a4b782e4ae7f035b86a07cb43e638af9157e855af49c3945971d2af402",
+                    "characters": 2
+                  }
                 ]
               }
             }
           ],
-          "stop_reason": "stop",
+          "stop_reason": {
+            "omitted_string_sha256": "6c45cb72a36e63d522aa54ed8adbd7a29a989474f2f77e0458af8800564ef3cb",
+            "characters": 4
+          },
           "tool_called": true,
           "bridge_closed": true,
           "pi_session_id": "01a1b092-7b68-720f-bd22-e26fd3f826bc",
           "process_reaped": true,
           "duration_seconds": 19.23080109199873,
-          "evidence_boundary": "pi_controlled_hybrid_retrieval",
+          "evidence_boundary": {
+            "omitted_string_sha256": "6b422e726668ecd0759dcd75bf5f21bb548ab6a068adcb6381b04dce202c1eed",
+            "characters": 30
+          },
           "initial_message_count": 0,
           "text_tool_call_normalized": false
         },
         {
           "model": "qwen3:0.6b",
-          "stage": "section-1",
+          "stage": {
+            "omitted_string_sha256": "69dfcfb9aa5b0961d4d56e59602b9bc468eb1c55e49be0d0ff9404f76b842077",
+            "characters": 9
+          },
           "provider": "ollama-local",
           "model_text": null,
           "tool_called": false,
           "bridge_closed": true,
           "process_reaped": true,
           "duration_seconds": 1.1004722920006316,
-          "evidence_boundary": "pinned_snapshot_in_context",
+          "evidence_boundary": {
+            "omitted_string_sha256": "297b642d665dc2d55a282922ed768228b293cef9a5b2dac2521c64c5a4557ad3",
+            "characters": 26
+          },
           "initial_message_count": 0,
           "text_tool_call_normalized": false
         }
@@ -157,7 +283,10 @@
       "retrievals": [
         {
           "mode": "hybrid",
-          "query": "Sean Ellis must-have product market fit survey how would you feel no longer use very disappointed",
+          "query": {
+            "omitted_string_sha256": "267ff364cc8f11f3606199071bf17983e999623384a27706b0860ec43377eac3",
+            "characters": 97
+          },
           "corpus": {
             "partial": true,
             "discovered": 303,
@@ -170,15 +299,30 @@
             "embedding": 666.7146669969952
           },
           "passage_ids": [
-            "bdd3d954-095e-5f5a-8be1-5f38377168ff",
-            "9d370308-1dd5-5657-bdf5-f159a62ce159",
-            "c0aa1ec1-9da2-5bc9-a1ed-550df1f12411",
-            "a0a289c1-f980-5077-b231-7891350a5e40"
+            {
+              "omitted_string_sha256": "00b21045b689e552ad88b799bd479b7517666a43cc8b938cf23a1505b20c9ab6",
+              "characters": 36
+            },
+            {
+              "omitted_string_sha256": "bd263741b13cc3f26c5946f9ab5cd143c2baa53aadb4be5b3d2e5fed2f0c6c24",
+              "characters": 36
+            },
+            {
+              "omitted_string_sha256": "69c74781e1c3199663e73649e1f104315a63a10555ea9265984918c29f9a16d6",
+              "characters": 36
+            },
+            {
+              "omitted_string_sha256": "c5f689ecf38059c008ee4b874e9de18a4137e52dae060be6de9a411f2a48dc61",
+              "characters": 36
+            }
           ]
         },
         {
           "mode": "hybrid",
-          "query": "Sean Ellis Lookout antivirus positioning onboarding first value",
+          "query": {
+            "omitted_string_sha256": "0d593b4a3b504b12cbf5b1c0bc4eab27a55e80103424daf753242b3fe004dcf6",
+            "characters": 63
+          },
           "corpus": {
             "partial": true,
             "discovered": 303,
@@ -191,15 +335,30 @@
             "embedding": 91.27387499756878
           },
           "passage_ids": [
-            "53054eb0-beee-5be4-b2f1-99ca9b2eac2d",
-            "fecfa828-2e7a-51f2-ba0a-6bf77a2fb759",
-            "40c4e9ae-ce0c-5575-817c-b00c6c5d8334",
-            "38b28fa6-86ff-59ba-8019-ff4db2c27656"
+            {
+              "omitted_string_sha256": "be7d36a2aee88a4170a02968b73d12a1366aa969f197020bbc8a2fdb6cd334cc",
+              "characters": 36
+            },
+            {
+              "omitted_string_sha256": "84b8762c56a4ca51b38762d2324aa857c657c9798b06e933eda3a4b6df42dd48",
+              "characters": 36
+            },
+            {
+              "omitted_string_sha256": "5b4aa7808729f57ea7f0b12e98d29b3b09e01b6e62f471eb44beecebe10a68b5",
+              "characters": 36
+            },
+            {
+              "omitted_string_sha256": "b7447ec9d0e0afe11472dc2073d7e349530ecc352352fb40125f92369b118163",
+              "characters": 36
+            }
           ]
         },
         {
           "mode": "hybrid",
-          "query": "Sean Ellis survey customer segments benefits product market fit focus",
+          "query": {
+            "omitted_string_sha256": "75e05efbeaebfa76d54156958e511e874892f3205e125dc6c72f55a77dbca718",
+            "characters": 69
+          },
           "corpus": {
             "partial": true,
             "discovered": 303,
@@ -212,10 +371,22 @@
             "embedding": 64.17529199825367
           },
           "passage_ids": [
-            "f5f40dd8-e8fb-5e74-9834-e45e31331549",
-            "ac3b448b-888b-5a93-b57a-87115b25c5c1",
-            "2d70a732-94f8-5cd8-9f59-0019c1fd9b21",
-            "53790a32-eb36-5aba-9361-b27f10d367cf"
+            {
+              "omitted_string_sha256": "b208607f2757db48e8b5185af86baba98a4265e4d76558a1ac1f04ff9af8cfb9",
+              "characters": 36
+            },
+            {
+              "omitted_string_sha256": "ed2e77060e92416c34fe05ae63bbf3413bf0d8e913b92d3b46df43121b326b40",
+              "characters": 36
+            },
+            {
+              "omitted_string_sha256": "c8d2b19f46550a8b7408e546d276e8b1f87864fd633fb10c608ce82dcdab8582",
+              "characters": 36
+            },
+            {
+              "omitted_string_sha256": "5416a3b3fcd8a1b53063bc63771f830ac0ea532f6ab06030ffdec4dbfe893f0d",
+              "characters": 36
+            }
           ]
         }
       ],
@@ -223,24 +394,63 @@
       "retrieval_mode": "hybrid",
       "elapsed_seconds": 20.39999963399896,
       "source_passage_ids": {
-        "S1": "bdd3d954-095e-5f5a-8be1-5f38377168ff",
-        "S2": "53054eb0-beee-5be4-b2f1-99ca9b2eac2d",
-        "S3": "f5f40dd8-e8fb-5e74-9834-e45e31331549",
-        "S4": "9d370308-1dd5-5657-bdf5-f159a62ce159",
-        "S5": "fecfa828-2e7a-51f2-ba0a-6bf77a2fb759",
-        "S6": "ac3b448b-888b-5a93-b57a-87115b25c5c1"
+        "S1": {
+          "omitted_string_sha256": "00b21045b689e552ad88b799bd479b7517666a43cc8b938cf23a1505b20c9ab6",
+          "characters": 36
+        },
+        "S2": {
+          "omitted_string_sha256": "be7d36a2aee88a4170a02968b73d12a1366aa969f197020bbc8a2fdb6cd334cc",
+          "characters": 36
+        },
+        "S3": {
+          "omitted_string_sha256": "b208607f2757db48e8b5185af86baba98a4265e4d76558a1ac1f04ff9af8cfb9",
+          "characters": 36
+        },
+        "S4": {
+          "omitted_string_sha256": "bd263741b13cc3f26c5946f9ab5cd143c2baa53aadb4be5b3d2e5fed2f0c6c24",
+          "characters": 36
+        },
+        "S5": {
+          "omitted_string_sha256": "84b8762c56a4ca51b38762d2324aa857c657c9798b06e933eda3a4b6df42dd48",
+          "characters": 36
+        },
+        "S6": {
+          "omitted_string_sha256": "ed2e77060e92416c34fe05ae63bbf3413bf0d8e913b92d3b46df43121b326b40",
+          "characters": 36
+        }
       }
     },
     "error_code": "rpc_rejected"
   },
   "source_passage_ids": {
-    "S1": "bdd3d954-095e-5f5a-8be1-5f38377168ff",
-    "S2": "53054eb0-beee-5be4-b2f1-99ca9b2eac2d",
-    "S3": "f5f40dd8-e8fb-5e74-9834-e45e31331549",
-    "S4": "9d370308-1dd5-5657-bdf5-f159a62ce159",
-    "S5": "fecfa828-2e7a-51f2-ba0a-6bf77a2fb759",
-    "S6": "ac3b448b-888b-5a93-b57a-87115b25c5c1"
+    "S1": {
+      "omitted_string_sha256": "00b21045b689e552ad88b799bd479b7517666a43cc8b938cf23a1505b20c9ab6",
+      "characters": 36
+    },
+    "S2": {
+      "omitted_string_sha256": "be7d36a2aee88a4170a02968b73d12a1366aa969f197020bbc8a2fdb6cd334cc",
+      "characters": 36
+    },
+    "S3": {
+      "omitted_string_sha256": "b208607f2757db48e8b5185af86baba98a4265e4d76558a1ac1f04ff9af8cfb9",
+      "characters": 36
+    },
+    "S4": {
+      "omitted_string_sha256": "bd263741b13cc3f26c5946f9ab5cd143c2baa53aadb4be5b3d2e5fed2f0c6c24",
+      "characters": 36
+    },
+    "S5": {
+      "omitted_string_sha256": "84b8762c56a4ca51b38762d2324aa857c657c9798b06e933eda3a4b6df42dd48",
+      "characters": 36
+    },
+    "S6": {
+      "omitted_string_sha256": "ed2e77060e92416c34fe05ae63bbf3413bf0d8e913b92d3b46df43121b326b40",
+      "characters": 36
+    }
   },
-  "manual_review": "pending; deterministic success is not factual/narrative quality",
+  "manual_review": {
+    "omitted_string_sha256": "4c5009d6da0ffdb39b595e36d5626083fad0d28ab0bf7a565c1da98ad97ac3b7",
+    "characters": 63
+  },
   "essay_gate": "failed"
 }

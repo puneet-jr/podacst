@@ -1,11 +1,23 @@
 {
-  "reviewed_at": "2026-11-07T03:35:39.622938+00:00",
+  "reviewed_at": {
+    "omitted_string_sha256": "b7801ad6fb3427cf499f9edc4f672fde7de3c4e94aab115248caf99c5e1c8fd7",
+    "characters": 32
+  },
   "scope": "staged Git blobs",
   "file_count": 37,
   "findings": [],
   "configured_values_checked_without_disclosure": 1,
   "passed": true,
-  "limits": "Exact configured-secret and common credential pattern checks plus path/content review; not a claim that pattern matching establishes universal security.",
-  "scope_note": "Review of 37 candidate staged blobs before adding this audit summary; final full staged scan retained privately.",
-  "intentional_remote_limitation": "Phase6/7 runtime prerequisites remain local by explicit user instruction. Remote snapshot is incomplete."
+  "limits": {
+    "omitted_string_sha256": "4ad6d0ce08b6fbe86134c4b0daa32684090b9dfe0c49a9c33e2e9a2e961bcd2c",
+    "characters": 152
+  },
+  "scope_note": {
+    "omitted_string_sha256": "e65eee673ab6f00103ef6760d2ff463608bdcaa59026ff220cfcd38658f28b1b",
+    "characters": 112
+  },
+  "intentional_remote_limitation": {
+    "omitted_string_sha256": "cfffc0650f6f92e7d24d321db804df01de02667432522abffa8044afd9701b43",
+    "characters": 104
+  }
 }

@@ -5,45 +5,126 @@
   "database_writes": 0,
   "browser": "157.0.8103.38",
   "checks": [
-    "new session -> question -> source; focus moves and restores",
-    "follow-up displays distinct source",
-    "unsaved review edits protect navigation and can be explicitly discarded",
-    "essay draft -> explicit review gate -> accepted reply",
-    "artifact save failure/retry -> both formats rendered",
-    "saved session/essay/artifact reopen after page reload",
-    "long artifact scrolls within isolated preview",
-    "sampled rendered text/control/label contrast >=4.5:1",
-    "session isolation and unsent-input preservation",
-    "late source response does not cross sessions",
-    "timeout preserves input; retry reuses saved question identity",
-    "missing-model state and recovery retain input",
-    "empty/unsupported evidence has no invented source buttons",
-    "pre-start cancel keeps input; no model lifecycle claim from mocked API",
-    "mobile panel navigation, arrow/Home keys, source focus/return, no horizontal overflow",
-    "820px and1024px layout containment"
+    {
+      "omitted_string_sha256": "2a0f6532d487700d6056cbe225897447cc8a811c44253570509cdee420aa46c0",
+      "characters": 59
+    },
+    {
+      "omitted_string_sha256": "8acef0fd92f8aed0557b9df4ce88216da57ce855edec5648e7b73634ae4d4ba4",
+      "characters": 34
+    },
+    {
+      "omitted_string_sha256": "978ecae7236f7b0dc4a9e81420b0c215eaa109b57925c643497b28664b080772",
+      "characters": 71
+    },
+    {
+      "omitted_string_sha256": "6dd24439027ccef8cec0eb904d47d03d761ad467dae40d332b4a64f19dbb9085",
+      "characters": 53
+    },
+    {
+      "omitted_string_sha256": "9740d0d7b379c989ac8da07eea414a54a3be560b611e2cabebe46067e69273e9",
+      "characters": 52
+    },
+    {
+      "omitted_string_sha256": "a6f132f947b51fd27c80124f95b5cb3d1df850c29e7245222815ab010724d8f2",
+      "characters": 53
+    },
+    {
+      "omitted_string_sha256": "c5540f04d37eeff158d419b2533895fe4e9f18a88a242cb7a8f2cf066672695a",
+      "characters": 45
+    },
+    {
+      "omitted_string_sha256": "14c40877a2a849d407f727a8834693fccd91d393bb5c001116f3328c46e1022b",
+      "characters": 52
+    },
+    {
+      "omitted_string_sha256": "7a9d9d57c8e3ceadde2fa90e9cb12341f3bfc12d4034f02bf7a2238363e105f9",
+      "characters": 47
+    },
+    {
+      "omitted_string_sha256": "f4517749369058f1980497b79779af7cfeb2b532acf63acb761fc80195eaaccf",
+      "characters": 44
+    },
+    {
+      "omitted_string_sha256": "470970e434dcce05b3032461ff1396a9da086a43fc6979c2beb14c7f12385a28",
+      "characters": 61
+    },
+    {
+      "omitted_string_sha256": "06447cb7d974fc633575cc6f18c74a91ce29db23f4dfc297df3e3ba0c2082e22",
+      "characters": 45
+    },
+    {
+      "omitted_string_sha256": "b21ee43e40fecb4fa5a27fde5417bf1c2a680eabcc2b8bc3d50068bda389927c",
+      "characters": 57
+    },
+    {
+      "omitted_string_sha256": "31566aeabef8970be63865e70df78ba391232ab600d8b4f93a6d3fcfbfac4898",
+      "characters": 70
+    },
+    {
+      "omitted_string_sha256": "9949e67e32bd170e6d2553deb385c712327b1d482acbaf33fee8d36caa3110bd",
+      "characters": 85
+    },
+    {
+      "omitted_string_sha256": "08ad6a22c32400c8b60b92891e5eeaaa0233378b142d09b4caa6818037b1d8c7",
+      "characters": 34
+    }
   ],
   "contrast_samples": [
     {
-      "selector": ".message.assistant .message-text p",
-      "fg": "rgb(37, 55, 47)",
-      "bg": "rgb(255, 253, 248)",
+      "selector": {
+        "omitted_string_sha256": "4da2e8fe42d0cc997dafa3086fc3632b84aabe9254451f7ff78c73d030e6a209",
+        "characters": 34
+      },
+      "fg": {
+        "omitted_string_sha256": "3623406c269745ade8bc2b9d7373ad5a3543cfdf849724af010b62893fa64c20",
+        "characters": 15
+      },
+      "bg": {
+        "omitted_string_sha256": "575f1b9a47c8a66b4f774ad4510d1200f5f3622377e1f52800d63c1985cbad9b",
+        "characters": 18
+      },
       "contrast": 12.4
     },
     {
-      "selector": "button:not(:disabled):not(.secondary):not(.session):not(.inline-citation)",
-      "fg": "rgb(255, 255, 255)",
-      "bg": "rgb(40, 83, 67)",
+      "selector": {
+        "omitted_string_sha256": "b8df63494ee386d531bf084cabc07d7ed4c9b9cbd45c3d2c4e95179be2217a35",
+        "characters": 73
+      },
+      "fg": {
+        "omitted_string_sha256": "30191d3a959c3c1b379688fb3098c69abeef60961bbd4e9eb21ee94d5a4fc137",
+        "characters": 18
+      },
+      "bg": {
+        "omitted_string_sha256": "e8475aa662ccafb55894307cd0a5324587d0d669869924ee6d84f8019855f366",
+        "characters": 15
+      },
       "contrast": 8.72
     },
     {
-      "selector": ".section-label",
-      "fg": "rgb(89, 107, 95)",
-      "bg": "rgb(238, 240, 230)",
+      "selector": {
+        "omitted_string_sha256": "270c1438280e0f45f01826c96119c7fd9a229edd1adbb8d434bc9fd1c8b25941",
+        "characters": 14
+      },
+      "fg": {
+        "omitted_string_sha256": "f7ae0aed8bbe3b671d8d37741d0dc34229bf9bd295a5972e4dcc8cb4f9917c4f",
+        "characters": 16
+      },
+      "bg": {
+        "omitted_string_sha256": "ab331030419297505689273bd07c452cc740d5c4a7ca0af7e1e897c94352af8b",
+        "characters": 18
+      },
       "contrast": 4.94
     }
   ],
   "page_errors": [],
   "attack_requests": [],
-  "screenshots": "private .cache/phase8-browser",
-  "limits": "Deterministic browser API interception; not local generation, persistence or factual-support evidence."
+  "screenshots": {
+    "omitted_string_sha256": "2704d7bc76d81b1863fa24710048a21a926e340b1a40aac9981c8cdb7510d054",
+    "characters": 29
+  },
+  "limits": {
+    "omitted_string_sha256": "817266d658220f0b47af4264918d87b3ce3b35be17c4b9a80f437ce350bc1f04",
+    "characters": 102
+  }
 }

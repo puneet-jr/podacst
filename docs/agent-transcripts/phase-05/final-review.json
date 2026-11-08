@@ -21,10 +21,22 @@
     "web_health_and_assets_served": true
   },
   "passed_evidence_audit": true,
-  "local_api_gate": "passed_for_demonstrated_bounded_extractive_workflow",
-  "browser_gate": "blocked_before_connection",
-  "general_answer_quality": "not_passed; independent answer incomplete and model private-data abstention failed",
-  "prompt_06": "not_started; explicit user go-ahead required",
+  "local_api_gate": {
+    "omitted_string_sha256": "480525ebdb1e0247ad13b0cae2dd427d33df602ee349f4df8ba29271c7264355",
+    "characters": 51
+  },
+  "browser_gate": {
+    "omitted_string_sha256": "f9a1bda6679ea8ed8655a7197324978e5229782b7915f32747cfad6b45c7d6e6",
+    "characters": 25
+  },
+  "general_answer_quality": {
+    "omitted_string_sha256": "4c7eca2704008a3b78a3e98bc0ea296a6238ae767b1baf033a16fe90885e7407",
+    "characters": 82
+  },
+  "prompt_06": {
+    "omitted_string_sha256": "e7facbf853ccd2ab3b47d81e91332ad1252b2ca6b5dcf67f342a7402f7e2766e",
+    "characters": 44
+  },
   "fresh_protocols": [
     {
       "run_id": "9907cfa8-5a22-4782-ad9a-dc4819e3552a",
@@ -36,7 +48,10 @@
       "provider_requests": 2,
       "active_tools": [
         [
-          "search_transcripts"
+          {
+            "omitted_string_sha256": "e115aca1c8dfb2f8efab7d54e61705d0a02cd86cd3d2ca1361f1c0c8a9c39303",
+            "characters": 18
+          }
         ]
       ],
       "normalized_requests": 1,
@@ -52,7 +67,10 @@
       "provider_requests": 2,
       "active_tools": [
         [
-          "search_transcripts"
+          {
+            "omitted_string_sha256": "e115aca1c8dfb2f8efab7d54e61705d0a02cd86cd3d2ca1361f1c0c8a9c39303",
+            "characters": 18
+          }
         ]
       ],
       "normalized_requests": 0,
@@ -68,7 +86,10 @@
       "provider_requests": 2,
       "active_tools": [
         [
-          "search_transcripts"
+          {
+            "omitted_string_sha256": "e115aca1c8dfb2f8efab7d54e61705d0a02cd86cd3d2ca1361f1c0c8a9c39303",
+            "characters": 18
+          }
         ]
       ],
       "normalized_requests": 1,
@@ -84,7 +105,10 @@
       "provider_requests": 2,
       "active_tools": [
         [
-          "search_transcripts"
+          {
+            "omitted_string_sha256": "e115aca1c8dfb2f8efab7d54e61705d0a02cd86cd3d2ca1361f1c0c8a9c39303",
+            "characters": 18
+          }
         ]
       ],
       "normalized_requests": 1,
@@ -107,10 +131,19 @@
   },
   "served_assets": [
     {
-      "path": "/assets/index-B-ljrhWf.js",
+      "path": {
+        "omitted_string_sha256": "89de419ca96f69f6bce8cdbc21291da73bfbc42ff3803e223dd44ab5c04b7b78",
+        "characters": 25
+      },
       "status": 200
     }
   ],
-  "resumed_verification": "No model/test rerun needed: original final suite and live command completed exit0. Only read-only audits/source opening and documentation completed.",
-  "limits": "This audit cannot establish browser behavior, comprehensive security, semantic adequacy for arbitrary requests or complete coding-conversation export."
+  "resumed_verification": {
+    "omitted_string_sha256": "34fdd946da07c0010b9113bda7c850c65572d4632d0b3457f56f899548e22163",
+    "characters": 148
+  },
+  "limits": {
+    "omitted_string_sha256": "e055f0b3b4297629ca2908e188999e4e98c6611ee39699ae9c429a670336650b",
+    "characters": 150
+  }
 }

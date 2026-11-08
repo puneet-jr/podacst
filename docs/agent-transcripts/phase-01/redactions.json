@@ -1,8 +1,17 @@
 {
-  "performed_at": "2026-11-06T04:26:14.826116+00:00",
-  "change": "Home-directory path strings replaced with $USER_HOME; no model/tool/failure content changed. Fixture PRIVATE-* markers are deliberately synthetic isolation inputs.",
+  "performed_at": {
+    "omitted_string_sha256": "da3c610102e4d441b5bbfda09e440f17aeca3a773b26064acde9f902505e104c",
+    "characters": 32
+  },
+  "change": {
+    "omitted_string_sha256": "5d3dfe347eda2d7974ea9cb07afa48a663e38fc393559e3fa94dbfb28c75efc8",
+    "characters": 163
+  },
   "files": [
-    "commands.jsonl"
+    {
+      "omitted_string_sha256": "37c2120bfaba27a0bdced1bce4c0cbb1578de7b564bb7a4b6dc2fdf3e15426c0",
+      "characters": 14
+    }
   ],
   "complete_conversation_export": false
 }

@@ -1,0 +1,27 @@
+{
+  "provider": "ollama",
+  "chat_model": {
+    "omitted_string_sha256": "514cf42a1ceb1dee40909507b7b0f29ef9e471786ec0d58304e75ae68cf34c10",
+    "characters": 10
+  },
+  "essay_model": "qwen3:1.7b",
+  "actual_ui_verified": true,
+  "temporary_diagnostic_overlay_removed": true,
+  "requested_cap_patch_retained": true,
+  "ollama_extension_unchanged": true,
+  "no_extra_inference": true,
+  "trace_metadata_files_checked": 8,
+  "configured_key_found": false,
+  "adapter_sha256": {
+    "omitted_string_sha256": "2dfbf15b5dbe23a90d0485ac4ffceb8ae8ea5b5261ccc4cb0c4f77f5b594086e",
+    "characters": 64
+  },
+  "provider_policy_sha256": {
+    "omitted_string_sha256": "ef970da15ca9aef254164a3936726f269dfbd444b6583cfc99dc91a347f468da",
+    "characters": 64
+  },
+  "ollama_extension_sha256": {
+    "omitted_string_sha256": "1bef6c234f08561389760bdc91489db0534030f778cfcbe13618d6cf1d72cab1",
+    "characters": 64
+  }
+}

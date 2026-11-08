@@ -1,0 +1,16 @@
+{
+  "candidate": "f89807d8db16c20e652590a6470810e5eb60b078",
+  "api_web_restart": true,
+  "question_followup_messages_unchanged": 4,
+  "live_citation_snapshots_unchanged": 2,
+  "reviewed_artifact_content_hashes_unchanged": true,
+  "reviewed_artifacts": 2,
+  "manual_edits": 9,
+  "api_provider_model": {
+    "selected": "ollama",
+    "model": "qwen3:0.6b"
+  },
+  "browser_provider_model_disclosure": true,
+  "markdown_html_open_after_restart": true,
+  "new_inference_requests": 0
+}

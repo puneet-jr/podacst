@@ -1,0 +1,134 @@
+{
+  "command_exit_code": 0,
+  "captured_at": "2026-11-07T09:07:17.985079+00:00",
+  "provider": "openrouter",
+  "pi_provider": {
+    "omitted_string_sha256": "7f871cbf905f6e0cd598b11609f33f609e60a61892ac6b37e80cf1de282ee367",
+    "characters": 10
+  },
+  "model": "google/gemini-2.5-flash-lite",
+  "endpoint": {
+    "omitted_string_sha256": "76ef4ad6f0c8a4ae66efb13875c107cee40c78997a212353d379acfbb2f45591",
+    "characters": 28
+  },
+  "inference_mocked": false,
+  "cloud_validation": {
+    "omitted_string_sha256": "40502bf2f7bfc99e46409d0af19e41c7053004193be7268f681ea3c5a2adacb2",
+    "characters": 34
+  },
+  "automatic_fallback": false,
+  "public_source_path": {
+    "omitted_string_sha256": "ad9fd290e6d14d705fd856dbe2b6d33a67be53db50312b5a0ccfbd7f15aa02f8",
+    "characters": 33
+  },
+  "public_source_sha256": {
+    "omitted_string_sha256": "98472e84eb87db92e48bfbd24d1e3ad5896e23bb4b611cb8c02b9bae63d40907",
+    "characters": 64
+  },
+  "all_active_source_spans_verified_public": true,
+  "prior_history_sent": false,
+  "session_id": "157d4419-4739-44b3-9988-d69642468bae",
+  "http": 200,
+  "request_id": {
+    "omitted_string_sha256": "21413caa835fa384742e794a0ac0c81099a4e799ec79e27e0ac2e2d71871c035",
+    "characters": 32
+  },
+  "elapsed_seconds": 6.512845794000896,
+  "private_evidence_directory": {
+    "omitted_string_sha256": "5c906c5ea3e2718350d5e8d91dba315e6096b36774fad1530e41f8f3acbe9ccd",
+    "characters": 60
+  },
+  "events": [
+    {
+      "omitted_string_sha256": "03494afd4248c42f5fa1237bf2eeebe751ab8d9c977d55405fcb17469dbd91f8",
+      "characters": 7
+    },
+    {
+      "omitted_string_sha256": "23572fdd1589c64c12b0d4365e61a1cb6c20355e1745dbd440702a83c07ba357",
+      "characters": 10
+    },
+    {
+      "omitted_string_sha256": "99876ff60e853fde670c56cee15b2ca233cc5967f9526d9c91358259292508f5",
+      "characters": 14
+    },
+    {
+      "omitted_string_sha256": "941ee53e40d97e41838c835556734d7da1876f9f02842848af0cd39245e8da3f",
+      "characters": 10
+    },
+    "completed"
+  ],
+  "run_id": "5c0f723b-4a11-4ef3-bbb7-0fceb24783f5",
+  "status": "completed",
+  "error_code": null,
+  "recorded_provider": {
+    "omitted_string_sha256": "7f871cbf905f6e0cd598b11609f33f609e60a61892ac6b37e80cf1de282ee367",
+    "characters": 10
+  },
+  "recorded_model": {
+    "omitted_string_sha256": "aa393677798a6e7974acacc756412b723245d9d99cddf89d89e2dbf8dacce22c",
+    "characters": 28
+  },
+  "usage": {
+    "input": 1486,
+    "output": 10,
+    "cacheRead": 0,
+    "reasoning": 2,
+    "cacheWrite": 0,
+    "totalTokens": 1496
+  },
+  "process_reaped": true,
+  "bridge_closed": true,
+  "text_tool_call_normalized": false,
+  "tool_trace": [
+    {
+      "tool": "search_transcripts",
+      "args": {
+        "query": {
+          "omitted_string_sha256": "97b0560280ed60a5a1eaa1bc45492543c8a986ad5a25b468c427eb83c3e88191",
+          "characters": 7
+        }
+      },
+      "evidence_id_count": 10
+    }
+  ],
+  "answer_sha256": {
+    "omitted_string_sha256": "51c609e116fabe9d6f40b938b7122ebf3d9fd42db27373154ee173b8c2fd4362",
+    "characters": 64
+  },
+  "citations": [
+    {
+      "label": "S1",
+      "chunk_id": "c0aa1ec1-9da2-5bc9-a1ed-550df1f12411",
+      "exact_spans": true,
+      "source_sha256": {
+        "omitted_string_sha256": "33772f8d66a8f6fb0f71d99bc609030c4701cbd22bbb2335cdf61d33ab2dbd53",
+        "characters": 64
+      }
+    }
+  ],
+  "technical_run_succeeded": true,
+  "scope": "Real FastAPI ASGI request, PostgreSQL, Pi subprocess, live OpenRouter inference and local hybrid retrieval. No browser claim.",
+  "live_cited_answer_verified": true,
+  "manual_source_review": {
+    "reviewer": {
+      "omitted_string_sha256": "14bf5c3d76bb175cbfa8eb6bec2b0337685bb433683ac857356f96722d1b9d49",
+      "characters": 68
+    },
+    "citation": {
+      "omitted_string_sha256": "3696ad59777e09d5f2daacb544022d435e7cd053d87c5781241fabd8fdf2a90d",
+      "characters": 2
+    },
+    "chunk_id": "c0aa1ec1-9da2-5bc9-a1ed-550df1f12411",
+    "source_endpoint_http": 200,
+    "exact_original_span": true,
+    "supports_answer": true,
+    "claim": {
+      "omitted_string_sha256": "ffa9c01d135c83dc8d23309f8c200bea5286b29dc1bc84feae7ccee97c161760",
+      "characters": 90
+    },
+    "scope": "Extractive public-source answer only; no autonomous essay or general reliability claim."
+  },
+  "corrective_reruns": 1,
+  "provider_or_model_changed": false,
+  "original_upstream_error_message_retained": false
+}

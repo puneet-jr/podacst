@@ -1,0 +1,63 @@
+{
+  "captured_at": "2026-11-06T15:49:15.555070+00:00",
+  "installed_models": [
+    {
+      "name": "qwen3:0.6b",
+      "digest": {
+        "omitted_string_sha256": "ed3a5c46e1b45471af93c8b06c693453a0015d46c5cad433d4b9c04df86161ec",
+        "characters": 64
+      },
+      "size": 522653767
+    },
+    {
+      "name": "nomic-embed-text:latest",
+      "digest": {
+        "omitted_string_sha256": "d686ef27471bc55fec611d1a4790e465145fee90e45ff85c9fb498225307fbdb",
+        "characters": 64
+      },
+      "size": 274302450
+    }
+  ],
+  "qwen17_installed": false,
+  "chat_provider_after": {
+    "selected": "ollama",
+    "model": "qwen3:0.6b",
+    "automatic_fallback": false,
+    "providers": [
+      {
+        "id": "ollama",
+        "implemented": true,
+        "configured": true,
+        "scope": "retrieval-first extractive conversation; hybrid; no autonomous/essay quality claim"
+      },
+      {
+        "id": "anthropic",
+        "implemented": false,
+        "credentials_present": false,
+        "enabled": false,
+        "reason": {
+          "omitted_string_sha256": "0887bc1d08fef250e07e225c2fbc3c117dd84a3243b19463b209d574f8bad133",
+          "characters": 62
+        }
+      }
+    ]
+  },
+  "baseline_files_unchanged": true,
+  "section_inference_requests": 0,
+  "full_essay_runs": 0,
+  "comparison_runner_was_executed": false,
+  "partial_weight": {
+    "logical_bytes": 1359279776,
+    "allocated_bytes": 571424768
+  },
+  "host_swap": {
+    "omitted_string_sha256": "78fb1b57f0eab8de83d03a255b98d3bc8f33c0307423399ea5ae63b20ecd15c1",
+    "characters": 78
+  },
+  "disk_free_bytes": 109201502208,
+  "verdict": {
+    "omitted_string_sha256": "7078dfeafbd319a76e2f548ed2ef186e8b570a81b5f61ffa566cc587900f23c8",
+    "characters": 51
+  },
+  "phase7_started": false
+}

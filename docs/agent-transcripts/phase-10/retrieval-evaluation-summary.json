@@ -1,0 +1,266 @@
+{
+  "unsupported": {
+    "started_at": "2026-11-07T14:06:40.902625+00:00",
+    "completed_at": "2026-11-07T14:06:51.071144+00:00",
+    "duration_seconds": 10.168575629999395,
+    "case_file_sha256": {
+      "omitted_string_sha256": "132af84752c9de25deede3645cfa8e7a945c008fb8a3b23da71c23beb546921a",
+      "characters": 64
+    },
+    "config_sha256": {
+      "omitted_string_sha256": "6cc862295a89d4fd530e374208961c091a477d5901301ff85efe65647afc8921",
+      "characters": 64
+    },
+    "corpus_revision": "be8ab89a890a833cbba2c892178f823fff178c65",
+    "embedding_digest": {
+      "omitted_string_sha256": "d686ef27471bc55fec611d1a4790e465145fee90e45ff85c9fb498225307fbdb",
+      "characters": 64
+    },
+    "summary": {
+      "sparse": {
+        "n": 4,
+        "mean_count": 5,
+        "min_count": 5,
+        "max_count": 5,
+        "latency_ms_median": 601.5406255028211,
+        "latency_ms_p95_nearest_rank": 873.6134999926435,
+        "latency_ms_max": 873.6134999926435
+      },
+      "dense": {
+        "n": 4,
+        "mean_count": 5,
+        "min_count": 5,
+        "max_count": 5,
+        "latency_ms_median": 578.6002920067403,
+        "latency_ms_p95_nearest_rank": 1180.7507920020726,
+        "latency_ms_max": 1180.7507920020726
+      },
+      "hybrid": {
+        "n": 4,
+        "mean_count": 5,
+        "min_count": 5,
+        "max_count": 5,
+        "latency_ms_median": 966.727187995275,
+        "latency_ms_p95_nearest_rank": 1841.818875996978,
+        "latency_ms_max": 1841.818875996978
+      }
+    },
+    "cases": 4,
+    "requests": 12,
+    "source_integrity_passed": true,
+    "actual_retrieval_coverage": {
+      "episodes": 303,
+      "passages": 12770
+    },
+    "judgment_scope": {
+      "omitted_string_sha256": "9ecbe560b37a687f36b519adad156c13be2c31b533f10e69c52d2516c1b3dc8c",
+      "characters": 100
+    },
+    "protocol_pass": true,
+    "recall_target_met": null
+  },
+  "tuning": {
+    "started_at": "2026-11-07T14:05:53.223978+00:00",
+    "completed_at": "2026-11-07T14:06:22.634889+00:00",
+    "duration_seconds": 29.42364047099545,
+    "case_file_sha256": {
+      "omitted_string_sha256": "132af84752c9de25deede3645cfa8e7a945c008fb8a3b23da71c23beb546921a",
+      "characters": 64
+    },
+    "config_sha256": {
+      "omitted_string_sha256": "6cc862295a89d4fd530e374208961c091a477d5901301ff85efe65647afc8921",
+      "characters": 64
+    },
+    "corpus_revision": "be8ab89a890a833cbba2c892178f823fff178c65",
+    "embedding_digest": {
+      "omitted_string_sha256": "d686ef27471bc55fec611d1a4790e465145fee90e45ff85c9fb498225307fbdb",
+      "characters": 64
+    },
+    "summary": {
+      "sparse": {
+        "n": 16,
+        "mean_count": 5,
+        "min_count": 5,
+        "max_count": 5,
+        "latency_ms_median": 307.79304199677426,
+        "latency_ms_p95_nearest_rank": 3095.2095429965993,
+        "latency_ms_max": 3095.2095429965993,
+        "recall_at_8": 0.53125,
+        "mrr_at_8": 0.38958333333333334,
+        "ndcg_at_8": 0.40736141005037496,
+        "anchor_recall_at_8": 0.53125,
+        "by_scope": {
+          "scoped": {
+            "n": 6,
+            "recall_at_8": 0.8333333333333334
+          },
+          "unscoped": {
+            "n": 10,
+            "recall_at_8": 0.35
+          }
+        }
+      },
+      "dense": {
+        "n": 16,
+        "mean_count": 5.125,
+        "min_count": 5,
+        "max_count": 6,
+        "latency_ms_median": 290.06010449666064,
+        "latency_ms_p95_nearest_rank": 1768.8322510075523,
+        "latency_ms_max": 1768.8322510075523,
+        "recall_at_8": 0.4375,
+        "mrr_at_8": 0.246875,
+        "ndcg_at_8": 0.2924301550909201,
+        "anchor_recall_at_8": 0.4375,
+        "by_scope": {
+          "scoped": {
+            "n": 6,
+            "recall_at_8": 0.6666666666666666
+          },
+          "unscoped": {
+            "n": 10,
+            "recall_at_8": 0.3
+          }
+        }
+      },
+      "hybrid": {
+        "n": 16,
+        "mean_count": 5.125,
+        "min_count": 5,
+        "max_count": 6,
+        "latency_ms_median": 707.2834169957787,
+        "latency_ms_p95_nearest_rank": 2352.012458999525,
+        "latency_ms_max": 2352.012458999525,
+        "recall_at_8": 0.5625,
+        "mrr_at_8": 0.31979166666666664,
+        "ndcg_at_8": 0.3799618045281781,
+        "anchor_recall_at_8": 0.5625,
+        "by_scope": {
+          "scoped": {
+            "n": 6,
+            "recall_at_8": 0.8333333333333334
+          },
+          "unscoped": {
+            "n": 10,
+            "recall_at_8": 0.4
+          }
+        }
+      }
+    },
+    "cases": 16,
+    "requests": 48,
+    "source_integrity_passed": true,
+    "actual_retrieval_coverage": {
+      "episodes": 303,
+      "passages": 12770
+    },
+    "judgment_scope": {
+      "omitted_string_sha256": "9ecbe560b37a687f36b519adad156c13be2c31b533f10e69c52d2516c1b3dc8c",
+      "characters": 100
+    },
+    "protocol_pass": true,
+    "recall_target_met": false
+  },
+  "held_out": {
+    "started_at": "2026-11-07T14:06:25.248050+00:00",
+    "completed_at": "2026-11-07T14:06:37.653845+00:00",
+    "duration_seconds": 12.386121171992272,
+    "case_file_sha256": {
+      "omitted_string_sha256": "132af84752c9de25deede3645cfa8e7a945c008fb8a3b23da71c23beb546921a",
+      "characters": 64
+    },
+    "config_sha256": {
+      "omitted_string_sha256": "6cc862295a89d4fd530e374208961c091a477d5901301ff85efe65647afc8921",
+      "characters": 64
+    },
+    "corpus_revision": "be8ab89a890a833cbba2c892178f823fff178c65",
+    "embedding_digest": {
+      "omitted_string_sha256": "d686ef27471bc55fec611d1a4790e465145fee90e45ff85c9fb498225307fbdb",
+      "characters": 64
+    },
+    "summary": {
+      "sparse": {
+        "n": 8,
+        "mean_count": 5.125,
+        "min_count": 5,
+        "max_count": 6,
+        "latency_ms_median": 233.8924789946759,
+        "latency_ms_p95_nearest_rank": 1179.9738749978133,
+        "latency_ms_max": 1179.9738749978133,
+        "recall_at_8": 0.625,
+        "mrr_at_8": 0.5625,
+        "ndcg_at_8": 0.5788662191964322,
+        "anchor_recall_at_8": 0.625,
+        "by_scope": {
+          "scoped": {
+            "n": 4,
+            "recall_at_8": 1.0
+          },
+          "unscoped": {
+            "n": 4,
+            "recall_at_8": 0.25
+          }
+        }
+      },
+      "dense": {
+        "n": 8,
+        "mean_count": 5,
+        "min_count": 5,
+        "max_count": 5,
+        "latency_ms_median": 230.50593749940163,
+        "latency_ms_p95_nearest_rank": 792.9095839936053,
+        "latency_ms_max": 792.9095839936053,
+        "recall_at_8": 0.6875,
+        "mrr_at_8": 0.65,
+        "ndcg_at_8": 0.625,
+        "anchor_recall_at_8": 0.6875,
+        "by_scope": {
+          "scoped": {
+            "n": 4,
+            "recall_at_8": 0.75
+          },
+          "unscoped": {
+            "n": 4,
+            "recall_at_8": 0.625
+          }
+        }
+      },
+      "hybrid": {
+        "n": 8,
+        "mean_count": 5.125,
+        "min_count": 5,
+        "max_count": 6,
+        "latency_ms_median": 529.9393755049095,
+        "latency_ms_p95_nearest_rank": 1575.8411260030698,
+        "latency_ms_max": 1575.8411260030698,
+        "recall_at_8": 0.8125,
+        "mrr_at_8": 0.65,
+        "ndcg_at_8": 0.6577324383928644,
+        "anchor_recall_at_8": 0.8125,
+        "by_scope": {
+          "scoped": {
+            "n": 4,
+            "recall_at_8": 1.0
+          },
+          "unscoped": {
+            "n": 4,
+            "recall_at_8": 0.625
+          }
+        }
+      }
+    },
+    "cases": 8,
+    "requests": 24,
+    "source_integrity_passed": true,
+    "actual_retrieval_coverage": {
+      "episodes": 303,
+      "passages": 12770
+    },
+    "judgment_scope": {
+      "omitted_string_sha256": "9ecbe560b37a687f36b519adad156c13be2c31b533f10e69c52d2516c1b3dc8c",
+      "characters": 100
+    },
+    "protocol_pass": true,
+    "recall_target_met": false
+  }
+}

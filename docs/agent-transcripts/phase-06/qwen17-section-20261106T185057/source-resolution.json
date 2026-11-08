@@ -1,0 +1,19 @@
+{
+  "captured_at": "2026-11-06T18:51:53.290486+00:00",
+  "new_probe_owned_sources": true,
+  "checks": [
+    {
+      "label": "S2",
+      "chunk_id": "53054eb0-beee-5be4-b2f1-99ca9b2eac2d",
+      "http_status": 200,
+      "matches_snapshot_hash": true
+    },
+    {
+      "label": "S3",
+      "chunk_id": "f5f40dd8-e8fb-5e74-9834-e45e31331549",
+      "http_status": 200,
+      "matches_snapshot_hash": true
+    }
+  ],
+  "full_passage_bodies_exported": false
+}

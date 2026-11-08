@@ -1,8 +1,17 @@
 {
-  "kind": "manual_review_notes_not_model_output",
-  "reviewed_at": "2026-11-06T05:46:42.401842+00:00",
+  "kind": {
+    "omitted_string_sha256": "c3f0d0b9430745db818a1e7b777f6cc7dfe958f9e7d1a74ddc83460bd6d8e9e0",
+    "characters": 36
+  },
+  "reviewed_at": {
+    "omitted_string_sha256": "8635667dfd2adc2d359c7c10a54e0655cbece75818ca3d8ee24c7b54611746ef",
+    "characters": 32
+  },
   "corpus_revision": "be8ab89a890a833cbba2c892178f823fff178c65",
-  "notes": "Manually read representative sponsor introductions; flags identify sponsorship without deleting the surrounding turn. Not a precision/recall evaluation.",
+  "notes": {
+    "omitted_string_sha256": "de6abab7fd1f702d2afa281e9294348a5b5f57a61bf0f6f3c6d305dec02fe2a0",
+    "characters": 152
+  },
   "samples": [
     {
       "source_path": "episodes/brian-balfour/transcript.md",
@@ -12,10 +21,19 @@
         "char_start": 4204,
         "char_end": 4884,
         "timestamp_seconds": 152,
-        "speaker": "Lenny Rachitsky",
-        "passage_sha256": "ca0cda0e5c149bfcc8a4ba51c4630b6ccc967806dbdbc191ae1910881c3b4f60"
+        "speaker": {
+          "omitted_string_sha256": "5672c1355cf49a3ebf09471ab0b3466057fa578eb0dde2dffb5ed7638f50daca",
+          "characters": 15
+        },
+        "passage_sha256": {
+          "omitted_string_sha256": "ea92ebb31f847f98da53ba9af160234cb31e4e584895bc845237ac26d2747ede",
+          "characters": 64
+        }
       },
-      "review": "Actual sponsor introduction; turn remains preserved. Phrase heuristic may include surrounding discussion."
+      "review": {
+        "omitted_string_sha256": "dcf7402769c7ee0be0292d731eb956239d23d411afc2050b5ad68cba7d8ff642",
+        "characters": 105
+      }
     },
     {
       "source_path": "episodes/sean-ellis/transcript.md",
@@ -25,10 +43,19 @@
         "char_start": 5790,
         "char_end": 6279,
         "timestamp_seconds": 248,
-        "speaker": "Lenny Rachitsky",
-        "passage_sha256": "184ff49737507f43df617a51b2d4fdd2747f0a1106020506379e276004727e3a"
+        "speaker": {
+          "omitted_string_sha256": "5672c1355cf49a3ebf09471ab0b3466057fa578eb0dde2dffb5ed7638f50daca",
+          "characters": 15
+        },
+        "passage_sha256": {
+          "omitted_string_sha256": "411a71f6194da70b632295c2218d9ecd6b0edac9fe2fb1ed74d987c2f257d6a9",
+          "characters": 64
+        }
       },
-      "review": "Actual sponsor introduction; turn remains preserved. Phrase heuristic may include surrounding discussion."
+      "review": {
+        "omitted_string_sha256": "dcf7402769c7ee0be0292d731eb956239d23d411afc2050b5ad68cba7d8ff642",
+        "characters": 105
+      }
     },
     {
       "source_path": "episodes/shreyas-doshi-live/transcript.md",
@@ -38,10 +65,19 @@
         "char_start": 3700,
         "char_end": 4240,
         "timestamp_seconds": 186,
-        "speaker": "Lenny Rachitsky",
-        "passage_sha256": "fc47ce26a2b8b140602bfd6b17b4a87983074a3c2425c51cb24fe41fbfc86ecb"
+        "speaker": {
+          "omitted_string_sha256": "5672c1355cf49a3ebf09471ab0b3466057fa578eb0dde2dffb5ed7638f50daca",
+          "characters": 15
+        },
+        "passage_sha256": {
+          "omitted_string_sha256": "f58be3312aab1e1266df63453a9a3f090fdb8e8bef80e8fb16211f9e3ac57dd2",
+          "characters": 64
+        }
       },
-      "review": "Actual sponsor introduction; turn remains preserved. Phrase heuristic may include surrounding discussion."
+      "review": {
+        "omitted_string_sha256": "dcf7402769c7ee0be0292d731eb956239d23d411afc2050b5ad68cba7d8ff642",
+        "characters": 105
+      }
     }
   ]
 }

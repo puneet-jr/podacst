@@ -1,0 +1,36 @@
+{
+  "at": {
+    "omitted_string_sha256": "bcc4bea90a9a32eacaca5ddedd8751b0d6a8fc139011d052d4286a6f00b1f334",
+    "characters": 32
+  },
+  "browser": "157.0.8103.38",
+  "checks": [
+    {
+      "omitted_string_sha256": "841494216894720da9455530eb9c0eabbd2c3ff71ee537cdf553f70bd5ac3496",
+      "characters": 122
+    },
+    {
+      "omitted_string_sha256": "b9e1f32689323716bb49872cbf29dcb9b51359ba0831eab184b37023c01d5bb2",
+      "characters": 152
+    },
+    {
+      "omitted_string_sha256": "b41332b4dd97291c0e83bc4786b39f7893eb0faf292bf34c19614c4e2f3e6da2",
+      "characters": 161
+    },
+    {
+      "omitted_string_sha256": "6505a4749e49ed260729480cb7fd6a4c42d371350011a21c65f35f17908558aa",
+      "characters": 198
+    },
+    {
+      "omitted_string_sha256": "72310869670b597729cd54571bd08a6bd15c7d9a195e3dd40d3cca585652b6c1",
+      "characters": 165
+    }
+  ],
+  "page_errors": [],
+  "real_api_writes": [],
+  "model_calls": 0,
+  "limits": {
+    "omitted_string_sha256": "c09149cc8555a86565dbc8120621585c5fe8cd524b4f4379e41853f27f42bdff",
+    "characters": 106
+  }
+}

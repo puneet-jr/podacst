@@ -1,0 +1,117 @@
+{
+  "label": "fixed",
+  "installed_pi_ai_version": {
+    "omitted_string_sha256": "1f4dc096d58f7d21e3875671aee6f29b120ab84218fa47db2cb53bc9eb5b4dac",
+    "characters": 5
+  },
+  "synthetic_history": true,
+  "real_historical_payload": false,
+  "provider_requests": 0,
+  "fetch_calls": 0,
+  "observations": [
+    {
+      "turn": 1,
+      "model": "google/gemini-2.5-flash-lite",
+      "max_tokens": 128,
+      "temperature": 0,
+      "stream": true,
+      "stream_options": {
+        "include_usage": true
+      },
+      "tool_choice": {
+        "type": "function",
+        "function": {
+          "name": "search_transcripts"
+        }
+      },
+      "response_format": null,
+      "routing": {
+        "allow_fallbacks": false,
+        "require_parameters": true,
+        "data_collection": {
+          "omitted_string_sha256": "3026a0ca485e5831657ba0120fa8dd66b3425427bfb0a2be0db743e2305cc7c5",
+          "characters": 4
+        }
+      },
+      "tools_count": 1,
+      "message_roles": [
+        {
+          "omitted_string_sha256": "bbc5e661e106c6dcd8dc6dd186454c2fcba3c710fb4d8e71a60c93eaf077f073",
+          "characters": 6
+        },
+        {
+          "omitted_string_sha256": "04f8996da763b7a969b1028ee3007569eaf3a635486ddab211d512c85b9df8fb",
+          "characters": 4
+        }
+      ],
+      "tool_call_function_name": null,
+      "function_arguments_are_json_string": null,
+      "tool_result_role": null,
+      "tool_result_content_is_string": null,
+      "tool_result_is_json": null,
+      "tool_call_result_ids_match": null
+    },
+    {
+      "turn": 2,
+      "model": "google/gemini-2.5-flash-lite",
+      "max_tokens": 128,
+      "temperature": 0,
+      "stream": true,
+      "stream_options": {
+        "include_usage": true
+      },
+      "tool_choice": {
+        "omitted_string_sha256": "140bedbf9c3f6d56a9846d2ba7088798683f4da0c248231336e6a05679e4fdfe",
+        "characters": 4
+      },
+      "response_format": null,
+      "routing": {
+        "allow_fallbacks": false,
+        "require_parameters": true,
+        "data_collection": {
+          "omitted_string_sha256": "3026a0ca485e5831657ba0120fa8dd66b3425427bfb0a2be0db743e2305cc7c5",
+          "characters": 4
+        }
+      },
+      "tools_count": 1,
+      "message_roles": [
+        {
+          "omitted_string_sha256": "bbc5e661e106c6dcd8dc6dd186454c2fcba3c710fb4d8e71a60c93eaf077f073",
+          "characters": 6
+        },
+        {
+          "omitted_string_sha256": "04f8996da763b7a969b1028ee3007569eaf3a635486ddab211d512c85b9df8fb",
+          "characters": 4
+        },
+        {
+          "omitted_string_sha256": "a39a7ffad4a3013f29da97b84f264337f234c1cf9b3c40c7c30c677a8a18609a",
+          "characters": 9
+        },
+        {
+          "omitted_string_sha256": "7c9bbe5ec9b3fb774e8fa0f54247e93c34ddf8e5d16fe3073420de0ae81a262d",
+          "characters": 4
+        },
+        {
+          "omitted_string_sha256": "04f8996da763b7a969b1028ee3007569eaf3a635486ddab211d512c85b9df8fb",
+          "characters": 4
+        }
+      ],
+      "tool_call_function_name": {
+        "omitted_string_sha256": "e115aca1c8dfb2f8efab7d54e61705d0a02cd86cd3d2ca1361f1c0c8a9c39303",
+        "characters": 18
+      },
+      "function_arguments_are_json_string": true,
+      "tool_result_role": {
+        "omitted_string_sha256": "7c9bbe5ec9b3fb774e8fa0f54247e93c34ddf8e5d16fe3073420de0ae81a262d",
+        "characters": 4
+      },
+      "tool_result_content_is_string": true,
+      "tool_result_is_json": true,
+      "tool_call_result_ids_match": true
+    }
+  ],
+  "limits": {
+    "omitted_string_sha256": "365b73bd6f37918557f50e60850df2100036bddeae509cfc5cb49b09e8980cf2",
+    "characters": 195
+  }
+}

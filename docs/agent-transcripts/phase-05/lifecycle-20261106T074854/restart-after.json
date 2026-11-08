@@ -14,8 +14,14 @@
     "checks": {
       "database": {
         "ready": true,
-        "schema_revision": "0003_conversation",
-        "pgvector_version": "0.8.7"
+        "schema_revision": {
+          "omitted_string_sha256": "0f2ae86d35948f5ce45ae2e614cb273992fcc05b24cf7450e895c4710bcae2b4",
+          "characters": 17
+        },
+        "pgvector_version": {
+          "omitted_string_sha256": "e4369c730413d6871f29fa8a24a8f397e6a790e374b1283c9f76f780535415e3",
+          "characters": 5
+        }
       },
       "corpus": {
         "ready": true,
@@ -36,11 +42,17 @@
         "embedding_model_available": true,
         "embedding_dimensions_compatible": true,
         "index_identity_compatible": true,
-        "note": "Transport and installed-model availability; does not prove answer or essay quality."
+        "note": {
+          "omitted_string_sha256": "e794244e901e453b7c7e944b4a3b9e0413be67a054586c47282d7b7f0d7a4ebc",
+          "characters": 83
+        }
       }
     }
   },
   "message_count": 6,
-  "message_snapshot_sha256": "c5e7f9defeaf57abbfdfe6811e9c939761b2c0b13182514985bf565ae2ccf921",
+  "message_snapshot_sha256": {
+    "omitted_string_sha256": "c4ea3706104700ae8a36f38c6ded8000a0c0cd68c4005cf59daa46a595b22700",
+    "characters": 64
+  },
   "passed": true
 }

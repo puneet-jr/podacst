@@ -6,28 +6,49 @@
     "session_id": "01a1af39-4737-7599-b0c8-317dd691fb60",
     "provider": "ollama-local",
     "model": "qwen3:0.6b",
-    "model_text": "The review window for the activation experiment is 13 days, and the evidence code is CEDAR-7319.",
-    "text": "The review window for the activation experiment is 13 days, and the evidence code is CEDAR-7319. [FIXTURE-A]",
+    "model_text": {
+      "omitted_string_sha256": "f2c1a4d5b019aaa62349db6edbd440ff6160cbec79b62e2b41ba804893075b15",
+      "characters": 96
+    },
+    "text": {
+      "omitted_string_sha256": "d4c6ad8a3579563860ebac2b8efaed3e308f7e719ab98eaa14752426f7813d31",
+      "characters": 108
+    },
     "sources": [
-      "FIXTURE-A"
+      {
+        "omitted_string_sha256": "a6bd01dcbe98149089bf38d6f2ef93938b7f40e03cc1477850c89adc093e8410",
+        "characters": 9
+      }
     ],
     "tools": [
       {
         "tool": "search_fixture",
         "args": {
-          "query": "activation"
+          "query": {
+            "omitted_string_sha256": "b15526c9c0e75acea3d1f8055de216c85f0330baf8604e13d8c6ce90fb90d6d7",
+            "characters": 10
+          }
         },
-        "tool_call_id": "call_o36cmhsq",
+        "tool_call_id": {
+          "omitted_string_sha256": "845cb833368d01936d415901c66cf5ec493c98104c7c23aa4524014e4698b95d",
+          "characters": 13
+        },
         "result": {
           "content": [
             {
               "type": "text",
-              "text": "{\"source_id\":\"FIXTURE-A\",\"text\":\"In the synthetic Cedar onboarding experiment, the review window is 13 days. The evidence code is CEDAR-7319.\"}"
+              "text": {
+                "omitted_string_sha256": "afd2767b76b45773216329e9d6711916571b66b0595b12b7c2c679a5a76563d2",
+                "characters": 143
+              }
             }
           ],
           "details": {
             "source_id": "FIXTURE-A",
-            "text": "In the synthetic Cedar onboarding experiment, the review window is 13 days. The evidence code is CEDAR-7319."
+            "text": {
+              "omitted_string_sha256": "da984a3d0a2644973a694ac02aad0f2a9e42f91cac9c5d1d23a07dadd3b4496a",
+              "characters": 108
+            }
           }
         }
       }

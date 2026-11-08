@@ -1,0 +1,189 @@
+{
+  "git_head": {
+    "omitted_string_sha256": "454c6d57b1afdf85b069fb878284d74e7144c54da91d9f1b3515971deb491ddd",
+    "characters": 40
+  },
+  "uncommitted_tree": true,
+  "source_file_hashes": {
+    "backend/app/essays.py": {
+      "omitted_string_sha256": "3a38469a4745670f8629eb2f29d19d3f6a366baf87d7855e8cc9eac2e7035806",
+      "characters": 64
+    },
+    "backend/app/ingestion.py": {
+      "omitted_string_sha256": "88aa0f0580f189f18ec0760b7a5ab77b12ca6a07d07631c339f7a889756a3675",
+      "characters": 64
+    },
+    "backend/app/db.py": {
+      "omitted_string_sha256": "b81d9a28a72ec35bfdaccb0b6f4a1754b9d4a47b61d80e9eda123610f3a61bd4",
+      "characters": 64
+    },
+    "backend/app/config.py": {
+      "omitted_string_sha256": "a11a88d0e7dbd722caaab2f0d683f6c8660569f64c4e995e45b5fd9f62914b38",
+      "characters": 64
+    },
+    "backend/app/transcripts.py": {
+      "omitted_string_sha256": "86618ab07cace3545ab0ca45e47cb39b1c960939e582dcde320c9f17ef7637ce",
+      "characters": 64
+    },
+    "backend/app/writing.py": {
+      "omitted_string_sha256": "ff01e0d5b8be4a5bcb5a75df935f91ce9ab4b3d1f3832c13d8d319e4e418c03c",
+      "characters": 64
+    },
+    "backend/app/embedding.py": {
+      "omitted_string_sha256": "388afc3b12de4bb964114fe9f9cf8aae8973382b58371d85e92725a2429bba23",
+      "characters": 64
+    },
+    "backend/app/conversation.py": {
+      "omitted_string_sha256": "eaf84bafe4dd0947ec4f134f49d0efff8378facb61964d874616512891f07886",
+      "characters": 64
+    },
+    "backend/app/__init__.py": {
+      "omitted_string_sha256": "cd372fb85148700fa88095e3492d3f9f5beb43e555e5ff26d95f5a6adc36f8e6",
+      "characters": 64
+    },
+    "backend/app/observability.py": {
+      "omitted_string_sha256": "ce3420b56ae19d772994e64d0713eec64a78f0b854b5077bbe2184bdcb015120",
+      "characters": 64
+    },
+    "backend/app/source_paths.py": {
+      "omitted_string_sha256": "bddcbda51348101c39fe2eec1395b49118b2058283170e62127a833039bfd99f",
+      "characters": 64
+    },
+    "backend/app/schemas.py": {
+      "omitted_string_sha256": "7e3e425dc2089c812bc6da878d059484d59d11369b3dc22d41bbf55cf1c81fc4",
+      "characters": 64
+    },
+    "backend/app/evidence_packet.py": {
+      "omitted_string_sha256": "57ab07ef8c1b953ca2bb6e45971a96514627195356a26794c0f03ccab5081d75",
+      "characters": 64
+    },
+    "backend/app/retrieval.py": {
+      "omitted_string_sha256": "7f6238d62db47236479e5480dde4fd54b38c6a764e03e3b4c32186909f9c9f07",
+      "characters": 64
+    },
+    "backend/app/agent.py": {
+      "omitted_string_sha256": "2dfbf15b5dbe23a90d0485ac4ffceb8ae8ea5b5261ccc4cb0c4f77f5b594086e",
+      "characters": 64
+    },
+    "backend/app/evidence_first.py": {
+      "omitted_string_sha256": "b8a4c3e66856cbe29defb6b9add0222e7ed57895fb26f6b6d96b1d14f5e0df2e",
+      "characters": 64
+    },
+    "backend/app/artifacts.py": {
+      "omitted_string_sha256": "bc45ba898621eab752c5ce63f89573dddb201629dc72ed9427820d5b0c16f905",
+      "characters": 64
+    },
+    "backend/app/main.py": {
+      "omitted_string_sha256": "bc46d1eec812e9c633ca63269439f77b42d4491313e70eb871134f6239ffa431",
+      "characters": 64
+    },
+    "backend/app/snapshot.py": {
+      "omitted_string_sha256": "8c0c10a22ae4b9f97be8ec0822ecba652915cb703ae1a08706db041f9deee954",
+      "characters": 64
+    },
+    "backend/app/approved_writing.py": {
+      "omitted_string_sha256": "847ad0c67cf5b244939cd1cdc95c3fbae3621b1c7c8b566413bcd49d47eb2220",
+      "characters": 64
+    },
+    "backend/app/schema.py": {
+      "omitted_string_sha256": "8f38ed9f2acab665cc9686c78d3b2ab979e87044361544d7fd045b6d6e7acadc",
+      "characters": 64
+    },
+    "agent/test_conversation_policy.ts": {
+      "omitted_string_sha256": "8eb87b7dc6f397578d1de1e595e7947e8447cbfc1bcf88e0bff3000f6b2b3b71",
+      "characters": 64
+    },
+    "agent/test_essay_format.ts": {
+      "omitted_string_sha256": "4a6dba5b128be97153741fcca5c0da283563791a0a31c908fa4be4aa4f03f33e",
+      "characters": 64
+    },
+    "agent/essay.ts": {
+      "omitted_string_sha256": "4bd17c642b74b2dd803527740f209fb423abeed339a3ac668d79536bef6fdc42",
+      "characters": 64
+    },
+    "agent/provider_policy.ts": {
+      "omitted_string_sha256": "33c4a933039aa9afddbc9fa806cc9924ba71a3fb0d3849f1601365fbd3f55852",
+      "characters": 64
+    },
+    "agent/evidence_selection.ts": {
+      "omitted_string_sha256": "11c7a056dbe298801badafc5deb4039e54436a9ab284d921f1ffb4301dceed2b",
+      "characters": 64
+    },
+    "agent/retrieval.ts": {
+      "omitted_string_sha256": "1672121f2138f33faa73425480c03aa25a4aea5f184c7fa47073c60138eb896f",
+      "characters": 64
+    },
+    "agent/conversation_policy.ts": {
+      "omitted_string_sha256": "527c7dfbaa19d66992f9672c718505b906296e069c63d8518ae04fb8250b470f",
+      "characters": 64
+    },
+    "agent/application_advice.ts": {
+      "omitted_string_sha256": "85ef8617da9c5c3b639c3ce9758f6a0d8390f5fd97d4e9e9f1c860c81e298fa8",
+      "characters": 64
+    },
+    "agent/test_evidence_selection.ts": {
+      "omitted_string_sha256": "04d5f90ec2cb96946e0c1c80682fb9d560fb87730dfde78234ed27b563c465cb",
+      "characters": 64
+    },
+    "agent/test_provider_policy.ts": {
+      "omitted_string_sha256": "170b616d2e7c1ead5046c9053403d9b2c6865f3550f56e5fa08cc774abb3d8ab",
+      "characters": 64
+    },
+    "agent/conversation.ts": {
+      "omitted_string_sha256": "f403ff764bbe400b0d820aa1eef4a9daddd251fc395eaff280d9b6855b8247ef",
+      "characters": 64
+    },
+    "agent/essay_format.ts": {
+      "omitted_string_sha256": "07ab518f54dcb053ca3c0f8d7a6caf3be260266967780d6590f179906d868652",
+      "characters": 64
+    },
+    "frontend/src/MessageText.tsx": {
+      "omitted_string_sha256": "db7c1530314e50046c1b9dba5c21ce66153f594c87ca7df303ca88f3ea550f51",
+      "characters": 64
+    },
+    "frontend/src/main.tsx": {
+      "omitted_string_sha256": "cf85fe6a091f6d6337a32937cdb62e8078c163dd352dbc9849892e7ba8687680",
+      "characters": 64
+    },
+    "frontend/src/ArtifactPanel.tsx": {
+      "omitted_string_sha256": "0ac905fd2d0644f209be68cb60b272eafb4082a15f7a4d8c2baeb255bfc1a552",
+      "characters": 64
+    },
+    "frontend/src/home.css": {
+      "omitted_string_sha256": "6a2e3c14202745348759a52170b7e1768f46b442ba13575071bf4e1538ab2697",
+      "characters": 64
+    },
+    "frontend/src/WorkspaceLayout.tsx": {
+      "omitted_string_sha256": "0fee153830d2d1b25b83a9d4fe6f9a3a53e612e3e0da32dd1f318b48972ac07b",
+      "characters": 64
+    },
+    "frontend/src/Home.tsx": {
+      "omitted_string_sha256": "73de56c87feac2789ddffa59c6701c7af04664e6ea0767d89dc7d7aafc6c6419",
+      "characters": 64
+    },
+    "frontend/src/EssayPanel.tsx": {
+      "omitted_string_sha256": "17623d7d4675d09abdccdcb8f9dabdcbd869c9eff3b8cf1356ba5cc91924b3e5",
+      "characters": 64
+    },
+    "frontend/src/style.css": {
+      "omitted_string_sha256": "703abfb3eedc9d44c04b795740ddcab776c3b1c42834fb30bc5ae0b944ab2d3e",
+      "characters": 64
+    },
+    "frontend/src/lib.ts": {
+      "omitted_string_sha256": "e39ea2cd79072c360fa712f7d89e3777e75a8a03d35ab3db3c4a8ce7ab7d52f1",
+      "characters": 64
+    },
+    "frontend/src/Brand.tsx": {
+      "omitted_string_sha256": "4307f3405fe0e35be5a7943f7c41cda101db92e8d09c465ab5379f242852fd3e",
+      "characters": 64
+    },
+    "frontend/src/workspace.css": {
+      "omitted_string_sha256": "175cc7fcc618c2f778c214af137af11dbf7b9cd1ad84c16ab8040a8b175b621c",
+      "characters": 64
+    }
+  },
+  "snapshot_sha256": {
+    "omitted_string_sha256": "de21fecde64a483e202c5ed034a682ea229a9ef68b5ec67f0fa600b4b6ed490f",
+    "characters": 64
+  }
+}

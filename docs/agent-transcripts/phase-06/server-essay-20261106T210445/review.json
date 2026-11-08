@@ -1,0 +1,139 @@
+{
+  "reviewed_at": {
+    "omitted_string_sha256": "92b28b0fb0e3800507c06a37351a1f744ad5b250fa19f115b021c20ade9d3ca5",
+    "characters": 32
+  },
+  "verdict": {
+    "omitted_string_sha256": "18e4d8ce4a0759bd2084096eb512777e4810424bdc2523ec85d35885734531ff",
+    "characters": 30
+  },
+  "scope": "One assisted local server-fact/Pi-advice essay with manual factual approval and one explicit editorial revision; not autonomous model-only success.",
+  "reviewer": {
+    "omitted_string_sha256": "6e200366cd9169f025dc5d8254082444bc4b1e087ce41553bee956b7ed79e32d",
+    "characters": 71
+  },
+  "essay_sha256": {
+    "omitted_string_sha256": "d6948988ab8d830ffc0db7382f82f9ec3ff4b6bf56746d694ba03e1997d7b1b2",
+    "characters": 64
+  },
+  "word_count": 1319,
+  "accepted_range": [
+    1125,
+    1375
+  ],
+  "draft_word_count": 1325,
+  "section_counts_are_drafting_targets": true,
+  "expansion_needed": false,
+  "sections": 6,
+  "fact_blocks": 15,
+  "citation_labels": [
+    {
+      "omitted_string_sha256": "3696ad59777e09d5f2daacb544022d435e7cd053d87c5781241fabd8fdf2a90d",
+      "characters": 2
+    },
+    {
+      "omitted_string_sha256": "adfa2b24c2d924fe6383d8804be55afb98ea3eb0e14c3470ac3a0f651b9a422e",
+      "characters": 2
+    },
+    {
+      "omitted_string_sha256": "44d6a8a73eddb284d49799fdbfa2919a004ece6d2df3546eaa4e246048bcdf81",
+      "characters": 2
+    },
+    {
+      "omitted_string_sha256": "b1d3eb8f32936fa9cf89d2240bd10734270fd55ff4644ad254b3b237468bad88",
+      "characters": 2
+    },
+    {
+      "omitted_string_sha256": "1cdcbd57e7e20491d8be5ff46549aac5f9c117320a164a49ebc4f1439a741d76",
+      "characters": 2
+    },
+    {
+      "omitted_string_sha256": "b12f76a4b782e4ae7f035b86a07cb43e638af9157e855af49c3945971d2af402",
+      "characters": 2
+    }
+  ],
+  "claim_review_file": {
+    "omitted_string_sha256": "0c2851419f606e05c072bd92f8ad6af0e066c71857e7be8aa4546924a95259b9",
+    "characters": 26
+  },
+  "application_review": [
+    {
+      "section": 1,
+      "assessment": {
+        "omitted_string_sha256": "6567c8be19dd20ac9c803270446c60f9715d1781f813d85d637b150de0fe1495",
+        "characters": 117
+      }
+    },
+    {
+      "section": 2,
+      "assessment": {
+        "omitted_string_sha256": "88ca4301abe7312dcf4eeed7ca036cc86afea7edf428388f97eb31c89b6f745d",
+        "characters": 114
+      }
+    },
+    {
+      "section": 3,
+      "assessment": {
+        "omitted_string_sha256": "75e7cd9a6ecce989a32ee9555297e6902725e7ad0a3cb37d2b9201a5bbaad4b6",
+        "characters": 148
+      }
+    },
+    {
+      "section": 4,
+      "assessment": {
+        "omitted_string_sha256": "fb9830d3e56a987c7625b2b8a883cc4afa88fdb62b9e915f315490a571d43157",
+        "characters": 175
+      }
+    },
+    {
+      "section": 5,
+      "assessment": {
+        "omitted_string_sha256": "6c78488d6637a7f8f713843f51c14ff9d2b750ab5727cb91ff019c8db9becbc8",
+        "characters": 147
+      }
+    },
+    {
+      "section": 6,
+      "assessment": {
+        "omitted_string_sha256": "b5b734524161538ff256fe8d16ccff6161ad8cb42372da3504edfb1ef1646c4a",
+        "characters": 129
+      }
+    }
+  ],
+  "readability": {
+    "omitted_string_sha256": "677503f7b1683873db0541b2a7cb430ab66a8b3105e0d7a5e51fed65802dceae",
+    "characters": 323
+  },
+  "unsupported_factual_claims_in_final": [],
+  "lookout_outcomes": {
+    "omitted_string_sha256": "6efc9cd26c14dfc11b011be421aee8968876444a0bf7b72e4074a0775efac4e1",
+    "characters": 139
+  },
+  "editorial_provenance": {
+    "omitted_string_sha256": "058b681ff3fe900c1d2b7daf02685780bcfe4f8d974e5f0eaa61650441dcb1e1",
+    "characters": 186
+  },
+  "persistence": {
+    "omitted_string_sha256": "4b25d9fd144fd44e8bc1861381dc2331bbb2634ddd6092caa739641486b1e8b5",
+    "characters": 170
+  },
+  "known_limitations": [
+    {
+      "omitted_string_sha256": "19edacc19416914944b3892ac023fea7681f9dc866e7a840c2f1639bc9a5bd6e",
+      "characters": 106
+    },
+    {
+      "omitted_string_sha256": "a27dd9f983745dcd12c836921a43b8136de8ae8ba76db7c175efdd75c512bbba",
+      "characters": 145
+    },
+    {
+      "omitted_string_sha256": "7156504e0309677d4f0fb3054331a4718aa1f4e2b7b146a5ca3996ac6e5ebbb9",
+      "characters": 94
+    },
+    {
+      "omitted_string_sha256": "a92dca43472c4b3069fbc6c782fa35bc71b5c83b62ba609a329636faa9c54ea1",
+      "characters": 73
+    }
+  ],
+  "phase7_started": false
+}

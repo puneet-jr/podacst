@@ -1,0 +1,46 @@
+{
+  "timestamp": "2026-11-08T04:12:44.743510+00:00",
+  "event": {
+    "omitted_string_sha256": "48efc65feda195cce6664c9d7430fcb96d314a76e29a7976ad19dace42ca291c",
+    "characters": 16
+  },
+  "id": "5f350eaf-fb6f-4e84-86c6-6ef12385cf50",
+  "corpus_revision": "be8ab89a890a833cbba2c892178f823fff178c65",
+  "status": "partial",
+  "discovered": 303,
+  "loaded": 3,
+  "failed": 0,
+  "embedding_model": "nomic-embed-text:latest",
+  "embedding_dimensions": 768,
+  "created_at": "2026-11-08 04:12:19.327840+00:00",
+  "completed_at": "2026-11-08 04:12:44.737565+00:00",
+  "selected": 3,
+  "skipped": 0,
+  "deleted": 0,
+  "embedding_digest": {
+    "omitted_string_sha256": "d686ef27471bc55fec611d1a4790e465145fee90e45ff85c9fb498225307fbdb",
+    "characters": 64
+  },
+  "pipeline_version": {
+    "omitted_string_sha256": "af93d625a3091ca00255da05e63271e1b9149280484154e75c622006d16d138e",
+    "characters": 41
+  },
+  "source_url": {
+    "omitted_string_sha256": "95bf19b2a6cc638c2448c7835cde97e40d28d82aac8dcb96ee4750d15acdf58a",
+    "characters": 53
+  },
+  "source_kind": {
+    "omitted_string_sha256": "6b17b8fcc411a533c822a5117e33cf73fa6766739d7d36ac86dc4bea883af4fe",
+    "characters": 6
+  },
+  "manifest_complete": true,
+  "last_error_code": null,
+  "heartbeat_at": {
+    "omitted_string_sha256": "25d74e9b5c4ba387015b0c6efeec03964fdb2ba5f3345e477411a98bcde49498",
+    "characters": 32
+  },
+  "active_episodes": 3,
+  "active_chunks": 112,
+  "unattempted": 0,
+  "duration_seconds": 25.601105052992352
+}

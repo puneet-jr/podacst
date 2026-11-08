@@ -24,6 +24,39 @@ class EvidenceContractTests(unittest.TestCase):
             self.assertEqual(p.original_text[item['char_start']-p.char_start:item['char_end']-p.char_start],item['text'])
             self.assertNotIn('(00:01)',item['text'])
 
+    def test_followup_outcome_is_not_displaced_by_function_word_matches(self):
+        source=result()
+        source.passages[0].original_text=(
+            'Guest (00:01):\nThey discussed the initial survey for people trying the service.\n'
+            'Guest (00:02):\nThey described the survey for people learning a feature.\n'
+            'Guest (00:03):\nThe next cohort reported forty-two percent would be very disappointed without the service.')
+        items,sources=sentence_items(source,'What did they report for the next cohort in the survey?')
+        self.assertTrue(any('next cohort reported forty-two percent' in i['text'] for i in items))
+        self.assertLessEqual(len(items),2)
+        for item in items:
+            p=sources[item['source_id']]
+            self.assertEqual(item['text'],p.original_text[item['char_start']-p.char_start:item['char_end']-p.char_start])
+
+    def test_overlapping_excerpt_does_not_consume_both_passage_slots(self):
+        source=result();source.passages[0].original_text=(
+            'Guest (00:01):\nThis synthetic onboarding experiment needs an onboarding review. '
+            'The onboarding experiment has an explicit completion measure. '
+            'Another observation describes a separate research concern.')
+        items,_=sentence_items(source,'onboarding experiment review')
+        self.assertEqual(len(items),2)
+        self.assertTrue(items[0]['char_end']<=items[1]['char_start'] or items[1]['char_end']<=items[0]['char_start'])
+
+    def test_packet_utf8_budget_and_exact_ids_remain_bounded(self):
+        source=result();base=source.passages[0]
+        source.passages=[SimpleNamespace(**{**base.__dict__,'id':uuid4(),'char_start':i*10000,'original_text':'Guest (00:01):\n'+('Café 調査 teams record an onboarding review carefully. '*12)}) for i in range(10)]
+        items,sources=sentence_items(source,'onboarding review')
+        self.assertLessEqual(sum(len(item['text'].encode()) for item in items),6000)
+        self.assertEqual([i['id'] for i in items],['E'+str(i+1) for i in range(len(items))])
+        for i in items:
+            p=sources[i['source_id']]
+            self.assertEqual(i['text'],p.original_text[i['char_start']-p.char_start:i['char_end']-p.char_start])
+            self.assertLessEqual(len(i['text']),500)
+
     def test_no_eligible_evidence_keeps_gap_valid(self):
         source=SimpleNamespace(passages=[],timings_ms={'total':0})
         items,sources=sentence_items(source,'unknown facts')

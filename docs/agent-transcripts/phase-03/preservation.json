@@ -4,20 +4,62 @@
   "spike_changed": [],
   "phase_01_evidence_comparison_files": 157,
   "phase_01_evidence_changed": [],
-  "phase_02_evidence_note": "Phase 3 operations did not write Phase 2 evidence. Current hashes captured here as a preservation baseline; not compared to an unavailable earlier whole-tree hash manifest.",
+  "phase_02_evidence_note": {
+    "omitted_string_sha256": "3b44c9e8993f555f79b0639bf974f2c4fa425275f7943edeb21977fd1ea17e66",
+    "characters": 172
+  },
   "phase_02_evidence_current_hashes": {
-    "docs/agent-transcripts/phase-02/README.md": "804308883ce80384e44c6b318fc517800e32b0e4b810f85faa3bb9feedbe4060",
-    "docs/agent-transcripts/phase-02/browser-bootstrap-failure.json": "3439c91a4dc8695d0373768186f920dee05269a45e372b7ec444037158efecfc",
-    "docs/agent-transcripts/phase-02/commands.jsonl": "49b8edfe97ce076466edf585ff97bd7fb4651cce364bd89b2a1fc35e7dc82a19",
-    "docs/agent-transcripts/phase-02/container-agent/container-smoke-1da124b8b75b/result.json": "f6c405b862a2c43703e351bf875b80b95c0ccab9539bb864a2e555a70018da74",
-    "docs/agent-transcripts/phase-02/container-agent/container-smoke-1da124b8b75b/stderr.log": "21a2d4028e13e738db839c292c4e08134ed340d20efe370f5b5bb0266b70c472",
-    "docs/agent-transcripts/phase-02/container-agent/container-smoke-1da124b8b75b/stdout.jsonl": "c87888cb194b050254e0237f1aa1ce9c26086a7d55457916f5c22d79e04928b1",
-    "docs/agent-transcripts/phase-02/final-review.json": "7d725a35a72fdec2541e00e176206fff2df61d42be4c8d77313f44ed38b6e941",
-    "docs/agent-transcripts/phase-02/live-20261106T045946/results.jsonl": "4fc69670aeb8ececbe4c544b52f5f0f39279928f32ea21b49a6685af5f9569b6",
-    "docs/agent-transcripts/phase-02/live-20261106T050223/results.jsonl": "6299ce7376d47173f4e4e7abca299416728ed6983fee36101ea67563881b484b",
-    "docs/agent-transcripts/phase-02/live-20261106T050703/results.jsonl": "6f96a80f7eae5b01cd4fa02a1accc4e565fc054c6327887a55ffe201dccbe7b8",
-    "docs/agent-transcripts/phase-02/phase-01-preservation.json": "6aaf5b47e4e1fa5612a2ff893b75ec46e342b13f8e3e4500f57661f5819606e9",
-    "docs/agent-transcripts/phase-02/redactions.json": "c202370a669289d6a41d445a03bcc6521ddd4ef717115d36d5d39a27fa704b5e",
-    "docs/agent-transcripts/phase-02/source-manifest.json": "302ca79f4d3825376f62fc93905c336d3057fa91a624de83a689de2b70e8ef03"
+    "docs/agent-transcripts/phase-02/README.md": {
+      "omitted_string_sha256": "e6a41da4a3860276cdfdf6f1cc522d4179ec2e233421e65b6b279f1e6607f7cd",
+      "characters": 64
+    },
+    "docs/agent-transcripts/phase-02/browser-bootstrap-failure.json": {
+      "omitted_string_sha256": "8ebe1c1879dcca6c967b2edf5296ddcadb05e46d7102d4d985283125b907372d",
+      "characters": 64
+    },
+    "docs/agent-transcripts/phase-02/commands.jsonl": {
+      "omitted_string_sha256": "08d4c9b784fb47ac954dfb1bbb65e7a619b0c275262302ac751db5e7ea464c7f",
+      "characters": 64
+    },
+    "docs/agent-transcripts/phase-02/container-agent/container-smoke-1da124b8b75b/result.json": {
+      "omitted_string_sha256": "dce98f43f8f347c16340b1870c1b6da1ccfcb076268e55b99d58634b0038c890",
+      "characters": 64
+    },
+    "docs/agent-transcripts/phase-02/container-agent/container-smoke-1da124b8b75b/stderr.log": {
+      "omitted_string_sha256": "c553d77c65198c1d5cf11a410435801fbc734fd1b5b8ed78e32740dde756a47f",
+      "characters": 64
+    },
+    "docs/agent-transcripts/phase-02/container-agent/container-smoke-1da124b8b75b/stdout.jsonl": {
+      "omitted_string_sha256": "91116f4427b5b6c57a670358262ed5c3035d516bb8c06e942acecacd731dba0d",
+      "characters": 64
+    },
+    "docs/agent-transcripts/phase-02/final-review.json": {
+      "omitted_string_sha256": "1103c745332996e94d65c5e3dbd562fdf77c0cdc9cc20669b640e8729be170a4",
+      "characters": 64
+    },
+    "docs/agent-transcripts/phase-02/live-20261106T045946/results.jsonl": {
+      "omitted_string_sha256": "bfca27973d37ed79439b5c993f9759c6d1dc742ae5f757621f7974dcced72d63",
+      "characters": 64
+    },
+    "docs/agent-transcripts/phase-02/live-20261106T050223/results.jsonl": {
+      "omitted_string_sha256": "9bed0e91ec0e9603de126618fb342075e0a4aa72cfc40a93727ff4ce9b0b8c2c",
+      "characters": 64
+    },
+    "docs/agent-transcripts/phase-02/live-20261106T050703/results.jsonl": {
+      "omitted_string_sha256": "bdd3bac8615c523ed7a38572ca0b3b6cdaeabaf50eba3b1e4d223cb6a4f3aad7",
+      "characters": 64
+    },
+    "docs/agent-transcripts/phase-02/phase-01-preservation.json": {
+      "omitted_string_sha256": "1138715a5646fe66bd828e355e1516596cbfc379c183403cbfd95f6ce7d56054",
+      "characters": 64
+    },
+    "docs/agent-transcripts/phase-02/redactions.json": {
+      "omitted_string_sha256": "822c4247c93c0ac84110c4b6a2783de6af6b2788d3bf989d7e7382d2ea3199ae",
+      "characters": 64
+    },
+    "docs/agent-transcripts/phase-02/source-manifest.json": {
+      "omitted_string_sha256": "8140a214e25b14f6a9952315687c6f246fa3930178ec5a6bdbf91583d7e81f54",
+      "characters": 64
+    }
   }
 }

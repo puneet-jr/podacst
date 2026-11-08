@@ -1,3 +1,19 @@
+# Current execution status —8 November2026
+
+Original Phase10 **0/5**;bounded-pass rerun **0/5**;proposed target **4/5**. No user study. Questions,pass criteria and original protocol were not changed to improve scores. Complete original pre-execution definition is retained verbatim below;its historical “not run”/pending statements are not current status. Original freeze hash remains recorded in phase-10/scenario-protocol.json.
+
+| Case | Original failure | Bounded rerun failure |
+| --- | --- | --- |
+| A | Survey/use-of-responses omitted | False abstention despite available evidence |
+| B | LNO/follow-up incomplete | Definition improved;no useful bug-triage checklist |
+| C | Unsupported historical outcomes/raw essay failure |1216 words/valid citations,but incomplete/repetitive;no manual edits |
+| D | Incomplete questions despite isolation | False abstention;isolation/restart pass |
+| E | Generic RPC failure then incomplete reformulation | Typed retrieval timeout then false abstention;saved error detail absent |
+
+[Original report and bounded amendment](phase-10-report.md),[bounded results](agent-transcripts/phase-10/quality-pass/results.json). Selected Phase11 candidate excludes the bounded experiment and does not substitute a new score for either0/5. A clean setup rehearsal is a different verification scope.
+
+## Preserved pre-execution definition
+
 # SC-01: predefined end-to-end acceptance scenarios
 
 Defined 6 November 2026 before implementation or quality tuning. Proposed product target: **at least 4/5 (80%)** without manual recovery. This number is ours, not a company benchmark, and never waives any mandatory requirement or critical defect. Actual outcome: **not run**; no numerator is available. This is a five-case acceptance exercise, not participant usability research.

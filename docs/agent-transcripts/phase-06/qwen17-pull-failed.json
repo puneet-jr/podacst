@@ -1,0 +1,29 @@
+{
+  "started_at": "2026-11-06T15:14:25.589291+00:00",
+  "ended_at": "2026-11-06T15:31:42.794412+00:00",
+  "duration_seconds": 1037.2456579580903,
+  "command": [
+    {
+      "omitted_string_sha256": "f0656d7ca794f6e0bd8d6a2520d44761a24a1c738d2b5825f23a4b87caba04f0",
+      "characters": 23
+    },
+    {
+      "omitted_string_sha256": "8c4d442cac13d9d949658eedd2110449355ee9b4800d0c774bf9e9fa7b063ba4",
+      "characters": 22
+    }
+  ],
+  "exit_code": 1,
+  "stdout": {
+    "omitted_string_sha256": "19e0bd299f5cb16efb4e484d4772eb2ecfa4950ec28bd6b95fa8f5bc2617102c",
+    "characters": 2810
+  },
+  "stderr": {
+    "omitted_string_sha256": "36a05d5b74e7eba1e6001632741e6a0fd1ec4113c304b5ec9459d9ac72afa288",
+    "characters": 354
+  },
+  "truncated": false,
+  "redaction_note": {
+    "omitted_string_sha256": "2e49780085d1fe9f8a403bfa542bfa262787d8b8a6f3058f704c59981f3c81e9",
+    "characters": 108
+  }
+}

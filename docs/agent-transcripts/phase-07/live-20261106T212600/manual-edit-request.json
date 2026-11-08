@@ -1,0 +1,88 @@
+{
+  "captured_at": "2026-11-06T21:30:33.499738+00:00",
+  "editor": {
+    "omitted_string_sha256": "7c666e8bbe83753b54ba05f0876e31cb58af77bea84d44fa63e3d2dbb3226f74",
+    "characters": 53
+  },
+  "evidence_sections": {
+    "2": [
+      {
+        "start": 349,
+        "end": 486
+      },
+      {
+        "start": 630,
+        "end": 820
+      },
+      {
+        "start": 1196,
+        "end": 1325
+      },
+      {
+        "start": 1741,
+        "end": 1967
+      },
+      {
+        "start": 1981,
+        "end": 2211
+      }
+    ],
+    "3": [
+      {
+        "start": 876,
+        "end": 1333
+      },
+      {
+        "start": 1347,
+        "end": 2039
+      }
+    ],
+    "6": [
+      {
+        "start": 1239,
+        "end": 1661
+      }
+    ]
+  },
+  "advice_sections": {
+    "1": {
+      "omitted_string_sha256": "2db57a53804a206b449d093b20695ad8fb0bdfd91af93fb75f60b4e3a362fad7",
+      "characters": 624
+    },
+    "2": {
+      "omitted_string_sha256": "069901eabb3b23d8c1b95931b9c1ebceb5b397a67f12814116608888487adf72",
+      "characters": 412
+    },
+    "3": {
+      "omitted_string_sha256": "ded95cbd9be4f240d4b973ac3087ab847f967651cbe74a36813cd6131a28082d",
+      "characters": 444
+    },
+    "4": {
+      "omitted_string_sha256": "f6d2f2632edbfab2e20892808601b56c3ea852a4a0bfa75ab2cbd8498d3e5204",
+      "characters": 443
+    },
+    "5": {
+      "omitted_string_sha256": "c4a40c16065d4f7122122c10d519fe82625a002c207905cdfd4ac7d495d8b9a7",
+      "characters": 691
+    },
+    "6": {
+      "omitted_string_sha256": "bf532ef989bcc58f1aa1645d83d4e05e7c04165747860385432a7134e5b4d92c",
+      "characters": 437
+    }
+  },
+  "reasons": [
+    {
+      "omitted_string_sha256": "788b9141d504f0170361b449c5d7471a162c279f55ed0ac4df64810311a808a3",
+      "characters": 50
+    },
+    {
+      "omitted_string_sha256": "d1f54f53f5534ede75e8a2d5a78ac21b30a28d9e5ea94a4639b8aabb88de9b7c",
+      "characters": 131
+    },
+    {
+      "omitted_string_sha256": "8a83cc96233f3b47809943f52c581e48d02e69c54d9a71dd7f764d6d40b0c510",
+      "characters": 83
+    }
+  ],
+  "regenerated": false
+}

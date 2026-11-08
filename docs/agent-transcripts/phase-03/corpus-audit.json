@@ -18,2261 +18,3380 @@
   "errors": [],
   "files": [
     {
-      "path": "episodes/ada-chen-rekhi/transcript.md",
+      "path": {
+        "omitted_string_sha256": "655b8bacfef5b9396c2ded1a380a062eb93588f77989f7850173dfcb6f0c22f4",
+        "characters": 37
+      },
       "source_hash": "1240fdbe55f70fd2047feb2eed58a9c4f700fde689bd4c9d2385a07123c62185",
       "turns": 202,
       "chunks": 43,
       "warnings": []
     },
     {
-      "path": "episodes/adam-fishman/transcript.md",
+      "path": {
+        "omitted_string_sha256": "afc4e19c80b6282c3db30d2f40b49a72febfcbfe90920d87a073959a6e592c58",
+        "characters": 35
+      },
       "source_hash": "56e7d7e7b85d35974b033b6a20432e00a5aef198db40bee72268ef9238d75c74",
       "turns": 173,
       "chunks": 35,
       "warnings": []
     },
     {
-      "path": "episodes/adam-grenier/transcript.md",
+      "path": {
+        "omitted_string_sha256": "ca40dda38751c78e7cf5dd6708148598a9ce0be9c12c592f452c3658539aa733",
+        "characters": 35
+      },
       "source_hash": "2989e256c95030ad6b7634b16317e65564da1a2fd0154bc911f00129a8f18213",
       "turns": 182,
       "chunks": 36,
       "warnings": []
     },
     {
-      "path": "episodes/adriel-frederick/transcript.md",
+      "path": {
+        "omitted_string_sha256": "942e88a7deafb340d70ba57f3d0d5e439343a14ee6acb2a41ac4098983262fef",
+        "characters": 39
+      },
       "source_hash": "5c3ac49b394e153c5e571f9d4fb1f5dadb15c4670049fd435a88a78accc94771",
       "turns": 155,
       "chunks": 37,
       "warnings": [
-        "missing_timestamps"
+        {
+          "omitted_string_sha256": "4992d8354d46a657151970bd38ea1c664b6fe8e4205c95586066a15af35bb8e7",
+          "characters": 18
+        }
       ]
     },
     {
-      "path": "episodes/aishwarya-naresh-reganti-kiriti-badam/transcript.md",
+      "path": {
+        "omitted_string_sha256": "aa0223fb0e78e0232bdde773ecdd25b2aafa29b7981e32c3235653ab530e787f",
+        "characters": 60
+      },
       "source_hash": "5924860c3badda263082c8f30c49ab525a56fc55b523b9f4eb8430d55cdea6ec",
       "turns": 185,
       "chunks": 46,
       "warnings": [
-        "guest_title_mismatch_review_required"
+        {
+          "omitted_string_sha256": "29b93367714d0901b95c9aa056b9010f1869cf1c2d60d5a57d12fdcae742d421",
+          "characters": 36
+        }
       ]
     },
     {
-      "path": "episodes/albert-cheng/transcript.md",
+      "path": {
+        "omitted_string_sha256": "084ccfb01b6b66968a9dd8c5faa88af41aad35a0550f90b905222481ef4c00a3",
+        "characters": 35
+      },
       "source_hash": "b1c5e8157a87571e83b05a9f914907f1c88d0d33e59fc20fc2df87a1e1503696",
       "turns": 340,
       "chunks": 48,
       "warnings": []
     },
     {
-      "path": "episodes/alex-hardimen/transcript.md",
+      "path": {
+        "omitted_string_sha256": "b345e94b4c8949f40654491f74a8a912d4f3c2aba4f3cb2d3691eae1fc49c7f7",
+        "characters": 36
+      },
       "source_hash": "197d446b4de7a7841eab70fe2a67db8530ca0ab5a38ca9951c58fc1ced58828c",
       "turns": 216,
       "chunks": 39,
       "warnings": [
-        "guest_title_mismatch_review_required"
+        {
+          "omitted_string_sha256": "29b93367714d0901b95c9aa056b9010f1869cf1c2d60d5a57d12fdcae742d421",
+          "characters": 36
+        }
       ]
     },
     {
-      "path": "episodes/alex-komoroske/transcript.md",
+      "path": {
+        "omitted_string_sha256": "b9d8041da6deaa6821c679e2408cbe63db4468db271f3786329c938d57364e39",
+        "characters": 37
+      },
       "source_hash": "5e7e2e7b310687d32771a94da4df62dee6836bc9e97808be8db8220404169ae6",
       "turns": 199,
       "chunks": 52,
       "warnings": []
     },
     {
-      "path": "episodes/alexander-embiricos/transcript.md",
+      "path": {
+        "omitted_string_sha256": "b4325f2a77d236008a6b4a742f5e65b9290d386ca6ac8ed0f5404bde628e104d",
+        "characters": 42
+      },
       "source_hash": "d34649d051279c32394c6f3ef9258d60fcae898083b0e3237f1c9306ca802efc",
       "turns": 227,
       "chunks": 48,
       "warnings": [
-        "guest_title_mismatch_review_required"
+        {
+          "omitted_string_sha256": "29b93367714d0901b95c9aa056b9010f1869cf1c2d60d5a57d12fdcae742d421",
+          "characters": 36
+        }
       ]
     },
     {
-      "path": "episodes/alisa-cohn/transcript.md",
+      "path": {
+        "omitted_string_sha256": "2e77ef84d6755627c51d309efb7dc656985d255fd79775fc5e5e4d2c0a80ebfb",
+        "characters": 33
+      },
       "source_hash": "1d99f0531f60af2fc47f0f9463cdbdd213c6a0dcde7cef6ecd655d217c24a46c",
       "turns": 249,
       "chunks": 48,
       "warnings": []
     },
     {
-      "path": "episodes/ami-vora/transcript.md",
+      "path": {
+        "omitted_string_sha256": "24d30aea19f82ff63132773e82da651c40f52142dc0b38b516c53be1e44beba7",
+        "characters": 31
+      },
       "source_hash": "d7fe5de721d5dcadf2532dcff960eebf5d68bf56c8f7b85946a1e449451ea82d",
       "turns": 242,
       "chunks": 45,
       "warnings": [
-        "non_monotonic_timestamp"
+        {
+          "omitted_string_sha256": "4d0191cda6604232dff14445984f6930466a2a80e8d22101bc832186f11d7bb3",
+          "characters": 23
+        }
       ]
     },
     {
-      "path": "episodes/amjad-masad/transcript.md",
+      "path": {
+        "omitted_string_sha256": "76073d70ed1ea3e6a77c511be2ca8bc8aff2afc10143d45378acd9c096ccdc3e",
+        "characters": 34
+      },
       "source_hash": "4a158850ae4513c30a6413dada571a2b033544623a3cc008f88b3df9c2fafd0c",
       "turns": 151,
       "chunks": 29,
       "warnings": [
-        "non_monotonic_timestamp"
+        {
+          "omitted_string_sha256": "4d0191cda6604232dff14445984f6930466a2a80e8d22101bc832186f11d7bb3",
+          "characters": 23
+        }
       ]
     },
     {
-      "path": "episodes/andrew-wilkinson/transcript.md",
+      "path": {
+        "omitted_string_sha256": "1673969528ebaed7d00a62683060dc3799f607beb54db6796f7cef2f8fa4ac78",
+        "characters": 39
+      },
       "source_hash": "15ef41d9c9dd0e048be4fe54e9a317daae282baf5c9c3e8eb1a38dea965479e2",
       "turns": 190,
       "chunks": 46,
       "warnings": []
     },
     {
-      "path": "episodes/andy-johns/transcript.md",
+      "path": {
+        "omitted_string_sha256": "71baacadeead5c7ac9c3e475b1e6e006f54aeca90f3d909a2fb2006b04fbaceb",
+        "characters": 33
+      },
       "source_hash": "9c2e92fec828cf616b651b9f2216e57d36b7dc5d5b6d9406bab40676c904db71",
       "turns": 144,
       "chunks": 35,
       "warnings": []
     },
     {
-      "path": "episodes/andy-raskin/transcript.md",
+      "path": {
+        "omitted_string_sha256": "1d9ba48ede067559931a8592591b9046233d681ec2be923f23f5467b42d4e6ff",
+        "characters": 34
+      },
       "source_hash": "bd2cfd55fee8af7dbca02704a3139ad6474d0cca95c75a87a89dc6541e23ffca",
       "turns": 156,
       "chunks": 31,
       "warnings": []
     },
     {
-      "path": "episodes/andy-raskin_/transcript.md",
+      "path": {
+        "omitted_string_sha256": "eade3e8ce398179132df29fdde6a145d9f6cae4e1fec4560b4155c214cb39747",
+        "characters": 35
+      },
       "source_hash": "9bef6b2d472e6a21cb38ef640fae8c730a9467978cd6b9cea7208b4ad2cfd270",
       "turns": 156,
       "chunks": 31,
       "warnings": []
     },
     {
-      "path": "episodes/anneka-gupta/transcript.md",
+      "path": {
+        "omitted_string_sha256": "887b5777bc13bc48c2c85ee073ccee8607c3cd36aa47766ce3afa4386d60d1e3",
+        "characters": 35
+      },
       "source_hash": "352d6359be4f1b4e87a3b65648dc8afd0dd676129e75757b0c9990475a9ac3d4",
       "turns": 149,
       "chunks": 36,
       "warnings": []
     },
     {
-      "path": "episodes/annie-duke/transcript.md",
+      "path": {
+        "omitted_string_sha256": "a01a6c6d4ecacfa01f04b5f757bbc0e554e7788ce2af26ab0e69aaab102aef4b",
+        "characters": 33
+      },
       "source_hash": "e492aaac153bcae5b1822d4eb5e56ba163f73bd069eecc49a58f71ffe62b319c",
       "turns": 151,
       "chunks": 40,
       "warnings": []
     },
     {
-      "path": "episodes/annie-pearl/transcript.md",
+      "path": {
+        "omitted_string_sha256": "a737be1a04de44270b2c8c2397549ee5ecbdaac4c5f2cb64af6d14b793828c1a",
+        "characters": 34
+      },
       "source_hash": "d5f5e87a88cc516ba93d10978892ca553caecae9003ce694518fbbf698cefa46",
       "turns": 244,
       "chunks": 37,
       "warnings": []
     },
     {
-      "path": "episodes/anton-osika/transcript.md",
+      "path": {
+        "omitted_string_sha256": "00c9ff3273a5e84aaf1726f80cdfb36270e3ed4c4ffe96e7cade01ac497549e8",
+        "characters": 34
+      },
       "source_hash": "aac3ed87e0684d1b941f43e06b1625d959ae8f3842c879c4b09407d101fdc4a2",
       "turns": 194,
       "chunks": 33,
       "warnings": [
-        "non_monotonic_timestamp"
+        {
+          "omitted_string_sha256": "4d0191cda6604232dff14445984f6930466a2a80e8d22101bc832186f11d7bb3",
+          "characters": 23
+        }
       ]
     },
     {
-      "path": "episodes/anuj-rathi/transcript.md",
+      "path": {
+        "omitted_string_sha256": "a55331de35fd6b6a0bbdfb5ef4f29d45c15fbca05d7c545f9abd6223622995f2",
+        "characters": 33
+      },
       "source_hash": "15c923ce16220fe9bb1bb5c0918157156289700d6fdb63148ca0fa04617c1e36",
       "turns": 140,
       "chunks": 38,
       "warnings": []
     },
     {
-      "path": "episodes/aparna-chennapragada/transcript.md",
+      "path": {
+        "omitted_string_sha256": "ce95dff9ff7f6d13022f2b19c722b84fae98ea1205e2ffa598a0d8abb0056602",
+        "characters": 43
+      },
       "source_hash": "1df012ac842b4eb66682b0fd7d4828130eabb87bc03af62175db98f90377a8aa",
       "turns": 150,
       "chunks": 31,
       "warnings": []
     },
     {
-      "path": "episodes/april-dunford/transcript.md",
+      "path": {
+        "omitted_string_sha256": "d7f1167947e62ee0eee1c2c41637c63d07a23a39d7e2869192dae7c3f38a6377",
+        "characters": 36
+      },
       "source_hash": "7374cc01ec372b23cf297a5d758419183debe3ca4395597993d2fa7e580abfcd",
       "turns": 244,
       "chunks": 51,
       "warnings": []
     },
     {
-      "path": "episodes/april-dunford-20/transcript.md",
+      "path": {
+        "omitted_string_sha256": "7d739c4369b0a98c6703ea33963b71b6f31314bd320cb7d720937bf670e04d5c",
+        "characters": 39
+      },
       "source_hash": "f5d61f7dd7f6b41cdbffa422b38a3fe11d3008d76d1dfd92d5e73298a81e78ce",
       "turns": 244,
       "chunks": 51,
       "warnings": []
     },
     {
-      "path": "episodes/archie-abrams/transcript.md",
+      "path": {
+        "omitted_string_sha256": "b110cb06798464b8d72d9ab4d50dd4e3e83a61e2307d440f667e218f4d103661",
+        "characters": 36
+      },
       "source_hash": "2d95c1dc5f2acc7ff4e10f8b3b6eddc98b49408c1590822254621409556ea9ac",
       "turns": 265,
       "chunks": 41,
       "warnings": [
-        "guest_title_mismatch_review_required"
+        {
+          "omitted_string_sha256": "29b93367714d0901b95c9aa056b9010f1869cf1c2d60d5a57d12fdcae742d421",
+          "characters": 36
+        }
       ]
     },
     {
-      "path": "episodes/arielle-jackson/transcript.md",
+      "path": {
+        "omitted_string_sha256": "1f74e8d949a9fa94b453aabff14e560f43b9c987b08b16ed6f051dc521832e32",
+        "characters": 38
+      },
       "source_hash": "9c80a5972f553c6bbe5bd98c1257840835372ba18233a8cc81057c218c2545c4",
       "turns": 231,
       "chunks": 44,
       "warnings": []
     },
     {
-      "path": "episodes/asha-sharma/transcript.md",
+      "path": {
+        "omitted_string_sha256": "51eaf4950979c45d2586ea45a6597c2bb0cefbf2c73e8a167cbdd23579ffdc6a",
+        "characters": 34
+      },
       "source_hash": "8bd4b434172c9a74188e82f024cd1e5dae52ef4b0e7307c017a27b775a4144b8",
       "turns": 167,
       "chunks": 29,
       "warnings": []
     },
     {
-      "path": "episodes/austin-hay/transcript.md",
+      "path": {
+        "omitted_string_sha256": "0289faf342588d14a2031ff65f23678a7cbf151ecacc11a7f0b57c7b3c59fbe5",
+        "characters": 33
+      },
       "source_hash": "43c212c005aea8d30f5e9be0bae8b39d7fec9855a71ba55632ec299fbcbcf729",
       "turns": 180,
       "chunks": 47,
       "warnings": []
     },
     {
-      "path": "episodes/ayo-omojola/transcript.md",
+      "path": {
+        "omitted_string_sha256": "fb8d86e97e72c028f6171e47d87ba72e7dc78885582bcf76acf61bbcea743af0",
+        "characters": 34
+      },
       "source_hash": "6bfc891fe121b6d01f9f2008ca87d6ac22ba676224723547884c0c6034010047",
       "turns": 147,
       "chunks": 27,
       "warnings": []
     },
     {
-      "path": "episodes/bangaly-kaba/transcript.md",
+      "path": {
+        "omitted_string_sha256": "8234397f40f1fbde7401023b8d7eb5e8cdcc62a28bd59d9ec97093053e8975bd",
+        "characters": 35
+      },
       "source_hash": "20dce1822c1b514180b308ca84e3acb0c56d4114d0d6b8f18d5d40cff559c6f5",
       "turns": 270,
       "chunks": 56,
       "warnings": []
     },
     {
-      "path": "episodes/barbra-gago/transcript.md",
+      "path": {
+        "omitted_string_sha256": "3c2fc3e17c69358126eeb2b2f70bdd27ef4c9cee6a97bb91104db9087b8ffab9",
+        "characters": 34
+      },
       "source_hash": "6f0346e39430b5a651e656e33848055b6a93aa24daa75b9f2b6ffe4cd4b59ec9",
       "turns": 153,
       "chunks": 28,
       "warnings": []
     },
     {
-      "path": "episodes/ben-horowitz/transcript.md",
+      "path": {
+        "omitted_string_sha256": "f6b12838380a2058d08eee6a9449c045a3ec6c2fb4f90c98c41e54ba41aaf39b",
+        "characters": 35
+      },
       "source_hash": "17f360327a6745f5783033e14bac99fd23dc3e935128acc1f8cda9f52283262c",
       "turns": 226,
       "chunks": 45,
       "warnings": []
     },
     {
-      "path": "episodes/ben-williams/transcript.md",
+      "path": {
+        "omitted_string_sha256": "ad444a8c9bacfe11443bd5bf66bb953f6332df681e4777e8d86d7beb80daf25c",
+        "characters": 35
+      },
       "source_hash": "c619c8a5f9878b71bbf4a30928382f32077b5287a582c23a515a172a995cd494",
       "turns": 237,
       "chunks": 48,
       "warnings": []
     },
     {
-      "path": "episodes/benjamin-lauzier/transcript.md",
+      "path": {
+        "omitted_string_sha256": "c61811a966c1f19662dbdda1be04e79f29d9c8ac0df49ef313d49728151cbb36",
+        "characters": 39
+      },
       "source_hash": "b44088df5757242b3bdab560bac22497dda17b1b8361ba98d8f37e85db55897e",
       "turns": 201,
       "chunks": 45,
       "warnings": []
     },
     {
-      "path": "episodes/benjamin-mann/transcript.md",
+      "path": {
+        "omitted_string_sha256": "9cdcf2086c6747f87f2505b22aad65412accafb5eb5182a7190c09d204f46887",
+        "characters": 36
+      },
       "source_hash": "4a9eca24212bc77dccf1ad6a6d3bf6e169e82fcad317de65322d63ab6664264b",
       "turns": 177,
       "chunks": 37,
       "warnings": [
-        "guest_title_mismatch_review_required"
+        {
+          "omitted_string_sha256": "29b93367714d0901b95c9aa056b9010f1869cf1c2d60d5a57d12fdcae742d421",
+          "characters": 36
+        }
       ]
     },
     {
-      "path": "episodes/bill-carr/transcript.md",
+      "path": {
+        "omitted_string_sha256": "a4cfe353cd503eaaa72cd257f6d2d3004cf48c04bbeb4638ce00de4eb421fcb6",
+        "characters": 32
+      },
       "source_hash": "e9660434c152fcd5f6dbb4a697bdd5a9b143054dfd2689daeeddd8f49accc054",
       "turns": 185,
       "chunks": 45,
       "warnings": []
     },
     {
-      "path": "episodes/bob-baxley/transcript.md",
+      "path": {
+        "omitted_string_sha256": "5bde9e7903bb70f996b57a87a6983957e6fae6d836f1d1afae0382cbb3b615cd",
+        "characters": 33
+      },
       "source_hash": "227b60c4d31baab3af7b0deee5d80ae16df883fad3cee4c50790996f1566a169",
       "turns": 270,
       "chunks": 59,
       "warnings": []
     },
     {
-      "path": "episodes/bob-moesta/transcript.md",
+      "path": {
+        "omitted_string_sha256": "5dae77cc850dabe28bc74e416a909a87b028fae68f14a74cc897595c4fe0be2b",
+        "characters": 33
+      },
       "source_hash": "7ed04d706ad1049dac04f675c5df511d501f67837ba83651fb51761d827709fb",
       "turns": 191,
       "chunks": 39,
       "warnings": []
     },
     {
-      "path": "episodes/bob-moesta-20/transcript.md",
+      "path": {
+        "omitted_string_sha256": "a51d6d0aee99d2a748bc0f6e1e0c11a7b7c57b1d48c8e411fe66d37e2c1ebadb",
+        "characters": 36
+      },
       "source_hash": "73efcf6759a89d2f5534ad42574572d5b515372901dfc6a36dd95ff69273a634",
       "turns": 217,
       "chunks": 50,
       "warnings": []
     },
     {
-      "path": "episodes/boz/transcript.md",
+      "path": {
+        "omitted_string_sha256": "fb812aec15c1b79da74ce0778eaec8ae3cfb8a07c6eb28d583263bf56b3609c4",
+        "characters": 26
+      },
       "source_hash": "360326f7ab028fd2c0f2d7a07548cc547ed18e0ac8410faa70a6198a00d31eca",
       "turns": 303,
       "chunks": 60,
       "warnings": []
     },
     {
-      "path": "episodes/brandon-chu/transcript.md",
+      "path": {
+        "omitted_string_sha256": "fb2c149b8435f6ef83cf0192c202764f52b31e031986d8c8186ce7ee8d49df8e",
+        "characters": 34
+      },
       "source_hash": "cb12788514bad3eff14a5f9d8a58b480f629c6e898ad78e80da375569010141a",
       "turns": 117,
       "chunks": 28,
       "warnings": [
-        "guest_title_mismatch_review_required",
-        "non_monotonic_timestamp"
+        {
+          "omitted_string_sha256": "29b93367714d0901b95c9aa056b9010f1869cf1c2d60d5a57d12fdcae742d421",
+          "characters": 36
+        },
+        {
+          "omitted_string_sha256": "4d0191cda6604232dff14445984f6930466a2a80e8d22101bc832186f11d7bb3",
+          "characters": 23
+        }
       ]
     },
     {
-      "path": "episodes/brendan-foody/transcript.md",
+      "path": {
+        "omitted_string_sha256": "9c81eae5d7abd25ad0da1767633c89b198567d43b6248fc3aef7abb829f03c60",
+        "characters": 36
+      },
       "source_hash": "8ca02059d2b0e1a0f798facb6d557ee045366eeaea6f882019d42ac304a8a2c5",
       "turns": 202,
       "chunks": 36,
       "warnings": []
     },
     {
-      "path": "episodes/bret-taylor/transcript.md",
+      "path": {
+        "omitted_string_sha256": "2c608db18a46b0d81919776f30d1b9ab169e7b86dd0bb32d4b6a07face00a245",
+        "characters": 34
+      },
       "source_hash": "ae59a5d0d6b87d0e52ad43bc910c244a724432f5725aa5ea1d344d6600d9ef0c",
       "turns": 175,
       "chunks": 46,
       "warnings": []
     },
     {
-      "path": "episodes/brian-balfour/transcript.md",
+      "path": {
+        "omitted_string_sha256": "2651c94b40380b0fe76bcba87ec0bbde2eed2440b61d610d619fa6ab7b75a9f8",
+        "characters": 36
+      },
       "source_hash": "d974750bfb180d40e69a6d347c87d93ea007e6c26018bccbe9a1de9d0d4353ba",
       "turns": 259,
       "chunks": 44,
       "warnings": []
     },
     {
-      "path": "episodes/brian-chesky/transcript.md",
+      "path": {
+        "omitted_string_sha256": "c1475a60cf50a86ba9845ac9fb7eb7a7c9c96ac00c5bc3788c3d199c254c7f19",
+        "characters": 35
+      },
       "source_hash": "d1bb58234987928d5b1122b928ea3a9a5786d8c22839e02476c7b7dc33b26c24",
       "turns": 103,
       "chunks": 40,
       "warnings": []
     },
     {
-      "path": "episodes/brian-tolkin/transcript.md",
+      "path": {
+        "omitted_string_sha256": "0e942fb68bdc9711f3d94636181fb4c33cf7b73585bac2fbfd24ecfa7070db64",
+        "characters": 35
+      },
       "source_hash": "9a1067f9a969bb47887432807c1763415135b028cd28c19631807b733f10813f",
       "turns": 197,
       "chunks": 37,
       "warnings": []
     },
     {
-      "path": "episodes/cam-adams/transcript.md",
+      "path": {
+        "omitted_string_sha256": "ca623e03da09a3a689c2a3053b146a58ca98fc35527c1f91a92311a8ad116607",
+        "characters": 32
+      },
       "source_hash": "e10e68b79bda892a54ece9c0dcbf4be6bc15c7fc356619ecb241660422b17e0c",
       "turns": 124,
       "chunks": 32,
       "warnings": []
     },
     {
-      "path": "episodes/camille-fournier/transcript.md",
+      "path": {
+        "omitted_string_sha256": "078c19ffd0ddf2478d998f020bf2a19c43e38730bcd33ffceec78ca56d50ed2d",
+        "characters": 39
+      },
       "source_hash": "efbaab0c88bb9b32e7179d3b756e9a0e6bacbb937860b9d2bf2d0a239841fd75",
       "turns": 209,
       "chunks": 41,
       "warnings": []
     },
     {
-      "path": "episodes/camille-hearst/transcript.md",
+      "path": {
+        "omitted_string_sha256": "dac94dab564ee0a3ee24465dcc42e8fcb518a8b30cef04af8a87889bc4a60a64",
+        "characters": 37
+      },
       "source_hash": "4ea9e8c9125f027611f345cdef0dd310c064f56d8d28447345b8d2168da9b974",
       "turns": 316,
       "chunks": 34,
       "warnings": []
     },
     {
-      "path": "episodes/camille-ricketts/transcript.md",
+      "path": {
+        "omitted_string_sha256": "c24d90d93544c65b6afab6939045284b0cf54b92b0539a13db7176d16bc9f466",
+        "characters": 39
+      },
       "source_hash": "c219110e7213f7370119cb9a27a8b6c03df743cd959d66bfde0443240462ae87",
       "turns": 204,
       "chunks": 38,
       "warnings": []
     },
     {
-      "path": "episodes/carilu-dietrich/transcript.md",
+      "path": {
+        "omitted_string_sha256": "cb4c078d13ae5310b253818ffdaef5540470e9de79cfc5f5f0d9dac4f227596c",
+        "characters": 38
+      },
       "source_hash": "518a07102925cb0e9fb8ac6d6cad197794d5479a7a0faf63d6636666365d730d",
       "turns": 204,
       "chunks": 35,
       "warnings": []
     },
     {
-      "path": "episodes/carole-robin/transcript.md",
+      "path": {
+        "omitted_string_sha256": "69e7b4bd1b1302c928b46874981a924420a7752b724de787555522ec08d44312",
+        "characters": 35
+      },
       "source_hash": "dd84dc1462c8402ae304c0e8780f4d68837f97817877fcf5c03a64d16a29eabe",
       "turns": 186,
       "chunks": 40,
       "warnings": []
     },
     {
-      "path": "episodes/casey-winters/transcript.md",
+      "path": {
+        "omitted_string_sha256": "a4401c7c1bfd9d73e7fc66a226060565878ac0908eb5f625906873f624cf5a72",
+        "characters": 36
+      },
       "source_hash": "a287d60ac08b42cd8c0e85fd389b89f3ca30e785b75979a39f1e5d14d65b8a2c",
       "turns": 111,
       "chunks": 29,
       "warnings": []
     },
     {
-      "path": "episodes/casey-winters_/transcript.md",
+      "path": {
+        "omitted_string_sha256": "128702618429465eaf959857e88768e0d769d1ee3b3e1532a5d655bf2509c466",
+        "characters": 37
+      },
       "source_hash": "1f2090830cea41027791de80e356e7dc2b4f23f98199729459357ea14732e7e3",
       "turns": 243,
       "chunks": 43,
       "warnings": []
     },
     {
-      "path": "episodes/chandra-janakiraman/transcript.md",
+      "path": {
+        "omitted_string_sha256": "152fef6f27ca7289a9f53a3e073403d730d47d679d31bc13b10a0688c2bb84ba",
+        "characters": 42
+      },
       "source_hash": "87287e402382e4d8b1420fbd2ae9ebd93281b397ca3b466bc1015fe134a38ebd",
       "turns": 328,
       "chunks": 55,
       "warnings": [
-        "non_monotonic_timestamp"
+        {
+          "omitted_string_sha256": "4d0191cda6604232dff14445984f6930466a2a80e8d22101bc832186f11d7bb3",
+          "characters": 23
+        }
       ]
     },
     {
-      "path": "episodes/chip-conley/transcript.md",
+      "path": {
+        "omitted_string_sha256": "596743d321ed82f855c71bcfa9d1da5f8fa567382d941155e15288bd29712170",
+        "characters": 34
+      },
       "source_hash": "7431b096729ca0f00422b966ece955818891d2928687e96e87f1f1736e5be5e2",
       "turns": 230,
       "chunks": 39,
       "warnings": [
-        "guest_title_mismatch_review_required"
+        {
+          "omitted_string_sha256": "29b93367714d0901b95c9aa056b9010f1869cf1c2d60d5a57d12fdcae742d421",
+          "characters": 36
+        }
       ]
     },
     {
-      "path": "episodes/chip-huyen/transcript.md",
+      "path": {
+        "omitted_string_sha256": "eef8f2bb92f1715a21835ae5ac9a0b84012dc073980f66c2cc138d269c812dc7",
+        "characters": 33
+      },
       "source_hash": "92dcebf4d3745e2f631490065a617f75c134b90e25985a17772c7c90ce9f6bb8",
       "turns": 185,
       "chunks": 44,
       "warnings": []
     },
     {
-      "path": "episodes/chris-hutchins/transcript.md",
+      "path": {
+        "omitted_string_sha256": "6f7b5ebfd617b3fc56698f7ddc47f744fd3d3d800c6a2da339cc4ede85a921ad",
+        "characters": 37
+      },
       "source_hash": "f6c81a05972222931acec357480a6cf2cd43c440d165212eafcc67663773fc90",
       "turns": 178,
       "chunks": 45,
       "warnings": []
     },
     {
-      "path": "episodes/christian-idiodi/transcript.md",
+      "path": {
+        "omitted_string_sha256": "932db67e35c25c332b0ceacea0eebeca44adb19369d3f6c8b1337694282bbce3",
+        "characters": 39
+      },
       "source_hash": "dbb54ac28a739efc11bc20d3facf0004a1b1bb4c30fa2a21b1df3751e4034e54",
       "turns": 186,
       "chunks": 50,
       "warnings": []
     },
     {
-      "path": "episodes/christina-wodtke/transcript.md",
+      "path": {
+        "omitted_string_sha256": "b56ba02a69a1e22a51d199c2305d5c7d99bdba3f9c5764e2b581e95265155794",
+        "characters": 39
+      },
       "source_hash": "ae4095dacf640b9a717d71c7fd2c7b06766b3a89fcd20d8f2408c8490b1be725",
       "turns": 212,
       "chunks": 42,
       "warnings": []
     },
     {
-      "path": "episodes/christine-itwaru/transcript.md",
+      "path": {
+        "omitted_string_sha256": "d9def1296727b1a698cbfac9822add5b41d774662f0a60efab6ac80a1c2b2631",
+        "characters": 39
+      },
       "source_hash": "7892e01c41b2870f1cf7496111a4609029081b1494c851d34647e16f95b2f567",
       "turns": 158,
       "chunks": 36,
       "warnings": []
     },
     {
-      "path": "episodes/christopher-lochhead/transcript.md",
+      "path": {
+        "omitted_string_sha256": "98bca3968dc82d8f3b586a6829f7bacae7c31033c052210683142b6834ca6443",
+        "characters": 43
+      },
       "source_hash": "bc7fb6c4e055f350bb08c92a88d9b37bded263da4a9a362c5322bc7d1e5c8814",
       "turns": 249,
       "chunks": 48,
       "warnings": []
     },
     {
-      "path": "episodes/christopher-miller/transcript.md",
+      "path": {
+        "omitted_string_sha256": "a161008742d94132d8ef9eb961622e61bb100eb61f2cd03d4214f225dfffde70",
+        "characters": 41
+      },
       "source_hash": "822532f0356738c538b258031f75bc35af2183a65964929235b5a102fa5c7aec",
       "turns": 215,
       "chunks": 47,
       "warnings": [
-        "guest_title_mismatch_review_required"
+        {
+          "omitted_string_sha256": "29b93367714d0901b95c9aa056b9010f1869cf1c2d60d5a57d12fdcae742d421",
+          "characters": 36
+        }
       ]
     },
     {
-      "path": "episodes/claire-butler/transcript.md",
+      "path": {
+        "omitted_string_sha256": "8ba59121f6c656b05b924cb24006203e0ca545f42f86d39887697075544b972a",
+        "characters": 36
+      },
       "source_hash": "cfc4fbea44693c239b1086e2bbaa75641a1ad5d2963e4def4a5e0a69cf4a6b17",
       "turns": 290,
       "chunks": 55,
       "warnings": [
-        "non_monotonic_timestamp"
+        {
+          "omitted_string_sha256": "4d0191cda6604232dff14445984f6930466a2a80e8d22101bc832186f11d7bb3",
+          "characters": 23
+        }
       ]
     },
     {
-      "path": "episodes/claire-hughes-johnson/transcript.md",
+      "path": {
+        "omitted_string_sha256": "a634125ae0e7c6280358ea064f611b72c2ee096ee4ceb89801f95313fd5f2c02",
+        "characters": 44
+      },
       "source_hash": "085cb8498ab079ee56134cd142a917f19b4af67a4fa5771dfc4706b528d54bc4",
       "turns": 181,
       "chunks": 43,
       "warnings": []
     },
     {
-      "path": "episodes/claire-vo/transcript.md",
+      "path": {
+        "omitted_string_sha256": "a87cec1e9a32d081e84fb87efaeb12cf3fb09c60f97f85b9ae657a2e87ca69f4",
+        "characters": 32
+      },
       "source_hash": "836317a1f7fa61cc4cbf91b9913f3bbf09de8b7e501be52b05a1bafc0094d836",
       "turns": 247,
       "chunks": 44,
       "warnings": []
     },
     {
-      "path": "episodes/crystal-w/transcript.md",
+      "path": {
+        "omitted_string_sha256": "7389c99a798aa39715adf81cc5d6f3562d404b990f2c03f5d4addb58002f2f4c",
+        "characters": 32
+      },
       "source_hash": "983112501887f085e801c0aa3d95c49e5767f3b04e15f462f488abc7c08772ba",
       "turns": 151,
       "chunks": 31,
       "warnings": []
     },
     {
-      "path": "episodes/dalton-caldwell/transcript.md",
+      "path": {
+        "omitted_string_sha256": "3d719868112f01d717be642a8a55bb3b0a055f567a70315cc232479a5768e2b4",
+        "characters": 38
+      },
       "source_hash": "72bf60c44625938ace190699080559d305d9f10d14ea69186a6e811b8d4f8654",
       "turns": 210,
       "chunks": 44,
       "warnings": []
     },
     {
-      "path": "episodes/dan-hockenmaier/transcript.md",
+      "path": {
+        "omitted_string_sha256": "290bbd284235e48768d7f1974a225625a4959427dc94f3cbebe7abf1ea290303",
+        "characters": 38
+      },
       "source_hash": "7ca2d5fce41c29cf373ba00a55865dd377e5d82f42daa4903fdb0a3f3fe900ba",
       "turns": 174,
       "chunks": 40,
       "warnings": []
     },
     {
-      "path": "episodes/dan-shipper/transcript.md",
+      "path": {
+        "omitted_string_sha256": "847ccfc66545bae42c1fa899135c2943d97d80a27e6120663436e169398e8137",
+        "characters": 34
+      },
       "source_hash": "5d49138e06aaabc48dda430a4b7f8266ea05d5f716ca1d833d11715e9ed59948",
       "turns": 344,
       "chunks": 52,
       "warnings": []
     },
     {
-      "path": "episodes/daniel-lereya/transcript.md",
+      "path": {
+        "omitted_string_sha256": "b6b467c4a7b5f4bd91b10e89dfc9fa9a97993e6fbce7a31d8f3ade91901c35e2",
+        "characters": 36
+      },
       "source_hash": "56a3eb350bd466bb08fb396e5d6ac2ce6068ebb207473e357a27a256907631f6",
       "turns": 216,
       "chunks": 43,
       "warnings": []
     },
     {
-      "path": "episodes/david-placek/transcript.md",
+      "path": {
+        "omitted_string_sha256": "d9ade092651dc8213aa9b89e552c8db8861b3d261861c49096bc43f5f355d139",
+        "characters": 35
+      },
       "source_hash": "b484f990b22330cf9afc4a36a19b0cc3b9055130f16477d3e9077f8e39e871d0",
       "turns": 199,
       "chunks": 38,
       "warnings": [
-        "guest_title_mismatch_review_required"
+        {
+          "omitted_string_sha256": "29b93367714d0901b95c9aa056b9010f1869cf1c2d60d5a57d12fdcae742d421",
+          "characters": 36
+        }
       ]
     },
     {
-      "path": "episodes/david-singleton/transcript.md",
+      "path": {
+        "omitted_string_sha256": "40664d0e7b2ee713e550af36eafd8a176c6d784af845382b11f98ec3ae1dbbeb",
+        "characters": 38
+      },
       "source_hash": "ac43a7a258aa35ab1404bf0a7f1cf38c0148dd7af6b0e83be63a18e30fa806d9",
       "turns": 212,
       "chunks": 51,
       "warnings": []
     },
     {
-      "path": "episodes/deb-liu/transcript.md",
+      "path": {
+        "omitted_string_sha256": "39e60836827eeab7ea11faba29d11502aa7ab592558bddd27c995449bdb73aa5",
+        "characters": 30
+      },
       "source_hash": "bf489910e0201391698b38cec1ddd108a5c8693ebd75855659b16c2edc92e693",
       "turns": 217,
       "chunks": 42,
       "warnings": []
     },
     {
-      "path": "episodes/dhanji-r-prasanna/transcript.md",
+      "path": {
+        "omitted_string_sha256": "9bcf58e69a0fc5c478fd4253f58470f6cd664fd928e399a9aa6411070d048677",
+        "characters": 40
+      },
       "source_hash": "16e30c033721dca5a4f74e68a6736fafef5e79f0a318d4ed0877c3656cd3e193",
       "turns": 237,
       "chunks": 41,
       "warnings": []
     },
     {
-      "path": "episodes/dharmesh-shah/transcript.md",
+      "path": {
+        "omitted_string_sha256": "7f8ca54eafcc5871e2dc4f6fd00ccc235fd0da518889ad677d1d9874b8afe940",
+        "characters": 36
+      },
       "source_hash": "debe6c50a1f529138ed77c0d033d855cbe9086491d5f4b6cfff9b51baa9b6b10",
       "turns": 264,
       "chunks": 56,
       "warnings": []
     },
     {
-      "path": "episodes/dmitry-zlokazov/transcript.md",
+      "path": {
+        "omitted_string_sha256": "2e131d549c04139bc1d8f0fc963893015f76ba267c99ca2e415b278fce7eb937",
+        "characters": 38
+      },
       "source_hash": "3473d905fe84e4efa0cfa998e4465b10b977a7861dfe3b1222667793f65d14df",
       "turns": 140,
       "chunks": 31,
       "warnings": [
-        "guest_title_mismatch_review_required"
+        {
+          "omitted_string_sha256": "29b93367714d0901b95c9aa056b9010f1869cf1c2d60d5a57d12fdcae742d421",
+          "characters": 36
+        }
       ]
     },
     {
-      "path": "episodes/donna-lichaw/transcript.md",
+      "path": {
+        "omitted_string_sha256": "3893c2f615e4bda53a6cb00c82d4e7108f05fa95684dde52ee59ed54bc4ef912",
+        "characters": 35
+      },
       "source_hash": "8b4c8ee00748f2f0d5111eb641fe3120f5bce3922b995d016b655ff0711cf61f",
       "turns": 195,
       "chunks": 40,
       "warnings": [
-        "non_monotonic_timestamp"
+        {
+          "omitted_string_sha256": "4d0191cda6604232dff14445984f6930466a2a80e8d22101bc832186f11d7bb3",
+          "characters": 23
+        }
       ]
     },
     {
-      "path": "episodes/dr-fei-fei-li/transcript.md",
+      "path": {
+        "omitted_string_sha256": "a8bf56c1d600de41eff9124533d58485741ecedc931f7b108f402288655e2fff",
+        "characters": 36
+      },
       "source_hash": "2e3818b941ee2392f8d40766e619eb4570681c73902db2b993eba32053cbaee9",
       "turns": 154,
       "chunks": 33,
       "warnings": []
     },
     {
-      "path": "episodes/drew-houston/transcript.md",
+      "path": {
+        "omitted_string_sha256": "c65f069b8f6f260a6617c76152fe98e101909d9020a50e31ab97d3e985ca0bfc",
+        "characters": 35
+      },
       "source_hash": "bcb80c8de46279311700fc350d4da48c245d40491b760773d79d71252988c73c",
       "turns": 198,
       "chunks": 52,
       "warnings": []
     },
     {
-      "path": "episodes/dylan-field/transcript.md",
+      "path": {
+        "omitted_string_sha256": "5724b4faa372fd66a5a763dbee23e685fc79a9d5f37224b011d213e0ff703981",
+        "characters": 34
+      },
       "source_hash": "4842a088db0a2cbd39face6b98a92bb053be66240a7f012c7709dce679e2642e",
       "turns": 164,
       "chunks": 24,
       "warnings": []
     },
     {
-      "path": "episodes/dylan-field-20/transcript.md",
+      "path": {
+        "omitted_string_sha256": "edd1cf4c51cd4b33b4246672896b50f097658911e3258c0d00f189ba160c497a",
+        "characters": 37
+      },
       "source_hash": "37012c466604727e418e92cfc6960f86fbc6675c57ccd7c8d2dabbbcae467827",
       "turns": 241,
       "chunks": 43,
       "warnings": []
     },
     {
-      "path": "episodes/ebi-atawodi/transcript.md",
+      "path": {
+        "omitted_string_sha256": "5fccc76754b98b602a4aaad5e7ab0e94efa9d8a56c082dd61e15e4515cba7636",
+        "characters": 34
+      },
       "source_hash": "584fa248fd635b52ad3c65ac4d741cf203db250e8c4b4a0c4f9e22ee905b6768",
       "turns": 225,
       "chunks": 52,
       "warnings": []
     },
     {
-      "path": "episodes/edwin-chen/transcript.md",
+      "path": {
+        "omitted_string_sha256": "df51565be0536567b022fcf168bd0c4e13b9f70b44b2e7dd31c7442bd4bff19b",
+        "characters": 33
+      },
       "source_hash": "ab0c684d9f41c78ae64279c087daf587efa23548707ab88b4bbaf4ca19c7c0ff",
       "turns": 247,
       "chunks": 42,
       "warnings": [
-        "non_monotonic_timestamp"
+        {
+          "omitted_string_sha256": "4d0191cda6604232dff14445984f6930466a2a80e8d22101bc832186f11d7bb3",
+          "characters": 23
+        }
       ]
     },
     {
-      "path": "episodes/eeke-de-milliano/transcript.md",
+      "path": {
+        "omitted_string_sha256": "99d8bb7f6a18464b0a04651add31fd2c44a580c5d0af28a3c3775320cb800612",
+        "characters": 39
+      },
       "source_hash": "dd253c55971fd343bf136278fca4d0a348cdf38290188f720a636133709a9858",
       "turns": 348,
       "chunks": 38,
       "warnings": []
     },
     {
-      "path": "episodes/elena-verna/transcript.md",
+      "path": {
+        "omitted_string_sha256": "a5a6cb1d2cc4827cec8f34917c64a7214cd0361a9495f3c2470e18d8a5930faa",
+        "characters": 34
+      },
       "source_hash": "382460d74e6786f545f046c1085107acd4aa0edaaa612bf8fd4eda8ddb346857",
       "turns": 240,
       "chunks": 48,
       "warnings": []
     },
     {
-      "path": "episodes/elena-verna-20/transcript.md",
+      "path": {
+        "omitted_string_sha256": "5cd395d6e23dc8df51548dbc50e45a6baca92ef6163020de0baa2dc2c1a0952e",
+        "characters": 37
+      },
       "source_hash": "6be05d454f9cf193e6a80412f5505330afc9da731ef15ee98aeccb5af6a71879",
       "turns": 216,
       "chunks": 38,
       "warnings": []
     },
     {
-      "path": "episodes/elena-verna-30/transcript.md",
+      "path": {
+        "omitted_string_sha256": "9fbdfb0ed3b209943ea5f87cba6c6d2159b8534e655f9a02694636597dcb373a",
+        "characters": 37
+      },
       "source_hash": "9400bb8ea4a38d7000ce5fc8ca1ca141c6666573d082cc20b3475da2ca925ffe",
       "turns": 240,
       "chunks": 48,
       "warnings": []
     },
     {
-      "path": "episodes/elena-verna-40/transcript.md",
+      "path": {
+        "omitted_string_sha256": "de4696f8ddaaa01362b843bd90d18441630074604ff881cf00f916feb51ccf03",
+        "characters": 37
+      },
       "source_hash": "23861413c1bc49c8462aa3b42a9845a3893833afe5da84033f33be002e63be7b",
       "turns": 259,
       "chunks": 51,
       "warnings": [
-        "guest_title_mismatch_review_required"
+        {
+          "omitted_string_sha256": "29b93367714d0901b95c9aa056b9010f1869cf1c2d60d5a57d12fdcae742d421",
+          "characters": 36
+        }
       ]
     },
     {
-      "path": "episodes/eli-schwartz/transcript.md",
+      "path": {
+        "omitted_string_sha256": "b19210002df0d9681efe453adb4467c967f677501428854f19a3c41fe2a77a5f",
+        "characters": 35
+      },
       "source_hash": "c2e77e7bd4403cb1951167572591eee9fb358abab69aecf8b271e90974b1d9de",
       "turns": 326,
       "chunks": 65,
       "warnings": []
     },
     {
-      "path": "episodes/elizabeth-stone/transcript.md",
+      "path": {
+        "omitted_string_sha256": "90904cf83340d1570d4471919cbfb7d90e0a5811ce76f3fd10bc6df65febd973",
+        "characters": 38
+      },
       "source_hash": "1a99bebfff6bc155a1a47b80632d5149cd9d73a7fd37d6ed1e6dce6a1aaece3f",
       "turns": 144,
       "chunks": 35,
       "warnings": [
-        "non_monotonic_timestamp"
+        {
+          "omitted_string_sha256": "4d0191cda6604232dff14445984f6930466a2a80e8d22101bc832186f11d7bb3",
+          "characters": 23
+        }
       ]
     },
     {
-      "path": "episodes/emilie-gerber/transcript.md",
+      "path": {
+        "omitted_string_sha256": "8a905bf96bc8ebfbac624ad233d53bfa4ffddf87875c885f01e7f005cf2a0d12",
+        "characters": 36
+      },
       "source_hash": "ca0bd137db17dabaedb6e315433bf92c0a84944068881de48b8cac48cc627fae",
       "turns": 248,
       "chunks": 51,
       "warnings": []
     },
     {
-      "path": "episodes/emily-kramer/transcript.md",
+      "path": {
+        "omitted_string_sha256": "ea553e3f4a5552cda22202f5194a6803e5ad7e1c139e18287b38597b1eeac4b6",
+        "characters": 35
+      },
       "source_hash": "06d0b3f932497ea4de2841836391a38a90eb7260fcd694a92e086da76aac0cac",
       "turns": 195,
       "chunks": 43,
       "warnings": []
     },
     {
-      "path": "episodes/eoghan-mccabe/transcript.md",
+      "path": {
+        "omitted_string_sha256": "0cc4d67eb243beeb902b81e012342f0abe8acb31f585e4c1070902afd2a5b33e",
+        "characters": 36
+      },
       "source_hash": "7e21be9a241fcc0292e2b852e2137028d1e6c4140bc93677bf782e1616187f00",
       "turns": 167,
       "chunks": 39,
       "warnings": []
     },
     {
-      "path": "episodes/eoy-review/transcript.md",
+      "path": {
+        "omitted_string_sha256": "2515882553832013772456d0ea6fbc2ab3b646052f67fb62deecbebf60394b20",
+        "characters": 33
+      },
       "source_hash": "7a13d514a4fc54f39b3f2ca717bfd0e5fcbcc359f23cc6f2e2b0071a383772ff",
       "turns": 95,
       "chunks": 31,
       "warnings": [
-        "guest_title_mismatch_review_required"
+        {
+          "omitted_string_sha256": "29b93367714d0901b95c9aa056b9010f1869cf1c2d60d5a57d12fdcae742d421",
+          "characters": 36
+        }
       ]
     },
     {
-      "path": "episodes/eric-ries/transcript.md",
+      "path": {
+        "omitted_string_sha256": "33ddd66c01b476ad724487dd7db0be18a91bfe381aa7d452bb02b17262640f6d",
+        "characters": 32
+      },
       "source_hash": "4e22be519505f244f8d7236738a9f4497365cf22b540abd2e409850b5f8f51a1",
       "turns": 264,
       "chunks": 78,
       "warnings": [
-        "non_monotonic_timestamp"
+        {
+          "omitted_string_sha256": "4d0191cda6604232dff14445984f6930466a2a80e8d22101bc832186f11d7bb3",
+          "characters": 23
+        }
       ]
     },
     {
-      "path": "episodes/eric-simons/transcript.md",
+      "path": {
+        "omitted_string_sha256": "b5569c230bb0832ddf4de9b400d5f51064b5e39d683cce02476ac0aa41cb33d4",
+        "characters": 34
+      },
       "source_hash": "0f3e771425301288c93a6a359fdc2dde315059aca4de9be2d43ec0dcc2c4dd4c",
       "turns": 254,
       "chunks": 47,
       "warnings": []
     },
     {
-      "path": "episodes/ethan-evans/transcript.md",
+      "path": {
+        "omitted_string_sha256": "8ede0b3e396de0df240ee6f4af211ab686d09e22280f292d3c5c12d794c3a544",
+        "characters": 34
+      },
       "source_hash": "57af76ec883604c6fadbe3ea85a94fc285a43b025ca7d01d7f7831dfb8c9cf0c",
       "turns": 236,
       "chunks": 41,
       "warnings": []
     },
     {
-      "path": "episodes/ethan-evans-20/transcript.md",
+      "path": {
+        "omitted_string_sha256": "9ee0adf347742c5d613ae4ed65e726881b0dfe7776e17bbb555bf5bac07aa091",
+        "characters": 37
+      },
       "source_hash": "f4facef3b592d84344b08b5d6374216ae02f22e016121f7d7b3afd5df1fae36f",
       "turns": 236,
       "chunks": 41,
       "warnings": []
     },
     {
-      "path": "episodes/ethan-smith/transcript.md",
+      "path": {
+        "omitted_string_sha256": "013cac249e292630685021e5f6072a1287e2774fee9e347439b6d500c0f2a1ec",
+        "characters": 34
+      },
       "source_hash": "b5c75a2804a021b1339220426595a86466bad23bc63386778012aa659d003867",
       "turns": 314,
       "chunks": 41,
       "warnings": []
     },
     {
-      "path": "episodes/evan-lapointe/transcript.md",
+      "path": {
+        "omitted_string_sha256": "2364549ca93f758d77f03e4a0fad62157a3d7aa7c40ab380e2eed9feddf1547d",
+        "characters": 36
+      },
       "source_hash": "4fbe0e5e8648bae5b975b5146b7f9c37e79eed962fe21dc6a211695b8cb3a5cb",
       "turns": 243,
       "chunks": 67,
       "warnings": []
     },
     {
-      "path": "episodes/failure/transcript.md",
+      "path": {
+        "omitted_string_sha256": "4bb06d47b79d57c890a627aca56038b56b9c6103e2d4629a4312e45ef6319948",
+        "characters": 30
+      },
       "source_hash": "d90eea713e7de9e76e73361a8568bff4d89410402741ac1bcd8bd9326a7f20a7",
       "turns": 120,
       "chunks": 33,
       "warnings": []
     },
     {
-      "path": "episodes/fareed-mosavat/transcript.md",
+      "path": {
+        "omitted_string_sha256": "a58a8074b19cd08d14912bcaf8f42be5f9cca90fe4ab326469b9e78e4c5c2e80",
+        "characters": 37
+      },
       "source_hash": "869af55e27e08d79eb519b55928d3484e8bea44bd5a448c029a7e50f800cfc35",
       "turns": 177,
       "chunks": 37,
       "warnings": []
     },
     {
-      "path": "episodes/farhan-thawar/transcript.md",
+      "path": {
+        "omitted_string_sha256": "aeb2e1869acbe1f0a01b7fdc4d70616acc3a48d7a53f5e1b1a769902b6ad8f28",
+        "characters": 36
+      },
       "source_hash": "d1c41e5d9aee474aef22b16c2e716357df75e4e5192f2f4bba67486a3d85ffd4",
       "turns": 255,
       "chunks": 61,
       "warnings": []
     },
     {
-      "path": "episodes/fei-fei/transcript.md",
+      "path": {
+        "omitted_string_sha256": "2ad65dd4ea938f1be431bd26c830ce39a88bf8045030fe2a381a0408f370c2af",
+        "characters": 30
+      },
       "source_hash": "a89b03aed3faa79e058f90795bd71a645f6cb204a37ca5cc93ec11d72a895530",
       "turns": 154,
       "chunks": 33,
       "warnings": []
     },
     {
-      "path": "episodes/garrett-lord/transcript.md",
+      "path": {
+        "omitted_string_sha256": "174269e78cee4cea073d5ba07856150684291457bbd8efee8185bd6cb02f934f",
+        "characters": 35
+      },
       "source_hash": "40b253ad5e25049efd67107a9d76aa42c8161561815bcaeb4a6f4d030b59ef7f",
       "turns": 178,
       "chunks": 37,
       "warnings": []
     },
     {
-      "path": "episodes/gaurav-misra/transcript.md",
+      "path": {
+        "omitted_string_sha256": "58f463905ef77a54f6b5066e496cf7628a4e60d7d1730642153a9e1895054212",
+        "characters": 35
+      },
       "source_hash": "ab761db5b0fefbed3c2560a3e413690a9b520792bd5b035e811778378c279874",
       "turns": 290,
       "chunks": 47,
       "warnings": [
-        "guest_title_mismatch_review_required"
+        {
+          "omitted_string_sha256": "29b93367714d0901b95c9aa056b9010f1869cf1c2d60d5a57d12fdcae742d421",
+          "characters": 36
+        }
       ]
     },
     {
-      "path": "episodes/geoff-charles/transcript.md",
+      "path": {
+        "omitted_string_sha256": "ed532b4805b2859178cfffb8d88d6fb7c2de4f780c06f247537e09c0612e0013",
+        "characters": 36
+      },
       "source_hash": "f8fb3663a8c5c28541e1c73e97203310ffb08674dc00ed16a88de13c5fcd79e3",
       "turns": 160,
       "chunks": 39,
       "warnings": []
     },
     {
-      "path": "episodes/geoffrey-moore/transcript.md",
+      "path": {
+        "omitted_string_sha256": "79394c94cfd5904b280c2a095be7579887cab29b9b2b91631c180af8026be4c7",
+        "characters": 37
+      },
       "source_hash": "0164d32588f8aa2a8a877c38bc1ec0ef632f105e183fa2d35a7a826a8d3d9d00",
       "turns": 163,
       "chunks": 44,
       "warnings": []
     },
     {
-      "path": "episodes/gergely/transcript.md",
+      "path": {
+        "omitted_string_sha256": "cfed754c3b9d65d9c9255ab5a2e49491d911e1a31665013783baa386ba15824b",
+        "characters": 30
+      },
       "source_hash": "1e0f0b25e8127580ee815481ee364dacd64a30f8c8b1e8eef17bdc32be76375e",
       "turns": 134,
       "chunks": 42,
       "warnings": []
     },
     {
-      "path": "episodes/gia-laudi/transcript.md",
+      "path": {
+        "omitted_string_sha256": "9c89989ced335876112153b6940462f78d799955f781150d466e44122f13c78d",
+        "characters": 32
+      },
       "source_hash": "a3d6899283fe9044db00878bda8df5c23b765581b8debe09456981db67c9d998",
       "turns": 184,
       "chunks": 35,
       "warnings": []
     },
     {
-      "path": "episodes/gibson-biddle/transcript.md",
+      "path": {
+        "omitted_string_sha256": "03a067baf94540318bebe3b52c838baa8a563773eabc14f0bce172ec2e96083e",
+        "characters": 36
+      },
       "source_hash": "b6633408da71fa528f94dadb362a74174b5b89563b50bf74a924761a6822cf45",
       "turns": 231,
       "chunks": 36,
       "warnings": [
-        "guest_title_mismatch_review_required"
+        {
+          "omitted_string_sha256": "29b93367714d0901b95c9aa056b9010f1869cf1c2d60d5a57d12fdcae742d421",
+          "characters": 36
+        }
       ]
     },
     {
-      "path": "episodes/gina-gotthilf/transcript.md",
+      "path": {
+        "omitted_string_sha256": "1e0a3e9f91893ccdd0303327ed5566f3aadc5ddc25c589761993f9e484445286",
+        "characters": 36
+      },
       "source_hash": "6bd92710fabe325e721e72c999a68e91e1980fd6577f8312d6b289d8ea265542",
       "turns": 276,
       "chunks": 54,
       "warnings": []
     },
     {
-      "path": "episodes/gokul-rajaram/transcript.md",
+      "path": {
+        "omitted_string_sha256": "0e002b263f68e5ad4219dc53a5c8013791343f506c987716f68b168cacc08301",
+        "characters": 36
+      },
       "source_hash": "8d8796cde99376cf145ae66083e45fc8ed4bbf00079180728f22309c3b478eac",
       "turns": 170,
       "chunks": 37,
       "warnings": []
     },
     {
-      "path": "episodes/graham-weaver/transcript.md",
+      "path": {
+        "omitted_string_sha256": "5f3e1308705354edb56f7f732fc449ad7cb5132b3398d1080c39677779d5a186",
+        "characters": 36
+      },
       "source_hash": "ad8a3a6f8e046532c8f09698b92066fa5482296acab4e0369621583e75998057",
       "turns": 163,
       "chunks": 36,
       "warnings": [
-        "non_monotonic_timestamp"
+        {
+          "omitted_string_sha256": "4d0191cda6604232dff14445984f6930466a2a80e8d22101bc832186f11d7bb3",
+          "characters": 23
+        }
       ]
     },
     {
-      "path": "episodes/grant-lee/transcript.md",
+      "path": {
+        "omitted_string_sha256": "0044aba5a2f76d5f2984b5ed78d45039200a0b2315ad33122dc27c251b43c4db",
+        "characters": 32
+      },
       "source_hash": "fbe3e6db1581a6f05a150c609d34f4e3293cc8c80a68623008f3fb42266a1ffe",
       "turns": 312,
       "chunks": 67,
       "warnings": []
     },
     {
-      "path": "episodes/guillermo-rauch/transcript.md",
+      "path": {
+        "omitted_string_sha256": "1b72be7826d64ac9fa332736f8f97d79ca5859aab6975e3d7b30069f03b378e7",
+        "characters": 38
+      },
       "source_hash": "24cb633187ad1eaf4637d3a4f2888b3c25e5587280ccc4a718ca65a353c4576f",
       "turns": 225,
       "chunks": 42,
       "warnings": [
-        "non_monotonic_timestamp"
+        {
+          "omitted_string_sha256": "4d0191cda6604232dff14445984f6930466a2a80e8d22101bc832186f11d7bb3",
+          "characters": 23
+        }
       ]
     },
     {
-      "path": "episodes/gustaf-alstromer/transcript.md",
+      "path": {
+        "omitted_string_sha256": "48e23471148e0d5725feffd90b62c14070afb9be6a12afe1f56b9fdd77f2a1ea",
+        "characters": 39
+      },
       "source_hash": "0a25f2b3f6dc8bdac427697b763cd34b42622a1df244de83fcc9e852ad3e87d8",
       "turns": 187,
       "chunks": 48,
       "warnings": [
-        "guest_title_mismatch_review_required"
+        {
+          "omitted_string_sha256": "29b93367714d0901b95c9aa056b9010f1869cf1c2d60d5a57d12fdcae742d421",
+          "characters": 36
+        }
       ]
     },
     {
-      "path": "episodes/gustav-s\u00f6derstr\u00f6m/transcript.md",
+      "path": {
+        "omitted_string_sha256": "0730905b11cd5c3ecafe02b8ee2e10cb6bd5bf2e89e3bd614fd0d8006e584fab",
+        "characters": 40
+      },
       "source_hash": "24e975c8af81113f7890690baca15d29b402cc2461e6e4087127f8f0f1d30575",
       "turns": 198,
       "chunks": 43,
       "warnings": []
     },
     {
-      "path": "episodes/hamel-husain-shreya-shankar/transcript.md",
+      "path": {
+        "omitted_string_sha256": "764009bea0046176ed5339101bbf79fe37de7a51cd38123d51cedc1c50830875",
+        "characters": 50
+      },
       "source_hash": "5376c0d1da9ce72f526b7155e70b9d38bc3e1b71965a731b2d9cd154a87e9b08",
       "turns": 380,
       "chunks": 54,
       "warnings": []
     },
     {
-      "path": "episodes/hamelshreya/transcript.md",
+      "path": {
+        "omitted_string_sha256": "591d50109383b05c77da13bde93e87c6d5f51538915b1e1d15e3057f80da4fc5",
+        "characters": 34
+      },
       "source_hash": "e002e038b7091a606b6485bb481a5935e166d3ac79162852ce683532058438ba",
       "turns": 380,
       "chunks": 54,
       "warnings": []
     },
     {
-      "path": "episodes/hamilton-helmer/transcript.md",
+      "path": {
+        "omitted_string_sha256": "42b93fc75c95d8d3b7421aed97378c3477d48a075244cfc9c92b1215bf7163b9",
+        "characters": 38
+      },
       "source_hash": "e4491d567868255fa8d554f7738850e68a2930711c5fc96859e13e3874e584b9",
       "turns": 132,
       "chunks": 29,
       "warnings": []
     },
     {
-      "path": "episodes/hari-srinivasan/transcript.md",
+      "path": {
+        "omitted_string_sha256": "16c56df5e3b93fb64dac170ea1c5f80da86266062ee6bdfa71a8241de3ac356c",
+        "characters": 38
+      },
       "source_hash": "23cbf224405a20a871da95ae3f8b9b7a33ae6f24179a879be3c62e8c00f939c7",
       "turns": 229,
       "chunks": 40,
       "warnings": []
     },
     {
-      "path": "episodes/heidi-helfand/transcript.md",
+      "path": {
+        "omitted_string_sha256": "0aa9fae0dee6d5f9884ab0e8b0c9a8f7bbe35fb3b8fbba72f6f8ad6833180477",
+        "characters": 36
+      },
       "source_hash": "6ad33c9d394e08241df8f1306bbcddb05b66f795e03d264d52b78a5f8d6a4eb3",
       "turns": 131,
       "chunks": 34,
       "warnings": []
     },
     {
-      "path": "episodes/hila-qu/transcript.md",
+      "path": {
+        "omitted_string_sha256": "0f30955e5b146e62051080a4900a55044db90769f91bde6bc4cbedc84be4ac4c",
+        "characters": 30
+      },
       "source_hash": "b8af78ad10f4cbcf6e05d37c762f5fb081fe960c939cc041ae490af772ad3050",
       "turns": 231,
       "chunks": 44,
       "warnings": []
     },
     {
-      "path": "episodes/hilary-gridley/transcript.md",
+      "path": {
+        "omitted_string_sha256": "2aec7ba0805b5b4926634a0760422c0d7727b253fc685350ef1ba3f0fea64c87",
+        "characters": 37
+      },
       "source_hash": "68503fb4fa4c35149407454412062044d54b1471ce908ae611e26fd07601eb8f",
       "turns": 381,
       "chunks": 62,
       "warnings": []
     },
     {
-      "path": "episodes/howie-liu/transcript.md",
+      "path": {
+        "omitted_string_sha256": "598bba1215460bfe0a637b98834c992eba504250dd4a6e89c2b5719596752fc2",
+        "characters": 32
+      },
       "source_hash": "7f3fcab8181ba9850b2eb787c598fc476b0308a22e6637a831aa9d84a3a3dbea",
       "turns": 267,
       "chunks": 50,
       "warnings": []
     },
     {
-      "path": "episodes/ian-mcallister/transcript.md",
+      "path": {
+        "omitted_string_sha256": "8944dfdc02e954a6c99a01ea51da82fe8ecbc1f718cec2b34cf83b6854c88990",
+        "characters": 37
+      },
       "source_hash": "432e44ad6273b184954a88abf654f286a4859c3ce75c31ece92c7aa89d7d2ae0",
       "turns": 138,
       "chunks": 36,
       "warnings": []
     },
     {
-      "path": "episodes/inbal-s/transcript.md",
+      "path": {
+        "omitted_string_sha256": "5071c143d78684759b6974ef9c2b08b5d5eb88b444f97e38a4dffaf47f9d41ae",
+        "characters": 30
+      },
       "source_hash": "92518452a2f6de65dd11d9590572802bed5f5dfc3a17b4ad267ec1b69bb59bb9",
       "turns": 148,
       "chunks": 27,
       "warnings": []
     },
     {
-      "path": "episodes/interview-q-compilation/transcript.md",
+      "path": {
+        "omitted_string_sha256": "390931f2cea6ca4308f14816a2c94ed27f779a508f3d1951465e5257c95752b2",
+        "characters": 46
+      },
       "source_hash": "748ec2640e05ac0e4ac419429b27ae0556cfff4e7983396ace4de62e4bb9907c",
       "turns": 56,
       "chunks": 11,
       "warnings": [
-        "guest_title_mismatch_review_required"
+        {
+          "omitted_string_sha256": "29b93367714d0901b95c9aa056b9010f1869cf1c2d60d5a57d12fdcae742d421",
+          "characters": 36
+        }
       ]
     },
     {
-      "path": "episodes/itamar-gilad/transcript.md",
+      "path": {
+        "omitted_string_sha256": "8ba655834d66eb2a0e7b50eac4e08ad477972568f39642f26fe63cdf2cbc7d22",
+        "characters": 35
+      },
       "source_hash": "6eeb41676b5af14c1bbde22f8793c8d302f39afac88fe2869efb80cd50334766",
       "turns": 182,
       "chunks": 37,
       "warnings": []
     },
     {
-      "path": "episodes/ivan-zhao/transcript.md",
+      "path": {
+        "omitted_string_sha256": "cb9613f73a645001ffe582b5482fd86ce4eeb078d9eab74e9f882a64cf7049bd",
+        "characters": 32
+      },
       "source_hash": "e00499c4c9edd02029ad13d6a08c8545404eb22d7273f1706902bc0990f32b4d",
       "turns": 191,
       "chunks": 37,
       "warnings": [
-        "guest_title_mismatch_review_required"
+        {
+          "omitted_string_sha256": "29b93367714d0901b95c9aa056b9010f1869cf1c2d60d5a57d12fdcae742d421",
+          "characters": 36
+        }
       ]
     },
     {
-      "path": "episodes/jackie-bavaro/transcript.md",
+      "path": {
+        "omitted_string_sha256": "6472b6e37b455bd242a6d7c412df5a6ecdb1fd8a6a003a20702a9c20a251ea79",
+        "characters": 36
+      },
       "source_hash": "b455ad97205076db749d85db146a4898eb8973d85fd3df365cb6148ef7851899",
       "turns": 154,
       "chunks": 31,
       "warnings": [
-        "guest_title_mismatch_review_required"
+        {
+          "omitted_string_sha256": "29b93367714d0901b95c9aa056b9010f1869cf1c2d60d5a57d12fdcae742d421",
+          "characters": 36
+        }
       ]
     },
     {
-      "path": "episodes/jackson-shuttleworth/transcript.md",
+      "path": {
+        "omitted_string_sha256": "16f2fc0b22cb5f6509724a8819047e93cd69197dd75a241cae68caade95b852b",
+        "characters": 43
+      },
       "source_hash": "050fa8517219b08c495661ed8118e73173b9c9f8a6d57e7b5187fa698ae84e02",
       "turns": 231,
       "chunks": 49,
       "warnings": []
     },
     {
-      "path": "episodes/jag-duggal/transcript.md",
+      "path": {
+        "omitted_string_sha256": "40b5a11e79fd6fd3262caad01ad6443eda98e85a23aaab2542cb725fd3402247",
+        "characters": 33
+      },
       "source_hash": "8acd1cbcfe697ea3c561a382bbefd3b88a39ad91c7323bd9c3ec61a9f3412925",
       "turns": 184,
       "chunks": 43,
       "warnings": []
     },
     {
-      "path": "episodes/jake-knapp-john-zeratsky/transcript.md",
+      "path": {
+        "omitted_string_sha256": "920ed9288e43b506021d1807a4b3d371479bab63ed41244b67cbe651f37839f0",
+        "characters": 47
+      },
       "source_hash": "1e4387abc9f9015f3c11b71fb0af8669a64bc89b7f7eeec811cfbf850b244870",
       "turns": 263,
       "chunks": 50,
       "warnings": []
     },
     {
-      "path": "episodes/jake-knapp-john-zeratsky-20/transcript.md",
+      "path": {
+        "omitted_string_sha256": "085ebb85d530ae27707203d64c43fdfaf434da43ff94057cefd425c418f7e728",
+        "characters": 50
+      },
       "source_hash": "420d24a25542ece131ff122c382ab574da1ae623e1011e1e0f5602233da783e0",
       "turns": 311,
       "chunks": 55,
       "warnings": [
-        "non_monotonic_timestamp"
+        {
+          "omitted_string_sha256": "4d0191cda6604232dff14445984f6930466a2a80e8d22101bc832186f11d7bb3",
+          "characters": 23
+        }
       ]
     },
     {
-      "path": "episodes/janna-bastow/transcript.md",
+      "path": {
+        "omitted_string_sha256": "6e2fed6d07b8464847c87066444136f5d55c882b27db445508412ae4ce28b63c",
+        "characters": 35
+      },
       "source_hash": "d305bd738fbb680e7f0f4ffa5a58b5c5321121baeb98ec1356991e21ec9113cb",
       "turns": 159,
       "chunks": 31,
       "warnings": []
     },
     {
-      "path": "episodes/jason-droege/transcript.md",
+      "path": {
+        "omitted_string_sha256": "b000340ff3ba503daacbf34e861ac41855b3a6b9035bfe9b73c477e9deb599d6",
+        "characters": 35
+      },
       "source_hash": "4ed4843ee115f0e962f8eb557108c5e31d01e6c45aac35b694f4689750050d6e",
       "turns": 193,
       "chunks": 45,
       "warnings": [
-        "guest_title_mismatch_review_required"
+        {
+          "omitted_string_sha256": "29b93367714d0901b95c9aa056b9010f1869cf1c2d60d5a57d12fdcae742d421",
+          "characters": 36
+        }
       ]
     },
     {
-      "path": "episodes/jason-feifer/transcript.md",
+      "path": {
+        "omitted_string_sha256": "c10dc9364f6ddf772a8ae919dcb5b3d1a7e53bd29a7559242255c58ee8eb8b62",
+        "characters": 35
+      },
       "source_hash": "99541d251abb741a1f95ac324a40881f52a41c3726fc097bf11283fb33cbc982",
       "turns": 308,
       "chunks": 55,
       "warnings": []
     },
     {
-      "path": "episodes/jason-fried/transcript.md",
+      "path": {
+        "omitted_string_sha256": "9992867a42ad2249edea7c532285b8752ff3bd58eae4d5315d80d64fa9170042",
+        "characters": 34
+      },
       "source_hash": "9fe6380a82de59b9b9daab5dac72d5b26aba736958961fe0dc864fb8d8756e43",
       "turns": 271,
       "chunks": 62,
       "warnings": []
     },
     {
-      "path": "episodes/jason-m-lemkin/transcript.md",
+      "path": {
+        "omitted_string_sha256": "b0689073258ee0e1cd6d3636a6e05b29ea6587cf2127ae0453e71cb7e3f8c882",
+        "characters": 37
+      },
       "source_hash": "da496a90c6dd5e472c13528f1567531b2f0459100ee191b7220bd3b2f9ea893d",
       "turns": 309,
       "chunks": 70,
       "warnings": []
     },
     {
-      "path": "episodes/jason-shah/transcript.md",
+      "path": {
+        "omitted_string_sha256": "0ea446606ee4bc63d620097eec1ae30f351ec5ff202c33c3580a92b2583c155d",
+        "characters": 33
+      },
       "source_hash": "6d782cc54731c0c21906d31a6e190e813e1a27e604eaf4e9111bef502e986985",
       "turns": 156,
       "chunks": 40,
       "warnings": []
     },
     {
-      "path": "episodes/jeanne-grosser/transcript.md",
+      "path": {
+        "omitted_string_sha256": "2317b75cdeba0cb26b0d6cfc1b49ebeeed68eb7fc97fce082176545b8762929d",
+        "characters": 37
+      },
       "source_hash": "bf222989e8e7aee7e122871f1bcfe5ccb15bbb517f9120ffa4b970448e4396f1",
       "turns": 156,
       "chunks": 42,
       "warnings": []
     },
     {
-      "path": "episodes/jeff-weinstein/transcript.md",
+      "path": {
+        "omitted_string_sha256": "52fdbae455ead3db73afbf6653329bbc72da501ff8dc6de7e81bb1c5243832da",
+        "characters": 37
+      },
       "source_hash": "61270a51665da86f790dde2842a846e39c91afba4090f842508d080a0563e612",
       "turns": 268,
       "chunks": 72,
       "warnings": []
     },
     {
-      "path": "episodes/jeffrey-pfeffer/transcript.md",
+      "path": {
+        "omitted_string_sha256": "7188d5e42fb2e0c518b0928266dc0188f4762009fee93cd63614e3eee8464bc4",
+        "characters": 38
+      },
       "source_hash": "23cbbb80facc9448c5a18bad0436203f718780c6b7d3ec781da71bec84542136",
       "turns": 172,
       "chunks": 41,
       "warnings": []
     },
     {
-      "path": "episodes/jen-abel/transcript.md",
+      "path": {
+        "omitted_string_sha256": "782a9405885168d3b46d3408f9e034e0f278f33d4d146564980d1b5b92d4fd55",
+        "characters": 31
+      },
       "source_hash": "a3268f6982405657b8fd7005233d9db435b79d66fd47fdaf1132b5ef548e9a98",
       "turns": 235,
       "chunks": 42,
       "warnings": []
     },
     {
-      "path": "episodes/jen-abel-20/transcript.md",
+      "path": {
+        "omitted_string_sha256": "c77abb3e5c13d893672360b0590367aefc19bca10bee16a04c94bb8b8424e8c5",
+        "characters": 34
+      },
       "source_hash": "a769aafa944421fb6a9fc624f060a7ac6469684f0a1d5e05f179d1bca17025db",
       "turns": 338,
       "chunks": 43,
       "warnings": []
     },
     {
-      "path": "episodes/jeremy-henrickson/transcript.md",
+      "path": {
+        "omitted_string_sha256": "0d4a9276d7b98835fe20bbecaa7a8db9b016efd804105e4f6d6c88cd2c6b8185",
+        "characters": 40
+      },
       "source_hash": "8e1677a19ebcd98da114af8bac08613a85da2b9ad0fa2782e13ce8678fe06d8b",
       "turns": 205,
       "chunks": 39,
       "warnings": []
     },
     {
-      "path": "episodes/jerry-colonna/transcript.md",
+      "path": {
+        "omitted_string_sha256": "101c354eec97b07ea686e2645c00782a1fbd71bd523169326e55e190b8c057de",
+        "characters": 36
+      },
       "source_hash": "e5e6f4647c59c4c1527b018999bb06c09a9ecf709d1eef63797056ce08faed54",
       "turns": 166,
       "chunks": 32,
       "warnings": []
     },
     {
-      "path": "episodes/jess-lachs/transcript.md",
+      "path": {
+        "omitted_string_sha256": "93d5433e95043736b132f55cd69240c342483428ff36cac872a37580339df4be",
+        "characters": 33
+      },
       "source_hash": "26bc70890dd51fbb2afbb6b881c5f00498d495ee45aa75c26836a6ecff02777a",
       "turns": 166,
       "chunks": 38,
       "warnings": []
     },
     {
-      "path": "episodes/jessica-hische/transcript.md",
+      "path": {
+        "omitted_string_sha256": "ae5a375373f3c393b4761c7747a6171522de80c676c73ffa20436e3558056049",
+        "characters": 37
+      },
       "source_hash": "9c2e586e3fdf9da85d7b20a8074df7d3fa4930f3e753313161913fc6a6b8e2eb",
       "turns": 150,
       "chunks": 41,
       "warnings": []
     },
     {
-      "path": "episodes/jessica-livingston/transcript.md",
+      "path": {
+        "omitted_string_sha256": "e5ec052b96a973ab0538c273adca2e6ccc1c937570b4285470e1b06b8d3469cc",
+        "characters": 41
+      },
       "source_hash": "f4818e7c1add71c7162306019e5c9826f09466de0e6a3cf4757155eed2a31db0",
       "turns": 212,
       "chunks": 41,
       "warnings": []
     },
     {
-      "path": "episodes/jiaona-zhang/transcript.md",
+      "path": {
+        "omitted_string_sha256": "2e40993110be658eec2c9339bc1363834a35d9606b10f442bba234d09a6340aa",
+        "characters": 35
+      },
       "source_hash": "7cbde437a8db842e100e7c976bf44ffc5bae3818a18e9e23c5acce01b0bec6d8",
       "turns": 168,
       "chunks": 38,
       "warnings": []
     },
     {
-      "path": "episodes/joe-hudson/transcript.md",
+      "path": {
+        "omitted_string_sha256": "30d5176e5e9f458af4e1c1a1d6457ae60d9969f01efe8ad22e5a2d1c205d3849",
+        "characters": 33
+      },
       "source_hash": "95e037ce651c6adabbe14a7db96965c11dd8abdf86b2e424be50c366532c3872",
       "turns": 158,
       "chunks": 39,
       "warnings": []
     },
     {
-      "path": "episodes/john-cutler/transcript.md",
+      "path": {
+        "omitted_string_sha256": "cacaeb8079e5e223f834700017641dae044bf5f2558591b8102fcdbb28530d46",
+        "characters": 34
+      },
       "source_hash": "8c1ba5459e0ab035a909afe5b6d1c0e2efe4dd31d41b6e17fde6476794661e05",
       "turns": 283,
       "chunks": 56,
       "warnings": [
-        "non_monotonic_timestamp"
+        {
+          "omitted_string_sha256": "4d0191cda6604232dff14445984f6930466a2a80e8d22101bc832186f11d7bb3",
+          "characters": 23
+        }
       ]
     },
     {
-      "path": "episodes/john-mark-nickels/transcript.md",
+      "path": {
+        "omitted_string_sha256": "89d99cd81e610f4019e144f7d139fdf8e6864435adf3ee783c918cf97613cb5e",
+        "characters": 40
+      },
       "source_hash": "5ebc70c61a14d2afce1645e54ccaedd297079443aaa30d0bd206d51af4719810",
       "turns": 169,
       "chunks": 42,
       "warnings": [
-        "guest_title_mismatch_review_required"
+        {
+          "omitted_string_sha256": "29b93367714d0901b95c9aa056b9010f1869cf1c2d60d5a57d12fdcae742d421",
+          "characters": 36
+        }
       ]
     },
     {
-      "path": "episodes/jonathan-becker/transcript.md",
+      "path": {
+        "omitted_string_sha256": "d80c8ad122de07a796f73ffbf86e518056a281f560f498b77764290a510cc4f7",
+        "characters": 38
+      },
       "source_hash": "4d76b53c410dfd9e005144ad43ac4ca340661621e7c03d769c32a66be916e205",
       "turns": 189,
       "chunks": 47,
       "warnings": []
     },
     {
-      "path": "episodes/jonathan-lowenhar/transcript.md",
+      "path": {
+        "omitted_string_sha256": "aa985eb454801dabfd50dcf31fb5c0b74463d846e7bf664fb655df4393e03788",
+        "characters": 40
+      },
       "source_hash": "8d0e8353f9d66555770319d7ea99cb25ba92179e8e962b2f84fa5edfa059703a",
       "turns": 210,
       "chunks": 47,
       "warnings": []
     },
     {
-      "path": "episodes/jonny-miller/transcript.md",
+      "path": {
+        "omitted_string_sha256": "701dc01b9ee6e682df1daa21548cc71263a5f973dcff989bc3fc824d12047c7f",
+        "characters": 35
+      },
       "source_hash": "d76f870cceb895d6131b640b738c32b922ea9cf0ffd14a53d39ca7484fb5dfcd",
       "turns": 187,
       "chunks": 38,
       "warnings": []
     },
     {
-      "path": "episodes/josh-miller/transcript.md",
+      "path": {
+        "omitted_string_sha256": "121e29fd019713cd5cae11244b6cb4ad8b0abff65c8a645d2bc90d80a8e6fc41",
+        "characters": 34
+      },
       "source_hash": "3b7271a162e98a6c6034e84d34814d512468624691bd418acf15502cc4219c9b",
       "turns": 170,
       "chunks": 47,
       "warnings": []
     },
     {
-      "path": "episodes/judd-antin/transcript.md",
+      "path": {
+        "omitted_string_sha256": "58092ad0515ce4bd602b51234a4f6129f848db97f7025b20e4981f96a40d0250",
+        "characters": 33
+      },
       "source_hash": "a9afafee26d41e0ab5053f416996243860a51b3f20166a93803e46819c91dbd9",
       "turns": 192,
       "chunks": 39,
       "warnings": []
     },
     {
-      "path": "episodes/jules-walter/transcript.md",
+      "path": {
+        "omitted_string_sha256": "1afc8562de361c53414f4b59caa0354205d2f10dd8140be05d7ebb9b0c5c82ca",
+        "characters": 35
+      },
       "source_hash": "a219cd8257fa67e2108d2d25838fd62ab4d88ce14f194b882827e2f3433b38cb",
       "turns": 173,
       "chunks": 38,
       "warnings": []
     },
     {
-      "path": "episodes/julia-schottenstein/transcript.md",
+      "path": {
+        "omitted_string_sha256": "6926769178276e4f12c729f080ca5a31828f72dbacbea84addc4dcc2f0c399b6",
+        "characters": 42
+      },
       "source_hash": "3f1028f9fd9a1bb1556bbbb05040441f90ba0841ac91b2c94d76f07fc1b374f3",
       "turns": 135,
       "chunks": 31,
       "warnings": []
     },
     {
-      "path": "episodes/julian-shapiro/transcript.md",
+      "path": {
+        "omitted_string_sha256": "f987e5313d591040ca3dea9c3a3256187357b4ea32cdd77a288cf604f259cbe9",
+        "characters": 37
+      },
       "source_hash": "58734066d142bc248bb85b8e9ee63861d887a3de1600d30f9868c83854dada42",
       "turns": 154,
       "chunks": 33,
       "warnings": [
-        "guest_title_mismatch_review_required"
+        {
+          "omitted_string_sha256": "29b93367714d0901b95c9aa056b9010f1869cf1c2d60d5a57d12fdcae742d421",
+          "characters": 36
+        }
       ]
     },
     {
-      "path": "episodes/julie-zhuo/transcript.md",
+      "path": {
+        "omitted_string_sha256": "fcef578024e172fde123cf0c7703e88f31149d0d4ebf0c63d769fe9ee82fcd04",
+        "characters": 33
+      },
       "source_hash": "2ef8f9e32e63296ecdb53d3cc0eb296b34dd88cce4dc4fa5a90a28f463812f8c",
       "turns": 250,
       "chunks": 52,
       "warnings": []
     },
     {
-      "path": "episodes/julie-zhuo-20/transcript.md",
+      "path": {
+        "omitted_string_sha256": "ec23ecf60c851b88035724877af3554b2d112625f58fa6fe917999ad67543d8f",
+        "characters": 36
+      },
       "source_hash": "0acf8ccbfd52de9afcac38cdd84a2427882a99981f6fed6ff621ec3d0018f251",
       "turns": 250,
       "chunks": 52,
       "warnings": []
     },
     {
-      "path": "episodes/karina-nguyen/transcript.md",
+      "path": {
+        "omitted_string_sha256": "b4cde56c8fae17e5941d904e2cb75dda5d1d45ee6d36a94dab6923d85fc2ed0a",
+        "characters": 36
+      },
       "source_hash": "87c278f68d10f10872110c6bfb1a6df4495fe68c722ecb1e63e684506718df7f",
       "turns": 208,
       "chunks": 35,
       "warnings": [
-        "non_monotonic_timestamp"
+        {
+          "omitted_string_sha256": "4d0191cda6604232dff14445984f6930466a2a80e8d22101bc832186f11d7bb3",
+          "characters": 23
+        }
       ]
     },
     {
-      "path": "episodes/karri-saarinen/transcript.md",
+      "path": {
+        "omitted_string_sha256": "a2af52485bd31ed8e3ffa6a9d2169f36046779b7a121f13c191ad20fcac708b6",
+        "characters": 37
+      },
       "source_hash": "506df1ade112622b66ab13995a1fe078cca919b51386e6172697b94808f58510",
       "turns": 224,
       "chunks": 49,
       "warnings": [
-        "non_monotonic_timestamp"
+        {
+          "omitted_string_sha256": "4d0191cda6604232dff14445984f6930466a2a80e8d22101bc832186f11d7bb3",
+          "characters": 23
+        }
       ]
     },
     {
-      "path": "episodes/katie-dill/transcript.md",
+      "path": {
+        "omitted_string_sha256": "689c15a08c57bf0061a1eed95f8da938e5fcf07be41ae973e9f3d32d2dd99afb",
+        "characters": 33
+      },
       "source_hash": "a4252f304bae29bd9c3aa94dfe9b078038c914b6e4682928fe2bfd8a448ab590",
       "turns": 219,
       "chunks": 46,
       "warnings": []
     },
     {
-      "path": "episodes/kayvon-beykpour/transcript.md",
+      "path": {
+        "omitted_string_sha256": "125432fc9342bde3712e3fb0349341bd988955a71bb92f40bf51e7be453ebc31",
+        "characters": 38
+      },
       "source_hash": "2e4e75e88f5a582c8da6946b433dad20fcc55d38b70f7beabbca792757cfc294",
       "turns": 198,
       "chunks": 49,
       "warnings": []
     },
     {
-      "path": "episodes/keith-coleman-jay-baxter/transcript.md",
+      "path": {
+        "omitted_string_sha256": "6f42edfc0806ba9ce55b1899df4dfcd42093c566a931f61f891d07ad34319f4f",
+        "characters": 47
+      },
       "source_hash": "f4a59b6ef75b76747e4b787a02c36e3e10e3b47106a508fdead6bbd3f795a82a",
       "turns": 288,
       "chunks": 54,
       "warnings": []
     },
     {
-      "path": "episodes/keith-yandell/transcript.md",
+      "path": {
+        "omitted_string_sha256": "94121eff2d7e48eade1554ea2456a13db61331bd26f92f4eb557c1c6dde8d831",
+        "characters": 36
+      },
       "source_hash": "eeb0815903c0013f75520f501ffa21a974387831dbef12a685c503963b718825",
       "turns": 121,
       "chunks": 32,
       "warnings": []
     },
     {
-      "path": "episodes/ken-norton/transcript.md",
+      "path": {
+        "omitted_string_sha256": "d8efd05158194e07a92e99435d975f9ea28e9bf64f364f8554f7f5935c5e2b27",
+        "characters": 33
+      },
       "source_hash": "dd10af7ecb239013ee3822ebf51f92529d96d841fee43f72655780b6e90a522f",
       "turns": 231,
       "chunks": 39,
       "warnings": [
-        "non_monotonic_timestamp"
+        {
+          "omitted_string_sha256": "4d0191cda6604232dff14445984f6930466a2a80e8d22101bc832186f11d7bb3",
+          "characters": 23
+        }
       ]
     },
     {
-      "path": "episodes/kenneth-berger/transcript.md",
+      "path": {
+        "omitted_string_sha256": "95c8deb6a1c1f615a274a8de41e9dd116dab1e9a81dd0263f6df5e2aad10b57e",
+        "characters": 37
+      },
       "source_hash": "7e26c17dab465fbee04712a5d2aa9017b19bd6ab43ca365d4126184e53896655",
       "turns": 204,
       "chunks": 40,
       "warnings": []
     },
     {
-      "path": "episodes/kevin-aluwi/transcript.md",
+      "path": {
+        "omitted_string_sha256": "af15c66e1e5a424c587ff0278a82d0d3b62b54a0a1413f9f735c889464fde725",
+        "characters": 34
+      },
       "source_hash": "acb4adc34a964cede8b82ea362684860399a26ef76aca23b2d120d8b46cf1712",
       "turns": 117,
       "chunks": 27,
       "warnings": []
     },
     {
-      "path": "episodes/kevin-weil/transcript.md",
+      "path": {
+        "omitted_string_sha256": "7ee344e3e13c1224a75e90adb818fe71a03fc8c3b5f14a45b7e8f3c88d02b68d",
+        "characters": 33
+      },
       "source_hash": "bc7bdfae5103b8f560b185cdaecc15cce10dbfd9e95d8df0e6227835a4d0b45f",
       "turns": 240,
       "chunks": 47,
       "warnings": []
     },
     {
-      "path": "episodes/kevin-yien/transcript.md",
+      "path": {
+        "omitted_string_sha256": "626e1af2b3e9efde2ee33429ad92342fdec6d298325bf4ce4915f06909a9c22b",
+        "characters": 33
+      },
       "source_hash": "09eeaf578512df21302392095e66fd43e749a5f900476f5fcd49d2f735a24f63",
       "turns": 254,
       "chunks": 46,
       "warnings": []
     },
     {
-      "path": "episodes/kim-scott/transcript.md",
+      "path": {
+        "omitted_string_sha256": "bf4c4a6b35934a5762b27ef4fa4fa34c62c67a7b2e7236eb5ca979054862db2a",
+        "characters": 32
+      },
       "source_hash": "3f806323f2effbe7c417b1f47b17945c18eb9be1ba0b6b2ef7e63253e8b7f3f5",
       "turns": 213,
       "chunks": 43,
       "warnings": [
-        "guest_title_mismatch_review_required"
+        {
+          "omitted_string_sha256": "29b93367714d0901b95c9aa056b9010f1869cf1c2d60d5a57d12fdcae742d421",
+          "characters": 36
+        }
       ]
     },
     {
-      "path": "episodes/kristen-berman/transcript.md",
+      "path": {
+        "omitted_string_sha256": "368b1494d5a09f255c4d26bf7ccee15cffdfbcd10da8a52947f7030f8f5bf713",
+        "characters": 37
+      },
       "source_hash": "e956f8d9d1d7cc73c9d3a14ae6191c02588927682499300ce860d12a8fd67cdf",
       "turns": 195,
       "chunks": 32,
       "warnings": []
     },
     {
-      "path": "episodes/krithika-shankarraman/transcript.md",
+      "path": {
+        "omitted_string_sha256": "10c666fcdff08de11d6876c950f94ab88460dde5e1e00a15af53b18cced1f422",
+        "characters": 44
+      },
       "source_hash": "b474e81a9a3d3e8419a1f3667294946f2ff77c8f0ef0190ca55423cf4f9d28b6",
       "turns": 202,
       "chunks": 41,
       "warnings": []
     },
     {
-      "path": "episodes/kunal-shah/transcript.md",
+      "path": {
+        "omitted_string_sha256": "b3ba8de78a4dfb4e36848062f7bafb65f108fa9f852b53b44b7afdda0716e68f",
+        "characters": 33
+      },
       "source_hash": "1a0173fb36b98732a6819525a336e588adfce0e12dbb2955989d9a1f29924572",
       "turns": 793,
       "chunks": 47,
       "warnings": []
     },
     {
-      "path": "episodes/lane-shackleton/transcript.md",
+      "path": {
+        "omitted_string_sha256": "baa1f58b2b96bcc37959b145e255d14a0f032b81af5ceffc7974c6e3d1eb603d",
+        "characters": 38
+      },
       "source_hash": "041749ea073d70b4b5806009a34cdd155cfdef3d2fd6416c44255e2ff5472c86",
       "turns": 205,
       "chunks": 45,
       "warnings": []
     },
     {
-      "path": "episodes/laura-modi/transcript.md",
+      "path": {
+        "omitted_string_sha256": "5abaaec38eb2a53e45f0bdfd89ecc00259ae4c7b81f5964ad716bbfc663ff379",
+        "characters": 33
+      },
       "source_hash": "9a929ced91bacaa23d7a316b479135b435f22c041cee9468db96f5e6afa84d34",
       "turns": 218,
       "chunks": 32,
       "warnings": [
-        "guest_title_mismatch_review_required"
+        {
+          "omitted_string_sha256": "29b93367714d0901b95c9aa056b9010f1869cf1c2d60d5a57d12fdcae742d421",
+          "characters": 36
+        }
       ]
     },
     {
-      "path": "episodes/laura-schaffer/transcript.md",
+      "path": {
+        "omitted_string_sha256": "859cae22929131fc66ffba5cbeafc62d920fa47f34a3a004931ee3a0ff067832",
+        "characters": 37
+      },
       "source_hash": "071bf0287ab15d0af557d34e18e9cbefeb3f55d277db7f829ae2e550658a923d",
       "turns": 185,
       "chunks": 43,
       "warnings": []
     },
     {
-      "path": "episodes/lauren-ipsen/transcript.md",
+      "path": {
+        "omitted_string_sha256": "7ea8e4c88d6d553e000446e1e2e7b511c2ec2e2349d397bdaa1966e47f8782b5",
+        "characters": 35
+      },
       "source_hash": "61c668f483dca6359d994e31d7032ea47e7d724cf10274b8bd27a2e2b2c1ce32",
       "turns": 219,
       "chunks": 38,
       "warnings": []
     },
     {
-      "path": "episodes/lauryn-isford/transcript.md",
+      "path": {
+        "omitted_string_sha256": "a701d48254ceb1131c192048fa75571a26982f9f4b615e3baf7015d4caef6f74",
+        "characters": 36
+      },
       "source_hash": "f3c39fa386ccf126a4e513f03c7979a75991cb2bc6d26bce9105f145b41bbba7",
       "turns": 148,
       "chunks": 33,
       "warnings": []
     },
     {
-      "path": "episodes/logan-kilpatrick/transcript.md",
+      "path": {
+        "omitted_string_sha256": "a5b82c95c19ee8bb3cdf3d22f299252a4ea7fd0164bb483ee5e5d882e8dfb7c0",
+        "characters": 39
+      },
       "source_hash": "b410efbc1e9be7ed18f653de0dac4594b2886b3a03d03b8472e612b88552dc51",
       "turns": 169,
       "chunks": 38,
       "warnings": []
     },
     {
-      "path": "episodes/luc-levesque/transcript.md",
+      "path": {
+        "omitted_string_sha256": "953c2af14e7409c3d30e64a8f925c86f9e5bcd8289e150882b26bcfad9e10803",
+        "characters": 35
+      },
       "source_hash": "cca668942ee5502303fe0154bda0858cab4c943c05ee1c985b9c412411f53977",
       "turns": 203,
       "chunks": 45,
       "warnings": []
     },
     {
-      "path": "episodes/lulu-cheng-meservey/transcript.md",
+      "path": {
+        "omitted_string_sha256": "7050a249bccc38fbb99ab2b003b903c4e092042060a422346316b715c162fd00",
+        "characters": 42
+      },
       "source_hash": "fdad69f6ae36435bb1ab7078da8caf0b9b5308d2d9e677183de2321ad62173b9",
       "turns": 147,
       "chunks": 33,
       "warnings": []
     },
     {
-      "path": "episodes/madhavan-ramanujam/transcript.md",
+      "path": {
+        "omitted_string_sha256": "a6a7b9054a89c38f7cd74985842d75ac63170b4fdddce3389a4c9ae55e5c2f3d",
+        "characters": 41
+      },
       "source_hash": "0029c683603349a20ef40eae3a5405a664161223c7e8a70632467a8d871a6bf6",
       "turns": 229,
       "chunks": 40,
       "warnings": []
     },
     {
-      "path": "episodes/madhavan-ramanujam-20/transcript.md",
+      "path": {
+        "omitted_string_sha256": "ac8aae897924751626e854aa354136a60294fbb7f392cd54caeca0cfd777673a",
+        "characters": 44
+      },
       "source_hash": "fdd39a26c8be99dc7424c8c17ec5d858952d0569094efb7a05b4783235d82644",
       "turns": 229,
       "chunks": 40,
       "warnings": []
     },
     {
-      "path": "episodes/maggie-crowley/transcript.md",
+      "path": {
+        "omitted_string_sha256": "b433c2db8831dc5610d350a99c5223b5e8be56a510588ec90396a7ff1c525a25",
+        "characters": 37
+      },
       "source_hash": "8a28b8030f9af75009637f11a209a970a4bdf4542d504f7244243b5728b63db9",
       "turns": 219,
       "chunks": 46,
       "warnings": []
     },
     {
-      "path": "episodes/manik-gupta/transcript.md",
+      "path": {
+        "omitted_string_sha256": "8f1f368b854e7fdc0443e1e2ba1f803ff4da9b88779de2896b163bf3d8aabb4f",
+        "characters": 34
+      },
       "source_hash": "5510ca39f5a3a70c16ed8f88e36c91a1507e517d95b15cf9817ded08023338aa",
       "turns": 132,
       "chunks": 36,
       "warnings": [
-        "guest_title_mismatch_review_required"
+        {
+          "omitted_string_sha256": "29b93367714d0901b95c9aa056b9010f1869cf1c2d60d5a57d12fdcae742d421",
+          "characters": 36
+        }
       ]
     },
     {
-      "path": "episodes/marc-benioff/transcript.md",
+      "path": {
+        "omitted_string_sha256": "b1b16410207ef84e64f495577be7f979d6394c7ab76e05d9057619cc73932998",
+        "characters": 35
+      },
       "source_hash": "88cff96fc51a8e7cbbc696094421b5633b909bedfe02b57fba1138e152f62b59",
       "turns": 168,
       "chunks": 30,
       "warnings": [
-        "non_monotonic_timestamp"
+        {
+          "omitted_string_sha256": "4d0191cda6604232dff14445984f6930466a2a80e8d22101bc832186f11d7bb3",
+          "characters": 23
+        }
       ]
     },
     {
-      "path": "episodes/marily-nika/transcript.md",
+      "path": {
+        "omitted_string_sha256": "d168880a19e4943f392f70fe05bb3ea2e0872616a6453bc3f7b982dae69fe046",
+        "characters": 34
+      },
       "source_hash": "064213138d8ad5e32b0827965fe1d412b903f319f6584c50bb031a8e4f73651f",
       "turns": 133,
       "chunks": 26,
       "warnings": []
     },
     {
-      "path": "episodes/marty-cagan/transcript.md",
+      "path": {
+        "omitted_string_sha256": "d0a084988b39b2a7744247e4b11a1c170b1640a1d23c3b615da1138be444d863",
+        "characters": 34
+      },
       "source_hash": "727a14d1eb7229874c4310b39d6578a1232e77d5ed023ca29a415dfb88920534",
       "turns": 174,
       "chunks": 41,
       "warnings": []
     },
     {
-      "path": "episodes/marty-cagan-20/transcript.md",
+      "path": {
+        "omitted_string_sha256": "3692d29daef0ce05b614c88966d13d8bca5c59910782be2b60dd58d31557e5ac",
+        "characters": 37
+      },
       "source_hash": "9b6ace7e2bde23e370e7174b1857592f5d0f870503166e68e677010f3819a659",
       "turns": 174,
       "chunks": 41,
       "warnings": []
     },
     {
-      "path": "episodes/matt-abrahams/transcript.md",
+      "path": {
+        "omitted_string_sha256": "d5429b92418a299a404219b992912a9b6a823e4bafac6399148442bfb44d6844",
+        "characters": 36
+      },
       "source_hash": "c14dfa2f355ee0f096b4e34475efac39ad8373a6bc44b18a5d815297f474c5cc",
       "turns": 234,
       "chunks": 42,
       "warnings": []
     },
     {
-      "path": "episodes/matt-dixon/transcript.md",
+      "path": {
+        "omitted_string_sha256": "f56b1223a30c05d76294152107014d30f7ea6e6b42b0c65367827148c2c2cf5c",
+        "characters": 33
+      },
       "source_hash": "0ae2d65a0701ce26006853bc5e44441cb8a750d9cd1806bf8539ed194d54d72b",
       "turns": 181,
       "chunks": 34,
       "warnings": []
     },
     {
-      "path": "episodes/matt-lemay/transcript.md",
+      "path": {
+        "omitted_string_sha256": "4f77ed5e95a8273815849e1b8bf99d96c3bad182fc87c153152812d2dd8e6118",
+        "characters": 33
+      },
       "source_hash": "62203fe6b7d3c5f7a748669cd00530fb689a7f8c61d18f1ecce2fe3dce506de9",
       "turns": 331,
       "chunks": 49,
       "warnings": []
     },
     {
-      "path": "episodes/matt-macinnis/transcript.md",
+      "path": {
+        "omitted_string_sha256": "796ade39b5129ff33b0dc5b56c793089db3a6a48d7b991ce1065bb4bc1361b77",
+        "characters": 36
+      },
       "source_hash": "7c44865c51c91c48957f43f34e0c3e5b3bcc9ca4ff26baf4b0d69059d01f9c24",
       "turns": 261,
       "chunks": 51,
       "warnings": [
-        "guest_title_mismatch_review_required"
+        {
+          "omitted_string_sha256": "29b93367714d0901b95c9aa056b9010f1869cf1c2d60d5a57d12fdcae742d421",
+          "characters": 36
+        }
       ]
     },
     {
-      "path": "episodes/matt-mochary/transcript.md",
+      "path": {
+        "omitted_string_sha256": "e392d4b945309facca82d9f6cad471db0d338472a7c03861893e6360b5c8865c",
+        "characters": 35
+      },
       "source_hash": "99251af70c8116b1abdeb00083680b55288481142d3cd07d81fdade2dd677397",
       "turns": 162,
       "chunks": 37,
       "warnings": []
     },
     {
-      "path": "episodes/matt-mullenweg/transcript.md",
+      "path": {
+        "omitted_string_sha256": "e086116d8509b25addf2fe987143da4f8dc652a889b347f1ae31e54f91665fe9",
+        "characters": 37
+      },
       "source_hash": "bb32532bebcb2e0d14fa27244a05b0546109794a0fd218934596cea661afc699",
       "turns": 212,
       "chunks": 51,
       "warnings": [
-        "guest_title_mismatch_review_required"
+        {
+          "omitted_string_sha256": "29b93367714d0901b95c9aa056b9010f1869cf1c2d60d5a57d12fdcae742d421",
+          "characters": 36
+        }
       ]
     },
     {
-      "path": "episodes/matthew-dicks/transcript.md",
+      "path": {
+        "omitted_string_sha256": "0581065edad7e816cc3223569414b3b6ed1aac2dde127a24e62a92cb581e3259",
+        "characters": 36
+      },
       "source_hash": "c1b8a58dab9f41d081a23b72d3ad4d312877e857c227dcab51d007374e287fcf",
       "turns": 225,
       "chunks": 59,
       "warnings": []
     },
     {
-      "path": "episodes/maya-prohovnik/transcript.md",
+      "path": {
+        "omitted_string_sha256": "3e1fdcdcfa92b91f37a48cd47a7e2fa2064f10cf9052ba6cb902d6eaf018fa4b",
+        "characters": 37
+      },
       "source_hash": "ead1cf49eeb43bfd4aeb6f4cdbcaf553d23080feb8c837891c5d7a913f056841",
       "turns": 209,
       "chunks": 41,
       "warnings": []
     },
     {
-      "path": "episodes/mayur-kamat/transcript.md",
+      "path": {
+        "omitted_string_sha256": "3a1ff18a9fc69e19022b100464dfd412edfca1106fd3fe81cb378af23df19e4d",
+        "characters": 34
+      },
       "source_hash": "5fd180626d4ef53cfc4b96e64f8fe42dcb7b9da6d613eb345b263d3a1a15fa8a",
       "turns": 193,
       "chunks": 48,
       "warnings": []
     },
     {
-      "path": "episodes/megan-cook/transcript.md",
+      "path": {
+        "omitted_string_sha256": "f3c036e331a53e181435c682db7f8bef149d13e7cf7dbe39deff6e0ca612f73c",
+        "characters": 33
+      },
       "source_hash": "649d2e85570c18b34a73a07ef135d920ec280819773a276bd916f99b4516198d",
       "turns": 207,
       "chunks": 42,
       "warnings": []
     },
     {
-      "path": "episodes/melanie-perkins/transcript.md",
+      "path": {
+        "omitted_string_sha256": "ec93b89b8bffbe3598b7c5531fcde716335c2e5681a9b6bbd91acc67a625cad2",
+        "characters": 38
+      },
       "source_hash": "4cdb2633e18f367093661ad41b969c0737545f2ba9cd403c4bd2057bd7173bfc",
       "turns": 172,
       "chunks": 38,
       "warnings": []
     },
     {
-      "path": "episodes/melissa/transcript.md",
+      "path": {
+        "omitted_string_sha256": "33e1246be9cf2bd70df553c3332098967121107b288b9796abf684c46b9d4198",
+        "characters": 30
+      },
       "source_hash": "03eeccf774b2abd4dddc05c77bfcc9fab4071f8a6030baefd19f75ea7bd4d091",
       "turns": 144,
       "chunks": 30,
       "warnings": []
     },
     {
-      "path": "episodes/melissa-perri/transcript.md",
+      "path": {
+        "omitted_string_sha256": "4fe618722ee3ab209a5cb8dd09d043f1db055cef95eaa344ca4532757322aca8",
+        "characters": 36
+      },
       "source_hash": "7a40f0d771ae913f9b50de61ec27c8c14ece374db1ffa6911f2cd02a1191a71f",
       "turns": 156,
       "chunks": 45,
       "warnings": []
     },
     {
-      "path": "episodes/melissa-perri-denise-tilles/transcript.md",
+      "path": {
+        "omitted_string_sha256": "dcc102a5bae31db99ffa44b97f91f1114adb8ce67271bb2854e8b8d60d46a9fa",
+        "characters": 50
+      },
       "source_hash": "bc1a0f90065c5a37f786ca0c8fadd7fce01561e6f4480be1ad14570a5aa6b202",
       "turns": 195,
       "chunks": 43,
       "warnings": []
     },
     {
-      "path": "episodes/melissa-tan/transcript.md",
+      "path": {
+        "omitted_string_sha256": "49cf682c3969cfe14351a2d9abd13ee6f6d6947437ef8e86a6a1f8bf61236c42",
+        "characters": 34
+      },
       "source_hash": "0d0fe116be27e6227e8ea985c9e4d024541231cc75018cc7992e80f10175b06d",
       "turns": 177,
       "chunks": 41,
       "warnings": []
     },
     {
-      "path": "episodes/meltem-kuran/transcript.md",
+      "path": {
+        "omitted_string_sha256": "fb37dcab3f1258e634686aab30ca586e3811a5a21bec9d876147a6d5bd6ce54c",
+        "characters": 35
+      },
       "source_hash": "c82e89f774c3c9ef95c61840eab1ce006ed617dfdc7facefdb313829454d918f",
       "turns": 214,
       "chunks": 43,
       "warnings": []
     },
     {
-      "path": "episodes/merci-grace/transcript.md",
+      "path": {
+        "omitted_string_sha256": "ad3028d5d1a83c9ab01dd73d10d435b23ff2e6de2999a45413c903c6935147b2",
+        "characters": 34
+      },
       "source_hash": "6b6ccb4a7304dfc059273466ed94c6e4bcf1521d436dbd651c4ec5bbc112862e",
       "turns": 140,
       "chunks": 29,
       "warnings": [
-        "guest_title_mismatch_review_required"
+        {
+          "omitted_string_sha256": "29b93367714d0901b95c9aa056b9010f1869cf1c2d60d5a57d12fdcae742d421",
+          "characters": 36
+        }
       ]
     },
     {
-      "path": "episodes/michael-truell/transcript.md",
+      "path": {
+        "omitted_string_sha256": "0528068603ab4e2025d161139b0ec4d84a0c44787652d96bb841000275d1ee1e",
+        "characters": 37
+      },
       "source_hash": "ce9bc2042a43be57f7378ec5b3313bd35a83ba9ff891cd20ee6db6965c1fda39",
       "turns": 155,
       "chunks": 36,
       "warnings": []
     },
     {
-      "path": "episodes/mihika-kapoor/transcript.md",
+      "path": {
+        "omitted_string_sha256": "568a235c43bee27ed30edd73ea5038f87ab04305645d02ab35bda495c7ab3895",
+        "characters": 36
+      },
       "source_hash": "01cb50db11839ad7cb820153f45658470240abfb0de8aad7bd1dc4c60123d6af",
       "turns": 200,
       "chunks": 52,
       "warnings": []
     },
     {
-      "path": "episodes/mike-krieger/transcript.md",
+      "path": {
+        "omitted_string_sha256": "95efd77fb0b93b037073fc58252076db5a1330685b94a468d32a75e42246665f",
+        "characters": 35
+      },
       "source_hash": "f9d54953e765f2c317327b389f1617dbb8cb1b63491280303f9a1a0a1260e4c1",
       "turns": 146,
       "chunks": 38,
       "warnings": []
     },
     {
-      "path": "episodes/mike-maples-jr/transcript.md",
+      "path": {
+        "omitted_string_sha256": "012744c9196aa8aff6e06fa2ed2e681123aef330dc847dc0e77870b203be1a5f",
+        "characters": 37
+      },
       "source_hash": "1a455a5c593c29285804c5e021807e07ecb01cdcbb0ee18d70525082872acf05",
       "turns": 222,
       "chunks": 56,
       "warnings": [
-        "non_monotonic_timestamp"
+        {
+          "omitted_string_sha256": "4d0191cda6604232dff14445984f6930466a2a80e8d22101bc832186f11d7bb3",
+          "characters": 23
+        }
       ]
     },
     {
-      "path": "episodes/molly-graham/transcript.md",
+      "path": {
+        "omitted_string_sha256": "e234a92aecf2f3ceaab39ac4927467c68c0d8d81c23f9da8fab3be58b996a56c",
+        "characters": 35
+      },
       "source_hash": "118d710bef90890e4f87ed945f329de378423a2b5cd503c021f29909fa153b39",
       "turns": 237,
       "chunks": 49,
       "warnings": []
     },
     {
-      "path": "episodes/nabeel-s-qureshi/transcript.md",
+      "path": {
+        "omitted_string_sha256": "ac264cf9461db978b3eaa076421036edcc7dd4cc3db9760f8921b236b44faf14",
+        "characters": 39
+      },
       "source_hash": "35051fe64c1b2533d6cea1055132d3e98128d53bbb73f4e8cc4107ff425dec96",
       "turns": 233,
       "chunks": 53,
       "warnings": []
     },
     {
-      "path": "episodes/nan-yu/transcript.md",
+      "path": {
+        "omitted_string_sha256": "0f88d68d01153d3407d4a0ba0976c17cb9256c96b4c61f2d7b133eda841b7dbe",
+        "characters": 29
+      },
       "source_hash": "f7de1a664997c3ba4765267c72d81a37c791737200bef1f3e3739bbe83b5a86b",
       "turns": 210,
       "chunks": 45,
       "warnings": []
     },
     {
-      "path": "episodes/nancy-duarte/transcript.md",
+      "path": {
+        "omitted_string_sha256": "9a51fe1854235b44384e93e687706996327c27e69ee90d63df2b7f8e9316d8b7",
+        "characters": 35
+      },
       "source_hash": "02c5b1cee4f0f5fd9d96d791b74e8706315af981afe43cbec4579394d945cb6f",
       "turns": 189,
       "chunks": 41,
       "warnings": []
     },
     {
-      "path": "episodes/naomi-gleit/transcript.md",
+      "path": {
+        "omitted_string_sha256": "2410f961c1d145e38b604bcde138843f1aa3b555145ea5c1d6e7f81af7e22728",
+        "characters": 34
+      },
       "source_hash": "d75838026228c94121fa952dca92c206515a4f8521fe4ddd7c0b18a47c89699a",
       "turns": 285,
       "chunks": 50,
       "warnings": [
-        "non_monotonic_timestamp"
+        {
+          "omitted_string_sha256": "4d0191cda6604232dff14445984f6930466a2a80e8d22101bc832186f11d7bb3",
+          "characters": 23
+        }
       ]
     },
     {
-      "path": "episodes/naomi-ionita/transcript.md",
+      "path": {
+        "omitted_string_sha256": "eec7d1e5fe90a7bed433381cae95854c057f04825c9171a2078ed54c83869d02",
+        "characters": 35
+      },
       "source_hash": "bc0afa6c728bd729e31b0464e8f959611d8b078a7ec0f0441ddb164810b4f8f5",
       "turns": 134,
       "chunks": 30,
       "warnings": [
-        "non_monotonic_timestamp"
+        {
+          "omitted_string_sha256": "4d0191cda6604232dff14445984f6930466a2a80e8d22101bc832186f11d7bb3",
+          "characters": 23
+        }
       ]
     },
     {
-      "path": "episodes/nick-turley/transcript.md",
+      "path": {
+        "omitted_string_sha256": "3daa2c361f73b8b1e54c3e4d75fd942b6333810709d41b11b968d70b4a57ea4d",
+        "characters": 34
+      },
       "source_hash": "382437869c723dde7cf90bde6a43983a048833a99a22fd7ec2637d07483a905a",
       "turns": 289,
       "chunks": 53,
       "warnings": []
     },
     {
-      "path": "episodes/nickey-skarstad/transcript.md",
+      "path": {
+        "omitted_string_sha256": "f25e8a57570c841d4b425fec81aefa419c6b58cdb3c363be18a0413bfc9fcdea",
+        "characters": 38
+      },
       "source_hash": "efeb840571c14c9de6a3d30ee1910c6d77993373e96f6d03db89e22386e42b80",
       "turns": 167,
       "chunks": 38,
       "warnings": []
     },
     {
-      "path": "episodes/nicole-forsgren/transcript.md",
+      "path": {
+        "omitted_string_sha256": "8747a02394241e496d5386ded267bbf44462627ab16241154fc550447c38c1db",
+        "characters": 38
+      },
       "source_hash": "ba3b945a7a9087554d99f2e406bfaa865f97b3a694c69d8375c307c2e81fc616",
       "turns": 186,
       "chunks": 37,
       "warnings": []
     },
     {
-      "path": "episodes/nicole-forsgren-20/transcript.md",
+      "path": {
+        "omitted_string_sha256": "ac73e9457de32cd3ee9f74fd659c27f12d21a5724eeb0080372bb1dff7430d9b",
+        "characters": 41
+      },
       "source_hash": "053b76082d046e9d2dc291b56e62dc99b415c3e16d56071b9b3c47a93ab5268c",
       "turns": 186,
       "chunks": 37,
       "warnings": []
     },
     {
-      "path": "episodes/nikhyl-singhal/transcript.md",
+      "path": {
+        "omitted_string_sha256": "26cafb0cad048c4486d8d8145e777e4916b69fdc52fa8cabfaa2fc0ff40908f6",
+        "characters": 37
+      },
       "source_hash": "021cc18a02cd4d67f2d151409b75ec933f3f500284196266639ef3b95431c47e",
       "turns": 169,
       "chunks": 42,
       "warnings": []
     },
     {
-      "path": "episodes/nikita-bier/transcript.md",
+      "path": {
+        "omitted_string_sha256": "ab9afc0e8471cedfa718fac48429728405522e6f67645feee275ff9e5218d401",
+        "characters": 34
+      },
       "source_hash": "5d464aa18af329f3d91b421874bf8e8240a388247ec01945112a6c9e2e8b2555",
       "turns": 191,
       "chunks": 44,
       "warnings": [
-        "guest_title_mismatch_review_required"
+        {
+          "omitted_string_sha256": "29b93367714d0901b95c9aa056b9010f1869cf1c2d60d5a57d12fdcae742d421",
+          "characters": 36
+        }
       ]
     },
     {
-      "path": "episodes/nikita-miller/transcript.md",
+      "path": {
+        "omitted_string_sha256": "39b77273d8b2b43c0a32d45a6f012d1d514b3c2a8ae3e6a4720b3092066f9ea0",
+        "characters": 36
+      },
       "source_hash": "9be880d04e625fd3829ded6abedb1af6036c1a9ee42a14b5166da646a76a70c8",
       "turns": 206,
       "chunks": 31,
       "warnings": []
     },
     {
-      "path": "episodes/nilan-peiris/transcript.md",
+      "path": {
+        "omitted_string_sha256": "b06ecbcb38d7a22643ea8e6a7cb681df93ad3ca56302b92ef9b7cbc2b1b8b7d2",
+        "characters": 35
+      },
       "source_hash": "3237832d91b943a7bdd2dba54c7717c3aabd4c19353e55d0d21fef3ad7e0ffea",
       "turns": 209,
       "chunks": 41,
       "warnings": []
     },
     {
-      "path": "episodes/nir-eyal/transcript.md",
+      "path": {
+        "omitted_string_sha256": "e54727a9c8f4d3b761a425a986752bdb27033cc51c7a04d3d689f5604c7c6c16",
+        "characters": 31
+      },
       "source_hash": "a8c03d3e4e533ffc768797c047fc782fc13efaae29a432242d0f7246f9cd488b",
       "turns": 184,
       "chunks": 51,
       "warnings": []
     },
     {
-      "path": "episodes/noah-weiss/transcript.md",
+      "path": {
+        "omitted_string_sha256": "e6b2299cff4a13c7962b804411007d5f7aad17f4f31c747c922fbd2406e00d60",
+        "characters": 33
+      },
       "source_hash": "fb49faf84e18188066268480c18c1ac1f4158fa84ae2ae8c5b4f4bf99640917b",
       "turns": 283,
       "chunks": 48,
       "warnings": []
     },
     {
-      "path": "episodes/noam-lovinsky/transcript.md",
+      "path": {
+        "omitted_string_sha256": "1245eb1ced62376d264c94eca3a468e58ba9bdf94c4ffb982773e582d137cbf5",
+        "characters": 36
+      },
       "source_hash": "9fe92f65140561014c7c5232f614f0dd2976efe9cc7f8bd4522ae772cc879003",
       "turns": 162,
       "chunks": 34,
       "warnings": []
     },
     {
-      "path": "episodes/oji-udezue/transcript.md",
+      "path": {
+        "omitted_string_sha256": "fab8f1b99b827f581d890463bf61b489694c491ffe01957aafed7675baae5201",
+        "characters": 33
+      },
       "source_hash": "fe436d6e0dcea4f83e50dd9a4e79a118bfe49bb1e142c01dfb30fb3f4943ce21",
       "turns": 172,
       "chunks": 38,
       "warnings": []
     },
     {
-      "path": "episodes/paige-costello/transcript.md",
+      "path": {
+        "omitted_string_sha256": "5d11d5743cfcd1b62f0fb4cd03ab9a6e0da9098004d7e5127e76c4bfa96437bb",
+        "characters": 37
+      },
       "source_hash": "ca78321206aeaef3b6b6790e9ba30a0e8298ac7b08d874fd8ab13b919f1e0db5",
       "turns": 172,
       "chunks": 30,
       "warnings": []
     },
     {
-      "path": "episodes/patrick-campbell/transcript.md",
+      "path": {
+        "omitted_string_sha256": "5557f28143073747512f2cdf8eb682b7e6a910743a975c6ced658d2af23e0a78",
+        "characters": 39
+      },
       "source_hash": "7bb3d37b635d0325aa992e7bdebb31420462c1da70d8af95c2ac8841dd9735e1",
       "turns": 194,
       "chunks": 43,
       "warnings": []
     },
     {
-      "path": "episodes/paul-adams/transcript.md",
+      "path": {
+        "omitted_string_sha256": "d229c184edba36efd37c7b486b7ecbdb8154e9e568b5b073fe049b24728c7937",
+        "characters": 33
+      },
       "source_hash": "3c556218d42b67b24c166de970d96d1fe0c97791757f429694cd6307b8b98472",
       "turns": 213,
       "chunks": 44,
       "warnings": []
     },
     {
-      "path": "episodes/paul-millerd/transcript.md",
+      "path": {
+        "omitted_string_sha256": "6c9dfb7f195390b65bcf54b6e4ec1fc638b81736b8b0f77470ca004c50f147ae",
+        "characters": 35
+      },
       "source_hash": "eaf1b1f0d7b000630f2105018f7152b2442bfa73f9c0b2a44e66b8f898b449e6",
       "turns": 187,
       "chunks": 32,
       "warnings": []
     },
     {
-      "path": "episodes/pete-kazanjy/transcript.md",
+      "path": {
+        "omitted_string_sha256": "ee11d90dee94471e4aa17e5d8fc99d782c980656837e16606119bbcc18bbc11b",
+        "characters": 35
+      },
       "source_hash": "27ab0f28094df12f60f0cf323e081d84b493431cc0c86d6a6b7ed0263967a28e",
       "turns": 136,
       "chunks": 32,
       "warnings": []
     },
     {
-      "path": "episodes/peter-deng/transcript.md",
+      "path": {
+        "omitted_string_sha256": "b69ca7a9c9b5811b43f012a901dfc2a686ae8a79f0cccc4a6a2b0feee6ec7d1b",
+        "characters": 33
+      },
       "source_hash": "a829bb2666818ba9dfde43b465bbb70654c9e1c94bd2f45226623ca5608d714f",
       "turns": 360,
       "chunks": 61,
       "warnings": []
     },
     {
-      "path": "episodes/petra-wille/transcript.md",
+      "path": {
+        "omitted_string_sha256": "f695702246d926bda6766c40ffb8d916bfcacb89b079de1e829b118e298d0b87",
+        "characters": 34
+      },
       "source_hash": "b0c3b4ca827b57b8f269fb359851774f7c533faacbed7abe93261a14927fb221",
       "turns": 244,
       "chunks": 39,
       "warnings": []
     },
     {
-      "path": "episodes/phyl-terry/transcript.md",
+      "path": {
+        "omitted_string_sha256": "b80c40ff0eec87c4c416b87a60fde52c7807a962888f1d0f8c2c431b0dceba15",
+        "characters": 33
+      },
       "source_hash": "a94baf2ea719c08bd0cea2d7f0ae85bdec46b7b7e756edc8e81ff5335083a299",
       "turns": 318,
       "chunks": 60,
       "warnings": []
     },
     {
-      "path": "episodes/raaz-herzberg/transcript.md",
+      "path": {
+        "omitted_string_sha256": "e1a00e38e4f3e01460917371978fa8dcd468fc0547ddb2bea81dc1d7b5438635",
+        "characters": 36
+      },
       "source_hash": "a23fe638ee8443ca62133f9fc3cc53aeea2c8a1035e83cbfe13714d77cdc5b42",
       "turns": 288,
       "chunks": 35,
       "warnings": []
     },
     {
-      "path": "episodes/rachel-lockett/transcript.md",
+      "path": {
+        "omitted_string_sha256": "1d7868b106940db0863146c8ba4550f94bf1796a51d8a9167913f9798632c158",
+        "characters": 37
+      },
       "source_hash": "f2694fdf059853d0fb3ae86da901ae25a28f712a133c704a0186addf3f702e9c",
       "turns": 372,
       "chunks": 57,
       "warnings": [
-        "guest_title_mismatch_review_required"
+        {
+          "omitted_string_sha256": "29b93367714d0901b95c9aa056b9010f1869cf1c2d60d5a57d12fdcae742d421",
+          "characters": 36
+        }
       ]
     },
     {
-      "path": "episodes/rahul-vohra/transcript.md",
+      "path": {
+        "omitted_string_sha256": "0ce246fd50fcce82ef7a247eb5bc8f541b3651707a085deabd288b93ae2e5287",
+        "characters": 34
+      },
       "source_hash": "415fc64051b2b60cbd63f1eca7ae815c35cb66efde81e7e2db46536bf6cd8d1b",
       "turns": 174,
       "chunks": 43,
       "warnings": [
-        "non_monotonic_timestamp"
+        {
+          "omitted_string_sha256": "4d0191cda6604232dff14445984f6930466a2a80e8d22101bc832186f11d7bb3",
+          "characters": 23
+        }
       ]
     },
     {
-      "path": "episodes/ramesh-johari/transcript.md",
+      "path": {
+        "omitted_string_sha256": "4e8538121b0c39046157cb70d187453c2f65d224a96d330f3d5cbbe32678a27e",
+        "characters": 36
+      },
       "source_hash": "0051997c866fa5dd42f8ad4528724283c4e0e4c9ea1be0bb92709a90638f7474",
       "turns": 230,
       "chunks": 46,
       "warnings": []
     },
     {
-      "path": "episodes/ravi-mehta/transcript.md",
+      "path": {
+        "omitted_string_sha256": "6866d5331a88247833cd5fe3f65de46de579b9176e69ad1d0d47613ea9f425ab",
+        "characters": 33
+      },
       "source_hash": "955cd9a0ed3ce4a538b3dee03bbf545632fa4151f53c3314fe859cd8528f7fb5",
       "turns": 197,
       "chunks": 47,
       "warnings": []
     },
     {
-      "path": "episodes/ray-cao/transcript.md",
+      "path": {
+        "omitted_string_sha256": "b6f30cd08dea2fe8df6e402a38a2f062b9ffae25bda4baaad7cea9821d75a5d1",
+        "characters": 30
+      },
       "source_hash": "ac0ae09e52572b73e81f134b43fb1b729a0900a8e16b41a12cc537c01e8841e5",
       "turns": 140,
       "chunks": 37,
       "warnings": [
-        "guest_title_mismatch_review_required"
+        {
+          "omitted_string_sha256": "29b93367714d0901b95c9aa056b9010f1869cf1c2d60d5a57d12fdcae742d421",
+          "characters": 36
+        }
       ]
     },
     {
-      "path": "episodes/richard-rumelt/transcript.md",
+      "path": {
+        "omitted_string_sha256": "e21ffcd02611fbc3b72c80975989b2d81d80acdd02d9647cec6dce8a41f264cb",
+        "characters": 37
+      },
       "source_hash": "67d7e5e19a947b0d9772976c912fd9d16e7ace7603dbcb535dc378390a00bab9",
       "turns": 169,
       "chunks": 43,
       "warnings": []
     },
     {
-      "path": "episodes/robby-stein/transcript.md",
+      "path": {
+        "omitted_string_sha256": "1f7ae0231b95474fa9812e93a5218cd494b9f1d819ce400eb3896b1f98b5864d",
+        "characters": 34
+      },
       "source_hash": "90e9648e89f98a83bfc7c00cfd61717e6b5e1768eb14cca4d6a06b287af6853f",
       "turns": 292,
       "chunks": 49,
       "warnings": []
     },
     {
-      "path": "episodes/roger-martin/transcript.md",
+      "path": {
+        "omitted_string_sha256": "5c0a5ec85967c588396542093909b02fc16bbc814006204901152534b885aee2",
+        "characters": 35
+      },
       "source_hash": "9a3b9a7849b36e993057cf4d686328bf6d2081c3505b16d55f0b2452a05c9675",
       "turns": 190,
       "chunks": 37,
       "warnings": []
     },
     {
-      "path": "episodes/ronny-kohavi/transcript.md",
+      "path": {
+        "omitted_string_sha256": "1ed3f857997c77c35897ebad10fe9328227f51a26eca83a4031cb55f5564a20b",
+        "characters": 35
+      },
       "source_hash": "54f24c7cc2f6f7052285fd9d908d5939e7c0ac882b20ac5c56fa81fc63d60db8",
       "turns": 235,
       "chunks": 41,
       "warnings": []
     },
     {
-      "path": "episodes/ryan-hoover/transcript.md",
+      "path": {
+        "omitted_string_sha256": "87d3fd29a7851324952af9a8ce8592e1bea4c3cd727c97245599ba33986ec05f",
+        "characters": 34
+      },
       "source_hash": "cf7a605af8bc2d097a85a731c48f30365386be3602d060634e68e5bd0de2068b",
       "turns": 174,
       "chunks": 42,
       "warnings": [
-        "guest_title_mismatch_review_required",
-        "non_monotonic_timestamp"
+        {
+          "omitted_string_sha256": "29b93367714d0901b95c9aa056b9010f1869cf1c2d60d5a57d12fdcae742d421",
+          "characters": 36
+        },
+        {
+          "omitted_string_sha256": "4d0191cda6604232dff14445984f6930466a2a80e8d22101bc832186f11d7bb3",
+          "characters": 23
+        }
       ]
     },
     {
-      "path": "episodes/ryan-j-salva/transcript.md",
+      "path": {
+        "omitted_string_sha256": "16820421d221967fbe823363d9abebe4d7a32ce5125e6596e5a13f91a8ef1da8",
+        "characters": 35
+      },
       "source_hash": "338ebc2df92bd43e23d0016f70e28e815c02614ae1e84032e0a9051e6657991c",
       "turns": 143,
       "chunks": 29,
       "warnings": []
     },
     {
-      "path": "episodes/ryan-singer/transcript.md",
+      "path": {
+        "omitted_string_sha256": "24c7748ac301933075f43e43e9a2f278399703170c09c313196cc18fdf04621d",
+        "characters": 34
+      },
       "source_hash": "502fb8b06442857837168ae25884afd675d4dbaaee8dad78391d67040e44cb84",
       "turns": 300,
       "chunks": 53,
       "warnings": []
     },
     {
-      "path": "episodes/sachin-monga/transcript.md",
+      "path": {
+        "omitted_string_sha256": "b1d9dad6040d9bc6e55bf2df8c07b91b8193e53fd616d60270a7ba3c9a893fe9",
+        "characters": 35
+      },
       "source_hash": "d494841da5ac1ac348e7170206d86ee3336f7da958b3d6a06e1fff27a4b35a5d",
       "turns": 169,
       "chunks": 36,
       "warnings": []
     },
     {
-      "path": "episodes/sahil-mansuri/transcript.md",
+      "path": {
+        "omitted_string_sha256": "f2f1a14ea78d66d18eb46c1608a665bb5d0e6f05f4e8409f853b024526597928",
+        "characters": 36
+      },
       "source_hash": "20e095dfe2ec13e377f5e03b89cf4bb281ce7a5e4420e8e8cc7360fc63647ccd",
       "turns": 182,
       "chunks": 45,
       "warnings": []
     },
     {
-      "path": "episodes/sam-schillace/transcript.md",
+      "path": {
+        "omitted_string_sha256": "45f56c2f640b1e3b57de589b721bc9a4c6c17bb43ef2ce238490def3c8ec57db",
+        "characters": 36
+      },
       "source_hash": "3ea6422af223ddbd425c25c49dd94b6479a15a84908515177e995250fdb3778e",
       "turns": 207,
       "chunks": 50,
       "warnings": []
     },
     {
-      "path": "episodes/sanchan-saxena/transcript.md",
+      "path": {
+        "omitted_string_sha256": "c0ad3162d20b022b5a41c714ae723b157c71d11e8ae47642b8fb3fb6b7f5057a",
+        "characters": 37
+      },
       "source_hash": "5346ea6483941cbbaffab31d8a5db3737170f616781bd3576e66792b31ee9a8b",
       "turns": 217,
       "chunks": 37,
       "warnings": [
-        "guest_title_mismatch_review_required"
+        {
+          "omitted_string_sha256": "29b93367714d0901b95c9aa056b9010f1869cf1c2d60d5a57d12fdcae742d421",
+          "characters": 36
+        }
       ]
     },
     {
-      "path": "episodes/sander-schulhoff/transcript.md",
+      "path": {
+        "omitted_string_sha256": "775e9776ded091844bb58b9133fcca0a070de7385963c1e440c1035e28b704f0",
+        "characters": 39
+      },
       "source_hash": "cd4b6452a6c820b99ac3b31f284fa0754161f99783d3b2124f09a2a95607916e",
       "turns": 341,
       "chunks": 49,
       "warnings": [
-        "non_monotonic_timestamp"
+        {
+          "omitted_string_sha256": "4d0191cda6604232dff14445984f6930466a2a80e8d22101bc832186f11d7bb3",
+          "characters": 23
+        }
       ]
     },
     {
-      "path": "episodes/sander-schulhoff-20/transcript.md",
+      "path": {
+        "omitted_string_sha256": "d7ad551407f4d8956f8bdc96dab4d94fbfa83f8eef44d90a5fda4472dec1cd0b",
+        "characters": 42
+      },
       "source_hash": "b030668c53a07b9f087c761d4b2367417e2ab50736218d9d62fbe0d840f7d0d8",
       "turns": 174,
       "chunks": 41,
       "warnings": [
-        "guest_title_mismatch_review_required",
-        "non_monotonic_timestamp"
+        {
+          "omitted_string_sha256": "29b93367714d0901b95c9aa056b9010f1869cf1c2d60d5a57d12fdcae742d421",
+          "characters": 36
+        },
+        {
+          "omitted_string_sha256": "4d0191cda6604232dff14445984f6930466a2a80e8d22101bc832186f11d7bb3",
+          "characters": 23
+        }
       ]
     },
     {
-      "path": "episodes/sarah-tavel/transcript.md",
+      "path": {
+        "omitted_string_sha256": "67dcb5bfac93c17243237dbe0fd92affd2868d1af77d89d03debb41715972ba2",
+        "characters": 34
+      },
       "source_hash": "51025f15a86528eb96f8d5de8c8f8744ac62cbd7214619e3025028d57232fe70",
       "turns": 304,
       "chunks": 53,
       "warnings": []
     },
     {
-      "path": "episodes/scott-belsky/transcript.md",
+      "path": {
+        "omitted_string_sha256": "510673e3af1ee210c6564229587249633fbb4c50abaa07af0b45a1c956477a34",
+        "characters": 35
+      },
       "source_hash": "aa4980bcdfc0a3fab01f8c9c1233981f606fc5aff9548ad18c5b1929d507a409",
       "turns": 183,
       "chunks": 33,
       "warnings": []
     },
     {
-      "path": "episodes/scott-wu/transcript.md",
+      "path": {
+        "omitted_string_sha256": "a8a4a89d9bf043b8d9355548fb66b36669b11871d84c9539cd88c4675015bd3e",
+        "characters": 31
+      },
       "source_hash": "6d2bcd566a1caec04950c2397b278bb563beb68ac105cbff8e5218adcbd275f6",
       "turns": 275,
       "chunks": 53,
       "warnings": [
-        "non_monotonic_timestamp"
+        {
+          "omitted_string_sha256": "4d0191cda6604232dff14445984f6930466a2a80e8d22101bc832186f11d7bb3",
+          "characters": 23
+        }
       ]
     },
     {
-      "path": "episodes/sean-ellis/transcript.md",
+      "path": {
+        "omitted_string_sha256": "ad9fd290e6d14d705fd856dbe2b6d33a67be53db50312b5a0ccfbd7f15aa02f8",
+        "characters": 33
+      },
       "source_hash": "6af2a6e031826805e855ec262b1f228e3773b5b99265a1d01870f0d4e6e9ceda",
       "turns": 262,
       "chunks": 52,
       "warnings": []
     },
     {
-      "path": "episodes/seth-godin/transcript.md",
+      "path": {
+        "omitted_string_sha256": "bf5e1c708c8d7d225f081d2aaf02de754107b4b8b667b160cd096f33cbddf27e",
+        "characters": 33
+      },
       "source_hash": "2df8a3b11c45f5bbf742024f30dc990f1670886f3db27efa8257afb0de171a8b",
       "turns": 96,
       "chunks": 24,
       "warnings": []
     },
     {
-      "path": "episodes/shaun-clowes/transcript.md",
+      "path": {
+        "omitted_string_sha256": "c4723df50d24a912fbc1a35a85f6fde838baccdff55fa852bb32bb021e567ebc",
+        "characters": 35
+      },
       "source_hash": "f402eb50a5a057160bc9683e908d1cbc4c5595d1b9617fad11e5b9294b755810",
       "turns": 161,
       "chunks": 46,
       "warnings": []
     },
     {
-      "path": "episodes/shishir-mehrotra/transcript.md",
+      "path": {
+        "omitted_string_sha256": "2ebeb0fefcda16fbf21e7516ae07dc204e2dd412ade3f3745f088be133293280",
+        "characters": 39
+      },
       "source_hash": "f947901113d3f784d1ae46ae12cf927a734f67fa5259103e96e34a3a3cd29502",
       "turns": 197,
       "chunks": 53,
       "warnings": [
-        "non_monotonic_timestamp"
+        {
+          "omitted_string_sha256": "4d0191cda6604232dff14445984f6930466a2a80e8d22101bc832186f11d7bb3",
+          "characters": 23
+        }
       ]
     },
     {
-      "path": "episodes/shreyas-doshi/transcript.md",
+      "path": {
+        "omitted_string_sha256": "c8d485833a66da8a9fd8d3deb8bd781ca6e488d20272ba491452469b8561b19c",
+        "characters": 36
+      },
       "source_hash": "4e7f53f543391e9d64b738133eb9ffcefc761bbf22bec002716c5f9c90e940d6",
       "turns": 129,
       "chunks": 40,
       "warnings": []
     },
     {
-      "path": "episodes/shreyas-doshi-live/transcript.md",
+      "path": {
+        "omitted_string_sha256": "c19d83ccf5d29676cb3db0215517e5368942108aa42ff027538d1c1d3e27aeb3",
+        "characters": 41
+      },
       "source_hash": "f28d7cddf6a26dcbd62c95141230a61786f6aac179fa158a61772f85d72df260",
       "turns": 100,
       "chunks": 20,
       "warnings": []
     },
     {
-      "path": "episodes/shweta-shriva/transcript.md",
+      "path": {
+        "omitted_string_sha256": "cffb527828b020c42b7b1fdf38dd0c0454bc74618f346f5d6bb287a47a06051d",
+        "characters": 36
+      },
       "source_hash": "6658eb1108115b1c9723930e9974fd861869dbbe9e2bdb341b961979ce47e2ac",
       "turns": 135,
       "chunks": 22,
       "warnings": [
-        "non_monotonic_timestamp"
+        {
+          "omitted_string_sha256": "4d0191cda6604232dff14445984f6930466a2a80e8d22101bc832186f11d7bb3",
+          "characters": 23
+        }
       ]
     },
     {
-      "path": "episodes/sri-batchu/transcript.md",
+      "path": {
+        "omitted_string_sha256": "fde8102726740870c2ec39be5366c163d34de0ad9251e8e1ef2bd8983e9281fb",
+        "characters": 33
+      },
       "source_hash": "ede51b8eef5258139aa63fafbe5d641be124819d72aecb4b894fa2ef4c7d1599",
       "turns": 194,
       "chunks": 39,
       "warnings": []
     },
     {
-      "path": "episodes/sriram-and-aarthi/transcript.md",
+      "path": {
+        "omitted_string_sha256": "79a384d93e245b3e98be13622a3060d3a42d1ee8e8c09486a59fc38869e092a1",
+        "characters": 40
+      },
       "source_hash": "fcb0ed1ab6bd024125f447284e4edaf312c923784dbfccf94ad4f13383107be8",
       "turns": 230,
       "chunks": 48,
       "warnings": []
     },
     {
-      "path": "episodes/stewart-butterfield/transcript.md",
+      "path": {
+        "omitted_string_sha256": "b3de9cb9ec428304710eaed722ab8a8134c5fd993a0a899291922e0eb2a65a2e",
+        "characters": 42
+      },
       "source_hash": "216e7944e5d8d8c731f3a8feccb476d64b7ed061cd6ddf017772df74f9560d18",
       "turns": 193,
       "chunks": 46,
       "warnings": [
-        "non_monotonic_timestamp"
+        {
+          "omitted_string_sha256": "4d0191cda6604232dff14445984f6930466a2a80e8d22101bc832186f11d7bb3",
+          "characters": 23
+        }
       ]
     },
     {
-      "path": "episodes/tamar-yehoshua/transcript.md",
+      "path": {
+        "omitted_string_sha256": "057aef99319d536eb3e14b673cb3124ee6997b8ef85f50ba26f89eaba3dd50a8",
+        "characters": 37
+      },
       "source_hash": "e39b701f13143644d306e82294a12565d56f56cb392ae53d9d9694a26fa4dc5a",
       "turns": 169,
       "chunks": 40,
       "warnings": []
     },
     {
-      "path": "episodes/tanguy-crusson/transcript.md",
+      "path": {
+        "omitted_string_sha256": "0fa987beb9ddd6b9b7bd4101a8898bd0bb90dcdc7cd744ee1142787afcae199a",
+        "characters": 37
+      },
       "source_hash": "8cb2bc7a557f5b00f26341a7e50866631eb08791b97e60940235593abbdabf4a",
       "turns": 301,
       "chunks": 60,
       "warnings": []
     },
     {
-      "path": "episodes/teaser_2021/transcript.md",
+      "path": {
+        "omitted_string_sha256": "562d94b0180ff7cfc47d5f9cc9fd223235e506b633c19f81ddcc68400fda4cce",
+        "characters": 34
+      },
       "source_hash": "a0939dffeec67931ec8a4e95c59110c9336fcdec4a2694663dc6357bec524eaa",
       "turns": 16,
       "chunks": 5,
       "warnings": [
-        "missing_title"
+        {
+          "omitted_string_sha256": "c81b5462dec2ec2ba7bb26bf030aadae3867708af9c7bb002fb2728721c47217",
+          "characters": 13
+        }
       ]
     },
     {
-      "path": "episodes/teresa-torres/transcript.md",
+      "path": {
+        "omitted_string_sha256": "07b2fa7b28deebc16dd0b01c28320bd8990e629aaf9fa1630f2cd0ba51880966",
+        "characters": 36
+      },
       "source_hash": "f3e50c557afa55ee6c856aaeb4872888e5c68674395abb3f41b863c2d3e44222",
       "turns": 165,
       "chunks": 27,
       "warnings": []
     },
     {
-      "path": "episodes/tim-holley/transcript.md",
+      "path": {
+        "omitted_string_sha256": "b75bb899c4a4131f9ce1e1320bcfa7a1c8c5940a1b41e91bea31f52976e942ad",
+        "characters": 33
+      },
       "source_hash": "d4e3623646a20137bd5dd732ee8ecf573cedd5888f46a469e1b42f3ad90cf0c7",
       "turns": 211,
       "chunks": 39,
       "warnings": [
-        "non_monotonic_timestamp"
+        {
+          "omitted_string_sha256": "4d0191cda6604232dff14445984f6930466a2a80e8d22101bc832186f11d7bb3",
+          "characters": 23
+        }
       ]
     },
     {
-      "path": "episodes/timothy-davis/transcript.md",
+      "path": {
+        "omitted_string_sha256": "7d75fec91844e3f71721d83c56bc27ddba05615acb35df5d95daf00e77295d36",
+        "characters": 36
+      },
       "source_hash": "b09899423ddbc2ea8016f54dedfb5a56db31cf4d64e90cbf1f5a66eddc997149",
       "turns": 262,
       "chunks": 52,
       "warnings": []
     },
     {
-      "path": "episodes/tobi-lutke/transcript.md",
+      "path": {
+        "omitted_string_sha256": "6085c98802a2b5780a79ca588432ecb3312986ff891a21c6e8a1d214a988a82b",
+        "characters": 33
+      },
       "source_hash": "61ebb8dcf5871c840412d02c2b67c533df516dd0ed2e2c75d4e76a65ecb63817",
       "turns": 166,
       "chunks": 46,
       "warnings": [
-        "guest_title_mismatch_review_required"
+        {
+          "omitted_string_sha256": "29b93367714d0901b95c9aa056b9010f1869cf1c2d60d5a57d12fdcae742d421",
+          "characters": 36
+        }
       ]
     },
     {
-      "path": "episodes/todd-jackson/transcript.md",
+      "path": {
+        "omitted_string_sha256": "0aa4a25caa799aa17fcf85ced7e90015806e19c876caee748c57f62a2788cf5f",
+        "characters": 35
+      },
       "source_hash": "f478601b5303d9ec0ca15af546e7ceeaf9a70835caf8f8f5776032a74a16bbc8",
       "turns": 236,
       "chunks": 49,
       "warnings": []
     },
     {
-      "path": "episodes/tom-conrad/transcript.md",
+      "path": {
+        "omitted_string_sha256": "8b22d2d07d85b9689cc6a40aa98d05aea796ea10e08e15f169131f01354a4b77",
+        "characters": 33
+      },
       "source_hash": "dbbbded045f7850271352af610307912d7512615610b3feaeff2651741a22e8c",
       "turns": 222,
       "chunks": 47,
       "warnings": []
     },
     {
-      "path": "episodes/tomer-cohen/transcript.md",
+      "path": {
+        "omitted_string_sha256": "a9e79b975cc5d27a30742dfc14c2ae43825377fa35d91c0de88d96e210a6b978",
+        "characters": 34
+      },
       "source_hash": "4a62c5c2ed22f8a71891ad37c9cfa16240ba89ade868862f85573083e892ca3d",
       "turns": 179,
       "chunks": 37,
       "warnings": []
     },
     {
-      "path": "episodes/tomer-cohen-20/transcript.md",
+      "path": {
+        "omitted_string_sha256": "5b7708aad8241772bb93396d17bbd37c1892ace69dea1ff280fe7b0500b1b36d",
+        "characters": 37
+      },
       "source_hash": "e6f2b7f46811f9a1eaa7d7b569d1e23c048fde58a6168c2441aef5b54cfd53c1",
       "turns": 173,
       "chunks": 37,
       "warnings": []
     },
     {
-      "path": "episodes/tristan-de-montebello/transcript.md",
+      "path": {
+        "omitted_string_sha256": "6d756d9fe9ec936fa13993daa19256297b5111bb97caba84410ef00e7f62f7b0",
+        "characters": 44
+      },
       "source_hash": "b9d33c5c71093b41f4c08682597097759234fcc7c8aaa8ef8079e072e5581446",
       "turns": 295,
       "chunks": 59,
       "warnings": []
     },
     {
-      "path": "episodes/upasna-gautam/transcript.md",
+      "path": {
+        "omitted_string_sha256": "547fdb0ec323769149af376ddda83d27aba6bc0ef454bf8a91524386b5b6e79e",
+        "characters": 36
+      },
       "source_hash": "3783af94ceee30f4ff24fe41ac00f123acaabf8e2724c25ede099a32b35ab8df",
       "turns": 138,
       "chunks": 28,
       "warnings": []
     },
     {
-      "path": "episodes/uri-levine/transcript.md",
+      "path": {
+        "omitted_string_sha256": "037a0db960af9722014aaf37f95bbdee1a64f19724299c685b757ee2455b9e2b",
+        "characters": 33
+      },
       "source_hash": "edab2e5d3cdd6631fb0040b485456de5dcba58ab7b2fa82de9ebd7355bf5d670",
       "turns": 179,
       "chunks": 40,
       "warnings": []
     },
     {
-      "path": "episodes/uri-levine-20/transcript.md",
+      "path": {
+        "omitted_string_sha256": "ac8ed8dabcc483fa932164fbcdd38e318d53df8c24f55c59dba696ac7cb25e2e",
+        "characters": 36
+      },
       "source_hash": "0a1977f22da578e94d1cdb7eb9bf6c19fb12813aeba035192205127d059d72c9",
       "turns": 196,
       "chunks": 38,
       "warnings": []
     },
     {
-      "path": "episodes/varun-mohan/transcript.md",
+      "path": {
+        "omitted_string_sha256": "3a823187bb78455e41a06ba8e407d45343523835d640f409925b5da00f198469",
+        "characters": 34
+      },
       "source_hash": "850f78e498c2e1d92f09346104997519691d0728f7d5565c80d2d4850c87002e",
       "turns": 230,
       "chunks": 45,
       "warnings": [
-        "guest_title_mismatch_review_required"
+        {
+          "omitted_string_sha256": "29b93367714d0901b95c9aa056b9010f1869cf1c2d60d5a57d12fdcae742d421",
+          "characters": 36
+        }
       ]
     },
     {
-      "path": "episodes/varun-parmar/transcript.md",
+      "path": {
+        "omitted_string_sha256": "e3477b6d5e0397ad6bcb4e1a149ac9d5526875a4a835228e54b09a4426716f7e",
+        "characters": 35
+      },
       "source_hash": "ba07935802e6db90b2ea08d0b8d9a4c8b047f470ee7f03debe71123db28d4349",
       "turns": 186,
       "chunks": 43,
       "warnings": []
     },
     {
-      "path": "episodes/vijay/transcript.md",
+      "path": {
+        "omitted_string_sha256": "605b95dacd235716435979392f5d3584462166d784949b7f0151c14ca2b2aace",
+        "characters": 28
+      },
       "source_hash": "54e910f656c386b6aeda544c98b7eb9ea6849890119b76891ac0d0c3c7c887ce",
       "turns": 132,
       "chunks": 28,
       "warnings": []
     },
     {
-      "path": "episodes/vikrama-dhiman/transcript.md",
+      "path": {
+        "omitted_string_sha256": "52752821083e5b49fa2e180f0e937d61b80fa144490fd490cfd7133da1d64e8b",
+        "characters": 37
+      },
       "source_hash": "5f1a57085afd86919a7686fcdc8790546df205cf4d8857fddc21fa8ec642dac5",
       "turns": 128,
       "chunks": 34,
       "warnings": []
     },
     {
-      "path": "episodes/wes-kao/transcript.md",
+      "path": {
+        "omitted_string_sha256": "498969d2aadcb652e6c2826f13cfab7aa101aab3421fe101113d5c3c311b1c0a",
+        "characters": 30
+      },
       "source_hash": "1d891dbdb9fc29184823e6a47f3f2eb4f1fba9d05fea32c5ee3da4cbb166fe1c",
       "turns": 239,
       "chunks": 49,
       "warnings": []
     },
     {
-      "path": "episodes/wes-kao-20/transcript.md",
+      "path": {
+        "omitted_string_sha256": "e8a6b28a6dc110425276c3e6e44226345e28758f648421ff95889cd27d805a23",
+        "characters": 33
+      },
       "source_hash": "d27f1f2e6eb40d24831e711b138ae47a1c5e664e3a5a340076bd8e45e8f740ca",
       "turns": 239,
       "chunks": 49,
       "warnings": []
     },
     {
-      "path": "episodes/will-larson/transcript.md",
+      "path": {
+        "omitted_string_sha256": "c84613ee4213b1bf9843753769ff855f271b2e453cf99066ec0a810c5e70ae5d",
+        "characters": 34
+      },
       "source_hash": "ca826b2d7a470ca34ccff7e4f9fe871045511604ccf50840d42eae10262bab0b",
       "turns": 199,
       "chunks": 42,
       "warnings": []
     },
     {
-      "path": "episodes/yamashata/transcript.md",
+      "path": {
+        "omitted_string_sha256": "c5609b60998e95026262e4f062f05db3e1f4fd2e8b1a08076edec1c4e6754a6c",
+        "characters": 32
+      },
       "source_hash": "28a8611d8eff9e3a5670c3f81c92dde5e5e93a31b8b822145c9ec5ae9c1ba685",
       "turns": 182,
       "chunks": 36,
       "warnings": [
-        "guest_title_mismatch_review_required"
+        {
+          "omitted_string_sha256": "29b93367714d0901b95c9aa056b9010f1869cf1c2d60d5a57d12fdcae742d421",
+          "characters": 36
+        }
       ]
     },
     {
-      "path": "episodes/yuhki-yamashata/transcript.md",
+      "path": {
+        "omitted_string_sha256": "a618f37af668556c09b599adc48bc4caf78e414df50753bd79d929095bbcc55f",
+        "characters": 38
+      },
       "source_hash": "b427d804bb29905eed72a4f76ede73b27c9bffa1f994c2e2a0abc435d3b2079d",
       "turns": 182,
       "chunks": 36,
       "warnings": [
-        "guest_title_mismatch_review_required"
+        {
+          "omitted_string_sha256": "29b93367714d0901b95c9aa056b9010f1869cf1c2d60d5a57d12fdcae742d421",
+          "characters": 36
+        }
       ]
     },
     {
-      "path": "episodes/yuriy-timen/transcript.md",
+      "path": {
+        "omitted_string_sha256": "8f9b7ea8637830b66d3ef96849dbffb110b4e165729bfda71a65654086c360e4",
+        "characters": 34
+      },
       "source_hash": "45050b8a79397530eaa2e823b662830abde97d2c3c2a025a97b93a3f145e69a7",
       "turns": 189,
       "chunks": 32,
       "warnings": []
     },
     {
-      "path": "episodes/zoelle-egner/transcript.md",
+      "path": {
+        "omitted_string_sha256": "8971f1a62f64a09cb62c2cb2f286432b6a9eff495a56ffbe451ac6c888377d60",
+        "characters": 35
+      },
       "source_hash": "ec915c50d05182cb2b961dcfb5db036f5075f32b58b26a8cbeacccba710ac0e9",
       "turns": 288,
       "chunks": 43,
       "warnings": [
-        "non_monotonic_timestamp"
+        {
+          "omitted_string_sha256": "4d0191cda6604232dff14445984f6930466a2a80e8d22101bc832186f11d7bb3",
+          "characters": 23
+        }
       ]
     }
   ]

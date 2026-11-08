@@ -1,0 +1,29 @@
+{
+  "reviewed_at": {
+    "omitted_string_sha256": "738b82a83de136b05a8e7e257cbff082243b39a243e6319a60db4264dd993ed3",
+    "characters": 32
+  },
+  "authority": {
+    "omitted_string_sha256": "2cf4796409e8368ab5266c82090482f1dd34fd641df5e843b1ee28909a6cccb3",
+    "characters": 107
+  },
+  "grounding": "passed",
+  "citations": "passed",
+  "advice_length": {
+    "omitted_string_sha256": "c512f4947d3e7a8c9d283d1522a78746307d2a74e9674b182605f057f917a3ea",
+    "characters": 22
+  },
+  "assembled_length": {
+    "omitted_string_sha256": "62f6343b073ed4adbc8340a3c8a6a2e551ffd6164b1d38e43828fee7e307b11a",
+    "characters": 16
+  },
+  "section_gate": {
+    "omitted_string_sha256": "287489c407c7ff960259d131ce7fa33dfadddec486bdc73176b369d6dafa5f01",
+    "characters": 29
+  },
+  "quality_note": {
+    "omitted_string_sha256": "4a3689cd0a0399e10f4e67a2bc5437635494d7d687ff10509bd43ae42f0099b0",
+    "characters": 59
+  },
+  "original_output_and_historical_review_preserved": true
+}

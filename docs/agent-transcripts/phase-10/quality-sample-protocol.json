@@ -1,0 +1,512 @@
+{
+  "selection": {
+    "omitted_string_sha256": "359474c05a733309fcdbc47ebf7bca501f10a6d8a4f94dc36e64397115433140",
+    "characters": 221
+  },
+  "answerable_cases": [
+    {
+      "id": "T01",
+      "split": {
+        "omitted_string_sha256": "c72dee7fe8e800e2c79d7566655fc1f089ecccb122fbb410d311f35520b5604d",
+        "characters": 6
+      },
+      "kind": {
+        "omitted_string_sha256": "d15690f08a575024650b01ffac892cfd2b93e6c57c140f1b6d9e47753cabd579",
+        "characters": 6
+      },
+      "question": {
+        "omitted_string_sha256": "7a10a2d9c09ac7a2bce092736b058717477f555c08484fac224aef7f7f2b56e9",
+        "characters": 83
+      },
+      "filters": {},
+      "evidence": [
+        {
+          "source_path": "episodes/sean-ellis/transcript.md",
+          "source_hash": "6af2a6e031826805e855ec262b1f228e3773b5b99265a1d01870f0d4e6e9ceda",
+          "char_start": 5250,
+          "char_end": 5450,
+          "speaker": {
+            "omitted_string_sha256": "5714210e2ebd1fd9076ceb8253551a38f683411a5f13c0429983514e261d29a1",
+            "characters": 10
+          },
+          "timestamp_seconds": 199,
+          "text_sha256": {
+            "omitted_string_sha256": "70a1a15342a8ca5ed82c5ef981ed9791a37c5162ada965f6aa14ee422aa8f8fd",
+            "characters": 64
+          }
+        }
+      ],
+      "manual_support_note": {
+        "omitted_string_sha256": "62cf0db3ec49b8e0da7b2f83840ba02174f185ece7011345e1a3f43f14d28092",
+        "characters": 92
+      }
+    },
+    {
+      "id": "T04",
+      "split": {
+        "omitted_string_sha256": "c72dee7fe8e800e2c79d7566655fc1f089ecccb122fbb410d311f35520b5604d",
+        "characters": 6
+      },
+      "kind": {
+        "omitted_string_sha256": "06a61df042ad775e8bdd27666ac077a3331e5eb3215d0351ba292bce7e96505b",
+        "characters": 9
+      },
+      "question": {
+        "omitted_string_sha256": "4f6668e84e64704cc9716dca5cd3a482718f48647a8d632d14f7c37fe7869db7",
+        "characters": 66
+      },
+      "filters": {
+        "source_path": "episodes/shreyas-doshi/transcript.md"
+      },
+      "evidence": [
+        {
+          "source_path": "episodes/shreyas-doshi/transcript.md",
+          "source_hash": "4e7f53f543391e9d64b738133eb9ffcefc761bbf22bec002716c5f9c90e940d6",
+          "char_start": 38557,
+          "char_end": 38757,
+          "speaker": {
+            "omitted_string_sha256": "da05fbbab9d40dda61126d41a635f4da6bd7f95ecad8455b8ef22ea736d6c706",
+            "characters": 13
+          },
+          "timestamp_seconds": 2156,
+          "text_sha256": {
+            "omitted_string_sha256": "959d2d456249967873d9f8094cadc65e62010f610f301bdecd5853b174c6ceda",
+            "characters": 64
+          }
+        },
+        {
+          "source_path": "episodes/shreyas-doshi/transcript.md",
+          "source_hash": "4e7f53f543391e9d64b738133eb9ffcefc761bbf22bec002716c5f9c90e940d6",
+          "char_start": 38963,
+          "char_end": 39143,
+          "speaker": {
+            "omitted_string_sha256": "da05fbbab9d40dda61126d41a635f4da6bd7f95ecad8455b8ef22ea736d6c706",
+            "characters": 13
+          },
+          "timestamp_seconds": 2156,
+          "text_sha256": {
+            "omitted_string_sha256": "ca5758c8a38f5767df49c43f07a88993cbb5841b1fc5756625c9a4b14c53bbf9",
+            "characters": 64
+          }
+        }
+      ],
+      "manual_support_note": {
+        "omitted_string_sha256": "b074649c6d2828c8e93aee062358bfb41150641f9d7a4e9e57da965c272f129f",
+        "characters": 91
+      }
+    },
+    {
+      "id": "T07",
+      "split": {
+        "omitted_string_sha256": "c72dee7fe8e800e2c79d7566655fc1f089ecccb122fbb410d311f35520b5604d",
+        "characters": 6
+      },
+      "kind": {
+        "omitted_string_sha256": "06a61df042ad775e8bdd27666ac077a3331e5eb3215d0351ba292bce7e96505b",
+        "characters": 9
+      },
+      "question": {
+        "omitted_string_sha256": "9026c55b7ff412568ff2944740c6b095d9842262ff99e786b1f9e01ce16fb6dd",
+        "characters": 82
+      },
+      "filters": {
+        "source_path": "episodes/brian-balfour/transcript.md"
+      },
+      "evidence": [
+        {
+          "source_path": "episodes/brian-balfour/transcript.md",
+          "source_hash": "d974750bfb180d40e69a6d347c87d93ea007e6c26018bccbe9a1de9d0d4353ba",
+          "char_start": 15186,
+          "char_end": 15468,
+          "speaker": {
+            "omitted_string_sha256": "55e2be4eea73b83cee428d085288787a9f446404bb335b27108c970c403bcd79",
+            "characters": 13
+          },
+          "timestamp_seconds": 769,
+          "text_sha256": {
+            "omitted_string_sha256": "021ad900affc8d78b03fc6c0cb4c84ddf066bd4724ca7bd8c4e11720969a84bc",
+            "characters": 64
+          }
+        }
+      ],
+      "manual_support_note": {
+        "omitted_string_sha256": "7171b0122a414b2473a82d71b52c8944f703fe0be2c8bdf72afb82bf7367958b",
+        "characters": 112
+      }
+    },
+    {
+      "id": "T09",
+      "split": {
+        "omitted_string_sha256": "c72dee7fe8e800e2c79d7566655fc1f089ecccb122fbb410d311f35520b5604d",
+        "characters": 6
+      },
+      "kind": {
+        "omitted_string_sha256": "d15690f08a575024650b01ffac892cfd2b93e6c57c140f1b6d9e47753cabd579",
+        "characters": 6
+      },
+      "question": {
+        "omitted_string_sha256": "eddcee8272b608000f93f75bb41475e47aefa4f01ffde77ea58fa5942b34f671",
+        "characters": 82
+      },
+      "filters": {},
+      "evidence": [
+        {
+          "source_path": "episodes/april-dunford/transcript.md",
+          "source_hash": "7374cc01ec372b23cf297a5d758419183debe3ca4395597993d2fa7e580abfcd",
+          "char_start": 1140,
+          "char_end": 1410,
+          "speaker": {
+            "omitted_string_sha256": "2871db6b446e480d9b5eca30ca54debab194401f33f305fa13594035825e7445",
+            "characters": 13
+          },
+          "timestamp_seconds": 0,
+          "text_sha256": {
+            "omitted_string_sha256": "ebb5caf8108c3486f78ba5a1dff0f58648de84312c5a3bdd2b42fa5288176fc7",
+            "characters": 64
+          }
+        }
+      ],
+      "manual_support_note": {
+        "omitted_string_sha256": "b0188d4c3e9dbfac789cc3c3ec19cdbbde78a30c8231859851a9223442f41237",
+        "characters": 91
+      }
+    },
+    {
+      "id": "T11",
+      "split": {
+        "omitted_string_sha256": "c72dee7fe8e800e2c79d7566655fc1f089ecccb122fbb410d311f35520b5604d",
+        "characters": 6
+      },
+      "kind": {
+        "omitted_string_sha256": "d15690f08a575024650b01ffac892cfd2b93e6c57c140f1b6d9e47753cabd579",
+        "characters": 6
+      },
+      "question": {
+        "omitted_string_sha256": "3c1da33821009fd9eaf91d289ce4a24ed7e85b8ed23cbf6fb622421f7f605196",
+        "characters": 78
+      },
+      "filters": {},
+      "evidence": [
+        {
+          "source_path": "episodes/julie-zhuo/transcript.md",
+          "source_hash": "2ef8f9e32e63296ecdb53d3cc0eb296b34dd88cce4dc4fa5a90a28f463812f8c",
+          "char_start": 12082,
+          "char_end": 12357,
+          "speaker": {
+            "omitted_string_sha256": "26d8c574fd5dae65f4802787d7221fd1369455360c1d4042440345e8c44daa48",
+            "characters": 10
+          },
+          "timestamp_seconds": 560,
+          "text_sha256": {
+            "omitted_string_sha256": "bfccd4d98a9a9ef91102d5b05c2363d3dd24b087537e7db4cd951b538a1774ae",
+            "characters": 64
+          }
+        },
+        {
+          "source_path": "episodes/julie-zhuo/transcript.md",
+          "source_hash": "2ef8f9e32e63296ecdb53d3cc0eb296b34dd88cce4dc4fa5a90a28f463812f8c",
+          "char_start": 12369,
+          "char_end": 12639,
+          "speaker": {
+            "omitted_string_sha256": "26d8c574fd5dae65f4802787d7221fd1369455360c1d4042440345e8c44daa48",
+            "characters": 10
+          },
+          "timestamp_seconds": 607,
+          "text_sha256": {
+            "omitted_string_sha256": "43d1dd466f401180a75f5ded8b8ab43e62a4de74c476b541995d88337fe84924",
+            "characters": 64
+          }
+        }
+      ],
+      "manual_support_note": {
+        "omitted_string_sha256": "d61f5244275f1fb9cb80dc682bec0c13f8c4e55e3e3ed1d75e0f9ba004b599d3",
+        "characters": 96
+      }
+    },
+    {
+      "id": "T13",
+      "split": {
+        "omitted_string_sha256": "c72dee7fe8e800e2c79d7566655fc1f089ecccb122fbb410d311f35520b5604d",
+        "characters": 6
+      },
+      "kind": {
+        "omitted_string_sha256": "0fa3a47212a250ee4c1f7ee58b8cb074d623cf47f8b510916802334bf92b1c7b",
+        "characters": 13
+      },
+      "question": {
+        "omitted_string_sha256": "48d494ba8e7608f1685adb6ef29ea3cd0262d48ef2f56c630538757fd6d89794",
+        "characters": 108
+      },
+      "filters": {},
+      "evidence": [
+        {
+          "source_path": "episodes/shreyas-doshi/transcript.md",
+          "source_hash": "4e7f53f543391e9d64b738133eb9ffcefc761bbf22bec002716c5f9c90e940d6",
+          "char_start": 38557,
+          "char_end": 38757,
+          "speaker": {
+            "omitted_string_sha256": "da05fbbab9d40dda61126d41a635f4da6bd7f95ecad8455b8ef22ea736d6c706",
+            "characters": 13
+          },
+          "timestamp_seconds": 2156,
+          "text_sha256": {
+            "omitted_string_sha256": "959d2d456249967873d9f8094cadc65e62010f610f301bdecd5853b174c6ceda",
+            "characters": 64
+          }
+        },
+        {
+          "source_path": "episodes/julie-zhuo/transcript.md",
+          "source_hash": "2ef8f9e32e63296ecdb53d3cc0eb296b34dd88cce4dc4fa5a90a28f463812f8c",
+          "char_start": 12369,
+          "char_end": 12639,
+          "speaker": {
+            "omitted_string_sha256": "26d8c574fd5dae65f4802787d7221fd1369455360c1d4042440345e8c44daa48",
+            "characters": 10
+          },
+          "timestamp_seconds": 607,
+          "text_sha256": {
+            "omitted_string_sha256": "43d1dd466f401180a75f5ded8b8ab43e62a4de74c476b541995d88337fe84924",
+            "characters": 64
+          }
+        }
+      ],
+      "manual_support_note": {
+        "omitted_string_sha256": "4af1f83495b2c295a8d589abdd49f8b2a3887a1da9760644da2b096c67b3d5ef",
+        "characters": 104
+      }
+    },
+    {
+      "id": "T15",
+      "split": {
+        "omitted_string_sha256": "c72dee7fe8e800e2c79d7566655fc1f089ecccb122fbb410d311f35520b5604d",
+        "characters": 6
+      },
+      "kind": {
+        "omitted_string_sha256": "e1e6a3171c1f4ee0aee13fbe0444d7c9bd211be6785e2adadc6e73f67eb96bc7",
+        "characters": 12
+      },
+      "question": {
+        "omitted_string_sha256": "a509824d16d784731c01a409a3814981cd9b9132f9438782072755ac09f98aa7",
+        "characters": 90
+      },
+      "filters": {
+        "source_path": "episodes/shreyas-doshi/transcript.md"
+      },
+      "evidence": [
+        {
+          "source_path": "episodes/shreyas-doshi/transcript.md",
+          "source_hash": "4e7f53f543391e9d64b738133eb9ffcefc761bbf22bec002716c5f9c90e940d6",
+          "char_start": 28057,
+          "char_end": 28357,
+          "speaker": {
+            "omitted_string_sha256": "da05fbbab9d40dda61126d41a635f4da6bd7f95ecad8455b8ef22ea736d6c706",
+            "characters": 13
+          },
+          "timestamp_seconds": 1547,
+          "text_sha256": {
+            "omitted_string_sha256": "438edd36d273f2fc6cbd7ce1cf8479adb42b29faa28af96b30229a2f657a7a80",
+            "characters": 64
+          }
+        }
+      ],
+      "manual_support_note": {
+        "omitted_string_sha256": "03b18a35b539da223ef61fcfda212210f3d981dc5670e0dea37d934b950ff442",
+        "characters": 89
+      }
+    },
+    {
+      "id": "H17",
+      "split": {
+        "omitted_string_sha256": "78e937783a0e639de2573495542b03afadb5973e026d70724b9de25543aa2b18",
+        "characters": 8
+      },
+      "kind": {
+        "omitted_string_sha256": "c7dbf5744be4fb9d6ecb26abf015b2e366b33619edbfea43c0b42050ada1e4bc",
+        "characters": 10
+      },
+      "question": {
+        "omitted_string_sha256": "f694c01dc5958260be914dc2ac7bf0ef535a79c5a9fdea1c9adcbdc9c4e2a4b6",
+        "characters": 101
+      },
+      "filters": {
+        "source_path": "episodes/shreyas-doshi/transcript.md"
+      },
+      "evidence": [
+        {
+          "source_path": "episodes/shreyas-doshi/transcript.md",
+          "source_hash": "4e7f53f543391e9d64b738133eb9ffcefc761bbf22bec002716c5f9c90e940d6",
+          "char_start": 40715,
+          "char_end": 41055,
+          "speaker": {
+            "omitted_string_sha256": "da05fbbab9d40dda61126d41a635f4da6bd7f95ecad8455b8ef22ea736d6c706",
+            "characters": 13
+          },
+          "timestamp_seconds": 2267,
+          "text_sha256": {
+            "omitted_string_sha256": "d6fd47b9246aec26208981e0017e49a30c6a258d8cef81f08f58f8b1726a699d",
+            "characters": 64
+          }
+        }
+      ],
+      "manual_support_note": {
+        "omitted_string_sha256": "ab8ab6e25f8a771c33524e9f701346d09823e7877bc9e52de724dd18d43dd7d0",
+        "characters": 81
+      }
+    },
+    {
+      "id": "H21",
+      "split": {
+        "omitted_string_sha256": "78e937783a0e639de2573495542b03afadb5973e026d70724b9de25543aa2b18",
+        "characters": 8
+      },
+      "kind": {
+        "omitted_string_sha256": "1dbf39600b5761d58378447f494a50c8b9c01b559b6ef420720f99f4e45717c9",
+        "characters": 13
+      },
+      "question": {
+        "omitted_string_sha256": "1c9091b1e293552e068d9d18b650a6d56ce39ab5ee58b16511fc60b2c5ed11d4",
+        "characters": 96
+      },
+      "filters": {
+        "source_path": "episodes/brian-balfour/transcript.md"
+      },
+      "evidence": [
+        {
+          "source_path": "episodes/brian-balfour/transcript.md",
+          "source_hash": "d974750bfb180d40e69a6d347c87d93ea007e6c26018bccbe9a1de9d0d4353ba",
+          "char_start": 14558,
+          "char_end": 14781,
+          "speaker": {
+            "omitted_string_sha256": "55e2be4eea73b83cee428d085288787a9f446404bb335b27108c970c403bcd79",
+            "characters": 13
+          },
+          "timestamp_seconds": 745,
+          "text_sha256": {
+            "omitted_string_sha256": "ed20aa5d9c7a879780f196917837c5471afe67777807276f82459195e4712d98",
+            "characters": 64
+          }
+        }
+      ],
+      "manual_support_note": {
+        "omitted_string_sha256": "7974f9991a0cdb148bd03d6b80dc376b28728d064b7c785094af29275cfc656b",
+        "characters": 80
+      }
+    },
+    {
+      "id": "H24",
+      "split": {
+        "omitted_string_sha256": "78e937783a0e639de2573495542b03afadb5973e026d70724b9de25543aa2b18",
+        "characters": 8
+      },
+      "kind": {
+        "omitted_string_sha256": "1dbf39600b5761d58378447f494a50c8b9c01b559b6ef420720f99f4e45717c9",
+        "characters": 13
+      },
+      "question": {
+        "omitted_string_sha256": "f0840368bdb8c048bbf5976d0e95704868cc7a2f0d5542b05e1a90632e93caae",
+        "characters": 119
+      },
+      "filters": {
+        "source_path": "episodes/sean-ellis/transcript.md"
+      },
+      "evidence": [
+        {
+          "source_path": "episodes/sean-ellis/transcript.md",
+          "source_hash": "6af2a6e031826805e855ec262b1f228e3773b5b99265a1d01870f0d4e6e9ceda",
+          "char_start": 13243,
+          "char_end": 13573,
+          "speaker": {
+            "omitted_string_sha256": "5714210e2ebd1fd9076ceb8253551a38f683411a5f13c0429983514e261d29a1",
+            "characters": 10
+          },
+          "timestamp_seconds": 698,
+          "text_sha256": {
+            "omitted_string_sha256": "40f8e9519260a938773b387afcfdef5e2dc4b1f951648bd7f6b5000c0ba9c2d8",
+            "characters": 64
+          }
+        }
+      ],
+      "manual_support_note": {
+        "omitted_string_sha256": "fa806884da5162ff95f84a36b83da101e036437df952a1561901e325f9c03881",
+        "characters": 109
+      }
+    }
+  ],
+  "unsupported_cases": [
+    {
+      "id": "U01",
+      "question": {
+        "omitted_string_sha256": "18cd0b9f0688590ff599644923b8ff8735b8b5b89d35d699c2c48a364d9adbd0",
+        "characters": 101
+      },
+      "reason": {
+        "omitted_string_sha256": "3b4a7258f69eeaa78e93d747a3a6e42783db62b499f0f7fe7038eb184989ec12",
+        "characters": 101
+      }
+    },
+    {
+      "id": "U02",
+      "question": {
+        "omitted_string_sha256": "ea382c76bc6b131eeb03599b9024fe4bea542bb71d58a87a2e174a33d69ec637",
+        "characters": 72
+      },
+      "reason": {
+        "omitted_string_sha256": "03db7aa75ac4a6df1b69991530054a6b86a2c1456713a848fb762d358c4e86de",
+        "characters": 72
+      }
+    },
+    {
+      "id": "U03",
+      "question": {
+        "omitted_string_sha256": "6b4660d25ab0c78253006b023b2ae91726213dc2903057cc7011ea082363e392",
+        "characters": 97
+      },
+      "reason": {
+        "omitted_string_sha256": "8249de785dfcab0bf983f3c56bac1827bb6591951b4e5f26c4d285d9ed8cd7f5",
+        "characters": 112
+      }
+    },
+    {
+      "id": "U04",
+      "question": {
+        "omitted_string_sha256": "aa3504bda1dd975e30bd64cb1efc484c89c7efa4fb5c05bef2a84ee07d121eba",
+        "characters": 101
+      },
+      "reason": {
+        "omitted_string_sha256": "272eb6777ee95624af95a0cb903cde7fc79422c0bb23575a9936e9e910574bca",
+        "characters": 98
+      }
+    }
+  ],
+  "manual_rubric": [
+    {
+      "omitted_string_sha256": "b1e6f47f9ef109004311b49836d7c416ec28b811fa255a0d3385de9b1517aab9",
+      "characters": 52
+    },
+    {
+      "omitted_string_sha256": "a5fac17867196affcccc035fd5bb382495c960a74bf7304428ae2133976cb336",
+      "characters": 33
+    },
+    {
+      "omitted_string_sha256": "41bf5d622a1dbee5b47aa9d1706ca04b2d9c999f697a1a409bf4c52c7909a385",
+      "characters": 34
+    },
+    {
+      "omitted_string_sha256": "8495c7d226466ea53375b89e0143e8438cbe4b8d12d40acc97f62fbcb2f1c4d6",
+      "characters": 38
+    },
+    {
+      "omitted_string_sha256": "3b8d1a618534b803827b0a785008a518e6f0fc10c0e1bf157419be2675f0383e",
+      "characters": 41
+    },
+    {
+      "omitted_string_sha256": "8b94f6a989cc00c1e52b209ab814bcd502094e549443a26c4218723d11c1f455",
+      "characters": 49
+    }
+  ],
+  "model": "qwen3:0.6b",
+  "provider": "ollama-local",
+  "retrieval_mode": "hybrid",
+  "per_request_timeout_seconds": 90,
+  "automatic_retry": false
+}

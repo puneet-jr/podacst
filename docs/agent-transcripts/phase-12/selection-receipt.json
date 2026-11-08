@@ -1,0 +1,19 @@
+{
+  "base_revision": "f89807d8db16c20e652590a6470810e5eb60b078",
+  "original_non_document_source_files_unchanged": 187,
+  "mismatches": [],
+  "new_helpers": [
+    "scripts/prepare_publication.py",
+    "scripts/verify_publication.py",
+    "scripts/capture_phase12.py"
+  ],
+  "publication_tree": "/private/tmp/lenny-publication-f89807d",
+  "phase10_failure_hashes_unchanged": true,
+  "candidate_clean": true,
+  "root_index_empty": true,
+  "runtime_changes": 0,
+  "pushed": false,
+  "deployed": false,
+  "uploaded": false,
+  "submitted": false
+}

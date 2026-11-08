@@ -1,0 +1,10 @@
+{
+  "scope": "Offline same saved Phase11 essay source snapshots; no retrieval/generation",
+  "old_open_quotes": 1,
+  "new_open_quotes": 0,
+  "new_sections": 6,
+  "new_facts": 10,
+  "all_exact_spans_hashes": true,
+  "known_unfixed_95_percent_fragment": true,
+  "note": "Only the unbalanced-quotation selection defect is fixed; grammar, statistic completeness, relevance and advice quality still require review."
+}

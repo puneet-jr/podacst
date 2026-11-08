@@ -1,47 +1,104 @@
 {
-  "title": "Use must-have customer feedback to improve positioning and onboarding",
+  "title": {
+    "omitted_string_sha256": "bf156bdf0408648c58fe00210281acf09c1816f17685f89869bfe8e01538e488",
+    "characters": 69
+  },
   "status": "ready",
   "sections": [
     {
-      "heading": "Opening Promise",
-      "purpose": "Introduce the idea of using customer feedback to improve positioning and onboarding.",
+      "heading": {
+        "omitted_string_sha256": "89b99e7b71ff3011b10f3313dc704841f1f3437607d8d01aacc886f4197e1f3b",
+        "characters": 15
+      },
+      "purpose": {
+        "omitted_string_sha256": "6a53e0161f9fcdaa8b2b421fdcdd56926aa955d3f1f61a63ab8cf8bd020616ac",
+        "characters": 84
+      },
       "source_ids": [
-        "S1"
+        {
+          "omitted_string_sha256": "3696ad59777e09d5f2daacb544022d435e7cd053d87c5781241fabd8fdf2a90d",
+          "characters": 2
+        }
       ]
     },
     {
-      "heading": "Foundation",
-      "purpose": "Explain the importance of customer feedback in shaping product positioning and onboarding.",
+      "heading": {
+        "omitted_string_sha256": "df42a4d5d3537666f9ed0012c3a44999878842f8d92f2ac056e6df0ca4ac44d1",
+        "characters": 10
+      },
+      "purpose": {
+        "omitted_string_sha256": "89cb06a653e56477516a1f0240f3923f197432d36df5fbcb2d6803e5ae99387f",
+        "characters": 90
+      },
       "source_ids": [
-        "S2"
+        {
+          "omitted_string_sha256": "adfa2b24c2d924fe6383d8804be55afb98ea3eb0e14c3470ac3a0f651b9a422e",
+          "characters": 2
+        }
       ]
     },
     {
-      "heading": "Mechanism",
-      "purpose": "Outline how customer feedback can be used to improve positioning and onboarding.",
+      "heading": {
+        "omitted_string_sha256": "3489a4c81c349cadc87ab637b3d9b215c40589a3cb6b74f2a0563f2ff4f6e9d1",
+        "characters": 9
+      },
+      "purpose": {
+        "omitted_string_sha256": "467a744f35362b7f8a7fdc5589a7a044e1a4acd4ebfe06f7a3972dcb77a08ea6",
+        "characters": 80
+      },
       "source_ids": [
-        "S3"
+        {
+          "omitted_string_sha256": "44d6a8a73eddb284d49799fdbfa2919a004ece6d2df3546eaa4e246048bcdf81",
+          "characters": 2
+        }
       ]
     },
     {
-      "heading": "Source-Backed Case",
-      "purpose": "Provide a case study from Sean Ellis' experience with customer feedback.",
+      "heading": {
+        "omitted_string_sha256": "081ddc05808eca22b265fc7c05ebc729ce3994218d6568545e8debf8d2af1ea9",
+        "characters": 18
+      },
+      "purpose": {
+        "omitted_string_sha256": "e3b493309501f4358fc19f06363b2c3787555ec02a2ba7c1c7a8b95507108896",
+        "characters": 72
+      },
       "source_ids": [
-        "S4"
+        {
+          "omitted_string_sha256": "b1d3eb8f32936fa9cf89d2240bd10734270fd55ff4644ad254b3b237468bad88",
+          "characters": 2
+        }
       ]
     },
     {
-      "heading": "Limitations",
-      "purpose": "Highlight the limitations of using customer feedback as a guide.",
+      "heading": {
+        "omitted_string_sha256": "69b1b67de5ef98bea519f7c33bf6a1acc7b8d3693331dfd93488dffd794b6844",
+        "characters": 11
+      },
+      "purpose": {
+        "omitted_string_sha256": "ac5a07a03cc1967f578b23ece59a4e4840808712e5647102992e63e1d85a930e",
+        "characters": 64
+      },
       "source_ids": [
-        "S5"
+        {
+          "omitted_string_sha256": "1cdcbd57e7e20491d8be5ff46549aac5f9c117320a164a49ebc4f1439a741d76",
+          "characters": 2
+        }
       ]
     },
     {
-      "heading": "Actionable Takeaway",
-      "purpose": "Summarize the key takeaways from the evidence.",
+      "heading": {
+        "omitted_string_sha256": "ef35084d2396793948e506c7ec0b6f6f4cf7b1676907c5b3482f0d7ab651722b",
+        "characters": 19
+      },
+      "purpose": {
+        "omitted_string_sha256": "703c403d885c545761788b0a457f77d1cd58c7a1407c0ca8a4fd4987b382b6e5",
+        "characters": 46
+      },
       "source_ids": [
-        "S6"
+        {
+          "omitted_string_sha256": "b12f76a4b782e4ae7f035b86a07cb43e638af9157e855af49c3945971d2af402",
+          "characters": 2
+        }
       ]
     }
   ]

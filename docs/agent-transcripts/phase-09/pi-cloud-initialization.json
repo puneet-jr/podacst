@@ -1,0 +1,15 @@
+{
+  "provider": "anthropic-cloud",
+  "model": "claude-haiku-4-5-20251001",
+  "base_url": {
+    "omitted_string_sha256": "85f13dfe69cdbb330d13438aeb5c3242dfa646d8a5e4e28ac81e7056b6ee2fb4",
+    "characters": 25
+  },
+  "initial_message_count": 0,
+  "provider_requests": 0,
+  "synthetic_key": true,
+  "proof": {
+    "omitted_string_sha256": "a6b1fc31f0cc6bee2e8943fe91140964525f848fce850682c0952366cee8b866",
+    "characters": 94
+  }
+}

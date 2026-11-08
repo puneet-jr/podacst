@@ -1,0 +1,23 @@
+{
+  "scope": "Offline source-contract validation, not model inference or historical wire evidence",
+  "manifest_paths": 303,
+  "legacy_ascii_pattern_rejected": [
+    {
+      "omitted_string_sha256": "eade3e8ce398179132df29fdde6a145d9f6cae4e1fec4560b4155c214cb39747",
+      "characters": 35
+    },
+    {
+      "omitted_string_sha256": "128702618429465eaf959857e88768e0d769d1ee3b3e1532a5d655bf2509c466",
+      "characters": 37
+    },
+    {
+      "omitted_string_sha256": "0730905b11cd5c3ecafe02b8ee2e10cb6bd5bf2e89e3bd614fd0d8006e584fab",
+      "characters": 40
+    },
+    {
+      "omitted_string_sha256": "562d94b0180ff7cfc47d5f9cc9fd223235e506b633c19f81ddcc68400fda4cce",
+      "characters": 34
+    }
+  ],
+  "corrected_all_three_api_inputs_and_original_links_accepted": 303
+}

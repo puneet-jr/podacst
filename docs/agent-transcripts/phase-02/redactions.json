@@ -1,9 +1,21 @@
 {
   "captured_at": "2026-11-06T05:12:48.342193+00:00",
   "home_path_replacements": [
-    "live-20261106T045946/results.jsonl",
-    "live-20261106T050223/results.jsonl",
-    "live-20261106T050703/results.jsonl"
+    {
+      "omitted_string_sha256": "1812ef86bb93a7220b6def77ed2fab1e6d10248d2bdaaef642c2796a62d2242d",
+      "characters": 34
+    },
+    {
+      "omitted_string_sha256": "516556522e695201aa8437291954ce60f6d941b0d1ad62630e75e01ee34af27c",
+      "characters": 34
+    },
+    {
+      "omitted_string_sha256": "c6bee255b66d05a214411e03a8c46de5afd3c826a8ceb6f24728896aa6ee0870",
+      "characters": 34
+    }
   ],
-  "note": "Only personal home-path strings changed; real commands, status, generated fixture/test content and failures retained."
+  "note": {
+    "omitted_string_sha256": "ee94aff1b9b4b1e287f1f41f710f0bb77e941c0f9664f5fb69e635b730458520",
+    "characters": 117
+  }
 }

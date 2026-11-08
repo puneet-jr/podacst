@@ -1,0 +1,43 @@
+{
+  "projected_at": {
+    "omitted_string_sha256": "3cf1ff7c171d62ec00918f7450003ab193eb659193ea8dc3bafb418c72d6739d",
+    "characters": 32
+  },
+  "evidence_type": {
+    "omitted_string_sha256": "6ebc2039a1ed74ff053b4cace4745c69535ac7fab79dcedb830179e2a7a974b3",
+    "characters": 92
+  },
+  "probe_run_id": {
+    "omitted_string_sha256": "5d3ce09ac043c12416ae47113082c8348f3a03cc172189423806b7c24a0552f7",
+    "characters": 36
+  },
+  "active_tools": [],
+  "provider_requests": 1,
+  "provider": "ollama-local",
+  "model": "qwen3:0.6b",
+  "prompt_bytes": 9359,
+  "max_tokens": 850,
+  "output_format": {
+    "omitted_string_sha256": "bc18f7068971a44e264848ecd54b72b02d38216abb8ce3c3d2148e37e8a12398",
+    "characters": 8
+  },
+  "structured_grammar": false,
+  "stdout_frames": 445,
+  "tool_execution_starts": 0,
+  "stdout_sha256": {
+    "omitted_string_sha256": "dbb2ff64b627503a4171262a4ccedb90be350f70c568fcbe860171f7e6f3a0cb",
+    "characters": 64
+  },
+  "stderr_sha256": {
+    "omitted_string_sha256": "98beba1669a63cbe0c1dd6d61de1bf1d7828e98e7b6feb00a472ba648575760c",
+    "characters": 64
+  },
+  "raw_stream_location": {
+    "omitted_string_sha256": "f1925ccd57eba141f566b9cbec5745a2dc958118e429e4a0f0a00ef4a0f98ee7",
+    "characters": 82
+  },
+  "limits": {
+    "omitted_string_sha256": "ab7ab36724dd403e9cde2f032f8c9fcb0a3d150fad2499f8a17980e796ac795a",
+    "characters": 109
+  }
+}

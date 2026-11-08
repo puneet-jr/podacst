@@ -3,8 +3,14 @@
     "id": "d6433186-c889-4689-b9ca-518c69152219",
     "session_id": "58f3a325-cc0c-4971-a64a-38dfc5b59a19",
     "client_message_id": "f336ec08-0b68-423a-b558-dde8ddde47ab",
-    "role": "user",
-    "content": "I am an early-stage product manager. Keep recommendations cautious, distinguish advice from observed guest experience, and avoid promises of guaranteed growth.",
+    "role": {
+      "omitted_string_sha256": "04f8996da763b7a969b1028ee3007569eaf3a635486ddab211d512c85b9df8fb",
+      "characters": 4
+    },
+    "content": {
+      "omitted_string_sha256": "27e5a7c9d775e7397cf1cbe4a55d448de12def54ccfb1dd261547137404a70f9",
+      "characters": 159
+    },
     "status": "completed",
     "created_at": "2026-11-06T10:43:11.338443Z",
     "run": null,
@@ -14,8 +20,14 @@
     "id": "17f7b631-0d05-40bc-bafb-e77a61323b14",
     "session_id": "58f3a325-cc0c-4971-a64a-38dfc5b59a19",
     "client_message_id": "b0aee3bf-f083-46d9-9307-abfe5bcd76c3",
-    "role": "user",
-    "content": "Write a Ship30 essay.\nTopic: Use must-have customer feedback to improve positioning and onboarding\nAudience: Early-stage product managers deciding how to move users toward first value\nConstraints: Explain the survey, benefit-focused follow-ups, the Lookout case, and limitations. Do not claim a survey score guarantees product-market fit or that onboarding alone caused the outcome. Label proposed user actions Application:. Use only supplied transcript evidence; no invented stories, quotes, metrics or personal experience.",
+    "role": {
+      "omitted_string_sha256": "04f8996da763b7a969b1028ee3007569eaf3a635486ddab211d512c85b9df8fb",
+      "characters": 4
+    },
+    "content": {
+      "omitted_string_sha256": "7202260c2a1ebadbe56ca46fe863ec702b698e2e57f4bd85adcad078e15527db",
+      "characters": 524
+    },
     "status": "completed",
     "created_at": "2026-11-06T10:43:11.354788Z",
     "run": null,

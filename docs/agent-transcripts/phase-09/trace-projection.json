@@ -1,0 +1,10 @@
+{
+  "run_id": "2449f587-6d78-4179-abe4-38b677294e28",
+  "protocol_records": 55,
+  "diagnostic_records": 5,
+  "default_payloads_excluded": true,
+  "text_tool_call_normalized": true,
+  "provider": "ollama-local",
+  "process_reaped": true,
+  "bridge_closed": true
+}

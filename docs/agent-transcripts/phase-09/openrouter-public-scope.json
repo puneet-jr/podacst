@@ -1,0 +1,75 @@
+{
+  "captured_at": "2026-11-07T07:01:47.359880+00:00",
+  "public_source_url": {
+    "omitted_string_sha256": "16251b04e0d800e04076902cc3af192ad5d7d41362a0a507a8d9665a1b6d56de",
+    "characters": 143
+  },
+  "source_path": "episodes/sean-ellis/transcript.md",
+  "corpus_revision": "be8ab89a890a833cbba2c892178f823fff178c65",
+  "source_sha256": {
+    "omitted_string_sha256": "98472e84eb87db92e48bfbd24d1e3ad5896e23bb4b611cb8c02b9bae63d40907",
+    "characters": 64
+  },
+  "local_file_matches_public": true,
+  "all_retrieved_candidates_match_public_hash": true,
+  "all_retrieved_spans_match_public_content": true,
+  "retrieved_ids": [
+    {
+      "omitted_string_sha256": "69c74781e1c3199663e73649e1f104315a63a10555ea9265984918c29f9a16d6",
+      "characters": 36
+    },
+    {
+      "omitted_string_sha256": "00b21045b689e552ad88b799bd479b7517666a43cc8b938cf23a1505b20c9ab6",
+      "characters": 36
+    },
+    {
+      "omitted_string_sha256": "b208607f2757db48e8b5185af86baba98a4265e4d76558a1ac1f04ff9af8cfb9",
+      "characters": 36
+    },
+    {
+      "omitted_string_sha256": "93dfb3e9e0d6ab6cf1a6a059a54fce50ad7058f33158bbdffe221d83126d2e0e",
+      "characters": 36
+    },
+    {
+      "omitted_string_sha256": "c8d2b19f46550a8b7408e546d276e8b1f87864fd633fb10c608ce82dcdab8582",
+      "characters": 36
+    }
+  ],
+  "planned_question": {
+    "omitted_string_sha256": "959a44f82999e6d8578437949527447b89609676747100634c45136f1be2814d",
+    "characters": 92
+  },
+  "planned_session": {
+    "omitted_string_sha256": "2151e47cf22079bec0763c7e8b0313f6dfbee536c69223472e52697e54ccf391",
+    "characters": 40
+  },
+  "excluded": [
+    {
+      "omitted_string_sha256": "738a92105e0104c27cbb71a8aaf270934dc29abafbf88b016e94386ce462d3c5",
+      "characters": 14
+    },
+    {
+      "omitted_string_sha256": "e195a57ad33cadfaf24e780cdb3c82d9fd9d4b8042c969d855562be56fa63520",
+      "characters": 22
+    },
+    {
+      "omitted_string_sha256": "077fe2655c73683ad6c54db4df777664c240c19d5ad4321def6a20041becced2",
+      "characters": 14
+    },
+    {
+      "omitted_string_sha256": "681e64356e698a0651b046199c6b6588c278312e1b51d41b34c6c3191dfb113a",
+      "characters": 20
+    }
+  ],
+  "planned_destinations": [
+    {
+      "omitted_string_sha256": "eb70c3bc14fa7ae14285b750955958e63b64b8f19546c30fc2223ad9057a959c",
+      "characters": 10
+    },
+    {
+      "omitted_string_sha256": "dcd6adf438af82f6e26781c351ef234e7bc2af1167e6662c3267a68e4c77474c",
+      "characters": 43
+    }
+  ],
+  "inference_requests": 0
+}

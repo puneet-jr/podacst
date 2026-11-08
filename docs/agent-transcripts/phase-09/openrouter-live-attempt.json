@@ -1,0 +1,77 @@
+{
+  "command_exit_code": 1,
+  "captured_at": "2026-11-07T08:56:04.843402+00:00",
+  "provider": "openrouter",
+  "pi_provider": {
+    "omitted_string_sha256": "7f871cbf905f6e0cd598b11609f33f609e60a61892ac6b37e80cf1de282ee367",
+    "characters": 10
+  },
+  "model": "google/gemini-2.5-flash-lite",
+  "endpoint": {
+    "omitted_string_sha256": "76ef4ad6f0c8a4ae66efb13875c107cee40c78997a212353d379acfbb2f45591",
+    "characters": 28
+  },
+  "inference_mocked": false,
+  "cloud_validation": "pending",
+  "automatic_fallback": false,
+  "public_source_path": {
+    "omitted_string_sha256": "ad9fd290e6d14d705fd856dbe2b6d33a67be53db50312b5a0ccfbd7f15aa02f8",
+    "characters": 33
+  },
+  "public_source_sha256": {
+    "omitted_string_sha256": "98472e84eb87db92e48bfbd24d1e3ad5896e23bb4b611cb8c02b9bae63d40907",
+    "characters": 64
+  },
+  "all_active_source_spans_verified_public": true,
+  "prior_history_sent": false,
+  "session_id": "edb879d1-5a0d-468e-b6ef-9c960af14c4d",
+  "http": 200,
+  "request_id": {
+    "omitted_string_sha256": "2e4989c769cb29886b8ccce4286ad2ed57c732d5bf3cd76eec00dbf487ce2b02",
+    "characters": 32
+  },
+  "elapsed_seconds": 4.940503334997629,
+  "private_evidence_directory": {
+    "omitted_string_sha256": "cbc6a51120c196d11428a54fc745730562592e5b693d02cb92f6169d521f05c3",
+    "characters": 60
+  },
+  "events": [
+    {
+      "omitted_string_sha256": "03494afd4248c42f5fa1237bf2eeebe751ab8d9c977d55405fcb17469dbd91f8",
+      "characters": 7
+    },
+    {
+      "omitted_string_sha256": "23572fdd1589c64c12b0d4365e61a1cb6c20355e1745dbd440702a83c07ba357",
+      "characters": 10
+    },
+    {
+      "omitted_string_sha256": "99876ff60e853fde670c56cee15b2ca233cc5967f9526d9c91358259292508f5",
+      "characters": 14
+    },
+    {
+      "omitted_string_sha256": "941ee53e40d97e41838c835556734d7da1876f9f02842848af0cd39245e8da3f",
+      "characters": 10
+    },
+    "failed"
+  ],
+  "run_id": "a1d3ea92-0d59-4fb4-a0c8-1627f27dbbbb",
+  "status": "failed",
+  "error_code": "provider_http_400",
+  "recorded_provider": {
+    "omitted_string_sha256": "7f871cbf905f6e0cd598b11609f33f609e60a61892ac6b37e80cf1de282ee367",
+    "characters": 10
+  },
+  "recorded_model": {
+    "omitted_string_sha256": "aa393677798a6e7974acacc756412b723245d9d99cddf89d89e2dbf8dacce22c",
+    "characters": 28
+  },
+  "usage": null,
+  "process_reaped": true,
+  "bridge_closed": true,
+  "text_tool_call_normalized": false,
+  "tool_trace": [],
+  "blocker": {
+    "omitted_string_sha256": "39ed0f08632a473c7759f5d9e75b2233e1a455b85302da38e4fd523fbc1b8f08",
+    "characters": 17
+  }
+}

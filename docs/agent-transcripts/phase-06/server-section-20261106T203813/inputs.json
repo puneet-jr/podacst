@@ -1,0 +1,193 @@
+{
+  "prompt": {
+    "omitted_string_sha256": "f070d81e5ff50b32e707cfef547827f77817cf5ce15e929d3fbedadb085aaed3",
+    "characters": 389
+  },
+  "model": {
+    "name": "qwen3:1.7b",
+    "model": "qwen3:1.7b",
+    "modified_at": {
+      "omitted_string_sha256": "3a2cefa5f863a88a06aded5eef290cf413eefa04e8497c4aecb136e9034d5b37",
+      "characters": 35
+    },
+    "size": 1359293444,
+    "digest": {
+      "omitted_string_sha256": "41ca9b15f98754289684353d5caf9333404a72b5e6dea9bff3bee32ec7c7d842",
+      "characters": 64
+    },
+    "details": {
+      "parent_model": {
+        "omitted_string_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "characters": 0
+      },
+      "format": "gguf",
+      "family": {
+        "omitted_string_sha256": "61b6a80524bed7a2b8b0702c24f050fbc3a72a02875a4deddd7cd41a9f29e1d3",
+        "characters": 5
+      },
+      "families": [
+        {
+          "omitted_string_sha256": "61b6a80524bed7a2b8b0702c24f050fbc3a72a02875a4deddd7cd41a9f29e1d3",
+          "characters": 5
+        }
+      ],
+      "parameter_size": {
+        "omitted_string_sha256": "ce01aa5654a6105ea94e1551bc2405e02ddb9db2c6fc0e9182c821f6454a44b2",
+        "characters": 4
+      },
+      "quantization_level": {
+        "omitted_string_sha256": "42deb74305e56147014ee5a158ceca8a7d60a55f7d120fa4da790658488c15cd",
+        "characters": 6
+      },
+      "context_length": 40960,
+      "embedding_length": 2048
+    },
+    "capabilities": [
+      {
+        "omitted_string_sha256": "21606b5837ee49171e56cff2afe21083fb4dfe5c15c79b54695c2dc335181c89",
+        "characters": 10
+      },
+      {
+        "omitted_string_sha256": "f9d35d43770d39092a663e665e82ae1d84a9e0da3d0d10c407acada6a40cd281",
+        "characters": 5
+      },
+      {
+        "omitted_string_sha256": "6ee16429668c2d8207707407c8c3ee4285a9e26eef5bd0c17ff00efe090808e2",
+        "characters": 8
+      }
+    ]
+  },
+  "provider_before": {
+    "selected": "ollama",
+    "model": "qwen3:0.6b",
+    "automatic_fallback": false,
+    "providers": [
+      {
+        "id": "ollama",
+        "implemented": true,
+        "configured": true,
+        "scope": "retrieval-first extractive conversation; hybrid; no autonomous/essay quality claim"
+      },
+      {
+        "id": "anthropic",
+        "implemented": false,
+        "credentials_present": false,
+        "enabled": false,
+        "reason": {
+          "omitted_string_sha256": "0887bc1d08fef250e07e225c2fbc3c117dd84a3243b19463b209d574f8bad133",
+          "characters": 62
+        }
+      }
+    ]
+  },
+  "preserved_files": {
+    "docs/agent-transcripts/phase-06/markdown-section-20261106T150144/result.json": {
+      "omitted_string_sha256": "0e2fa7f10e1a759ce96120243d837a4110afd1b65383ec8c2b35194ffc7be91c",
+      "characters": 64
+    },
+    "docs/agent-transcripts/phase-06/markdown-section-20261106T150144/report.md": {
+      "omitted_string_sha256": "ed1ffb1a6a0242c0720c959c351c9b8fa01d42ecdecf62b29400d83ad5f93c5a",
+      "characters": 64
+    },
+    "docs/agent-transcripts/phase-06/markdown-section-20261106T150144/command.json": {
+      "omitted_string_sha256": "ac4cc3abfc04cae0174bc7a53149d831ca82c62e336fbbc906e321afa498d0bc",
+      "characters": 64
+    },
+    "docs/agent-transcripts/phase-06/markdown-section-20261106T150144/protocol-check.json": {
+      "omitted_string_sha256": "26d7ac4766835daa84288060729f7108fa759223079b23b2352bcf6b6a67dbee",
+      "characters": 64
+    },
+    "docs/agent-transcripts/phase-06/markdown-section-20261106T150144/review.json": {
+      "omitted_string_sha256": "327f1c945cc24ab698e62e43f88926cb1e560e1750a11d5bad8dd4ef80a2677e",
+      "characters": 64
+    },
+    "docs/agent-transcripts/phase-06/markdown-section-20261106T150144/section.md": {
+      "omitted_string_sha256": "3492ff8f6cadd5a62298c72706ac3cde3335e3df6ccadaa37a1e0bc8dfbac817",
+      "characters": 64
+    },
+    "docs/agent-transcripts/phase-06/qwen17-section-20261106T185057/comparison-verification.json": {
+      "omitted_string_sha256": "c380478bacb1fbfa5c5841e6a16590a105195fff8b2353f91abfd48ba9d9fda9",
+      "characters": 64
+    },
+    "docs/agent-transcripts/phase-06/qwen17-section-20261106T185057/result.json": {
+      "omitted_string_sha256": "d12b712dcd1ca17b7d110f83ce6f21f216198987181ae802412532f21d61870c",
+      "characters": 64
+    },
+    "docs/agent-transcripts/phase-06/qwen17-section-20261106T185057/report.md": {
+      "omitted_string_sha256": "d022a0450a28660bd4c910982017162dbb12ce6cfb223cb85d6522a278856851",
+      "characters": 64
+    },
+    "docs/agent-transcripts/phase-06/qwen17-section-20261106T185057/command.json": {
+      "omitted_string_sha256": "01130344f26a4de4839e86e804fe0543814b12fdba994b839f921ca124822fd4",
+      "characters": 64
+    },
+    "docs/agent-transcripts/phase-06/qwen17-section-20261106T185057/inputs.json": {
+      "omitted_string_sha256": "3263ebc298bcacef75d844da6944000dc58b9d8891b6184d1b34ad129d252486",
+      "characters": 64
+    },
+    "docs/agent-transcripts/phase-06/qwen17-section-20261106T185057/review.json": {
+      "omitted_string_sha256": "538488348e308d76bb3caea0ac0eff1c4a38126d3a3509507c474b6ff26ec201",
+      "characters": 64
+    },
+    "docs/agent-transcripts/phase-06/qwen17-section-20261106T185057/section.md": {
+      "omitted_string_sha256": "39cc8373ef1e112b53c05a5d12ff647f9ef9423affc6540586d29fedb749adac",
+      "characters": 64
+    },
+    "docs/agent-transcripts/phase-06/qwen17-section-20261106T185057/source-resolution.json": {
+      "omitted_string_sha256": "2c4f99220526b865957db11ba6c73a5725297a241f76209f7f212a209914553e",
+      "characters": 64
+    },
+    "docs/agent-transcripts/phase-06/approved-section-20261106T193354/approved-facts.json": {
+      "omitted_string_sha256": "aa4894323d718c5d6df6c67a0e2a1855be8258d7d30208ba07128ce43a5217a8",
+      "characters": 64
+    },
+    "docs/agent-transcripts/phase-06/approved-section-20261106T193354/result.json": {
+      "omitted_string_sha256": "46a9539efde5e3cbdcb19b11ca579a12742ef8de1f6573c5f664105c415c13ce",
+      "characters": 64
+    },
+    "docs/agent-transcripts/phase-06/approved-section-20261106T193354/report.md": {
+      "omitted_string_sha256": "242dbc4d521885dc125db5d0efb1b6e1ea762694ba9805452a440a4b1241ccaa",
+      "characters": 64
+    },
+    "docs/agent-transcripts/phase-06/approved-section-20261106T193354/preservation.json": {
+      "omitted_string_sha256": "86922d05f49d893ee161946c50fee00631bc5ca478ff07583e2348641975b97c",
+      "characters": 64
+    },
+    "docs/agent-transcripts/phase-06/approved-section-20261106T193354/process-stdout.json": {
+      "omitted_string_sha256": "5bd3ba79a0944aeabb1e53f8c9cb76716ee5bff54287e75ccbb38a6eef4577c1",
+      "characters": 64
+    },
+    "docs/agent-transcripts/phase-06/approved-section-20261106T193354/raw.md": {
+      "omitted_string_sha256": "65a1754956c215015e8583a624311bc8511b44c1718969ddd47a585af7ca8362",
+      "characters": 64
+    },
+    "docs/agent-transcripts/phase-06/approved-section-20261106T193354/command.json": {
+      "omitted_string_sha256": "bd300b6be681b79d6fa70843fb9df55cb59bb059daf12c66b211d9b7e7b344b7",
+      "characters": 64
+    },
+    "docs/agent-transcripts/phase-06/approved-section-20261106T193354/inputs.json": {
+      "omitted_string_sha256": "da36667342fdfcf34d7e8796454c05218b7e1880b30c603cadcf543f53dcf312",
+      "characters": 64
+    },
+    "docs/agent-transcripts/phase-06/approved-section-20261106T193354/protocol-check.json": {
+      "omitted_string_sha256": "b80916184eda5164b3e7fc704e0dac34ec85f1b7b9ee9883156e014219ba3400",
+      "characters": 64
+    },
+    "docs/agent-transcripts/phase-06/approved-section-20261106T193354/review.json": {
+      "omitted_string_sha256": "20ef2942d343b29f88922e89efd0f72e039de30020be6902a927fc6d726c8878",
+      "characters": 64
+    }
+  },
+  "module_sha256": {
+    "omitted_string_sha256": "ed9f1e9ad70efad35e9d86586e7e26f65a4069ee6541fe3ceedf5da293c7f54f",
+    "characters": 64
+  },
+  "extension_sha256": {
+    "omitted_string_sha256": "df6f2bdc98d5daea97c5fd525f6c6c3ffa64d25f6e0f9ea5885a863c7f608ddd",
+    "characters": 64
+  },
+  "boundaries": {
+    "omitted_string_sha256": "75d36308203da8f2fd64221dab8e1d6de417ca7eeedd2be2f94a84c216fe3999",
+    "characters": 225
+  }
+}

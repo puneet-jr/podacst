@@ -1,30 +1,48 @@
 {
   "images": [
     {
-      "private_path": ".cache/phase8-browser/fixture-desktop.png",
+      "private_path": {
+        "omitted_string_sha256": "dc0b4cf356d5b1d49290230647c891149143978c2e4eba2f809c44c42d61300f",
+        "characters": 41
+      },
       "sha256": "87c84661ed56436e539f44f9ed28fef65cd75a1ff2c1e14c9ba72e786c826f6e",
       "bytes": 238826
     },
     {
-      "private_path": ".cache/phase8-browser/fixture-mobile.png",
+      "private_path": {
+        "omitted_string_sha256": "97b306ff5aa02b0ad0121d320e4f31649705d5acccd9ae54c926d5f78709dd8c",
+        "characters": 40
+      },
       "sha256": "7c0b990365cd403bcb2137480069bc60376c2bd3b3cb46b51dff3f56d856bceb",
       "bytes": 63507
     },
     {
-      "private_path": ".cache/phase8-browser/live-accepted-desktop.png",
+      "private_path": {
+        "omitted_string_sha256": "79fa1506e78d1d371bf70c08b3c46a3e5b73d1761d143bcf6845254c02ef60b7",
+        "characters": 47
+      },
       "sha256": "a2d37c7487d196f93eead36db16bf8c65bcd7b8bc95eb65291234455ee64605d",
       "bytes": 279614
     },
     {
-      "private_path": ".cache/phase8-browser/live-accepted-mobile.png",
+      "private_path": {
+        "omitted_string_sha256": "eaf506493b5ff06238e32972665c7c9c792daf9c8562d5770aa68bd81284f02d",
+        "characters": 46
+      },
       "sha256": "bb6c982ba12897c78111d2368c0d7b6c720fa3d206d0ed7adc543ff57c768a88",
       "bytes": 67337
     },
     {
-      "private_path": ".cache/phase8-browser/live-draft-review.png",
+      "private_path": {
+        "omitted_string_sha256": "a1505cd731096f3b8400c630eceb4397794b359392d6a3b8a4dcc01083981dde",
+        "characters": 43
+      },
       "sha256": "ee23916fcaadf6b1ccf639b1c53a3e97bf7800031e3963eb62ad18108ffb31bd",
       "bytes": 195457
     }
   ],
-  "limits": "Private internal QA images stay ignored. Desktop/mobile screenshots were visually inspected; hashes identify these files without publishing session screenshots."
+  "limits": {
+    "omitted_string_sha256": "9aaf2ebe18c54cca2362fb5ecbe556cf4c03c60d5b0df442ad64d9e2e755df1a",
+    "characters": 160
+  }
 }

@@ -1,0 +1,120 @@
+{
+  "saved_run_id": {
+    "omitted_string_sha256": "92b62c730f22b3f518fd066126f3e1db77537e3fc8b79d629a0143df8f8824f7",
+    "characters": 36
+  },
+  "historical_error_message_retained": false,
+  "sanitized_historical_upstream_message": null,
+  "available_safe_code": {
+    "omitted_string_sha256": "39ed0f08632a473c7759f5d9e75b2233e1a455b85302da38e4fd523fbc1b8f08",
+    "characters": 17
+  },
+  "actual_trace": {
+    "records": 29,
+    "model_turns": 2,
+    "tool_starts": 1,
+    "tool_ends": 1,
+    "serialized_tool_ids_or_request_parameters_retained": false,
+    "stderr_surface": {
+      "omitted_string_sha256": "f3bf59a88acdc74d7235345d7dc02c429e1d7e00f01a021c2c57a42fbda8beed",
+      "characters": 27
+    }
+  },
+  "first_call": {
+    "omitted_string_sha256": "b78501347d45e47d68045848cadf8b73b01a9dab4a7b0bb205219fa88b903f23",
+    "characters": 116
+  },
+  "offline_installed_sdk": {
+    "omitted_string_sha256": "d5cb4d1f68e2bb0c0078ede0a2bd242c3f2d06a5a4cd0626868757d86c5f3e64",
+    "characters": 76
+  },
+  "serializer_findings": {
+    "tool_call": {
+      "omitted_string_sha256": "481a20390a82ca7afe99c2644a9c251593300465d2ba508f62be203decfe068d",
+      "characters": 56
+    },
+    "tool_result": {
+      "omitted_string_sha256": "143975677d6a4ee5a49ade7b1d9c16510b7bc6fe31bdb8989618eeaeaabb8519",
+      "characters": 61
+    },
+    "evidence_of_actual_historical_id_mismatch": false
+  },
+  "documented_compatibility_issue": {
+    "omitted_string_sha256": "efc91d87cca1aad89368e85f3a94c3646fe22d2c1b2b5e38fced6ca54fed72d3",
+    "characters": 234
+  },
+  "primary_reference": {
+    "omitted_string_sha256": "2e35bd33c49f107f7fafd6bb751f1015a7b3ae375f750fcc948157209e456cc5",
+    "characters": 55
+  },
+  "smallest_fix": [
+    {
+      "turn": 2,
+      "field": {
+        "omitted_string_sha256": "7a619bb24502bd55c82ded60e049cf298d24a7dc2c08bf26b5441d2dc5ddf5cf",
+        "characters": 15
+      },
+      "before": {
+        "type": "json_object"
+      },
+      "after": null
+    }
+  ],
+  "unchanged": [
+    {
+      "omitted_string_sha256": "e93bf5109ee16a947d3003af3fde75411bcd35aa5730b82bfd341a8ec04f4651",
+      "characters": 19
+    },
+    {
+      "omitted_string_sha256": "aa393677798a6e7974acacc756412b723245d9d99cddf89d89e2dbf8dacce22c",
+      "characters": 28
+    },
+    {
+      "omitted_string_sha256": "78bdc8e6abbe2b5856846ecac00f5877e1219e6e745412bba4fd8b2a8a15b75a",
+      "characters": 20
+    },
+    {
+      "omitted_string_sha256": "be220d73cf7d4763b98eae74c6a3aadc3876a6044a68ee15d81b51913cb6f6df",
+      "characters": 12
+    },
+    {
+      "omitted_string_sha256": "c47a9c509e779b6c5c0cc3e4ddd5450635a09dadda1f3490c55ffa7de0130dea",
+      "characters": 24
+    },
+    {
+      "omitted_string_sha256": "f4e579783ce425463349def23eb58aaf21cd4ffa2012052a5da642867b95ce7c",
+      "characters": 21
+    },
+    {
+      "omitted_string_sha256": "2fe3534f1256d9a03a30e156d983ec50a35de537e08684ad77cdbf4150048882",
+      "characters": 34
+    },
+    {
+      "omitted_string_sha256": "32e281f34225a0faada8274a81d7f660aef8bbed4c6dbc5ffa6ce13a5a132e5a",
+      "characters": 26
+    },
+    {
+      "omitted_string_sha256": "d8b7c2697feec150bf12be54004759c057d6edf0d7424c30404e0c94bdc8ba44",
+      "characters": 29
+    }
+  ],
+  "authorized_reruns": 1,
+  "corrective_rerun": {
+    "run_id": "5c0f723b-4a11-4ef3-bbb7-0fceb24783f5",
+    "provider": "openrouter",
+    "model": "google/gemini-2.5-flash-lite",
+    "seconds": 6.512845794000896,
+    "status": "passed",
+    "citation": {
+      "omitted_string_sha256": "3696ad59777e09d5f2daacb544022d435e7cd053d87c5781241fabd8fdf2a90d",
+      "characters": 2
+    },
+    "chunk_id": "c0aa1ec1-9da2-5bc9-a1ed-550df1f12411",
+    "exact_span_and_semantic_support": true,
+    "count": 1
+  },
+  "interpretation": {
+    "omitted_string_sha256": "71b912e7bcc92bfbc07fa0a280eb2ef5b77dbe02727b65e5720f5fa95d4d0bca",
+    "characters": 153
+  }
+}

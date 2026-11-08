@@ -1,30 +1,78 @@
 {
-  "kind": "pre_ingestion_anchor_correction",
-  "reason": "Boundary unit test caught header whitespace crossing a line; anchor offsets corrected before embeddings or retrieval/generation tuning. Question text and source choices unchanged.",
+  "kind": {
+    "omitted_string_sha256": "8d39276e662b4cff3d0c08417bb526da33ce1e62bf59abb9c6daf4b67a9a9f0f",
+    "characters": 31
+  },
+  "reason": {
+    "omitted_string_sha256": "ec3d7f821e8b5baa8ffea7ac60300414d489e9cec3ae3aa92bdddd93013fc99d",
+    "characters": 179
+  },
   "old_anchor_hashes": {
     "SC-01-A": [
-      "f08af849bb8b8a7d65536410215cfc00d4e7939db56425acdcdd82ccaa21ffa3",
-      "57c44921b579ca3e0825b65f3ef2dc3f3d1ea8025d3a27a5f4655a2697a8bca4",
-      "3d3f4611b6ac979c49e84ca20a30ba4dd2a746add6f7d9ab3e1508b1ab89bdee",
-      "ddabf515cfb9c436717722f324d01ed5c7347d7035e5f423b5dd550e00a9f150"
+      {
+        "omitted_string_sha256": "013437d96321361e67e8dbdd6d7390f6e086006989d12f76d195505aa183778d",
+        "characters": 64
+      },
+      {
+        "omitted_string_sha256": "1e7c43de3d32c9db82ae9a03b36602d2fafdcf325f3dcae76abed72a80b5b077",
+        "characters": 64
+      },
+      {
+        "omitted_string_sha256": "b265a55da57fbad570bc4005935e330d7f8f01db4c07442d9ab213a3cc10df59",
+        "characters": 64
+      },
+      {
+        "omitted_string_sha256": "38f95f61607b2208fc90435ddca46a18fb5d3100f90e0cb4e28557eb6241bc2a",
+        "characters": 64
+      }
     ],
     "SC-01-B": [
-      "6182bfb731337b8e0062199b2658744c69deddee6a39e24f64113b3a25f6fa61",
-      "7c0ef30944cd09a0b78f3b3c1e18f62ed64aa065a634428083d3eb1d41146d4c",
-      "f9b7cf982b2b05b0abb186e60ed4b472f98792a576886896cfdd5700d2a5ce40",
-      "68a112cb0fa897f0cd2d5fceee9c79fa76315f23e197f130efcb53f84641b0b6"
+      {
+        "omitted_string_sha256": "6c2590d3dd38ae0b22cbc780fdf6bbb9b30e8e4a6de19a6c5588c92bec69693f",
+        "characters": 64
+      },
+      {
+        "omitted_string_sha256": "11b5dabea14a650347549e7b67d55ee8ec3d15e4e3f21f2290b1f5613b75932d",
+        "characters": 64
+      },
+      {
+        "omitted_string_sha256": "602688f0ccb26280d738fa6db946af43470c6d3505e97cbe5621362a4e306630",
+        "characters": 64
+      },
+      {
+        "omitted_string_sha256": "d622dc6c7f3b2befcf144410fb2ac80651324a513ffdc382c078dfe3a1852db1",
+        "characters": 64
+      }
     ],
     "SC-01-C": [
-      "3d3f4611b6ac979c49e84ca20a30ba4dd2a746add6f7d9ab3e1508b1ab89bdee",
-      "ddabf515cfb9c436717722f324d01ed5c7347d7035e5f423b5dd550e00a9f150",
-      "25a0254a7ba5608e776e4a8c1837905bc4f27ab913d5f5277226b12cda51f7d4"
+      {
+        "omitted_string_sha256": "b265a55da57fbad570bc4005935e330d7f8f01db4c07442d9ab213a3cc10df59",
+        "characters": 64
+      },
+      {
+        "omitted_string_sha256": "38f95f61607b2208fc90435ddca46a18fb5d3100f90e0cb4e28557eb6241bc2a",
+        "characters": 64
+      },
+      {
+        "omitted_string_sha256": "b90ceb152aeaf8c9cf1916a08ecb7b84e3fdf58b3d9dcb1c9f320618527b0449",
+        "characters": 64
+      }
     ],
     "SC-01-D": [
-      "32a6c3c2633553848c97ee5eed70bdc7a52158180adcb0cfa27702a5d4b286a0"
+      {
+        "omitted_string_sha256": "28040f9bedfb6e361ececb281f3bdbde3d67245bdf1d1eba836fb8edad9a8efa",
+        "characters": 64
+      }
     ],
     "SC-01-E": [
-      "f08af849bb8b8a7d65536410215cfc00d4e7939db56425acdcdd82ccaa21ffa3",
-      "25a0254a7ba5608e776e4a8c1837905bc4f27ab913d5f5277226b12cda51f7d4"
+      {
+        "omitted_string_sha256": "013437d96321361e67e8dbdd6d7390f6e086006989d12f76d195505aa183778d",
+        "characters": 64
+      },
+      {
+        "omitted_string_sha256": "b90ceb152aeaf8c9cf1916a08ecb7b84e3fdf58b3d9dcb1c9f320618527b0449",
+        "characters": 64
+      }
     ]
   }
 }

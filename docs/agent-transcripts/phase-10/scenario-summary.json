@@ -1,0 +1,815 @@
+{
+  "first_attempt_score": "0/5",
+  "proposed_target": "4/5",
+  "post_fix_reruns": {
+    "omitted_string_sha256": "fbe46af7b7bb4b82ba6988af5f36a0c2e715bf60b49b3b2bc9046143256df8ac",
+    "characters": 78
+  },
+  "cases": [
+    {
+      "scenario_id": {
+        "omitted_string_sha256": "e19e334fcfe7d571f9208dc9a94ffa581b1fda44d06e92def46832445289e87e",
+        "characters": 7
+      },
+      "attempt": {
+        "omitted_string_sha256": "a7937b64b8caa58f03721bb6bacf5c78cb235febe0e70b1b84cd99541461a08e",
+        "characters": 5
+      },
+      "started_at": "2026-11-07T13:13:14.174240+00:00",
+      "started_at_ist": {
+        "omitted_string_sha256": "d82ae98d1e09b14ab9bf5b5b977d723315d3b3ecb972accbc9bb868f0150b5bd",
+        "characters": 32
+      },
+      "review_ended_at": {
+        "omitted_string_sha256": "7534abb375f9f564d1ff8b710226edb1b3f4652285437ceab2879efc4b14d0f1",
+        "characters": 32
+      },
+      "review_ended_at_ist": {
+        "omitted_string_sha256": "d6ae1e89be3b858439dc5937c485f6a37a7644950108b9a7f77b3917d87bca52",
+        "characters": 32
+      },
+      "task_seconds_including_review": 159.841,
+      "duration_cap": 240,
+      "within_cap": true,
+      "transport_pass": true,
+      "browser_pass": true,
+      "semantic_pass": false,
+      "passed": false,
+      "criteria": {
+        "citation_and_passage_support": {
+          "omitted_string_sha256": "4e0ff7bba8d00e4cfc5d454630a5a8c7256800dbc7a58311e9e7b383bba722a8",
+          "characters": 24
+        },
+        "requested_question_and_response_use": {
+          "omitted_string_sha256": "3cff987319c690f1d1ebbf84125ebe43d014c261d5b12b42fd39529783c3ba08",
+          "characters": 15
+        },
+        "markdown_save_render_reopen": "pass",
+        "artifact_relevance_and_completeness": "fail"
+      },
+      "direct_review_notes": [
+        {
+          "omitted_string_sha256": "c82196a68825d00fa55d1497fead29d9d24e89b6f84de1c0a002f49c444a8bba",
+          "characters": 240
+        },
+        {
+          "omitted_string_sha256": "9b7c468ff0f6114bddacc1269249a6baf3ef48b9f18b2ec45dccf8e616b8327a",
+          "characters": 131
+        },
+        {
+          "omitted_string_sha256": "c70270ca6ca3f3d63ceb65d6b6c0525f6480aa91d89ee281704e1ad7a1083ee7",
+          "characters": 118
+        }
+      ],
+      "reviewer": {
+        "omitted_string_sha256": "4e03399a174616f5531dd775e3412019ebeb68422a0dc7e245002692b49c89f6",
+        "characters": 87
+      },
+      "session_ids": [
+        {
+          "omitted_string_sha256": "4e3864ca997bc93a9d3e9a5bc93a209f4f56892b94174c7c8b3bc130908e00e0",
+          "characters": 36
+        }
+      ],
+      "passage_ids": [
+        {
+          "omitted_string_sha256": "b8a7faaa0cd6df9c0cd7ce3f77798993ed22a328a824363fbdd90b554863c2eb",
+          "characters": 36
+        }
+      ],
+      "evidence_directory": {
+        "omitted_string_sha256": "bcccf86cccb5962f912256b9dbf7e67e6cc6b58d435c20da9e6c632aef703e2f",
+        "characters": 33
+      },
+      "raw_outputs_preserved": true,
+      "latest_saved_output_browser_pass": true,
+      "request_latencies": [
+        {
+          "name": "initial",
+          "seconds": 7.595430000219494,
+          "status": "completed",
+          "code": null,
+          "passage_ids": [
+            {
+              "omitted_string_sha256": "b8a7faaa0cd6df9c0cd7ce3f77798993ed22a328a824363fbdd90b554863c2eb",
+              "characters": 36
+            }
+          ]
+        }
+      ],
+      "essay": null
+    },
+    {
+      "scenario_id": {
+        "omitted_string_sha256": "22a751685b4c6361014a470095633a6786276468b2b37e6473077a8787f07bf2",
+        "characters": 7
+      },
+      "attempt": {
+        "omitted_string_sha256": "a7937b64b8caa58f03721bb6bacf5c78cb235febe0e70b1b84cd99541461a08e",
+        "characters": 5
+      },
+      "started_at": "2026-11-07T13:15:54.324087+00:00",
+      "started_at_ist": {
+        "omitted_string_sha256": "4c567d15e6156d11991ee42850e4c9dbb1f37be94249972bd21910bcc01755d3",
+        "characters": 32
+      },
+      "review_ended_at": {
+        "omitted_string_sha256": "791713f01bc6ab60d1e30ab67b6719be03b5f8229ad5f690b1594a46d8e4a49d",
+        "characters": 32
+      },
+      "review_ended_at_ist": {
+        "omitted_string_sha256": "0689ccc3a77d50e02d1ffc4631535f0c0146cdb8db94263b96f6eec1bb058889",
+        "characters": 32
+      },
+      "task_seconds_including_review": 126.481,
+      "duration_cap": 360,
+      "within_cap": true,
+      "transport_pass": true,
+      "browser_pass": true,
+      "semantic_pass": false,
+      "passed": false,
+      "criteria": {
+        "verbatim_quote_support": "pass",
+        "LNO_comparison_and_effort_allocation": {
+          "omitted_string_sha256": "3cff987319c690f1d1ebbf84125ebe43d014c261d5b12b42fd39529783c3ba08",
+          "characters": 15
+        },
+        "follow_up_context_and_fresh_passage": "pass",
+        "new_PM_application_and_HTML_checklist": "fail",
+        "HTML_save_render_reopen": "pass"
+      },
+      "direct_review_notes": [
+        {
+          "omitted_string_sha256": "b82396ea468fe1914638077449f6f97ab5a51ad0e8232018d980717a19ddd751",
+          "characters": 115
+        },
+        {
+          "omitted_string_sha256": "73be01b288d0b2ba8e93ad65f68271eb415cc6c15e3e1fa76fec59f2c7eccd1b",
+          "characters": 200
+        },
+        {
+          "omitted_string_sha256": "aa3c54ac9ecc20eba54deb86adce10264e614b2e37dc3d48057f3e2645a81f6f",
+          "characters": 125
+        }
+      ],
+      "reviewer": {
+        "omitted_string_sha256": "4e03399a174616f5531dd775e3412019ebeb68422a0dc7e245002692b49c89f6",
+        "characters": 87
+      },
+      "session_ids": [
+        {
+          "omitted_string_sha256": "e5eac4e03b2bcec5cb34d63c97965413d8881e053ef91a2719047be41059415a",
+          "characters": 36
+        }
+      ],
+      "passage_ids": [
+        {
+          "omitted_string_sha256": "d256d5a0eb21c429a468f581a0f02b1dff350635a7fb1f119b6368a5a55d6dce",
+          "characters": 36
+        },
+        {
+          "omitted_string_sha256": "f607906c085700ef24ff9bbbaec9cf8660dd71a5d43a31a7dec0882a8e59af97",
+          "characters": 36
+        }
+      ],
+      "evidence_directory": {
+        "omitted_string_sha256": "393318c34c53ed587a493efdaad709456fcea6a371ff56cfdd283d7de07e8a7d",
+        "characters": 33
+      },
+      "raw_outputs_preserved": true,
+      "latest_saved_output_browser_pass": true,
+      "request_latencies": [
+        {
+          "name": "initial",
+          "seconds": 17.174475083127618,
+          "status": "completed",
+          "code": null,
+          "passage_ids": [
+            {
+              "omitted_string_sha256": "d256d5a0eb21c429a468f581a0f02b1dff350635a7fb1f119b6368a5a55d6dce",
+              "characters": 36
+            }
+          ]
+        },
+        {
+          "name": "follow-up",
+          "seconds": 9.00945341726765,
+          "status": "completed",
+          "code": null,
+          "passage_ids": [
+            {
+              "omitted_string_sha256": "f607906c085700ef24ff9bbbaec9cf8660dd71a5d43a31a7dec0882a8e59af97",
+              "characters": 36
+            }
+          ]
+        }
+      ],
+      "essay": null
+    },
+    {
+      "scenario_id": {
+        "omitted_string_sha256": "fae2b125864ac713beb30879e2396184763bc62044fb5da9af8635587ba97881",
+        "characters": 7
+      },
+      "attempt": {
+        "omitted_string_sha256": "a7937b64b8caa58f03721bb6bacf5c78cb235febe0e70b1b84cd99541461a08e",
+        "characters": 5
+      },
+      "started_at": "2026-11-07T13:18:01.110228+00:00",
+      "started_at_ist": {
+        "omitted_string_sha256": "5cb54de5d5899b73d7498ea72c6598cd2825eb465a9cf619cb40d2338ea56253",
+        "characters": 32
+      },
+      "review_ended_at": {
+        "omitted_string_sha256": "8a0c42f929ed63cd69f6d30496e1ddd936774b532ef0272dafca2056f8aac549",
+        "characters": 32
+      },
+      "review_ended_at_ist": {
+        "omitted_string_sha256": "764413114ae6add4242369353023355a5505e91ea3df579a67b1f7abea2c9908",
+        "characters": 32
+      },
+      "task_seconds_including_review": 482.151,
+      "duration_cap": 900,
+      "within_cap": true,
+      "transport_pass": true,
+      "browser_pass": true,
+      "semantic_pass": false,
+      "passed": false,
+      "criteria": {
+        "dedicated_local_workflow_and_length_structure": "pass",
+        "fact_span_and_citation_mapping": "pass",
+        "new_application_factual_claim_support": "fail",
+        "topic_coverage_qualifications_readability": "fail",
+        "raw_draft_reopen_and_source_inspection": "pass",
+        "accepted_complete_essay": {
+          "omitted_string_sha256": "ff49eea3c174b14ee38bdc6680834322a7225e9b57b3438232968309cbacbd27",
+          "characters": 24
+        }
+      },
+      "direct_review_notes": [
+        {
+          "omitted_string_sha256": "0d80e6d0dd8c2c555f4d5a11966c29d6c9e165b7b72d86efb9145ac220f868b5",
+          "characters": 166
+        },
+        {
+          "omitted_string_sha256": "6fcc894c82ac5b5d0907703a94b7254b1adb389b088722c7287899839bc6e28a",
+          "characters": 211
+        },
+        {
+          "omitted_string_sha256": "b4c31ac56c6a440546629a9759e27f3398ff2bfcec3fa1ad4fc1515d387db883",
+          "characters": 229
+        },
+        {
+          "omitted_string_sha256": "b9359de905a218ae0b5ee5d0cddc17c635545a1d60827425094a718dd9bd71ff",
+          "characters": 95
+        }
+      ],
+      "reviewer": {
+        "omitted_string_sha256": "4e03399a174616f5531dd775e3412019ebeb68422a0dc7e245002692b49c89f6",
+        "characters": 87
+      },
+      "session_ids": [
+        {
+          "omitted_string_sha256": "5827f8bc92c820d05ab644c96f0f93b236f1d279fc88bbd996c43fa14a74d212",
+          "characters": 36
+        }
+      ],
+      "passage_ids": [
+        {
+          "omitted_string_sha256": "62811f43a6eaf1a9df7019c0dfd4af0f78508c766edf9929b1aaba0792606d89",
+          "characters": 36
+        }
+      ],
+      "evidence_directory": {
+        "omitted_string_sha256": "2a98dbbede33350980021ffe2212f0b261c50500e3ef9ab0bfe9736eb7ed3396",
+        "characters": 33
+      },
+      "raw_outputs_preserved": true,
+      "latest_saved_output_browser_pass": true,
+      "request_latencies": [
+        {
+          "name": "research",
+          "seconds": 6.51979533303529,
+          "status": "completed",
+          "code": null,
+          "passage_ids": [
+            {
+              "omitted_string_sha256": "62811f43a6eaf1a9df7019c0dfd4af0f78508c766edf9929b1aaba0792606d89",
+              "characters": 36
+            }
+          ]
+        }
+      ],
+      "essay": {
+        "id": "0840e578-25cb-4dfb-a629-3c4179e4f0a3",
+        "session_id": "e5054321-ca19-41f4-858e-680205933bd1",
+        "request_seconds": 42.38659762497991,
+        "status": "needs_review",
+        "error_code": null,
+        "word_count": 1275,
+        "validation": {
+          "errors": [],
+          "limits": {
+            "omitted_string_sha256": "66adaeb66aa66d97b6cf57236bf1fa41248b4d65675a7b3145f0d49bb36d6412",
+            "characters": 109
+          },
+          "bullets": 8,
+          "bold_spans": 1,
+          "word_count": 1275,
+          "citation_ids": [
+            {
+              "omitted_string_sha256": "3696ad59777e09d5f2daacb544022d435e7cd053d87c5781241fabd8fdf2a90d",
+              "characters": 2
+            },
+            {
+              "omitted_string_sha256": "adfa2b24c2d924fe6383d8804be55afb98ea3eb0e14c3470ac3a0f651b9a422e",
+              "characters": 2
+            },
+            {
+              "omitted_string_sha256": "44d6a8a73eddb284d49799fdbfa2919a004ece6d2df3546eaa4e246048bcdf81",
+              "characters": 2
+            },
+            {
+              "omitted_string_sha256": "b1d3eb8f32936fa9cf89d2240bd10734270fd55ff4644ad254b3b237468bad88",
+              "characters": 2
+            },
+            {
+              "omitted_string_sha256": "b12f76a4b782e4ae7f035b86a07cb43e638af9157e855af49c3945971d2af402",
+              "characters": 2
+            },
+            {
+              "omitted_string_sha256": "d53d113e9c01f4388af35632813ddb85902066795ecabba59ed24f483ad3db26",
+              "characters": 2
+            }
+          ],
+          "section_count": 6,
+          "accepted_range": [
+            1125,
+            1375
+          ],
+          "incomplete_sections": [],
+          "section_word_counts": [
+            205,
+            223,
+            178,
+            204,
+            175,
+            232
+          ],
+          "passed_deterministic": true,
+          "manual_review_required": true
+        },
+        "completed_sections": 6,
+        "model": "qwen3:1.7b",
+        "provider": "ollama-local",
+        "manual_edits": 0,
+        "review": "pending"
+      }
+    },
+    {
+      "scenario_id": {
+        "omitted_string_sha256": "31cbfc86de0545a2894e86cbcf7e11270cc2dcdf881d710e250e1695f1a57fdf",
+        "characters": 7
+      },
+      "attempt": {
+        "omitted_string_sha256": "a7937b64b8caa58f03721bb6bacf5c78cb235febe0e70b1b84cd99541461a08e",
+        "characters": 5
+      },
+      "started_at": "2026-11-07T13:26:03.601411+00:00",
+      "started_at_ist": {
+        "omitted_string_sha256": "740123dc2f115289ced0332a2a8d2ca5b07be02dc1d0db977c487f327bfc656d",
+        "characters": 32
+      },
+      "review_ended_at": {
+        "omitted_string_sha256": "9a41710d629bdcc0e2868f9184784b10221fb99176cfb2b2548fc32dfd823c22",
+        "characters": 32
+      },
+      "review_ended_at_ist": {
+        "omitted_string_sha256": "1651e2b915e60840987a90ced1d431528df8df93da5f96137eafc0d6f6b9eb81",
+        "characters": 32
+      },
+      "task_seconds_including_review": 147.33,
+      "duration_cap": 360,
+      "within_cap": true,
+      "transport_pass": true,
+      "browser_pass": false,
+      "semantic_pass": false,
+      "passed": false,
+      "criteria": {
+        "session_context_source_artifact_isolation": "pass",
+        "real_restart_and_exact_reopen": "pass",
+        "requested_answer_coverage": {
+          "omitted_string_sha256": "3cff987319c690f1d1ebbf84125ebe43d014c261d5b12b42fd39529783c3ba08",
+          "characters": 15
+        },
+        "artifact_formatting_and_reopen": {
+          "omitted_string_sha256": "3325499390cd4b1a958b98f2aa39142843aaa83a81b61b837a5b9df0dbd35bf8",
+          "characters": 37
+        }
+      },
+      "direct_review_notes": [
+        {
+          "omitted_string_sha256": "c26705ef7e23f6ba6d0c1a8df119af2bb1e690c2cd81d6dc6c908bd1ddae12ca",
+          "characters": 163
+        },
+        {
+          "omitted_string_sha256": "e701f1c8c2c0345972f89cb170f6057f5b8b02106d95791eb13e96b7c4c424af",
+          "characters": 182
+        },
+        {
+          "omitted_string_sha256": "0f6ef7e574fd7086a387e28c9e75d4e1abe6f2cd87933a86d297c7a0e1a8a16a",
+          "characters": 300
+        }
+      ],
+      "reviewer": {
+        "omitted_string_sha256": "4e03399a174616f5531dd775e3412019ebeb68422a0dc7e245002692b49c89f6",
+        "characters": 87
+      },
+      "session_ids": [
+        {
+          "omitted_string_sha256": "d0d9903e9bb3fcf975b97a264c3e43c573f2d27f4850c99d4803543d31ec8597",
+          "characters": 36
+        },
+        {
+          "omitted_string_sha256": "b3b21c94e4df86b72c01bb05e106a92ca23754f80c5c1400bbde700bc3348b25",
+          "characters": 36
+        }
+      ],
+      "passage_ids": [
+        {
+          "omitted_string_sha256": "00b21045b689e552ad88b799bd479b7517666a43cc8b938cf23a1505b20c9ab6",
+          "characters": 36
+        },
+        {
+          "omitted_string_sha256": "507ac29f95104fb8593ebca8fd6813549262b0d43ab1b676d27665bee6761082",
+          "characters": 36
+        }
+      ],
+      "evidence_directory": {
+        "omitted_string_sha256": "838568f02ffa63528eac111b7c47267ffcf25dd8942e7ce23228f34514f112df",
+        "characters": 33
+      },
+      "raw_outputs_preserved": true,
+      "latest_saved_output_browser_pass": true,
+      "request_latencies": [
+        {
+          "name": "session-a",
+          "seconds": 9.003574207890779,
+          "status": "completed",
+          "code": null,
+          "passage_ids": [
+            {
+              "omitted_string_sha256": "00b21045b689e552ad88b799bd479b7517666a43cc8b938cf23a1505b20c9ab6",
+              "characters": 36
+            }
+          ]
+        },
+        {
+          "name": "session-b",
+          "seconds": 7.156156125012785,
+          "status": "completed",
+          "code": null,
+          "passage_ids": [
+            {
+              "omitted_string_sha256": "507ac29f95104fb8593ebca8fd6813549262b0d43ab1b676d27665bee6761082",
+              "characters": 36
+            }
+          ]
+        }
+      ],
+      "essay": null
+    },
+    {
+      "scenario_id": {
+        "omitted_string_sha256": "8cd368d3f484e124bc0be6a989acdec94a1b5ad9e8ea97781ec3bddb0d5ec66c",
+        "characters": 7
+      },
+      "attempt": {
+        "omitted_string_sha256": "a7937b64b8caa58f03721bb6bacf5c78cb235febe0e70b1b84cd99541461a08e",
+        "characters": 5
+      },
+      "started_at": "2026-11-07T13:28:31.284250+00:00",
+      "started_at_ist": {
+        "omitted_string_sha256": "e47e63af3b97fe36328c6fbd16fc117c7b93f68dfbc251054b6b2b8272cea67e",
+        "characters": 32
+      },
+      "review_ended_at": {
+        "omitted_string_sha256": "ea55d5c65ea35c6ed67ed7667914e195b72ae4c3457ef34283b54ee38c5aac38",
+        "characters": 32
+      },
+      "review_ended_at_ist": {
+        "omitted_string_sha256": "c5b802b76c8d9af7e5f88c9a1f2a4374233d02b57632d91ec903b7c7cf565727",
+        "characters": 32
+      },
+      "task_seconds_including_review": 1391.918,
+      "duration_cap": 240,
+      "within_cap": false,
+      "transport_pass": false,
+      "browser_pass": false,
+      "semantic_pass": false,
+      "passed": false,
+      "criteria": {
+        "unsupported_evidence_gap": {
+          "omitted_string_sha256": "d485c580da767400419fe2aa1f9b5d44c314c16e9acfa9e3cd475031ff2b4c50",
+          "characters": 17
+        },
+        "supported_reformulation_full_answer": {
+          "omitted_string_sha256": "3cff987319c690f1d1ebbf84125ebe43d014c261d5b12b42fd39529783c3ba08",
+          "characters": 15
+        },
+        "reformulation_citation_integrity": "pass",
+        "markdown_save_API_reopen": "pass",
+        "browser": "blocked on Chrome launch"
+      },
+      "direct_review_notes": [
+        {
+          "omitted_string_sha256": "579720623085659d8e80d2f6834253b7583540fb6d06b780f55efd1e0b009ef8",
+          "characters": 192
+        },
+        {
+          "omitted_string_sha256": "45379d38949d0bf9ef2b5fb44cd78c8402024fc7ddbc289424df2a4d7cc69668",
+          "characters": 173
+        },
+        {
+          "omitted_string_sha256": "5125b969f134ebfc41e89d191a80bf547a7964e1f843660d043ef7aa3ed57764",
+          "characters": 297
+        }
+      ],
+      "reviewer": {
+        "omitted_string_sha256": "4e03399a174616f5531dd775e3412019ebeb68422a0dc7e245002692b49c89f6",
+        "characters": 87
+      },
+      "session_ids": [
+        {
+          "omitted_string_sha256": "aa08ad50206fb75c229148a791eca55bbbb36d47581dc8c6f95e08e29610b383",
+          "characters": 36
+        }
+      ],
+      "passage_ids": [
+        {
+          "omitted_string_sha256": "b208607f2757db48e8b5185af86baba98a4265e4d76558a1ac1f04ff9af8cfb9",
+          "characters": 36
+        }
+      ],
+      "evidence_directory": {
+        "omitted_string_sha256": "1099d6636c49979c99f88d4f50fc8494ccc4a335a36cba1a717e813ffad368ea",
+        "characters": 33
+      },
+      "raw_outputs_preserved": true,
+      "latest_saved_output_browser_pass": true,
+      "request_latencies": [
+        {
+          "name": "unsupported",
+          "seconds": 8.940174833871424,
+          "status": "failed",
+          "code": "rpc_rejected",
+          "passage_ids": []
+        },
+        {
+          "name": "reformulation",
+          "seconds": 8.371745957992971,
+          "status": "completed",
+          "code": null,
+          "passage_ids": [
+            {
+              "omitted_string_sha256": "b208607f2757db48e8b5185af86baba98a4265e4d76558a1ac1f04ff9af8cfb9",
+              "characters": 36
+            }
+          ]
+        }
+      ],
+      "essay": null
+    },
+    {
+      "scenario_id": {
+        "omitted_string_sha256": "fae2b125864ac713beb30879e2396184763bc62044fb5da9af8635587ba97881",
+        "characters": 7
+      },
+      "attempt": {
+        "omitted_string_sha256": "86103652462f567256d5717b44dea3f96cbfeb2bc6812b889efe69055c9fa60a",
+        "characters": 8
+      },
+      "started_at": "2026-11-07T14:14:36.314309+00:00",
+      "started_at_ist": {
+        "omitted_string_sha256": "3b0abd7642ff7f16cc3b610ed82fe6c4e2339e09ca13294e216bad3b37c6a3c8",
+        "characters": 32
+      },
+      "review_ended_at": {
+        "omitted_string_sha256": "ac830dea4683a6261fded80a5d58bb6273f1da1c57fe57ab2e1a26966be2be18",
+        "characters": 32
+      },
+      "review_ended_at_ist": {
+        "omitted_string_sha256": "c410f299b377d5876898f68dd8526de5ac22f26869642532857c754eaa44a146",
+        "characters": 32
+      },
+      "task_seconds_including_review": 141.318,
+      "duration_cap": 900,
+      "within_cap": true,
+      "transport_pass": true,
+      "browser_pass": true,
+      "semantic_pass": false,
+      "passed": false,
+      "criteria": {
+        "word_count": 1216,
+        "sections": 6,
+        "citations": true,
+        "historical_advice_grounding_improved": true,
+        "complete_requested_case": false,
+        "readability": false,
+        "artifact_saved": false,
+        "manual_edits": 0
+      },
+      "direct_review_notes": {
+        "omitted_string_sha256": "9f64292894e9f44131ff5cf3ca74ab56fa851d11e046f32667cb1a68fa0a0ec0",
+        "characters": 345
+      },
+      "reviewer": {
+        "omitted_string_sha256": "4e03399a174616f5531dd775e3412019ebeb68422a0dc7e245002692b49c89f6",
+        "characters": 87
+      },
+      "session_ids": [
+        {
+          "omitted_string_sha256": "70da3bfbe201e965196648bf70e5cbab27e876c3204938e4fb4d61da1c0401fa",
+          "characters": 36
+        }
+      ],
+      "passage_ids": [
+        {
+          "omitted_string_sha256": "62811f43a6eaf1a9df7019c0dfd4af0f78508c766edf9929b1aaba0792606d89",
+          "characters": 36
+        }
+      ],
+      "evidence_directory": {
+        "omitted_string_sha256": "cb29c278b3e0a186d8bb855b51dd80baddda6f2c84f4e57c9db1e3a2387b121d",
+        "characters": 36
+      },
+      "raw_outputs_preserved": true,
+      "latest_saved_output_browser_pass": true,
+      "request_latencies": [
+        {
+          "name": "research",
+          "seconds": 5.487872292287648,
+          "status": "completed",
+          "code": null,
+          "passage_ids": [
+            {
+              "omitted_string_sha256": "62811f43a6eaf1a9df7019c0dfd4af0f78508c766edf9929b1aaba0792606d89",
+              "characters": 36
+            }
+          ]
+        }
+      ],
+      "essay": {
+        "id": "a570ff74-a80e-40fa-9b69-6dd1eede9ec9",
+        "session_id": "bfb50a50-a24c-4107-9426-969a521a277d",
+        "request_seconds": 36.3857392501086,
+        "status": "needs_review",
+        "error_code": null,
+        "word_count": 1216,
+        "validation": {
+          "errors": [],
+          "limits": {
+            "omitted_string_sha256": "66adaeb66aa66d97b6cf57236bf1fa41248b4d65675a7b3145f0d49bb36d6412",
+            "characters": 109
+          },
+          "bullets": 8,
+          "bold_spans": 1,
+          "word_count": 1216,
+          "citation_ids": [
+            {
+              "omitted_string_sha256": "3696ad59777e09d5f2daacb544022d435e7cd053d87c5781241fabd8fdf2a90d",
+              "characters": 2
+            },
+            {
+              "omitted_string_sha256": "adfa2b24c2d924fe6383d8804be55afb98ea3eb0e14c3470ac3a0f651b9a422e",
+              "characters": 2
+            },
+            {
+              "omitted_string_sha256": "44d6a8a73eddb284d49799fdbfa2919a004ece6d2df3546eaa4e246048bcdf81",
+              "characters": 2
+            },
+            {
+              "omitted_string_sha256": "b1d3eb8f32936fa9cf89d2240bd10734270fd55ff4644ad254b3b237468bad88",
+              "characters": 2
+            },
+            {
+              "omitted_string_sha256": "b12f76a4b782e4ae7f035b86a07cb43e638af9157e855af49c3945971d2af402",
+              "characters": 2
+            },
+            {
+              "omitted_string_sha256": "d53d113e9c01f4388af35632813ddb85902066795ecabba59ed24f483ad3db26",
+              "characters": 2
+            }
+          ],
+          "section_count": 6,
+          "accepted_range": [
+            1125,
+            1375
+          ],
+          "incomplete_sections": [],
+          "section_word_counts": [
+            201,
+            207,
+            153,
+            199,
+            165,
+            233
+          ],
+          "passed_deterministic": true,
+          "manual_review_required": true
+        },
+        "completed_sections": 6,
+        "model": "qwen3:1.7b",
+        "provider": "ollama-local",
+        "manual_edits": 0,
+        "review": "pending"
+      }
+    },
+    {
+      "scenario_id": {
+        "omitted_string_sha256": "8cd368d3f484e124bc0be6a989acdec94a1b5ad9e8ea97781ec3bddb0d5ec66c",
+        "characters": 7
+      },
+      "attempt": {
+        "omitted_string_sha256": "86103652462f567256d5717b44dea3f96cbfeb2bc6812b889efe69055c9fa60a",
+        "characters": 8
+      },
+      "started_at": "2026-11-07T14:16:56.653055+00:00",
+      "started_at_ist": {
+        "omitted_string_sha256": "50bdab42529f7ab32859a2400636034fdd0cb8d37c0e3833fba14c4c6e05fb27",
+        "characters": 32
+      },
+      "review_ended_at": {
+        "omitted_string_sha256": "b2afbff03d05c8dcb75fcfeb02d946fee67dd0d5817ee424638572046fa9f5b9",
+        "characters": 32
+      },
+      "review_ended_at_ist": {
+        "omitted_string_sha256": "144ab6ace0b4249a5ceb2292fde77671a7f53f243f3de9f42ea5322058ccb027",
+        "characters": 32
+      },
+      "task_seconds_including_review": 62.613,
+      "duration_cap": 240,
+      "within_cap": true,
+      "transport_pass": true,
+      "browser_pass": true,
+      "semantic_pass": false,
+      "passed": false,
+      "criteria": {
+        "unsupported_gap": true,
+        "server_guard_required": true,
+        "correct_survey_question": true,
+        "response_investigation_explained": false,
+        "citation_support": true,
+        "artifact_save_render_reopen": true
+      },
+      "direct_review_notes": {
+        "omitted_string_sha256": "117877e1e826f43b5221c84e2efa633bc150393d87fb87c94ac4c597e5c373ba",
+        "characters": 421
+      },
+      "reviewer": {
+        "omitted_string_sha256": "4e03399a174616f5531dd775e3412019ebeb68422a0dc7e245002692b49c89f6",
+        "characters": 87
+      },
+      "session_ids": [
+        {
+          "omitted_string_sha256": "f700dbb0eb9d1d961330098f7dcf2875bd5879aea0303c87e27100971229583e",
+          "characters": 36
+        }
+      ],
+      "passage_ids": [
+        {
+          "omitted_string_sha256": "69c74781e1c3199663e73649e1f104315a63a10555ea9265984918c29f9a16d6",
+          "characters": 36
+        }
+      ],
+      "evidence_directory": {
+        "omitted_string_sha256": "db8a043e2939740b7a195d8b7f60770f78b721e151b48e35a09c2763d7fef85d",
+        "characters": 36
+      },
+      "raw_outputs_preserved": true,
+      "latest_saved_output_browser_pass": true,
+      "request_latencies": [
+        {
+          "name": "unsupported",
+          "seconds": 13.079302083700895,
+          "status": "completed",
+          "code": null,
+          "passage_ids": []
+        },
+        {
+          "name": "reformulation",
+          "seconds": 5.3290621670894325,
+          "status": "completed",
+          "code": null,
+          "passage_ids": [
+            {
+              "omitted_string_sha256": "69c74781e1c3199663e73649e1f104315a63a10555ea9265984918c29f9a16d6",
+              "characters": 36
+            }
+          ]
+        }
+      ],
+      "essay": null
+    }
+  ]
+}

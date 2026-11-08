@@ -1,0 +1,366 @@
+{
+  "reviewed_at": {
+    "omitted_string_sha256": "df929a3c34e28d3af23de77ddf323e819da22a2310f40b5b2e3e68e14d6220ce",
+    "characters": 32
+  },
+  "reviewer": {
+    "omitted_string_sha256": "a18546a535bc43cd33cbeb17919deb2cf66b2c06221dea5ec6e3bb3566813cf3",
+    "characters": 111
+  },
+  "verdict": "failed",
+  "output_sha256": {
+    "omitted_string_sha256": "39cc8373ef1e112b53c05a5d12ff647f9ef9423affc6540586d29fedb749adac",
+    "characters": 64
+  },
+  "raw_output_unchanged": true,
+  "model": "qwen3:1.7b",
+  "model_digest": {
+    "omitted_string_sha256": "41ca9b15f98754289684353d5caf9333404a72b5e6dea9bff3bee32ec7c7d842",
+    "characters": 64
+  },
+  "model_metadata_note": {
+    "omitted_string_sha256": "1eb152cb6a818dc973618973a7ff870b2af21754b16035daee639f0a8461e9dd",
+    "characters": 154
+  },
+  "word_count": 289,
+  "target_words": 210,
+  "words_over_target": 79,
+  "elapsed_seconds": 29.050338013999863,
+  "generated_citation_ids": [],
+  "source_resolution_file": {
+    "omitted_string_sha256": "c9f53a3c4434734bda3f1766e6db83b28ae8ba001d747308eb33c7452d4680f1",
+    "characters": 22
+  },
+  "all_factual_paragraphs_uncited": true,
+  "claim_reviews": [
+    {
+      "paragraph": 1,
+      "claim": {
+        "omitted_string_sha256": "aa912bda06e0818319961524fb91f6fe25aedfbf63d4d06ffed61ee87e54998f",
+        "characters": 95
+      },
+      "support_assessment": {
+        "omitted_string_sha256": "bbdc3a16fb72fe78ea677dc102cbcdc2176f9ca3c3c60464d4806dc2a0f2608c",
+        "characters": 140
+      },
+      "relevant_supplied_sources": [],
+      "generated_citations": []
+    },
+    {
+      "paragraph": 2,
+      "claim": {
+        "omitted_string_sha256": "437e536a1117f333257035e844a0bc77e995388e9e290df6efd92c578fd0040f",
+        "characters": 132
+      },
+      "support_assessment": {
+        "omitted_string_sha256": "7066c0b6b8811e6bf8b2ef694d00a927ac434aff1035c116b45a70bf9329e9b1",
+        "characters": 144
+      },
+      "relevant_supplied_sources": [
+        {
+          "omitted_string_sha256": "adfa2b24c2d924fe6383d8804be55afb98ea3eb0e14c3470ac3a0f651b9a422e",
+          "characters": 2
+        },
+        {
+          "omitted_string_sha256": "44d6a8a73eddb284d49799fdbfa2919a004ece6d2df3546eaa4e246048bcdf81",
+          "characters": 2
+        }
+      ],
+      "generated_citations": []
+    },
+    {
+      "paragraph": 2,
+      "claim": {
+        "omitted_string_sha256": "cdb84aa5df8d1b23f132603c143e18179133247ae28adf9ae252fab98a9f3164",
+        "characters": 37
+      },
+      "support_assessment": {
+        "omitted_string_sha256": "cfaa39eae8a001fbba15d83b2c0bbfa2d0883d0c264f1e67501585fa2b418bf9",
+        "characters": 29
+      },
+      "relevant_supplied_sources": [
+        {
+          "omitted_string_sha256": "adfa2b24c2d924fe6383d8804be55afb98ea3eb0e14c3470ac3a0f651b9a422e",
+          "characters": 2
+        }
+      ],
+      "generated_citations": []
+    },
+    {
+      "paragraph": 2,
+      "claim": {
+        "omitted_string_sha256": "e5f341217c1a9f6c72b26ae4300a9df1f1fa980922f0f4e08226d5c09eb6eb7d",
+        "characters": 67
+      },
+      "support_assessment": {
+        "omitted_string_sha256": "a1b7d878bda7d8433b58ee44125bbcf6d4ee8988449050ef3a6de17833ea5d13",
+        "characters": 199
+      },
+      "relevant_supplied_sources": [
+        {
+          "omitted_string_sha256": "adfa2b24c2d924fe6383d8804be55afb98ea3eb0e14c3470ac3a0f651b9a422e",
+          "characters": 2
+        }
+      ],
+      "generated_citations": []
+    },
+    {
+      "paragraph": 2,
+      "claim": {
+        "omitted_string_sha256": "16881101af9ff70fe178453215cdbb53589c94f4799bb97b6b6bebbfbbad6a8e",
+        "characters": 62
+      },
+      "support_assessment": {
+        "omitted_string_sha256": "8794abccf7c9f5444c3a34e809de8ae24ccf6b5a32eac6824b4b79117cc7c889",
+        "characters": 176
+      },
+      "relevant_supplied_sources": [
+        {
+          "omitted_string_sha256": "adfa2b24c2d924fe6383d8804be55afb98ea3eb0e14c3470ac3a0f651b9a422e",
+          "characters": 2
+        }
+      ],
+      "generated_citations": []
+    },
+    {
+      "paragraph": 2,
+      "claim": {
+        "omitted_string_sha256": "5123c90f53d133894075a390d1c1a2cd7d9d60e7fb389aa0341587bf47a5ac36",
+        "characters": 99
+      },
+      "support_assessment": {
+        "omitted_string_sha256": "6f30cb93663f496ed76a75ee7d876e7037a5e048fb598efabb96727930abf2d5",
+        "characters": 230
+      },
+      "relevant_supplied_sources": [
+        {
+          "omitted_string_sha256": "adfa2b24c2d924fe6383d8804be55afb98ea3eb0e14c3470ac3a0f651b9a422e",
+          "characters": 2
+        }
+      ],
+      "generated_citations": []
+    },
+    {
+      "paragraph": 3,
+      "claim": {
+        "omitted_string_sha256": "e979196a2199c2923226f1c5657970fe6edf30996d7d046c043ef9d6358159b4",
+        "characters": 93
+      },
+      "support_assessment": {
+        "omitted_string_sha256": "758f4ea8237bb335ff10bb6b43a5caacea2f044f43aec57b46715a020a9e1934",
+        "characters": 184
+      },
+      "relevant_supplied_sources": [
+        {
+          "omitted_string_sha256": "adfa2b24c2d924fe6383d8804be55afb98ea3eb0e14c3470ac3a0f651b9a422e",
+          "characters": 2
+        }
+      ],
+      "generated_citations": []
+    },
+    {
+      "paragraph": 3,
+      "claim": {
+        "omitted_string_sha256": "7fad9ab397818f27bb47f8d33bb6c88a485ad90477c9c96e6187771e52e23c6f",
+        "characters": 100
+      },
+      "support_assessment": {
+        "omitted_string_sha256": "3ca891fa4baf01e04ca781175a0c9f34aacb774ce53612c6828a36b9e2b14799",
+        "characters": 38
+      },
+      "relevant_supplied_sources": [
+        {
+          "omitted_string_sha256": "adfa2b24c2d924fe6383d8804be55afb98ea3eb0e14c3470ac3a0f651b9a422e",
+          "characters": 2
+        }
+      ],
+      "generated_citations": []
+    },
+    {
+      "paragraph": 3,
+      "claim": {
+        "omitted_string_sha256": "b86d13f284cb6051aa4a392c9960437805c7b0843184995a9017ccf3a6e1cba8",
+        "characters": 81
+      },
+      "support_assessment": {
+        "omitted_string_sha256": "58da2923e47e13d069f3fa6256292411d9238d3f1df9b59dbfa860fe214b06d1",
+        "characters": 156
+      },
+      "relevant_supplied_sources": [
+        {
+          "omitted_string_sha256": "adfa2b24c2d924fe6383d8804be55afb98ea3eb0e14c3470ac3a0f651b9a422e",
+          "characters": 2
+        }
+      ],
+      "generated_citations": []
+    },
+    {
+      "paragraph": 4,
+      "claim": {
+        "omitted_string_sha256": "e829399be3856a9b2e844b718ff7fb0bda25c69693fc650cf802764f8aeea074",
+        "characters": 86
+      },
+      "support_assessment": {
+        "omitted_string_sha256": "be5cee4d27360013e472c100a6f91e5e586e943ed23d3949a9ee66bc9e2766fb",
+        "characters": 146
+      },
+      "relevant_supplied_sources": [
+        {
+          "omitted_string_sha256": "adfa2b24c2d924fe6383d8804be55afb98ea3eb0e14c3470ac3a0f651b9a422e",
+          "characters": 2
+        },
+        {
+          "omitted_string_sha256": "44d6a8a73eddb284d49799fdbfa2919a004ece6d2df3546eaa4e246048bcdf81",
+          "characters": 2
+        }
+      ],
+      "generated_citations": []
+    },
+    {
+      "paragraph": 4,
+      "claim": {
+        "omitted_string_sha256": "11d75aac9f8a58bf212e70a54051e1054407d675ee9167f9c87bffa24eee7d51",
+        "characters": 91
+      },
+      "support_assessment": {
+        "omitted_string_sha256": "5580db7e69e38afd6ef33a8280de2732ef5e404aff8ef84781311a148d285d45",
+        "characters": 193
+      },
+      "relevant_supplied_sources": [
+        {
+          "omitted_string_sha256": "44d6a8a73eddb284d49799fdbfa2919a004ece6d2df3546eaa4e246048bcdf81",
+          "characters": 2
+        }
+      ],
+      "generated_citations": []
+    },
+    {
+      "paragraph": 4,
+      "claim": {
+        "omitted_string_sha256": "d37caaf1b0694fe6d4ef65786f12782376f87ed83370ed89a859bae8608132c9",
+        "characters": 89
+      },
+      "support_assessment": {
+        "omitted_string_sha256": "687686c50e067057403d06c2a718e1a66ceae34a79ef63389c781314f0a7ad13",
+        "characters": 121
+      },
+      "relevant_supplied_sources": [
+        {
+          "omitted_string_sha256": "adfa2b24c2d924fe6383d8804be55afb98ea3eb0e14c3470ac3a0f651b9a422e",
+          "characters": 2
+        },
+        {
+          "omitted_string_sha256": "44d6a8a73eddb284d49799fdbfa2919a004ece6d2df3546eaa4e246048bcdf81",
+          "characters": 2
+        }
+      ],
+      "generated_citations": []
+    },
+    {
+      "paragraph": 5,
+      "claim": {
+        "omitted_string_sha256": "d46fb799bd17335ef0f0293137fc0f76727f7c9a8d6834e5e7de5cb999ad35d5",
+        "characters": 62
+      },
+      "support_assessment": {
+        "omitted_string_sha256": "58b6700adfe019d4f21b32a5e748471cb5dba5c54b2ad78649db2498f5e7c56b",
+        "characters": 97
+      },
+      "relevant_supplied_sources": [
+        {
+          "omitted_string_sha256": "adfa2b24c2d924fe6383d8804be55afb98ea3eb0e14c3470ac3a0f651b9a422e",
+          "characters": 2
+        },
+        {
+          "omitted_string_sha256": "44d6a8a73eddb284d49799fdbfa2919a004ece6d2df3546eaa4e246048bcdf81",
+          "characters": 2
+        }
+      ],
+      "generated_citations": []
+    },
+    {
+      "paragraph": 5,
+      "claim": {
+        "omitted_string_sha256": "823344c43a763e46b9c5f02daeefb24237aa38cbc963bace5cd083724367f18a",
+        "characters": 97
+      },
+      "support_assessment": {
+        "omitted_string_sha256": "f6a1fbe88125c2596530a0ac429546eb4852a39d4b7abc7a629581d1798923e4",
+        "characters": 138
+      },
+      "relevant_supplied_sources": [
+        {
+          "omitted_string_sha256": "adfa2b24c2d924fe6383d8804be55afb98ea3eb0e14c3470ac3a0f651b9a422e",
+          "characters": 2
+        }
+      ],
+      "generated_citations": []
+    },
+    {
+      "paragraph": 5,
+      "claim": {
+        "omitted_string_sha256": "8d3f9e18aa26e00d177c680ff5f1bc9d4bc212b6d2584821435e210b07e7f11e",
+        "characters": 98
+      },
+      "support_assessment": {
+        "omitted_string_sha256": "f85a32b25a933dc162a2c75f82d8d7ced845ef610641e45e2cd5bb6b2e921e72",
+        "characters": 144
+      },
+      "relevant_supplied_sources": [
+        {
+          "omitted_string_sha256": "44d6a8a73eddb284d49799fdbfa2919a004ece6d2df3546eaa4e246048bcdf81",
+          "characters": 2
+        }
+      ],
+      "generated_citations": []
+    }
+  ],
+  "instruction_leakage": {
+    "literal_Purpose_label": false,
+    "literal_Target_label": false,
+    "purpose_instruction_repeated_verbatim_after_Application": true,
+    "conclusion_outside_requested_section_scope": {
+      "omitted_string_sha256": "dc61f1301e514d08e691d660862c3649b29b4a0fb0cc520d3b7ce4b29730850b",
+      "characters": 79
+    }
+  },
+  "lookout_outcomes": {
+    "explicit_engagement_improvement_claim": false,
+    "explicit_measured_conversion_rate_improvement_claim": false,
+    "conversion_guarantee_or_outcome_implication": true,
+    "assessment": {
+      "omitted_string_sha256": "cff78af45d6a9600350b8e81b911bfeef2ebf02bd8fbb86539526f009fa42950",
+      "characters": 282
+    }
+  },
+  "comparison": {
+    "baseline_word_count": 362,
+    "new_word_count": 289,
+    "baseline_elapsed_seconds": 16.32347396499972,
+    "new_elapsed_seconds": 29.050338013999863,
+    "latency_difference_seconds": 12.726864049000142,
+    "words_difference": -73,
+    "baseline_citation_ids": [],
+    "improvements": {
+      "omitted_string_sha256": "942163d2bdf4f0f35c9d68639d27409e707c3064dc0a077ed1b5fc20f8f3cfcf",
+      "characters": 98
+    },
+    "remaining_failures": {
+      "omitted_string_sha256": "a8dd7e156520074a3233b72406b6ab0f3b37cd2da0c9854f904e41ccdff5fff0",
+      "characters": 102
+    },
+    "limit": {
+      "omitted_string_sha256": "c3e10ce33ea675c3f7cb76130ab0ca23ad24e963e1046d99eb2a2916921fb44d",
+      "characters": 107
+    }
+  },
+  "automatic_section_gate": false,
+  "accepted_grounded_sections": 0,
+  "full_essay_run": false,
+  "section_retry": false,
+  "phase7_started": false,
+  "stop_reason": {
+    "omitted_string_sha256": "e6f902d8630df7aefdc70cbf4377a050835afa8bb276d87e93274ee27a19ad9c",
+    "characters": 96
+  }
+}

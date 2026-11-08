@@ -1,0 +1,17 @@
+# Experiment paragraph: required length failed
+
+7 November2026 India time (actual UTC logs6 November). **Section verdict FAILED. No full essay/retry/Phase7.**
+
+The user requested retaining all five approved facts/citations while generating only65–75 words of experiment advice, including a metric, decision and any improvement explicitly as hypothesis. Added an experiment-specific validator and wrapper while preserving previous attempts. The existing advice-only Pi extension now explicitly permits testable hypotheses, still forbids asserted effects, historical facts and guarantees. No factual/ID generation burden was restored.
+
+Command: `python3 scripts/capture_phase6.py .venv-phase2/bin/python scripts/experiment_section_phase6.py`. The initial automatic permission review timed out before process creation; its permitted one launch retry executed the only actual model request. This was not a model retry or a failed inference. Execution exited2 on experiment_length_invalid.
+
+Actual local Pi/qwen3:1.7b result: **11.939s;59 model words, required65–75;198 assembled words including heading, target210**. Normal stop,215 input/72 output tokens, fresh history0 and process reaped. One local provider request, no active tools/grammar/cloud,256 output/4096 context/temperature0/thinking off/90s deadline. Prompt1103 bytes. No change to chat0.6B or dependency/model download.
+
+The five fixed facts still resolve to exactly the approved S2/S3 snapshots. Registry copied unchanged, source identity/anchors checked before inference, new owned source API/hash verification passed, all cited statements occur once with adjacent labels. See citation-check.json. F1–F3 citeS2 and F4–F5 citeS3. Correct7% product-level wording and40% subsequent-cohort result preserved; no measured engagement/conversion gain, guaranteed fit or onboarding-only causal outcome added. Exact claim assessments are in review.json.
+
+Application review: it proposes comparing existing/revised signup/onboarding, tracks first-task completion proportion and suggests keep/revise after data review. The personalized-goal expected effect is explicitly introduced with Hypothesize, so it is proposed experimental content, not a factual claim about Lookout or promised improvement. It meets those semantic components. However it is6 words below the explicit65-word minimum. No silent padding, truncation or second inference. The final without-promising-result/statistical-certainty clause echoes instructions and sounds awkward; the decision lacks an explicit success threshold. The overall198 words is near the section target but cannot excuse the requested paragraph length failure.
+
+A known lexical limitation also remains: the generic hypothesis keyword screen does not yet recognize Hypothesize (manual review correctly credits it). The actual first failure was length, not a semantic absence of hypothesis. No test was weakened or follow-up inference performed to get a pass.
+
+Saved exact model-output.md, assembled-section.md (rejected candidate), approved-facts.json, inputs.json, result.json, command.json, stdout.json, preservation.json, citation-check.json and review.json. Raw Pi stdout and diagnostics remain separate privately. All previous attempts unchanged. Fourteen focused unit/writing checks passed separately; no live-quality inference from mocks. Files remain local/uncommitted. No topic-wide retrieval or full essay initiated because the section gate failed. Original1125–1375-word rubric unchanged, Phase6 unpassed. Stop before Phase7.

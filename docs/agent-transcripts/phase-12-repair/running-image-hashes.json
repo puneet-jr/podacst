@@ -1,0 +1,9 @@
+{
+  "files": {
+    "backend/app/conversation.py": "28a8883e38ce416e46c3f4e531f1583b54fa9f11880907a6627086610c87ee01",
+    "backend/app/evidence_first.py": "f3a5622d18a85a5f1caa625e0bf243b3f3174c2b6fc1250199f5abf2c593225a"
+  },
+  "all_match_candidate": true,
+  "tested_runtime_revision": "3dc814552104edc83072503811c56dbe452e9552",
+  "release_revision": "bffcace365fe97e538599d12acb6989c9e0beab7"
+}

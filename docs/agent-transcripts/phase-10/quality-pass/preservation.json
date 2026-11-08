@@ -1,0 +1,37 @@
+{
+  "all_preexisting_records_unchanged": true,
+  "before_counts": {
+    "users": 1,
+    "sessions": 67,
+    "messages": 165,
+    "answer_runs": 76,
+    "answer_sources": 74,
+    "essay_runs": 13,
+    "essay_sources": 84,
+    "artifacts": 12,
+    "episodes": 303,
+    "episode_versions": 303,
+    "chunks": 12770,
+    "knowledge_config": 1,
+    "ingestion_runs": 5
+  },
+  "after_counts": {
+    "users": 1,
+    "sessions": 67,
+    "messages": 165,
+    "answer_runs": 76,
+    "answer_sources": 74,
+    "essay_runs": 13,
+    "essay_sources": 84,
+    "artifacts": 12,
+    "episodes": 303,
+    "episode_versions": 303,
+    "chunks": 12770,
+    "knowledge_config": 1,
+    "ingestion_runs": 5
+  },
+  "corpus": {
+    "episodes": 303,
+    "active_passages": 12770
+  }
+}

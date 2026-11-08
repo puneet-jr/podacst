@@ -6,17 +6,26 @@
     {
       "name": "Final actual PostgreSQL/local fixture suite",
       "passed": true,
-      "detail": "49 tests; 33 unit/parser/mock, 16 PostgreSQL/API; injection separate from actual provider calls"
+      "detail": {
+        "omitted_string_sha256": "1ad9d01a691471ed27c85fbc1f219eba6bc3558407c9f79c6fc54a68631bf2da",
+        "characters": 95
+      }
     },
     {
       "name": "Separate hand-calculated metric checks",
       "passed": true,
-      "detail": "Three known-list checks on host, not live integrations"
+      "detail": {
+        "omitted_string_sha256": "21da00af1beaa216b8ab76d2ac87981f6213ee853f183f9b87ed13c19803eece",
+        "characters": 54
+      }
     },
     {
       "name": "Actual HTTP/API/source/persistence proofs",
       "passed": true,
-      "detail": "Nine checks, real local hybrid; saved conversation hashes match Phase 3"
+      "detail": {
+        "omitted_string_sha256": "08417a9ef604e15ae048d8883b31dab61a0f0b9d89ef87ab97e63dff7e58bd81",
+        "characters": 71
+      }
     },
     {
       "name": "Judgments stayed frozen",
@@ -31,7 +40,10 @@
     {
       "name": "Candidate selected before held-out, unchanged",
       "passed": true,
-      "detail": "No source/config/judgment changes after holdout; sparse frozen from tuning"
+      "detail": {
+        "omitted_string_sha256": "30010ede257c66905f208839e474f833756ccb692767cab7d208e2ecc5e30d9f",
+        "characters": 74
+      }
     },
     {
       "name": "Actual evaluations and exact source integrity",
@@ -44,7 +56,10 @@
           "held-out-v3-first": 24,
           "unsupported-v3-first": 12
         },
-        "note": "Successful execution/source proof is not a quality pass"
+        "note": {
+          "omitted_string_sha256": "e438f908d21fde89886a5f4620a0a7d28426e34156d6b246867f7e4ca72cf396",
+          "characters": 55
+        }
       }
     },
     {
@@ -59,7 +74,10 @@
     {
       "name": "Unsupported diagnostics are not called abstentions",
       "passed": true,
-      "detail": "12 nonempty candidate packets; sampled source review, no generated answers"
+      "detail": {
+        "omitted_string_sha256": "8ae13b6258f5361b9f6cbb9624a81ffc65af8d9a6705de84728ced44d25ca5d2",
+        "characters": 74
+      }
     },
     {
       "name": "Original spike and Phase 1\u20133 evidence preserved",
@@ -98,7 +116,10 @@
       "detail": {
         "suspect_paths": [],
         "private_paths": [],
-        "limit": "Exact generated credential check, not full security audit"
+        "limit": {
+          "omitted_string_sha256": "e218fd9146eeaaaa160665e8b20112f826fb65e55daee631443794293540d749",
+          "characters": 57
+        }
       }
     },
     {
@@ -108,10 +129,25 @@
     }
   ],
   "limits": [
-    "9/303 episodes indexed; 294 remain",
-    "Sparse default held-out recall62.5%, selection instability/unscoped/synthesis defects open",
-    "No generated answer support/abstention/routing/essay/SC-01 outcomes",
-    "Labels are incomplete and not independent expert judgments; heldout now observed",
-    "Browser/rights/cloud/full coding export/clean evaluator gaps remain"
+    {
+      "omitted_string_sha256": "75ed2b3d28c9b40824dad3c1780657110f0eb853ef5afa13987062deaca788e3",
+      "characters": 34
+    },
+    {
+      "omitted_string_sha256": "21a6368025920fcf2a91a8a8f3d932b10d5acb2c59c2215651075c3d706ab948",
+      "characters": 90
+    },
+    {
+      "omitted_string_sha256": "3063fd59a1ce58be7dacd966db050b8b81c36bdbb56568ab02d1598b78ba3d4c",
+      "characters": 67
+    },
+    {
+      "omitted_string_sha256": "7a8e698a3668d6d6148803c2e7f7c6711b72294680bf912365b7dbd3de43d65e",
+      "characters": 80
+    },
+    {
+      "omitted_string_sha256": "dc33c09f68622b9c14fc0d12d4a276d5878e8a7f90e38b088d51cf4a68d98c09",
+      "characters": 67
+    }
   ]
 }

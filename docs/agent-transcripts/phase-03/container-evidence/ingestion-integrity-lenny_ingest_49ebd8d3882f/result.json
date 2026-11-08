@@ -1,6 +1,12 @@
 {
-  "database": "lenny_ingest_49ebd8d3882f",
-  "source_kind": "synthetic_fixture",
+  "database": {
+    "omitted_string_sha256": "e318bf1b89d342cd68b70583ea049f8ea98acbc26dee1e94bc9ae752e15f2172",
+    "characters": 25
+  },
+  "source_kind": {
+    "omitted_string_sha256": "326dab9b2d3559662cb0c44a8d1f9fc261d208f505804f074778fe8c85734495",
+    "characters": 17
+  },
   "actual_postgresql": true,
   "actual_ollama": true,
   "checks": [
@@ -27,7 +33,10 @@
     {
       "name": "failed_embedding_does_not_publish_partial_episode",
       "passed": true,
-      "fault": "Intentional failure injection after one actual Ollama batch; not a naturally observed provider outage."
+      "fault": {
+        "omitted_string_sha256": "5b33ef2873d8415773936ce3620103c17feb3fbad7fa1f07ae40f6b6149165fd",
+        "characters": 102
+      }
     },
     {
       "name": "resume_after_failure_publishes_complete_version",

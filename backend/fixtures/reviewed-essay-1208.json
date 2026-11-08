@@ -1,0 +1,159 @@
+{
+  "fixture": true,
+  "provenance": "reviewed_fixture",
+  "label": "Reviewed essay fixture \u00b7 1,208 words \u00b7 9 manual edits \u00b7 not fresh generation",
+  "word_count": 1208,
+  "manual_edits": 9,
+  "edit_disclosure": "Six application-paragraph rewrites and three evidence-span edits in sections 2,4,6. This reviewed result is not an unedited model draft.",
+  "title": "Use must-have customer feedback to improve positioning and onboarding",
+  "markdown": "# Use must-have customer feedback to improve positioning and onboarding\n\n## Ask the question before changing the journey\n\nApplication: Which feedback should guide your next onboarding change? Start by writing the question you want the research to answer, then ask users what benefit they would miss. Preserve their wording rather than translating every response into a feature request. Compare the current signup promise with the first meaningful task, and track how many people start and complete that task. Treat better completion after a revision as a hypothesis. Review both the counts and the explanations before choosing whether to keep a change, revise your interpretation or collect more observations.\n\n> Just ignore the people who say they'd be somewhat disappointed. They're telling you it's a nice to have. If you start paying attention to what your somewhat disappointed users are telling you and then you start tweaking onboarding and product based on their feedback, maybe you're going to dilute it for your must have users. [S2]\n\n> It's usually much more function of onboarding to the right user experience than it is about the kind of the tactical things that people try to do to improve retention. [S2]\n\n> The question is, how would you feel if you could no longer use this product? Once you got a high enough percentage of users saying they'd be very disappointed, most of those products did pretty well. If you felt too low, those products tended to suffer. [S2]\n\n## Read the case in its context\n\n> So to me, the hardest, I wouldn't obsess on onboarding if I know those who kind of get through the challenge of getting started with the product still don't like the product then feels like it's a core product issue or wrong people using it in the wrong way issue. But once you have that, then ultimately it doesn't mean that you're ready to grow. When I focus on growth, then customer acquisition is almost the last step. [S3]\n\nApplication: Compare the explanations of users who complete the first task with those who stop. Keep separate notes for a confusing promise, an onboarding obstacle and a possible core-product issue. Treat each explanation as something to investigate, not a diagnosis already established. Choose one question for the next review and decide what observation would cause you to change direction. Leave the cause open when the observations conflict.\n\n## Find the benefit users describe\n\n> ... and just deeply understand them and make sure that ultimately your product roadmap is doubling down on the things that are important to your must-have customers. Onboarding is bringing new people to the right experience. Your messaging is setting the right expectations, your acquisition campaigns are targeting people who actually have the need. And so it's all about getting the right people to the right experience. And then even your engagement loop is about just reinforcing how to get people to experience that benefit more often. [S4]\n\nApplication: **Treat improvement as a hypothesis.** Write down the benefit you think users value, then compare it with their own descriptions. Check whether the signup promise and first task reflect the same idea. Keep contradictory responses alongside the common themes. Treat clearer alignment as a hypothesis to test with a small revision. Track first-task completion and ask what users expected before deciding whether to keep the revision, change the promise or investigate a different benefit.\n\n## Choose what to investigate\n\n> Yeah, I mean it tells you something really important, which is, you haven't created something that people don't care about. So that's an important insight. But until you deeply understand that product market fit, you kind of don't have the tools to be able to grow the business. So that's really the next step, is to dig in and figure out who considers it a must have, how are they using the product, what did they use before, what problem are they solving. [S5]\n\n> One of my favorite questions is... So I tend to have a lot of questions that I build off of that I'm using that filter, trying to drill into the users who say they'd be very disappointed without the product, and one of my favorite questions is, \"What is the primary benefit that you get?\" And then I use that initially as an open-ended question to kind of crowdsource different benefits people are getting. But then I run another survey where I turn it into a multiple choice question, force them to pick one of four distinctive benefit statements. And then the question that follows on that next survey is, \"Why is that benefit important to you?\" And then I start to get really good context. [S5]\n\nApplication: Ask an open-ended benefit question before offering choices. Keep the original answers so the later options can be compared with what people actually described. After collecting responses, choose one benefit to investigate and note the reasons users give for valuing it. Review contrary answers before deciding whether to keep that interpretation. Use the next interview or small onboarding comparison to examine what remains unclear.\n\n## Turn observations into a test\n\n> Yeah. I mean, so for me in particular, when I come into a company, my goal is to help them grow. And so I don't want to put myself in a situation where I'm going to fail because no one actually cares about the product. And so it can really be asked at a company of any stage. It's helpful to understand who your must have users are. But essentially once you have even an MVP, like a very first MVP on the product, you can still get some useful feedback about the product if it's resonating with anyone. [S6]\n\nApplication: Compare the existing signup promise and first meaningful task with one revision. Define completion before reviewing results, and record both completed tasks and the number of people who started each version. Keep user explanations beside the counts. Treat better completion as a hypothesis rather than a promised outcome. If the observations conflict, choose the next question instead of changing every part of the journey. Decide whether to retain the revision, revise the wording or gather more observations, and write down the evidence behind that decision.\n\n## Keep the limits visible\n\n> Yeah. I may need to do some acquisition stuff before just to bring enough flow-through, but I'm not obsessing on how scalable is this. It's just like, yeah, let's get enough people coming through that we can start to take the slack out. Part of it comes down to that the acquisition side is so competitive now that if you're not really efficient at converting and retaining and monetizing customers, you can't find scalable, profitable customer acquisition channels. [S7]\n\n> So at LogMeIn, when we initially tried to grow the business, I was stuck at being able to spend... I couldn't spend more than $10,000 per month profitably trying to grow the business. [S7]\n\n- Application: Preserve raw feedback before choosing an interpretation.\n- Application: Select one benefit hypothesis and one first task to investigate.\n- Application: Track completed tasks alongside the number of people who started, and read the explanations from both groups.\n- Application: If observations conflict, keep the cause open rather than declaring a result.\n- Application: After reviewing the data, decide whether to keep the revision, change the hypothesis or collect more observations before choosing.",
+  "markdown_sha256": "622acbd2368356f8cd4ea5103383fc428539aa4b8093f78194bc780598b7693f",
+  "html": "<!doctype html><html lang=\"en\"><head><meta charset=\"utf-8\"><meta http-equiv=\"Content-Security-Policy\" content=\"default-src &#x27;none&#x27;; script-src &#x27;none&#x27;; style-src &#x27;unsafe-inline&#x27;; img-src &#x27;none&#x27;; font-src &#x27;none&#x27;; connect-src &#x27;none&#x27;; media-src &#x27;none&#x27;; object-src &#x27;none&#x27;; frame-src &#x27;none&#x27;; base-uri &#x27;none&#x27;; form-action &#x27;none&#x27;\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><title>Use must-have customer feedback to improve positioning and onboarding</title><style>body{font:17px/1.75 Georgia,serif;max-width:48em;margin:0 auto;padding:30px;color:#26382f;background:#fffdf8;overflow-wrap:anywhere}h1,h2,h3{line-height:1.3}blockquote{border-left:3px solid #6b8877;padding-left:1em;margin-left:0}li{margin:.6em 0}strong{font-weight:700}</style></head><body><h1>Use must-have customer feedback to improve positioning and onboarding</h1>\n<h2>Ask the question before changing the journey</h2>\n<p>Application: Which feedback should guide your next onboarding change? Start by writing the question you want the research to answer, then ask users what benefit they would miss. Preserve their wording rather than translating every response into a feature request. Compare the current signup promise with the first meaningful task, and track how many people start and complete that task. Treat better completion after a revision as a hypothesis. Review both the counts and the explanations before choosing whether to keep a change, revise your interpretation or collect more observations.</p>\n<blockquote>\n<p>Just ignore the people who say they'd be somewhat disappointed. They're telling you it's a nice to have. If you start paying attention to what your somewhat disappointed users are telling you and then you start tweaking onboarding and product based on their feedback, maybe you're going to dilute it for your must have users. [S2]</p>\n</blockquote>\n<blockquote>\n<p>It's usually much more function of onboarding to the right user experience than it is about the kind of the tactical things that people try to do to improve retention. [S2]</p>\n</blockquote>\n<blockquote>\n<p>The question is, how would you feel if you could no longer use this product? Once you got a high enough percentage of users saying they'd be very disappointed, most of those products did pretty well. If you felt too low, those products tended to suffer. [S2]</p>\n</blockquote>\n<h2>Read the case in its context</h2>\n<blockquote>\n<p>So to me, the hardest, I wouldn't obsess on onboarding if I know those who kind of get through the challenge of getting started with the product still don't like the product then feels like it's a core product issue or wrong people using it in the wrong way issue. But once you have that, then ultimately it doesn't mean that you're ready to grow. When I focus on growth, then customer acquisition is almost the last step. [S3]</p>\n</blockquote>\n<p>Application: Compare the explanations of users who complete the first task with those who stop. Keep separate notes for a confusing promise, an onboarding obstacle and a possible core-product issue. Treat each explanation as something to investigate, not a diagnosis already established. Choose one question for the next review and decide what observation would cause you to change direction. Leave the cause open when the observations conflict.</p>\n<h2>Find the benefit users describe</h2>\n<blockquote>\n<p>... and just deeply understand them and make sure that ultimately your product roadmap is doubling down on the things that are important to your must-have customers. Onboarding is bringing new people to the right experience. Your messaging is setting the right expectations, your acquisition campaigns are targeting people who actually have the need. And so it's all about getting the right people to the right experience. And then even your engagement loop is about just reinforcing how to get people to experience that benefit more often. [S4]</p>\n</blockquote>\n<p>Application: <strong>Treat improvement as a hypothesis.</strong> Write down the benefit you think users value, then compare it with their own descriptions. Check whether the signup promise and first task reflect the same idea. Keep contradictory responses alongside the common themes. Treat clearer alignment as a hypothesis to test with a small revision. Track first-task completion and ask what users expected before deciding whether to keep the revision, change the promise or investigate a different benefit.</p>\n<h2>Choose what to investigate</h2>\n<blockquote>\n<p>Yeah, I mean it tells you something really important, which is, you haven't created something that people don't care about. So that's an important insight. But until you deeply understand that product market fit, you kind of don't have the tools to be able to grow the business. So that's really the next step, is to dig in and figure out who considers it a must have, how are they using the product, what did they use before, what problem are they solving. [S5]</p>\n</blockquote>\n<blockquote>\n<p>One of my favorite questions is... So I tend to have a lot of questions that I build off of that I'm using that filter, trying to drill into the users who say they'd be very disappointed without the product, and one of my favorite questions is, \"What is the primary benefit that you get?\" And then I use that initially as an open-ended question to kind of crowdsource different benefits people are getting. But then I run another survey where I turn it into a multiple choice question, force them to pick one of four distinctive benefit statements. And then the question that follows on that next survey is, \"Why is that benefit important to you?\" And then I start to get really good context. [S5]</p>\n</blockquote>\n<p>Application: Ask an open-ended benefit question before offering choices. Keep the original answers so the later options can be compared with what people actually described. After collecting responses, choose one benefit to investigate and note the reasons users give for valuing it. Review contrary answers before deciding whether to keep that interpretation. Use the next interview or small onboarding comparison to examine what remains unclear.</p>\n<h2>Turn observations into a test</h2>\n<blockquote>\n<p>Yeah. I mean, so for me in particular, when I come into a company, my goal is to help them grow. And so I don't want to put myself in a situation where I'm going to fail because no one actually cares about the product. And so it can really be asked at a company of any stage. It's helpful to understand who your must have users are. But essentially once you have even an MVP, like a very first MVP on the product, you can still get some useful feedback about the product if it's resonating with anyone. [S6]</p>\n</blockquote>\n<p>Application: Compare the existing signup promise and first meaningful task with one revision. Define completion before reviewing results, and record both completed tasks and the number of people who started each version. Keep user explanations beside the counts. Treat better completion as a hypothesis rather than a promised outcome. If the observations conflict, choose the next question instead of changing every part of the journey. Decide whether to retain the revision, revise the wording or gather more observations, and write down the evidence behind that decision.</p>\n<h2>Keep the limits visible</h2>\n<blockquote>\n<p>Yeah. I may need to do some acquisition stuff before just to bring enough flow-through, but I'm not obsessing on how scalable is this. It's just like, yeah, let's get enough people coming through that we can start to take the slack out. Part of it comes down to that the acquisition side is so competitive now that if you're not really efficient at converting and retaining and monetizing customers, you can't find scalable, profitable customer acquisition channels. [S7]</p>\n</blockquote>\n<blockquote>\n<p>So at LogMeIn, when we initially tried to grow the business, I was stuck at being able to spend... I couldn't spend more than $10,000 per month profitably trying to grow the business. [S7]</p>\n</blockquote>\n<ul>\n<li>Application: Preserve raw feedback before choosing an interpretation.</li>\n<li>Application: Select one benefit hypothesis and one first task to investigate.</li>\n<li>Application: Track completed tasks alongside the number of people who started, and read the explanations from both groups.</li>\n<li>Application: If observations conflict, keep the cause open rather than declaring a result.</li>\n<li>Application: After reviewing the data, decide whether to keep the revision, change the hypothesis or collect more observations before choosing.</li>\n</ul>\n</body></html>",
+  "html_sha256": "91ea1f66278d0d25638eb51074c1960340a57ceaf9229028d6f57397ceb9c022",
+  "sources": [
+    {
+      "source_label": "S2",
+      "chunk_id": "bdd3d954-095e-5f5a-8be1-5f38377168ff",
+      "source_path": "episodes/sean-ellis/transcript.md",
+      "source_hash": "6af2a6e031826805e855ec262b1f228e3773b5b99265a1d01870f0d4e6e9ceda",
+      "version": 1,
+      "corpus_revision": "be8ab89a890a833cbba2c892178f823fff178c65",
+      "spans": [
+        {
+          "id": "E3",
+          "char_start": 1500,
+          "char_end": 1761,
+          "text_sha256": "633d3fd40c2d03b5be75f31cf8db5aa747c6bca23c58ebc229f32c483dfa8180",
+          "speaker": "Sean Ellis"
+        },
+        {
+          "id": "E4",
+          "char_start": 1541,
+          "char_end": 1761,
+          "text_sha256": "a421a05ac9a436e4966324da4ee9b6afd71af6b845932c3dabb620d07d93a452",
+          "speaker": "Sean Ellis"
+        }
+      ]
+    },
+    {
+      "source_label": "S3",
+      "chunk_id": "ac3b448b-888b-5a93-b57a-87115b25c5c1",
+      "source_path": "episodes/sean-ellis/transcript.md",
+      "source_hash": "6af2a6e031826805e855ec262b1f228e3773b5b99265a1d01870f0d4e6e9ceda",
+      "version": 1,
+      "corpus_revision": "be8ab89a890a833cbba2c892178f823fff178c65",
+      "spans": [
+        {
+          "id": "E5",
+          "char_start": 28375,
+          "char_end": 28576,
+          "text_sha256": "afb62f7306c95d439c88e4c7c244fe444582cfb3410141361088564b5c023ffc",
+          "speaker": "Sean Ellis"
+        },
+        {
+          "id": "E6",
+          "char_start": 28450,
+          "char_end": 28729,
+          "text_sha256": "26fb768736bd6f57e1ce139ab60d009bf6e54c668958c1a1438640c7a0976577",
+          "speaker": "Sean Ellis"
+        }
+      ]
+    },
+    {
+      "source_label": "S4",
+      "chunk_id": "e7ebf483-ca51-5ba3-a02a-162986317feb",
+      "source_path": "episodes/sean-ellis/transcript.md",
+      "source_hash": "6af2a6e031826805e855ec262b1f228e3773b5b99265a1d01870f0d4e6e9ceda",
+      "version": 1,
+      "corpus_revision": "be8ab89a890a833cbba2c892178f823fff178c65",
+      "spans": [
+        {
+          "id": "E7",
+          "char_start": 18832,
+          "char_end": 19052,
+          "text_sha256": "40fbef183668a860da6d96d4c30665515d1c07729460e082494b8cba3ef1b25c",
+          "speaker": "Sean Ellis"
+        },
+        {
+          "id": "E8",
+          "char_start": 18053,
+          "char_end": 18429,
+          "text_sha256": "d40ce3b2dc96f12ee23b46d68254c3ba31f887074311b5cab33a155366c4cfb8",
+          "speaker": "Sean Ellis"
+        }
+      ]
+    },
+    {
+      "source_label": "S5",
+      "chunk_id": "f5f40dd8-e8fb-5e74-9834-e45e31331549",
+      "source_path": "episodes/sean-ellis/transcript.md",
+      "source_hash": "6af2a6e031826805e855ec262b1f228e3773b5b99265a1d01870f0d4e6e9ceda",
+      "version": 1,
+      "corpus_revision": "be8ab89a890a833cbba2c892178f823fff178c65",
+      "spans": [
+        {
+          "id": "E9",
+          "char_start": 16394,
+          "char_end": 16695,
+          "text_sha256": "3c307c496255a3e478bdafe9394bd5ccc5839f5e7edab25456f3b4d7cc337495",
+          "speaker": "Sean Ellis"
+        },
+        {
+          "id": "E10",
+          "char_start": 16517,
+          "char_end": 16695,
+          "text_sha256": "4c6a29b20f1d1e12d5547e5e441f1efcb15fbbb963af6780a5f74036faf87bf8",
+          "speaker": "Sean Ellis"
+        }
+      ]
+    },
+    {
+      "source_label": "S6",
+      "chunk_id": "38b28fa6-86ff-59ba-8019-ff4db2c27656",
+      "source_path": "episodes/sean-ellis/transcript.md",
+      "source_hash": "6af2a6e031826805e855ec262b1f228e3773b5b99265a1d01870f0d4e6e9ceda",
+      "version": 1,
+      "corpus_revision": "be8ab89a890a833cbba2c892178f823fff178c65",
+      "spans": [
+        {
+          "id": "E11",
+          "char_start": 10604,
+          "char_end": 10830,
+          "text_sha256": "ce66098dd4c7e5a12fd52eb6fa9c57c8e40d55ea0406bc0a13e3d8bb14d941fe",
+          "speaker": "Sean Ellis"
+        },
+        {
+          "id": "E12",
+          "char_start": 10065,
+          "char_end": 10303,
+          "text_sha256": "ffc0e63d4f0be9fb1fdd22c4121060bb5c6a76c21c46d0228fe1f856354ad400",
+          "speaker": "Lenny Rachitsky"
+        }
+      ]
+    },
+    {
+      "source_label": "S7",
+      "chunk_id": "40c4e9ae-ce0c-5575-817c-b00c6c5d8334",
+      "source_path": "episodes/sean-ellis/transcript.md",
+      "source_hash": "6af2a6e031826805e855ec262b1f228e3773b5b99265a1d01870f0d4e6e9ceda",
+      "version": 1,
+      "corpus_revision": "be8ab89a890a833cbba2c892178f823fff178c65",
+      "spans": [
+        {
+          "id": "E13",
+          "char_start": 56435,
+          "char_end": 56705,
+          "text_sha256": "fb28ef91f68b99a102e99ad2f3e0c6b730b598a8586b93a0221542849fe4ca03",
+          "speaker": "Lenny Rachitsky"
+        },
+        {
+          "id": "E14",
+          "char_start": 56491,
+          "char_end": 56705,
+          "text_sha256": "29b5c71764c8524f23b6845292c28ad8a024e68894db0ff198ccfa645e247ae8",
+          "speaker": "Lenny Rachitsky"
+        }
+      ]
+    }
+  ]
+}

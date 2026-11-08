@@ -1,0 +1,33 @@
+{
+  "status": "passed_single_public_cited_smoke",
+  "provider": "openrouter",
+  "model": "google/gemini-2.5-flash-lite",
+  "elapsed_seconds": 6.512845794000896,
+  "run_id": "5c0f723b-4a11-4ef3-bbb7-0fceb24783f5",
+  "citation": {
+    "omitted_string_sha256": "3696ad59777e09d5f2daacb544022d435e7cd053d87c5781241fabd8fdf2a90d",
+    "characters": 2
+  },
+  "chunk_id": "c0aa1ec1-9da2-5bc9-a1ed-550df1f12411",
+  "citation_resolves_and_supports_answer": true,
+  "corrective_reruns": 1,
+  "provider_model_unchanged": true,
+  "upstream_original_message": {
+    "omitted_string_sha256": "20ccde47dc7700c19aa0e123b2554b935215972167f4c77ad562c3accf699c8c",
+    "characters": 46
+  },
+  "minimal_fix": {
+    "omitted_string_sha256": "09561791d1bc6aef6985ce265d5abce0b79b69ec63cc45f4ce80687c65934901",
+    "characters": 99
+  },
+  "offline_sdk_probe": {
+    "omitted_string_sha256": "1d03ea904583ce212912039c229ba01cd58b1150d5fa1be1cc2a65a014d35f3a",
+    "characters": 58
+  },
+  "node_policy_checks": 10,
+  "focused_python_conversation_checks": 9,
+  "private_key_scan_files": 6,
+  "private_key_matches": 0,
+  "no_commit_or_push": true,
+  "scope": "FastAPI ASGI + real Pi/OpenRouter/SQL/local hybrid search, not browser/full essay/general quality"
+}

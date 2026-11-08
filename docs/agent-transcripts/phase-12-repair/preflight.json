@@ -1,0 +1,99 @@
+{
+  "timestamp": "2026-11-08T05:23:42.695533+00:00",
+  "machine": "Apple M2 / 8 GiB",
+  "swap": "vm.swapusage: total = 14336.00M  used = 13220.00M  free = 1116.00M  (encrypted)",
+  "swap_check_exit": 0,
+  "free_disk_bytes": 103082541056,
+  "health": {
+    "status": "ready",
+    "scope": "phase_9_operations",
+    "product_ready": false,
+    "checks": {
+      "provider": {
+        "ready": true,
+        "selected": "ollama",
+        "model": "qwen3:0.6b",
+        "live_verified": false
+      },
+      "database": {
+        "ready": true,
+        "schema_revision": "0005_essay_message_length",
+        "pgvector_version": "0.8.7"
+      },
+      "corpus": {
+        "ready": true,
+        "status": "available",
+        "active_chunks": 12770,
+        "active_episodes": 303,
+        "discovered": 303
+      },
+      "agent": {
+        "ready": true,
+        "version": "1.5.0"
+      },
+      "ollama": {
+        "ready": true,
+        "reachable_from_api": true,
+        "version": "0.30.11",
+        "generation_model_available": true,
+        "essay_model_available": true,
+        "embedding_model_available": true,
+        "embedding_dimensions_compatible": true,
+        "index_identity_compatible": true,
+        "note": "Transport and installed-model availability; does not prove answer or essay quality."
+      }
+    }
+  },
+  "provider": {
+    "privacy": "Local inference; no automatic cloud fallback.",
+    "essay_model": "qwen3:1.7b",
+    "selected": "ollama",
+    "model": "qwen3:0.6b",
+    "automatic_fallback": false,
+    "providers": [
+      {
+        "id": "ollama",
+        "implemented": true,
+        "configured": true,
+        "scope": "Local chat and reviewed essays; local embeddings.",
+        "enabled": true
+      },
+      {
+        "id": "anthropic",
+        "implemented": true,
+        "configured": false,
+        "scope": "Pi native Anthropic Messages; live validation not established by configuration.",
+        "credentials_present": false,
+        "enabled": false,
+        "reason": "cloud_key_missing"
+      },
+      {
+        "id": "openrouter",
+        "implemented": true,
+        "configured": false,
+        "scope": "Pi OpenRouter chat tools and advice-only essays. Key presence is not live validation; see recorded cited smoke evidence.",
+        "credentials_present": false,
+        "enabled": false,
+        "reason": "cloud_key_missing"
+      }
+    ]
+  },
+  "installed_models": [
+    {
+      "name": "qwen3:1.7b",
+      "size": 1359293444,
+      "digest": "8f68893c685c3ddff2aa3fffce2aa60a30bb2da65ca488b61fff134a4d1730e7"
+    },
+    {
+      "name": "qwen3:0.6b",
+      "size": 522653767,
+      "digest": "7df6b6e09427a769808717c0a93cadc4ae99ed4eb8bf5ca557c90846becea435"
+    },
+    {
+      "name": "nomic-embed-text:latest",
+      "size": 274302450,
+      "digest": "0a109f422b47e3a30ba2b10eca18548e944e8a23073ee3f3e947efcf3c45e59f"
+    }
+  ],
+  "models_downloaded": 0
+}

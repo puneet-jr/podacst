@@ -21,7 +21,7 @@ async def main():
   page.on('pageerror',lambda e:errors.append(str(e)))
   def request(q):
    if q.method=='POST' and '/api/' in q.url:calls.append({'method':q.method,'path':q.url.split(':8080')[-1],'at':datetime.now(timezone.utc).isoformat()})
-  page.on('request',request);await page.goto('http://127.0.0.1:8080');await page.get_by_label('Name a new session').fill(title)
+  page.on('request',request);await page.goto('http://127.0.0.1:8080/workspace');await page.get_by_label('Name a new session').fill(title)
   if (folder/'request.json').exists():
    saved=json.loads((folder/'request.json').read_text());sid=saved['session_id'];title=saved['title'];await page.get_by_role('button',name=title,exact=False).click()
   else:

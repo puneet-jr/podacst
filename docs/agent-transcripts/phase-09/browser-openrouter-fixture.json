@@ -1,0 +1,31 @@
+{
+  "captured_at": "2026-11-07T06:56:43.482321+00:00",
+  "provider": "openrouter",
+  "model": "google/gemini-2.5-flash-lite",
+  "fixture": true,
+  "browser": "157.0.8103.38",
+  "model_calls": 0,
+  "database_writes": 0,
+  "checks": [
+    {
+      "omitted_string_sha256": "f0b74f0b5e0cabc0eeca509457cac9a136ec7692d74fb1643e5d294348a8bfd4",
+      "characters": 23
+    },
+    {
+      "omitted_string_sha256": "d0b3904afc45063ea5daaca4421500ddb5b9a9073f2636627fb68cd12735a64e",
+      "characters": 16
+    },
+    {
+      "omitted_string_sha256": "d5eb81270e564bd3693e9fb71b09e3189cc71a44a936fd29cb9543f6050c8c01",
+      "characters": 38
+    },
+    {
+      "omitted_string_sha256": "0a312eff37c683a3648cb75bdc5e4e8757706958b656834a37d76be1f913c915",
+      "characters": 49
+    }
+  ],
+  "cloud_validation": {
+    "omitted_string_sha256": "5c93ed9fb2351892c384b7d06a51d81b1c6c81a3c4ebb1b6bd57d02fce922c9f",
+    "characters": 51
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "session_id": "b434b873-9092-411d-9223-18dbb19f25ee",
+  "endpoint": {
+    "omitted_string_sha256": "edeaa8cec325b7415a1fa1afb9a7a8893861e2096c2ff734e368012b1ee847ab",
+    "characters": 31
+  },
+  "request": {
+    "client_message_id": "7e30e896-bfa9-4766-b5cb-5fea4cbd34e9",
+    "topic": {
+      "omitted_string_sha256": "bf156bdf0408648c58fe00210281acf09c1816f17685f89869bfe8e01538e488",
+      "characters": 69
+    },
+    "audience": {
+      "omitted_string_sha256": "8aa9a105859ab72908aef2e25c10001adf24b74b7d4f89d9601072460bc8bdd3",
+      "characters": 74
+    },
+    "constraints": {
+      "omitted_string_sha256": "e1acb7345e92edbfb9f0a43a47884ba601e53bf58c607aa730a7a286ef88f028",
+      "characters": 272
+    },
+    "source_path": "episodes/sean-ellis/transcript.md",
+    "focus_questions": [
+      {
+        "omitted_string_sha256": "267ff364cc8f11f3606199071bf17983e999623384a27706b0860ec43377eac3",
+        "characters": 97
+      },
+      {
+        "omitted_string_sha256": "0d593b4a3b504b12cbf5b1c0bc4eab27a55e80103424daf753242b3fe004dcf6",
+        "characters": 63
+      },
+      {
+        "omitted_string_sha256": "75e05efbeaebfa76d54156958e511e874892f3205e125dc6c72f55a77dbca718",
+        "characters": 69
+      }
+    ],
+    "timeout_seconds": 600
+  },
+  "fixture_used": false
+}

@@ -1,3 +1,4 @@
+from backend.app.source_paths import SOURCE_PATH_PATTERN
 from datetime import datetime
 from typing import Literal
 from uuid import UUID
@@ -96,7 +97,16 @@ class OllamaCheck(BaseModel):
     code: str | None = None
 
 
+class ProviderCheck(BaseModel):
+    ready: bool
+    selected: str
+    model: str
+    code: str | None = None
+    live_verified: bool = False
+
+
 class ReadyChecks(BaseModel):
+    provider: ProviderCheck | None = None
     database: DatabaseCheck
     corpus: CorpusCheck
     agent: AgentCheck
@@ -105,7 +115,7 @@ class ReadyChecks(BaseModel):
 
 class ReadyOut(BaseModel):
     status: Literal["ready", "not_ready"]
-    scope: Literal["phase_5_conversation"]
+    scope: Literal["phase_5_conversation", "phase_9_operations"]
     product_ready: bool
     checks: ReadyChecks
 
@@ -121,8 +131,9 @@ class ProviderOption(BaseModel):
 
 
 class ProvidersOut(BaseModel):
+    privacy: str = "Local inference; no automatic cloud fallback."
     essay_model: str
-    selected: Literal["ollama"]
+    selected: Literal["ollama", "anthropic", "openrouter"]
     model: str
     automatic_fallback: Literal[False]
     providers: list[ProviderOption]
@@ -159,7 +170,7 @@ class AnswerCreate(Input):
     content: str = Field(min_length=1,max_length=1000)
     client_message_id: UUID
     retrieval_mode: Literal['hybrid'] = 'hybrid'
-    source_path: str | None = Field(default=None,pattern=r'^episodes/[a-z0-9-]+/transcript\.md$',max_length=240)
+    source_path: str | None = Field(default=None,pattern=SOURCE_PATH_PATTERN,max_length=240)
     retry: bool = False
     timeout_seconds: float = Field(default=75,ge=.1,le=90)
 

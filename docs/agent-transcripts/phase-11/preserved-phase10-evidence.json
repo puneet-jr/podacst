@@ -1,0 +1,18 @@
+{
+  ".cache/phase10-quality/live/SC-01-C/essay-raw.md": {
+    "omitted_string_sha256": "599fa7e73b88515e4d35fd73011c0df3c4042151682ecc02f3b49a69818a5fbb",
+    "characters": 64
+  },
+  "docs/agent-transcripts/phase-10/quality-pass/safe-runtime-events.json": {
+    "omitted_string_sha256": "2cc013b0e3cd11e5aa099763bccad594b0f00213231c3a2ea4f4039d5e46d056",
+    "characters": 64
+  },
+  "docs/agent-transcripts/phase-10/scenario-summary.json": {
+    "omitted_string_sha256": "a64ac254538a1384a430447989c8453d4a28726c0101034021a9d4cabb5a6b72",
+    "characters": 64
+  },
+  "docs/agent-transcripts/phase-10/quality-pass/results.json": {
+    "omitted_string_sha256": "e19de765e78d2e6e0ca715f7e61fd530e3b1603a18e114d52a1966db914bd995",
+    "characters": 64
+  }
+}

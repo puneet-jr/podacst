@@ -1,0 +1,11 @@
+{
+  "check": "read-only official OpenRouter key/credits endpoints",
+  "key_present": true,
+  "key_http": 200,
+  "credits_http": 200,
+  "key_limit_exhausted": true,
+  "account_balance_nonpositive": true,
+  "credits_available": false,
+  "inference_requests": 0,
+  "candidate": "f89807d8db16c20e652590a6470810e5eb60b078"
+}

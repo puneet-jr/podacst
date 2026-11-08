@@ -1,0 +1,91 @@
+{
+  "runtime_revision": "3dc814552104edc83072503811c56dbe452e9552",
+  "provider": "ollama",
+  "model": "qwen3:1.7b",
+  "session_id": "a4a2acb4-af45-4c53-8e70-f69895d89de9",
+  "run_id": "65beed43-261f-4ee7-b920-b14e1ba3fa88",
+  "request_topic": "Use must-have customer feedback to improve onboarding and speed to value for a new growth PM.",
+  "status": "needs_review",
+  "error_code": null,
+  "elapsed_seconds": 47.755,
+  "validation": {
+    "errors": [],
+    "limits": "ID/count/format screens are not semantic support, hook quality, meaningful progression or completeness proof.",
+    "bullets": 5,
+    "bold_spans": 1,
+    "word_count": 1145,
+    "citation_ids": [
+      "S1",
+      "S2",
+      "S3",
+      "S5",
+      "S6",
+      "S7"
+    ],
+    "section_count": 6,
+    "accepted_range": [
+      1125,
+      1375
+    ],
+    "incomplete_sections": [],
+    "section_word_counts": [
+      160,
+      200,
+      149,
+      216,
+      166,
+      207
+    ],
+    "passed_deterministic": true,
+    "manual_review_required": true
+  },
+  "context_message_ids": [],
+  "manual_edits": 0,
+  "accepted": false,
+  "sources": [
+    {
+      "label": "S1",
+      "chunk_id": "e7ebf483-ca51-5ba3-a02a-162986317feb",
+      "source_hash": "6af2a6e031826805e855ec262b1f228e3773b5b99265a1d01870f0d4e6e9ceda"
+    },
+    {
+      "label": "S2",
+      "chunk_id": "40c4e9ae-ce0c-5575-817c-b00c6c5d8334",
+      "source_hash": "6af2a6e031826805e855ec262b1f228e3773b5b99265a1d01870f0d4e6e9ceda"
+    },
+    {
+      "label": "S3",
+      "chunk_id": "2d70a732-94f8-5cd8-9f59-0019c1fd9b21",
+      "source_hash": "6af2a6e031826805e855ec262b1f228e3773b5b99265a1d01870f0d4e6e9ceda"
+    },
+    {
+      "label": "S4",
+      "chunk_id": "026e12ac-93cd-50bc-bd96-4d5685b10111",
+      "source_hash": "6af2a6e031826805e855ec262b1f228e3773b5b99265a1d01870f0d4e6e9ceda"
+    },
+    {
+      "label": "S5",
+      "chunk_id": "ac3b448b-888b-5a93-b57a-87115b25c5c1",
+      "source_hash": "6af2a6e031826805e855ec262b1f228e3773b5b99265a1d01870f0d4e6e9ceda"
+    },
+    {
+      "label": "S6",
+      "chunk_id": "afb202bc-a30a-5ee6-9ad6-e27e468b775e",
+      "source_hash": "6af2a6e031826805e855ec262b1f228e3773b5b99265a1d01870f0d4e6e9ceda"
+    },
+    {
+      "label": "S7",
+      "chunk_id": "bdd3d954-095e-5f5a-8be1-5f38377168ff",
+      "source_hash": "6af2a6e031826805e855ec262b1f228e3773b5b99265a1d01870f0d4e6e9ceda"
+    },
+    {
+      "label": "S8",
+      "chunk_id": "f5f40dd8-e8fb-5e74-9834-e45e31331549",
+      "source_hash": "6af2a6e031826805e855ec262b1f228e3773b5b99265a1d01870f0d4e6e9ceda"
+    }
+  ],
+  "raw_markdown_sha256": "67b7b01f3c3baeb484c2667aeb4d791faca4b794b51b514811637558a7242f14",
+  "model_stages": 6,
+  "automatic_length_repairs": 0,
+  "scoring": "pending actual claim/readability review; deterministic check is not full acceptance"
+}

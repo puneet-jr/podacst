@@ -1,0 +1,196 @@
+{
+  "captured_at": "2026-11-06T21:31:41.232635+00:00",
+  "before_after_exact_match": true,
+  "artifacts": [
+    {
+      "artifact_id": {
+        "omitted_string_sha256": "534254af307d195f8e11a9095187da838a6fb1bcc605dd05b408302cb9c15da0",
+        "characters": 36
+      },
+      "type": "markdown",
+      "content_sha256": {
+        "omitted_string_sha256": "f44153d28750fc7b1e8e1b76c3fc5dc0ca5b0308be3c83b7f45975507649495f",
+        "characters": 64
+      },
+      "preview_sha256": {
+        "omitted_string_sha256": "60566af7efe4f43e872e2cd2a6e9b9684f55067b4d268a12f74c41fdf30512c2",
+        "characters": 64
+      },
+      "provenance": "live_endpoint",
+      "sources": [
+        {
+          "label": "S1",
+          "id": "bdd3d954-095e-5f5a-8be1-5f38377168ff",
+          "body_sha256": {
+            "omitted_string_sha256": "7658dfce6c9e869e0820360ad3280612b41ca00f6dcf4cacf804d18c55680f3c",
+            "characters": 64
+          },
+          "http_status": 200
+        },
+        {
+          "label": "S2",
+          "id": "53054eb0-beee-5be4-b2f1-99ca9b2eac2d",
+          "body_sha256": {
+            "omitted_string_sha256": "5b76e9477d7e0922decde6dffdfb2d37037d8305b16d9dcc9ba4caadafd3b911",
+            "characters": 64
+          },
+          "http_status": 200
+        },
+        {
+          "label": "S3",
+          "id": "f5f40dd8-e8fb-5e74-9834-e45e31331549",
+          "body_sha256": {
+            "omitted_string_sha256": "fe9c0b98dae01525ba7d0d594156791986dd9034f1fe5890894a83735b5b62b0",
+            "characters": 64
+          },
+          "http_status": 200
+        },
+        {
+          "label": "S4",
+          "id": "9d370308-1dd5-5657-bdf5-f159a62ce159",
+          "body_sha256": {
+            "omitted_string_sha256": "aa32b37a60488262c23b05f3fcdb51808e13920124539e8013dfb60670e13904",
+            "characters": 64
+          },
+          "http_status": 200
+        },
+        {
+          "label": "S5",
+          "id": "fecfa828-2e7a-51f2-ba0a-6bf77a2fb759",
+          "body_sha256": {
+            "omitted_string_sha256": "a671bae43e9ebb8f684555ef5331aba6c8e423f238bc424ad66d34697c1899b4",
+            "characters": 64
+          },
+          "http_status": 200
+        },
+        {
+          "label": "S6",
+          "id": "ac3b448b-888b-5a93-b57a-87115b25c5c1",
+          "body_sha256": {
+            "omitted_string_sha256": "74aeae0a6459996a388f88a0103c7ac7366a8d0967985c21b3be25909d6c7100",
+            "characters": 64
+          },
+          "http_status": 200
+        }
+      ]
+    },
+    {
+      "artifact_id": {
+        "omitted_string_sha256": "e2368f561a2e9cb57d254cf8add007aba2378dac04d31309a35089a08ae1e865",
+        "characters": 36
+      },
+      "type": "html",
+      "content_sha256": {
+        "omitted_string_sha256": "60566af7efe4f43e872e2cd2a6e9b9684f55067b4d268a12f74c41fdf30512c2",
+        "characters": 64
+      },
+      "preview_sha256": {
+        "omitted_string_sha256": "60566af7efe4f43e872e2cd2a6e9b9684f55067b4d268a12f74c41fdf30512c2",
+        "characters": 64
+      },
+      "provenance": "live_endpoint",
+      "sources": [
+        {
+          "label": "S1",
+          "id": "bdd3d954-095e-5f5a-8be1-5f38377168ff",
+          "body_sha256": {
+            "omitted_string_sha256": "7658dfce6c9e869e0820360ad3280612b41ca00f6dcf4cacf804d18c55680f3c",
+            "characters": 64
+          },
+          "http_status": 200
+        },
+        {
+          "label": "S2",
+          "id": "53054eb0-beee-5be4-b2f1-99ca9b2eac2d",
+          "body_sha256": {
+            "omitted_string_sha256": "5b76e9477d7e0922decde6dffdfb2d37037d8305b16d9dcc9ba4caadafd3b911",
+            "characters": 64
+          },
+          "http_status": 200
+        },
+        {
+          "label": "S3",
+          "id": "f5f40dd8-e8fb-5e74-9834-e45e31331549",
+          "body_sha256": {
+            "omitted_string_sha256": "fe9c0b98dae01525ba7d0d594156791986dd9034f1fe5890894a83735b5b62b0",
+            "characters": 64
+          },
+          "http_status": 200
+        },
+        {
+          "label": "S4",
+          "id": "9d370308-1dd5-5657-bdf5-f159a62ce159",
+          "body_sha256": {
+            "omitted_string_sha256": "aa32b37a60488262c23b05f3fcdb51808e13920124539e8013dfb60670e13904",
+            "characters": 64
+          },
+          "http_status": 200
+        },
+        {
+          "label": "S5",
+          "id": "fecfa828-2e7a-51f2-ba0a-6bf77a2fb759",
+          "body_sha256": {
+            "omitted_string_sha256": "a671bae43e9ebb8f684555ef5331aba6c8e423f238bc424ad66d34697c1899b4",
+            "characters": 64
+          },
+          "http_status": 200
+        },
+        {
+          "label": "S6",
+          "id": "ac3b448b-888b-5a93-b57a-87115b25c5c1",
+          "body_sha256": {
+            "omitted_string_sha256": "74aeae0a6459996a388f88a0103c7ac7366a8d0967985c21b3be25909d6c7100",
+            "characters": 64
+          },
+          "http_status": 200
+        }
+      ]
+    }
+  ],
+  "saved_message_matches_accepted_essay": true,
+  "essay_completed_after_restart": true,
+  "chat_provider": {
+    "selected": "ollama",
+    "model": "qwen3:0.6b",
+    "automatic_fallback": false,
+    "providers": [
+      {
+        "id": "ollama",
+        "implemented": true,
+        "configured": true,
+        "scope": "retrieval-first extractive conversation; hybrid; no autonomous/essay quality claim"
+      },
+      {
+        "id": "anthropic",
+        "implemented": false,
+        "credentials_present": false,
+        "enabled": false,
+        "reason": {
+          "omitted_string_sha256": "0887bc1d08fef250e07e225c2fbc3c117dd84a3243b19463b209d574f8bad133",
+          "characters": 62
+        }
+      }
+    ]
+  },
+  "browser": "isolated Chrome 157.0.8103.38",
+  "browser_checks": [
+    {
+      "format": "markdown",
+      "reopened_in_actual_browser": true,
+      "six_headings": true,
+      "citations_rendered": true,
+      "provenance_visible": true
+    },
+    {
+      "format": "html",
+      "reopened_in_actual_browser": true,
+      "six_headings": true,
+      "citations_rendered": true,
+      "provenance_visible": true
+    }
+  ],
+  "S2_original_opened": true,
+  "mobile_no_horizontal_overflow": true,
+  "page_errors": [],
+  "scope": "Basic viewer containment/reopen, not Phase8 comprehensive responsive/accessibility acceptance"
+}

@@ -1,0 +1,25 @@
+{
+  "captured_at": "2026-11-07T14:11:29.512702+00:00",
+  "browser": "157.0.8103.38",
+  "checks": [
+    {
+      "omitted_string_sha256": "21a26f5fe416a964f42a85f439946b25a584d2a33d76fbcf1ef24802b7f7b60f",
+      "characters": 31
+    },
+    {
+      "omitted_string_sha256": "df5a5328541178583a8f562da31793509ea338f01a23750078b42a199f560432",
+      "characters": 30
+    },
+    {
+      "omitted_string_sha256": "2c3fd657d6209450f3a90e16c3998a6874359a0064da5115fda39d5b60734f01",
+      "characters": 49
+    },
+    {
+      "omitted_string_sha256": "e76e8c823ae61a9a2b4075544e8bafd3fc7086b07b1bd7d76b320256688a4875",
+      "characters": 28
+    }
+  ],
+  "fixture": true,
+  "model_calls": 0,
+  "database_writes": 0
+}

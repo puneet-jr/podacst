@@ -1,0 +1,37 @@
+{
+  "command": [
+    {
+      "omitted_string_sha256": "11a4a60b518bf24989d481468076e5d5982884626aed9faeb35b8576fcd223e1",
+      "characters": 6
+    },
+    {
+      "omitted_string_sha256": "75ae4c5cc8a40d660cdf913ed4598662aa2d9312785055fc6225d01def5f954e",
+      "characters": 17
+    },
+    {
+      "omitted_string_sha256": "db669af634b75c7f298400f3b6c2aa8ba54998bac83e23d10ab4eaadc4b50ccf",
+      "characters": 7
+    },
+    {
+      "omitted_string_sha256": "3ace60b0a0c1b6c9345e31494142947aa97d4ef4912e895d8795663393819759",
+      "characters": 7
+    },
+    {
+      "omitted_string_sha256": "14c2529eb4498c5d1ffd6915d05bf58a91bdda796af59f41d480d11c099d0479",
+      "characters": 3
+    },
+    {
+      "omitted_string_sha256": "4b5e57f6eb2f42b9039b3d1e13929295f231749c510cbe341cd68036d9af97e2",
+      "characters": 3
+    }
+  ],
+  "exit_code": 0,
+  "stdout": {
+    "omitted_string_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "characters": 0
+  },
+  "stderr": {
+    "omitted_string_sha256": "76e49c76bc5a087dc79aa9d8931e6b91b5112b398664c6891668a6f3853d1029",
+    "characters": 162
+  }
+}

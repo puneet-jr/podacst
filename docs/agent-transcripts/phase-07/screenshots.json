@@ -1,0 +1,62 @@
+[
+  {
+    "path": {
+      "omitted_string_sha256": "5a7bc0893c44376a98036f6e47c7c3ad397f97133c39d2d7d16b7c2cc402c715",
+      "characters": 40
+    },
+    "sha256": "0ae7c1c2771a600d37a7c353f6d2868be0fe0aca50aba5732fe00a6ef73c504b",
+    "bytes": 632750,
+    "visibility": {
+      "omitted_string_sha256": "e1a9ea7e26e8b90565ad8a7df072dda8a2f928212617b7a89baf1fced7f39865",
+      "characters": 32
+    }
+  },
+  {
+    "path": {
+      "omitted_string_sha256": "1f689343469b200428111b95a5aa5de3af4979798dc79e135924257f2e3ae98f",
+      "characters": 44
+    },
+    "sha256": "2ae1c0d054d7d31bd9c2fc215ccdb422fd90255eeaaa83b73e66d98e15857568",
+    "bytes": 324641,
+    "visibility": {
+      "omitted_string_sha256": "e1a9ea7e26e8b90565ad8a7df072dda8a2f928212617b7a89baf1fced7f39865",
+      "characters": 32
+    }
+  },
+  {
+    "path": {
+      "omitted_string_sha256": "185e9eb3078812187bff20be4481ec8d1b3d9eeb381e1a76e5782d0cff84c669",
+      "characters": 43
+    },
+    "sha256": "ccb44b0a53b8aaa5dafbe680bcb12a71269fe6965ed4f437334e3112cc7bba35",
+    "bytes": 69116,
+    "visibility": {
+      "omitted_string_sha256": "e1a9ea7e26e8b90565ad8a7df072dda8a2f928212617b7a89baf1fced7f39865",
+      "characters": 32
+    }
+  },
+  {
+    "path": {
+      "omitted_string_sha256": "8748a369da5ad9dff63cbf74d9fe5961d5ce0beda189bee4126d3b9a4f9a7c31",
+      "characters": 47
+    },
+    "sha256": "1adcf269edc4dcec13654a52153f7db9820ebe3632ba9a55264edf053b29e9fa",
+    "bytes": 617891,
+    "visibility": {
+      "omitted_string_sha256": "e1a9ea7e26e8b90565ad8a7df072dda8a2f928212617b7a89baf1fced7f39865",
+      "characters": 32
+    }
+  },
+  {
+    "path": {
+      "omitted_string_sha256": "aa7e0dd81bf1b21bc7db351166e117cfb8bc1556e2619e1a9ec15f2c47edf5b0",
+      "characters": 46
+    },
+    "sha256": "4d8fa2d18b447aaf1e0050eaa1f0fe63210f56df2723dccdaf23fc689bfd5f4a",
+    "bytes": 252066,
+    "visibility": {
+      "omitted_string_sha256": "e1a9ea7e26e8b90565ad8a7df072dda8a2f928212617b7a89baf1fced7f39865",
+      "characters": 32
+    }
+  }
+]

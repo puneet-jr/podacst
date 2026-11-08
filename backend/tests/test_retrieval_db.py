@@ -49,6 +49,21 @@ class RetrievalDatabase(unittest.TestCase):
     def tearDownClass(cls):
         cls.temp.cleanup();engine.dispose()
 
+
+    def test_precomputed_term_weights_preserve_reference_ranking(self):
+        from backend.app.retrieval import LEXICAL_CTE
+        reference = """WITH terms AS (SELECT unnest(tsvector_to_array(to_tsvector('english',:query))) AS term),
+          df AS (SELECT t.term,ln(1.0+(SELECT count(*) FROM chunks WHERE active)/(1.0+count(d.id))) AS weight
+          FROM terms t LEFT JOIN chunks d ON d.active AND d.search_vector @@ to_tsquery('english',quote_literal(t.term)) GROUP BY t.term)
+          SELECT c.id,(SELECT sum(weight) FROM df WHERE c.search_vector @@ to_tsquery('english',quote_literal(df.term))) AS score
+          FROM chunks c WHERE c.active ORDER BY score DESC NULLS LAST,c.id"""
+        current = LEXICAL_CTE+"SELECT c.id,(SELECT sum(weight) FROM df WHERE c.search_vector @@ df.term_query) AS score FROM chunks c WHERE c.active ORDER BY score DESC NULLS LAST,c.id"
+        with engine.connect() as c:
+            for query in ['quartz activation','accounting garden','anchorquartz crimson','unseenrareword']:
+                with self.subTest(query=query):
+                    expected=list(c.execute(text(reference),{'query':query}));actual=list(c.execute(text(current),{'query':query}))
+                    self.assertEqual(actual,expected)
+
     def test_actual_sparse_source_integrity(self):
         result=search(engine,settings,SearchRequest(query='quartz activation',mode='sparse'))
         self.assertGreater(len(result.passages),0)

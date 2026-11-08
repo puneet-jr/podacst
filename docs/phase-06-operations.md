@@ -29,3 +29,8 @@ python3 scripts/docker.py compose exec -T api python -m backend.contract_check
 ```
 
 Prefix safe commands with `python3 scripts/capture_phase6.py`. Contract tests create a fresh retained database and explicitly mock essay generation. `live_phase6.py` is separate actual inference and writes a new attempt directory. Exit2 means no essay gate pass; even exit0 still requires manual support/quality review. Do not repeat or change models to conceal a failed local rubric. See [Phase6 report](phase-06-report.md). Stop before Phase7.
+
+
+## 7 November 2026: reviewed complete essay gate
+
+Latest reviewed server-fact workflow commands: `python3 scripts/capture_phase6.py .venv-phase2/bin/python scripts/server_essay_phase6.py prepare` creates a fresh owned run and real hybrid evidence; review sources before writing plan.json; `... scripts/server_essay_phase6.py draft` performs the6 bounded Pi advice calls once; exact editorial changes and final-sections.json remain reviewable; `... scripts/finalize_server_essay_phase6.py` validates owned sources/rubric and saves actual manual acceptance. Scripts guard duplicates; inspect saved results instead of blind retries. Full count1125–1375 is the length gate, individual section counts are targets. This manual-reviewed CLI is not yet the standard UI/API generation path. Migration0005 applies bounded assistant32,768/user8,000 messages; no destructive downgrade. [Measured run and limitations](agent-transcripts/phase-06/server-essay-20261106T210445/report.md).

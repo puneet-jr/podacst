@@ -1,0 +1,47 @@
+{
+  "frozen_before_live_scenarios": true,
+  "scenario_file_sha256": {
+    "omitted_string_sha256": "caf952847031b9165c34564c6e75954f404203471c27f81640d06a5a37e529ea",
+    "characters": 64
+  },
+  "scenario_definitions_sha256": {
+    "omitted_string_sha256": "a706421feadda36e8af8d1bd0c1b448c9ef2ba798df47e07ac3b549892648e9b",
+    "characters": 64
+  },
+  "corpus_revision": "be8ab89a890a833cbba2c892178f823fff178c65",
+  "chat_model": {
+    "omitted_string_sha256": "514cf42a1ceb1dee40909507b7b0f29ef9e471786ec0d58304e75ae68cf34c10",
+    "characters": 10
+  },
+  "essay_model": "qwen3:1.7b",
+  "provider": "ollama-local",
+  "retrieval_mode": "hybrid",
+  "caps_seconds": {
+    "SC-01-A": 240,
+    "SC-01-B": 360,
+    "SC-01-C": 900,
+    "SC-01-D": 360,
+    "SC-01-E": 240
+  },
+  "budget_rationale": {
+    "omitted_string_sha256": "45da6b1556e4d70e1861edb79ff79d75a031ed473e451ca922a7c9f85a63a359",
+    "characters": 290
+  },
+  "chat_timeout_seconds": 90,
+  "essay_timeout_seconds": 600,
+  "one_generation_at_a_time": true,
+  "pass_rule": {
+    "omitted_string_sha256": "25c2d0ca4bf08b89ffb07cd567aaa92849eef04e09565d647a9d8a7a411ce2e5",
+    "characters": 259
+  },
+  "no_cloud": true,
+  "no_changes_to_frozen_inputs": true,
+  "execution_order": {
+    "omitted_string_sha256": "a143cf890fd88de79007cb5ee6071606f396c34cdf333fb01b91181813f699b9",
+    "characters": 264
+  },
+  "protocol_finalized_at": {
+    "omitted_string_sha256": "a4c825d3d3ea608baa1a98253166ab3269e3376e476c6270c598c1f6d4c9a559",
+    "characters": 32
+  }
+}

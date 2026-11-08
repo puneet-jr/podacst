@@ -1,10 +1,22 @@
 {
   "session_id": "6f882513-96b5-4fcc-88c2-1e1dc82d9585",
-  "title": "Phase08 real local UI journey 024458",
+  "title": {
+    "omitted_string_sha256": "2e16f6024146aefb5dfcd323b06c1b4f8114a6515b88d783abdf1bb6dc906f24",
+    "characters": 36
+  },
   "questions": [
-    "According to Sean Ellis, what question identifies people who consider a product a must-have?",
-    "And what changes did Lookout make to onboarding after discovering antivirus mattered?"
+    {
+      "omitted_string_sha256": "959a44f82999e6d8578437949527447b89609676747100634c45136f1be2814d",
+      "characters": 92
+    },
+    {
+      "omitted_string_sha256": "399afc6eff67a4ffdb2515bb28a8696dce0df1b549ceabdf96c1704afb1379c3",
+      "characters": 85
+    }
   ],
   "fixture": false,
-  "generation_surface": "actual UI form; no route mocking"
+  "generation_surface": {
+    "omitted_string_sha256": "96d8021fd09fafb195779ded37be401dbe73e1332ed306038a3af649c9aa7581",
+    "characters": 32
+  }
 }

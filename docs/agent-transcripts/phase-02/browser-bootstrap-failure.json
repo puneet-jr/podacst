@@ -1,8 +1,20 @@
 {
-  "kind": "actual_browser_tool_failure_excerpt",
+  "kind": {
+    "omitted_string_sha256": "c9903e8d632e38256c452bdadcf42eeedc02cfae0e7228354616b607d937f530",
+    "characters": 35
+  },
   "tool": "mcp__node_repl__js",
-  "operation": "Import the installed Browser skill runtime and select the localhost workspace",
+  "operation": {
+    "omitted_string_sha256": "2d565a1b546d2583e8bfe281d23826f66411abb3fdcd7f8620d594c43d6168d6",
+    "characters": 77
+  },
   "isError": true,
-  "actual_error": "Importing module \"node:process\" is not allowed in node_repl",
-  "limit": "Runtime failed before a browser connection existed. No DOM interaction, screenshot or browser pass is claimed. Frontend HTTP/typecheck/build and real API evidence are separate."
+  "actual_error": {
+    "omitted_string_sha256": "807caae5feadd3d331a44d7acf4594d3ff705d2d56c8195e57f948484c159cde",
+    "characters": 59
+  },
+  "limit": {
+    "omitted_string_sha256": "c24513cbca4e9bc646ad9e923185c26bdccb6682d567bc626f2c3c145709841c",
+    "characters": 176
+  }
 }

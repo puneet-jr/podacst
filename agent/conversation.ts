@@ -1,3 +1,4 @@
+import {assertProvider,cloudConversationPayload,openrouterConversationPayload} from "./provider_policy.ts";
 import { Type } from "typebox";
 import type { ExtensionAPI } from "@earendil-works/pi-coding-agent";
 import {normalizeToolRequest} from './conversation_policy.ts';
@@ -38,6 +39,7 @@ export default function (pi: ExtensionAPI) {
     if (event.toolName !== "search_transcripts") return {block: true, reason: "tool not allowed"};
   });
   pi.on('message_end', event => {
+    if(process.env.LENNY_PROVIDER&&process.env.LENNY_PROVIDER!=='ollama-local')return;
     const normalized=normalizeToolRequest(event.message,requests,calls);
     if (normalized) {
       console.error(JSON.stringify({event:'text_tool_call_normalized',raw_model_request:normalized.raw,tool:'search_transcripts',args:{query:'current'}}));
@@ -45,9 +47,14 @@ export default function (pi: ExtensionAPI) {
     }
   });
   pi.on("before_provider_request", (event, ctx) => {
-    if (ctx.model?.provider !== "ollama-local" || ctx.model?.baseUrl !== process.env.LENNY_OLLAMA_BASE_URL) throw new Error("local provider required");
+    const provider=assertProvider(ctx.model);
     if (++requests > 2) throw new Error("two provider turns allowed");
     const payload = event.payload as Record<string, unknown>;
+    if(provider==='openrouter')return openrouterConversationPayload(payload,requests,evidenceIds,process.env.LENNY_CHAT_QUESTION||'');
+    if(provider==='anthropic-cloud'){
+      console.error(JSON.stringify({event:"provider_request",provider,model:ctx.model?.id,request:requests,max_tokens:128}));
+      return cloudConversationPayload(payload,requests,evidenceIds,process.env.LENNY_CHAT_QUESTION||'');
+    }
     const messages = (payload.messages as any[]).map(m => ({...m}));
     const system = messages.find(m => m.role === 'system' || m.role === 'developer');
     if (!system) throw new Error('system message required');

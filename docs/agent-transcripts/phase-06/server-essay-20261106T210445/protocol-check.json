@@ -1,0 +1,233 @@
+{
+  "stages": [
+    {
+      "stage": {
+        "omitted_string_sha256": "4ecd97512214cb4746cc0701721315ac4d471ec889a04b00f80396474c8468e0",
+        "characters": 13
+      },
+      "stdout_frames": 129,
+      "all_frames_json": true,
+      "stdout_sha256": {
+        "omitted_string_sha256": "082b62ef4f3a7b85d4ed1d35be31f08f49540f33930c40176f2c341627706a1d",
+        "characters": 64
+      },
+      "stderr_sha256": {
+        "omitted_string_sha256": "fdb3a210c0eb52d2ae1f1fbb9c38073174f271ecb8669e1bdce99997d3cfbf0e",
+        "characters": 64
+      },
+      "diagnostics": [
+        {
+          "event": {
+            "omitted_string_sha256": "97dfef4792fdc68b417037029d303c829e254a0e2ffef89cdf955f8045f02441",
+            "characters": 11
+          },
+          "active": [],
+          "mode": "application_advice_only"
+        },
+        {
+          "event": {
+            "omitted_string_sha256": "5b12b88e083479c0b53da89c161c7cd1cbf2995ab480e1233d8a8b97fa398511",
+            "characters": 16
+          },
+          "provider": "ollama-local",
+          "model": "qwen3:1.7b",
+          "prompt_bytes": 1445,
+          "max_tokens": 384,
+          "structured_grammar": false,
+          "mode": "application_advice_only"
+        }
+      ]
+    },
+    {
+      "stage": {
+        "omitted_string_sha256": "a1ceff57e0ea99d76455044a4cee6c6f25574f5f6e841782c579e24ade6ab858",
+        "characters": 13
+      },
+      "stdout_frames": 108,
+      "all_frames_json": true,
+      "stdout_sha256": {
+        "omitted_string_sha256": "870734db45a97337db139b34853a34dcb3c933d75f6b90f8fda14e4a7b2f400b",
+        "characters": 64
+      },
+      "stderr_sha256": {
+        "omitted_string_sha256": "277a05e7cd5cd425a330573b87058c576b2935ce2c26134cc8eea6f6bc6db5ad",
+        "characters": 64
+      },
+      "diagnostics": [
+        {
+          "event": {
+            "omitted_string_sha256": "97dfef4792fdc68b417037029d303c829e254a0e2ffef89cdf955f8045f02441",
+            "characters": 11
+          },
+          "active": [],
+          "mode": "application_advice_only"
+        },
+        {
+          "event": {
+            "omitted_string_sha256": "5b12b88e083479c0b53da89c161c7cd1cbf2995ab480e1233d8a8b97fa398511",
+            "characters": 16
+          },
+          "provider": "ollama-local",
+          "model": "qwen3:1.7b",
+          "prompt_bytes": 1437,
+          "max_tokens": 384,
+          "structured_grammar": false,
+          "mode": "application_advice_only"
+        }
+      ]
+    },
+    {
+      "stage": {
+        "omitted_string_sha256": "aacfaa23b75e976593cc29a07de6d9b3b820934b0e9a5587a061d7d55c923745",
+        "characters": 13
+      },
+      "stdout_frames": 122,
+      "all_frames_json": true,
+      "stdout_sha256": {
+        "omitted_string_sha256": "2c48dd0153a70f5d79f5d59ec98ef0e72ac12b7425fbf3f101b1d8625f2f3e4b",
+        "characters": 64
+      },
+      "stderr_sha256": {
+        "omitted_string_sha256": "f2e40d7b9761c764b998b794a08248cdcff29c094d6dc957b325c23a758fa8de",
+        "characters": 64
+      },
+      "diagnostics": [
+        {
+          "event": {
+            "omitted_string_sha256": "97dfef4792fdc68b417037029d303c829e254a0e2ffef89cdf955f8045f02441",
+            "characters": 11
+          },
+          "active": [],
+          "mode": "application_advice_only"
+        },
+        {
+          "event": {
+            "omitted_string_sha256": "5b12b88e083479c0b53da89c161c7cd1cbf2995ab480e1233d8a8b97fa398511",
+            "characters": 16
+          },
+          "provider": "ollama-local",
+          "model": "qwen3:1.7b",
+          "prompt_bytes": 1484,
+          "max_tokens": 384,
+          "structured_grammar": false,
+          "mode": "application_advice_only"
+        }
+      ]
+    },
+    {
+      "stage": {
+        "omitted_string_sha256": "dfc700e07648321cb789065cd5b44e46da2eef503948d34573353791ebd5d4cd",
+        "characters": 13
+      },
+      "stdout_frames": 126,
+      "all_frames_json": true,
+      "stdout_sha256": {
+        "omitted_string_sha256": "2b30a5b4e18395d00c19ef83ff7985556611f25c597002e401bfc755e532467f",
+        "characters": 64
+      },
+      "stderr_sha256": {
+        "omitted_string_sha256": "5a243782c7fbbed09591e55bcc2251a7706f295eed6fd72b64d84f18d17fed35",
+        "characters": 64
+      },
+      "diagnostics": [
+        {
+          "event": {
+            "omitted_string_sha256": "97dfef4792fdc68b417037029d303c829e254a0e2ffef89cdf955f8045f02441",
+            "characters": 11
+          },
+          "active": [],
+          "mode": "application_advice_only"
+        },
+        {
+          "event": {
+            "omitted_string_sha256": "5b12b88e083479c0b53da89c161c7cd1cbf2995ab480e1233d8a8b97fa398511",
+            "characters": 16
+          },
+          "provider": "ollama-local",
+          "model": "qwen3:1.7b",
+          "prompt_bytes": 1489,
+          "max_tokens": 384,
+          "structured_grammar": false,
+          "mode": "application_advice_only"
+        }
+      ]
+    },
+    {
+      "stage": {
+        "omitted_string_sha256": "ce13a251edcfedad17c1a771b12a474c3abe79641117dfc73af8175e063f9cf1",
+        "characters": 13
+      },
+      "stdout_frames": 139,
+      "all_frames_json": true,
+      "stdout_sha256": {
+        "omitted_string_sha256": "86154aadb442257882b1ff20d5ca9f614af2de7cc957c5e44a8faadfd3f35471",
+        "characters": 64
+      },
+      "stderr_sha256": {
+        "omitted_string_sha256": "f0bbe1266550516dec81dad3260410ea715967fdc3ab18ec2f1b7337fc2a5d5d",
+        "characters": 64
+      },
+      "diagnostics": [
+        {
+          "event": {
+            "omitted_string_sha256": "97dfef4792fdc68b417037029d303c829e254a0e2ffef89cdf955f8045f02441",
+            "characters": 11
+          },
+          "active": [],
+          "mode": "application_advice_only"
+        },
+        {
+          "event": {
+            "omitted_string_sha256": "5b12b88e083479c0b53da89c161c7cd1cbf2995ab480e1233d8a8b97fa398511",
+            "characters": 16
+          },
+          "provider": "ollama-local",
+          "model": "qwen3:1.7b",
+          "prompt_bytes": 1482,
+          "max_tokens": 384,
+          "structured_grammar": false,
+          "mode": "application_advice_only"
+        }
+      ]
+    },
+    {
+      "stage": {
+        "omitted_string_sha256": "555ce89a5bd59fd679abd5f88b715b71edb7ed5d8fd6c70b4b8ee04d63ef13eb",
+        "characters": 13
+      },
+      "stdout_frames": 121,
+      "all_frames_json": true,
+      "stdout_sha256": {
+        "omitted_string_sha256": "7657e4f111797c1731bc6729a218d5b445361a37543c9d6442918017c6b5a9b0",
+        "characters": 64
+      },
+      "stderr_sha256": {
+        "omitted_string_sha256": "947578ecbcda56d94174b8e0ae0fcdce8c5310b35090e0b9151f1a5272ca3523",
+        "characters": 64
+      },
+      "diagnostics": [
+        {
+          "event": {
+            "omitted_string_sha256": "97dfef4792fdc68b417037029d303c829e254a0e2ffef89cdf955f8045f02441",
+            "characters": 11
+          },
+          "active": [],
+          "mode": "application_advice_only"
+        },
+        {
+          "event": {
+            "omitted_string_sha256": "5b12b88e083479c0b53da89c161c7cd1cbf2995ab480e1233d8a8b97fa398511",
+            "characters": 16
+          },
+          "provider": "ollama-local",
+          "model": "qwen3:1.7b",
+          "prompt_bytes": 1525,
+          "max_tokens": 384,
+          "structured_grammar": false,
+          "mode": "application_advice_only"
+        }
+      ]
+    }
+  ],
+  "provider_request_count": 6
+}

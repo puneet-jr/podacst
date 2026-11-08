@@ -1,4 +1,5 @@
-{"event":"tool_policy","active":["search_fixture"]}
-{"event":"provider_request","provider":"ollama-local","model":"qwen3:0.6b","request":1,"max_tokens":256}
-{"event":"fixture_read","topic":"activation","source_id":"FIXTURE-A"}
-{"event":"provider_request","provider":"ollama-local","model":"qwen3:0.6b","request":2,"max_tokens":256}
+# Private historical output omitted
+
+Original SHA-256: `bb5873459c0ed3c37770c296e23d93bafafca21e11cc0f8deb1530cd55b58912`.
+
+The original remains private. See the phase report for measured results and failures; this placeholder is not a model output or conversation export.

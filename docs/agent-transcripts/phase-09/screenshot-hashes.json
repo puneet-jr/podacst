@@ -1,0 +1,29 @@
+{
+  "private_images": [
+    {
+      "private_path": {
+        "omitted_string_sha256": "7491c6f89b7279ec51dccf1b68b139cc763f0d6f347e2a2ed7851070509ad8c4",
+        "characters": 43
+      },
+      "sha256": "7c629f028d0fa0447836c2baf6e882ed9ccd038cf6c733d20fe8881a7db9a394"
+    },
+    {
+      "private_path": {
+        "omitted_string_sha256": "9c6638512cf156e1045a19cdc0a5866b6e0291953999c280fb0d00ed7695fb35",
+        "characters": 40
+      },
+      "sha256": "7c0b990365cd403bcb2137480069bc60376c2bd3b3cb46b51dff3f56d856bceb"
+    },
+    {
+      "private_path": {
+        "omitted_string_sha256": "9f49013a3c7211eae39866a9bd6fef30e1c175c2884ab27605cf63e634a17f24",
+        "characters": 41
+      },
+      "sha256": "4da7831a9052b1c8f69429abb04ebe1fcadb1966234d17513a1882c535c5b074"
+    }
+  ],
+  "visual_review": {
+    "omitted_string_sha256": "d51980d65406c8fcd78141d380654dd0604dede93d553427086804994dcc8584",
+    "characters": 137
+  }
+}

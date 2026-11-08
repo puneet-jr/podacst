@@ -1,0 +1,144 @@
+{
+  "captured_at": "2026-11-06T15:11:21.192480+00:00",
+  "host": {
+    "hardware": {
+      "omitted_string_sha256": "4c9714a3c7957157de98832e373615174743efed962142bd4339227b058c0c25",
+      "characters": 29
+    },
+    "swap": {
+      "omitted_string_sha256": "1b39aee942f76519f70717c033ff55e986ef42f11784308a185499ac6aee0ed6",
+      "characters": 78
+    },
+    "memory": {
+      "omitted_string_sha256": "4952ef5f0ab3ba5a1503bc32b0b94ae5744cc45e66cf0eb9e3a46063488824c1",
+      "characters": 107
+    },
+    "disk_free_bytes": 109765488640
+  },
+  "chat_model_before": {
+    "selected": "ollama",
+    "model": "qwen3:0.6b",
+    "automatic_fallback": false,
+    "providers": [
+      {
+        "id": "ollama",
+        "implemented": true,
+        "configured": true,
+        "scope": "retrieval-first extractive conversation; hybrid; no autonomous/essay quality claim"
+      },
+      {
+        "id": "anthropic",
+        "implemented": false,
+        "credentials_present": false,
+        "enabled": false,
+        "reason": {
+          "omitted_string_sha256": "0887bc1d08fef250e07e225c2fbc3c117dd84a3243b19463b209d574f8bad133",
+          "characters": 62
+        }
+      }
+    ]
+  },
+  "models": [
+    {
+      "name": "qwen3:0.6b",
+      "model": "qwen3:0.6b",
+      "modified_at": {
+        "omitted_string_sha256": "bbf7df864e3694f4ec56042c62a0398e9c606d3918097b9e66bbc24cdb3fb17c",
+        "characters": 35
+      },
+      "size": 522653767,
+      "digest": {
+        "omitted_string_sha256": "ed3a5c46e1b45471af93c8b06c693453a0015d46c5cad433d4b9c04df86161ec",
+        "characters": 64
+      },
+      "details": {
+        "parent_model": {
+          "omitted_string_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "characters": 0
+        },
+        "format": "gguf",
+        "family": {
+          "omitted_string_sha256": "61b6a80524bed7a2b8b0702c24f050fbc3a72a02875a4deddd7cd41a9f29e1d3",
+          "characters": 5
+        },
+        "families": [
+          {
+            "omitted_string_sha256": "61b6a80524bed7a2b8b0702c24f050fbc3a72a02875a4deddd7cd41a9f29e1d3",
+            "characters": 5
+          }
+        ],
+        "parameter_size": {
+          "omitted_string_sha256": "b1a1e229d57793a3be1847a042c1997d816eebd58c9ed65ab52b7979d083ecd8",
+          "characters": 7
+        },
+        "quantization_level": {
+          "omitted_string_sha256": "42deb74305e56147014ee5a158ceca8a7d60a55f7d120fa4da790658488c15cd",
+          "characters": 6
+        },
+        "context_length": 40960,
+        "embedding_length": 1024
+      },
+      "capabilities": [
+        {
+          "omitted_string_sha256": "21606b5837ee49171e56cff2afe21083fb4dfe5c15c79b54695c2dc335181c89",
+          "characters": 10
+        },
+        {
+          "omitted_string_sha256": "f9d35d43770d39092a663e665e82ae1d84a9e0da3d0d10c407acada6a40cd281",
+          "characters": 5
+        },
+        {
+          "omitted_string_sha256": "6ee16429668c2d8207707407c8c3ee4285a9e26eef5bd0c17ff00efe090808e2",
+          "characters": 8
+        }
+      ]
+    },
+    {
+      "name": "nomic-embed-text:latest",
+      "model": "nomic-embed-text:latest",
+      "modified_at": {
+        "omitted_string_sha256": "6183b69bacf9e48821df945f4573bb44051cf14b559f02feb8cadfe54c6f4c01",
+        "characters": 35
+      },
+      "size": 274302450,
+      "digest": {
+        "omitted_string_sha256": "d686ef27471bc55fec611d1a4790e465145fee90e45ff85c9fb498225307fbdb",
+        "characters": 64
+      },
+      "details": {
+        "parent_model": {
+          "omitted_string_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "characters": 0
+        },
+        "format": "gguf",
+        "family": {
+          "omitted_string_sha256": "71e1b18c599690e837acb0ed46fad3dbe2ebe0a59d802624e8f0a0118315f1aa",
+          "characters": 10
+        },
+        "families": [
+          {
+            "omitted_string_sha256": "71e1b18c599690e837acb0ed46fad3dbe2ebe0a59d802624e8f0a0118315f1aa",
+            "characters": 10
+          }
+        ],
+        "parameter_size": {
+          "omitted_string_sha256": "68ab8182fd2794d3cd45711ff5c729fcbea9553d7fccb6df6d41464f592f6400",
+          "characters": 4
+        },
+        "quantization_level": {
+          "omitted_string_sha256": "eeee5d7d968a4dcc2a606678ad47844242d364189e1a9940205f91bfd00b8166",
+          "characters": 3
+        },
+        "context_length": 2048,
+        "embedding_length": 768
+      },
+      "capabilities": [
+        {
+          "omitted_string_sha256": "aa580156f36e357b5bfb0dcd869a026c7b0a244e7b01cba17d5da1dc1e7039cd",
+          "characters": 9
+        }
+      ]
+    }
+  ],
+  "qwen17_installed": false
+}

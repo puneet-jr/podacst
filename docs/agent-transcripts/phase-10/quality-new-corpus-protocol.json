@@ -1,0 +1,87 @@
+{
+  "selected_before_generation": true,
+  "method": {
+    "omitted_string_sha256": "350eda557b038b75cb395eb13e7f23586465b4d2fc25c921863138936654c91e",
+    "characters": 232
+  },
+  "cases": [
+    {
+      "id": "N01",
+      "question": {
+        "omitted_string_sha256": "3469c777b4c4ec8223849bf04e33fe5dede1878a761900cc105602e0cc7d2adb",
+        "characters": 91
+      },
+      "kind": {
+        "omitted_string_sha256": "04842a573c3993a8b5fde977f151c27f41a6206782e67006e03dc5e443aa0123",
+        "characters": 47
+      },
+      "filters": {
+        "source_path": "episodes/gustav-s\u00f6derstr\u00f6m/transcript.md"
+      },
+      "evidence": [
+        {
+          "source_path": "episodes/gustav-s\u00f6derstr\u00f6m/transcript.md",
+          "source_hash": "24e975c8af81113f7890690baca15d29b402cc2461e6e4087127f8f0f1d30575",
+          "char_start": 1758,
+          "char_end": 1782,
+          "text_sha256": {
+            "omitted_string_sha256": "302f908c72db1bffffd2f01fc3833e7975163ddad2a9b0183133a083bf540693",
+            "characters": 64
+          }
+        }
+      ]
+    },
+    {
+      "id": "N02",
+      "question": {
+        "omitted_string_sha256": "3d0327d2f5851cc9333e686ae35a7e30fd6bf297045de4170ca8f77705329977",
+        "characters": 92
+      },
+      "kind": {
+        "omitted_string_sha256": "04842a573c3993a8b5fde977f151c27f41a6206782e67006e03dc5e443aa0123",
+        "characters": 47
+      },
+      "filters": {
+        "source_path": "episodes/casey-winters_/transcript.md"
+      },
+      "evidence": [
+        {
+          "source_path": "episodes/casey-winters_/transcript.md",
+          "source_hash": "1f2090830cea41027791de80e356e7dc2b4f23f98199729459357ea14732e7e3",
+          "char_start": 1243,
+          "char_end": 1399,
+          "text_sha256": {
+            "omitted_string_sha256": "3e82b732c0ca36a36d4991459a12889cba44c8305495c0baca1fab4058ec8309",
+            "characters": 64
+          }
+        }
+      ]
+    },
+    {
+      "id": "N03",
+      "question": {
+        "omitted_string_sha256": "d3b36455f7e337ac008c4e3273af22fe3b0e95f5f6079feb983a1078d70f68ea",
+        "characters": 84
+      },
+      "kind": {
+        "omitted_string_sha256": "04842a573c3993a8b5fde977f151c27f41a6206782e67006e03dc5e443aa0123",
+        "characters": 47
+      },
+      "filters": {
+        "source_path": "episodes/andy-raskin_/transcript.md"
+      },
+      "evidence": [
+        {
+          "source_path": "episodes/andy-raskin_/transcript.md",
+          "source_hash": "9bef6b2d472e6a21cb38ef640fae8c730a9467978cd6b9cea7208b4ad2cfd270",
+          "char_start": 741,
+          "char_end": 863,
+          "text_sha256": {
+            "omitted_string_sha256": "86445452b6e7ab87a5402d946dede154bf0ba4502c8b482b1b0e180400b848cc",
+            "characters": 64
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,53 +1,131 @@
 {
-  "kind": "manual_development_failure_audit",
-  "reviewed_at": "2026-11-06T08:23:09.097501+00:00",
+  "kind": {
+    "omitted_string_sha256": "79f14ffc890d517396a52a486b2bfde37d794271a85af7dc115a64154ad19cbf",
+    "characters": 32
+  },
+  "reviewed_at": {
+    "omitted_string_sha256": "1afee69b6d6746a96bea92c26547730adcc1f748697b0a408468cfd7c9e11dc6",
+    "characters": 32
+  },
   "original_attempts_unchanged": true,
   "attempts": [
     {
-      "attempt": "live-20261106T070540",
-      "failure": "Four requests lacked a successful tool call; output copied schema examples; rpc_rejected. No corpus success."
+      "attempt": {
+        "omitted_string_sha256": "1c11183352086ab70c9996e97ebdf698942420f111c1df9bb78b0ab1edbf153d",
+        "characters": 20
+      },
+      "failure": {
+        "omitted_string_sha256": "56a9998a9fdf2299d2df7f988fb944a987130d85ec7ab8735cc24f6b130efdf2",
+        "characters": 108
+      }
     },
     {
-      "attempt": "live-20261106T071009",
-      "failure": "Model emitted the exact function request as text rather than native tool_calls. Strict Pi message_end compatibility adapter added; raw serialization retained."
+      "attempt": {
+        "omitted_string_sha256": "3506f02bda49dc8ef4a42048e1f294bb8594346618a91b33e8beafacb8892bc8",
+        "characters": 20
+      },
+      "failure": {
+        "omitted_string_sha256": "9ffa0cc4dddfac546b1352c91af8fa77f41005a1abf1af38c910e81836107f3c",
+        "characters": 158
+      }
     },
     {
-      "attempt": "live-20261106T071600",
-      "failure": "Actual tool ran, but array examples biased selection and unsupported private request received unrelated evidence. Automatic ID checks did not prove relevance."
+      "attempt": {
+        "omitted_string_sha256": "52ddd38990239634a70e6088206cbcc8a58d769dce73723666de711f5cdfeb5c",
+        "characters": 20
+      },
+      "failure": {
+        "omitted_string_sha256": "02fcedcf183ebd5e65869fda4a4fd25fbec0ff66c6ef5786fd43565f807e6403",
+        "characters": 158
+      }
     },
     {
-      "attempt": "live-20261106T072346",
-      "failure": "Single-ID schema fixed an example issue; supported answer good, follow-up missed onboarding, independent answer incomplete. Unsupported outcome required policy correction. Old automatic pass flags are not semantic passes."
+      "attempt": {
+        "omitted_string_sha256": "b716a04ebdd5e7be67bed6d6897e611d2cf8a54fdc162b0fa16801faa5b45473",
+        "characters": 20
+      },
+      "failure": {
+        "omitted_string_sha256": "9f7b397c1c6c0371ebdf997844303717298236485ee51606312e3234282b7714",
+        "characters": 221
+      }
     },
     {
-      "attempt": "live-20261106T073244",
-      "failure": "Removing guest framing changed hybrid ranking and lost the requested exact survey question. Query transformation reverted."
+      "attempt": {
+        "omitted_string_sha256": "523e629ce5c72235dbe255233e8c493f7d592ad28a9910895ff1c1c47339223e",
+        "characters": 20
+      },
+      "failure": {
+        "omitted_string_sha256": "2003fe70fb0dcf9b69bdf03c7de666e4848e12de283e59b76b959bb349a87f24",
+        "characters": 122
+      }
     },
     {
-      "attempt": "live-20261106T073951",
-      "failure": "Follow-up selected host paraphrase instead of onboarding action. Inspection found a real extractor bug: punctuation followed by a closing quote dropped the needed sentence. Fixed with decimal/quoted punctuation regression; context expanded within existing retrieval limits."
+      "attempt": {
+        "omitted_string_sha256": "3b8c50bbb1a32987bfd101d33eb5b6ee503cd65142c92ebeb0a174902d1121ec",
+        "characters": 20
+      },
+      "failure": {
+        "omitted_string_sha256": "ee45b95e09f8a95034cbf4bd41ce377ed75de8c5bcc6a93e697d6abf113abb08",
+        "characters": 273
+      }
     },
     {
-      "attempt": "lifecycle-20261106T074747",
-      "failure": "Actual lifecycle checks passed; test incorrectly expected eight messages. Correct expectation is four saved user messages plus two successful assistant replies, six total. Corrected run retained separately."
+      "attempt": {
+        "omitted_string_sha256": "1e07acf25e3c9261755f5328b8ddaf684089a75c253b35b5c327f8689bb9310e",
+        "characters": 25
+      },
+      "failure": {
+        "omitted_string_sha256": "78598cefd96384cde08b6c1bfa252c3aaa2f87d15a698db7ea0a6a8f2e15cecc",
+        "characters": 206
+      }
     },
     {
-      "attempt": "commands.jsonl reopen first attempt",
-      "failure": "Checker assumed source response contained message_id. Corrected to use assistant_message_id from saved run; restart comparison then passed."
+      "attempt": {
+        "omitted_string_sha256": "45522fd74c959ddec7899c60ba97821a2470d356a686a60ce427407ff0159c06",
+        "characters": 35
+      },
+      "failure": {
+        "omitted_string_sha256": "f5ccebfbe5446c927299012d759d6fcdf44c0c98a57844ea9836d8b836b270ce",
+        "characters": 139
+      }
     },
     {
-      "attempt": "commands.jsonl initial frontend build",
-      "failure": "Missing JSX StrictMode closing tag; fixed and host/container build passed."
+      "attempt": {
+        "omitted_string_sha256": "ce47b057f427102a68b93acb0446d189bd255133ab4e80ab83244b46c663edcc",
+        "characters": 37
+      },
+      "failure": {
+        "omitted_string_sha256": "eb2d6421c089da84a0d40a6b94e63f649ba2aef018449c81130e0546bd6927fc",
+        "characters": 74
+      }
     },
     {
-      "attempt": "commands.jsonl earlier contract run",
-      "failure": "64 tests passed with a connection ResourceWarning. Added test teardown; final 66 checks pass without that warning. Existing Starlette/httpx deprecation remains."
+      "attempt": {
+        "omitted_string_sha256": "e2dddb64378aac0946203957396125de8c82ae997f38142fdc6c1817bc233039",
+        "characters": 35
+      },
+      "failure": {
+        "omitted_string_sha256": "57d2cbd0a70ee8b03dbf8db259511af57fe0f3fa56ba5b9ae8e0eb81ab206cdd",
+        "characters": 160
+      }
     },
     {
-      "attempt": "final source review",
-      "correction": "Prevent excerpt groups crossing any intervening speaker header, including bracket timestamps; nine focused conversation tests and final 66-suite pass."
+      "attempt": {
+        "omitted_string_sha256": "5aab295e94993e9f1f664a1bf895a3334665bd3bf56fd7544784042d2067b45a",
+        "characters": 19
+      },
+      "correction": {
+        "omitted_string_sha256": "b66f1a58abffdcca7ae1a447c82dde2fed36f029aecf98ee5320ce94e3541b54",
+        "characters": 150
+      }
     }
   ],
-  "final_evidence": "docs/agent-transcripts/phase-05/live-20261106T081843/results.jsonl",
-  "interruption_audit": "Final live command finished exit0 with all five JSONL rows; final 66-test command finished exit0. No model tests rerun on resume; only read-only final/source audits and documentation completed."
+  "final_evidence": {
+    "omitted_string_sha256": "d7d95c6cdc03cb04144adf96999c0fb58272f23e91f43f2a5367183f85be6cda",
+    "characters": 66
+  },
+  "interruption_audit": {
+    "omitted_string_sha256": "a3b794e735bbdd9e1696cb658e1a24fd724bc5331cc513fd3447873d0f1a8fd6",
+    "characters": 193
+  }
 }

@@ -1,0 +1,90 @@
+{
+  "baseline_git_head": {
+    "omitted_string_sha256": "454c6d57b1afdf85b069fb878284d74e7144c54da91d9f1b3515971deb491ddd",
+    "characters": 40
+  },
+  "baseline_uncommitted": true,
+  "verified_source_files": 41,
+  "source_hash_mismatches": [],
+  "recovery": {
+    "omitted_string_sha256": "1caf36c51d14663aacecd58b8de1e1b4a9f079745cf8208fc4afab8ac635fb58",
+    "characters": 126
+  },
+  "bounded_patch_sha256": {
+    "omitted_string_sha256": "cc98fa1305cf6ffea98f142e86b9b33730475208f3dbe8c54121d636ecd576f6",
+    "characters": 64
+  },
+  "archive": {
+    "omitted_string_sha256": "6bd7b66ed566787afdf7091607e55aa96eb8f1a9f2d6387bb2c13807485c0103",
+    "characters": 27
+  },
+  "candidate_source": {
+    "omitted_string_sha256": "983a6b21650168b6bd17b7159930cd43400100055df9040c14091a4a327b5380",
+    "characters": 42
+  },
+  "root_product_files_modified_by_phase11": false,
+  "excluded_experiment_files": [
+    {
+      "omitted_string_sha256": "88d15af5beb514c7597d058d8be5194f66c3537fbb04046cf0d16ced403a61cf",
+      "characters": 27
+    },
+    {
+      "omitted_string_sha256": "94abcfc71d0599532076bae9329ef3cb234753587aa289edddca1dfd9ae989ce",
+      "characters": 32
+    },
+    {
+      "omitted_string_sha256": "2809545c57f41efe47555f3dfd58722593960307e1161248667b43ebfcb128da",
+      "characters": 30
+    },
+    {
+      "omitted_string_sha256": "57d792f1b5676241fd819fc370ff9afa2c530c58631b538f66c5f40c42926c7f",
+      "characters": 39
+    },
+    {
+      "omitted_string_sha256": "e5cc0bdb3083090418081d34bde81ad8fb2b94ddd647c20eb7b0dfdabe4d1072",
+      "characters": 31
+    },
+    {
+      "omitted_string_sha256": "a08d2dea2698d73049f9975202554af35a14297da735fd71b2225630c009518d",
+      "characters": 34
+    },
+    {
+      "omitted_string_sha256": "3e8a4fae234b24c17f3deb672016750ecba651218fc21e509aa7076dcabb5ef5",
+      "characters": 26
+    }
+  ],
+  "restored_files": [
+    {
+      "omitted_string_sha256": "ad12899cb4223b32b8290ee36d87cea64a4ad490af17414cf229f2950e6af848",
+      "characters": 27
+    },
+    {
+      "omitted_string_sha256": "cd363857257012a8ba7da7ad4ee3bdbe4b6b97758bb5d691c1e26d1002f14233",
+      "characters": 21
+    },
+    {
+      "omitted_string_sha256": "ccbc113b0ac987bbd6fe5f9320b421e34a60afd673d8f5ad5664ad81c5c895ac",
+      "characters": 19
+    },
+    {
+      "omitted_string_sha256": "fed51f49a9f26cb93cc870efdc9419d425b9422354ae41bb651c3333c8bff486",
+      "characters": 18
+    },
+    {
+      "omitted_string_sha256": "b290bd9b7034f7288b229625a57aa858127068e65665a0ad0038b2f4e63f79fc",
+      "characters": 25
+    },
+    {
+      "omitted_string_sha256": "c9b50829802c3b8c6eea5f198ae0aae66223dbb72ac77abe08b797609003cce7",
+      "characters": 37
+    },
+    {
+      "omitted_string_sha256": "3e8a4fae234b24c17f3deb672016750ecba651218fc21e509aa7076dcabb5ef5",
+      "characters": 26
+    },
+    {
+      "omitted_string_sha256": "6275f99a6d1cd4cbf714e6b2c8f687e98ea1c893ca47b14b4a49bf54ef7707c7",
+      "characters": 23
+    }
+  ]
+}

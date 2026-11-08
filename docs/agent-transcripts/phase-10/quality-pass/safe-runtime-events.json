@@ -1,0 +1,376 @@
+[
+  {
+    "timestamp": "2026-11-07T14:45:44.025636+00:00",
+    "event": {
+      "omitted_string_sha256": "796804b87751db3ae63d6eba0591b34643b489771b2c5ba18c937a694ec99abe",
+      "characters": 19
+    },
+    "request_id": {
+      "omitted_string_sha256": "1c1e916982c053ca29cbb636c024dbc03bf83bcc7423a2e0afab6a51d48b9c6f",
+      "characters": 32
+    },
+    "session_id": "6fddcd04-032c-41f3-8c23-3a90414fa90c",
+    "stage": {
+      "omitted_string_sha256": "6e51d6a3d90b6a3243d38e6da6b3f31f49867c1360beba83da8ca9630f9672c7",
+      "characters": 9
+    },
+    "code": "ok",
+    "duration_ms": 794.91
+  },
+  {
+    "timestamp": "2026-11-07T14:45:47.838404+00:00",
+    "event": {
+      "omitted_string_sha256": "a984c30a1732edeaf3d35baf4d7a1b89c9e7ee0117b927c71fdafc9e8fdff598",
+      "characters": 15
+    },
+    "request_id": {
+      "omitted_string_sha256": "1c1e916982c053ca29cbb636c024dbc03bf83bcc7423a2e0afab6a51d48b9c6f",
+      "characters": 32
+    },
+    "session_id": "6fddcd04-032c-41f3-8c23-3a90414fa90c",
+    "run_id": "26ba8dba-5220-444a-b390-5b85f7bd9b87",
+    "provider": "ollama-local",
+    "model": "qwen3:0.6b",
+    "code": "insufficient_evidence",
+    "stage": {
+      "omitted_string_sha256": "0db52f4076c082518412afd3dd3576e2cb0c63703fd7fed5e23ade60efef31d9",
+      "characters": 6
+    },
+    "status": "completed",
+    "duration_ms": 8689.93,
+    "process_reaped": true,
+    "bridge_closed": true
+  },
+  {
+    "timestamp": "2026-11-07T14:47:48.711723+00:00",
+    "event": {
+      "omitted_string_sha256": "796804b87751db3ae63d6eba0591b34643b489771b2c5ba18c937a694ec99abe",
+      "characters": 19
+    },
+    "request_id": {
+      "omitted_string_sha256": "5bef9f4bfda21d7955e9075a136f70df2cdc189023b435bd370c49ff0ad61b15",
+      "characters": 32
+    },
+    "session_id": "ad432137-6082-49c6-91b2-a11357804ded",
+    "stage": {
+      "omitted_string_sha256": "6e51d6a3d90b6a3243d38e6da6b3f31f49867c1360beba83da8ca9630f9672c7",
+      "characters": 9
+    },
+    "code": "ok",
+    "duration_ms": 1287.72
+  },
+  {
+    "timestamp": "2026-11-07T14:47:54.958288+00:00",
+    "event": {
+      "omitted_string_sha256": "a984c30a1732edeaf3d35baf4d7a1b89c9e7ee0117b927c71fdafc9e8fdff598",
+      "characters": 15
+    },
+    "request_id": {
+      "omitted_string_sha256": "5bef9f4bfda21d7955e9075a136f70df2cdc189023b435bd370c49ff0ad61b15",
+      "characters": 32
+    },
+    "session_id": "ad432137-6082-49c6-91b2-a11357804ded",
+    "run_id": "7e8456ed-fe0a-474a-a1b9-85cc003f3103",
+    "provider": "ollama-local",
+    "model": "qwen3:0.6b",
+    "code": "partial",
+    "stage": {
+      "omitted_string_sha256": "0db52f4076c082518412afd3dd3576e2cb0c63703fd7fed5e23ade60efef31d9",
+      "characters": 6
+    },
+    "status": "completed",
+    "duration_ms": 9400.88,
+    "process_reaped": true,
+    "bridge_closed": true
+  },
+  {
+    "timestamp": "2026-11-07T14:47:57.805401+00:00",
+    "event": {
+      "omitted_string_sha256": "796804b87751db3ae63d6eba0591b34643b489771b2c5ba18c937a694ec99abe",
+      "characters": 19
+    },
+    "request_id": {
+      "omitted_string_sha256": "2dc7e5729f54a13c75055a6dbcf44ec84cb573decafa0fdabd3f7f10b3d1cf0e",
+      "characters": 32
+    },
+    "session_id": "ad432137-6082-49c6-91b2-a11357804ded",
+    "stage": {
+      "omitted_string_sha256": "6e51d6a3d90b6a3243d38e6da6b3f31f49867c1360beba83da8ca9630f9672c7",
+      "characters": 9
+    },
+    "code": "ok",
+    "duration_ms": 854.83
+  },
+  {
+    "timestamp": "2026-11-07T14:48:02.314368+00:00",
+    "event": {
+      "omitted_string_sha256": "a984c30a1732edeaf3d35baf4d7a1b89c9e7ee0117b927c71fdafc9e8fdff598",
+      "characters": 15
+    },
+    "request_id": {
+      "omitted_string_sha256": "2dc7e5729f54a13c75055a6dbcf44ec84cb573decafa0fdabd3f7f10b3d1cf0e",
+      "characters": 32
+    },
+    "session_id": "ad432137-6082-49c6-91b2-a11357804ded",
+    "run_id": "c98c5694-282e-41fa-b580-2e9e440f1035",
+    "provider": "ollama-local",
+    "model": "qwen3:0.6b",
+    "code": "insufficient_evidence",
+    "stage": {
+      "omitted_string_sha256": "0db52f4076c082518412afd3dd3576e2cb0c63703fd7fed5e23ade60efef31d9",
+      "characters": 6
+    },
+    "status": "completed",
+    "duration_ms": 7201.77,
+    "process_reaped": true,
+    "bridge_closed": true
+  },
+  {
+    "timestamp": "2026-11-07T14:49:26.759893+00:00",
+    "event": {
+      "omitted_string_sha256": "796804b87751db3ae63d6eba0591b34643b489771b2c5ba18c937a694ec99abe",
+      "characters": 19
+    },
+    "request_id": {
+      "omitted_string_sha256": "4c72dba13e0533bb37258d04e0eb70e2bb01f4a0ed7ab95c492cd181f6ae10c8",
+      "characters": 32
+    },
+    "session_id": "417fcf18-82f9-4f57-962f-b08d798d821f",
+    "stage": {
+      "omitted_string_sha256": "6e51d6a3d90b6a3243d38e6da6b3f31f49867c1360beba83da8ca9630f9672c7",
+      "characters": 9
+    },
+    "code": "ok",
+    "duration_ms": 1730.01
+  },
+  {
+    "timestamp": "2026-11-07T14:49:33.161177+00:00",
+    "event": {
+      "omitted_string_sha256": "a984c30a1732edeaf3d35baf4d7a1b89c9e7ee0117b927c71fdafc9e8fdff598",
+      "characters": 15
+    },
+    "request_id": {
+      "omitted_string_sha256": "4c72dba13e0533bb37258d04e0eb70e2bb01f4a0ed7ab95c492cd181f6ae10c8",
+      "characters": 32
+    },
+    "session_id": "417fcf18-82f9-4f57-962f-b08d798d821f",
+    "run_id": "aecbddb9-f0b8-4f81-b915-31e63deba754",
+    "provider": "ollama-local",
+    "model": "qwen3:0.6b",
+    "code": "insufficient_evidence",
+    "stage": {
+      "omitted_string_sha256": "0db52f4076c082518412afd3dd3576e2cb0c63703fd7fed5e23ade60efef31d9",
+      "characters": 6
+    },
+    "status": "completed",
+    "duration_ms": 11479.77,
+    "process_reaped": true,
+    "bridge_closed": true
+  },
+  {
+    "timestamp": "2026-11-07T14:49:34.040706+00:00",
+    "event": {
+      "omitted_string_sha256": "796804b87751db3ae63d6eba0591b34643b489771b2c5ba18c937a694ec99abe",
+      "characters": 19
+    },
+    "request_id": {
+      "omitted_string_sha256": "735f39f9aad3bb6697e0e7e328303ec606387ab0d0f186e4531923b41293bcc1",
+      "characters": 32
+    },
+    "session_id": "417fcf18-82f9-4f57-962f-b08d798d821f",
+    "stage": {
+      "omitted_string_sha256": "6e51d6a3d90b6a3243d38e6da6b3f31f49867c1360beba83da8ca9630f9672c7",
+      "characters": 9
+    },
+    "code": "ok",
+    "duration_ms": 739.32
+  },
+  {
+    "timestamp": "2026-11-07T19:39:52.835411+00:00",
+    "event": {
+      "omitted_string_sha256": "796804b87751db3ae63d6eba0591b34643b489771b2c5ba18c937a694ec99abe",
+      "characters": 19
+    },
+    "request_id": {
+      "omitted_string_sha256": "52439475196dca7d647759517e6b7c2e253923931c618bfbc7fbe117a146af28",
+      "characters": 32
+    },
+    "session_id": "fbac987e-5895-4251-bf15-317320f877db",
+    "stage": {
+      "omitted_string_sha256": "6e51d6a3d90b6a3243d38e6da6b3f31f49867c1360beba83da8ca9630f9672c7",
+      "characters": 9
+    },
+    "code": "ok",
+    "duration_ms": 1202.14
+  },
+  {
+    "timestamp": "2026-11-07T19:39:55.583241+00:00",
+    "event": {
+      "omitted_string_sha256": "a984c30a1732edeaf3d35baf4d7a1b89c9e7ee0117b927c71fdafc9e8fdff598",
+      "characters": 15
+    },
+    "request_id": {
+      "omitted_string_sha256": "52439475196dca7d647759517e6b7c2e253923931c618bfbc7fbe117a146af28",
+      "characters": 32
+    },
+    "session_id": "fbac987e-5895-4251-bf15-317320f877db",
+    "run_id": "fbd8eb59-bfb0-4871-90cf-d7b5f774d42c",
+    "provider": "ollama-local",
+    "model": "qwen3:0.6b",
+    "code": "insufficient_evidence",
+    "stage": {
+      "omitted_string_sha256": "0db52f4076c082518412afd3dd3576e2cb0c63703fd7fed5e23ade60efef31d9",
+      "characters": 6
+    },
+    "status": "completed",
+    "duration_ms": 6973.98,
+    "process_reaped": true,
+    "bridge_closed": true
+  },
+  {
+    "timestamp": "2026-11-07T19:39:58.424103+00:00",
+    "event": {
+      "omitted_string_sha256": "796804b87751db3ae63d6eba0591b34643b489771b2c5ba18c937a694ec99abe",
+      "characters": 19
+    },
+    "request_id": {
+      "omitted_string_sha256": "6dfcc4e3deff09f3d351ca769b0e0f27e0a743106cc631abfd48dc1ee962805e",
+      "characters": 32
+    },
+    "session_id": "d1bd5daa-8225-4f98-8a29-6387ace63ec9",
+    "stage": {
+      "omitted_string_sha256": "6e51d6a3d90b6a3243d38e6da6b3f31f49867c1360beba83da8ca9630f9672c7",
+      "characters": 9
+    },
+    "code": "ok",
+    "duration_ms": 748.7
+  },
+  {
+    "timestamp": "2026-11-07T19:40:02.589686+00:00",
+    "event": {
+      "omitted_string_sha256": "a984c30a1732edeaf3d35baf4d7a1b89c9e7ee0117b927c71fdafc9e8fdff598",
+      "characters": 15
+    },
+    "request_id": {
+      "omitted_string_sha256": "6dfcc4e3deff09f3d351ca769b0e0f27e0a743106cc631abfd48dc1ee962805e",
+      "characters": 32
+    },
+    "session_id": "d1bd5daa-8225-4f98-8a29-6387ace63ec9",
+    "run_id": "5fb00fd1-442f-4642-8076-be276f206530",
+    "provider": "ollama-local",
+    "model": "qwen3:0.6b",
+    "code": "insufficient_evidence",
+    "stage": {
+      "omitted_string_sha256": "0db52f4076c082518412afd3dd3576e2cb0c63703fd7fed5e23ade60efef31d9",
+      "characters": 6
+    },
+    "status": "completed",
+    "duration_ms": 6823.08,
+    "process_reaped": true,
+    "bridge_closed": true
+  },
+  {
+    "timestamp": "2026-11-07T19:41:48.429275+00:00",
+    "event": {
+      "omitted_string_sha256": "796804b87751db3ae63d6eba0591b34643b489771b2c5ba18c937a694ec99abe",
+      "characters": 19
+    },
+    "request_id": {
+      "omitted_string_sha256": "a3a3eeddc526a3e33056ed8bcf2f9dd56aca98db06900a28f15e9036ac865a9f",
+      "characters": 32
+    },
+    "session_id": "e7aa6fd8-6433-40e4-807b-f714028e1403",
+    "stage": {
+      "omitted_string_sha256": "6e51d6a3d90b6a3243d38e6da6b3f31f49867c1360beba83da8ca9630f9672c7",
+      "characters": 9
+    },
+    "code": "retrieval_failed",
+    "error_type": "OperationalError",
+    "duration_ms": 3975.48
+  },
+  {
+    "timestamp": "2026-11-07T19:41:48.433007+00:00",
+    "event": {
+      "omitted_string_sha256": "a7df6dd69f999643c4f4776057eb2cbf2e5b6f5174a373fc5d4f7886e4702893",
+      "characters": 19
+    },
+    "request_id": {
+      "omitted_string_sha256": "a3a3eeddc526a3e33056ed8bcf2f9dd56aca98db06900a28f15e9036ac865a9f",
+      "characters": 32
+    },
+    "session_id": "e7aa6fd8-6433-40e4-807b-f714028e1403",
+    "run_id": "c9f6b2b0-448a-4bf0-8adf-fb8677b75f48",
+    "stage": {
+      "omitted_string_sha256": "6e51d6a3d90b6a3243d38e6da6b3f31f49867c1360beba83da8ca9630f9672c7",
+      "characters": 9
+    },
+    "code": "retrieval_timeout",
+    "error_type": "OperationalError"
+  },
+  {
+    "timestamp": "2026-11-07T19:41:48.515085+00:00",
+    "event": {
+      "omitted_string_sha256": "a984c30a1732edeaf3d35baf4d7a1b89c9e7ee0117b927c71fdafc9e8fdff598",
+      "characters": 15
+    },
+    "request_id": {
+      "omitted_string_sha256": "a3a3eeddc526a3e33056ed8bcf2f9dd56aca98db06900a28f15e9036ac865a9f",
+      "characters": 32
+    },
+    "session_id": "e7aa6fd8-6433-40e4-807b-f714028e1403",
+    "run_id": "c9f6b2b0-448a-4bf0-8adf-fb8677b75f48",
+    "provider": "ollama-local",
+    "model": "qwen3:0.6b",
+    "code": "retrieval_timeout",
+    "stage": {
+      "omitted_string_sha256": "6e51d6a3d90b6a3243d38e6da6b3f31f49867c1360beba83da8ca9630f9672c7",
+      "characters": 9
+    },
+    "status": "failed",
+    "duration_ms": 5477.2,
+    "process_reaped": true,
+    "bridge_closed": true
+  },
+  {
+    "timestamp": "2026-11-07T19:41:51.888526+00:00",
+    "event": {
+      "omitted_string_sha256": "796804b87751db3ae63d6eba0591b34643b489771b2c5ba18c937a694ec99abe",
+      "characters": 19
+    },
+    "request_id": {
+      "omitted_string_sha256": "a88ac383ba39d32831c957ee3d763a9ad61a9b6f2ed370ced7cc6434685d0fc1",
+      "characters": 32
+    },
+    "session_id": "e7aa6fd8-6433-40e4-807b-f714028e1403",
+    "stage": {
+      "omitted_string_sha256": "6e51d6a3d90b6a3243d38e6da6b3f31f49867c1360beba83da8ca9630f9672c7",
+      "characters": 9
+    },
+    "code": "ok",
+    "duration_ms": 808.87
+  },
+  {
+    "timestamp": "2026-11-07T19:41:54.577818+00:00",
+    "event": {
+      "omitted_string_sha256": "a984c30a1732edeaf3d35baf4d7a1b89c9e7ee0117b927c71fdafc9e8fdff598",
+      "characters": 15
+    },
+    "request_id": {
+      "omitted_string_sha256": "a88ac383ba39d32831c957ee3d763a9ad61a9b6f2ed370ced7cc6434685d0fc1",
+      "characters": 32
+    },
+    "session_id": "e7aa6fd8-6433-40e4-807b-f714028e1403",
+    "run_id": "251cd5b7-7c5f-4a31-b77d-ab65c9bcd176",
+    "provider": "ollama-local",
+    "model": "qwen3:0.6b",
+    "code": "insufficient_evidence",
+    "stage": {
+      "omitted_string_sha256": "0db52f4076c082518412afd3dd3576e2cb0c63703fd7fed5e23ade60efef31d9",
+      "characters": 6
+    },
+    "status": "completed",
+    "duration_ms": 5933.37,
+    "process_reaped": true,
+    "bridge_closed": true
+  }
+]

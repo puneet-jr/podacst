@@ -1,25 +1,19 @@
-# Workspace design: Phase 8
+# Design and interaction contract
 
-Open directly into the research workspace. Warm neutral surfaces, charcoal text, restrained sage accents and a serif reading hierarchy keep long answers and documents readable. System fonts and local CSS need no external asset requests. Quiet status text replaces animation; reduced-motion preferences are respected.
+The research task is primary:read a question,inspect its evidence,then make a reusable document. Warm paper,deep plum,restrained gold and serif editorial headings link the homepage and workspace. A shared waveform SVG and compact Lenny/Growth Assistant wordmark link home.
 
-## Information architecture
+`/` prioritizes Open workspace and an interactive Ask→Trace→Make preview clearly marked Example/not live. It does not claim a generated or saved result. `/workspace` separates Sessions(saved research topics),Research(active question/composer/essay review),and context Sources/Documents(one compact tabbed reader). Selected provider/model/corpus status is discoverable;Models is a disclosure,not a provider picker.
 
-Sessions sit on the left; research, saved drafts and the composer occupy the middle; documents and source inspection share the contextual right area. The header shows the actual provider, separate chat/essay models and partial corpus count. The interview picker lists actual indexed interviews. Examples help start a focused question; evidence-led essay is a distinct composer action with an audience field.
+| Layout | Actual behavior |
+| --- | --- |
+| Wide desktop≥1200px | Sessions/Research/context with visible mouse/keyboard dividers. Side widths,min/max,reset and collapsed state persist in localStorage and clamp on resize. Expanding context restores previous layout/focus when closed. |
+| Tablet/narrow desktop | Research stays wide;context opens on demand with explicit close/focus return. |
+| Phone≤600px | One panel at a time via existing navigation;composer controls stack. Viewport handling helps active inputs;real on-screen keyboard behavior is unverified. |
 
-Source inspection shows the immutable original passage, citation label, guest and observed timestamp/link where present. A valid ID means traceability, not factual support. Documents are labelled as fixture or live, with manual review/edit provenance. They render inside the existing scriptless sandbox. No raw message HTML or executable document controls were added.
+Start a session focuses the name field;opening a session reveals the composer. Suggestions fill drafts. Session rows truncate with full title available;older25-row pages load without losing drafts/selection. Lists and readers scroll independently. Citation buttons are visually distinct and open exact original text;heading focus moves into Sources and returns on close. The open reader and unsent drafts survive resizing/layout transitions. Essay review distinguishes fixed source quotes from editable application advice;acceptance requires explicit review.
 
-## Interaction states
+Artifacts use a sanitized static HTML subset in an opaque script-disabled iframe with restrictive CSP. Markdown raw HTML is disabled. Parent source controls resolve owned snapshots. Model output does not get arbitrary execution or navigation permission.
 
-Questions save before generation. Searching/drafting progress uses status announcements, with a cancel control. Timeout, missing-model and other errors retain input; retries reuse the saved question identity. Saved-question recovery restores original scope. Each session keeps its unsent composer state in memory; a fresh session clears the old interview scope. That temporary unsent text is not promised durable across page reloads.
+States include empty/no session,working,partial saved draft,failed/cancelled/retry,missing dependency/key,empty corpus,source loading,review required and accepted/saved artifact. Baseline failures retain the question,but detailed failure reason disappears after reopening;this is a known limitation. The excluded experiment has additional false-abstention/error-copy defects.
 
-Saved essay drafts reopen with recoverable failure status. Review exposes exact source selection and advice separately. The server accepts only immutable original source spans; Unicode offsets are converted correctly. Unsaved edits disable conflicting navigation/new requests until saved or explicitly discarded. Five explicit quality confirmations and a review note gate acceptance. Counts and citation validity do not replace that review. Saving Markdown/HTML announces success only after the server responds; failed saves remain retryable.
-
-## Responsive and keyboard behavior
-
-Desktop uses independently scrolling reading panels. Below 1000px, labelled Sessions, Research, Documents and Sources tabs display one panel at a time. Tabs support arrow keys and Home/End with a roving tab stop; hidden panels cannot receive keyboard focus. Opening a source moves focus to its heading; closing it restores the invoking citation and originating panel. Late source responses cannot cross sessions. Errors remain visible outside a hidden research pane.
-
-Native labels, a skip link, visible focus borders, readable line length and restrained live regions support keyboard navigation. Long document content scrolls inside its isolated preview; mobile documents have full reading width. Representative rendered contrast samples measured 12.4:1 body text, 8.72:1 primary button and 4.94:1 section label. These are samples, not a full accessibility certification.
-
-## Verified boundaries
-
-Actual isolated Chrome157 checks cover 1512px desktop, 390px mobile, 820px and1024px containment. Sixteen deterministic cases test navigation, review, save/reopen and failures without model calls or database writes. Separate real UI evidence covers local chat, follow-up, reviewed essay, both documents and reload/reopen. Final screenshots were visually inspected privately. No assistive-technology study, independent user study or other browser engine was tested. The in-app connector remains blocked; host Chrome automation is the actual browser used. See [Phase8 report](phase-08-report.md).
+Actual Chrome157 fixtures/real saved-content checks cover1440/1024/768/390px,focus/return,contrast samples,resize/storage/reset,draft/reader preservation and no overflow. Fixtures do not prove inference or persistence. The in-app connector remains bootstrap-blocked;physical keyboards,other engines and full accessibility certification are not claimed. Fresh README-rehearsal browser outcomes are in [Phase11 report](phase-11-report.md).

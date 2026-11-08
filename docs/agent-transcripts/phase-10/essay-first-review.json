@@ -1,0 +1,148 @@
+{
+  "word_count": 1275,
+  "word_range_pass": true,
+  "completed_sections": 6,
+  "elapsed_seconds": 42.38659762497991,
+  "deterministic_pass": true,
+  "fact_and_citation_checks": [
+    {
+      "section": 1,
+      "fact": 1,
+      "source_id": "S1",
+      "chunk_id": "53054eb0-beee-5be4-b2f1-99ca9b2eac2d",
+      "exact_owned_span": true,
+      "rendered_with_id": true
+    },
+    {
+      "section": 1,
+      "fact": 2,
+      "source_id": "S1",
+      "chunk_id": "53054eb0-beee-5be4-b2f1-99ca9b2eac2d",
+      "exact_owned_span": true,
+      "rendered_with_id": true
+    },
+    {
+      "section": 2,
+      "fact": 1,
+      "source_id": "S2",
+      "chunk_id": "a25cc03b-b004-5eed-9337-50a887ceb376",
+      "exact_owned_span": true,
+      "rendered_with_id": true
+    },
+    {
+      "section": 3,
+      "fact": 1,
+      "source_id": "S3",
+      "chunk_id": "e7ebf483-ca51-5ba3-a02a-162986317feb",
+      "exact_owned_span": true,
+      "rendered_with_id": true
+    },
+    {
+      "section": 4,
+      "fact": 1,
+      "source_id": "S4",
+      "chunk_id": "40c4e9ae-ce0c-5575-817c-b00c6c5d8334",
+      "exact_owned_span": true,
+      "rendered_with_id": true
+    },
+    {
+      "section": 4,
+      "fact": 2,
+      "source_id": "S4",
+      "chunk_id": "40c4e9ae-ce0c-5575-817c-b00c6c5d8334",
+      "exact_owned_span": true,
+      "rendered_with_id": true
+    },
+    {
+      "section": 5,
+      "fact": 1,
+      "source_id": "S6",
+      "chunk_id": "ac3b448b-888b-5a93-b57a-87115b25c5c1",
+      "exact_owned_span": true,
+      "rendered_with_id": true
+    },
+    {
+      "section": 6,
+      "fact": 1,
+      "source_id": "S7",
+      "chunk_id": "4f2e00a2-4aae-5c92-90e8-53f07870f6f5",
+      "exact_owned_span": true,
+      "rendered_with_id": true
+    },
+    {
+      "section": 6,
+      "fact": 2,
+      "source_id": "S7",
+      "chunk_id": "4f2e00a2-4aae-5c92-90e8-53f07870f6f5",
+      "exact_owned_span": true,
+      "rendered_with_id": true
+    }
+  ],
+  "application_claim_review": [
+    {
+      "section": 1,
+      "assessment": {
+        "omitted_string_sha256": "4351a8566a7ccdd9f0afa3099ea5ec8b69cbc68ec3ec8df6a3019817fa8d76b6",
+        "characters": 132
+      }
+    },
+    {
+      "section": 2,
+      "assessment": {
+        "omitted_string_sha256": "270256b2f821e0cfb162de2d56509d1e845a75d99472c6e785ff3dd26bac1f83",
+        "characters": 157
+      }
+    },
+    {
+      "section": 3,
+      "assessment": {
+        "omitted_string_sha256": "9c18af0b542cc6243a4b06f44478fc184b48d1905628dc19ae91fbbd1b850912",
+        "characters": 267
+      }
+    },
+    {
+      "section": 4,
+      "assessment": {
+        "omitted_string_sha256": "159c8262a21f3cdb86af0a74eefc440408b514fa58af49a86403225f2c0e1474",
+        "characters": 191
+      }
+    },
+    {
+      "section": 5,
+      "assessment": {
+        "omitted_string_sha256": "86479f3c80034d71385a546d73576c89463967d98eb4c709f9132b2d6a5add7a",
+        "characters": 128
+      }
+    },
+    {
+      "section": 6,
+      "assessment": {
+        "omitted_string_sha256": "52216e15788a51079b6860e4067a9fdd85389332fee895df27780abe850b66e5",
+        "characters": 156
+      }
+    }
+  ],
+  "lookout_claimed_engagement_retention_conversion_improvement_supported": false,
+  "structure": {
+    "headings": 6,
+    "bullets": 8,
+    "bold_spans": 1,
+    "hook": {
+      "omitted_string_sha256": "96ad41417f5efe87a5648d2a7bfed8d8828d3fb58818f8b009650f46ce698138",
+      "characters": 25
+    },
+    "progression": {
+      "omitted_string_sha256": "2c07a3c6acd1998e0c98bf8a9d2d5337cd886a6488bf300683a502f7f5d67370",
+      "characters": 58
+    },
+    "useful_takeaway": {
+      "omitted_string_sha256": "46081a6a5daaee45ef0cc64ae900428552ab9cef1057871574f0897e1fc59cd6",
+      "characters": 34
+    }
+  },
+  "manual_edits": 0,
+  "verdict": {
+    "omitted_string_sha256": "6398752374405f38c8eeb0cf21d78fcb1aa8a4e166ecce7520e4870fefb6b9e2",
+    "characters": 103
+  }
+}

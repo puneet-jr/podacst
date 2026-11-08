@@ -1,0 +1,43 @@
+{
+  "mode": "after-live",
+  "active_episodes": 303,
+  "active_chunks": 12770,
+  "total_chunks": 12770,
+  "episode_versions": 303,
+  "prior_saved_tables_unchanged": false,
+  "original_nine_episodes_unchanged": true,
+  "original_chunks_unchanged": true,
+  "source_integrity_checked": 12770,
+  "source_integrity_failures": [],
+  "manifest_covered": 303,
+  "manifest_discovered": 303,
+  "duplicate_active_ordinals": 0,
+  "duration_seconds": 3.8133570849895477,
+  "saved_records": {
+    "original_saved_records_present_and_unchanged": true,
+    "original_counts": {
+      "users": 1,
+      "sessions": 42,
+      "messages": 108,
+      "answer_sources": 49,
+      "essay_runs": 11,
+      "essay_sources": 68,
+      "artifacts": 6,
+      "answer_runs": 48
+    },
+    "current_counts": {
+      "users": 1,
+      "sessions": 67,
+      "messages": 165,
+      "answer_sources": 74,
+      "essay_runs": 13,
+      "essay_sources": 84,
+      "artifacts": 12,
+      "answer_runs": 76
+    }
+  },
+  "aggregate_note": {
+    "omitted_string_sha256": "50f218a8ab27707dd00256dd13bbce0375ca30ec1d934e73c3fba3a40e01054b",
+    "characters": 218
+  }
+}

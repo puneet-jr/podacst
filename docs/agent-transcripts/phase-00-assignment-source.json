@@ -1,8 +1,20 @@
 {
-  "kind": "private_source_identity_only",
-  "inspected_at": "2026-11-06T04:01:03.258315+00:00",
-  "filename": "Forward_Deployed_Engineer_Take_Home_Assignment (1) (1).pdf",
+  "kind": {
+    "omitted_string_sha256": "21a46ded097daac6d0b8cbf7178cdc3550b79e2fed061372d26c12e681123c17",
+    "characters": 28
+  },
+  "inspected_at": {
+    "omitted_string_sha256": "d4b42cce503d753ca8658f15a3b2335baa51c3497ff53b310edf5c4ac2dd1dcc",
+    "characters": 32
+  },
+  "filename": {
+    "omitted_string_sha256": "669e2cca9d124c1b37baa72ec6976a6fbd762a2c4000cb8e4d26722930f96431",
+    "characters": 58
+  },
   "sha256": "bfb5fa28271dbea4505061b48131a3333f18eea6d90ff718b77042abba25ec72",
   "page_count": 4,
-  "note": "Only identity/hash persisted. PDF and extracted body excluded; content requirement audit is paraphrased."
+  "note": {
+    "omitted_string_sha256": "4e2a57ca48707705d4d0fba20c61332e9f558bcdde8fdb657f9a3cd38d1f86bc",
+    "characters": 104
+  }
 }

@@ -2,19 +2,40 @@
   "session_id": "58f3a325-cc0c-4971-a64a-38dfc5b59a19",
   "request": {
     "workflow": "ship30",
-    "topic": "Use must-have customer feedback to improve positioning and onboarding",
-    "audience": "Early-stage product managers deciding how to move users toward first value",
-    "constraints": "Explain the survey, benefit-focused follow-ups, the Lookout case, and limitations. Do not claim a survey score guarantees product-market fit or that onboarding alone caused the outcome. Label proposed user actions Application:. Use only supplied transcript evidence; no invented stories, quotes, metrics or personal experience.",
+    "topic": {
+      "omitted_string_sha256": "bf156bdf0408648c58fe00210281acf09c1816f17685f89869bfe8e01538e488",
+      "characters": 69
+    },
+    "audience": {
+      "omitted_string_sha256": "8aa9a105859ab72908aef2e25c10001adf24b74b7d4f89d9601072460bc8bdd3",
+      "characters": 74
+    },
+    "constraints": {
+      "omitted_string_sha256": "ebba5fa6ed4ae7ed38afb5fc98c7be835e7894df3d0b09b854084557fe85372b",
+      "characters": 327
+    },
     "client_message_id": "b0aee3bf-f083-46d9-9307-abfe5bcd76c3",
     "source_path": "episodes/sean-ellis/transcript.md",
     "focus_questions": [
-      "Sean Ellis must-have product market fit survey how would you feel no longer use very disappointed",
-      "Sean Ellis Lookout antivirus positioning onboarding first value",
-      "Sean Ellis survey customer segments benefits product market fit focus"
+      {
+        "omitted_string_sha256": "267ff364cc8f11f3606199071bf17983e999623384a27706b0860ec43377eac3",
+        "characters": 97
+      },
+      {
+        "omitted_string_sha256": "0d593b4a3b504b12cbf5b1c0bc4eab27a55e80103424daf753242b3fe004dcf6",
+        "characters": 63
+      },
+      {
+        "omitted_string_sha256": "75e05efbeaebfa76d54156958e511e874892f3205e125dc6c72f55a77dbca718",
+        "characters": 69
+      }
     ],
     "timeout_seconds": 600
   },
-  "prior_user_message_id": "d6433186-c889-4689-b9ca-518c69152219",
+  "prior_user_message_id": {
+    "omitted_string_sha256": "dd65dc819c112c6715b85f13bdd1d35dbd825f7032b7f833c56255a753cb7cde",
+    "characters": 36
+  },
   "ready_before": {
     "status": "ready",
     "scope": "phase_5_conversation",
@@ -22,8 +43,14 @@
     "checks": {
       "database": {
         "ready": true,
-        "schema_revision": "0004_essays",
-        "pgvector_version": "0.8.7"
+        "schema_revision": {
+          "omitted_string_sha256": "48a82b1ef3c89f5c8fd9c64c95b5c280f1c0999ab0ea7c99b598cc9f7b4a9292",
+          "characters": 11
+        },
+        "pgvector_version": {
+          "omitted_string_sha256": "e4369c730413d6871f29fa8a24a8f397e6a790e374b1283c9f76f780535415e3",
+          "characters": 5
+        }
       },
       "corpus": {
         "ready": true,
@@ -44,7 +71,10 @@
         "embedding_model_available": true,
         "embedding_dimensions_compatible": true,
         "index_identity_compatible": true,
-        "note": "Transport and installed-model availability; does not prove answer or essay quality."
+        "note": {
+          "omitted_string_sha256": "e794244e901e453b7c7e944b4a3b9e0413be67a054586c47282d7b7f0d7a4ebc",
+          "characters": 83
+        }
       }
     }
   }

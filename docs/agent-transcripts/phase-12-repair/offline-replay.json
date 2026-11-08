@@ -1,0 +1,200 @@
+{
+  "scope": "Offline replay of the saved failed follow-up first passage. Original retrieved ordering of other passages is not reconstructed; per-passage loss reproduces independently.",
+  "prompt": "What did they report for the next cohort in the must-have survey?",
+  "passage_id": "53054eb0-beee-5be4-b2f1-99ca9b2eac2d",
+  "original_text_sha256": "bbca0600f25b06c3861b687b42517e587ba3bab30ec044c7ca10b300faeec38f",
+  "saved_source_contains_outcome": true,
+  "packed_contains_outcome": false,
+  "packed_count": 2,
+  "packed_utf8_bytes": 659,
+  "spans": [
+    {
+      "score": 1,
+      "start": 0,
+      "end": 234,
+      "next_cohort": false,
+      "result_40": true,
+      "terms": [
+        "survey"
+      ]
+    },
+    {
+      "score": 1,
+      "start": 105,
+      "end": 234,
+      "next_cohort": false,
+      "result_40": true,
+      "terms": [
+        "survey"
+      ]
+    },
+    {
+      "score": 1,
+      "start": 269,
+      "end": 312,
+      "next_cohort": false,
+      "result_40": false,
+      "terms": [
+        "did"
+      ]
+    },
+    {
+      "score": 0,
+      "start": 349,
+      "end": 629,
+      "next_cohort": false,
+      "result_40": false,
+      "terms": []
+    },
+    {
+      "score": 2,
+      "start": 487,
+      "end": 820,
+      "next_cohort": false,
+      "result_40": false,
+      "terms": [
+        "survey",
+        "they"
+      ]
+    },
+    {
+      "score": 3,
+      "start": 630,
+      "end": 1027,
+      "next_cohort": false,
+      "result_40": false,
+      "terms": [
+        "for",
+        "survey",
+        "they"
+      ]
+    },
+    {
+      "score": 2,
+      "start": 821,
+      "end": 1182,
+      "next_cohort": false,
+      "result_40": false,
+      "terms": [
+        "for",
+        "they"
+      ]
+    },
+    {
+      "score": 1,
+      "start": 1028,
+      "end": 1182,
+      "next_cohort": false,
+      "result_40": false,
+      "terms": [
+        "for"
+      ]
+    },
+    {
+      "score": 0,
+      "start": 1196,
+      "end": 1325,
+      "next_cohort": false,
+      "result_40": false,
+      "terms": []
+    },
+    {
+      "score": 0,
+      "start": 1264,
+      "end": 1359,
+      "next_cohort": false,
+      "result_40": false,
+      "terms": []
+    },
+    {
+      "score": 1,
+      "start": 1326,
+      "end": 1539,
+      "next_cohort": false,
+      "result_40": false,
+      "terms": [
+        "for"
+      ]
+    },
+    {
+      "score": 3,
+      "start": 1360,
+      "end": 1622,
+      "next_cohort": false,
+      "result_40": false,
+      "terms": [
+        "for",
+        "survey",
+        "they"
+      ]
+    },
+    {
+      "score": 2,
+      "start": 1540,
+      "end": 1740,
+      "next_cohort": false,
+      "result_40": false,
+      "terms": [
+        "survey",
+        "they"
+      ]
+    },
+    {
+      "score": 3,
+      "start": 1623,
+      "end": 1967,
+      "next_cohort": false,
+      "result_40": false,
+      "terms": [
+        "did",
+        "for",
+        "they"
+      ]
+    },
+    {
+      "score": 3,
+      "start": 1741,
+      "end": 1967,
+      "next_cohort": false,
+      "result_40": false,
+      "terms": [
+        "did",
+        "for",
+        "they"
+      ]
+    },
+    {
+      "score": 0,
+      "start": 1981,
+      "end": 2093,
+      "next_cohort": false,
+      "result_40": false,
+      "terms": []
+    },
+    {
+      "score": 3,
+      "start": 2037,
+      "end": 2211,
+      "next_cohort": true,
+      "result_40": true,
+      "terms": [
+        "cohort",
+        "next",
+        "they"
+      ]
+    },
+    {
+      "score": 3,
+      "start": 2094,
+      "end": 2211,
+      "next_cohort": true,
+      "result_40": true,
+      "terms": [
+        "cohort",
+        "next",
+        "they"
+      ]
+    }
+  ],
+  "offsets_exact": true
+}

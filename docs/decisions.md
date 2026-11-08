@@ -110,8 +110,77 @@ The single corrected run failed earlier than drafting quality could be measured:
 
 The user explicitly authorized Git initialization and non-force push to vivekvattem/lenny/main. Remote was empty. Current timestamps and seven ordered phase commits organize the saved snapshot, not a fabricated development history. Prior versions of shared files are unavailable, so current shared integration is grouped with Phase6 WIP. Full runtime originals are retained privately before publishing sanitized copies; IDs/hashes/limited selected answer quotes and actual failed outcomes remain. Full corpus/PDF/model weights/dependencies/configured secrets are excluded. This publication is not a passed product/release gate, demo upload or form submission.
 
+
+## D-19: plain-Markdown writing probe and semantic stop
+
+The user requested a single saved-outline section with structured grammar omitted. Added an explicit plain Markdown payload transform that deletes response_format/grammar/format while retaining local-provider, output, context and tool restrictions. Outline planning remains structured; writing emits Markdown validated server-side. A Node test proves the omission and the actual local probe confirms successful generation with no sampler error.
+
+The section failed the user's next gate:362 words/16.323s, zero citation markers, prompt-instruction leakage and a causal engagement/conversion claim beyond S2/S3. The core Lookout example is related and partly supported, but that does not certify the whole paragraph or cure missing citations. Preserved the unedited output and direct manual support review. Do not fill in labels after generation or represent a transport-only result as a verified essay fix. No full essay/retry or commit follows a failed section. The format experiment is left uncommitted; broader quality and the original essay rubric remain unmet. No Phase7.
+
+
+## D-20: isolated essay-model comparison, blocked at download
+
+Need: test whether1.7B improves the same failed Foundation section without changing chat or concealing failure with cloud. User authorized the local download after host/model preflight. Selected the unchanged saved-outline/S2/S3 Markdown path, with only a Docker exec child model override; comparison runner is prepared but not executed. Keeping0.6B avoids a download but retains measured grounding failure. A larger model remains a hardware/quality hypothesis; cloud is outside this test and sends evidence off-device. No alternative was falsely marked tested.
+
+Ollama exhausted download retries with TLS handshake timeout, then connection reset during one explicit resume; final tags still lack1.7B. No section inference/full essay. Old baseline hashes match, chat remains0.6B. Partial download consumes disk; host-wide swap rose from9724.31 to10408.06MiB but cannot be attributed to model inference (none ran). User impact: no new draft or demonstrated improvement. Preserve partial files and evidence rather than change networking/daemon or fabricate comparison results. The Markdown transport fix is separately committed4323911 with failed grounding recorded. See phase-06 comparison report. Stop before Phase7.
+
+
+## 7 November 2026: actual 1.7B section outcome
+
+D-21: The authorized installed1.7B model-only comparison retained identical prompt, saved outline, S2/S3 and Markdown runtime; no app model/config change. Actual289 words/29.050s failed citations and manual factual support. Stop rather than generate a full essay from a failed section. A larger model did not solve demonstrated grounding in this single case; other models/prompts remain untested alternatives with download/memory/latency costs. User impact: no accepted section/essay, current chat preserved. Existing0.6B output unchanged. [Full measured comparison](agent-transcripts/phase-06/qwen17-section-20261106T185057/report.md).
+
+
+## 7 November 2026: approved-fact section experiment
+
+D-22: User requested immutable approved factual statements/citation mappings rather than another free-prose retry. Selected server-owned atomic fact+label blocks, model places IDs and writes labelled application prose. Exact original-source anchors/hashes guard drift; semantic approval/review remains manual. Alternative free paraphrasing failed twice; fully templated advice would reduce model freedom/readability and was not substituted after failure. Single1.7B local test failed marker placement and introduced unsupported general claims despite labels (360 raw words/27.678s). Reject whole draft instead of silently deleting or fixing it. Benefit: no malformed uncited section accepted; downside: strict contract is brittle on this tiny model and does not itself establish semantic safety. User impact: still no usable accepted essay. Product route unchanged; no cloud/full essay/retry/Phase7. [Evidence](agent-transcripts/phase-06/approved-section-20261106T193354/report.md).
+
+
+## 7 November 2026: server-owned section and advice-only test
+
+D-23: user requested removing all model responsibility for fact placement/citation IDs. Server now directly assembles approved factual blocks and labels, while a narrow Pi stage writes one action paragraph without factual input. This fixes observed token-compliance failure and keeps traceability exact; downside is a more templated evidence-summary style and manual approval burden. Single run failed because even advice-only generation added an outcome assertion (7.545s/175 assembled words). Lexical rejection plus manual review prevents accepting it; fixed factual/citation subchecks are not an overall pass. Fully hand-authored advice would avoid that model failure but was not substituted into actual output. Full essay and fresh topic evidence selection deferred because the authorized section gate failed. [Evidence](agent-transcripts/phase-06/server-section-20261106T203813/report.md).
+
+
+## 7 November 2026: experiment paragraph length gate
+
+User-authorized65–75-word experiment paragraph ran once via Pi/local1.7B:59 words/11.939s, assembled198 vs210. Fixed five approved facts/citations pass owned-source/hash review; experiment, metric, keep/revise decision and explicit Hypothesize framing present. Length FAILS (6 below minimum), with awkward prompt-caveat echo. Known lexical screen omits Hypothesize though manual review credits it; actual rejection is length. No padding/model retry/full essay/Phase7. One automatic approval timeout preceded process creation, then one actual model request.14 writing/unit tests pass separately. Chat0.6B/prior evidence unchanged. Lookout facts remain fixture data; full topic evidence/rubric untested. agent-transcripts/phase-06/experiment-section-20261106T210046/report.md
+
+
+## 7 November 2026: reviewed complete essay gate
+
+D-24: user made section lengths drafting targets and authorized full essay plus useful revision. Use fresh topic hybrid evidence, manually approved fixed facts/citations, Pi1.7B advice stages and server layout. One draft1325 words required editorial correction of benefit assertion, metric inference, instruction leakage and caveat; final1319 passes reviewed rubric. Manual approval/editing is an explicit operating cost, not autonomous generation proof. Alternative unconstrained prose/ID routing had measured failures; cloud substitution remains excluded. Real save exposed8k messages bound; migration0005 permits assistant32,768 while retaining user8,000, proved by83 contracts and actual final accepted save/reopen. Standard API essay generation still needs migration to this assisted workflow. [Evidence](agent-transcripts/phase-06/server-essay-20261106T210445/report.md).
+
+
+## 7 November 2026: artifact and endpoint verification
+
+D-25: selected evidence-first standard endpoint instead of the unreliable factual-prose/ID emission path. Facts are exact retrieved guest spans; model writes advice. Direct review still required: raw first endpoint essay failed and9 explicit source/advice edits produced1270 words. Traceability is automatic, semantic acceptance is not. D-26: selected deterministic Markdown/HTML formatting from owned accepted replies, parser-based nh3 sanitization plus restrictive iframe/CSP; avoids another factual rewrite and keeps IDs fixed, but limits creative HTML/styles/interactivity. Fixture and live provenance visible. Actual Chrome attack/network/parent-style checks passed; not a universal claim. Official bases: [nh3 API](https://nh3.readthedocs.io/en/latest/), [MDN srcdoc isolation](https://developer.mozilla.org/en-US/docs/Web/API/HTMLIFrameElement/srcdoc), [CSP](https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CSP). [Implementation/evidence](phase-07-report.md).
+
+
 ## D-27: direct workspace, explicit reviewed writing and mobile panels
 
 Keep research, sources and documents in one workspace; use contextual desktop panels and keyboard-accessible mobile tabs rather than compressing columns. Actual model/corpus state and explicit manual-review provenance avoid unsupported readiness/quality claims. Owned essay-list and scope endpoints recover saved work. Server-only source spans plus dirty-review protection reduce accidental loss; unsent composers remain page-local. Alternative durable unsent drafts would require separate persistence/privacy semantics and is deferred. Downsides: quote-heavy output and substantial reviewer effort remain; single-browser checks do not certify general accessibility.
 
 Ordinary topic retrieval initially returned only five usable guest selections, so the server stopped before drafting. Increase the essay candidate buffer to8/5600 estimated tokens while retaining six sections and bounded advice-only model context. No manual fixture focus queries or weaker evidence gate. Actual later draft1224 words still failed;6 advice and3 source edits yielded reviewed1208 words via normal UI. This is a reviewable local tool, not autonomous publication. [Phase8 evidence](phase-08-report.md).
+
+
+## D-28: explicit native Anthropic boundary and safe diagnostics
+
+Use the existing Pi RPC with a fresh custom native Anthropic provider, official fixed HTTPS endpoint and server-only environment key, selected only through explicit config/restart. Local children exclude ambient cloud credentials; neither provider falls back. Native tool-choice/payload policies differ from local OpenAI-compatible grammar, so test them separately rather than adding a parallel direct SDK route. Model choice stays configurable; legacy4.5 default resolves in installed Pi but has no live keyed validation. Alternatives include a newer provider model requiring compatibility/quality checks, or retaining local-only behavior; no unmeasured cloud-quality gain is claimed. Cost/privacy downside: selected evidence/context leave the device and requests may incur charges.
+
+Default stdout logs retain protocol metadata and diagnostics retain byte counts, with raw private capture opt-in. Detect normalization from framework IDs rather than sensitive stderr. Safe request/session/run stage codes diagnose failures without prompts. DB failure during essay finalization always releases the generation lock; retained orphan state recovers at restart. Ten isolated failure cases and separate live local evidence document limits; absent cloud key blocks live validation. [Report](phase-09-report.md).
+
+
+## D-29: OpenRouter is a distinct requested boundary
+
+Inspection confirmed Phase9 used direct Anthropic. Add OpenRouter through the existing Pi OpenAI-compatible provider instead of relabelling that evidence. Each cloud provider has a separate server-side secret and exact endpoint/model selection. Default OpenRouter model google/gemini-2.5-flash-lite is listed in the current official catalog with required tool/JSON parameters. Pin allow_fallbacks=false and require_parameters=true; model lists/routes are removed, so failures remain visible. One-off cloud validation leaves the normal app on Ollama and is pending until an actual cited request succeeds and its passage supports the answer. Key presence, synthetic initialization and fixtures do not pass that gate. [Amendment](phase-09-openrouter-report.md).
+
+
+## Phase10: full-index compatibility and bounded repair
+
+Observed full303/12770 index exposed4 canonical Unicode/underscore scope failures and repeated lexical term/DF work beyond the unchanged3s statement bound. Use one shared canonical path pattern and materialized term-tsquery/corpus-count/DF CTEs;keep ranking formula,deadlines,labels and frozen v3 limits unchanged. Real old/new score/rank equivalence regression and84 successful retrieval operations support this narrow repair;small synthetic equivalence is not a universal ranking/performance proof. Downside:materialization allocates per-query intermediate state and still has long-tail latency; broad unscoped retrieval quality falls short. No reindex/dependency/JIT setting change.
+
+Full local model measurements reject assuming a supported quote answers the request. Preserve the bounded extractive chat boundary and record its incomplete/abstention failures rather than add prompt-specific name filters or silently use cloud. This leaves a release blocker requiring a general support/completeness repair. Server-owned essay facts/citations remain;remove historical topic/constraints from the advice-only model context. Trade-off:reduces historical invention but makes advice generic/repetitive;one actual1216-word run still fails relevance/readability. Do not autoaccept it. No model/pin changes;no larger download on8GiB. [Measured report](phase-10-report.md).
+
+
+## Bounded repair decision
+
+Saved actual per-passage replay showed function-word ties and overlapping spans dropping the requested cohort sentence. Remove only for/they matches and choose non-overlapping spans under unchanged2/500/6000 limits;do not alter retrieval ranking. Exact live pair passes;broader quality is not inferred. Saved essay source replay showed an open quoted question selected as a complete factual unit. Filter candidate ends by balanced double quotes and retain exact source prefixes. Downside:conservative syntax may omit useful material and cannot certify grammar,statistical completeness or support. Fresh1145-word raw draft still fails semantic review. No scenario-specific rules,cloud fallback or manual raw-draft rescue. [Report](phase-12-repair-report.md).

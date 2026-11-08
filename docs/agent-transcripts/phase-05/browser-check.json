@@ -2,8 +2,14 @@
   "captured_at": "2026-11-06T06:51:11.052600+00:00",
   "status": "blocked_before_connection",
   "tool": "mcp__node_repl__js using documented Browser runtime bootstrap",
-  "error": "Importing module \"node:process\" is not allowed in node_repl",
-  "evidence_type": "Exact error projection from actual browser bootstrap tool response",
+  "error": {
+    "omitted_string_sha256": "807caae5feadd3d331a44d7acf4594d3ff705d2d56c8195e57f948484c159cde",
+    "characters": 59
+  },
+  "evidence_type": {
+    "omitted_string_sha256": "6d2674e9d9221caf15ba2eeb0f99f1426cdf0c8d656b8fc7da10ee8fef20305d",
+    "characters": 66
+  },
   "ui_navigation_performed": false,
   "visual_or_interaction_pass_claimed": false
 }

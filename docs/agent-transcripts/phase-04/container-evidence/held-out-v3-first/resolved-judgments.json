@@ -2,91 +2,151 @@
   "H17": {
     "groups": [
       [
-        "f9a46dcc-c2aa-56be-ac93-997d93d0f7c3"
+        {
+          "omitted_string_sha256": "335799e431c1d40b79222975ad79658c397137dff9de44dcab0e75e874bbf850",
+          "characters": 36
+        }
       ]
     ],
     "relevant_ids": [
-      "f9a46dcc-c2aa-56be-ac93-997d93d0f7c3"
+      {
+        "omitted_string_sha256": "335799e431c1d40b79222975ad79658c397137dff9de44dcab0e75e874bbf850",
+        "characters": 36
+      }
     ]
   },
   "H18": {
     "groups": [
       [
-        "40f98a47-3e52-5b5c-96d0-4fc67b94d9d4"
+        {
+          "omitted_string_sha256": "075a3154435db1daa31f8a16ad8c998a13cf2de07c8bbb63cdfd7a140437c0bb",
+          "characters": 36
+        }
       ],
       [
-        "33dbf5d7-6ccf-5125-9b4d-a55fe8d700bb"
+        {
+          "omitted_string_sha256": "358d42db2f9b5287166d0eaa56355dcc524e9fce2e54ee2d78ca96b527f4a637",
+          "characters": 36
+        }
       ]
     ],
     "relevant_ids": [
-      "33dbf5d7-6ccf-5125-9b4d-a55fe8d700bb",
-      "40f98a47-3e52-5b5c-96d0-4fc67b94d9d4"
+      {
+        "omitted_string_sha256": "358d42db2f9b5287166d0eaa56355dcc524e9fce2e54ee2d78ca96b527f4a637",
+        "characters": 36
+      },
+      {
+        "omitted_string_sha256": "075a3154435db1daa31f8a16ad8c998a13cf2de07c8bbb63cdfd7a140437c0bb",
+        "characters": 36
+      }
     ]
   },
   "H19": {
     "groups": [
       [
-        "80c8b282-024b-5869-9418-c64abf14f662"
+        {
+          "omitted_string_sha256": "507ac29f95104fb8593ebca8fd6813549262b0d43ab1b676d27665bee6761082",
+          "characters": 36
+        }
       ],
       [
-        "80c8b282-024b-5869-9418-c64abf14f662"
+        {
+          "omitted_string_sha256": "507ac29f95104fb8593ebca8fd6813549262b0d43ab1b676d27665bee6761082",
+          "characters": 36
+        }
       ]
     ],
     "relevant_ids": [
-      "80c8b282-024b-5869-9418-c64abf14f662"
+      {
+        "omitted_string_sha256": "507ac29f95104fb8593ebca8fd6813549262b0d43ab1b676d27665bee6761082",
+        "characters": 36
+      }
     ]
   },
   "H20": {
     "groups": [
       [
-        "a7253603-60c7-5668-b1c7-7b1b0b906cf5"
+        {
+          "omitted_string_sha256": "06fcf5efc7304deb0301c29d636fda46a872a7417e26098d9a22dfdda3ed48be",
+          "characters": 36
+        }
       ],
       [
-        "a7253603-60c7-5668-b1c7-7b1b0b906cf5"
+        {
+          "omitted_string_sha256": "06fcf5efc7304deb0301c29d636fda46a872a7417e26098d9a22dfdda3ed48be",
+          "characters": 36
+        }
       ]
     ],
     "relevant_ids": [
-      "a7253603-60c7-5668-b1c7-7b1b0b906cf5"
+      {
+        "omitted_string_sha256": "06fcf5efc7304deb0301c29d636fda46a872a7417e26098d9a22dfdda3ed48be",
+        "characters": 36
+      }
     ]
   },
   "H21": {
     "groups": [
       [
-        "c46738eb-0484-50bb-8ca1-8ff68446220a"
+        {
+          "omitted_string_sha256": "d3de5acbd9ef224ab657090079adefd38214c7d21a0f4d2f5f6ccd22365caef6",
+          "characters": 36
+        }
       ]
     ],
     "relevant_ids": [
-      "c46738eb-0484-50bb-8ca1-8ff68446220a"
+      {
+        "omitted_string_sha256": "d3de5acbd9ef224ab657090079adefd38214c7d21a0f4d2f5f6ccd22365caef6",
+        "characters": 36
+      }
     ]
   },
   "H22": {
     "groups": [
       [
-        "7f52d5f6-3602-55fe-896f-3842a03c18bb"
+        {
+          "omitted_string_sha256": "fed3c2d2a100f46ce6ed10249fd9b5871bad8b0bc70fb5e9453f01940912f4f1",
+          "characters": 36
+        }
       ]
     ],
     "relevant_ids": [
-      "7f52d5f6-3602-55fe-896f-3842a03c18bb"
+      {
+        "omitted_string_sha256": "fed3c2d2a100f46ce6ed10249fd9b5871bad8b0bc70fb5e9453f01940912f4f1",
+        "characters": 36
+      }
     ]
   },
   "H23": {
     "groups": [
       [
-        "b3891f50-3a00-56c5-89de-17824f934ab0"
+        {
+          "omitted_string_sha256": "d6965259ced43b987c06e7cbae0ee14876d17231a355ffc18572ad2c4eab39f4",
+          "characters": 36
+        }
       ]
     ],
     "relevant_ids": [
-      "b3891f50-3a00-56c5-89de-17824f934ab0"
+      {
+        "omitted_string_sha256": "d6965259ced43b987c06e7cbae0ee14876d17231a355ffc18572ad2c4eab39f4",
+        "characters": 36
+      }
     ]
   },
   "H24": {
     "groups": [
       [
-        "2d70a732-94f8-5cd8-9f59-0019c1fd9b21"
+        {
+          "omitted_string_sha256": "c8d2b19f46550a8b7408e546d276e8b1f87864fd633fb10c608ce82dcdab8582",
+          "characters": 36
+        }
       ]
     ],
     "relevant_ids": [
-      "2d70a732-94f8-5cd8-9f59-0019c1fd9b21"
+      {
+        "omitted_string_sha256": "c8d2b19f46550a8b7408e546d276e8b1f87864fd633fb10c608ce82dcdab8582",
+        "characters": 36
+      }
     ]
   }
 }

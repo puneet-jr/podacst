@@ -1,0 +1,73 @@
+{
+  "scope": "Read-only normal-stack historical reviewed1208-word essay;not imported into rehearsal and not fresh generation.",
+  "session_id": "6f882513-96b5-4fcc-88c2-1e1dc82d9585",
+  "artifacts": [
+    {
+      "id": "0e785957-d644-4a93-8a0a-54c3a5c43c52",
+      "format": "html",
+      "sha256": "91ea1f66278d0d25638eb51074c1960340a57ceaf9229028d6f57397ceb9c022",
+      "manual_edits": 9,
+      "provenance": "live_endpoint",
+      "citation_ids": [
+        {
+          "omitted_string_sha256": "adfa2b24c2d924fe6383d8804be55afb98ea3eb0e14c3470ac3a0f651b9a422e",
+          "characters": 2
+        },
+        {
+          "omitted_string_sha256": "44d6a8a73eddb284d49799fdbfa2919a004ece6d2df3546eaa4e246048bcdf81",
+          "characters": 2
+        },
+        {
+          "omitted_string_sha256": "b1d3eb8f32936fa9cf89d2240bd10734270fd55ff4644ad254b3b237468bad88",
+          "characters": 2
+        },
+        {
+          "omitted_string_sha256": "1cdcbd57e7e20491d8be5ff46549aac5f9c117320a164a49ebc4f1439a741d76",
+          "characters": 2
+        },
+        {
+          "omitted_string_sha256": "b12f76a4b782e4ae7f035b86a07cb43e638af9157e855af49c3945971d2af402",
+          "characters": 2
+        },
+        {
+          "omitted_string_sha256": "d53d113e9c01f4388af35632813ddb85902066795ecabba59ed24f483ad3db26",
+          "characters": 2
+        }
+      ]
+    },
+    {
+      "id": "75299b3d-3732-4b92-89fa-668921e9d013",
+      "format": "markdown",
+      "sha256": "622acbd2368356f8cd4ea5103383fc428539aa4b8093f78194bc780598b7693f",
+      "manual_edits": 9,
+      "provenance": "live_endpoint",
+      "citation_ids": [
+        {
+          "omitted_string_sha256": "adfa2b24c2d924fe6383d8804be55afb98ea3eb0e14c3470ac3a0f651b9a422e",
+          "characters": 2
+        },
+        {
+          "omitted_string_sha256": "44d6a8a73eddb284d49799fdbfa2919a004ece6d2df3546eaa4e246048bcdf81",
+          "characters": 2
+        },
+        {
+          "omitted_string_sha256": "b1d3eb8f32936fa9cf89d2240bd10734270fd55ff4644ad254b3b237468bad88",
+          "characters": 2
+        },
+        {
+          "omitted_string_sha256": "1cdcbd57e7e20491d8be5ff46549aac5f9c117320a164a49ebc4f1439a741d76",
+          "characters": 2
+        },
+        {
+          "omitted_string_sha256": "b12f76a4b782e4ae7f035b86a07cb43e638af9157e855af49c3945971d2af402",
+          "characters": 2
+        },
+        {
+          "omitted_string_sha256": "d53d113e9c01f4388af35632813ddb85902066795ecabba59ed24f483ad3db26",
+          "characters": 2
+        }
+      ]
+    }
+  ],
+  "api_reopen_pass": true
+}

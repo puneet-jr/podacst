@@ -20,7 +20,7 @@ def main():
     print('Created new isolated contract database:',database,flush=True)
     env={**os.environ,'POSTGRES_DB':database}
     subprocess.run([sys.executable,'-m','backend.migrate'],env=env,check=True)
-    subprocess.run([sys.executable,'-m','unittest','backend.tests.test_unit','backend.tests.test_transcripts','backend.tests.test_embedding','backend.tests.test_retrieval','backend.tests.test_conversation','backend.tests.test_writing','backend.tests.test_writing_rpc','backend.tests.test_api','backend.tests.test_retrieval_db','backend.tests.test_conversation_db','backend.tests.test_essays_db','-v'],env=env,check=True)
+    subprocess.run([sys.executable,'-m','unittest','backend.tests.test_unit','backend.tests.test_scope_paths','backend.tests.test_provider','backend.tests.test_transcripts','backend.tests.test_embedding','backend.tests.test_retrieval','backend.tests.test_conversation','backend.tests.test_writing','backend.tests.test_writing_rpc','backend.tests.test_approved_writing','backend.tests.test_artifacts','backend.tests.test_evidence_first','backend.tests.test_api','backend.tests.test_retrieval_db','backend.tests.test_conversation_db','backend.tests.test_essays_db','backend.tests.test_artifacts_db','backend.tests.test_operations_db','-v'],env=env,check=True)
     print('Contract database retained; no database or volume was deleted.',flush=True)
 
 

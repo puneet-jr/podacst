@@ -1,6 +1,9 @@
 {
   "captured_at": "2026-11-06T04:26:15.338996+00:00",
-  "kind": "final_phase_01_artifact_review",
+  "kind": {
+    "omitted_string_sha256": "f8fe9c93a92035991fe54d4fb67f47e07153e8943a166542f235c7bfd3a3cfcb",
+    "characters": 30
+  },
   "checks": [
     {
       "name": "All 29 requirement IDs remain once",
@@ -19,7 +22,10 @@
       "name": "Recorded final actual batch gate",
       "passed": true,
       "detail": {
-        "final_batch": "docs/agent-transcripts/phase-01/20261106T042120-59b3c6/results.jsonl",
+        "final_batch": {
+          "omitted_string_sha256": "8068fca4f01cea427e52691b2bcf5a98e61fb0abae8206d9367a472b8bb230cc",
+          "characters": 68
+        },
         "fresh_passes": 5
       }
     },
@@ -29,38 +35,83 @@
       "detail": [
         {
           "attempt": 1,
-          "topic": "activation",
-          "model_text": "The review window for the experiment is 13 days, and the evidence code is CEDAR-7319.",
+          "topic": {
+            "omitted_string_sha256": "b15526c9c0e75acea3d1f8055de216c85f0330baf8604e13d8c6ce90fb90d6d7",
+            "characters": 10
+          },
+          "model_text": {
+            "omitted_string_sha256": "9b919802c7e86ce3840008b44d3590aa23e49294189e178942f1781345ddcaa6",
+            "characters": 85
+          },
           "correct_fixture_values": true,
-          "review": "Reviewed against fixture.json; source label server-derived; no additional factual claim observed."
+          "review": {
+            "omitted_string_sha256": "e4efdce24ab2afa1a6f2a0ff708129a65c80898e9a676f713e6f1eb69fd24c15",
+            "characters": 97
+          }
         },
         {
           "attempt": 2,
-          "topic": "retention",
-          "model_text": "The review window for the experiment is 17 days, and the evidence code is BIRCH-4826.",
+          "topic": {
+            "omitted_string_sha256": "8e220124401da6e1a0288a86b48eb316d254cd2a9b9399cfc9a07a2fbc0253e8",
+            "characters": 9
+          },
+          "model_text": {
+            "omitted_string_sha256": "90687e345c86cad6a7f21ddff0ad81fa5abd8abc9d8a261e5949c9ad8ff81c63",
+            "characters": 85
+          },
           "correct_fixture_values": true,
-          "review": "Reviewed against fixture.json; source label server-derived; no additional factual claim observed."
+          "review": {
+            "omitted_string_sha256": "e4efdce24ab2afa1a6f2a0ff708129a65c80898e9a676f713e6f1eb69fd24c15",
+            "characters": 97
+          }
         },
         {
           "attempt": 3,
-          "topic": "activation",
-          "model_text": "The review window for the experiment is 13 days, and the evidence code is CEDAR-7319.",
+          "topic": {
+            "omitted_string_sha256": "b15526c9c0e75acea3d1f8055de216c85f0330baf8604e13d8c6ce90fb90d6d7",
+            "characters": 10
+          },
+          "model_text": {
+            "omitted_string_sha256": "9b919802c7e86ce3840008b44d3590aa23e49294189e178942f1781345ddcaa6",
+            "characters": 85
+          },
           "correct_fixture_values": true,
-          "review": "Reviewed against fixture.json; source label server-derived; no additional factual claim observed."
+          "review": {
+            "omitted_string_sha256": "e4efdce24ab2afa1a6f2a0ff708129a65c80898e9a676f713e6f1eb69fd24c15",
+            "characters": 97
+          }
         },
         {
           "attempt": 4,
-          "topic": "retention",
-          "model_text": "The review window for the experiment is 17 days, and the evidence code is BIRCH-4826.",
+          "topic": {
+            "omitted_string_sha256": "8e220124401da6e1a0288a86b48eb316d254cd2a9b9399cfc9a07a2fbc0253e8",
+            "characters": 9
+          },
+          "model_text": {
+            "omitted_string_sha256": "90687e345c86cad6a7f21ddff0ad81fa5abd8abc9d8a261e5949c9ad8ff81c63",
+            "characters": 85
+          },
           "correct_fixture_values": true,
-          "review": "Reviewed against fixture.json; source label server-derived; no additional factual claim observed."
+          "review": {
+            "omitted_string_sha256": "e4efdce24ab2afa1a6f2a0ff708129a65c80898e9a676f713e6f1eb69fd24c15",
+            "characters": 97
+          }
         },
         {
           "attempt": 5,
-          "topic": "activation",
-          "model_text": "The review window for the experiment is 13 days, and the evidence code is CEDAR-7319.",
+          "topic": {
+            "omitted_string_sha256": "b15526c9c0e75acea3d1f8055de216c85f0330baf8604e13d8c6ce90fb90d6d7",
+            "characters": 10
+          },
+          "model_text": {
+            "omitted_string_sha256": "9b919802c7e86ce3840008b44d3590aa23e49294189e178942f1781345ddcaa6",
+            "characters": 85
+          },
           "correct_fixture_values": true,
-          "review": "Reviewed against fixture.json; source label server-derived; no additional factual claim observed."
+          "review": {
+            "omitted_string_sha256": "e4efdce24ab2afa1a6f2a0ff708129a65c80898e9a676f713e6f1eb69fd24c15",
+            "characters": 97
+          }
         }
       ]
     },
@@ -74,7 +125,10 @@
       "passed": true,
       "detail": {
         "suspect_paths": [],
-        "limit": "Pattern scan and manual fixture/probe review, not a complete security or history audit."
+        "limit": {
+          "omitted_string_sha256": "629a0da9865d3a1a50ad95cfa47801eea586fee7c178fbcc57edba85505b2904",
+          "characters": 87
+        }
       }
     },
     {
@@ -88,7 +142,10 @@
       "name": "Tested dependency locks exist",
       "passed": true,
       "detail": {
-        "pi_version": "1.5.0"
+        "pi_version": {
+          "omitted_string_sha256": "1f4dc096d58f7d21e3875671aee6f29b120ab84218fa47db2cb53bc9eb5b4dac",
+          "characters": 5
+        }
       }
     }
   ],

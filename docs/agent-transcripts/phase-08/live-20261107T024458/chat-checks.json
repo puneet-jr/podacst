@@ -1,0 +1,75 @@
+[
+  {
+    "name": "supported",
+    "model": "qwen3:0.6b",
+    "browser_check_seconds": 0.15963725000619888,
+    "resumed_existing_completed_request": true,
+    "question": {
+      "omitted_string_sha256": "959a44f82999e6d8578437949527447b89609676747100634c45136f1be2814d",
+      "characters": 92
+    },
+    "actual_answer": {
+      "omitted_string_sha256": "61e36d3aaf908e85d2f91fc87a59443a294326d34482c75be65d8fea4796b0d1",
+      "characters": 395
+    },
+    "run_id": "96bcfc00-cf75-467e-9ad1-1ec7ad8bbecf",
+    "status": "completed",
+    "actual_request_seconds": 8.031291920000513,
+    "resolved_query": {
+      "omitted_string_sha256": "959a44f82999e6d8578437949527447b89609676747100634c45136f1be2814d",
+      "characters": 92
+    },
+    "context_message_ids": [],
+    "sources": [
+      {
+        "label": "S1",
+        "chunk_id": "c0aa1ec1-9da2-5bc9-a1ed-550df1f12411",
+        "stored_span_matches": true,
+        "original_text_sha256": {
+          "omitted_string_sha256": "33772f8d66a8f6fb0f71d99bc609030c4701cbd22bbb2335cdf61d33ab2dbd53",
+          "characters": 64
+        }
+      }
+    ],
+    "retrieval_mode": "hybrid"
+  },
+  {
+    "name": "follow_up",
+    "model": "qwen3:0.6b",
+    "browser_check_seconds": 0.1314515001140535,
+    "resumed_existing_completed_request": true,
+    "question": {
+      "omitted_string_sha256": "399afc6eff67a4ffdb2515bb28a8696dce0df1b549ceabdf96c1704afb1379c3",
+      "characters": 85
+    },
+    "actual_answer": {
+      "omitted_string_sha256": "84dde81dbd90f7191deb395a297661922aa3518272e1148710f1fa9087cd91ae",
+      "characters": 381
+    },
+    "run_id": "0761f213-69c6-4049-8b70-dc287529ee65",
+    "status": "completed",
+    "actual_request_seconds": 6.7983835450068,
+    "resolved_query": {
+      "omitted_string_sha256": "399afc6eff67a4ffdb2515bb28a8696dce0df1b549ceabdf96c1704afb1379c3",
+      "characters": 85
+    },
+    "context_message_ids": [
+      {
+        "omitted_string_sha256": "b5907208c38c902b2b8cba478554efc8af26732c951e81f261666e15d1ae202f",
+        "characters": 36
+      }
+    ],
+    "sources": [
+      {
+        "label": "S1",
+        "chunk_id": "53054eb0-beee-5be4-b2f1-99ca9b2eac2d",
+        "stored_span_matches": true,
+        "original_text_sha256": {
+          "omitted_string_sha256": "5b76e9477d7e0922decde6dffdfb2d37037d8305b16d9dcc9ba4caadafd3b911",
+          "characters": 64
+        }
+      }
+    ],
+    "retrieval_mode": "hybrid"
+  }
+]

@@ -5,12 +5,18 @@
     {
       "name": "Final contract suite on real PostgreSQL",
       "passed": true,
-      "detail": "30 tests: 23 unit/parser/mock and 7 DB/API; retained DB in command log"
+      "detail": {
+        "omitted_string_sha256": "d773693005d393e4bc252535798b6ccd8b6bc5f70d6c6ae1f02edf787de88d43",
+        "characters": 70
+      }
     },
     {
       "name": "Separate real local fixture integrity",
       "passed": true,
-      "detail": "Actual PostgreSQL/Ollama; synthetic sources and labelled fault injection"
+      "detail": {
+        "omitted_string_sha256": "ecf82d16b845d6e1d57ba73f61f7b82c9e51667ee5c08ec7a899e12957497ece",
+        "characters": 72
+      }
     },
     {
       "name": "Real pinned corpus smoke and repeat",
@@ -56,9 +62,18 @@
       "passed": true,
       "detail": {
         "invalid": [],
-        "freeze_sha256": "40f37d0690c4e6d7963c27343c1b31293aa47c71f8936b058b646ac32d5511ce",
-        "outcomes": "not run",
-        "duration_caps": "pending complete-journey baseline"
+        "freeze_sha256": {
+          "omitted_string_sha256": "caf952847031b9165c34564c6e75954f404203471c27f81640d06a5a37e529ea",
+          "characters": 64
+        },
+        "outcomes": {
+          "omitted_string_sha256": "b4a984371bc54d7a29fe053304249c9d0283ad7510d4e802d133aadf107950dc",
+          "characters": 7
+        },
+        "duration_caps": {
+          "omitted_string_sha256": "09ba741254e0dd2fe933ac83a2e557e45bec841fc5eb1c11a5a1dbe7268bd347",
+          "characters": 33
+        }
       }
     },
     {
@@ -83,7 +98,10 @@
       "passed": true,
       "detail": {
         "suspect_paths": [],
-        "limit": "Exact generated credential check; not a complete security audit"
+        "limit": {
+          "omitted_string_sha256": "b6fb29440e9e26b1c43f448b35915ae6b169ea69a906d4e2891029e2fa7ec90c",
+          "characters": 63
+        }
       }
     },
     {
@@ -101,19 +119,40 @@
     {
       "name": "Frontend TypeScript/build",
       "passed": true,
-      "detail": "TypeScript + Vite, no visual browser pass"
+      "detail": {
+        "omitted_string_sha256": "09d240a7499c86f6ffc8dbfdfd48c90dc766355a604ff251dd038de550143f44",
+        "characters": 41
+      }
     },
     {
       "name": "Installed dependency compatibility",
       "passed": true,
-      "detail": "Actual container pip check"
+      "detail": {
+        "omitted_string_sha256": "4052b4e9443141a64ebbc19426c14fd2be804fba33bcf42211401856b20f5f0c",
+        "characters": 26
+      }
     }
   ],
   "limits": [
-    "3/303 corpus episodes indexed; full ingestion unverified",
-    "No retrieval ranking/semantic answer/essay/SC-01 outcomes",
-    "Browser bootstrap failed before connection; no UI inspection",
-    "Corpus redistribution rights/full coding-conversation export unresolved",
-    "No production authentication, cloud integration or clean evaluator rehearsal"
+    {
+      "omitted_string_sha256": "494c2584c72e4091ca5b5015f347ee6aef768ded0ee87455a67982d0bd33dc6c",
+      "characters": 56
+    },
+    {
+      "omitted_string_sha256": "b2c5c7eaa9a3c23508cab80b56cc6ac63feacf0e99dc423461fe3ec7ff11ec6d",
+      "characters": 57
+    },
+    {
+      "omitted_string_sha256": "d9004308e27b2f7e5d6a831984d567dde0a67a18c6ebfa465a8ea4e93434ad03",
+      "characters": 60
+    },
+    {
+      "omitted_string_sha256": "594b4d27d4850b261bfc3896366e0e37df40a24d65e10407cfb7535bcdc01ca9",
+      "characters": 71
+    },
+    {
+      "omitted_string_sha256": "ac3d03cc3e268192940a816e5c0031a07689bf6479d20afcca26a898944c4a46",
+      "characters": 76
+    }
   ]
 }

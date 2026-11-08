@@ -1,0 +1,1621 @@
+{
+  "original_score": "0/5",
+  "bounded_rerun_score": "0/5",
+  "proposed_target": "4/5",
+  "quality_gate_passed": false,
+  "scenario_count": 5,
+  "chat_requests": 8,
+  "chat_completed": 7,
+  "chat_failed": 1,
+  "completed_statuses": {
+    "answered": 0,
+    "partial": 1,
+    "insufficient_evidence": 6
+  },
+  "chat_latency_seconds": {
+    "min": 5.55841770907864,
+    "max": 11.55665108282119,
+    "median": 7.154669062467292
+  },
+  "corpus": {
+    "episodes": 303,
+    "passages": 12770
+  },
+  "provider": "ollama-local",
+  "models": {
+    "chat": {
+      "omitted_string_sha256": "514cf42a1ceb1dee40909507b7b0f29ef9e471786ec0d58304e75ae68cf34c10",
+      "characters": 10
+    },
+    "essay": {
+      "omitted_string_sha256": "671475e0a45dcc5a15e673e4e0456bd00d17905a7ef6604291ce200a1149701c",
+      "characters": 10
+    }
+  },
+  "ranking_changes": false,
+  "essay_changes": false,
+  "model_retries": 0,
+  "manual_essay_edits": 0,
+  "cases": [
+    {
+      "scenario": {
+        "omitted_string_sha256": "e19e334fcfe7d571f9208dc9a94ffa581b1fda44d06e92def46832445289e87e",
+        "characters": 7
+      },
+      "review": {
+        "scenario_id": {
+          "omitted_string_sha256": "e19e334fcfe7d571f9208dc9a94ffa581b1fda44d06e92def46832445289e87e",
+          "characters": 7
+        },
+        "attempt": {
+          "omitted_string_sha256": "e10538970d7444d7ba66ce5cb13bea4ea867dfa888fd783b3a7c036c92a26cdf",
+          "characters": 20
+        },
+        "started_at": "2026-11-07T14:45:38.460363+00:00",
+        "started_at_ist": {
+          "omitted_string_sha256": "1e26ad07857dfca27c4d7c02067af665f3edf6d0ba64037bdfa9e9950c35b74b",
+          "characters": 32
+        },
+        "review_ended_at": {
+          "omitted_string_sha256": "097a26999d425aa36d63cd57f2748a2120c1e6ac8d385f1a4987cfb4323522ce",
+          "characters": 32
+        },
+        "review_ended_at_ist": {
+          "omitted_string_sha256": "74f6bb9e376a337ca8ab9a43c43a3d7e5d7518a3b9d182d055128488cb970310",
+          "characters": 32
+        },
+        "task_seconds_including_review": 125.107,
+        "duration_cap": 240,
+        "within_cap": true,
+        "transport_pass": true,
+        "browser_pass": true,
+        "semantic_pass": false,
+        "passed": false,
+        "criteria": {
+          "request_completed": true,
+          "model_false_abstention": true,
+          "survey_question_answered": false,
+          "application_of_responses": false,
+          "artifact_render_reopen": true,
+          "artifact_relevant": false,
+          "citation_inspection": {
+            "omitted_string_sha256": "e075b298772e2b8c9d430f55fc9697b9b68b0010b922833d0d2c80e2531ba189",
+            "characters": 30
+          }
+        },
+        "direct_review_notes": {
+          "omitted_string_sha256": "d5b4879af2cacd22611a2ebf57342a3d7ddeda3e11e376723357efc7d6f951c3",
+          "characters": 338
+        },
+        "reviewer": {
+          "omitted_string_sha256": "4e03399a174616f5531dd775e3412019ebeb68422a0dc7e245002692b49c89f6",
+          "characters": 87
+        },
+        "session_ids": [
+          {
+            "omitted_string_sha256": "fabfb91c19a280afd456c13571c3faac032c6d66f5d2a73c6e43f9ddc94bd0a8",
+            "characters": 36
+          }
+        ],
+        "passage_ids": [],
+        "evidence_directory": {
+          "omitted_string_sha256": "6a68005e440cad339ee45e2dbd9d05c7acf54d2a5e139e6be08984078a3fc2bf",
+          "characters": 35
+        },
+        "raw_outputs_preserved": true
+      },
+      "answers": [
+        {
+          "name": "initial",
+          "run_id": "26ba8dba-5220-444a-b390-5b85f7bd9b87",
+          "session_id": "6fddcd04-032c-41f3-8c23-3a90414fa90c",
+          "request_seconds": 8.7443464579992,
+          "status": "completed",
+          "output_status": "insufficient_evidence",
+          "error_code": null,
+          "context_message_ids": [],
+          "retrieval_mode": "hybrid",
+          "provider": "ollama-local",
+          "model": "qwen3:0.6b",
+          "sources": [],
+          "model_selection": {
+            "status": "insufficient_evidence",
+            "evidence_ids": []
+          },
+          "retrieved_passage_ids": [
+            {
+              "omitted_string_sha256": "00b21045b689e552ad88b799bd479b7517666a43cc8b938cf23a1505b20c9ab6",
+              "characters": 36
+            },
+            {
+              "omitted_string_sha256": "b8a7faaa0cd6df9c0cd7ce3f77798993ed22a328a824363fbdd90b554863c2eb",
+              "characters": 36
+            },
+            {
+              "omitted_string_sha256": "69c74781e1c3199663e73649e1f104315a63a10555ea9265984918c29f9a16d6",
+              "characters": 36
+            },
+            {
+              "omitted_string_sha256": "84ac7d945260865183e1d5275b927b9d567b8f2d52d1dedb570985a8fd8ddba6",
+              "characters": 36
+            },
+            {
+              "omitted_string_sha256": "12effdcef2092c323b79cd672355a4d63eb3f1af14b461c4f1a919ddbec08bf7",
+              "characters": 36
+            }
+          ],
+          "retrieval_timings_ms": {
+            "total": 794.3378339987248,
+            "database": 151.7845830094302,
+            "embedding": 642.5377919949824
+          },
+          "failure_stage": null,
+          "failure_type": null,
+          "upstream_operation_code": null,
+          "outcome_kind": "insufficient_evidence",
+          "model_usage": {
+            "input": 1652,
+            "output": 18,
+            "cacheRead": 0,
+            "reasoning": 0,
+            "cacheWrite": 0,
+            "totalTokens": 1670
+          },
+          "process_reaped": true,
+          "bridge_closed": true,
+          "tool_trace": [
+            {
+              "args": {
+                "query": {
+                  "omitted_string_sha256": "97b0560280ed60a5a1eaa1bc45492543c8a986ad5a25b468c427eb83c3e88191",
+                  "characters": 7
+                }
+              },
+              "tool": "search_transcripts",
+              "result": {
+                "mode": "hybrid",
+                "evidence_ids": [
+                  {
+                    "omitted_string_sha256": "22249aa61fd2594e50910aa574afbb977f9df8f7377e6f02e19c72245d899ad8",
+                    "characters": 2
+                  },
+                  {
+                    "omitted_string_sha256": "713a5bb2d170c8684937ab1dd0311be88e0d95fbd9b253333965841517794f64",
+                    "characters": 2
+                  },
+                  {
+                    "omitted_string_sha256": "183499aaeec2b9ca37bd647ae892902fd61b9a1dd8867a54287fd2c19ee97ed7",
+                    "characters": 2
+                  },
+                  {
+                    "omitted_string_sha256": "de793ba19330c40e4999ec96737972345b49f02f8189ef581ee32c95e422b473",
+                    "characters": 2
+                  },
+                  {
+                    "omitted_string_sha256": "ef099fcece6eeca3777d0d4a6ac606beb557e08dcd95cf93d0d42a0334329c10",
+                    "characters": 2
+                  },
+                  {
+                    "omitted_string_sha256": "b073b98568c2ff91549c889fd15dec963294e98dbce6ee38c9b5f3c6cd112515",
+                    "characters": 2
+                  },
+                  {
+                    "omitted_string_sha256": "a29d84f0185eac917b8cb0a675f3b0b12ab6fe6e8ee9a6a5902f05a3a5cb9fbd",
+                    "characters": 2
+                  },
+                  {
+                    "omitted_string_sha256": "a8d0a1117e28efe9d9bcd29833dd103ca8f1110f68e814dbff635c08c6d71907",
+                    "characters": 2
+                  },
+                  {
+                    "omitted_string_sha256": "2032ea400f77275bc6a9cb1a27d5d6603e2e8486110c6244f881c9026ee5194b",
+                    "characters": 2
+                  },
+                  {
+                    "omitted_string_sha256": "334908efbe3f2ca9f7c602d0121d0d4bef394130e1eb1ff21a1879a12b0bceb6",
+                    "characters": 3
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "essay": null,
+      "isolation": null,
+      "browser": {
+        "at": {
+          "omitted_string_sha256": "9c3700aa0f1f3291538c4c88f3b7cc4cfe9c18c807348afecb4d583008640a65",
+          "characters": 32
+        },
+        "fixture": false,
+        "browser": "157.0.8103.38",
+        "checks": [
+          {
+            "width": 1440,
+            "session_id": "6fddcd04-032c-41f3-8c23-3a90414fa90c",
+            "source_focus_and_return": true,
+            "artifact_preview": "pass",
+            "no_overflow": true
+          },
+          {
+            "width": 390,
+            "session_id": "6fddcd04-032c-41f3-8c23-3a90414fa90c",
+            "source_focus_and_return": true,
+            "artifact_preview": "pass",
+            "no_overflow": true
+          }
+        ],
+        "page_errors": [],
+        "console_errors": [],
+        "model_calls": 0,
+        "writes": []
+      }
+    },
+    {
+      "scenario": {
+        "omitted_string_sha256": "22a751685b4c6361014a470095633a6786276468b2b37e6473077a8787f07bf2",
+        "characters": 7
+      },
+      "review": {
+        "scenario_id": {
+          "omitted_string_sha256": "22a751685b4c6361014a470095633a6786276468b2b37e6473077a8787f07bf2",
+          "characters": 7
+        },
+        "attempt": {
+          "omitted_string_sha256": "e10538970d7444d7ba66ce5cb13bea4ea867dfa888fd783b3a7c036c92a26cdf",
+          "characters": 20
+        },
+        "started_at": "2026-11-07T14:47:44.081724+00:00",
+        "started_at_ist": {
+          "omitted_string_sha256": "53b0c75e1ce56eefa18a420b2d1b23c89d9f57d60b400e6665e1488765b68c47",
+          "characters": 32
+        },
+        "review_ended_at": {
+          "omitted_string_sha256": "ee94393a02479b6f1bc32a2a49191cb692c05c91c5d7665ff6870c83c18aa786",
+          "characters": 32
+        },
+        "review_ended_at_ist": {
+          "omitted_string_sha256": "2105c76929d437de4bdfe48a6988e5605bcb71607df4a022b1180ccd78b6c8a8",
+          "characters": 32
+        },
+        "task_seconds_including_review": 96.365,
+        "duration_cap": 360,
+        "within_cap": true,
+        "transport_pass": true,
+        "browser_pass": true,
+        "semantic_pass": false,
+        "passed": false,
+        "criteria": {
+          "lno_definition_present": true,
+          "citation_support": true,
+          "follow_up_context": true,
+          "fresh_retrieval": true,
+          "bug_triage_application": false,
+          "complete_checklist": false,
+          "artifact_render_reopen": true,
+          "artifact_relevant": false
+        },
+        "direct_review_notes": {
+          "omitted_string_sha256": "f3e7c8400c12db3a3a6a307dda5b9a5930122aca82e31337542d6ee04cfdae25",
+          "characters": 491
+        },
+        "reviewer": {
+          "omitted_string_sha256": "4e03399a174616f5531dd775e3412019ebeb68422a0dc7e245002692b49c89f6",
+          "characters": 87
+        },
+        "session_ids": [
+          {
+            "omitted_string_sha256": "8fb953c85d74216ef7595e4fb0bc826b0bcc1662826b101b223fde95787291de",
+            "characters": 36
+          }
+        ],
+        "passage_ids": [
+          {
+            "omitted_string_sha256": "075a3154435db1daa31f8a16ad8c998a13cf2de07c8bbb63cdfd7a140437c0bb",
+            "characters": 36
+          },
+          {
+            "omitted_string_sha256": "d256d5a0eb21c429a468f581a0f02b1dff350635a7fb1f119b6368a5a55d6dce",
+            "characters": 36
+          },
+          {
+            "omitted_string_sha256": "aced41ef462acef941fa59f5e53f7ec7a20b4b7c6f39595f2a6282b2d3a0162a",
+            "characters": 36
+          },
+          {
+            "omitted_string_sha256": "53c844d50f4502f9a5da18e099c9049096ee24b80edbe4931ff2f8ebd31bb30e",
+            "characters": 36
+          },
+          {
+            "omitted_string_sha256": "f607906c085700ef24ff9bbbaec9cf8660dd71a5d43a31a7dec0882a8e59af97",
+            "characters": 36
+          }
+        ],
+        "evidence_directory": {
+          "omitted_string_sha256": "25ab44a23ed21aa97bff41908058855f9d972d32316dc4ac94e710ec911c3379",
+          "characters": 35
+        },
+        "raw_outputs_preserved": true
+      },
+      "answers": [
+        {
+          "name": "initial",
+          "run_id": "7e8456ed-fe0a-474a-a1b9-85cc003f3103",
+          "session_id": "ad432137-6082-49c6-91b2-a11357804ded",
+          "request_seconds": 9.480480541009456,
+          "status": "completed",
+          "output_status": {
+            "omitted_string_sha256": "9834a14ab9bcaa0f6a8da71073617eac8f004e596a3fa11d807b84631b825d9d",
+            "characters": 7
+          },
+          "error_code": null,
+          "context_message_ids": [],
+          "retrieval_mode": "hybrid",
+          "provider": "ollama-local",
+          "model": "qwen3:0.6b",
+          "sources": [
+            {
+              "label": "S1",
+              "chunk_id": "40f98a47-3e52-5b5c-96d0-4fc67b94d9d4",
+              "path": {
+                "omitted_string_sha256": "c8d485833a66da8a9fd8d3deb8bd781ca6e488d20272ba491452469b8561b19c",
+                "characters": 36
+              },
+              "source_hash": "4e7f53f543391e9d64b738133eb9ffcefc761bbf22bec002716c5f9c90e940d6",
+              "exact_span": true,
+              "quote_spans": [
+                {
+                  "sha256": "f582e5eb3853fa8bfd65cb542a06637df027053a0ed0de8c395e90601a0f33bc",
+                  "char_start": 49343,
+                  "char_end": 50158,
+                  "exact": true
+                },
+                {
+                  "sha256": "106864ff9bb0165f5f37c2dd473ec12024df278607057a8d51475aa2da9ef26d",
+                  "char_start": 48098,
+                  "char_end": 48620,
+                  "exact": true
+                }
+              ]
+            },
+            {
+              "label": "S2",
+              "chunk_id": "792da105-8dd8-545b-980d-df8b226fb558",
+              "path": {
+                "omitted_string_sha256": "c8d485833a66da8a9fd8d3deb8bd781ca6e488d20272ba491452469b8561b19c",
+                "characters": 36
+              },
+              "source_hash": "4e7f53f543391e9d64b738133eb9ffcefc761bbf22bec002716c5f9c90e940d6",
+              "exact_span": true,
+              "quote_spans": [
+                {
+                  "sha256": "9330f29426137414f41ac244d0fc8cd5c9e5d282b92665f8c48d51890d9ef87b",
+                  "char_start": 38557,
+                  "char_end": 39342,
+                  "exact": true
+                }
+              ]
+            },
+            {
+              "label": "S3",
+              "chunk_id": "7be01729-0b69-51be-92cb-18b748e833e8",
+              "path": {
+                "omitted_string_sha256": "c8d485833a66da8a9fd8d3deb8bd781ca6e488d20272ba491452469b8561b19c",
+                "characters": 36
+              },
+              "source_hash": "4e7f53f543391e9d64b738133eb9ffcefc761bbf22bec002716c5f9c90e940d6",
+              "exact_span": true,
+              "quote_spans": [
+                {
+                  "sha256": "330ae4fbb6de74cad3a3dbd874abb5d03197e6d7ac84ce436accc76e49410503",
+                  "char_start": 45551,
+                  "char_end": 46166,
+                  "exact": true
+                }
+              ]
+            },
+            {
+              "label": "S4",
+              "chunk_id": "818fd999-9f13-5e7d-90dd-f96e8df9570d",
+              "path": {
+                "omitted_string_sha256": "c8d485833a66da8a9fd8d3deb8bd781ca6e488d20272ba491452469b8561b19c",
+                "characters": 36
+              },
+              "source_hash": "4e7f53f543391e9d64b738133eb9ffcefc761bbf22bec002716c5f9c90e940d6",
+              "exact_span": true,
+              "quote_spans": [
+                {
+                  "sha256": "3a22929b9164ac538296f1301b038cddb528b9c917a876c34448bcfee0d13bcd",
+                  "char_start": 74208,
+                  "char_end": 75092,
+                  "exact": true
+                }
+              ]
+            },
+            {
+              "label": "S5",
+              "chunk_id": "6ecadb95-5f2b-563e-aeb9-5a08bcb61e2e",
+              "path": {
+                "omitted_string_sha256": "c8d485833a66da8a9fd8d3deb8bd781ca6e488d20272ba491452469b8561b19c",
+                "characters": 36
+              },
+              "source_hash": "4e7f53f543391e9d64b738133eb9ffcefc761bbf22bec002716c5f9c90e940d6",
+              "exact_span": true,
+              "quote_spans": [
+                {
+                  "sha256": "ba9def996542d53b36f9c975a76c042406a7e37d44f26e94f87963753a81bc5c",
+                  "char_start": 47202,
+                  "char_end": 48078,
+                  "exact": true
+                }
+              ]
+            }
+          ],
+          "model_selection": {
+            "status": "partial",
+            "evidence_ids": [
+              {
+                "omitted_string_sha256": "22249aa61fd2594e50910aa574afbb977f9df8f7377e6f02e19c72245d899ad8",
+                "characters": 2
+              },
+              {
+                "omitted_string_sha256": "713a5bb2d170c8684937ab1dd0311be88e0d95fbd9b253333965841517794f64",
+                "characters": 2
+              },
+              {
+                "omitted_string_sha256": "183499aaeec2b9ca37bd647ae892902fd61b9a1dd8867a54287fd2c19ee97ed7",
+                "characters": 2
+              },
+              {
+                "omitted_string_sha256": "de793ba19330c40e4999ec96737972345b49f02f8189ef581ee32c95e422b473",
+                "characters": 2
+              },
+              {
+                "omitted_string_sha256": "ef099fcece6eeca3777d0d4a6ac606beb557e08dcd95cf93d0d42a0334329c10",
+                "characters": 2
+              },
+              {
+                "omitted_string_sha256": "b073b98568c2ff91549c889fd15dec963294e98dbce6ee38c9b5f3c6cd112515",
+                "characters": 2
+              }
+            ]
+          },
+          "retrieved_passage_ids": [
+            {
+              "omitted_string_sha256": "075a3154435db1daa31f8a16ad8c998a13cf2de07c8bbb63cdfd7a140437c0bb",
+              "characters": 36
+            },
+            {
+              "omitted_string_sha256": "d256d5a0eb21c429a468f581a0f02b1dff350635a7fb1f119b6368a5a55d6dce",
+              "characters": 36
+            },
+            {
+              "omitted_string_sha256": "aced41ef462acef941fa59f5e53f7ec7a20b4b7c6f39595f2a6282b2d3a0162a",
+              "characters": 36
+            },
+            {
+              "omitted_string_sha256": "53c844d50f4502f9a5da18e099c9049096ee24b80edbe4931ff2f8ebd31bb30e",
+              "characters": 36
+            },
+            {
+              "omitted_string_sha256": "f607906c085700ef24ff9bbbaec9cf8660dd71a5d43a31a7dec0882a8e59af97",
+              "characters": 36
+            }
+          ],
+          "retrieval_timings_ms": {
+            "total": 1285.1032500038855,
+            "database": 343.3601249998901,
+            "embedding": 941.7232499981765
+          },
+          "failure_stage": null,
+          "failure_type": null,
+          "upstream_operation_code": null,
+          "outcome_kind": {
+            "omitted_string_sha256": "9834a14ab9bcaa0f6a8da71073617eac8f004e596a3fa11d807b84631b825d9d",
+            "characters": 7
+          },
+          "model_usage": {
+            "input": 2565,
+            "output": 37,
+            "cacheRead": 0,
+            "reasoning": 0,
+            "cacheWrite": 0,
+            "totalTokens": 2602
+          },
+          "process_reaped": true,
+          "bridge_closed": true,
+          "tool_trace": [
+            {
+              "args": {
+                "query": {
+                  "omitted_string_sha256": "97b0560280ed60a5a1eaa1bc45492543c8a986ad5a25b468c427eb83c3e88191",
+                  "characters": 7
+                }
+              },
+              "tool": "search_transcripts",
+              "result": {
+                "mode": "hybrid",
+                "evidence_ids": [
+                  {
+                    "omitted_string_sha256": "22249aa61fd2594e50910aa574afbb977f9df8f7377e6f02e19c72245d899ad8",
+                    "characters": 2
+                  },
+                  {
+                    "omitted_string_sha256": "713a5bb2d170c8684937ab1dd0311be88e0d95fbd9b253333965841517794f64",
+                    "characters": 2
+                  },
+                  {
+                    "omitted_string_sha256": "183499aaeec2b9ca37bd647ae892902fd61b9a1dd8867a54287fd2c19ee97ed7",
+                    "characters": 2
+                  },
+                  {
+                    "omitted_string_sha256": "de793ba19330c40e4999ec96737972345b49f02f8189ef581ee32c95e422b473",
+                    "characters": 2
+                  },
+                  {
+                    "omitted_string_sha256": "ef099fcece6eeca3777d0d4a6ac606beb557e08dcd95cf93d0d42a0334329c10",
+                    "characters": 2
+                  },
+                  {
+                    "omitted_string_sha256": "b073b98568c2ff91549c889fd15dec963294e98dbce6ee38c9b5f3c6cd112515",
+                    "characters": 2
+                  },
+                  {
+                    "omitted_string_sha256": "a29d84f0185eac917b8cb0a675f3b0b12ab6fe6e8ee9a6a5902f05a3a5cb9fbd",
+                    "characters": 2
+                  },
+                  {
+                    "omitted_string_sha256": "a8d0a1117e28efe9d9bcd29833dd103ca8f1110f68e814dbff635c08c6d71907",
+                    "characters": 2
+                  },
+                  {
+                    "omitted_string_sha256": "2032ea400f77275bc6a9cb1a27d5d6603e2e8486110c6244f881c9026ee5194b",
+                    "characters": 2
+                  },
+                  {
+                    "omitted_string_sha256": "334908efbe3f2ca9f7c602d0121d0d4bef394130e1eb1ff21a1879a12b0bceb6",
+                    "characters": 3
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "follow-up",
+          "run_id": "c98c5694-282e-41fa-b580-2e9e440f1035",
+          "session_id": "ad432137-6082-49c6-91b2-a11357804ded",
+          "request_seconds": 7.248754916712642,
+          "status": "completed",
+          "output_status": "insufficient_evidence",
+          "error_code": null,
+          "context_message_ids": [
+            {
+              "omitted_string_sha256": "06f1f2fef4dbed29d6604c7133faabff971b40e3dac9defaeb8c4fef9eb04506",
+              "characters": 36
+            }
+          ],
+          "retrieval_mode": "hybrid",
+          "provider": "ollama-local",
+          "model": "qwen3:0.6b",
+          "sources": [],
+          "model_selection": {
+            "status": "insufficient_evidence",
+            "evidence_ids": []
+          },
+          "retrieved_passage_ids": [
+            {
+              "omitted_string_sha256": "075a3154435db1daa31f8a16ad8c998a13cf2de07c8bbb63cdfd7a140437c0bb",
+              "characters": 36
+            },
+            {
+              "omitted_string_sha256": "aced41ef462acef941fa59f5e53f7ec7a20b4b7c6f39595f2a6282b2d3a0162a",
+              "characters": 36
+            },
+            {
+              "omitted_string_sha256": "53c844d50f4502f9a5da18e099c9049096ee24b80edbe4931ff2f8ebd31bb30e",
+              "characters": 36
+            },
+            {
+              "omitted_string_sha256": "d256d5a0eb21c429a468f581a0f02b1dff350635a7fb1f119b6368a5a55d6dce",
+              "characters": 36
+            },
+            {
+              "omitted_string_sha256": "f607906c085700ef24ff9bbbaec9cf8660dd71a5d43a31a7dec0882a8e59af97",
+              "characters": 36
+            }
+          ],
+          "retrieval_timings_ms": {
+            "total": 854.2728329921374,
+            "database": 144.33650000137277,
+            "embedding": 709.9270829930902
+          },
+          "failure_stage": null,
+          "failure_type": null,
+          "upstream_operation_code": null,
+          "outcome_kind": "insufficient_evidence",
+          "model_usage": {
+            "input": 2367,
+            "output": 18,
+            "cacheRead": 0,
+            "reasoning": 0,
+            "cacheWrite": 0,
+            "totalTokens": 2385
+          },
+          "process_reaped": true,
+          "bridge_closed": true,
+          "tool_trace": [
+            {
+              "args": {
+                "query": {
+                  "omitted_string_sha256": "97b0560280ed60a5a1eaa1bc45492543c8a986ad5a25b468c427eb83c3e88191",
+                  "characters": 7
+                }
+              },
+              "tool": "search_transcripts",
+              "result": {
+                "mode": "hybrid",
+                "evidence_ids": [
+                  {
+                    "omitted_string_sha256": "22249aa61fd2594e50910aa574afbb977f9df8f7377e6f02e19c72245d899ad8",
+                    "characters": 2
+                  },
+                  {
+                    "omitted_string_sha256": "713a5bb2d170c8684937ab1dd0311be88e0d95fbd9b253333965841517794f64",
+                    "characters": 2
+                  },
+                  {
+                    "omitted_string_sha256": "183499aaeec2b9ca37bd647ae892902fd61b9a1dd8867a54287fd2c19ee97ed7",
+                    "characters": 2
+                  },
+                  {
+                    "omitted_string_sha256": "de793ba19330c40e4999ec96737972345b49f02f8189ef581ee32c95e422b473",
+                    "characters": 2
+                  },
+                  {
+                    "omitted_string_sha256": "ef099fcece6eeca3777d0d4a6ac606beb557e08dcd95cf93d0d42a0334329c10",
+                    "characters": 2
+                  },
+                  {
+                    "omitted_string_sha256": "b073b98568c2ff91549c889fd15dec963294e98dbce6ee38c9b5f3c6cd112515",
+                    "characters": 2
+                  },
+                  {
+                    "omitted_string_sha256": "a29d84f0185eac917b8cb0a675f3b0b12ab6fe6e8ee9a6a5902f05a3a5cb9fbd",
+                    "characters": 2
+                  },
+                  {
+                    "omitted_string_sha256": "a8d0a1117e28efe9d9bcd29833dd103ca8f1110f68e814dbff635c08c6d71907",
+                    "characters": 2
+                  },
+                  {
+                    "omitted_string_sha256": "2032ea400f77275bc6a9cb1a27d5d6603e2e8486110c6244f881c9026ee5194b",
+                    "characters": 2
+                  },
+                  {
+                    "omitted_string_sha256": "334908efbe3f2ca9f7c602d0121d0d4bef394130e1eb1ff21a1879a12b0bceb6",
+                    "characters": 3
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "essay": null,
+      "isolation": null,
+      "browser": {
+        "at": {
+          "omitted_string_sha256": "4cba784e8ff546d2fa153ac07e16272939e4505ad0d7e32ff9cb4bb3dda75a5f",
+          "characters": 32
+        },
+        "fixture": false,
+        "browser": "157.0.8103.38",
+        "checks": [
+          {
+            "width": 1440,
+            "session_id": "ad432137-6082-49c6-91b2-a11357804ded",
+            "source_focus_and_return": true,
+            "cited_messages_inspected": 1,
+            "artifact_preview": "pass",
+            "no_overflow": true
+          },
+          {
+            "width": 390,
+            "session_id": "ad432137-6082-49c6-91b2-a11357804ded",
+            "source_focus_and_return": true,
+            "cited_messages_inspected": 1,
+            "artifact_preview": "pass",
+            "no_overflow": true
+          }
+        ],
+        "page_errors": [],
+        "console_errors": [],
+        "model_calls": 0,
+        "writes": []
+      }
+    },
+    {
+      "scenario": {
+        "omitted_string_sha256": "fae2b125864ac713beb30879e2396184763bc62044fb5da9af8635587ba97881",
+        "characters": 7
+      },
+      "review": {
+        "scenario_id": {
+          "omitted_string_sha256": "fae2b125864ac713beb30879e2396184763bc62044fb5da9af8635587ba97881",
+          "characters": 7
+        },
+        "attempt": {
+          "omitted_string_sha256": "e10538970d7444d7ba66ce5cb13bea4ea867dfa888fd783b3a7c036c92a26cdf",
+          "characters": 20
+        },
+        "started_at": "2026-11-07T14:49:20.748015+00:00",
+        "started_at_ist": {
+          "omitted_string_sha256": "d8471c78c43cb8915402c237bc7e5a848e58faf80ab317050e77997d2d91467b",
+          "characters": 32
+        },
+        "review_ended_at": {
+          "omitted_string_sha256": "d9ac0c14b872237a4f87ea092d2f6ae4ff3f909abbdec974439a644ee8733a87",
+          "characters": 32
+        },
+        "review_ended_at_ist": {
+          "omitted_string_sha256": "22dfd9c9ccf58a7d332a1b785daa273ba0ff6237e4904a6cbd4f55a2584abec0",
+          "characters": 32
+        },
+        "task_seconds_including_review": 17426.959,
+        "duration_cap": 900,
+        "within_cap": false,
+        "transport_pass": true,
+        "browser_pass": true,
+        "semantic_pass": false,
+        "passed": false,
+        "criteria": {
+          "word_count": 1216,
+          "sections": 6,
+          "citations": true,
+          "historical_advice_grounding_improved": true,
+          "complete_requested_case": false,
+          "readability": false,
+          "artifact_saved": false,
+          "manual_edits": 0
+        },
+        "direct_review_notes": {
+          "omitted_string_sha256": "199bb9b85d997a86f4325f7b76c47d5e4b7f980e27244dacde5c27a4f32fb5a4",
+          "characters": 528
+        },
+        "reviewer": {
+          "omitted_string_sha256": "4e03399a174616f5531dd775e3412019ebeb68422a0dc7e245002692b49c89f6",
+          "characters": 87
+        },
+        "session_ids": [
+          {
+            "omitted_string_sha256": "a10f1a111517d30af7475aef169efeeb092e0d9b9a54ddaf5cd72f2c58b91526",
+            "characters": 36
+          }
+        ],
+        "passage_ids": [],
+        "evidence_directory": {
+          "omitted_string_sha256": "fbfb62b53fa15fb2ed7dfb41a05c0975edc74045a286bef37808d70e47edf14d",
+          "characters": 35
+        },
+        "raw_outputs_preserved": true
+      },
+      "answers": [
+        {
+          "name": "research",
+          "run_id": "aecbddb9-f0b8-4f81-b915-31e63deba754",
+          "session_id": "417fcf18-82f9-4f57-962f-b08d798d821f",
+          "request_seconds": 11.55665108282119,
+          "status": "completed",
+          "output_status": "insufficient_evidence",
+          "error_code": null,
+          "context_message_ids": [],
+          "retrieval_mode": "hybrid",
+          "provider": "ollama-local",
+          "model": "qwen3:0.6b",
+          "sources": [],
+          "model_selection": {
+            "status": "insufficient_evidence",
+            "evidence_ids": []
+          },
+          "retrieved_passage_ids": [
+            {
+              "omitted_string_sha256": "be7d36a2aee88a4170a02968b73d12a1366aa969f197020bbc8a2fdb6cd334cc",
+              "characters": 36
+            },
+            {
+              "omitted_string_sha256": "62811f43a6eaf1a9df7019c0dfd4af0f78508c766edf9929b1aaba0792606d89",
+              "characters": 36
+            },
+            {
+              "omitted_string_sha256": "87016f0ada160aba0a0406039e64d31c2d42262469edc691c959e1e37a0af6ea",
+              "characters": 36
+            },
+            {
+              "omitted_string_sha256": "5b4aa7808729f57ea7f0b12e98d29b3b09e01b6e62f471eb44beecebe10a68b5",
+              "characters": 36
+            },
+            {
+              "omitted_string_sha256": "b7447ec9d0e0afe11472dc2073d7e349530ecc352352fb40125f92369b118163",
+              "characters": 36
+            }
+          ],
+          "retrieval_timings_ms": {
+            "total": 1729.0242510061944,
+            "database": 425.0219579989789,
+            "embedding": 1303.9905009936774
+          },
+          "failure_stage": null,
+          "failure_type": null,
+          "upstream_operation_code": null,
+          "outcome_kind": "insufficient_evidence",
+          "model_usage": {
+            "input": 2288,
+            "output": 19,
+            "cacheRead": 0,
+            "reasoning": 0,
+            "cacheWrite": 0,
+            "totalTokens": 2307
+          },
+          "process_reaped": true,
+          "bridge_closed": true,
+          "tool_trace": [
+            {
+              "args": {
+                "query": {
+                  "omitted_string_sha256": "97b0560280ed60a5a1eaa1bc45492543c8a986ad5a25b468c427eb83c3e88191",
+                  "characters": 7
+                }
+              },
+              "tool": "search_transcripts",
+              "result": {
+                "mode": "hybrid",
+                "evidence_ids": [
+                  {
+                    "omitted_string_sha256": "22249aa61fd2594e50910aa574afbb977f9df8f7377e6f02e19c72245d899ad8",
+                    "characters": 2
+                  },
+                  {
+                    "omitted_string_sha256": "713a5bb2d170c8684937ab1dd0311be88e0d95fbd9b253333965841517794f64",
+                    "characters": 2
+                  },
+                  {
+                    "omitted_string_sha256": "183499aaeec2b9ca37bd647ae892902fd61b9a1dd8867a54287fd2c19ee97ed7",
+                    "characters": 2
+                  },
+                  {
+                    "omitted_string_sha256": "de793ba19330c40e4999ec96737972345b49f02f8189ef581ee32c95e422b473",
+                    "characters": 2
+                  },
+                  {
+                    "omitted_string_sha256": "ef099fcece6eeca3777d0d4a6ac606beb557e08dcd95cf93d0d42a0334329c10",
+                    "characters": 2
+                  },
+                  {
+                    "omitted_string_sha256": "b073b98568c2ff91549c889fd15dec963294e98dbce6ee38c9b5f3c6cd112515",
+                    "characters": 2
+                  },
+                  {
+                    "omitted_string_sha256": "a29d84f0185eac917b8cb0a675f3b0b12ab6fe6e8ee9a6a5902f05a3a5cb9fbd",
+                    "characters": 2
+                  },
+                  {
+                    "omitted_string_sha256": "a8d0a1117e28efe9d9bcd29833dd103ca8f1110f68e814dbff635c08c6d71907",
+                    "characters": 2
+                  },
+                  {
+                    "omitted_string_sha256": "2032ea400f77275bc6a9cb1a27d5d6603e2e8486110c6244f881c9026ee5194b",
+                    "characters": 2
+                  },
+                  {
+                    "omitted_string_sha256": "334908efbe3f2ca9f7c602d0121d0d4bef394130e1eb1ff21a1879a12b0bceb6",
+                    "characters": 3
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "essay": {
+        "id": "53678a4c-a818-4157-bdb5-dadd4df1b0b3",
+        "session_id": "417fcf18-82f9-4f57-962f-b08d798d821f",
+        "request_seconds": 53.522465417161584,
+        "status": "needs_review",
+        "error_code": null,
+        "word_count": 1216,
+        "validation": {
+          "errors": [],
+          "limits": {
+            "omitted_string_sha256": "66adaeb66aa66d97b6cf57236bf1fa41248b4d65675a7b3145f0d49bb36d6412",
+            "characters": 109
+          },
+          "bullets": 8,
+          "bold_spans": 1,
+          "word_count": 1216,
+          "citation_ids": [
+            {
+              "omitted_string_sha256": "3696ad59777e09d5f2daacb544022d435e7cd053d87c5781241fabd8fdf2a90d",
+              "characters": 2
+            },
+            {
+              "omitted_string_sha256": "adfa2b24c2d924fe6383d8804be55afb98ea3eb0e14c3470ac3a0f651b9a422e",
+              "characters": 2
+            },
+            {
+              "omitted_string_sha256": "44d6a8a73eddb284d49799fdbfa2919a004ece6d2df3546eaa4e246048bcdf81",
+              "characters": 2
+            },
+            {
+              "omitted_string_sha256": "b1d3eb8f32936fa9cf89d2240bd10734270fd55ff4644ad254b3b237468bad88",
+              "characters": 2
+            },
+            {
+              "omitted_string_sha256": "b12f76a4b782e4ae7f035b86a07cb43e638af9157e855af49c3945971d2af402",
+              "characters": 2
+            },
+            {
+              "omitted_string_sha256": "d53d113e9c01f4388af35632813ddb85902066795ecabba59ed24f483ad3db26",
+              "characters": 2
+            }
+          ],
+          "section_count": 6,
+          "accepted_range": [
+            1125,
+            1375
+          ],
+          "incomplete_sections": [],
+          "section_word_counts": [
+            201,
+            207,
+            153,
+            199,
+            165,
+            233
+          ],
+          "passed_deterministic": true,
+          "manual_review_required": true
+        },
+        "completed_sections": 6,
+        "model": "qwen3:1.7b",
+        "provider": "ollama-local",
+        "manual_edits": 0,
+        "review": "pending"
+      },
+      "isolation": null,
+      "browser": {
+        "at": {
+          "omitted_string_sha256": "3ad5bd7c176d4c625bc05b163a95ac13cb30cc661e9da7ec5e93debdab0627fa",
+          "characters": 32
+        },
+        "fixture": false,
+        "browser": "157.0.8103.38",
+        "checks": [
+          {
+            "width": 1440,
+            "session_id": "417fcf18-82f9-4f57-962f-b08d798d821f",
+            "source_focus_and_return": null,
+            "cited_messages_inspected": 0,
+            "artifact_preview": {
+              "omitted_string_sha256": "d5bd62adc96afed2e914fe2863dee048a40ce23bf787043a4ab2634241434b74",
+              "characters": 61
+            },
+            "no_overflow": true
+          },
+          {
+            "width": 390,
+            "session_id": "417fcf18-82f9-4f57-962f-b08d798d821f",
+            "source_focus_and_return": null,
+            "cited_messages_inspected": 0,
+            "artifact_preview": {
+              "omitted_string_sha256": "d5bd62adc96afed2e914fe2863dee048a40ce23bf787043a4ab2634241434b74",
+              "characters": 61
+            },
+            "no_overflow": true
+          }
+        ],
+        "page_errors": [],
+        "console_errors": [],
+        "model_calls": 0,
+        "writes": []
+      }
+    },
+    {
+      "scenario": {
+        "omitted_string_sha256": "31cbfc86de0545a2894e86cbcf7e11270cc2dcdf881d710e250e1695f1a57fdf",
+        "characters": 7
+      },
+      "review": {
+        "scenario_id": {
+          "omitted_string_sha256": "31cbfc86de0545a2894e86cbcf7e11270cc2dcdf881d710e250e1695f1a57fdf",
+          "characters": 7
+        },
+        "attempt": {
+          "omitted_string_sha256": "e10538970d7444d7ba66ce5cb13bea4ea867dfa888fd783b3a7c036c92a26cdf",
+          "characters": 20
+        },
+        "started_at": "2026-11-07T19:39:47.974646+00:00",
+        "started_at_ist": {
+          "omitted_string_sha256": "98cecced30c4e20c04f39057ec5eaee16cab9311805fb668df9ba9a56d16bdfd",
+          "characters": 32
+        },
+        "review_ended_at": {
+          "omitted_string_sha256": "66b19df205d73620598dd14c216e654bd06d3b40cb84779f4b1bf76af79fd12d",
+          "characters": 32
+        },
+        "review_ended_at_ist": {
+          "omitted_string_sha256": "cf6eb825149ab8e3944e1783ff66d41df9168d28239e3fd4947c87c92cdb42f8",
+          "characters": 32
+        },
+        "task_seconds_including_review": 113.327,
+        "duration_cap": 360,
+        "within_cap": true,
+        "transport_pass": true,
+        "browser_pass": true,
+        "semantic_pass": false,
+        "passed": false,
+        "criteria": {
+          "independent_sessions": true,
+          "marker_exclusion": true,
+          "restart_reopen": true,
+          "listening_resources_in_candidate_packet": true,
+          "questions_answered": false,
+          "artifact_render_reopen": true,
+          "artifact_relevant": false
+        },
+        "direct_review_notes": {
+          "omitted_string_sha256": "0b568e3b62f3cbe8432440da8341e8bd660c88917dc24d522f281aa39df57367",
+          "characters": 450
+        },
+        "reviewer": {
+          "omitted_string_sha256": "4e03399a174616f5531dd775e3412019ebeb68422a0dc7e245002692b49c89f6",
+          "characters": 87
+        },
+        "session_ids": [
+          {
+            "omitted_string_sha256": "081f37702f3acee38da550d7a033e60ab0da0f92b971f4afb3d2f89bc026f5d6",
+            "characters": 36
+          },
+          {
+            "omitted_string_sha256": "75c15c05c3bf6eb377de4dc9fa46c90be948362c8df9cc93908ff49b0435138a",
+            "characters": 36
+          }
+        ],
+        "passage_ids": [],
+        "evidence_directory": {
+          "omitted_string_sha256": "64bce9b1d44c0a1aee613e64780caf40878d2badfadab1d94e9f5aa7957a1fb7",
+          "characters": 35
+        },
+        "raw_outputs_preserved": true
+      },
+      "answers": [
+        {
+          "name": "session-a",
+          "run_id": "fbd8eb59-bfb0-4871-90cf-d7b5f774d42c",
+          "session_id": "fbac987e-5895-4251-bf15-317320f877db",
+          "request_seconds": 7.060583208221942,
+          "status": "completed",
+          "output_status": "insufficient_evidence",
+          "error_code": null,
+          "context_message_ids": [],
+          "retrieval_mode": "hybrid",
+          "provider": "ollama-local",
+          "model": "qwen3:0.6b",
+          "sources": [],
+          "model_selection": {
+            "status": "insufficient_evidence",
+            "evidence_ids": []
+          },
+          "retrieved_passage_ids": [
+            {
+              "omitted_string_sha256": "00b21045b689e552ad88b799bd479b7517666a43cc8b938cf23a1505b20c9ab6",
+              "characters": 36
+            },
+            {
+              "omitted_string_sha256": "b8a7faaa0cd6df9c0cd7ce3f77798993ed22a328a824363fbdd90b554863c2eb",
+              "characters": 36
+            },
+            {
+              "omitted_string_sha256": "87016f0ada160aba0a0406039e64d31c2d42262469edc691c959e1e37a0af6ea",
+              "characters": 36
+            },
+            {
+              "omitted_string_sha256": "84ac7d945260865183e1d5275b927b9d567b8f2d52d1dedb570985a8fd8ddba6",
+              "characters": 36
+            },
+            {
+              "omitted_string_sha256": "69c74781e1c3199663e73649e1f104315a63a10555ea9265984918c29f9a16d6",
+              "characters": 36
+            }
+          ],
+          "retrieval_timings_ms": {
+            "total": 1201.0131669958355,
+            "database": 518.5705830081133,
+            "embedding": 682.4314580007922
+          },
+          "failure_stage": null,
+          "failure_type": null,
+          "upstream_operation_code": null,
+          "outcome_kind": "insufficient_evidence",
+          "model_usage": {
+            "input": 1848,
+            "output": 18,
+            "cacheRead": 0,
+            "reasoning": 0,
+            "cacheWrite": 0,
+            "totalTokens": 1866
+          },
+          "process_reaped": true,
+          "bridge_closed": true,
+          "tool_trace": [
+            {
+              "args": {
+                "query": {
+                  "omitted_string_sha256": "97b0560280ed60a5a1eaa1bc45492543c8a986ad5a25b468c427eb83c3e88191",
+                  "characters": 7
+                }
+              },
+              "tool": "search_transcripts",
+              "result": {
+                "mode": "hybrid",
+                "evidence_ids": [
+                  {
+                    "omitted_string_sha256": "22249aa61fd2594e50910aa574afbb977f9df8f7377e6f02e19c72245d899ad8",
+                    "characters": 2
+                  },
+                  {
+                    "omitted_string_sha256": "713a5bb2d170c8684937ab1dd0311be88e0d95fbd9b253333965841517794f64",
+                    "characters": 2
+                  },
+                  {
+                    "omitted_string_sha256": "183499aaeec2b9ca37bd647ae892902fd61b9a1dd8867a54287fd2c19ee97ed7",
+                    "characters": 2
+                  },
+                  {
+                    "omitted_string_sha256": "de793ba19330c40e4999ec96737972345b49f02f8189ef581ee32c95e422b473",
+                    "characters": 2
+                  },
+                  {
+                    "omitted_string_sha256": "ef099fcece6eeca3777d0d4a6ac606beb557e08dcd95cf93d0d42a0334329c10",
+                    "characters": 2
+                  },
+                  {
+                    "omitted_string_sha256": "b073b98568c2ff91549c889fd15dec963294e98dbce6ee38c9b5f3c6cd112515",
+                    "characters": 2
+                  },
+                  {
+                    "omitted_string_sha256": "a29d84f0185eac917b8cb0a675f3b0b12ab6fe6e8ee9a6a5902f05a3a5cb9fbd",
+                    "characters": 2
+                  },
+                  {
+                    "omitted_string_sha256": "a8d0a1117e28efe9d9bcd29833dd103ca8f1110f68e814dbff635c08c6d71907",
+                    "characters": 2
+                  },
+                  {
+                    "omitted_string_sha256": "2032ea400f77275bc6a9cb1a27d5d6603e2e8486110c6244f881c9026ee5194b",
+                    "characters": 2
+                  },
+                  {
+                    "omitted_string_sha256": "334908efbe3f2ca9f7c602d0121d0d4bef394130e1eb1ff21a1879a12b0bceb6",
+                    "characters": 3
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "session-b",
+          "run_id": "5fb00fd1-442f-4642-8076-be276f206530",
+          "session_id": "d1bd5daa-8225-4f98-8a29-6387ace63ec9",
+          "request_seconds": 6.864420708734542,
+          "status": "completed",
+          "output_status": "insufficient_evidence",
+          "error_code": null,
+          "context_message_ids": [],
+          "retrieval_mode": "hybrid",
+          "provider": "ollama-local",
+          "model": "qwen3:0.6b",
+          "sources": [],
+          "model_selection": {
+            "status": "insufficient_evidence",
+            "evidence_ids": []
+          },
+          "retrieved_passage_ids": [
+            {
+              "omitted_string_sha256": "507ac29f95104fb8593ebca8fd6813549262b0d43ab1b676d27665bee6761082",
+              "characters": 36
+            },
+            {
+              "omitted_string_sha256": "c39001e0c194b22160bb32b536afbc15b9dabaa43a538bb8617f3931ce70fd5b",
+              "characters": 36
+            },
+            {
+              "omitted_string_sha256": "35e9fe887ef5e09fa676b714a4a34e2e46740448939d50c75d9d53dd65ad53ba",
+              "characters": 36
+            },
+            {
+              "omitted_string_sha256": "06fcf5efc7304deb0301c29d636fda46a872a7417e26098d9a22dfdda3ed48be",
+              "characters": 36
+            },
+            {
+              "omitted_string_sha256": "cc14f1b4adc7076b44d4ea1d4c5ca5fd1fc0063f5fdfde64948393c0562d1587",
+              "characters": 36
+            }
+          ],
+          "retrieval_timings_ms": {
+            "total": 748.2509580004262,
+            "database": 104.16670898848679,
+            "embedding": 644.0708750014892
+          },
+          "failure_stage": null,
+          "failure_type": null,
+          "upstream_operation_code": null,
+          "outcome_kind": "insufficient_evidence",
+          "model_usage": {
+            "input": 2135,
+            "output": 18,
+            "cacheRead": 0,
+            "reasoning": 0,
+            "cacheWrite": 0,
+            "totalTokens": 2153
+          },
+          "process_reaped": true,
+          "bridge_closed": true,
+          "tool_trace": [
+            {
+              "args": {
+                "query": {
+                  "omitted_string_sha256": "97b0560280ed60a5a1eaa1bc45492543c8a986ad5a25b468c427eb83c3e88191",
+                  "characters": 7
+                }
+              },
+              "tool": "search_transcripts",
+              "result": {
+                "mode": "hybrid",
+                "evidence_ids": [
+                  {
+                    "omitted_string_sha256": "22249aa61fd2594e50910aa574afbb977f9df8f7377e6f02e19c72245d899ad8",
+                    "characters": 2
+                  },
+                  {
+                    "omitted_string_sha256": "713a5bb2d170c8684937ab1dd0311be88e0d95fbd9b253333965841517794f64",
+                    "characters": 2
+                  },
+                  {
+                    "omitted_string_sha256": "183499aaeec2b9ca37bd647ae892902fd61b9a1dd8867a54287fd2c19ee97ed7",
+                    "characters": 2
+                  },
+                  {
+                    "omitted_string_sha256": "de793ba19330c40e4999ec96737972345b49f02f8189ef581ee32c95e422b473",
+                    "characters": 2
+                  },
+                  {
+                    "omitted_string_sha256": "ef099fcece6eeca3777d0d4a6ac606beb557e08dcd95cf93d0d42a0334329c10",
+                    "characters": 2
+                  },
+                  {
+                    "omitted_string_sha256": "b073b98568c2ff91549c889fd15dec963294e98dbce6ee38c9b5f3c6cd112515",
+                    "characters": 2
+                  },
+                  {
+                    "omitted_string_sha256": "a29d84f0185eac917b8cb0a675f3b0b12ab6fe6e8ee9a6a5902f05a3a5cb9fbd",
+                    "characters": 2
+                  },
+                  {
+                    "omitted_string_sha256": "a8d0a1117e28efe9d9bcd29833dd103ca8f1110f68e814dbff635c08c6d71907",
+                    "characters": 2
+                  },
+                  {
+                    "omitted_string_sha256": "2032ea400f77275bc6a9cb1a27d5d6603e2e8486110c6244f881c9026ee5194b",
+                    "characters": 2
+                  },
+                  {
+                    "omitted_string_sha256": "334908efbe3f2ca9f7c602d0121d0d4bef394130e1eb1ff21a1879a12b0bceb6",
+                    "characters": 3
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "essay": null,
+      "isolation": {
+        "distinct_sessions": true,
+        "b_no_prior_context": true,
+        "marker_absent_from_b": true,
+        "restart_check": "pending"
+      },
+      "browser": {
+        "at": {
+          "omitted_string_sha256": "952c4b78d55c8316366eda1a35b87c5675842a1e134ef4cb452629590832a134",
+          "characters": 32
+        },
+        "fixture": false,
+        "browser": "157.0.8103.38",
+        "checks": [
+          {
+            "width": 1440,
+            "session_id": "fbac987e-5895-4251-bf15-317320f877db",
+            "source_focus_and_return": null,
+            "cited_messages_inspected": 0,
+            "artifact_preview": "pass",
+            "no_overflow": true
+          },
+          {
+            "width": 1440,
+            "session_id": "d1bd5daa-8225-4f98-8a29-6387ace63ec9",
+            "source_focus_and_return": null,
+            "cited_messages_inspected": 0,
+            "artifact_preview": "pass",
+            "no_overflow": true
+          },
+          {
+            "width": 390,
+            "session_id": "fbac987e-5895-4251-bf15-317320f877db",
+            "source_focus_and_return": null,
+            "cited_messages_inspected": 0,
+            "artifact_preview": "pass",
+            "no_overflow": true
+          },
+          {
+            "width": 390,
+            "session_id": "d1bd5daa-8225-4f98-8a29-6387ace63ec9",
+            "source_focus_and_return": null,
+            "cited_messages_inspected": 0,
+            "artifact_preview": "pass",
+            "no_overflow": true
+          }
+        ],
+        "page_errors": [],
+        "console_errors": [],
+        "model_calls": 0,
+        "writes": []
+      },
+      "restart_proof": {
+        "same_sessions_messages_artifacts_and_sources": true,
+        "session_ids": [
+          {
+            "omitted_string_sha256": "081f37702f3acee38da550d7a033e60ab0da0f92b971f4afb3d2f89bc026f5d6",
+            "characters": 36
+          },
+          {
+            "omitted_string_sha256": "75c15c05c3bf6eb377de4dc9fa46c90be948362c8df9cc93908ff49b0435138a",
+            "characters": 36
+          }
+        ],
+        "readiness_http": 200,
+        "snapshot_sha256": {
+          "omitted_string_sha256": "355c70225c3818be3c0fb328541b859b824e66b66f12a2e6f2129a5de57baffd",
+          "characters": 64
+        }
+      }
+    },
+    {
+      "scenario": {
+        "omitted_string_sha256": "8cd368d3f484e124bc0be6a989acdec94a1b5ad9e8ea97781ec3bddb0d5ec66c",
+        "characters": 7
+      },
+      "review": {
+        "scenario_id": {
+          "omitted_string_sha256": "8cd368d3f484e124bc0be6a989acdec94a1b5ad9e8ea97781ec3bddb0d5ec66c",
+          "characters": 7
+        },
+        "attempt": {
+          "omitted_string_sha256": "e10538970d7444d7ba66ce5cb13bea4ea867dfa888fd783b3a7c036c92a26cdf",
+          "characters": 20
+        },
+        "started_at": "2026-11-07T19:41:41.929502+00:00",
+        "started_at_ist": {
+          "omitted_string_sha256": "54a086a06c5895609564b825d0472f6fa6027d3df0df35a64a1977dba488b659",
+          "characters": 32
+        },
+        "review_ended_at": {
+          "omitted_string_sha256": "e04fa52d4d951bcc6009c293adb1431246f38c0bd4e58955ba4d423de7a013f3",
+          "characters": 32
+        },
+        "review_ended_at_ist": {
+          "omitted_string_sha256": "92e7250ef90643e0bd65cf30be435772f7a534241c7f1d48ca6ad6901e60d8df",
+          "characters": 32
+        },
+        "task_seconds_including_review": 199.71,
+        "duration_cap": 240,
+        "within_cap": true,
+        "transport_pass": false,
+        "browser_pass": false,
+        "semantic_pass": false,
+        "passed": false,
+        "criteria": {
+          "typed_retrieval_failure": true,
+          "safe_correlated_error_log": true,
+          "unsupported_request_completed": false,
+          "supported_reformulation_answered": false,
+          "artifact_api_reopen": true,
+          "saved_failure_explanation_visible": false,
+          "browser_check": {
+            "omitted_string_sha256": "77d4abc19f564bae899f7d74eb0b037bbb68cc883f278f903773f38e95e2bef9",
+            "characters": 28
+          }
+        },
+        "direct_review_notes": {
+          "omitted_string_sha256": "33136400948ce13aec0b8b166fb6cdcd8b9992802574c6c1f856820aa007a343",
+          "characters": 612
+        },
+        "reviewer": {
+          "omitted_string_sha256": "4e03399a174616f5531dd775e3412019ebeb68422a0dc7e245002692b49c89f6",
+          "characters": 87
+        },
+        "session_ids": [
+          {
+            "omitted_string_sha256": "81f4f89d23ad85bc02cdd8980d6aaa1da6cc99f8d7f2c8e65f64c94a330ce331",
+            "characters": 36
+          }
+        ],
+        "passage_ids": [],
+        "evidence_directory": {
+          "omitted_string_sha256": "87ab9bdded32fa71565573572a5b1fa3bc685b86107afe59ba892a201a538c6a",
+          "characters": 35
+        },
+        "raw_outputs_preserved": true
+      },
+      "answers": [
+        {
+          "name": "unsupported",
+          "run_id": "c9f6b2b0-448a-4bf0-8adf-fb8677b75f48",
+          "session_id": "e7aa6fd8-6433-40e4-807b-f714028e1403",
+          "request_seconds": 5.55841770907864,
+          "status": "failed",
+          "output_status": null,
+          "error_code": "retrieval_timeout",
+          "context_message_ids": [],
+          "retrieval_mode": "hybrid",
+          "provider": "ollama-local",
+          "model": "qwen3:0.6b",
+          "sources": [],
+          "model_selection": null,
+          "retrieved_passage_ids": null,
+          "retrieval_timings_ms": null,
+          "failure_stage": {
+            "omitted_string_sha256": "6e51d6a3d90b6a3243d38e6da6b3f31f49867c1360beba83da8ca9630f9672c7",
+            "characters": 9
+          },
+          "failure_type": {
+            "omitted_string_sha256": "6ce4b0eea0a6252e67135b00a98016ac56d3931f99ebacad992c55acdc25bd14",
+            "characters": 16
+          },
+          "upstream_operation_code": {
+            "omitted_string_sha256": "dd6747cf680dae05889f1ab4af2f6ef5df569602aa1a5ff6f4e28878dd64d8ae",
+            "characters": 12
+          },
+          "outcome_kind": {
+            "omitted_string_sha256": "5ad3c8771d59001fb0a6dd25e96b8d120600a1ce06109dafe44359c07c94316d",
+            "characters": 15
+          },
+          "model_usage": null,
+          "process_reaped": true,
+          "bridge_closed": true,
+          "tool_trace": null
+        },
+        {
+          "name": "reformulation",
+          "run_id": "251cd5b7-7c5f-4a31-b77d-ab65c9bcd176",
+          "session_id": "e7aa6fd8-6433-40e4-807b-f714028e1403",
+          "request_seconds": 5.976427165791392,
+          "status": "completed",
+          "output_status": "insufficient_evidence",
+          "error_code": null,
+          "context_message_ids": [],
+          "retrieval_mode": "hybrid",
+          "provider": "ollama-local",
+          "model": "qwen3:0.6b",
+          "sources": [],
+          "model_selection": {
+            "status": "insufficient_evidence",
+            "evidence_ids": []
+          },
+          "retrieved_passage_ids": [
+            {
+              "omitted_string_sha256": "00b21045b689e552ad88b799bd479b7517666a43cc8b938cf23a1505b20c9ab6",
+              "characters": 36
+            },
+            {
+              "omitted_string_sha256": "b208607f2757db48e8b5185af86baba98a4265e4d76558a1ac1f04ff9af8cfb9",
+              "characters": 36
+            },
+            {
+              "omitted_string_sha256": "69c74781e1c3199663e73649e1f104315a63a10555ea9265984918c29f9a16d6",
+              "characters": 36
+            },
+            {
+              "omitted_string_sha256": "bd263741b13cc3f26c5946f9ab5cd143c2baa53aadb4be5b3d2e5fed2f0c6c24",
+              "characters": 36
+            },
+            {
+              "omitted_string_sha256": "c8d2b19f46550a8b7408e546d276e8b1f87864fd633fb10c608ce82dcdab8582",
+              "characters": 36
+            }
+          ],
+          "retrieval_timings_ms": {
+            "total": 805.6871669978136,
+            "database": 166.78766699624248,
+            "embedding": 638.8565829984145
+          },
+          "failure_stage": null,
+          "failure_type": null,
+          "upstream_operation_code": null,
+          "outcome_kind": "insufficient_evidence",
+          "model_usage": {
+            "input": 1847,
+            "output": 19,
+            "cacheRead": 0,
+            "reasoning": 0,
+            "cacheWrite": 0,
+            "totalTokens": 1866
+          },
+          "process_reaped": true,
+          "bridge_closed": true,
+          "tool_trace": [
+            {
+              "args": {
+                "query": {
+                  "omitted_string_sha256": "97b0560280ed60a5a1eaa1bc45492543c8a986ad5a25b468c427eb83c3e88191",
+                  "characters": 7
+                }
+              },
+              "tool": "search_transcripts",
+              "result": {
+                "mode": "hybrid",
+                "evidence_ids": [
+                  {
+                    "omitted_string_sha256": "22249aa61fd2594e50910aa574afbb977f9df8f7377e6f02e19c72245d899ad8",
+                    "characters": 2
+                  },
+                  {
+                    "omitted_string_sha256": "713a5bb2d170c8684937ab1dd0311be88e0d95fbd9b253333965841517794f64",
+                    "characters": 2
+                  },
+                  {
+                    "omitted_string_sha256": "183499aaeec2b9ca37bd647ae892902fd61b9a1dd8867a54287fd2c19ee97ed7",
+                    "characters": 2
+                  },
+                  {
+                    "omitted_string_sha256": "de793ba19330c40e4999ec96737972345b49f02f8189ef581ee32c95e422b473",
+                    "characters": 2
+                  },
+                  {
+                    "omitted_string_sha256": "ef099fcece6eeca3777d0d4a6ac606beb557e08dcd95cf93d0d42a0334329c10",
+                    "characters": 2
+                  },
+                  {
+                    "omitted_string_sha256": "b073b98568c2ff91549c889fd15dec963294e98dbce6ee38c9b5f3c6cd112515",
+                    "characters": 2
+                  },
+                  {
+                    "omitted_string_sha256": "a29d84f0185eac917b8cb0a675f3b0b12ab6fe6e8ee9a6a5902f05a3a5cb9fbd",
+                    "characters": 2
+                  },
+                  {
+                    "omitted_string_sha256": "a8d0a1117e28efe9d9bcd29833dd103ca8f1110f68e814dbff635c08c6d71907",
+                    "characters": 2
+                  },
+                  {
+                    "omitted_string_sha256": "2032ea400f77275bc6a9cb1a27d5d6603e2e8486110c6244f881c9026ee5194b",
+                    "characters": 2
+                  },
+                  {
+                    "omitted_string_sha256": "334908efbe3f2ca9f7c602d0121d0d4bef394130e1eb1ff21a1879a12b0bceb6",
+                    "characters": 3
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "essay": null,
+      "isolation": null
+    }
+  ]
+}

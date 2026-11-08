@@ -11,8 +11,14 @@
         "checks": {
           "database": {
             "ready": true,
-            "schema_revision": "0002_ingestion",
-            "pgvector_version": "0.8.7"
+            "schema_revision": {
+              "omitted_string_sha256": "09b3904b414acc8a6eda9f7b06f4b58dcd4d7a34ad0421ae6ae37a7e35a3d041",
+              "characters": 14
+            },
+            "pgvector_version": {
+              "omitted_string_sha256": "e4369c730413d6871f29fa8a24a8f397e6a790e374b1283c9f76f780535415e3",
+              "characters": 5
+            }
           },
           "corpus": {
             "ready": true,
@@ -33,7 +39,10 @@
             "embedding_model_available": true,
             "embedding_dimensions_compatible": true,
             "index_identity_compatible": true,
-            "note": "Transport and installed-model availability; does not prove answer or essay quality."
+            "note": {
+              "omitted_string_sha256": "e794244e901e453b7c7e944b4a3b9e0413be67a054586c47282d7b7f0d7a4ebc",
+              "characters": 83
+            }
           }
         }
       }
@@ -59,7 +68,10 @@
           "database": 34.857459000704694,
           "total": 184.84729200008587
         },
-        "embedding_digest": "0a109f422b47e3a30ba2b10eca18548e944e8a23073ee3f3e947efcf3c45e59f"
+        "embedding_digest": {
+          "omitted_string_sha256": "d686ef27471bc55fec611d1a4790e465145fee90e45ff85c9fb498225307fbdb",
+          "characters": 64
+        }
       }
     },
     {
@@ -82,8 +94,14 @@
       "passed": true,
       "detail": {
         "message_count": 6,
-        "message_digest": "85bac40d62cc4e214eb3ef4ba8d8d3b09b546b143bd19cdc09d41d25c14b3f02",
-        "session_digest": "7404c0e197945a1fdf57d84df6e7ee6522fea1f47a8789a79fc5e9e2712637b4",
+        "message_digest": {
+          "omitted_string_sha256": "7b6a40c21fc09dbcc680cdc9a0630e701a287e44c0fd1628b04a67d5d9d21377",
+          "characters": 64
+        },
+        "session_digest": {
+          "omitted_string_sha256": "83fa2262b1166c3bd88d7f198a29dcf941200687abff80e5fa1d1874bb86a5e3",
+          "characters": 64
+        },
         "all_active_source_spans_vectors_valid": true
       }
     },
@@ -103,5 +121,8 @@
     }
   ],
   "passed": true,
-  "limits": "No browser, generated answer or semantic support claim."
+  "limits": {
+    "omitted_string_sha256": "bda02749ca81b11c256ba18db8557c9ba66554febdd960bd8dec621a509f5ca2",
+    "characters": 55
+  }
 }

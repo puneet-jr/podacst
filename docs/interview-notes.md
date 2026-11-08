@@ -1,0 +1,14 @@
+# Candidate interview notes
+
+Base `f89807d8db16c20e652590a6470810e5eb60b078`; prepared export has evidence/doc changes only. No release recommendation while semantic workflows remain blocked.
+
+- **User/job:** recover trustworthy product/growth evidence and turn it into a reviewed playbook without losing the original source. The source inspector and saved reader matter more than an unsupported polished answer.
+- **Architecture:** React → FastAPI → controlled Pi adapter → explicit model provider. PostgreSQL owns independent sessions, messages, immutable citation snapshots and artifacts. Hybrid sparse/vector retrieval uses the pinned corpus and compatible Nomic vectors. Server owns facts/citations; models supply bounded selection/advice. No default shell/files/web agent tools.
+- **Measured product target:** original full-index scenarios 0/5; bounded attempt 0/5 against proposed 4/5. The bounded attempt was quarantined. Recall@8 56.25% tuning / 81.25% observed held-out. These are actual failures, not company-specified thresholds or user-study results.
+- **Trade-off:** one PostgreSQL retrieval/persistence service simplifies an 8 GiB M2 setup compared with another graph service. Tiny local models preserve local inference and cost but select incomplete evidence and write weak prose. Cloud is opt-in, visible and never hidden fallback.
+- **Specific failure:** Prompt 12 retrieved the Lookout result, but top-two lexical sentence packing omitted it before Pi. Fix evidence coverage at that boundary first; ranking changes are not justified by this trace. A literal supported quote can still be the wrong answer.
+- **Essay boundary:** the reviewed 1,208-word result required six advice and three source-span edits. Raw 1,157-word Phase 11 draft passes deterministic count/IDs but fails complete claims/readability. Assisted workflow works; autonomous quality unverified/failed on saved examples.
+- **Corrections already verified:** OpenRouter's second-call HTTP 400 was fixed by removing only the inappropriate JSON response-format flag; native tool call/result serialization was retained. Restart smoke helper was corrected to tolerate transient disconnect while polling. These are historical facts, not a new cloud pair pass.
+- **Operational proof:** isolated README clean checkout/fresh volumes, 120 backend contracts, frontend/Node checks, restart/reopen and actual browser artifact containment. Cache/model reuse is disclosed. Full normal 303/12,770 index and saved work preserved.
+- **Current cloud limit:** exhausted key limit/non-positive account credit. No paid inference attempted; current-candidate cloud question/follow-up remains pending.
+- **Handoff:** smallest fix plus focused regression and the same real pair; independent full-index acceptance including unsupported requests and one raw essay; complete sanitized coding export; rights/deadline/access review; separately authorized publication and camera recording/upload/submission.

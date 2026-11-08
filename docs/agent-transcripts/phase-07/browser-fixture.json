@@ -1,0 +1,54 @@
+{
+  "captured_at": "2026-11-06T21:34:02.199973+00:00",
+  "browser": "fresh isolated headless Chrome 157.0.8103.38",
+  "fixture_provenance": {
+    "omitted_string_sha256": "8faf334361d956e51a04d180a57ef14f21bfd263bb25ca2147cd23db5099508b",
+    "characters": 53
+  },
+  "artifact_checks": [
+    {
+      "type": "markdown",
+      "artifact_id": {
+        "omitted_string_sha256": "8fc33dc477ab19c7e10e9dd103fec8eb40c443bfd46a9d84c97d5a4bd28deb74",
+        "characters": 36
+      },
+      "headings": 6,
+      "literal_citation_present": true,
+      "sandbox_empty": true
+    },
+    {
+      "type": "html",
+      "artifact_id": {
+        "omitted_string_sha256": "635fb14bdd7e413be6db0762686756f2338405e41edd0dab80ad2fa1fbfdb698",
+        "characters": 36
+      },
+      "headings": 6,
+      "literal_citation_present": true,
+      "sandbox_empty": true
+    }
+  ],
+  "citation_source_opened": {
+    "omitted_string_sha256": "0bdde95f6e4f3241192131cd9a6f9370fde81c6000db385128a1296a375fdd08",
+    "characters": 36
+  },
+  "hostile_html": {
+    "script_not_executed": true,
+    "parent_not_modified": true,
+    "parent_css_unchanged": true,
+    "external_requests": [],
+    "dialogs": [],
+    "popups": 0,
+    "navigation_unchanged": true,
+    "forms_frames_svg_links_removed": true
+  },
+  "page_errors": [],
+  "console": [],
+  "in_app_connector": {
+    "omitted_string_sha256": "33916492d42b765024392b0688859165e4d5d888b7d363dfdd426ecc8dc74982",
+    "characters": 84
+  },
+  "limitations": {
+    "omitted_string_sha256": "211c25cc26cf96e72432de9933235b1c87b9c7ae3496bba5e5a30bb5bbe04ee6",
+    "characters": 111
+  }
+}

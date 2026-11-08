@@ -1,0 +1,191 @@
+{
+  "session_id": "d65a0a25-f014-4c95-a752-4b7c4cd314e8",
+  "provider": "ollama-local",
+  "model": "qwen3:0.6b",
+  "essay_model": "qwen3:1.7b",
+  "corpus": {
+    "ready": true,
+    "status": "partial",
+    "active_chunks": 112,
+    "active_episodes": 3,
+    "discovered": 303
+  },
+  "answers": [
+    {
+      "name": "question",
+      "question": {
+        "omitted_string_sha256": "ebc573ac8fdf889770b196d9d89a30e9811b45afddfe18fa46a7a19a8a2a9dd7",
+        "characters": 49
+      },
+      "run_id": "79bedcd5-e215-4b0b-b21e-c22c92ce98a8",
+      "status": "completed",
+      "output_status": {
+        "omitted_string_sha256": "68c780cd132a0299c7cd3fa8649783cbc2872a98d90cd4ed6b9696e3c61c4c68",
+        "characters": 8
+      },
+      "message_id": "c0d494b1-49d3-5d8b-afa2-9d65640f2a88",
+      "context_message_ids": [],
+      "seconds": 6.8366154581308365,
+      "sources": [
+        {
+          "label": "S1",
+          "chunk_id": "9d370308-1dd5-5657-bdf5-f159a62ce159",
+          "source_hash": "6af2a6e031826805e855ec262b1f228e3773b5b99265a1d01870f0d4e6e9ceda",
+          "exact_spans": true
+        }
+      ],
+      "error_code": null
+    },
+    {
+      "name": "follow-up",
+      "question": {
+        "omitted_string_sha256": "27f842f51f145080aefb6d4b41fd97087da9108dc43763cc28ad8c228d167232",
+        "characters": 42
+      },
+      "run_id": "5ddef46b-c823-4a46-bc16-cd15e058d45a",
+      "status": "completed",
+      "output_status": {
+        "omitted_string_sha256": "68c780cd132a0299c7cd3fa8649783cbc2872a98d90cd4ed6b9696e3c61c4c68",
+        "characters": 8
+      },
+      "message_id": "08dc7f53-3bbb-573b-a2aa-ccbb951d2170",
+      "context_message_ids": [
+        {
+          "omitted_string_sha256": "9c784a1ae75d169d495e81453f8727c00fe67235066aa02d5832a150bf9ee42f",
+          "characters": 36
+        }
+      ],
+      "seconds": 5.032600374892354,
+      "sources": [
+        {
+          "label": "S2",
+          "chunk_id": "53054eb0-beee-5be4-b2f1-99ca9b2eac2d",
+          "source_hash": "6af2a6e031826805e855ec262b1f228e3773b5b99265a1d01870f0d4e6e9ceda",
+          "exact_spans": true
+        }
+      ],
+      "error_code": null
+    }
+  ],
+  "artifacts": [
+    {
+      "id": "4dda84f4-1bd1-4110-8558-93570863e3ca",
+      "type": "markdown",
+      "sha256": "0772dd0230121ea8c1dd039856022af175399e3f542e67d90c95bc3a55fd3239"
+    },
+    {
+      "id": "2b71ca95-06d2-4733-a250-22de43761439",
+      "type": "html",
+      "sha256": "827a53cb5b1da5f665f9a53c2cb722a52cd45e5f22565956ce4c019a482465d0"
+    }
+  ],
+  "essay": {
+    "id": "c2cdcc20-e540-4f77-8dc1-519e41de2aea",
+    "status": "needs_review",
+    "error_code": null,
+    "seconds": 46.6498612081632,
+    "validation": {
+      "errors": [],
+      "limits": {
+        "omitted_string_sha256": "66adaeb66aa66d97b6cf57236bf1fa41248b4d65675a7b3145f0d49bb36d6412",
+        "characters": 109
+      },
+      "bullets": 8,
+      "bold_spans": 1,
+      "word_count": 1157,
+      "citation_ids": [
+        {
+          "omitted_string_sha256": "3696ad59777e09d5f2daacb544022d435e7cd053d87c5781241fabd8fdf2a90d",
+          "characters": 2
+        },
+        {
+          "omitted_string_sha256": "adfa2b24c2d924fe6383d8804be55afb98ea3eb0e14c3470ac3a0f651b9a422e",
+          "characters": 2
+        },
+        {
+          "omitted_string_sha256": "44d6a8a73eddb284d49799fdbfa2919a004ece6d2df3546eaa4e246048bcdf81",
+          "characters": 2
+        },
+        {
+          "omitted_string_sha256": "1cdcbd57e7e20491d8be5ff46549aac5f9c117320a164a49ebc4f1439a741d76",
+          "characters": 2
+        },
+        {
+          "omitted_string_sha256": "b12f76a4b782e4ae7f035b86a07cb43e638af9157e855af49c3945971d2af402",
+          "characters": 2
+        },
+        {
+          "omitted_string_sha256": "d53d113e9c01f4388af35632813ddb85902066795ecabba59ed24f483ad3db26",
+          "characters": 2
+        }
+      ],
+      "section_count": 6,
+      "accepted_range": [
+        1125,
+        1375
+      ],
+      "incomplete_sections": [],
+      "section_word_counts": [
+        142,
+        213,
+        155,
+        159,
+        253,
+        188
+      ],
+      "passed_deterministic": true,
+      "manual_review_required": true
+    },
+    "manual_edits": 0,
+    "accepted": false,
+    "review": {
+      "omitted_string_sha256": "85e48fc35d7a019a0b2e1a4c358f403d63d8ef7cb43f49da72f775b604f074dc",
+      "characters": 58
+    }
+  },
+  "semantic_review_file": {
+    "omitted_string_sha256": "5b7bcd7ca8bde1ac63449ed325d3f3cb06b19e98e21b470b8e72a506bbd82bc5",
+    "characters": 16
+  },
+  "reopen": {
+    "reopen_pass": true,
+    "objects_checked": 7,
+    "snapshot_sha256": {
+      "omitted_string_sha256": "3f5e4921b27ebb1fc5e78ab01077acf03ef23c91bf15590d07df7b0670ad8fbb",
+      "characters": 64
+    },
+    "session_id": "d65a0a25-f014-4c95-a752-4b7c4cd314e8"
+  },
+  "browser": {
+    "fixture": false,
+    "new_model_calls": 0,
+    "actual_api_session_creation": 1,
+    "checks": [
+      {
+        "width": 1440,
+        "home_and_example": true,
+        "session_field_focus": true,
+        "composer_visible": true,
+        "model_disclosure": true,
+        "cited_replies_inspected": 2,
+        "markdown_html_previews": true,
+        "raw_essay_visible": true,
+        "no_overflow": true
+      },
+      {
+        "width": 390,
+        "home_and_example": true,
+        "session_field_focus": true,
+        "composer_visible": true,
+        "model_disclosure": true,
+        "cited_replies_inspected": 2,
+        "markdown_html_previews": true,
+        "raw_essay_visible": true,
+        "no_overflow": true
+      }
+    ],
+    "page_errors": [],
+    "console_errors": []
+  },
+  "full_corpus_quality_claim": false
+}

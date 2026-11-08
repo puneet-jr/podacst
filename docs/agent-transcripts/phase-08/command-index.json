@@ -4,11 +4,26 @@
     "ended_at": "2026-11-07T02:33:59.794238+00:00",
     "duration_seconds": 2.7293883338570595,
     "command": [
-      "npm",
-      "--prefix",
-      "frontend",
-      "run",
-      "build"
+      {
+        "omitted_string_sha256": "d79677188687e7b32b43de9d2365a1ff8ae6f1a9e3d494719be542394d99f7dd",
+        "characters": 3
+      },
+      {
+        "omitted_string_sha256": "4297004e7d506d0d882664620b91d78806f1e17044a47d7efd41af8d253d622f",
+        "characters": 8
+      },
+      {
+        "omitted_string_sha256": "1cf387c012cd2d02f1923e589f86df4a4802427057dbc90f47b87f04d29d54bc",
+        "characters": 8
+      },
+      {
+        "omitted_string_sha256": "acba25512100f80b56fc3ccd14c65be55d94800cda77585c5f41a887e398f9be",
+        "characters": 3
+      },
+      {
+        "omitted_string_sha256": "44575cf5b28512d75644bf54a517dcef304ff809fd511747621b4d64f19aac66",
+        "characters": 5
+      }
     ],
     "exit_code": 0,
     "truncated": false
@@ -18,11 +33,26 @@
     "ended_at": "2026-11-07T02:35:42.561424+00:00",
     "duration_seconds": 2.7715837080031633,
     "command": [
-      "npm",
-      "--prefix",
-      "frontend",
-      "run",
-      "build"
+      {
+        "omitted_string_sha256": "d79677188687e7b32b43de9d2365a1ff8ae6f1a9e3d494719be542394d99f7dd",
+        "characters": 3
+      },
+      {
+        "omitted_string_sha256": "4297004e7d506d0d882664620b91d78806f1e17044a47d7efd41af8d253d622f",
+        "characters": 8
+      },
+      {
+        "omitted_string_sha256": "1cf387c012cd2d02f1923e589f86df4a4802427057dbc90f47b87f04d29d54bc",
+        "characters": 8
+      },
+      {
+        "omitted_string_sha256": "acba25512100f80b56fc3ccd14c65be55d94800cda77585c5f41a887e398f9be",
+        "characters": 3
+      },
+      {
+        "omitted_string_sha256": "44575cf5b28512d75644bf54a517dcef304ff809fd511747621b4d64f19aac66",
+        "characters": 5
+      }
     ],
     "exit_code": 0,
     "truncated": false
@@ -32,12 +62,30 @@
     "ended_at": "2026-11-07T02:35:51.856207+00:00",
     "duration_seconds": 9.231346332933754,
     "command": [
-      "python3",
-      "scripts/docker.py",
-      "compose",
-      "build",
-      "api",
-      "web"
+      {
+        "omitted_string_sha256": "c1cc69e61c0f1c7ade8df0f2994e582e7c1f2c57d1ec192a0baf9f96b7739d9d",
+        "characters": 7
+      },
+      {
+        "omitted_string_sha256": "75ae4c5cc8a40d660cdf913ed4598662aa2d9312785055fc6225d01def5f954e",
+        "characters": 17
+      },
+      {
+        "omitted_string_sha256": "db669af634b75c7f298400f3b6c2aa8ba54998bac83e23d10ab4eaadc4b50ccf",
+        "characters": 7
+      },
+      {
+        "omitted_string_sha256": "44575cf5b28512d75644bf54a517dcef304ff809fd511747621b4d64f19aac66",
+        "characters": 5
+      },
+      {
+        "omitted_string_sha256": "14c2529eb4498c5d1ffd6915d05bf58a91bdda796af59f41d480d11c099d0479",
+        "characters": 3
+      },
+      {
+        "omitted_string_sha256": "4b5e57f6eb2f42b9039b3d1e13929295f231749c510cbe341cd68036d9af97e2",
+        "characters": 3
+      }
     ],
     "exit_code": 0,
     "truncated": false
@@ -47,11 +95,26 @@
     "ended_at": "2026-11-07T02:36:31.279913+00:00",
     "duration_seconds": 2.4862841670401394,
     "command": [
-      "npm",
-      "--prefix",
-      "frontend",
-      "run",
-      "build"
+      {
+        "omitted_string_sha256": "d79677188687e7b32b43de9d2365a1ff8ae6f1a9e3d494719be542394d99f7dd",
+        "characters": 3
+      },
+      {
+        "omitted_string_sha256": "4297004e7d506d0d882664620b91d78806f1e17044a47d7efd41af8d253d622f",
+        "characters": 8
+      },
+      {
+        "omitted_string_sha256": "1cf387c012cd2d02f1923e589f86df4a4802427057dbc90f47b87f04d29d54bc",
+        "characters": 8
+      },
+      {
+        "omitted_string_sha256": "acba25512100f80b56fc3ccd14c65be55d94800cda77585c5f41a887e398f9be",
+        "characters": 3
+      },
+      {
+        "omitted_string_sha256": "44575cf5b28512d75644bf54a517dcef304ff809fd511747621b4d64f19aac66",
+        "characters": 5
+      }
     ],
     "exit_code": 0,
     "truncated": false
@@ -61,12 +124,30 @@
     "ended_at": "2026-11-07T02:36:49.359724+00:00",
     "duration_seconds": 4.92075154138729,
     "command": [
-      "python3",
-      "scripts/docker.py",
-      "compose",
-      "build",
-      "api",
-      "web"
+      {
+        "omitted_string_sha256": "c1cc69e61c0f1c7ade8df0f2994e582e7c1f2c57d1ec192a0baf9f96b7739d9d",
+        "characters": 7
+      },
+      {
+        "omitted_string_sha256": "75ae4c5cc8a40d660cdf913ed4598662aa2d9312785055fc6225d01def5f954e",
+        "characters": 17
+      },
+      {
+        "omitted_string_sha256": "db669af634b75c7f298400f3b6c2aa8ba54998bac83e23d10ab4eaadc4b50ccf",
+        "characters": 7
+      },
+      {
+        "omitted_string_sha256": "44575cf5b28512d75644bf54a517dcef304ff809fd511747621b4d64f19aac66",
+        "characters": 5
+      },
+      {
+        "omitted_string_sha256": "14c2529eb4498c5d1ffd6915d05bf58a91bdda796af59f41d480d11c099d0479",
+        "characters": 3
+      },
+      {
+        "omitted_string_sha256": "4b5e57f6eb2f42b9039b3d1e13929295f231749c510cbe341cd68036d9af97e2",
+        "characters": 3
+      }
     ],
     "exit_code": 0,
     "truncated": false
@@ -76,16 +157,46 @@
     "ended_at": "2026-11-07T02:37:02.743730+00:00",
     "duration_seconds": 13.334048375021666,
     "command": [
-      "python3",
-      "scripts/docker.py",
-      "compose",
-      "run",
-      "--rm",
-      "--no-deps",
-      "api",
-      "python",
-      "-m",
-      "backend.contract_check"
+      {
+        "omitted_string_sha256": "c1cc69e61c0f1c7ade8df0f2994e582e7c1f2c57d1ec192a0baf9f96b7739d9d",
+        "characters": 7
+      },
+      {
+        "omitted_string_sha256": "75ae4c5cc8a40d660cdf913ed4598662aa2d9312785055fc6225d01def5f954e",
+        "characters": 17
+      },
+      {
+        "omitted_string_sha256": "db669af634b75c7f298400f3b6c2aa8ba54998bac83e23d10ab4eaadc4b50ccf",
+        "characters": 7
+      },
+      {
+        "omitted_string_sha256": "acba25512100f80b56fc3ccd14c65be55d94800cda77585c5f41a887e398f9be",
+        "characters": 3
+      },
+      {
+        "omitted_string_sha256": "3881c00ab568a83c48052cb2b4bca64bdffd98cfdd7092e44c813ec89df93f29",
+        "characters": 4
+      },
+      {
+        "omitted_string_sha256": "c02224806879b987cd071a3d211d6ca8b01fa63c5d48b8bf9c8ba70e6a258ccd",
+        "characters": 9
+      },
+      {
+        "omitted_string_sha256": "14c2529eb4498c5d1ffd6915d05bf58a91bdda796af59f41d480d11c099d0479",
+        "characters": 3
+      },
+      {
+        "omitted_string_sha256": "11a4a60b518bf24989d481468076e5d5982884626aed9faeb35b8576fcd223e1",
+        "characters": 6
+      },
+      {
+        "omitted_string_sha256": "c4e153afb4aeaa5818fb08325ebff59f883a0482006aa3cc1c17c9b393e54efa",
+        "characters": 2
+      },
+      {
+        "omitted_string_sha256": "32114595bf63d0af3ea5188720317bb1eb3ff6ffa8cf6a273d5d576d78e9157a",
+        "characters": 22
+      }
     ],
     "exit_code": 0,
     "truncated": true
@@ -95,14 +206,38 @@
     "ended_at": "2026-11-07T02:37:04.588824+00:00",
     "duration_seconds": 1.782549041789025,
     "command": [
-      "python3",
-      "scripts/docker.py",
-      "compose",
-      "up",
-      "-d",
-      "--no-deps",
-      "api",
-      "web"
+      {
+        "omitted_string_sha256": "c1cc69e61c0f1c7ade8df0f2994e582e7c1f2c57d1ec192a0baf9f96b7739d9d",
+        "characters": 7
+      },
+      {
+        "omitted_string_sha256": "75ae4c5cc8a40d660cdf913ed4598662aa2d9312785055fc6225d01def5f954e",
+        "characters": 17
+      },
+      {
+        "omitted_string_sha256": "db669af634b75c7f298400f3b6c2aa8ba54998bac83e23d10ab4eaadc4b50ccf",
+        "characters": 7
+      },
+      {
+        "omitted_string_sha256": "75a288c0d6898c5f7b054590845978a82a3ad79fcce3d43ff68a7501e5a91ee9",
+        "characters": 2
+      },
+      {
+        "omitted_string_sha256": "50e09407a18bedd64baf0b99825a8178d7446731615b85452ea6b99573469dcc",
+        "characters": 2
+      },
+      {
+        "omitted_string_sha256": "c02224806879b987cd071a3d211d6ca8b01fa63c5d48b8bf9c8ba70e6a258ccd",
+        "characters": 9
+      },
+      {
+        "omitted_string_sha256": "14c2529eb4498c5d1ffd6915d05bf58a91bdda796af59f41d480d11c099d0479",
+        "characters": 3
+      },
+      {
+        "omitted_string_sha256": "4b5e57f6eb2f42b9039b3d1e13929295f231749c510cbe341cd68036d9af97e2",
+        "characters": 3
+      }
     ],
     "exit_code": 0,
     "truncated": false
@@ -112,8 +247,14 @@
     "ended_at": "2026-11-07T02:40:18.644109+00:00",
     "duration_seconds": 10.682917207945138,
     "command": [
-      ".venv-phase2/bin/python",
-      "scripts/browser_phase8.py"
+      {
+        "omitted_string_sha256": "f0656d7ca794f6e0bd8d6a2520d44761a24a1c738d2b5825f23a4b87caba04f0",
+        "characters": 23
+      },
+      {
+        "omitted_string_sha256": "8ceef568d43d440b5448ec45735c65fa46fe21ccc45beb7a31ddb494499912e1",
+        "characters": 25
+      }
     ],
     "exit_code": 0,
     "truncated": false
@@ -123,11 +264,26 @@
     "ended_at": "2026-11-07T02:40:56.671953+00:00",
     "duration_seconds": 2.6473513753153384,
     "command": [
-      "npm",
-      "--prefix",
-      "frontend",
-      "run",
-      "build"
+      {
+        "omitted_string_sha256": "d79677188687e7b32b43de9d2365a1ff8ae6f1a9e3d494719be542394d99f7dd",
+        "characters": 3
+      },
+      {
+        "omitted_string_sha256": "4297004e7d506d0d882664620b91d78806f1e17044a47d7efd41af8d253d622f",
+        "characters": 8
+      },
+      {
+        "omitted_string_sha256": "1cf387c012cd2d02f1923e589f86df4a4802427057dbc90f47b87f04d29d54bc",
+        "characters": 8
+      },
+      {
+        "omitted_string_sha256": "acba25512100f80b56fc3ccd14c65be55d94800cda77585c5f41a887e398f9be",
+        "characters": 3
+      },
+      {
+        "omitted_string_sha256": "44575cf5b28512d75644bf54a517dcef304ff809fd511747621b4d64f19aac66",
+        "characters": 5
+      }
     ],
     "exit_code": 0,
     "truncated": false
@@ -137,11 +293,26 @@
     "ended_at": "2026-11-07T02:41:03.599824+00:00",
     "duration_seconds": 6.882605999708176,
     "command": [
-      "python3",
-      "scripts/docker.py",
-      "compose",
-      "build",
-      "web"
+      {
+        "omitted_string_sha256": "c1cc69e61c0f1c7ade8df0f2994e582e7c1f2c57d1ec192a0baf9f96b7739d9d",
+        "characters": 7
+      },
+      {
+        "omitted_string_sha256": "75ae4c5cc8a40d660cdf913ed4598662aa2d9312785055fc6225d01def5f954e",
+        "characters": 17
+      },
+      {
+        "omitted_string_sha256": "db669af634b75c7f298400f3b6c2aa8ba54998bac83e23d10ab4eaadc4b50ccf",
+        "characters": 7
+      },
+      {
+        "omitted_string_sha256": "44575cf5b28512d75644bf54a517dcef304ff809fd511747621b4d64f19aac66",
+        "characters": 5
+      },
+      {
+        "omitted_string_sha256": "4b5e57f6eb2f42b9039b3d1e13929295f231749c510cbe341cd68036d9af97e2",
+        "characters": 3
+      }
     ],
     "exit_code": 0,
     "truncated": false
@@ -151,13 +322,34 @@
     "ended_at": "2026-11-07T02:41:04.735005+00:00",
     "duration_seconds": 1.0782415410503745,
     "command": [
-      "python3",
-      "scripts/docker.py",
-      "compose",
-      "up",
-      "-d",
-      "--no-deps",
-      "web"
+      {
+        "omitted_string_sha256": "c1cc69e61c0f1c7ade8df0f2994e582e7c1f2c57d1ec192a0baf9f96b7739d9d",
+        "characters": 7
+      },
+      {
+        "omitted_string_sha256": "75ae4c5cc8a40d660cdf913ed4598662aa2d9312785055fc6225d01def5f954e",
+        "characters": 17
+      },
+      {
+        "omitted_string_sha256": "db669af634b75c7f298400f3b6c2aa8ba54998bac83e23d10ab4eaadc4b50ccf",
+        "characters": 7
+      },
+      {
+        "omitted_string_sha256": "75a288c0d6898c5f7b054590845978a82a3ad79fcce3d43ff68a7501e5a91ee9",
+        "characters": 2
+      },
+      {
+        "omitted_string_sha256": "50e09407a18bedd64baf0b99825a8178d7446731615b85452ea6b99573469dcc",
+        "characters": 2
+      },
+      {
+        "omitted_string_sha256": "c02224806879b987cd071a3d211d6ca8b01fa63c5d48b8bf9c8ba70e6a258ccd",
+        "characters": 9
+      },
+      {
+        "omitted_string_sha256": "4b5e57f6eb2f42b9039b3d1e13929295f231749c510cbe341cd68036d9af97e2",
+        "characters": 3
+      }
     ],
     "exit_code": 0,
     "truncated": false
@@ -167,11 +359,26 @@
     "ended_at": "2026-11-07T02:43:21.472889+00:00",
     "duration_seconds": 2.702677082736045,
     "command": [
-      "npm",
-      "--prefix",
-      "frontend",
-      "run",
-      "build"
+      {
+        "omitted_string_sha256": "d79677188687e7b32b43de9d2365a1ff8ae6f1a9e3d494719be542394d99f7dd",
+        "characters": 3
+      },
+      {
+        "omitted_string_sha256": "4297004e7d506d0d882664620b91d78806f1e17044a47d7efd41af8d253d622f",
+        "characters": 8
+      },
+      {
+        "omitted_string_sha256": "1cf387c012cd2d02f1923e589f86df4a4802427057dbc90f47b87f04d29d54bc",
+        "characters": 8
+      },
+      {
+        "omitted_string_sha256": "acba25512100f80b56fc3ccd14c65be55d94800cda77585c5f41a887e398f9be",
+        "characters": 3
+      },
+      {
+        "omitted_string_sha256": "44575cf5b28512d75644bf54a517dcef304ff809fd511747621b4d64f19aac66",
+        "characters": 5
+      }
     ],
     "exit_code": 0,
     "truncated": false
@@ -181,12 +388,30 @@
     "ended_at": "2026-11-07T02:43:28.955192+00:00",
     "duration_seconds": 7.422412707936019,
     "command": [
-      "python3",
-      "scripts/docker.py",
-      "compose",
-      "build",
-      "api",
-      "web"
+      {
+        "omitted_string_sha256": "c1cc69e61c0f1c7ade8df0f2994e582e7c1f2c57d1ec192a0baf9f96b7739d9d",
+        "characters": 7
+      },
+      {
+        "omitted_string_sha256": "75ae4c5cc8a40d660cdf913ed4598662aa2d9312785055fc6225d01def5f954e",
+        "characters": 17
+      },
+      {
+        "omitted_string_sha256": "db669af634b75c7f298400f3b6c2aa8ba54998bac83e23d10ab4eaadc4b50ccf",
+        "characters": 7
+      },
+      {
+        "omitted_string_sha256": "44575cf5b28512d75644bf54a517dcef304ff809fd511747621b4d64f19aac66",
+        "characters": 5
+      },
+      {
+        "omitted_string_sha256": "14c2529eb4498c5d1ffd6915d05bf58a91bdda796af59f41d480d11c099d0479",
+        "characters": 3
+      },
+      {
+        "omitted_string_sha256": "4b5e57f6eb2f42b9039b3d1e13929295f231749c510cbe341cd68036d9af97e2",
+        "characters": 3
+      }
     ],
     "exit_code": 0,
     "truncated": false
@@ -196,16 +421,46 @@
     "ended_at": "2026-11-07T02:43:40.606283+00:00",
     "duration_seconds": 11.589355874806643,
     "command": [
-      "python3",
-      "scripts/docker.py",
-      "compose",
-      "run",
-      "--rm",
-      "--no-deps",
-      "api",
-      "python",
-      "-m",
-      "backend.contract_check"
+      {
+        "omitted_string_sha256": "c1cc69e61c0f1c7ade8df0f2994e582e7c1f2c57d1ec192a0baf9f96b7739d9d",
+        "characters": 7
+      },
+      {
+        "omitted_string_sha256": "75ae4c5cc8a40d660cdf913ed4598662aa2d9312785055fc6225d01def5f954e",
+        "characters": 17
+      },
+      {
+        "omitted_string_sha256": "db669af634b75c7f298400f3b6c2aa8ba54998bac83e23d10ab4eaadc4b50ccf",
+        "characters": 7
+      },
+      {
+        "omitted_string_sha256": "acba25512100f80b56fc3ccd14c65be55d94800cda77585c5f41a887e398f9be",
+        "characters": 3
+      },
+      {
+        "omitted_string_sha256": "3881c00ab568a83c48052cb2b4bca64bdffd98cfdd7092e44c813ec89df93f29",
+        "characters": 4
+      },
+      {
+        "omitted_string_sha256": "c02224806879b987cd071a3d211d6ca8b01fa63c5d48b8bf9c8ba70e6a258ccd",
+        "characters": 9
+      },
+      {
+        "omitted_string_sha256": "14c2529eb4498c5d1ffd6915d05bf58a91bdda796af59f41d480d11c099d0479",
+        "characters": 3
+      },
+      {
+        "omitted_string_sha256": "11a4a60b518bf24989d481468076e5d5982884626aed9faeb35b8576fcd223e1",
+        "characters": 6
+      },
+      {
+        "omitted_string_sha256": "c4e153afb4aeaa5818fb08325ebff59f883a0482006aa3cc1c17c9b393e54efa",
+        "characters": 2
+      },
+      {
+        "omitted_string_sha256": "32114595bf63d0af3ea5188720317bb1eb3ff6ffa8cf6a273d5d576d78e9157a",
+        "characters": 22
+      }
     ],
     "exit_code": 0,
     "truncated": true
@@ -215,14 +470,38 @@
     "ended_at": "2026-11-07T02:43:42.254846+00:00",
     "duration_seconds": 1.5880327499471605,
     "command": [
-      "python3",
-      "scripts/docker.py",
-      "compose",
-      "up",
-      "-d",
-      "--no-deps",
-      "api",
-      "web"
+      {
+        "omitted_string_sha256": "c1cc69e61c0f1c7ade8df0f2994e582e7c1f2c57d1ec192a0baf9f96b7739d9d",
+        "characters": 7
+      },
+      {
+        "omitted_string_sha256": "75ae4c5cc8a40d660cdf913ed4598662aa2d9312785055fc6225d01def5f954e",
+        "characters": 17
+      },
+      {
+        "omitted_string_sha256": "db669af634b75c7f298400f3b6c2aa8ba54998bac83e23d10ab4eaadc4b50ccf",
+        "characters": 7
+      },
+      {
+        "omitted_string_sha256": "75a288c0d6898c5f7b054590845978a82a3ad79fcce3d43ff68a7501e5a91ee9",
+        "characters": 2
+      },
+      {
+        "omitted_string_sha256": "50e09407a18bedd64baf0b99825a8178d7446731615b85452ea6b99573469dcc",
+        "characters": 2
+      },
+      {
+        "omitted_string_sha256": "c02224806879b987cd071a3d211d6ca8b01fa63c5d48b8bf9c8ba70e6a258ccd",
+        "characters": 9
+      },
+      {
+        "omitted_string_sha256": "14c2529eb4498c5d1ffd6915d05bf58a91bdda796af59f41d480d11c099d0479",
+        "characters": 3
+      },
+      {
+        "omitted_string_sha256": "4b5e57f6eb2f42b9039b3d1e13929295f231749c510cbe341cd68036d9af97e2",
+        "characters": 3
+      }
     ],
     "exit_code": 0,
     "truncated": false
@@ -232,8 +511,14 @@
     "ended_at": "2026-11-07T02:46:45.176685+00:00",
     "duration_seconds": 107.01925379177555,
     "command": [
-      ".venv-phase2/bin/python",
-      "scripts/live_ui_phase8.py"
+      {
+        "omitted_string_sha256": "f0656d7ca794f6e0bd8d6a2520d44761a24a1c738d2b5825f23a4b87caba04f0",
+        "characters": 23
+      },
+      {
+        "omitted_string_sha256": "f6c872eec519f644b11473c44af05a54f947ed67fcda0f110095fe922e38da06",
+        "characters": 25
+      }
     ],
     "exit_code": 1,
     "truncated": false
@@ -243,8 +528,14 @@
     "ended_at": "2026-11-07T02:47:40.747209+00:00",
     "duration_seconds": 16.52283945772797,
     "command": [
-      ".venv-phase2/bin/python",
-      "scripts/live_ui_phase8.py"
+      {
+        "omitted_string_sha256": "f0656d7ca794f6e0bd8d6a2520d44761a24a1c738d2b5825f23a4b87caba04f0",
+        "characters": 23
+      },
+      {
+        "omitted_string_sha256": "f6c872eec519f644b11473c44af05a54f947ed67fcda0f110095fe922e38da06",
+        "characters": 25
+      }
     ],
     "exit_code": 0,
     "truncated": false
@@ -254,11 +545,26 @@
     "ended_at": "2026-11-07T02:49:09.467435+00:00",
     "duration_seconds": 2.6306087500415742,
     "command": [
-      "npm",
-      "--prefix",
-      "frontend",
-      "run",
-      "build"
+      {
+        "omitted_string_sha256": "d79677188687e7b32b43de9d2365a1ff8ae6f1a9e3d494719be542394d99f7dd",
+        "characters": 3
+      },
+      {
+        "omitted_string_sha256": "4297004e7d506d0d882664620b91d78806f1e17044a47d7efd41af8d253d622f",
+        "characters": 8
+      },
+      {
+        "omitted_string_sha256": "1cf387c012cd2d02f1923e589f86df4a4802427057dbc90f47b87f04d29d54bc",
+        "characters": 8
+      },
+      {
+        "omitted_string_sha256": "acba25512100f80b56fc3ccd14c65be55d94800cda77585c5f41a887e398f9be",
+        "characters": 3
+      },
+      {
+        "omitted_string_sha256": "44575cf5b28512d75644bf54a517dcef304ff809fd511747621b4d64f19aac66",
+        "characters": 5
+      }
     ],
     "exit_code": 0,
     "truncated": false
@@ -268,12 +574,30 @@
     "ended_at": "2026-11-07T02:49:18.961692+00:00",
     "duration_seconds": 9.438723499886692,
     "command": [
-      "python3",
-      "scripts/docker.py",
-      "compose",
-      "build",
-      "api",
-      "web"
+      {
+        "omitted_string_sha256": "c1cc69e61c0f1c7ade8df0f2994e582e7c1f2c57d1ec192a0baf9f96b7739d9d",
+        "characters": 7
+      },
+      {
+        "omitted_string_sha256": "75ae4c5cc8a40d660cdf913ed4598662aa2d9312785055fc6225d01def5f954e",
+        "characters": 17
+      },
+      {
+        "omitted_string_sha256": "db669af634b75c7f298400f3b6c2aa8ba54998bac83e23d10ab4eaadc4b50ccf",
+        "characters": 7
+      },
+      {
+        "omitted_string_sha256": "44575cf5b28512d75644bf54a517dcef304ff809fd511747621b4d64f19aac66",
+        "characters": 5
+      },
+      {
+        "omitted_string_sha256": "14c2529eb4498c5d1ffd6915d05bf58a91bdda796af59f41d480d11c099d0479",
+        "characters": 3
+      },
+      {
+        "omitted_string_sha256": "4b5e57f6eb2f42b9039b3d1e13929295f231749c510cbe341cd68036d9af97e2",
+        "characters": 3
+      }
     ],
     "exit_code": 0,
     "truncated": false
@@ -283,16 +607,46 @@
     "ended_at": "2026-11-07T02:49:30.687008+00:00",
     "duration_seconds": 11.637489708140492,
     "command": [
-      "python3",
-      "scripts/docker.py",
-      "compose",
-      "run",
-      "--rm",
-      "--no-deps",
-      "api",
-      "python",
-      "-m",
-      "backend.contract_check"
+      {
+        "omitted_string_sha256": "c1cc69e61c0f1c7ade8df0f2994e582e7c1f2c57d1ec192a0baf9f96b7739d9d",
+        "characters": 7
+      },
+      {
+        "omitted_string_sha256": "75ae4c5cc8a40d660cdf913ed4598662aa2d9312785055fc6225d01def5f954e",
+        "characters": 17
+      },
+      {
+        "omitted_string_sha256": "db669af634b75c7f298400f3b6c2aa8ba54998bac83e23d10ab4eaadc4b50ccf",
+        "characters": 7
+      },
+      {
+        "omitted_string_sha256": "acba25512100f80b56fc3ccd14c65be55d94800cda77585c5f41a887e398f9be",
+        "characters": 3
+      },
+      {
+        "omitted_string_sha256": "3881c00ab568a83c48052cb2b4bca64bdffd98cfdd7092e44c813ec89df93f29",
+        "characters": 4
+      },
+      {
+        "omitted_string_sha256": "c02224806879b987cd071a3d211d6ca8b01fa63c5d48b8bf9c8ba70e6a258ccd",
+        "characters": 9
+      },
+      {
+        "omitted_string_sha256": "14c2529eb4498c5d1ffd6915d05bf58a91bdda796af59f41d480d11c099d0479",
+        "characters": 3
+      },
+      {
+        "omitted_string_sha256": "11a4a60b518bf24989d481468076e5d5982884626aed9faeb35b8576fcd223e1",
+        "characters": 6
+      },
+      {
+        "omitted_string_sha256": "c4e153afb4aeaa5818fb08325ebff59f883a0482006aa3cc1c17c9b393e54efa",
+        "characters": 2
+      },
+      {
+        "omitted_string_sha256": "32114595bf63d0af3ea5188720317bb1eb3ff6ffa8cf6a273d5d576d78e9157a",
+        "characters": 22
+      }
     ],
     "exit_code": 0,
     "truncated": true
@@ -302,14 +656,38 @@
     "ended_at": "2026-11-07T02:49:32.821321+00:00",
     "duration_seconds": 2.047189375385642,
     "command": [
-      "python3",
-      "scripts/docker.py",
-      "compose",
-      "up",
-      "-d",
-      "--no-deps",
-      "api",
-      "web"
+      {
+        "omitted_string_sha256": "c1cc69e61c0f1c7ade8df0f2994e582e7c1f2c57d1ec192a0baf9f96b7739d9d",
+        "characters": 7
+      },
+      {
+        "omitted_string_sha256": "75ae4c5cc8a40d660cdf913ed4598662aa2d9312785055fc6225d01def5f954e",
+        "characters": 17
+      },
+      {
+        "omitted_string_sha256": "db669af634b75c7f298400f3b6c2aa8ba54998bac83e23d10ab4eaadc4b50ccf",
+        "characters": 7
+      },
+      {
+        "omitted_string_sha256": "75a288c0d6898c5f7b054590845978a82a3ad79fcce3d43ff68a7501e5a91ee9",
+        "characters": 2
+      },
+      {
+        "omitted_string_sha256": "50e09407a18bedd64baf0b99825a8178d7446731615b85452ea6b99573469dcc",
+        "characters": 2
+      },
+      {
+        "omitted_string_sha256": "c02224806879b987cd071a3d211d6ca8b01fa63c5d48b8bf9c8ba70e6a258ccd",
+        "characters": 9
+      },
+      {
+        "omitted_string_sha256": "14c2529eb4498c5d1ffd6915d05bf58a91bdda796af59f41d480d11c099d0479",
+        "characters": 3
+      },
+      {
+        "omitted_string_sha256": "4b5e57f6eb2f42b9039b3d1e13929295f231749c510cbe341cd68036d9af97e2",
+        "characters": 3
+      }
     ],
     "exit_code": 0,
     "truncated": false
@@ -319,9 +697,18 @@
     "ended_at": "2026-11-07T02:51:02.497823+00:00",
     "duration_seconds": 46.16563737485558,
     "command": [
-      ".venv-phase2/bin/python",
-      "scripts/live_ui_phase8.py",
-      "--resume-essay"
+      {
+        "omitted_string_sha256": "f0656d7ca794f6e0bd8d6a2520d44761a24a1c738d2b5825f23a4b87caba04f0",
+        "characters": 23
+      },
+      {
+        "omitted_string_sha256": "f6c872eec519f644b11473c44af05a54f947ed67fcda0f110095fe922e38da06",
+        "characters": 25
+      },
+      {
+        "omitted_string_sha256": "6ee74cafd6322890d65cf980cf1e63af2cf298e34b0689ef082baf0299d12b48",
+        "characters": 14
+      }
     ],
     "exit_code": 0,
     "truncated": false
@@ -331,11 +718,26 @@
     "ended_at": "2026-11-07T02:52:32.099684+00:00",
     "duration_seconds": 3.2166760829277337,
     "command": [
-      "npm",
-      "--prefix",
-      "frontend",
-      "run",
-      "build"
+      {
+        "omitted_string_sha256": "d79677188687e7b32b43de9d2365a1ff8ae6f1a9e3d494719be542394d99f7dd",
+        "characters": 3
+      },
+      {
+        "omitted_string_sha256": "4297004e7d506d0d882664620b91d78806f1e17044a47d7efd41af8d253d622f",
+        "characters": 8
+      },
+      {
+        "omitted_string_sha256": "1cf387c012cd2d02f1923e589f86df4a4802427057dbc90f47b87f04d29d54bc",
+        "characters": 8
+      },
+      {
+        "omitted_string_sha256": "acba25512100f80b56fc3ccd14c65be55d94800cda77585c5f41a887e398f9be",
+        "characters": 3
+      },
+      {
+        "omitted_string_sha256": "44575cf5b28512d75644bf54a517dcef304ff809fd511747621b4d64f19aac66",
+        "characters": 5
+      }
     ],
     "exit_code": 0,
     "truncated": false
@@ -345,12 +747,30 @@
     "ended_at": "2026-11-07T02:52:42.247872+00:00",
     "duration_seconds": 10.051430332940072,
     "command": [
-      "python3",
-      "scripts/docker.py",
-      "compose",
-      "build",
-      "api",
-      "web"
+      {
+        "omitted_string_sha256": "c1cc69e61c0f1c7ade8df0f2994e582e7c1f2c57d1ec192a0baf9f96b7739d9d",
+        "characters": 7
+      },
+      {
+        "omitted_string_sha256": "75ae4c5cc8a40d660cdf913ed4598662aa2d9312785055fc6225d01def5f954e",
+        "characters": 17
+      },
+      {
+        "omitted_string_sha256": "db669af634b75c7f298400f3b6c2aa8ba54998bac83e23d10ab4eaadc4b50ccf",
+        "characters": 7
+      },
+      {
+        "omitted_string_sha256": "44575cf5b28512d75644bf54a517dcef304ff809fd511747621b4d64f19aac66",
+        "characters": 5
+      },
+      {
+        "omitted_string_sha256": "14c2529eb4498c5d1ffd6915d05bf58a91bdda796af59f41d480d11c099d0479",
+        "characters": 3
+      },
+      {
+        "omitted_string_sha256": "4b5e57f6eb2f42b9039b3d1e13929295f231749c510cbe341cd68036d9af97e2",
+        "characters": 3
+      }
     ],
     "exit_code": 0,
     "truncated": false
@@ -360,16 +780,46 @@
     "ended_at": "2026-11-07T02:52:57.279752+00:00",
     "duration_seconds": 14.938659999985248,
     "command": [
-      "python3",
-      "scripts/docker.py",
-      "compose",
-      "run",
-      "--rm",
-      "--no-deps",
-      "api",
-      "python",
-      "-m",
-      "backend.contract_check"
+      {
+        "omitted_string_sha256": "c1cc69e61c0f1c7ade8df0f2994e582e7c1f2c57d1ec192a0baf9f96b7739d9d",
+        "characters": 7
+      },
+      {
+        "omitted_string_sha256": "75ae4c5cc8a40d660cdf913ed4598662aa2d9312785055fc6225d01def5f954e",
+        "characters": 17
+      },
+      {
+        "omitted_string_sha256": "db669af634b75c7f298400f3b6c2aa8ba54998bac83e23d10ab4eaadc4b50ccf",
+        "characters": 7
+      },
+      {
+        "omitted_string_sha256": "acba25512100f80b56fc3ccd14c65be55d94800cda77585c5f41a887e398f9be",
+        "characters": 3
+      },
+      {
+        "omitted_string_sha256": "3881c00ab568a83c48052cb2b4bca64bdffd98cfdd7092e44c813ec89df93f29",
+        "characters": 4
+      },
+      {
+        "omitted_string_sha256": "c02224806879b987cd071a3d211d6ca8b01fa63c5d48b8bf9c8ba70e6a258ccd",
+        "characters": 9
+      },
+      {
+        "omitted_string_sha256": "14c2529eb4498c5d1ffd6915d05bf58a91bdda796af59f41d480d11c099d0479",
+        "characters": 3
+      },
+      {
+        "omitted_string_sha256": "11a4a60b518bf24989d481468076e5d5982884626aed9faeb35b8576fcd223e1",
+        "characters": 6
+      },
+      {
+        "omitted_string_sha256": "c4e153afb4aeaa5818fb08325ebff59f883a0482006aa3cc1c17c9b393e54efa",
+        "characters": 2
+      },
+      {
+        "omitted_string_sha256": "32114595bf63d0af3ea5188720317bb1eb3ff6ffa8cf6a273d5d576d78e9157a",
+        "characters": 22
+      }
     ],
     "exit_code": 0,
     "truncated": true
@@ -379,14 +829,38 @@
     "ended_at": "2026-11-07T02:52:59.312788+00:00",
     "duration_seconds": 1.8928602081723511,
     "command": [
-      "python3",
-      "scripts/docker.py",
-      "compose",
-      "up",
-      "-d",
-      "--no-deps",
-      "api",
-      "web"
+      {
+        "omitted_string_sha256": "c1cc69e61c0f1c7ade8df0f2994e582e7c1f2c57d1ec192a0baf9f96b7739d9d",
+        "characters": 7
+      },
+      {
+        "omitted_string_sha256": "75ae4c5cc8a40d660cdf913ed4598662aa2d9312785055fc6225d01def5f954e",
+        "characters": 17
+      },
+      {
+        "omitted_string_sha256": "db669af634b75c7f298400f3b6c2aa8ba54998bac83e23d10ab4eaadc4b50ccf",
+        "characters": 7
+      },
+      {
+        "omitted_string_sha256": "75a288c0d6898c5f7b054590845978a82a3ad79fcce3d43ff68a7501e5a91ee9",
+        "characters": 2
+      },
+      {
+        "omitted_string_sha256": "50e09407a18bedd64baf0b99825a8178d7446731615b85452ea6b99573469dcc",
+        "characters": 2
+      },
+      {
+        "omitted_string_sha256": "c02224806879b987cd071a3d211d6ca8b01fa63c5d48b8bf9c8ba70e6a258ccd",
+        "characters": 9
+      },
+      {
+        "omitted_string_sha256": "14c2529eb4498c5d1ffd6915d05bf58a91bdda796af59f41d480d11c099d0479",
+        "characters": 3
+      },
+      {
+        "omitted_string_sha256": "4b5e57f6eb2f42b9039b3d1e13929295f231749c510cbe341cd68036d9af97e2",
+        "characters": 3
+      }
     ],
     "exit_code": 0,
     "truncated": false
@@ -396,8 +870,14 @@
     "ended_at": "2026-11-07T02:54:19.822026+00:00",
     "duration_seconds": 0.5005833329632878,
     "command": [
-      ".venv-phase2/bin/python",
-      "scripts/prepare_review_phase8.py"
+      {
+        "omitted_string_sha256": "f0656d7ca794f6e0bd8d6a2520d44761a24a1c738d2b5825f23a4b87caba04f0",
+        "characters": 23
+      },
+      {
+        "omitted_string_sha256": "f062ad7f373cdea14cba8a3a35214e4656bebef3f4b55c9b7c6f3a0dda8184c2",
+        "characters": 32
+      }
     ],
     "exit_code": 0,
     "truncated": false
@@ -407,9 +887,18 @@
     "ended_at": "2026-11-07T02:56:03.933986+00:00",
     "duration_seconds": 0.40174283366650343,
     "command": [
-      "node",
-      "--test",
-      "frontend/test-source-span.mjs"
+      {
+        "omitted_string_sha256": "545ea538461003efdc8c81c244531b003f6f26cfccf6c0073b3239fdedf49446",
+        "characters": 4
+      },
+      {
+        "omitted_string_sha256": "6871a6c31252eb3bd9b13ddd577a906f45e5f7fb745c4a16e78d7c982040ef94",
+        "characters": 6
+      },
+      {
+        "omitted_string_sha256": "c40a228ebe83e08fa1a8db11edcdcb111fdde94518ddb51620614d21c69dc599",
+        "characters": 29
+      }
     ],
     "exit_code": 0,
     "truncated": false
@@ -419,11 +908,26 @@
     "ended_at": "2026-11-07T02:56:06.443585+00:00",
     "duration_seconds": 2.4463603338226676,
     "command": [
-      "npm",
-      "--prefix",
-      "frontend",
-      "run",
-      "build"
+      {
+        "omitted_string_sha256": "d79677188687e7b32b43de9d2365a1ff8ae6f1a9e3d494719be542394d99f7dd",
+        "characters": 3
+      },
+      {
+        "omitted_string_sha256": "4297004e7d506d0d882664620b91d78806f1e17044a47d7efd41af8d253d622f",
+        "characters": 8
+      },
+      {
+        "omitted_string_sha256": "1cf387c012cd2d02f1923e589f86df4a4802427057dbc90f47b87f04d29d54bc",
+        "characters": 8
+      },
+      {
+        "omitted_string_sha256": "acba25512100f80b56fc3ccd14c65be55d94800cda77585c5f41a887e398f9be",
+        "characters": 3
+      },
+      {
+        "omitted_string_sha256": "44575cf5b28512d75644bf54a517dcef304ff809fd511747621b4d64f19aac66",
+        "characters": 5
+      }
     ],
     "exit_code": 0,
     "truncated": false
@@ -433,11 +937,26 @@
     "ended_at": "2026-11-07T02:56:11.828098+00:00",
     "duration_seconds": 5.334004916716367,
     "command": [
-      "python3",
-      "scripts/docker.py",
-      "compose",
-      "build",
-      "web"
+      {
+        "omitted_string_sha256": "c1cc69e61c0f1c7ade8df0f2994e582e7c1f2c57d1ec192a0baf9f96b7739d9d",
+        "characters": 7
+      },
+      {
+        "omitted_string_sha256": "75ae4c5cc8a40d660cdf913ed4598662aa2d9312785055fc6225d01def5f954e",
+        "characters": 17
+      },
+      {
+        "omitted_string_sha256": "db669af634b75c7f298400f3b6c2aa8ba54998bac83e23d10ab4eaadc4b50ccf",
+        "characters": 7
+      },
+      {
+        "omitted_string_sha256": "44575cf5b28512d75644bf54a517dcef304ff809fd511747621b4d64f19aac66",
+        "characters": 5
+      },
+      {
+        "omitted_string_sha256": "4b5e57f6eb2f42b9039b3d1e13929295f231749c510cbe341cd68036d9af97e2",
+        "characters": 3
+      }
     ],
     "exit_code": 0,
     "truncated": false
@@ -447,13 +966,34 @@
     "ended_at": "2026-11-07T02:56:12.664885+00:00",
     "duration_seconds": 0.784510166849941,
     "command": [
-      "python3",
-      "scripts/docker.py",
-      "compose",
-      "up",
-      "-d",
-      "--no-deps",
-      "web"
+      {
+        "omitted_string_sha256": "c1cc69e61c0f1c7ade8df0f2994e582e7c1f2c57d1ec192a0baf9f96b7739d9d",
+        "characters": 7
+      },
+      {
+        "omitted_string_sha256": "75ae4c5cc8a40d660cdf913ed4598662aa2d9312785055fc6225d01def5f954e",
+        "characters": 17
+      },
+      {
+        "omitted_string_sha256": "db669af634b75c7f298400f3b6c2aa8ba54998bac83e23d10ab4eaadc4b50ccf",
+        "characters": 7
+      },
+      {
+        "omitted_string_sha256": "75a288c0d6898c5f7b054590845978a82a3ad79fcce3d43ff68a7501e5a91ee9",
+        "characters": 2
+      },
+      {
+        "omitted_string_sha256": "50e09407a18bedd64baf0b99825a8178d7446731615b85452ea6b99573469dcc",
+        "characters": 2
+      },
+      {
+        "omitted_string_sha256": "c02224806879b987cd071a3d211d6ca8b01fa63c5d48b8bf9c8ba70e6a258ccd",
+        "characters": 9
+      },
+      {
+        "omitted_string_sha256": "4b5e57f6eb2f42b9039b3d1e13929295f231749c510cbe341cd68036d9af97e2",
+        "characters": 3
+      }
     ],
     "exit_code": 0,
     "truncated": false
@@ -463,11 +1003,26 @@
     "ended_at": "2026-11-07T02:58:25.302706+00:00",
     "duration_seconds": 3.2625914998352528,
     "command": [
-      "npm",
-      "--prefix",
-      "frontend",
-      "run",
-      "build"
+      {
+        "omitted_string_sha256": "d79677188687e7b32b43de9d2365a1ff8ae6f1a9e3d494719be542394d99f7dd",
+        "characters": 3
+      },
+      {
+        "omitted_string_sha256": "4297004e7d506d0d882664620b91d78806f1e17044a47d7efd41af8d253d622f",
+        "characters": 8
+      },
+      {
+        "omitted_string_sha256": "1cf387c012cd2d02f1923e589f86df4a4802427057dbc90f47b87f04d29d54bc",
+        "characters": 8
+      },
+      {
+        "omitted_string_sha256": "acba25512100f80b56fc3ccd14c65be55d94800cda77585c5f41a887e398f9be",
+        "characters": 3
+      },
+      {
+        "omitted_string_sha256": "44575cf5b28512d75644bf54a517dcef304ff809fd511747621b4d64f19aac66",
+        "characters": 5
+      }
     ],
     "exit_code": 0,
     "truncated": false
@@ -477,11 +1032,26 @@
     "ended_at": "2026-11-07T02:58:30.365941+00:00",
     "duration_seconds": 5.009979208000004,
     "command": [
-      "python3",
-      "scripts/docker.py",
-      "compose",
-      "build",
-      "web"
+      {
+        "omitted_string_sha256": "c1cc69e61c0f1c7ade8df0f2994e582e7c1f2c57d1ec192a0baf9f96b7739d9d",
+        "characters": 7
+      },
+      {
+        "omitted_string_sha256": "75ae4c5cc8a40d660cdf913ed4598662aa2d9312785055fc6225d01def5f954e",
+        "characters": 17
+      },
+      {
+        "omitted_string_sha256": "db669af634b75c7f298400f3b6c2aa8ba54998bac83e23d10ab4eaadc4b50ccf",
+        "characters": 7
+      },
+      {
+        "omitted_string_sha256": "44575cf5b28512d75644bf54a517dcef304ff809fd511747621b4d64f19aac66",
+        "characters": 5
+      },
+      {
+        "omitted_string_sha256": "4b5e57f6eb2f42b9039b3d1e13929295f231749c510cbe341cd68036d9af97e2",
+        "characters": 3
+      }
     ],
     "exit_code": 0,
     "truncated": false
@@ -491,13 +1061,34 @@
     "ended_at": "2026-11-07T02:58:31.274407+00:00",
     "duration_seconds": 0.8258368340320885,
     "command": [
-      "python3",
-      "scripts/docker.py",
-      "compose",
-      "up",
-      "-d",
-      "--no-deps",
-      "web"
+      {
+        "omitted_string_sha256": "c1cc69e61c0f1c7ade8df0f2994e582e7c1f2c57d1ec192a0baf9f96b7739d9d",
+        "characters": 7
+      },
+      {
+        "omitted_string_sha256": "75ae4c5cc8a40d660cdf913ed4598662aa2d9312785055fc6225d01def5f954e",
+        "characters": 17
+      },
+      {
+        "omitted_string_sha256": "db669af634b75c7f298400f3b6c2aa8ba54998bac83e23d10ab4eaadc4b50ccf",
+        "characters": 7
+      },
+      {
+        "omitted_string_sha256": "75a288c0d6898c5f7b054590845978a82a3ad79fcce3d43ff68a7501e5a91ee9",
+        "characters": 2
+      },
+      {
+        "omitted_string_sha256": "50e09407a18bedd64baf0b99825a8178d7446731615b85452ea6b99573469dcc",
+        "characters": 2
+      },
+      {
+        "omitted_string_sha256": "c02224806879b987cd071a3d211d6ca8b01fa63c5d48b8bf9c8ba70e6a258ccd",
+        "characters": 9
+      },
+      {
+        "omitted_string_sha256": "4b5e57f6eb2f42b9039b3d1e13929295f231749c510cbe341cd68036d9af97e2",
+        "characters": 3
+      }
     ],
     "exit_code": 0,
     "truncated": false
@@ -507,11 +1098,26 @@
     "ended_at": "2026-11-07T02:59:28.606677+00:00",
     "duration_seconds": 5.299798792228103,
     "command": [
-      "npm",
-      "--prefix",
-      "frontend",
-      "run",
-      "build"
+      {
+        "omitted_string_sha256": "d79677188687e7b32b43de9d2365a1ff8ae6f1a9e3d494719be542394d99f7dd",
+        "characters": 3
+      },
+      {
+        "omitted_string_sha256": "4297004e7d506d0d882664620b91d78806f1e17044a47d7efd41af8d253d622f",
+        "characters": 8
+      },
+      {
+        "omitted_string_sha256": "1cf387c012cd2d02f1923e589f86df4a4802427057dbc90f47b87f04d29d54bc",
+        "characters": 8
+      },
+      {
+        "omitted_string_sha256": "acba25512100f80b56fc3ccd14c65be55d94800cda77585c5f41a887e398f9be",
+        "characters": 3
+      },
+      {
+        "omitted_string_sha256": "44575cf5b28512d75644bf54a517dcef304ff809fd511747621b4d64f19aac66",
+        "characters": 5
+      }
     ],
     "exit_code": 0,
     "truncated": false
@@ -521,11 +1127,26 @@
     "ended_at": "2026-11-07T02:59:34.553991+00:00",
     "duration_seconds": 5.869191457983106,
     "command": [
-      "python3",
-      "scripts/docker.py",
-      "compose",
-      "build",
-      "web"
+      {
+        "omitted_string_sha256": "c1cc69e61c0f1c7ade8df0f2994e582e7c1f2c57d1ec192a0baf9f96b7739d9d",
+        "characters": 7
+      },
+      {
+        "omitted_string_sha256": "75ae4c5cc8a40d660cdf913ed4598662aa2d9312785055fc6225d01def5f954e",
+        "characters": 17
+      },
+      {
+        "omitted_string_sha256": "db669af634b75c7f298400f3b6c2aa8ba54998bac83e23d10ab4eaadc4b50ccf",
+        "characters": 7
+      },
+      {
+        "omitted_string_sha256": "44575cf5b28512d75644bf54a517dcef304ff809fd511747621b4d64f19aac66",
+        "characters": 5
+      },
+      {
+        "omitted_string_sha256": "4b5e57f6eb2f42b9039b3d1e13929295f231749c510cbe341cd68036d9af97e2",
+        "characters": 3
+      }
     ],
     "exit_code": 0,
     "truncated": false
@@ -535,13 +1156,34 @@
     "ended_at": "2026-11-07T02:59:35.499764+00:00",
     "duration_seconds": 0.8782054581679404,
     "command": [
-      "python3",
-      "scripts/docker.py",
-      "compose",
-      "up",
-      "-d",
-      "--no-deps",
-      "web"
+      {
+        "omitted_string_sha256": "c1cc69e61c0f1c7ade8df0f2994e582e7c1f2c57d1ec192a0baf9f96b7739d9d",
+        "characters": 7
+      },
+      {
+        "omitted_string_sha256": "75ae4c5cc8a40d660cdf913ed4598662aa2d9312785055fc6225d01def5f954e",
+        "characters": 17
+      },
+      {
+        "omitted_string_sha256": "db669af634b75c7f298400f3b6c2aa8ba54998bac83e23d10ab4eaadc4b50ccf",
+        "characters": 7
+      },
+      {
+        "omitted_string_sha256": "75a288c0d6898c5f7b054590845978a82a3ad79fcce3d43ff68a7501e5a91ee9",
+        "characters": 2
+      },
+      {
+        "omitted_string_sha256": "50e09407a18bedd64baf0b99825a8178d7446731615b85452ea6b99573469dcc",
+        "characters": 2
+      },
+      {
+        "omitted_string_sha256": "c02224806879b987cd071a3d211d6ca8b01fa63c5d48b8bf9c8ba70e6a258ccd",
+        "characters": 9
+      },
+      {
+        "omitted_string_sha256": "4b5e57f6eb2f42b9039b3d1e13929295f231749c510cbe341cd68036d9af97e2",
+        "characters": 3
+      }
     ],
     "exit_code": 0,
     "truncated": false
@@ -551,8 +1193,14 @@
     "ended_at": "2026-11-07T03:00:21.083008+00:00",
     "duration_seconds": 9.930356584023684,
     "command": [
-      ".venv-phase2/bin/python",
-      "scripts/browser_phase8.py"
+      {
+        "omitted_string_sha256": "f0656d7ca794f6e0bd8d6a2520d44761a24a1c738d2b5825f23a4b87caba04f0",
+        "characters": 23
+      },
+      {
+        "omitted_string_sha256": "8ceef568d43d440b5448ec45735c65fa46fe21ccc45beb7a31ddb494499912e1",
+        "characters": 25
+      }
     ],
     "exit_code": 0,
     "truncated": false
@@ -562,8 +1210,14 @@
     "ended_at": "2026-11-07T03:01:25.340967+00:00",
     "duration_seconds": 7.22738558286801,
     "command": [
-      ".venv-phase2/bin/python",
-      "scripts/review_ui_phase8.py"
+      {
+        "omitted_string_sha256": "f0656d7ca794f6e0bd8d6a2520d44761a24a1c738d2b5825f23a4b87caba04f0",
+        "characters": 23
+      },
+      {
+        "omitted_string_sha256": "b3cf0686cb875a59ecec14bdfb805e0aa9b2ff783d922fd22a613c26ce334056",
+        "characters": 27
+      }
     ],
     "exit_code": 0,
     "truncated": false
@@ -573,10 +1227,22 @@
     "ended_at": "2026-11-07T03:05:13.141109+00:00",
     "duration_seconds": 0.8055965420790017,
     "command": [
-      "python3",
-      "scripts/publication_review.py",
-      "--output",
-      ".cache/phase8-publication-review.json"
+      {
+        "omitted_string_sha256": "c1cc69e61c0f1c7ade8df0f2994e582e7c1f2c57d1ec192a0baf9f96b7739d9d",
+        "characters": 7
+      },
+      {
+        "omitted_string_sha256": "547f8e3220654e598147e8513f59631077258d49a4cbb954e078fee1d3f6795e",
+        "characters": 29
+      },
+      {
+        "omitted_string_sha256": "2afa1020a94a8192359f01950a366cc7862850b3adc00e001c89751354988e44",
+        "characters": 8
+      },
+      {
+        "omitted_string_sha256": "767e998c4aaae23d82b1047e479ed49f517a388033da47ebad57ef42095562fb",
+        "characters": 37
+      }
     ],
     "exit_code": 0,
     "truncated": false
@@ -586,9 +1252,18 @@
     "ended_at": "2026-11-07T03:05:13.237939+00:00",
     "duration_seconds": 0.04996141605079174,
     "command": [
-      "git",
-      "diff",
-      "--check"
+      {
+        "omitted_string_sha256": "9a881b9b9f23849475296a8cd768ea1965bc3152df7118e60c145975af6aa58a",
+        "characters": 3
+      },
+      {
+        "omitted_string_sha256": "df087996d45b03e7eb8c133c0298fd98d35113fca26aaba58612fef3cc212cad",
+        "characters": 4
+      },
+      {
+        "omitted_string_sha256": "931bd06269ec48ed673e7e4e2f7fa249be10b38da9dbda07f5e2da426504087d",
+        "characters": 7
+      }
     ],
     "exit_code": 0,
     "truncated": false

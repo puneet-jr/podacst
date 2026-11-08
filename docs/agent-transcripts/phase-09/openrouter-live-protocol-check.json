@@ -1,0 +1,37 @@
+{
+  "provider": "openrouter",
+  "model": "google/gemini-2.5-flash-lite",
+  "run_id": "a1d3ea92-0d59-4fb4-a0c8-1627f27dbbbb",
+  "provider_verification": {
+    "omitted_string_sha256": "c85d9bd35ef3f20b3b32a5817e1f4dfb4de0b2ad13eaf5314d780a16a6d413fd",
+    "characters": 132
+  },
+  "protocol_event_counts": {
+    "response": 6,
+    "agent_start": 1,
+    "turn_start": 2,
+    "message_start": 5,
+    "message_end": 5,
+    "message_update": 4,
+    "tool_execution_start": 1,
+    "tool_execution_end": 1,
+    "turn_end": 2,
+    "agent_end": 1,
+    "agent_settled": 1
+  },
+  "executed_tools": [
+    {
+      "omitted_string_sha256": "e115aca1c8dfb2f8efab7d54e61705d0a02cd86cd3d2ca1361f1c0c8a9c39303",
+      "characters": 18
+    }
+  ],
+  "protocol_projected": true,
+  "interpretation": {
+    "omitted_string_sha256": "adf8b4a76a9aed822a27dfc4c653b5f60957719c2045385ffa2359e1676c9ab5",
+    "characters": 130
+  },
+  "source": {
+    "omitted_string_sha256": "6d5553d66fb7cbd8f8fc00571973fe9526442c9cbaea5f6e4022eb61cbda5280",
+    "characters": 115
+  }
+}

@@ -1,16 +1,37 @@
 {
-  "reviewed_at": "2026-11-06T08:23:09.097501+00:00",
-  "reviewer": "Codex direct review, not an independent human expert",
-  "evidence": "docs/agent-transcripts/phase-05/live-20261106T081843/results.jsonl",
-  "stored_originals": "opened-sources.json",
+  "reviewed_at": {
+    "omitted_string_sha256": "1afee69b6d6746a96bea92c26547730adcc1f748697b0a408468cfd7c9e11dc6",
+    "characters": 32
+  },
+  "reviewer": {
+    "omitted_string_sha256": "15833a24aa473a38c97fc50f6ba272b91ee88980425436a9adf83256d7218ccd",
+    "characters": 52
+  },
+  "evidence": {
+    "omitted_string_sha256": "d7d95c6cdc03cb04144adf96999c0fb58272f23e91f43f2a5367183f85be6cda",
+    "characters": 66
+  },
+  "stored_originals": {
+    "omitted_string_sha256": "45dc02bdef52a76fc3d4645265f0ffdd4378df996aab877226c5c832e9877eaf",
+    "characters": 19
+  },
   "scope": "Three requested cases; isolated-session answer quality assessed separately. Exact IDs alone are not semantic proof.",
   "cases": [
     {
       "name": "supported",
       "run_id": "9907cfa8-5a22-4782-ad9a-dc4819e3552a",
-      "assessment": "supported_for_question",
-      "claim_support": "Sean Ellis at observed 00:03:19 explicitly describes the must-have test and asks how the user would feel if unable to use the product. The returned excerpt preserves the qualification could be equated to product market fit; it does not add an invented numerical threshold.",
-      "passage_id": "c0aa1ec1-9da2-5bc9-a1ed-550df1f12411",
+      "assessment": {
+        "omitted_string_sha256": "37e60ab930dd3182bcaba8f73e60b8b39a822c274af8adfc9d28bddd2ff49194",
+        "characters": 22
+      },
+      "claim_support": {
+        "omitted_string_sha256": "2db5e4cd86231b20953ae57f438fb410788f5ff35cda86da0284b39070e8b316",
+        "characters": 272
+      },
+      "passage_id": {
+        "omitted_string_sha256": "69c74781e1c3199663e73649e1f104315a63a10555ea9265984918c29f9a16d6",
+        "characters": 36
+      },
       "source_label": "S1",
       "quote_range": [
         4975,
@@ -20,40 +41,91 @@
     {
       "name": "follow_up",
       "run_id": "46f3fa09-dec1-4aa3-a1a5-838d7a4661cc",
-      "assessment": "supported_for_onboarding_question",
-      "claim_support": "Sean Ellis at observed 00:10:50 says onboarding was streamlined so antivirus setup came first and displayed a protection notice. The stored surrounding passage identifies Lookout and separately describes repositioning and the next surveyed cohort. The answer quotes the onboarding change, makes no general causal guarantee, and does not claim that all growth came from onboarding alone.",
-      "passage_id": "53054eb0-beee-5be4-b2f1-99ca9b2eac2d",
+      "assessment": {
+        "omitted_string_sha256": "6f2e2db5d354e904d17a08c56c87b2c057d0bc7fed6869d9521b06d6d71cdf6b",
+        "characters": 33
+      },
+      "claim_support": {
+        "omitted_string_sha256": "5e16a5f6df3851949e6ba1897ede34c8a660b2983729826ca0dd9536e85985e4",
+        "characters": 386
+      },
+      "passage_id": {
+        "omitted_string_sha256": "be7d36a2aee88a4170a02968b73d12a1366aa969f197020bbc8a2fdb6cd334cc",
+        "characters": 36
+      },
       "source_label": "S1",
       "quote_range": [
         12885,
         13229
       ],
-      "correct_prior_user_id": "68447b84-880e-49da-a090-08c2e9117305",
-      "fresh_evidence": "A new tool call returned five different passage IDs; no prior assistant output was supplied as factual evidence."
+      "correct_prior_user_id": {
+        "omitted_string_sha256": "71fdf9b272e9464993937bbe38283de905ccf94f19fc4061ce2ff557eee5b1f1",
+        "characters": 36
+      },
+      "fresh_evidence": {
+        "omitted_string_sha256": "fb320443722f4ec5b330afe084bc5ece2b389235cff417bc8a611efc33639446",
+        "characters": 112
+      }
     },
     {
       "name": "unsupported",
       "run_id": "ebb1fa2e-1ae0-4578-bcbc-caa77edb7fb8",
-      "assessment": "system_policy_gap_pass_model_abstention_fail",
-      "claim_support": "Five loosely related public transcript passages do not establish the private startup 2026 churn rate or dashboard access. The model chose E1 anyway. The private-fact guard changed the final outcome to insufficient_evidence with no factual claims/citations. This verifies the app policy for this request, not reliable model abstention or all unsupported categories.",
+      "assessment": {
+        "omitted_string_sha256": "3fc13e00aef25cb9b95c74579bb39c9e023ad12a144754e7fbe136648f025eb4",
+        "characters": 44
+      },
+      "claim_support": {
+        "omitted_string_sha256": "d95df73580ee2b57ef96a69957c622857a7871a5975fc0c9c80b1adb60546844",
+        "characters": 364
+      },
       "retrieved_passage_ids": [
-        "d6cec005-7847-52bc-a4a6-d59ff0a39c1a",
-        "9346a6a0-f4de-5cb6-a281-c89421aa9778",
-        "520ff779-b729-5c5e-9342-cea042560e1e",
-        "86054464-dad2-5e79-95ae-ee266885164a",
-        "fe8f737e-b44e-54af-8d93-e5a31999af17"
+        {
+          "omitted_string_sha256": "f5e40d8efa77620b455f7cfd2ac1297595e88ea3bab9a44f0dca66ef6e284bbb",
+          "characters": 36
+        },
+        {
+          "omitted_string_sha256": "7e967211722c832f6522fbda83b43489b106058cf5f09573f3b0b9bcd169f665",
+          "characters": 36
+        },
+        {
+          "omitted_string_sha256": "33700b53c2840e9acb3085d2e9d4fd7aae0f60b20a0fc5bd36d6526bed47faa3",
+          "characters": 36
+        },
+        {
+          "omitted_string_sha256": "a58ff360879e19f944e5b30fd99e6887a550ab989afef028e75010bedb7d4cee",
+          "characters": 36
+        },
+        {
+          "omitted_string_sha256": "8b8aa377cad6fe4945814f49f683b81a7025183acfffa8ca5b5658654f69e161",
+          "characters": 36
+        }
       ],
-      "raw_model_text": "{\"evidence_id\": \"E1\"}",
+      "raw_model_text": {
+        "omitted_string_sha256": "66a148adecb90ff95b3cfc739f1e98409592cacfb59cbb42c2d7c248e4926772",
+        "characters": 21
+      },
       "private_fact_guard_applied": true
     },
     {
       "name": "independent_session",
       "run_id": "ba41b3eb-c0e8-4248-9fd3-7c8c9302a1dc",
-      "assessment": "isolation_pass_semantic_answer_incomplete",
-      "claim_support": "The source truly contains Shreyas discussing Patrick/ROI, but the excerpt does not define leverage tasks and omits the opportunity-cost recommendation that follows. It is related yet incomplete for the question. Do not count the automatic isolation flag as a relevance or general quality pass.",
-      "passage_id": "76021723-d6c7-5117-a4a6-940e9a1d0d40",
+      "assessment": {
+        "omitted_string_sha256": "3e9db33fd99f67880f950711aaf361e49797ee1e9d0de019e783517ab547c6af",
+        "characters": 41
+      },
+      "claim_support": {
+        "omitted_string_sha256": "f1cb606606ecc2fbd30446c230e737285f67bcc73c6db7a2a8bcfc7386bd5c95",
+        "characters": 293
+      },
+      "passage_id": {
+        "omitted_string_sha256": "12ed113bff6ac255166fac3dfc22df716853234ba57c73b12316b38c2adddcad",
+        "characters": 36
+      },
       "source_label": "S3",
-      "history_observation": "Different session and Pi IDs, context_message_ids empty, retrieval restricted to Shreyas; no Sean passage/history injected."
+      "history_observation": {
+        "omitted_string_sha256": "0183121791061549ba8127a8c5c77d8f72b62275582fa4d409c78f9b9033543d",
+        "characters": 123
+      }
     }
   ]
 }

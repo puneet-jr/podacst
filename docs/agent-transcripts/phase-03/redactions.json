@@ -1,36 +1,96 @@
 {
-  "reviewed_at": "2026-11-06T05:47:28.136815+00:00",
-  "notes": "Only actual Phase 3 outputs sanitized; no earlier-phase evidence modified. No dialogue reconstructed. Command capture may truncate and records its truncation flag.",
+  "reviewed_at": {
+    "omitted_string_sha256": "899a761c360e9ab97f82855363405acacc443b042fe9a0c02f5dfd306ecaaad8",
+    "characters": 32
+  },
+  "notes": {
+    "omitted_string_sha256": "97cb8314e65c5b00af1790223dd302b4edd715ec581c7fc72dd98913608e0da3",
+    "characters": 163
+  },
   "files": [
     {
-      "path": "docs/agent-transcripts/phase-03/commands.jsonl",
-      "original_sha256": "0df04cde02407ff11b66268ede66ba148cd31c8e27f3e10542be92041b042c85",
-      "sanitized_sha256": "470cfd569819c9491c81aee3bf4518c410df602f807413d3cee064efd93a2a1c",
+      "path": {
+        "omitted_string_sha256": "d5bd749c13b4d32e0d48737b9569f991452a4821ce5862cdbf4ad21edde5ea6c",
+        "characters": 46
+      },
+      "original_sha256": {
+        "omitted_string_sha256": "c0855fec9259cffec75807e4fcf0bbc239328170d9ef29e9fdca9ca3ecab1931",
+        "characters": 64
+      },
+      "sanitized_sha256": {
+        "omitted_string_sha256": "290d42d2da7b2a282086c34eb9c54a58fc82f1ce4c809338e3ff97c410dea074",
+        "characters": 64
+      },
       "redactions": [
-        "Personal home path replaced with $USER_HOME where present",
-        "Substantial raw source excerpts omitted from two inspection outputs where present; commands/counts/errors/times retained"
+        {
+          "omitted_string_sha256": "db7311f69fa5bd47adafcf74b76d2ccf88f0df19bc848f48c26c96a416bef385",
+          "characters": 57
+        },
+        {
+          "omitted_string_sha256": "8b064ad5dc6b25dfd5762bb38b847be31af9e7c954b62bf1fa682036c53224e2",
+          "characters": 120
+        }
       ],
-      "private_original": "ignored .cache/phase3-private; not part of submission"
+      "private_original": {
+        "omitted_string_sha256": "55aff6a5ca147ac3c3776f479e4c0b485fb10786c9d0327b5c227b2007567985",
+        "characters": 53
+      }
     },
     {
-      "path": "docs/agent-transcripts/phase-03/smoke-20261106T053650/results.jsonl",
-      "original_sha256": "37ea4e91f68582a99951341478c4ab6e600fc137e03380d2b0eeff6a20745351",
-      "sanitized_sha256": "9f79a1eeda474d7aaffb9027dfd7364f67e34c93a9ffa6da0771e4386a9abe07",
+      "path": {
+        "omitted_string_sha256": "342b4a17d00c48c2ce3bf2938304e213579820fa2ee85934d3ea62e42a2167d9",
+        "characters": 67
+      },
+      "original_sha256": {
+        "omitted_string_sha256": "ceceace1ddac434bb4941ec9f1a882284515afb14e793f1f94ab4a874720939a",
+        "characters": 64
+      },
+      "sanitized_sha256": {
+        "omitted_string_sha256": "db29c860ba8e15eff311834be196353b8c43c4142d92ba9fdaa7a25d270f7f15",
+        "characters": 64
+      },
       "redactions": [
-        "Personal home path replaced with $USER_HOME where present",
-        "Substantial raw source excerpts omitted from two inspection outputs where present; commands/counts/errors/times retained"
+        {
+          "omitted_string_sha256": "db7311f69fa5bd47adafcf74b76d2ccf88f0df19bc848f48c26c96a416bef385",
+          "characters": 57
+        },
+        {
+          "omitted_string_sha256": "8b064ad5dc6b25dfd5762bb38b847be31af9e7c954b62bf1fa682036c53224e2",
+          "characters": 120
+        }
       ],
-      "private_original": "ignored .cache/phase3-private; not part of submission"
+      "private_original": {
+        "omitted_string_sha256": "55aff6a5ca147ac3c3776f479e4c0b485fb10786c9d0327b5c227b2007567985",
+        "characters": 53
+      }
     },
     {
-      "path": "docs/agent-transcripts/phase-03/smoke-20261106T053920/results.jsonl",
-      "original_sha256": "1ea9425f674b31872de35afab721fdc4c6fb51507a6c0d24550d49de9ce98965",
-      "sanitized_sha256": "2d4a35c2a4cc6416fa7871c76634ce6612715f18af1db91cb9f9e44977cd63f1",
+      "path": {
+        "omitted_string_sha256": "c551511ca8ef84a3d7cd3e074d3bc3ee15cd90e8b58d425bb82df337991dcd19",
+        "characters": 67
+      },
+      "original_sha256": {
+        "omitted_string_sha256": "f898e7fe0920c608b6643ba467fb94c4584e006eaab94c019427264fa79adae8",
+        "characters": 64
+      },
+      "sanitized_sha256": {
+        "omitted_string_sha256": "0370496d0b5b98cd0de8734fbef03009344076576d9126e80239214ee20165c0",
+        "characters": 64
+      },
       "redactions": [
-        "Personal home path replaced with $USER_HOME where present",
-        "Substantial raw source excerpts omitted from two inspection outputs where present; commands/counts/errors/times retained"
+        {
+          "omitted_string_sha256": "db7311f69fa5bd47adafcf74b76d2ccf88f0df19bc848f48c26c96a416bef385",
+          "characters": 57
+        },
+        {
+          "omitted_string_sha256": "8b064ad5dc6b25dfd5762bb38b847be31af9e7c954b62bf1fa682036c53224e2",
+          "characters": 120
+        }
       ],
-      "private_original": "ignored .cache/phase3-private; not part of submission"
+      "private_original": {
+        "omitted_string_sha256": "55aff6a5ca147ac3c3776f479e4c0b485fb10786c9d0327b5c227b2007567985",
+        "characters": 53
+      }
     }
   ]
 }

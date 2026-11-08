@@ -1,0 +1,125 @@
+{
+  "runtime_revision": "3dc814552104edc83072503811c56dbe452e9552",
+  "session_id": "9cb94a34-e8c0-41e8-9a3b-e2e1952bb0f6",
+  "fixture": false,
+  "episodes": 303,
+  "passages": 12770,
+  "provider": "ollama-local",
+  "model": "qwen3:0.6b",
+  "answers": [
+    {
+      "prompt": "How did Sean Ellis change onboarding at Lookout?",
+      "elapsed_seconds": 6.422,
+      "server_seconds": 6.3,
+      "run_id": "589cae43-655b-4ecb-b115-de9604ab41c7",
+      "assistant_message_id": "1c8c5600-cdb7-5a6c-b73d-4d1fa8ecb988",
+      "provider": "ollama-local",
+      "model": "qwen3:0.6b",
+      "retrieval_mode": "hybrid",
+      "context_message_ids": [],
+      "retrieved_passage_ids": [
+        "53054eb0-beee-5be4-b2f1-99ca9b2eac2d",
+        "bdd3d954-095e-5f5a-8be1-5f38377168ff",
+        "8b5b413f-9fd3-580f-8d21-9420cd18d888",
+        "2d70a732-94f8-5cd8-9f59-0019c1fd9b21",
+        "38b28fa6-86ff-59ba-8019-ff4db2c27656"
+      ],
+      "safe_tool_trace": [
+        {
+          "args": {
+            "query": "current"
+          },
+          "tool": "search_transcripts",
+          "result": {
+            "mode": "hybrid",
+            "evidence_ids": [
+              "E1",
+              "E2",
+              "E3",
+              "E4",
+              "E5",
+              "E6",
+              "E7",
+              "E8",
+              "E9",
+              "E10"
+            ]
+          }
+        }
+      ],
+      "pi_session_id": "01a1b99d-2d7d-733d-901d-a2fb95b9ea36",
+      "process_reaped": true,
+      "bridge_closed": true,
+      "citation": {
+        "label": "S1",
+        "chunk_id": "53054eb0-beee-5be4-b2f1-99ca9b2eac2d",
+        "source_hash": "6af2a6e031826805e855ec262b1f228e3773b5b99265a1d01870f0d4e6e9ceda",
+        "all_quote_spans_exact": true,
+        "opened_browser": true,
+        "focus_return": true
+      },
+      "factual_support_review": "Exact stored quote answers antivirus-first setup and protected confirmation. Does not assert a measured engagement or conversion improvement.",
+      "semantic_pass": true
+    },
+    {
+      "prompt": "What did they report for the next cohort in the must-have survey?",
+      "elapsed_seconds": 5.185,
+      "server_seconds": 5.027,
+      "run_id": "303f2af7-0c00-4039-8e35-8a02ea7a7ec5",
+      "assistant_message_id": "f9f0fec2-8824-5877-9b99-3be48b276acd",
+      "provider": "ollama-local",
+      "model": "qwen3:0.6b",
+      "retrieval_mode": "hybrid",
+      "context_message_ids": [
+        "0c26bab9-4788-462b-a265-7c5ccc58b71b"
+      ],
+      "retrieved_passage_ids": [
+        "53054eb0-beee-5be4-b2f1-99ca9b2eac2d",
+        "bdd3d954-095e-5f5a-8be1-5f38377168ff",
+        "f5f40dd8-e8fb-5e74-9834-e45e31331549",
+        "8b5b413f-9fd3-580f-8d21-9420cd18d888",
+        "38b28fa6-86ff-59ba-8019-ff4db2c27656"
+      ],
+      "safe_tool_trace": [
+        {
+          "args": {
+            "query": "current"
+          },
+          "tool": "search_transcripts",
+          "result": {
+            "mode": "hybrid",
+            "evidence_ids": [
+              "E1",
+              "E2",
+              "E3",
+              "E4",
+              "E5",
+              "E6",
+              "E7",
+              "E8",
+              "E9",
+              "E10"
+            ]
+          }
+        }
+      ],
+      "pi_session_id": "01a1b99d-4c65-7645-90ad-5b84c3d8a2f4",
+      "process_reaped": true,
+      "bridge_closed": true,
+      "citation": {
+        "label": "S1",
+        "chunk_id": "53054eb0-beee-5be4-b2f1-99ca9b2eac2d",
+        "source_hash": "6af2a6e031826805e855ec262b1f228e3773b5b99265a1d01870f0d4e6e9ceda",
+        "all_quote_spans_exact": true,
+        "opened_browser": true,
+        "focus_return": true
+      },
+      "factual_support_review": "Exact stored quote answers next-cohort 40% very disappointed; denominator/survey wording preserved. This is reported survey response, not measured engagement or conversion.",
+      "semantic_pass": true
+    }
+  ],
+  "both_passed": true,
+  "extra_generation_attempts": 0,
+  "no_horizontal_overflow": true,
+  "page_errors": []
+}

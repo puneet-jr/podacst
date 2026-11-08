@@ -1,0 +1,102 @@
+{
+  "reviewer": {
+    "omitted_string_sha256": "c411975a002facd267f50522fb5eee12af2d32aae22a4f5ddb8ed8d0909d6c62",
+    "characters": 43
+  },
+  "facts": [
+    {
+      "id": "F1",
+      "statement": {
+        "omitted_string_sha256": "4afe04d8985fa74bd5ace17991c64d059a55674880db96232c3aa165576949c0",
+        "characters": 174
+      },
+      "source_id": "S2",
+      "chunk_id": "53054eb0-beee-5be4-b2f1-99ca9b2eac2d",
+      "evidence_anchor": {
+        "omitted_string_sha256": "accc5e7fb61732894b724ef12ba23285dfe5d7cc363970a6a3deeb6af23826ad",
+        "characters": 150
+      }
+    },
+    {
+      "id": "F2",
+      "statement": {
+        "omitted_string_sha256": "3bb25fa8fdd6d7511bdae248ecfc1c1aa2a9f1428582561f662482b7335ac6c8",
+        "characters": 175
+      },
+      "source_id": "S2",
+      "chunk_id": "53054eb0-beee-5be4-b2f1-99ca9b2eac2d",
+      "evidence_anchor": {
+        "omitted_string_sha256": "f4df8115ccc852e31a8db5668f6bdc9cb82f6d672571ad87c6e94caf1c2ee2e9",
+        "characters": 124
+      }
+    },
+    {
+      "id": "F3",
+      "statement": {
+        "omitted_string_sha256": "61f2b068cf72cd48bd8183cc4adca8d2c6699fc183a18a8a4c33be73d9a20c7e",
+        "characters": 176
+      },
+      "source_id": "S2",
+      "chunk_id": "53054eb0-beee-5be4-b2f1-99ca9b2eac2d",
+      "evidence_anchor": {
+        "omitted_string_sha256": "efc88c9115895d5af9774c3af2349e8c5e0e512813da4d74ecae59ff8f077111",
+        "characters": 110
+      }
+    },
+    {
+      "id": "F4",
+      "statement": {
+        "omitted_string_sha256": "894e1eb9fdbe56dac701c367ac4bbcec05c9f1106699450c645100145c659d86",
+        "characters": 191
+      },
+      "source_id": "S3",
+      "chunk_id": "f5f40dd8-e8fb-5e74-9834-e45e31331549",
+      "evidence_anchor": {
+        "omitted_string_sha256": "b6314b9fad5e40e4de1967cdee3765ffc2dbba8caefa7c28d8b7548b7fbc41fa",
+        "characters": 118
+      }
+    },
+    {
+      "id": "F5",
+      "statement": {
+        "omitted_string_sha256": "78a5b75e080c325a6d694db58fe7b3a1acf7fee788f0ed22ed60d046785be7a3",
+        "characters": 182
+      },
+      "source_id": "S3",
+      "chunk_id": "f5f40dd8-e8fb-5e74-9834-e45e31331549",
+      "evidence_anchor": {
+        "omitted_string_sha256": "64145c875bcafe28d5558105fc8d0196d0aa56e047fc1e94dec454c17696a2f1",
+        "characters": 62
+      }
+    }
+  ],
+  "source_hashes": {
+    "S2": {
+      "omitted_string_sha256": "5b76e9477d7e0922decde6dffdfb2d37037d8305b16d9dcc9ba4caadafd3b911",
+      "characters": 64
+    },
+    "S3": {
+      "omitted_string_sha256": "fe9c0b98dae01525ba7d0d594156791986dd9034f1fe5890894a83735b5b62b0",
+      "characters": 64
+    }
+  },
+  "excluded_outcomes": [
+    {
+      "omitted_string_sha256": "b086271aae82d74d7e203e00988e1715dab019d681b2c2f688eb4d7df543316c",
+      "characters": 31
+    },
+    {
+      "omitted_string_sha256": "71062635a7ddf7a7d9d503780e49d034c03360c314afa5284e6fd7960b9ffd83",
+      "characters": 31
+    },
+    {
+      "omitted_string_sha256": "049eda938a891579bc47cb37a63d657fe8f4fff2858be0a00c32929d3a32e573",
+      "characters": 41
+    },
+    {
+      "omitted_string_sha256": "29f82a018ddb05bf8b87e68e89f03a32e4fcaae8bd7b87793db9ad350f1dab85",
+      "characters": 42
+    }
+  ],
+  "scope": "Reviewed factual projection of the SAME immutable S2/S3; not a new retrieval"
+}

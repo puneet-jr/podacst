@@ -1,39 +1,72 @@
 {
-  "kind": "minimal_projection_of_actual_connector_results",
-  "note": "Source metadata only; full responses and source content omitted. No corpus content or dependency installation evidence.",
+  "kind": {
+    "omitted_string_sha256": "ac37844809bda7c481a9e32825e4639aca22dc5d19bd5d236d9012b92767b5eb",
+    "characters": 46
+  },
+  "note": {
+    "omitted_string_sha256": "4bf29ce0444694ddd61139d5a8e12727fa3ba3e86e9509c9e27efd31a91a9877",
+    "characters": 119
+  },
   "pi": {
     "revision": "2a32a605a9f18a5f0191f65358a2e764b2f69fc7",
-    "package": "@earendil-works/pi-coding-agent",
+    "package": {
+      "omitted_string_sha256": "93d656f338edc080bb3c16a56f2018edb6c01373db36fbceb5b06cb2a06f688a",
+      "characters": 31
+    },
     "version": "1.5.0",
-    "node": ">=22.19.0",
-    "license": "MIT"
+    "node": {
+      "omitted_string_sha256": "cbec0db9790921645f6d0dc6bb28ca4e749299ecf264056224d465f0c8aa9843",
+      "characters": 9
+    },
+    "license": {
+      "omitted_string_sha256": "e5dcffe836b6ec8a58e492419b550e65fb8cbdc308503979e5dacb33ac7ea3b7",
+      "characters": 3
+    }
   },
   "corpus": {
-    "url": "https://github.com/ChatPRD/lennys-podcast-transcripts",
+    "url": {
+      "omitted_string_sha256": "95bf19b2a6cc638c2448c7835cde97e40d28d82aac8dcb96ee4750d15acdf58a",
+      "characters": 53
+    },
     "observed_root": [
       {
         "name": "CLAUDE.md",
-        "sha": "797c11096e322cf22aa9261cb003fc9b8c9c176e",
+        "sha": {
+          "omitted_string_sha256": "701fb1b97af5cd5a6e07582df80bec74dcf0966400b864f41f7a1b81075defe5",
+          "characters": 40
+        },
         "type": "file"
       },
       {
         "name": "README.md",
-        "sha": "117a8ef99b74136ec1293ce672bfc83ae89e7640",
+        "sha": {
+          "omitted_string_sha256": "5a4628ba62f83e6c0d8de28ff91db1c4189bb63af0fc0449cf699fce4064997c",
+          "characters": 40
+        },
         "type": "file"
       },
       {
         "name": "episodes",
-        "sha": "18d0dd6de4f491caaf843aef61d61bb7ca27c93b",
+        "sha": {
+          "omitted_string_sha256": "dc3256f539bc375d564abc62b940bfc88026c68973eb1e57016521281784cd41",
+          "characters": 40
+        },
         "type": "dir"
       },
       {
         "name": "index",
-        "sha": "bb421541d0816342675d9ba278e94eeb59ef22be",
+        "sha": {
+          "omitted_string_sha256": "c0afb2da1a79d29e89787d28b95a10672c96371e349eab26db4fa07ecaab4c15",
+          "characters": 40
+        },
         "type": "dir"
       },
       {
         "name": "scripts",
-        "sha": "464594fe1cf7c7060e9cc4073865879bf9aac1b0",
+        "sha": {
+          "omitted_string_sha256": "2c1e2bfbb175c9505f2f26c0a61e32eba3d0eea46e8ed4b91838c87a104b83e6",
+          "characters": 40
+        },
         "type": "dir"
       }
     ],

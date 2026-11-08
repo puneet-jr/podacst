@@ -17,7 +17,7 @@ class ConfigTests(unittest.TestCase):
             with self.subTest(url=url), self.assertRaises(ValueError):
                 Settings(db_password="fixture", ollama_url=url)
         with self.assertRaises(ValueError):
-            Settings(db_password="fixture", default_provider="anthropic")
+            Settings(db_password="fixture", default_provider="unknown")
         self.assertEqual(Settings(db_password="fixture").ollama_url, "http://host.docker.internal:11434")
 
     def test_secret_representation_and_child_environment(self):

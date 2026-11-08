@@ -28,8 +28,13 @@ services:
       POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?Run python3 scripts/bootstrap.py first}
       OLLAMA_URL: ${OLLAMA_URL:-http://host.docker.internal:11434}
       GENERATION_MODEL: ${GENERATION_MODEL:-qwen3:0.6b}
+      ESSAY_MODEL: ${ESSAY_MODEL:-qwen3:1.7b}
       EMBEDDING_MODEL: ${EMBEDDING_MODEL:-nomic-embed-text:latest}
+      PRIVATE_RPC_TRACES: ${PRIVATE_RPC_TRACES:-false}
+      CLOUD_MODEL: ${CLOUD_MODEL:-claude-haiku-4-5-20251001}
       DEFAULT_PROVIDER: ${DEFAULT_PROVIDER:-ollama}
+      OPENROUTER_API_KEY: ${OPENROUTER_API_KEY:-}
+      OPENROUTER_MODEL: ${OPENROUTER_MODEL:-google/gemini-2.5-flash-lite}
       ANTHROPIC_API_KEY: ${ANTHROPIC_API_KEY:-}
     extra_hosts:
       - "host.docker.internal:host-gateway"

@@ -1,6 +1,9 @@
 {
   "captured_at": "2026-11-06T06:06:04.370334+00:00",
-  "path": "eval/retrieval-cases.json",
+  "path": {
+    "omitted_string_sha256": "c5309b71cacadf36810aa067f30b30113faf352fdc8923acce46f07b6f054d49",
+    "characters": 25
+  },
   "sha256": "02663c353fb868dad771d8eaf2d27d713f230faf0d462bb56c6786819659b0e6",
   "case_count": 24,
   "tuning": 16,
@@ -8,5 +11,8 @@
   "unsupported": 4,
   "source_anchor_count": 32,
   "no_retrieval_results_seen": true,
-  "method": "Direct original-source reading and exact hashed character spans; not independent expert labels. Known limited nine-episode development scope."
+  "method": {
+    "omitted_string_sha256": "b7b2d7ceae4022e66c1874cacb52bce09347dccf31873d81de580323ecc95542",
+    "characters": 141
+  }
 }

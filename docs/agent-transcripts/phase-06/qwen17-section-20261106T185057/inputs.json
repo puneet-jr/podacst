@@ -1,0 +1,274 @@
+{
+  "captured_at": "2026-11-06T18:50:57.992951+00:00",
+  "prompt_sha256": {
+    "omitted_string_sha256": "ae047b117c13fdef79c856083d06cd8492b7eea5dd897eea05cb50ccdba1e89d",
+    "characters": 64
+  },
+  "prompt_matches_actual_baseline": true,
+  "saved_outline_matches_baseline": true,
+  "source_matches_baseline": {
+    "S2": true,
+    "S3": true
+  },
+  "runtime_code_matches_commit": {
+    "omitted_string_sha256": "56bae2f290e4ca3e205d5a2d07dc26b8a33bda2ff282918077b637127ed2a652",
+    "characters": 7
+  },
+  "baseline_trace": {
+    "user_prompts": [
+      {
+        "sha256": "84d1682ce3f683601dfd12ea9baad518b43f511bc117262d55e065c587b163c0",
+        "bytes": 1163
+      }
+    ],
+    "diagnostics": [
+      {
+        "event": {
+          "omitted_string_sha256": "97dfef4792fdc68b417037029d303c829e254a0e2ffef89cdf955f8045f02441",
+          "characters": 11
+        },
+        "active": [],
+        "workflow": "ship30",
+        "mode": "snapshot_writing",
+        "skill_sha256": {
+          "omitted_string_sha256": "0cd0153af6892fbe0cf9f6f35b18f6e540f235576e49e78d6505f5f3a660e2f5",
+          "characters": 64
+        }
+      },
+      {
+        "event": {
+          "omitted_string_sha256": "5b12b88e083479c0b53da89c161c7cd1cbf2995ab480e1233d8a8b97fa398511",
+          "characters": 16
+        },
+        "provider": "ollama-local",
+        "model": "qwen3:0.6b",
+        "stage": {
+          "omitted_string_sha256": "12394b1fcc4874e696c30ddde665946926d5b6ee0d967ce39a7bb51540672ef6",
+          "characters": 30
+        },
+        "request": 1,
+        "prompt_bytes": 9359,
+        "max_tokens": 850,
+        "output_format": {
+          "omitted_string_sha256": "bc18f7068971a44e264848ecd54b72b02d38216abb8ce3c3d2148e37e8a12398",
+          "characters": 8
+        },
+        "structured_grammar": false
+      }
+    ],
+    "runtime_source_sha256": {
+      "backend/markdown_section_check.py": {
+        "omitted_string_sha256": "b338225322cc9ed302a91275969bcde2949cd67b51f844f2e212aa9bad962219",
+        "characters": 64
+      },
+      "backend/app/agent.py": {
+        "omitted_string_sha256": "ee21626cd1f91e02bebb7a4fee792d7d49f1d60fcb9038b0ae76689c55d9aa5a",
+        "characters": 64
+      },
+      "backend/app/essays.py": {
+        "omitted_string_sha256": "ed1e7d315fd2b29182bd29de03b11c0f48a83b9061a064a741742e826fede9d0",
+        "characters": 64
+      },
+      "backend/app/writing.py": {
+        "omitted_string_sha256": "696dbe58b00396f916274fb535a7a40cf2050e0a64df810f1d42035a9885cbfc",
+        "characters": 64
+      },
+      "agent/essay.ts": {
+        "omitted_string_sha256": "4bd17c642b74b2dd803527740f209fb423abeed339a3ac668d79536bef6fdc42",
+        "characters": 64
+      },
+      "agent/essay_format.ts": {
+        "omitted_string_sha256": "07ab518f54dcb053ca3c0f8d7a6caf3be260266967780d6590f179906d868652",
+        "characters": 64
+      },
+      "agent/skills/ship30/SKILL.md": {
+        "omitted_string_sha256": "0cd0153af6892fbe0cf9f6f35b18f6e540f235576e49e78d6505f5f3a660e2f5",
+        "characters": 64
+      },
+      "agent/skills/ship30/config.json": {
+        "omitted_string_sha256": "f1f7992b1c576119b87006622e8c5d03ac6dbe1c0a0714b013e7145040a6c921",
+        "characters": 64
+      }
+    },
+    "stdout_sha256": {
+      "omitted_string_sha256": "dbb2ff64b627503a4171262a4ccedb90be350f70c568fcbe860171f7e6f3a0cb",
+      "characters": 64
+    },
+    "stderr_sha256": {
+      "omitted_string_sha256": "98beba1669a63cbe0c1dd6d61de1bf1d7828e98e7b6feb00a472ba648575760c",
+      "characters": 64
+    }
+  },
+  "model_metadata": {
+    "name": "qwen3:1.7b",
+    "model": "qwen3:1.7b",
+    "modified_at": {
+      "omitted_string_sha256": "3a2cefa5f863a88a06aded5eef290cf413eefa04e8497c4aecb136e9034d5b37",
+      "characters": 35
+    },
+    "size": 1359293444,
+    "digest": {
+      "omitted_string_sha256": "41ca9b15f98754289684353d5caf9333404a72b5e6dea9bff3bee32ec7c7d842",
+      "characters": 64
+    },
+    "details": {
+      "parent_model": {
+        "omitted_string_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "characters": 0
+      },
+      "format": "gguf",
+      "family": {
+        "omitted_string_sha256": "61b6a80524bed7a2b8b0702c24f050fbc3a72a02875a4deddd7cd41a9f29e1d3",
+        "characters": 5
+      },
+      "families": [
+        {
+          "omitted_string_sha256": "61b6a80524bed7a2b8b0702c24f050fbc3a72a02875a4deddd7cd41a9f29e1d3",
+          "characters": 5
+        }
+      ],
+      "parameter_size": {
+        "omitted_string_sha256": "ce01aa5654a6105ea94e1551bc2405e02ddb9db2c6fc0e9182c821f6454a44b2",
+        "characters": 4
+      },
+      "quantization_level": {
+        "omitted_string_sha256": "42deb74305e56147014ee5a158ceca8a7d60a55f7d120fa4da790658488c15cd",
+        "characters": 6
+      },
+      "context_length": 40960,
+      "embedding_length": 2048
+    },
+    "capabilities": [
+      {
+        "omitted_string_sha256": "21606b5837ee49171e56cff2afe21083fb4dfe5c15c79b54695c2dc335181c89",
+        "characters": 10
+      },
+      {
+        "omitted_string_sha256": "f9d35d43770d39092a663e665e82ae1d84a9e0da3d0d10c407acada6a40cd281",
+        "characters": 5
+      },
+      {
+        "omitted_string_sha256": "6ee16429668c2d8207707407c8c3ee4285a9e26eef5bd0c17ff00efe090808e2",
+        "characters": 8
+      }
+    ]
+  },
+  "model_details": {
+    "qwen3:0.6b": {
+      "details": {
+        "parent_model": {
+          "omitted_string_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "characters": 0
+        },
+        "format": "gguf",
+        "family": {
+          "omitted_string_sha256": "61b6a80524bed7a2b8b0702c24f050fbc3a72a02875a4deddd7cd41a9f29e1d3",
+          "characters": 5
+        },
+        "families": [
+          {
+            "omitted_string_sha256": "61b6a80524bed7a2b8b0702c24f050fbc3a72a02875a4deddd7cd41a9f29e1d3",
+            "characters": 5
+          }
+        ],
+        "parameter_size": {
+          "omitted_string_sha256": "b1a1e229d57793a3be1847a042c1997d816eebd58c9ed65ab52b7979d083ecd8",
+          "characters": 7
+        },
+        "quantization_level": {
+          "omitted_string_sha256": "42deb74305e56147014ee5a158ceca8a7d60a55f7d120fa4da790658488c15cd",
+          "characters": 6
+        }
+      },
+      "template_sha256": {
+        "omitted_string_sha256": "65efff779b6ea512164b36407e23d754b670f7ed2a67d6326cae42bb7db7df68",
+        "characters": 64
+      },
+      "parameters": {
+        "omitted_string_sha256": "b486bc5b19b3a10c136f738b4105a741fa4d3384d7cccadff0a694a994d86545",
+        "characters": 227
+      }
+    },
+    "qwen3:1.7b": {
+      "details": {
+        "parent_model": {
+          "omitted_string_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "characters": 0
+        },
+        "format": "gguf",
+        "family": {
+          "omitted_string_sha256": "61b6a80524bed7a2b8b0702c24f050fbc3a72a02875a4deddd7cd41a9f29e1d3",
+          "characters": 5
+        },
+        "families": [
+          {
+            "omitted_string_sha256": "61b6a80524bed7a2b8b0702c24f050fbc3a72a02875a4deddd7cd41a9f29e1d3",
+            "characters": 5
+          }
+        ],
+        "parameter_size": {
+          "omitted_string_sha256": "ce01aa5654a6105ea94e1551bc2405e02ddb9db2c6fc0e9182c821f6454a44b2",
+          "characters": 4
+        },
+        "quantization_level": {
+          "omitted_string_sha256": "42deb74305e56147014ee5a158ceca8a7d60a55f7d120fa4da790658488c15cd",
+          "characters": 6
+        }
+      },
+      "template_sha256": {
+        "omitted_string_sha256": "65efff779b6ea512164b36407e23d754b670f7ed2a67d6326cae42bb7db7df68",
+        "characters": 64
+      },
+      "parameters": {
+        "omitted_string_sha256": "b486bc5b19b3a10c136f738b4105a741fa4d3384d7cccadff0a694a994d86545",
+        "characters": 227
+      }
+    }
+  },
+  "chat_provider_before": {
+    "selected": "ollama",
+    "model": "qwen3:0.6b",
+    "automatic_fallback": false,
+    "providers": [
+      {
+        "id": "ollama",
+        "implemented": true,
+        "configured": true,
+        "scope": "retrieval-first extractive conversation; hybrid; no autonomous/essay quality claim"
+      },
+      {
+        "id": "anthropic",
+        "implemented": false,
+        "credentials_present": false,
+        "enabled": false,
+        "reason": {
+          "omitted_string_sha256": "0887bc1d08fef250e07e225c2fbc3c117dd84a3243b19463b209d574f8bad133",
+          "characters": 62
+        }
+      }
+    ]
+  },
+  "baseline_preserved": true,
+  "only_intended_inference_setting_change": {
+    "omitted_string_sha256": "1c50c9f3ef25e0c44fcdaf4ba1e9c9fdcd8ddb9ade86b7f8dbeeadc34b31689f",
+    "characters": 99
+  },
+  "same_settings": {
+    "context_window": 4096,
+    "max_output_tokens": 850,
+    "temperature": 0,
+    "thinking": {
+      "omitted_string_sha256": "b4dc66dde806261bdda8607d8707aa727d308cd80272381a5583f63899918467",
+      "characters": 3
+    },
+    "structured_grammar": false,
+    "active_tools": [],
+    "stage_deadline_seconds": 90,
+    "target_words": 210
+  },
+  "warmup_inference": false,
+  "comparison_limit": {
+    "omitted_string_sha256": "987a9e043c759d09b06de156f06c58ed8a89155eac98326cca3a7df50330e226",
+    "characters": 136
+  }
+}

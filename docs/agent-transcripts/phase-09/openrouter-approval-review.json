@@ -1,0 +1,26 @@
+{
+  "kind": {
+    "omitted_string_sha256": "94da812a925a497ee19abbd33211885451eb6e667002e13fdfaccae3ebe14291",
+    "characters": 66
+  },
+  "initial_conditional_live_command": {
+    "omitted_string_sha256": "8df16ea8ac4ac4231bcf029eca8fa2f8affd1f30358fb10cc129425c7fcb5efd",
+    "characters": 32
+  },
+  "stated_reason": {
+    "omitted_string_sha256": "27eb86d0a81748da5a490f70c273f5182d82c6eaeb53ee7a8c717b76df7d0082",
+    "characters": 137
+  },
+  "correction": {
+    "omitted_string_sha256": "3909ff2d87dc50609e2d11a6740ca22fb51a129e77b01ef66fd247efa39297ee",
+    "characters": 234
+  },
+  "narrowed_command_review": {
+    "omitted_string_sha256": "2687f86ed6784b8a5fca36e6c468e12aa44dc3c7e8137e3160d1a95079bdcd02",
+    "characters": 8
+  },
+  "narrowed_execution": {
+    "omitted_string_sha256": "5b94992032f82b8ea382ba3156fc07be29d4f1122a65f80f6036fdbc4d48c887",
+    "characters": 62
+  }
+}

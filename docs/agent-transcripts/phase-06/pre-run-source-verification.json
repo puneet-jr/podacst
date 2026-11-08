@@ -2,23 +2,74 @@
   "captured_at": "2026-11-06T11:15:43.424054+00:00",
   "git_repository": false,
   "host_source_hashes": {
-    "backend/app/agent.py": "f9000755483b000c5950e2649201a5ccb57a088e314d0b8fc3107b2e4673bd8f",
-    "backend/app/essays.py": "044a324687c3fc1d298e7821e96c3eb8d9e2311b2d590680782ee9e4e0a29369",
-    "backend/app/writing.py": "9e1e27de419c0c909f5f4efb9b31057bb9f7d49308d8c0b719e574159d0c826e",
-    "backend/app/main.py": "7833353521f44963a437ddae942d953879e34a014f2ef5f94aede52fcb2ed4d6",
-    "backend/app/conversation.py": "348bca01bf73ac5a8ede936509419a5cb5bef3a56211fd08b46f115759ace926",
-    "backend/app/schema.py": "950b3e955b3deea12bf08b6d639bc26089e7fb06a1ac7921e6048ee789204e1c",
-    "backend/migrations/versions/0004_essays.py": "e5326786d1408f3caad744b9f3afa3b0f6e74e5de7828025e4a38e71b15972b4",
-    "backend/contract_check.py": "a39bebbb738a1018da880734877c67f152096b36e6e660042b7215b57fb352eb",
-    "backend/tests/test_writing.py": "1af1335bc396371813897a543eb38665dd6a078df589cef17b1435c276c2efda",
-    "backend/tests/test_writing_rpc.py": "0db20f12194689ac2d2f9645e4b1993552980fe772d6361a04d7346f3e7634cb",
-    "backend/tests/test_essays_db.py": "a8cc08750e69a3434c542f5c8330fb4bdd1264be70a00c7fd51ac9ca14910092",
-    "agent/essay.ts": "e96e81641753d44a342cb75e0b9a5cbf87050fe1e2bd8388bd5120aaeb93b293",
-    "agent/conversation_policy.ts": "f348321229f37ab9426a152f5d08b8df399f5182eb8fe5b7a53dd6596536492a",
-    "agent/skills/ship30/SKILL.md": "6a90a2532f5128508647742c9e8fce05321bdfd9cda33bd398e0ec03255f51fe",
-    "agent/skills/ship30/config.json": "9d99a53639176261488996e604a0545a2f85c2d3cd9d98e1f5fb1315554e4ead",
-    "agent/package-lock.json": "b079b6044ca4602c4d98ab9218a4b9f1ac5869410e62200f5190010e6ea4a74e",
-    "backend/requirements.lock": "abed73e02f692c433abc60b22a2f04bcc24ae9c95eea1ad438bbc553f031f013"
+    "backend/app/agent.py": {
+      "omitted_string_sha256": "ee21626cd1f91e02bebb7a4fee792d7d49f1d60fcb9038b0ae76689c55d9aa5a",
+      "characters": 64
+    },
+    "backend/app/essays.py": {
+      "omitted_string_sha256": "8f1f306d78b3081e51927dbf241ecc90f1211896f39daf1fc0d2c93865ecd54f",
+      "characters": 64
+    },
+    "backend/app/writing.py": {
+      "omitted_string_sha256": "0b53a4154e8424300dc8e305c1a9d4337e9345df1f0d7b9b76c88a63841ec8d8",
+      "characters": 64
+    },
+    "backend/app/main.py": {
+      "omitted_string_sha256": "90b19c0c58d141c5f616376a258036f5b563ac22c88d76206fc8d3a107315b32",
+      "characters": 64
+    },
+    "backend/app/conversation.py": {
+      "omitted_string_sha256": "2c7ee412b73cc0a3278a420246f7a548f3eac6e304b9559ab49e7e6af2d07d76",
+      "characters": 64
+    },
+    "backend/app/schema.py": {
+      "omitted_string_sha256": "05ee30a574aab75043a24403aeee23a9d0ec6093cfd8d1bf4d2d19a8e74f6418",
+      "characters": 64
+    },
+    "backend/migrations/versions/0004_essays.py": {
+      "omitted_string_sha256": "23e834663c29228f3d7922a8dc232cc03ed455019cc776ee6e546491c1bb8d3f",
+      "characters": 64
+    },
+    "backend/contract_check.py": {
+      "omitted_string_sha256": "c594b5eefc86df56ddec14d4ed7820a66770413fb1ba40006b6f4ba73a3ef1cc",
+      "characters": 64
+    },
+    "backend/tests/test_writing.py": {
+      "omitted_string_sha256": "760df14a2d7a0d60d7962d3781db817abe5cc7fac7e4004ea0c426eec08ad680",
+      "characters": 64
+    },
+    "backend/tests/test_writing_rpc.py": {
+      "omitted_string_sha256": "d96d20778e34e19cde75b05bc724c6d16bc5b518e255b43cdbd90db0ecafb84d",
+      "characters": 64
+    },
+    "backend/tests/test_essays_db.py": {
+      "omitted_string_sha256": "f1a07fdd95b5a11c585944e0e855a5a7d94b5f34fa94e2c3d5d9fe0c53d8787e",
+      "characters": 64
+    },
+    "agent/essay.ts": {
+      "omitted_string_sha256": "88ea0a8199514632599c6c349a0110cf81e64701f71f72c2dc75475ec974e792",
+      "characters": 64
+    },
+    "agent/conversation_policy.ts": {
+      "omitted_string_sha256": "527c7dfbaa19d66992f9672c718505b906296e069c63d8518ae04fb8250b470f",
+      "characters": 64
+    },
+    "agent/skills/ship30/SKILL.md": {
+      "omitted_string_sha256": "0cd0153af6892fbe0cf9f6f35b18f6e540f235576e49e78d6505f5f3a660e2f5",
+      "characters": 64
+    },
+    "agent/skills/ship30/config.json": {
+      "omitted_string_sha256": "f1f7992b1c576119b87006622e8c5d03ac6dbe1c0a0714b013e7145040a6c921",
+      "characters": 64
+    },
+    "agent/package-lock.json": {
+      "omitted_string_sha256": "876d6e7d32a928f77ba096be27e313bfae84157b7ba3190179e322092604936a",
+      "characters": 64
+    },
+    "backend/requirements.lock": {
+      "omitted_string_sha256": "9e8a4ddace2db994302ac2f56823fbb9ec1d508375f492fc1d9ac406d0262f58",
+      "characters": 64
+    }
   },
   "runtime_mismatches": [],
   "readiness": {
@@ -28,8 +79,14 @@
     "checks": {
       "database": {
         "ready": true,
-        "schema_revision": "0004_essays",
-        "pgvector_version": "0.8.7"
+        "schema_revision": {
+          "omitted_string_sha256": "48a82b1ef3c89f5c8fd9c64c95b5c280f1c0999ab0ea7c99b598cc9f7b4a9292",
+          "characters": 11
+        },
+        "pgvector_version": {
+          "omitted_string_sha256": "e4369c730413d6871f29fa8a24a8f397e6a790e374b1283c9f76f780535415e3",
+          "characters": 5
+        }
       },
       "corpus": {
         "ready": true,
@@ -50,10 +107,16 @@
         "embedding_model_available": true,
         "embedding_dimensions_compatible": true,
         "index_identity_compatible": true,
-        "note": "Transport and installed-model availability; does not prove answer or essay quality."
+        "note": {
+          "omitted_string_sha256": "e794244e901e453b7c7e944b4a3b9e0413be67a054586c47282d7b7f0d7a4ebc",
+          "characters": 83
+        }
       }
     }
   },
   "passed": true,
-  "limits": "Source identity and dependency readiness only; no essay-quality inference."
+  "limits": {
+    "omitted_string_sha256": "6d6448751ec2c3fd00247b6c9e05f7753ac3abba584965e8ae10ccd5ba0d3244",
+    "characters": 74
+  }
 }

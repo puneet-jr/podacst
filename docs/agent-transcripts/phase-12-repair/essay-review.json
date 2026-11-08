@@ -1,0 +1,372 @@
+{
+  "runtime_revision": "3dc814552104edc83072503811c56dbe452e9552",
+  "run_id": "65beed43-261f-4ee7-b920-b14e1ba3fa88",
+  "word_count": 1145,
+  "elapsed_seconds": 47.755,
+  "manual_edits": 0,
+  "automatic_length_repairs": 0,
+  "accepted": false,
+  "complete_sections": 6,
+  "factual_blocks": [
+    {
+      "section": 1,
+      "fact": 1,
+      "source_id": "S1",
+      "chunk_id": "e7ebf483-ca51-5ba3-a02a-162986317feb",
+      "start": 1283,
+      "end": 1823,
+      "sha256": "870e11cc4d247c36b93c4b93a8e17d90bc0f5ef9534dba65bb51c73184dcefdb",
+      "exact_source_span": true,
+      "direct_citation_attachment": true,
+      "manual_support_review": "Attributed source opinion about aligning must-have customers, roadmap, onboarding and messaging; begins mid-sentence, weak opening context.",
+      "complete_usable_fact": true
+    },
+    {
+      "section": 2,
+      "fact": 1,
+      "source_id": "S2",
+      "chunk_id": "40c4e9ae-ce0c-5575-817c-b00c6c5d8334",
+      "start": 182,
+      "end": 648,
+      "sha256": "3e08e31f1c87519ade9af2245f22a1edb96692a527b6a0094329e7adf92dd272",
+      "exact_source_span": true,
+      "direct_citation_attachment": true,
+      "manual_support_review": "Attributed acquisition/retention efficiency opinion, not a new measured outcome.",
+      "complete_usable_fact": true
+    },
+    {
+      "section": 2,
+      "fact": 2,
+      "source_id": "S2",
+      "chunk_id": "40c4e9ae-ce0c-5575-817c-b00c6c5d8334",
+      "start": 1924,
+      "end": 2255,
+      "sha256": "966a9f1708b6934b4e6ae7ff64fabba07dc74be40d4469205db86c8474cec86f",
+      "exact_source_span": true,
+      "direct_citation_attachment": true,
+      "manual_support_review": "Partial: acquisition spending statement is attributable, but the 95% statistic has no predicate/outcome; exact transcription is not a complete statistical claim.",
+      "complete_usable_fact": false
+    },
+    {
+      "section": 3,
+      "fact": 1,
+      "source_id": "S3",
+      "chunk_id": "2d70a732-94f8-5cd8-9f59-0019c1fd9b21",
+      "start": 1427,
+      "end": 1883,
+      "sha256": "6494ceae1f7096f5bc77319d01b4ca29a072dfee3453cbdb9d2a7089f05a9c4c",
+      "exact_source_span": true,
+      "direct_citation_attachment": true,
+      "manual_support_review": "Attributed onboarding sequencing recommendation; two direct quotations are complete.",
+      "complete_usable_fact": true
+    },
+    {
+      "section": 4,
+      "fact": 1,
+      "source_id": "S5",
+      "chunk_id": "ac3b448b-888b-5a93-b57a-87115b25c5c1",
+      "start": 1239,
+      "end": 1661,
+      "sha256": "016dc23a0d8547db6ba1d5ee7f951634188c1dffc180efebfdd84413b7f27a1f",
+      "exact_source_span": true,
+      "direct_citation_attachment": true,
+      "manual_support_review": "Attributed opinion about core-product fit versus onboarding; formerly open quotation omitted by selection guard.",
+      "complete_usable_fact": true
+    },
+    {
+      "section": 4,
+      "fact": 2,
+      "source_id": "S5",
+      "chunk_id": "ac3b448b-888b-5a93-b57a-87115b25c5c1",
+      "start": 824,
+      "end": 1225,
+      "sha256": "a1331115ae220049107ca8444679a9079a32286c068ac26e7294df9dd817adb3",
+      "exact_source_span": true,
+      "direct_citation_attachment": true,
+      "manual_support_review": "Attributed opinion/debate about product-market fit and onboarding; not an established universal test.",
+      "complete_usable_fact": true
+    },
+    {
+      "section": 5,
+      "fact": 1,
+      "source_id": "S6",
+      "chunk_id": "afb202bc-a30a-5ee6-9ad6-e27e468b775e",
+      "start": 1452,
+      "end": 2042,
+      "sha256": "e2cd8d47b9f7311129853f9e016b326170130ffe8b76581205d5063d10fbab25",
+      "exact_source_span": true,
+      "direct_citation_attachment": true,
+      "manual_support_review": "Attributed Amazon metric opinion preserves the speaker qualification; tangential to requested feedback-to-onboarding topic.",
+      "complete_usable_fact": true
+    },
+    {
+      "section": 6,
+      "fact": 1,
+      "source_id": "S7",
+      "chunk_id": "bdd3d954-095e-5f5a-8be1-5f38377168ff",
+      "start": 573,
+      "end": 898,
+      "sha256": "b36afb1d474a3a9fb24acc08ecabd5fdb1959224d656325df287703d65c91bc1",
+      "exact_source_span": true,
+      "direct_citation_attachment": true,
+      "manual_support_review": "Attributed warning about somewhat-disappointed respondents; source supports that opinion.",
+      "complete_usable_fact": true
+    },
+    {
+      "section": 6,
+      "fact": 2,
+      "source_id": "S7",
+      "chunk_id": "bdd3d954-095e-5f5a-8be1-5f38377168ff",
+      "start": 1054,
+      "end": 1221,
+      "sha256": "51cb8cbdfb8f6325ee77228c83ca7c92de41f4e279d893ec3a31dba023f5ad2b",
+      "exact_source_span": true,
+      "direct_citation_attachment": true,
+      "manual_support_review": "Attributed retention/onboarding opinion; not measured causal improvement.",
+      "complete_usable_fact": true
+    },
+    {
+      "section": 6,
+      "fact": 3,
+      "source_id": "S7",
+      "chunk_id": "bdd3d954-095e-5f5a-8be1-5f38377168ff",
+      "start": 133,
+      "end": 386,
+      "sha256": "aa75a15d30f798ee760408e2cc73657fa9bdad2e86cf2f1b90e877a7c1a4081f",
+      "exact_source_span": true,
+      "direct_citation_attachment": true,
+      "manual_support_review": "Attributed survey question/observational generalization; does not establish guaranteed causal outcomes.",
+      "complete_usable_fact": true
+    }
+  ],
+  "advice_claim_review": [
+    {
+      "section": 1,
+      "sentences": [
+        {
+          "sentence": 1,
+          "sha256": "3d37d9b1af5df46f2fecd029229658a35eec7006bb18c02004bb4dcbed36cf44",
+          "classification": "proposed_advice_or_explicit_hypothesis_not_historical_evidence"
+        },
+        {
+          "sentence": 2,
+          "sha256": "ad0787338dd5b94c40dcd2a387bff9ca968d6526f60d36b1c3117b5f3c2ecd3d",
+          "classification": "proposed_advice_or_explicit_hypothesis_not_historical_evidence"
+        },
+        {
+          "sentence": 3,
+          "sha256": "77a04abff9a81e6066353d250618ba3d785f64ada12adb579ece22d201d1406a",
+          "classification": "unsupported_observation"
+        },
+        {
+          "sentence": 4,
+          "sha256": "7973d015641d1d77a09ec46d1232e7355e7f2b08dc37c3d919b80a01e42c1742",
+          "classification": "proposed_advice_or_explicit_hypothesis_not_historical_evidence"
+        },
+        {
+          "sentence": 5,
+          "sha256": "f2561193cb0b39663ecac2ecc4cc248ac0035efb3543cc60e6ee72a2c3efe2b8",
+          "classification": "proposed_advice_or_explicit_hypothesis_not_historical_evidence"
+        }
+      ],
+      "manual_review": "Sentence3 asserts a finding about correlation without any data/source. Other sentences are proposed experiments/hypotheses; innovation/feature-request framing is disconnected from the requested task."
+    },
+    {
+      "section": 2,
+      "sentences": [
+        {
+          "sentence": 1,
+          "sha256": "2b7c057a7e99dc87d8dcb37001bcb4c53d93d91799b743cd0f4fa6741c7e9e51",
+          "classification": "proposed_advice_or_explicit_hypothesis_not_historical_evidence"
+        },
+        {
+          "sentence": 2,
+          "sha256": "67a13ba9ac39f6b3de7882272cfd1d6a5f7c56749b58a7dc9a4bb392afde4623",
+          "classification": "proposed_advice_or_explicit_hypothesis_not_historical_evidence"
+        },
+        {
+          "sentence": 3,
+          "sha256": "fc182447b65831436e0577346ad13f7d5ac7699921968d24484d743901b8f4ea",
+          "classification": "proposed_advice_or_explicit_hypothesis_not_historical_evidence"
+        },
+        {
+          "sentence": 4,
+          "sha256": "f9aa925e9c17a8f55378d4ba7fd8eef5b155bb3e41176d7a98be6c182494bcdc",
+          "classification": "proposed_advice_or_explicit_hypothesis_not_historical_evidence"
+        },
+        {
+          "sentence": 5,
+          "sha256": "1e7f068da4b3ba9245943c088ed3e697bac7e1ba9ea1b1183bc776d1507a1142",
+          "classification": "proposed_advice_or_explicit_hypothesis_not_historical_evidence"
+        },
+        {
+          "sentence": 6,
+          "sha256": "25bcad1d2ecf02f8bff76218fb207007b10b85c1bd633cc22264b74def3f8682",
+          "classification": "proposed_advice_or_explicit_hypothesis_not_historical_evidence"
+        }
+      ],
+      "manual_review": "Proposed signup/first-task comparison and hypothesis; 30-second measure is an arbitrary proposed threshold, not a historical result. Final decision precedes a defined review."
+    },
+    {
+      "section": 3,
+      "sentences": [
+        {
+          "sentence": 1,
+          "sha256": "9fb5a6b16be77f9eea4800350badc7801e4e0c22552620fa27113db2d0149da0",
+          "classification": "proposed_advice_or_explicit_hypothesis_not_historical_evidence"
+        },
+        {
+          "sentence": 2,
+          "sha256": "7b8cecf99970d43ebe4e7e97e825c670aff900891cc3b17d5cd4f3a7a078a205",
+          "classification": "proposed_advice_or_explicit_hypothesis_not_historical_evidence"
+        },
+        {
+          "sentence": 3,
+          "sha256": "382a04d781f1d7c6166868f2cbd393eed94997ec2c2c8e3ffa7158efdc9426a0",
+          "classification": "proposed_advice_or_explicit_hypothesis_not_historical_evidence"
+        },
+        {
+          "sentence": 4,
+          "sha256": "7c1774528821a2ab893c3fcfa91e7ec2b462f680135e7dcf27d36c94e29d4783",
+          "classification": "proposed_advice_or_explicit_hypothesis_not_historical_evidence"
+        },
+        {
+          "sentence": 5,
+          "sha256": "502bcca0922a3269c1d58b1d2cfa10c9a822ae83815e614ac28d7d18d11ba43d",
+          "classification": "proposed_advice_or_explicit_hypothesis_not_historical_evidence"
+        },
+        {
+          "sentence": 6,
+          "sha256": "d1973b8c986403652df5083f6ad8315b81057bac6b0deca1b82fb112e0172a8c",
+          "classification": "proposed_advice_or_explicit_hypothesis_not_historical_evidence"
+        }
+      ],
+      "manual_review": "Proposed real-time-feedback test; session duration/frequency are proxies. No demonstrated historical improvement, but no benefit-question progression and weak interpretation of metrics."
+    },
+    {
+      "section": 4,
+      "sentences": [
+        {
+          "sentence": 1,
+          "sha256": "88d3abf0d6412a458cc9ca945ee00f30284d4106856f4a0050d72fdf115c4855",
+          "classification": "proposed_advice_or_explicit_hypothesis_not_historical_evidence"
+        },
+        {
+          "sentence": 2,
+          "sha256": "376f78006479586e9fd89cc888ef9dda9689042539821f4584cc69645bc94e33",
+          "classification": "proposed_advice_or_explicit_hypothesis_not_historical_evidence"
+        },
+        {
+          "sentence": 3,
+          "sha256": "65a57e0b40665574219ac4395a14f79299a378b057f22091e39012c2860a3ec4",
+          "classification": "proposed_advice_or_explicit_hypothesis_not_historical_evidence"
+        },
+        {
+          "sentence": 4,
+          "sha256": "55653f1ec5f71399a71f921c80b149737af717ece7de90b4d0d605bbccad72f0",
+          "classification": "proposed_advice_or_explicit_hypothesis_not_historical_evidence"
+        },
+        {
+          "sentence": 5,
+          "sha256": "e47d561fbd1ef18f563faa584dcaa8c25b7b386f4e5058b437551f5f80adb904",
+          "classification": "unsupported_inference"
+        },
+        {
+          "sentence": 6,
+          "sha256": "08b656a2aa10190c3a7fbde6c6d5b03acdc8cfdf5c0ee16fa7d57970dc7ab872",
+          "classification": "proposed_advice_or_explicit_hypothesis_not_historical_evidence"
+        }
+      ],
+      "manual_review": "Proposed 15% target is not a measured fact. DAU over3weeks cannot establish retention/effectiveness within1month; if DAU rises then feature effective is an unsupported inference."
+    },
+    {
+      "section": 5,
+      "sentences": [
+        {
+          "sentence": 1,
+          "sha256": "01d4f978947634ef52d162801e7ff30c24b74119a4c334a0d081040ecef3bc81",
+          "classification": "proposed_advice_or_explicit_hypothesis_not_historical_evidence"
+        },
+        {
+          "sentence": 2,
+          "sha256": "fb0f6d85ac21a2cd222b2f830dd814e81484e0aa619797340eb1a33fba48483a",
+          "classification": "proposed_advice_or_explicit_hypothesis_not_historical_evidence"
+        },
+        {
+          "sentence": 3,
+          "sha256": "788618151fb42b1c21b27686be721b31936c3ae253b2fbeedd8795664a2c8011",
+          "classification": "proposed_advice_or_explicit_hypothesis_not_historical_evidence"
+        },
+        {
+          "sentence": 4,
+          "sha256": "99244855a34e3901fe69b8b199be3f1b7311c36dc3be8af42a7c0392d37d0017",
+          "classification": "proposed_advice_or_explicit_hypothesis_not_historical_evidence"
+        },
+        {
+          "sentence": 5,
+          "sha256": "aacdc667d84a44a0f0ae030254b9b83a0926698b3f3ac463f6c09861da858081",
+          "classification": "proposed_advice_or_explicit_hypothesis_not_historical_evidence"
+        }
+      ],
+      "manual_review": "Proposed 15%/20% revision thresholds are not historical measurements. Repeats section3 rather than developing feedback/onboarding reasoning."
+    },
+    {
+      "section": 6,
+      "sentences": [
+        {
+          "sentence": 1,
+          "sha256": "01d4f978947634ef52d162801e7ff30c24b74119a4c334a0d081040ecef3bc81",
+          "classification": "proposed_advice_or_explicit_hypothesis_not_historical_evidence"
+        },
+        {
+          "sentence": 2,
+          "sha256": "8974d42c295c2d8eca7b90dd0de2ef93a6f581322d89341876bb9356ee2eda10",
+          "classification": "proposed_advice_or_explicit_hypothesis_not_historical_evidence"
+        },
+        {
+          "sentence": 3,
+          "sha256": "5c65050fa6ae5be2d607a8ce9ebea1a62823b96960291394089fa25a0dbec6d3",
+          "classification": "unsupported_inference"
+        },
+        {
+          "sentence": 4,
+          "sha256": "753df27b422effa6d04cfa53e3952b584730dbb0135fc4f8139c0a4ec70d7504",
+          "classification": "unsupported_inference"
+        },
+        {
+          "sentence": 5,
+          "sha256": "81b07368802e7837c2ca1b7116ed289be0a3799bbc188739d172df8515478f3a",
+          "classification": "proposed_advice_or_explicit_hypothesis_not_historical_evidence"
+        }
+      ],
+      "manual_review": "Proposed metric thresholds are not measured outcomes. Saying they validate engagement and suggesting reduced churn/satisfaction from those proxies is unsupported; repeated advice and premature implementation recommendation."
+    }
+  ],
+  "citation_ids": [
+    "S1",
+    "S2",
+    "S3",
+    "S5",
+    "S6",
+    "S7"
+  ],
+  "all_citation_ids_resolve": true,
+  "all_10_spans_and_attachments_exact": true,
+  "unbalanced_fact_quotes": 0,
+  "no_invented_historical_lookout_engagement_conversion_outcome": true,
+  "rubric": {
+    "approximately_1250_operational_1125_1375": "PASS1145; numeric band is project interpretation",
+    "six_headings_bullets_selective_bold": "PASS6 headings/5 bullets/1 bold span",
+    "meaningful_topic_hook": "FAIL disconnected feature-request hypothesis plus invented observation",
+    "logical_progression": "FAIL repeated real-time-feedback advice; weak feedback/benefit/onboarding sequence",
+    "grounded_complete_factual_claims": "FAIL unfinished95% statistic and invented correlation finding",
+    "applications_distinct_and_sound": "FAIL unsupported proxy-to-effectiveness/retention inferences; advice label alone is insufficient",
+    "useful_complete_takeaway": "FAIL repetition and premature implementation based on proxy thresholds",
+    "citation_identity_and_placement": "PASS6 IDs/10 exact directly attached blocks",
+    "overall": "FAIL as generated"
+  },
+  "preserved_raw_sha256": "67b7b01f3c3baeb484c2667aeb4d791faca4b794b51b514811637558a7242f14",
+  "raw_path": ".cache/phase12-repair/essay/raw.md",
+  "historical_reviewed_essay": "Separate1208-word result after9 manual edits;unchanged.",
+  "limits": "Manual semantic review plus deterministic exact-span validation. Proposed hypotheses/thresholds are not labelled measured historical claims. No new frozen-scenario score."
+}

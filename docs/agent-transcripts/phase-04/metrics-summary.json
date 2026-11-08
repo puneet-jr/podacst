@@ -1,7 +1,13 @@
 {
   "captured_at": "2026-11-06T06:30:21.781996+00:00",
-  "selected_default": "sparse",
-  "selected_on": "tuning-v3-local only, before held-out",
+  "selected_default": {
+    "omitted_string_sha256": "d7af78c1f4c4a2defc54302095df328cc37c57ae94b7b45fb62a1a437eb3dcc3",
+    "characters": 6
+  },
+  "selected_on": {
+    "omitted_string_sha256": "4694e45ff2872fa018152facd2c743c07b2c38c1a8ec7f1fb520f217a46cc357",
+    "characters": 37
+  },
   "tuning": {
     "sparse": {
       "n": 16,
@@ -168,5 +174,8 @@
     }
   },
   "selected_default_quality_target_met": false,
-  "note": "Combined results mix tuning and held-out: descriptive, not an independent test. Hybrid held-out alone exceeds 85% but the all-case and selected-default targets do not. No default reselection after held-out."
+  "note": {
+    "omitted_string_sha256": "5a526266ba08735c88e91ff5706b49153c8eb5f61665a20024a9213d79fb76dd",
+    "characters": 206
+  }
 }
