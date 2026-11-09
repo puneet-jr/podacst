@@ -207,3 +207,5 @@ python3 scripts/docker.py compose logs --tail 80 api
 ```
 
 The readiness response can be successful before ingestion; inspect corpus counts too. Resume interrupted ingestion with the same command. Model/RPC failures are operational failures, not evidence gaps. See the [test plan](docs/test-plan.md), [known issues](docs/known-issues.md) and [handoff](docs/handoff.md) for broader evaluation and recovery details.
+#   p o d a c s t  
+ 
