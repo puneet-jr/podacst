@@ -33,7 +33,7 @@ test('OpenRouter follow-up preserves tool replay and omits incompatible JSON mod
  const result={role:'tool',tool_call_id:'fixture-call',content:'{"items":[{"id":"E1","text":"Synthetic evidence"}]}'};
  const payload={messages:[{role:'system',content:'fixture'},{role:'user',content:'fixture'},call,result],tools:[{type:'function',function:{name:'search_transcripts'}}],response_format:{type:'json_object'}};
  const next=openrouterConversationPayload(payload,2,['E1'],'fixture');
- assert.equal(next.response_format,undefined);assert.equal(next.tool_choice,'none');assert.equal(next.max_tokens,128);
+ assert.equal(next.response_format,undefined);assert.equal(next.tool_choice,'none');assert.equal(next.max_tokens,320);
  assert.deepEqual(next.messages[2],call);assert.deepEqual(next.messages[3],result);assert.deepEqual(next.tools,payload.tools);
  assert.match(next.messages[0].content,/JSON object/);assert.match(next.messages[0].content,/E1/);
 });
@@ -46,9 +46,33 @@ test('GPT-OSS120B extends only its final answer after linked retrieval',()=>{
  const final=openrouterConversationPayload(p,2,['E1'],'question');assert.equal(final.max_tokens,1024);assert.equal(final.tool_choice,'none');
  assert.deepEqual(final.provider,{allow_fallbacks:false,require_parameters:true,data_collection:'deny'});assert.deepEqual(final.messages[2],toolCall);assert.deepEqual(final.messages[3],toolResult);
  assert.equal(openrouterConversationPayload(p,1,['E1'],'question').max_tokens,128);
- assert.equal(openrouterConversationPayload({...p,messages:p.messages.slice(0,2)},2,['E1'],'question').max_tokens,128);
- assert.equal(openrouterConversationPayload(p,2,[],'question').max_tokens,128);
- for(const model of ['google/gemini-2.5-flash-lite','openai/gpt-oss-20b:free','openai/gpt-oss-120b:free'])assert.equal(openrouterConversationPayload({...p,model},2,['E1'],'question').max_tokens,128);
+ assert.equal(openrouterConversationPayload({...p,messages:p.messages.slice(0,2)},2,['E1'],'question').max_tokens,320);
+ assert.equal(openrouterConversationPayload(p,2,[],'question').max_tokens,320);
+ for(const model of ['google/gemini-2.5-flash-lite','openai/gpt-oss-20b:free','openai/gpt-oss-120b:free'])assert.equal(openrouterConversationPayload({...p,model},2,['E1'],'question').max_tokens,320);
  const unrelated={...p,messages:[...p.messages.slice(0,2),{...toolCall,tool_calls:[{...toolCall.tool_calls[0],function:{...toolCall.tool_calls[0].function,name:'unapproved_tool'}}]},toolResult]};
- assert.equal(openrouterConversationPayload(unrelated,2,['E1'],'question').max_tokens,128);
+ assert.equal(openrouterConversationPayload(unrelated,2,['E1'],'question').max_tokens,320);
+});
+
+test('cloud providers ask for one evidence ID per question part, not a single sentence',()=>{
+ const question='What is it, what threshold, and how applied?';
+ const anthropic=cloudConversationPayload({system:'original',messages:[{role:'user',content:'fixture'}]},2,['E1','E2'],question);
+ assert.match(anthropic.system as string,/evidence_ids/);assert.match(anthropic.system as string,/one per part/);assert.doesNotMatch(anthropic.system as string,/Select ONE/);
+ assert.match((anthropic.messages as any[])[1].content,/evidence_ids/);
+ const or=openrouterConversationPayload({messages:[{role:'system',content:'fixture'},{role:'user',content:'q'}]},2,['E1','E2'],question);
+ const system=(or.messages as any[])[0].content as string;
+ assert.match(system,/evidence_ids/);assert.match(system,/one per part/);assert.match(system,/E1/);assert.match(system,/NONE/);assert.doesNotMatch(system,/Select ONE/);
+ assert.match((or.messages as any[])[2].content,/evidence_ids/);
+ assert.equal(or.max_tokens,320);
+});
+
+test('final turn asks for a combined conclusion and has room for it; tool-call turn stays small',()=>{
+ const q='What is it, what threshold, and how applied?';
+ const anthropic=cloudConversationPayload({system:'original',messages:[{role:'user',content:'fixture'}]},2,['E1','E2'],q);
+ assert.match(anthropic.system as string,/conclusion/);assert.match(anthropic.system as string,/ALL selected sentences/);
+ assert.equal(anthropic.max_tokens,320);
+ assert.equal(cloudConversationPayload({system:'original',messages:[{role:'user',content:'fixture'}]},1,[],q).max_tokens,128);
+ const base={messages:[{role:'system',content:'fixture'},{role:'user',content:'q'}]};
+ const or=openrouterConversationPayload(base,2,['E1','E2'],q);
+ assert.match((or.messages as any[])[0].content,/conclusion/);assert.match((or.messages as any[])[2].content,/conclusion/);
+ assert.equal(or.max_tokens,320);assert.equal(openrouterConversationPayload(base,1,[],q).max_tokens,128);
 });
